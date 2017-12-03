@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="frontInterface">
+    <Control type="ScriptPanel" id="uiControl18" value="2"/>
+    <Control type="ScriptPanel" id="uiControl20" value="25"/>
+    <Control type="ScriptPanel" id="uiControl22" value="2"/>
+    <Control type="ScriptSlider" id="uiControl23" value="300"/>
+    <Control type="ScriptSlider" id="uiControl24" value="350"/>
+    <Control type="ScriptPanel" id="uiControl26" value="26"/>
+    <Control type="ScriptPanel" id="uiControl28" value="21"/>
+    <Control type="ScriptSlider" id="uiControl29" value="300"/>
+    <Control type="ScriptSlider" id="uiControl30" value="350"/>
+    <Control type="ScriptPanel" id="uiControl32" value="27"/>
+    <Control type="ScriptPanel" id="uiControl34" value="32"/>
+    <Control type="ScriptSlider" id="uiControl35" value="300"/>
+    <Control type="ScriptSlider" id="uiControl36" value="350"/>
+    <Control type="ScriptPanel" id="uiControl38" value="28"/>
+    <Control type="ScriptPanel" id="uiControl40" value="41"/>
+    <Control type="ScriptSlider" id="uiControl41" value="5"/>
+    <Control type="ScriptSlider" id="uiControl42" value="350"/>
+    <Control type="ScriptPanel" id="uiControl44" value="29"/>
+    <Control type="ScriptPanel" id="uiControl46" value="12"/>
+    <Control type="ScriptSlider" id="uiControl47" value="5"/>
+    <Control type="ScriptSlider" id="uiControl48" value="350"/>
+    <Control type="ScriptPanel" id="uiControl50" value="30"/>
+    <Control type="ScriptPanel" id="uiControl52" value="11"/>
+    <Control type="ScriptSlider" id="uiControl53" value="5"/>
+    <Control type="ScriptSlider" id="uiControl54" value="350"/>
+    <Control type="ScriptSlider" id="uiControl55" value="25"/>
+    <Control type="ScriptSlider" id="uiControl56" value="100"/>
+    <Control type="ScriptSlider" id="uiControl57" value="5"/>
+    <Control type="ScriptPanel" id="uiControl59" value="0"/>
+    <Control type="ScriptPanel" id="uiControl61" value="0"/>
+    <Control type="ScriptSlider" id="uiControl62" value="186.05"/>
+    <Control type="ScriptSlider" id="uiControl63" value="0"/>
+    <Control type="ScriptSlider" id="uiControl64" value="0.23999999"/>
+    <Control type="ScriptPanel" id="uiControl65" value="1"/>
+    <Control type="ScriptPanel" id="uiControl66" value="0"/>
+    <Control type="ScriptSlider" id="uiControl67" value="0"/>
+    <Control type="ScriptSlider" id="uiControl68" value="181.39999"/>
+    <Control type="ScriptSlider" id="uiControl69" value="1.35"/>
+    <Control type="ScriptPanel" id="uiControl70" value="1"/>
+    <Control type="ScriptPanel" id="uiControl71" value="0"/>
+    <Control type="ScriptSlider" id="uiControl72" value="174.42"/>
+    <Control type="ScriptSlider" id="uiControl73" value="125.58"/>
+    <Control type="ScriptSlider" id="uiControl74" value="0.60000002"/>
+    <Control type="ScriptPanel" id="uiControl75" value="1"/>
+    <Control type="ScriptPanel" id="uiControl81" value="1"/>
+    <Control type="ScriptPanel" id="uiControl84" value="1"/>
+    <Control type="ScriptSlider" id="uiControl85" value="64"/>
+    <Control type="ScriptTable" id="uiControl86" value="127" data="24...............vO...f+....9C...vO"/>
+    <Control type="ScriptPanel" id="uiControl88" value="11"/>
+    <Control type="ScriptSlider" id="uiControl89" value="127"/>
+    <Control type="ScriptTable" id="uiControl90" value="127" data="24...............vO...f+....9C...vO"/>
+    <Control type="ScriptPanel" id="uiControl92" value="20"/>
+    <Control type="ScriptSlider" id="uiControl93" value="0"/>
+    <Control type="ScriptTable" id="uiControl94" value="0" data="24...............vO...f+....9C...vO"/>
+    <Control type="ScriptPanel" id="uiControl96" value="21"/>
+    <Control type="ScriptSlider" id="uiControl97" value="90.709999"/>
+    <Control type="ScriptTable" id="uiControl98" value="90" data="24...............vO...f+....9C...vO"/>
+    <Control type="ScriptPanel" id="uiControl100" value="23"/>
+    <Control type="ScriptSlider" id="uiControl101" value="127"/>
+    <Control type="ScriptTable" id="uiControl102" value="127" data="24...............vO...f+....9C...vO"/>
+    <Control type="ScriptPanel" id="uiControl111" value="1"/>
+    <Control type="ScriptPanel" id="uiControl113" value="4"/>
+    <Control type="ScriptPanel" id="uiControl115" value="4"/>
+    <Control type="ScriptPanel" id="uiControl117" value="1"/>
+    <Control type="ScriptPanel" id="uiControl118" value="1"/>
+  </Content>
+  <MidiAutomation/>
+</Preset>
