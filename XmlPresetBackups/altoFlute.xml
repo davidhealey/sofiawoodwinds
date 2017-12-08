@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Processor Type="SynthChain" ID="Alto Flute" Bypassed="0" Gain="1" Balance="0"
+<Processor Type="SynthChain" ID="AltoFluteNew" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....TarQH......va.PF.kA.H..E.xAva..." currentView="-1"
-           BuildVersion="649">
+           views="32.rk1bzA.....B.........LDZg4lakwF..vVY......." currentView="-1"
+           BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="ChannelFilter" ID="instrumentChannelFilter" Bypassed="0">
+        <Processor Type="ChannelFilter" ID="instrumentChannelFilter" Bypassed="1">
           <ChildProcessors/>
           <Content>
             <Control type="ScriptSlider" id="channelNumber" value="-1"/>
@@ -15,15 +15,344 @@
         </Processor>
         <Processor Type="ScriptProcessor" ID="playableRange" Bypassed="0" Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/keyRangeColour.js">
           <ChildProcessors/>
-          <Content/>
+          <Content>
+            <Control type="ScriptSlider" id="knbLow" value="55"/>
+            <Control type="ScriptSlider" id="knbHigh" value="91"/>
+            <Control type="ScriptComboBox" id="cmbColour" value="1"/>
+            <Control type="ScriptButton" id="btnSkipBlack" value="0"/>
+            <Control type="ScriptButton" id="btnSkipWhite" value="0"/>
+            <Control type="ScriptButton" id="btnIgnore" value="0"/>
+          </Content>
+          <ContentProperties>
+            <Component type="ScriptSlider" id="knbLow" x="0" y="0" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="knbHigh" x="150" y="0" width="-1" height="-1"/>
+            <Component type="ScriptComboBox" id="cmbColour" x="300" y="10" width="128"
+                       height="32"/>
+            <Component type="ScriptButton" id="btnSkipBlack" x="410" y="10" width="-1"
+                       height="-1"/>
+            <Component type="ScriptButton" id="btnSkipWhite" x="520" y="10" width="-1"
+                       height="-1"/>
+            <Component type="ScriptButton" id="btnIgnore" x="630" y="10" width="-1"
+                       height="-1"/>
+          </ContentProperties>
         </Processor>
         <Processor Type="ScriptProcessor" ID="micMixer" Bypassed="0" Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/genericMicMixer.js">
           <ChildProcessors/>
-          <Content/>
+          <Content>
+            <Control type="ScriptSlider" id="vol0" value="1"/>
+            <Control type="ScriptSlider" id="delay0" value="0"/>
+            <Control type="ScriptSlider" id="width0" value="0"/>
+            <Control type="ScriptSlider" id="pan0" value="0"/>
+            <Control type="ScriptButton" id="mute0" value="0"/>
+            <Control type="ScriptButton" id="solo0" value="0"/>
+            <Control type="ScriptButton" id="purge0" value="0"/>
+            <Control type="ScriptSlider" id="vol1" value="1"/>
+            <Control type="ScriptSlider" id="delay1" value="0"/>
+            <Control type="ScriptSlider" id="width1" value="0"/>
+            <Control type="ScriptSlider" id="pan1" value="0"/>
+            <Control type="ScriptButton" id="mute1" value="0"/>
+            <Control type="ScriptButton" id="solo1" value="0"/>
+            <Control type="ScriptButton" id="purge1" value="0"/>
+            <Control type="ScriptSlider" id="vol2" value="1"/>
+            <Control type="ScriptSlider" id="delay2" value="0"/>
+            <Control type="ScriptSlider" id="width2" value="0"/>
+            <Control type="ScriptSlider" id="pan2" value="0"/>
+            <Control type="ScriptButton" id="mute2" value="0"/>
+            <Control type="ScriptButton" id="solo2" value="0"/>
+            <Control type="ScriptButton" id="purge2" value="0"/>
+          </Content>
+          <ContentProperties>
+            <Component type="ScriptSlider" id="vol0" x="0" y="0" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="delay0" x="0" y="50" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="width0" x="0" y="100" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="pan0" x="0" y="150" width="-1" height="-1"/>
+            <Component type="ScriptButton" id="mute0" x="0" y="200" width="-1" height="-1"/>
+            <Component type="ScriptButton" id="solo0" x="0" y="250" width="-1" height="-1"/>
+            <Component type="ScriptButton" id="purge0" x="0" y="300" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="vol1" x="100" y="0" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="delay1" x="100" y="50" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="width1" x="100" y="100" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="pan1" x="100" y="150" width="-1" height="-1"/>
+            <Component type="ScriptButton" id="mute1" x="100" y="200" width="-1" height="-1"/>
+            <Component type="ScriptButton" id="solo1" x="100" y="250" width="-1" height="-1"/>
+            <Component type="ScriptButton" id="purge1" x="100" y="300" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="vol2" x="200" y="0" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="delay2" x="200" y="50" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="width2" x="200" y="100" width="-1" height="-1"/>
+            <Component type="ScriptSlider" id="pan2" x="200" y="150" width="-1" height="-1"/>
+            <Component type="ScriptButton" id="mute2" x="200" y="200" width="-1" height="-1"/>
+            <Component type="ScriptButton" id="solo2" x="200" y="250" width="-1" height="-1"/>
+            <Component type="ScriptButton" id="purge2" x="200" y="300" width="-1" height="-1"/>
+          </ContentProperties>
         </Processor>
         <Processor Type="ScriptProcessor" ID="mainInterface" Bypassed="0" Script="//Global library Includes&#10;include(&quot;{GLOBAL_SCRIPT_FOLDER}libraries/asyncUpdater.js&quot;);&#10;include(&quot;{GLOBAL_SCRIPT_FOLDER}libraries/helpers.js&quot;);&#10;include(&quot;{GLOBAL_SCRIPT_FOLDER}libraries/tab.js&quot;);&#10;include(&quot;{GLOBAL_SCRIPT_FOLDER}libraries/uiFactory.js&quot;);&#10;&#10;//Local includes&#10;include(&quot;theme.js&quot;); //Themes for UI&#10;include(&quot;paintRoutines.js&quot;); //Paint routines for GUI components&#13;&#10;include(&quot;settingsPanelJson.js&quot;); //Settings panel JSON&#10;include(&quot;articulationEditor.js&quot;); //Articulation editor&#10;include(&quot;micMixer.js&quot;); //Microphone mixer&#10;include(&quot;paramEditor.js&quot;); //Parameter editor*/&#10;&#10;//Main&#10;Content.makeFrontInterface(650, 372);&#10;&#10;Engine.loadFontAs(&quot;{PROJECT_FOLDER}Fonts/OpenSans-Regular.ttf&quot;, &quot;Open Sans&quot;);&#10;&#10;reg chanFilter = Synth.getMidiProcessor(&quot;instrumentChannelFilter&quot;); //Instrument level MIDI channel filter&#10;reg playableRangeScript = Synth.getMidiProcessor(&quot;playableRange&quot;); //Get playable range script&#10;const var samplerIds = Synth.getIdList(&quot;Sampler&quot;);&#10;const var containerIds = Synth.getIdList(&quot;Container&quot;);&#10;const var scriptIds = Synth.getIdList(&quot;Script Processor&quot;);&#10;reg samplers = [];&#10;reg releaseSamplers = [];&#10;reg rrHandlers = []; //Round robin handlers&#10;reg legatoHandler = Synth.getMidiProcessor(&quot;legatoHandler&quot;); //Control panel for switching between sustain, legato, glide&#10;reg sustainRRHandler = Synth.getMidiProcessor(&quot;sustainRoundRobin&quot;); //Sustain RR handler - required for special treatment when in legato mode&#10;&#10;//Get playable range from script&#10;const var playableRange = [playableRangeScript.getAttribute(0), playableRangeScript.getAttribute(1)];&#10;&#10;//Get samplers&#10;for (id in samplerIds)&#10;{&#10;&#9;samplers.push(Synth.getSampler(id)); //Store all samplers&#10;&#9;&#10;&#9;//Get release sampler&#10;&#9;if (id.indexOf(&quot;elease&quot;) == -1) continue&#10;&#9;releaseSamplers.push(Synth.getSampler(id));&#10;}&#10;&#10;//Get RR handler scripts&#10;for (s in scriptIds) //Each script processor&#10;{&#10;&#9;if (s.indexOf(&quot;oundRobin&quot;) != -1)&#10;&#9;{&#10;&#9;&#9;rrHandlers.push(Synth.getMidiProcessor(s));&#10;&#9;}&#10;}&#10;&#10;//GUI&#10;&#10;//Header and background&#10;//const var header = ui.panel(0, 0, {id:&quot;pnlHeader&quot;, width:650, height:50})&#10;const var bg = ui.panel(0, 0, {width:650, height:300, paintRoutine:paintRoutines.mainBackground})&#10;const var logo = ui.panel(15, 15, {width:39, height:25, paintRoutine:paintRoutines.logo});&#10;const var logoText = ui.panel(60, 21, {width:145, height:15, paintRoutine:paintRoutines.logoText});&#10;&#10;const var titleBg = ui.panel(270, 14, {id:&quot;titleBg&quot;, width:325, height:32, paintRoutine:paintRoutines.titleBG});&#10;const var title = ui.label(0, -5, {width:titleBg.get(&quot;width&quot;), height:32, parentComponent:&quot;titleBg&quot;, text:containerIds[0], fontName:Theme.TITLE.font, textColour:Theme.TITLE.colour, fontSize:Theme.TITLE.size, alignment:&quot;centred&quot;});&#10;&#10;const var btnPresetBrowser = ui.button(270, 14, {width:325, height:32, saveInPreset:false, filmstripImage:&quot;empty.png&quot;}); //Covers title label&#10;&#10;const var btnSettings = ui.panel(15, 15, {width:200, height:25});&#10;btnSettings.set(&quot;allowCallbacks&quot;, &quot;Context Menu&quot;);&#10;btnSettings.setPopupData(SettingsJson.settings, [183, 20, 300, 275]);&#10;&#10;//On screen keyboard&#10;const var keyboard = ui.floatingTile(0, 300, {width:650}, {&quot;Type&quot;:&quot;Keyboard&quot;, &quot;LayoutData&quot;:{}, &quot;LowKey&quot;:24}); //Floating tile for on screen keyboard&#10;&#10;//Page tabs&#10;const var tabs = [];&#10;tabs[0] = tab.addTab(&quot;Main&quot;, 0, 60, 650, 240);&#10;tabs[1] = tab.addTab(&quot;Preset_Browser&quot;, 0, 50, 650, 322);&#10;&#10;tab.solo(tabs[0], tabs);&#10;&#10;//Home tab&#10;articulationEditor.onInitCB();&#10;micMixer.onInitCB();&#10;paramEditor.onInitCB();&#10;&#10;//Preset browser and settings&#10;const var channels = [&quot;Omni&quot;, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];&#10;const var bufferSizes = [256, 512, 1024, 2048, 4096, 8192, 16384];&#10;const var presetBrowser = ui.floatingTile(0, 0, {width:650, height:250, parentComponent:tab.getPanelId(tabs[1])}, {&quot;Type&quot;:&quot;PresetBrowser&quot;, &quot;ColourData&quot;:{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}});&#10;const var settings = ui.panel(0, 250, {id:&quot;pnlSettings&quot;, width:650, height:72, parentComponent:tab.getPanelId(tabs[1]), paintRoutine:function(g){g.fillAll(Theme.BG);}})&#10;&#10;//Settings controls&#10;const var lblChan = ui.label(10, 5, {width:100, height:20, text:&quot;MIDI Channel&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblPre = ui.label(120, 5, {width:100, height:20, text:&quot;Preload Size&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblBuf = ui.label(230, 5, {width:100, height:20, text:&quot;Buffer Size&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblRR = ui.label(340, 5, {width:100, height:20, text:&quot;RR Mode&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblRel = ui.label(450, 5, {width:100, height:20, text:&quot;Releases&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblMem = ui.label(560, 5, {width:80, height:20, text:&quot;Memory&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;&#10;const var cmbChan = ui.comboBoxPanel(10, 33, {width:100, height:25, text:&quot;Channel&quot;, items:channels, paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#10;const var cmbPre = ui.comboBoxPanel(120, 33, {width:100, height:25, text:&quot;Preload&quot;, items:bufferSizes, paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#10;const var cmbBuf = ui.comboBoxPanel(230, 33, {width:100, height:25, text:&quot;Buffer&quot;, items:bufferSizes, paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#10;const var cmbRR = ui.comboBoxPanel(340, 33, {width:100, height:25, text:&quot;Round Robin&quot;, items:[&quot;Off&quot;, &quot;Cycle RR&quot;, &quot;Random RR&quot;], paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#10;const var btnRel = ui.buttonPanel(450, 33, {width:100, height:25, text:&quot;Release Triggers&quot;, paintRoutine:paintRoutines.pushButton, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblRam = ui.label(560, 31, {width:80, height:25, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;}); //Memory usage display&#10;&#10;//FUNCTIONS&#10;inline function changeBufferSettings(attribute, value)&#10;{&#10;&#9;for (s in samplers)&#10;&#9;{&#10;&#9;&#9;s.setAttribute(attribute, bufferSizes[value]);&#10;&#9;}&#10;}&#10;&#10;inline function changeRRSettings()&#10;{&#10;&#9;for (r in rrHandlers)&#10;&#9;{&#10;&#9;&#9;switch (cmbRR.getValue())&#10;&#9;&#9;{&#10;&#9;&#9;&#9;case 1: //RR off&#10;&#9;&#9;&#9;&#9;r.setAttribute(0, 1);&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;case 2: //Cycle&#10;&#9;&#9;&#9;&#9;for (r in rrHandlers)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(0, 0); //Bypass off&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(1, 0); //Random off&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;case 3: //Random&#10;&#9;&#9;&#9;&#9;for (r in rrHandlers)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(0, 0); //Bypass off&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(1, 1); //Random on&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;}&#10;&#9;}&#10;&#9;&#10;&#9;if (legatoHandler.getAttribute(0) != 1) //Legato or Glide is enabled&#10;&#9;{&#10;&#9;&#9;sustainRRHandler.setAttribute(0, 1); //Bypass sustain RR&#10;&#9;}&#10;}&#10;&#10;inline function updateRamDisplay()&#10;{&#10;&#9;lblRam.set(&quot;text&quot;, Math.round(Engine.getMemoryUsage())+&quot;MB&quot;);&#10;}function onNoteOn()&#10;{&#10;&#9;articulationEditor.onNoteOnCB(Message.getNoteNumber(), Message.getVelocity());&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#10;&#9;articulationEditor.onControllerCB(Message.getControllerNumber(), Message.getControllerValue());&#10;&#9;paramEditor.onControllerCB(Message.getControllerNumber(), Message.getControllerValue());&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;articulationEditor.onControlCB(number, value);&#10;&#9;micMixer.onControlCB(number, value);&#10;&#9;paramEditor.onControlCB(number, value);&#10;&#9;&#9;&#10;&#9;switch (number)&#10;&#9;{&#10;&#9;&#9;case btnPresetBrowser: //Switch to preset browser and settings screen&#10;&#9;&#9;&#9;if (value == 0)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;tab.hide(tabs[1]);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;else&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;&#9;&#9;tab.show(tabs[1]);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbChan: //MIDI channel filter&#10;&#9;&#9;&#9;if (value == 1) //Omni&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;chanFilter.setBypassed(true);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;else &#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;chanFilter.setBypassed(false);&#10;&#9;&#9;&#9;&#9;chanFilter.setAttribute(0, value-1);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbPre: //Preload size&#10;&#9;&#9;&#9;changeBufferSettings(4, value-1);&#10;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbBuf: //Buffer size&#10;&#9;&#9;&#9;changeBufferSettings(5, value-1);&#10;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbRR: //Round robin mode&#10;&#9;&#9;&#9;changeRRSettings();&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case btnRel: //Load/purge release samples&#10;&#9;&#9;&#9;for (s in releaseSamplers)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;s.setAttribute(12, 1-value);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;&#9;btnRel.repaint();&#10;&#9;&#9;break;&#10;&#9;}&#10;}">
           <ChildProcessors/>
-          <Content/>
+          <Content>
+            <Control type="ScriptPanel" id="uiControl18" value="0"/>
+            <Control type="ScriptPanel" id="uiControl20" value="0"/>
+            <Control type="ScriptPanel" id="uiControl22" value="0"/>
+            <Control type="ScriptSlider" id="uiControl23" value="0"/>
+            <Control type="ScriptSlider" id="uiControl24" value="0"/>
+            <Control type="ScriptPanel" id="uiControl26" value="0"/>
+            <Control type="ScriptPanel" id="uiControl28" value="0"/>
+            <Control type="ScriptSlider" id="uiControl29" value="0"/>
+            <Control type="ScriptSlider" id="uiControl30" value="0"/>
+            <Control type="ScriptPanel" id="uiControl32" value="0"/>
+            <Control type="ScriptPanel" id="uiControl34" value="0"/>
+            <Control type="ScriptSlider" id="uiControl35" value="0"/>
+            <Control type="ScriptSlider" id="uiControl36" value="0"/>
+            <Control type="ScriptPanel" id="uiControl38" value="0"/>
+            <Control type="ScriptPanel" id="uiControl40" value="0"/>
+            <Control type="ScriptSlider" id="uiControl41" value="0"/>
+            <Control type="ScriptSlider" id="uiControl42" value="0"/>
+            <Control type="ScriptPanel" id="uiControl44" value="0"/>
+            <Control type="ScriptPanel" id="uiControl46" value="0"/>
+            <Control type="ScriptSlider" id="uiControl47" value="0"/>
+            <Control type="ScriptSlider" id="uiControl48" value="0"/>
+            <Control type="ScriptPanel" id="uiControl50" value="0"/>
+            <Control type="ScriptPanel" id="uiControl52" value="0"/>
+            <Control type="ScriptSlider" id="uiControl53" value="0"/>
+            <Control type="ScriptSlider" id="uiControl54" value="0"/>
+            <Control type="ScriptSlider" id="uiControl55" value="0"/>
+            <Control type="ScriptSlider" id="uiControl56" value="0"/>
+            <Control type="ScriptSlider" id="uiControl57" value="0"/>
+            <Control type="ScriptPanel" id="uiControl59" value="0"/>
+            <Control type="ScriptPanel" id="uiControl61" value="0"/>
+            <Control type="ScriptSlider" id="uiControl62" value="0"/>
+            <Control type="ScriptSlider" id="uiControl63" value="0"/>
+            <Control type="ScriptSlider" id="uiControl64" value="1"/>
+            <Control type="ScriptPanel" id="uiControl65" value="1"/>
+            <Control type="ScriptPanel" id="uiControl66" value="0"/>
+            <Control type="ScriptSlider" id="uiControl67" value="0"/>
+            <Control type="ScriptSlider" id="uiControl68" value="0"/>
+            <Control type="ScriptSlider" id="uiControl69" value="1"/>
+            <Control type="ScriptPanel" id="uiControl70" value="1"/>
+            <Control type="ScriptPanel" id="uiControl71" value="0"/>
+            <Control type="ScriptSlider" id="uiControl72" value="0"/>
+            <Control type="ScriptSlider" id="uiControl73" value="0"/>
+            <Control type="ScriptSlider" id="uiControl74" value="1"/>
+            <Control type="ScriptPanel" id="uiControl75" value="1"/>
+            <Control type="ScriptPanel" id="uiControl81" value="1"/>
+            <Control type="ScriptPanel" id="uiControl84" value="1"/>
+            <Control type="ScriptSlider" id="uiControl85" value="0"/>
+            <Control type="ScriptTable" id="uiControl86" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="uiControl88" value="0"/>
+            <Control type="ScriptSlider" id="uiControl89" value="0"/>
+            <Control type="ScriptTable" id="uiControl90" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="uiControl92" value="0"/>
+            <Control type="ScriptSlider" id="uiControl93" value="0"/>
+            <Control type="ScriptTable" id="uiControl94" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="uiControl96" value="0"/>
+            <Control type="ScriptSlider" id="uiControl97" value="0"/>
+            <Control type="ScriptTable" id="uiControl98" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="uiControl100" value="0"/>
+            <Control type="ScriptSlider" id="uiControl101" value="0"/>
+            <Control type="ScriptTable" id="uiControl102" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="uiControl111" value="1"/>
+            <Control type="ScriptPanel" id="uiControl113" value="0"/>
+            <Control type="ScriptPanel" id="uiControl115" value="0"/>
+            <Control type="ScriptPanel" id="uiControl117" value="0"/>
+            <Control type="ScriptPanel" id="uiControl118" value="0"/>
+          </Content>
+          <ContentProperties>
+            <Component type="ScriptPanel" id="uiControl0" x="0" y="0" width="100" height="50"/>
+            <Component type="ScriptPanel" id="uiControl1" x="15" y="15" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl2" x="60" y="21" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="titleBg" x="270" y="14" width="100" height="50"/>
+            <Component type="ScriptLabel" id="uiControl3" x="0" y="-5" width="100" height="50"/>
+            <Component type="ScriptButton" id="uiControl4" x="270" y="14" width="-1"
+                       height="-1"/>
+            <Component type="ScriptPanel" id="uiControl5" x="15" y="15" width="100"
+                       height="50"/>
+            <Component type="ScriptFloatingTile" id="uiControl6" x="0" y="300" width="200"
+                       height="100"/>
+            <Component type="ScriptPanel" id="pnlTabMain" x="0" y="60" width="100" height="50"/>
+            <Component type="ScriptPanel" id="pnlTabPreset_Browser" x="0" y="50" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="aeLeftZone" x="10" y="0" width="100" height="50"/>
+            <Component type="ScriptLabel" id="uiControl7" x="0" y="0" width="100" height="50"/>
+            <Component type="ScriptLabel" id="uiControl8" x="5" y="41" width="100" height="50"/>
+            <Component type="ScriptLabel" id="uiControl9" x="5" y="76" width="100" height="50"/>
+            <Component type="ScriptLabel" id="uiControl10" x="5" y="111" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl11" x="5" y="147" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl12" x="5" y="182" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl13" x="5" y="147" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl14" x="5" y="182" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl15" x="5" y="147" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl16" x="5000" y="182" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl18" x="90" y="42" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl20" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl22" x="90" y="112" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl23" x="90" y="147" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl24" x="90" y="182" width="-1"
+                       height="-1"/>
+            <Component type="ScriptPanel" id="uiControl26" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl28" x="90" y="112" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl29" x="90" y="147" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl30" x="90" y="182" width="-1"
+                       height="-1"/>
+            <Component type="ScriptPanel" id="uiControl32" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl34" x="90" y="112" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl35" x="90" y="147" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl36" x="90" y="182" width="-1"
+                       height="-1"/>
+            <Component type="ScriptPanel" id="uiControl38" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl40" x="90" y="112" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl41" x="90" y="147" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl42" x="90" y="182" width="-1"
+                       height="-1"/>
+            <Component type="ScriptPanel" id="uiControl44" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl46" x="90" y="112" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl47" x="90" y="147" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl48" x="90" y="182" width="-1"
+                       height="-1"/>
+            <Component type="ScriptPanel" id="uiControl50" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl52" x="90" y="112" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl53" x="90" y="147" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl54" x="90" y="182" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl55" x="90" y="147" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl56" x="90" y="182" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl57" x="90" y="147" width="-1"
+                       height="-1"/>
+            <Component type="ScriptLabel" id="uiControl58" x="90" y="145" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl59" x="90" y="182" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="mMidZone" x="225" y="0" width="100" height="50"/>
+            <Component type="ScriptLabel" id="uiControl60" x="0" y="0" width="100" height="50"/>
+            <Component type="ScriptPanel" id="uiControl61" x="28" y="40" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl62" x="28" y="125" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl63" x="28" y="70" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl64" x="43" y="70" width="-1"
+                       height="-1"/>
+            <Component type="ScriptPanel" id="uiControl65" x="28" y="182" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl66" x="83" y="40" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl67" x="83" y="125" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl68" x="83" y="70" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl69" x="98" y="70" width="-1"
+                       height="-1"/>
+            <Component type="ScriptPanel" id="uiControl70" x="83" y="182" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl71" x="138" y="40" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl72" x="138" y="125" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl73" x="138" y="70" width="-1"
+                       height="-1"/>
+            <Component type="ScriptSlider" id="uiControl74" x="153" y="70" width="-1"
+                       height="-1"/>
+            <Component type="ScriptPanel" id="uiControl75" x="138" y="182" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="peRightZone" x="440" y="0" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl76" x="0" y="0" width="100" height="50"/>
+            <Component type="ScriptLabel" id="uiControl77" x="5" y="42" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl78" x="5" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl79" x="5" y="112" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl81" x="90" y="42" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl82" x="10" y="147" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl84" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl85" x="90" y="112" width="-1"
+                       height="-1"/>
+            <Component type="ScriptTable" id="uiControl86" x="10" y="147" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl88" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl89" x="90" y="112" width="-1"
+                       height="-1"/>
+            <Component type="ScriptTable" id="uiControl90" x="10" y="147" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl92" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl93" x="90" y="112" width="-1"
+                       height="-1"/>
+            <Component type="ScriptTable" id="uiControl94" x="10" y="147" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl96" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl97" x="90" y="112" width="-1"
+                       height="-1"/>
+            <Component type="ScriptTable" id="uiControl98" x="10" y="147" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl100" x="90" y="77" width="100"
+                       height="50"/>
+            <Component type="ScriptSlider" id="uiControl101" x="90" y="112" width="-1"
+                       height="-1"/>
+            <Component type="ScriptTable" id="uiControl102" x="10" y="147" width="100"
+                       height="50"/>
+            <Component type="ScriptFloatingTile" id="uiControl103" x="0" y="0" width="200"
+                       height="100"/>
+            <Component type="ScriptPanel" id="pnlSettings" x="0" y="250" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl104" x="10" y="5" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl105" x="120" y="5" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl106" x="230" y="5" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl107" x="340" y="5" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl108" x="450" y="5" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl109" x="560" y="5" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl111" x="10" y="33" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl113" x="120" y="33" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl115" x="230" y="33" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl117" x="340" y="33" width="100"
+                       height="50"/>
+            <Component type="ScriptPanel" id="uiControl118" x="450" y="33" width="100"
+                       height="50"/>
+            <Component type="ScriptLabel" id="uiControl119" x="560" y="31" width="100"
+                       height="50"/>
+          </ContentProperties>
         </Processor>
       </ChildProcessors>
     </Processor>
@@ -61,7 +390,7 @@
                          Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="micDecca" Bypassed="0" Gain="-100" Delay="0"
+        <Processor Type="SimpleGain" ID="micDecca" Bypassed="0" Gain="0" Delay="0"
                    Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -81,7 +410,7 @@
                          Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="micHall" Bypassed="0" Gain="-100" Delay="0"
+        <Processor Type="SimpleGain" ID="micHall" Bypassed="0" Gain="0" Delay="0"
                    Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -137,7 +466,7 @@
         <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator11"
-                       Bypassed="0" Intensity="1" UseTable="0" TableData="24...............vO...f+....9C...vO"
+                       Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                        Connection="Global Modulator Container:dynamicsCC">
               <ChildProcessors/>
             </Processor>
@@ -187,11 +516,53 @@
                   <ChildProcessors>
                     <Processor Type="ScriptProcessor" ID="sustainRoundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptButton" id="Bypass" value="1"/>
+                        <Control type="ScriptButton" id="Random" value="0"/>
+                        <Control type="ScriptSlider" id="Low Note" value="0"/>
+                        <Control type="ScriptSlider" id="High Note" value="0"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptButton" id="Bypass" x="0" y="10" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="Random" x="150" y="10" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="Low Note" x="300" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="High Note" x="450" y="0" width="-1" height="-1"/>
+                      </ContentProperties>
                     </Processor>
                     <Processor Type="ScriptProcessor" ID="legatoHandler" Bypassed="0" Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/legato.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptButton" id="Bypass" value="0"/>
+                        <Control type="ScriptButton" id="Legato" value="0"/>
+                        <Control type="ScriptButton" id="Glide" value="0"/>
+                        <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
+                        <Control type="ScriptSlider" id="Bend Time" value="0"/>
+                        <Control type="ScriptSlider" id="Min Bend" value="0"/>
+                        <Control type="ScriptSlider" id="Max Bend" value="0"/>
+                        <Control type="ScriptSlider" id="Fade Time" value="0"/>
+                        <Control type="ScriptSlider" id="Fade Out Ratio" value="0"/>
+                        <Control type="ScriptSlider" id="Offset" value="1"/>
+                        <Control type="ScriptSlider" id="Rate" value="0"/>
+                        <Control type="ScriptButton" id="Same Note Legato" value="0"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptButton" id="Bypass" x="0" y="10" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="Legato" x="150" y="10" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="Glide" x="300" y="10" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="Whole Step Glide" x="450" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="Bend Time" x="0" y="50" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="Min Bend" x="150" y="50" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="Max Bend" x="300" y="50" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="Fade Time" x="450" y="50" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="Fade Out Ratio" x="600" y="50" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="Offset" x="0" y="100" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="Rate" x="150" y="100" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="Same Note Legato" x="300" y="110" width="-1"
+                                   height="-1"/>
+                      </ContentProperties>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -289,7 +660,7 @@
                 <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator"
-                               Bypassed="0" Intensity="1" UseTable="0" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
                       <ChildProcessors/>
                     </Processor>
@@ -300,9 +671,9 @@
                              Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteSustain" SaveMode="2" RRGroupAmount="3"
                          MicPositions="close;decca;hall;">
@@ -1438,11 +1809,25 @@
                         <Control type="ScriptSlider" id="Min" value="85"/>
                         <Control type="ScriptSlider" id="Max" value="109"/>
                       </Content>
+                      <ContentProperties>
+                        <Component type="ScriptSlider" id="Min" x="0" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="Max" x="150" y="0" width="-1" height="-1"/>
+                      </ContentProperties>
                     </Processor>
                     <Processor Type="ScriptProcessor" ID="sustainStaccatoRoundRobin" Bypassed="0"
                                Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/velocityMappedRoundRobin.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptSlider" id="knbRRLock" value="0"/>
+                        <Control type="ScriptButton" id="btnRandom" value="0"/>
+                        <Control type="ScriptSlider" id="knbNumRR" value="0"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptSlider" id="knbRRLock" x="0" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="btnRandom" x="150" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="knbNumRR" x="300" y="0" width="-1" height="-1"/>
+                      </ContentProperties>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -1477,7 +1862,7 @@
                 <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator"
-                               Bypassed="0" Intensity="1" UseTable="0" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
                       <ChildProcessors/>
                     </Processor>
@@ -1488,9 +1873,9 @@
                              Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteStaccato" SaveMode="2" RRGroupAmount="3"
                          MicPositions="close;decca;hall;">
@@ -14580,7 +14965,11 @@
                        Balance="0" VoiceLimit="128" KillFadeTime="20" IconColour="0"
                        PreloadSize="2048" BufferSize="0" VoiceAmount="128" SamplerRepeatMode="0"
                        RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
-                       Purged="0" Reversed="0" NumChannels="3" SampleMap="">
+                       Purged="0" Reversed="0" NumChannels="3" Group0Table="24...............vO...f+....9C...vO"
+                       Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
+                       Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
+                       Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
+                       Group7Table="24...............vO...f+....9C...vO" SampleMap="">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors>
@@ -14591,11 +14980,25 @@
                         <Control type="ScriptSlider" id="Min" value="110"/>
                         <Control type="ScriptSlider" id="Max" value="127"/>
                       </Content>
+                      <ContentProperties>
+                        <Component type="ScriptSlider" id="Min" x="0" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="Max" x="150" y="0" width="-1" height="-1"/>
+                      </ContentProperties>
                     </Processor>
                     <Processor Type="ScriptProcessor" ID="sustainSputatoRoundRobin" Bypassed="0"
                                Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/velocityMappedRoundRobin.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptSlider" id="knbRRLock" value="0"/>
+                        <Control type="ScriptButton" id="btnRandom" value="0"/>
+                        <Control type="ScriptSlider" id="knbNumRR" value="0"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptSlider" id="knbRRLock" x="0" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="btnRandom" x="150" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="knbNumRR" x="300" y="0" width="-1" height="-1"/>
+                      </ContentProperties>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -14635,9 +15038,9 @@
                              Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteSputato" SaveMode="2" RRGroupAmount="1"
                          MicPositions="close;decca;hall;">
@@ -19019,7 +19422,22 @@
                     <Processor Type="ScriptProcessor" ID="sustainReleaseHandler" Bypassed="0"
                                Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/releaseTrigger.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptButton" id="btnMute" value="0"/>
+                        <Control type="ScriptButton" id="btnLegato" value="0"/>
+                        <Control type="ScriptButton" id="Attenuate" value="0"/>
+                        <Control type="ScriptSlider" id="Time" value="0"/>
+                        <Control type="ScriptTable" id="tblTime" value="0" data="24...............vO...f+....9C...vO"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptButton" id="btnMute" x="0" y="10" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="btnLegato" x="150" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptButton" id="Attenuate" x="300" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="Time" x="450" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptTable" id="tblTime" x="140" y="0" width="100" height="50"/>
+                      </ContentProperties>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -19062,7 +19480,7 @@
                 <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator"
-                               Bypassed="0" Intensity="1" UseTable="0" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
                       <ChildProcessors/>
                     </Processor>
@@ -19073,9 +19491,9 @@
                              Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteReleases" SaveMode="2" RRGroupAmount="3"
                          MicPositions="close;decca;hall;">
@@ -20210,7 +20628,15 @@
                 </Processor>
                 <Processor Type="ScriptProcessor" ID="retriggerOnRelease" Bypassed="0" Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/retriggerOnRelease.js">
                   <ChildProcessors/>
-                  <Content/>
+                  <Content>
+                    <Control type="ScriptButton" id="Enable" value="0"/>
+                    <Control type="ScriptComboBox" id="CC Trigger" value="0"/>
+                  </Content>
+                  <ContentProperties>
+                    <Component type="ScriptButton" id="Enable" x="0" y="10" width="-1" height="-1"/>
+                    <Component type="ScriptComboBox" id="CC Trigger" x="150" y="10" width="128"
+                               height="32"/>
+                  </ContentProperties>
                 </Processor>
               </ChildProcessors>
             </Processor>
@@ -20243,10 +20669,24 @@
                         <Control type="ScriptSlider" id="Min" value="1"/>
                         <Control type="ScriptSlider" id="Max" value="89"/>
                       </Content>
+                      <ContentProperties>
+                        <Component type="ScriptSlider" id="Min" x="0" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="Max" x="150" y="0" width="-1" height="-1"/>
+                      </ContentProperties>
                     </Processor>
                     <Processor Type="ScriptProcessor" ID="staccatoRoundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/velocityMappedRoundRobin.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptSlider" id="knbRRLock" value="0"/>
+                        <Control type="ScriptButton" id="btnRandom" value="0"/>
+                        <Control type="ScriptSlider" id="knbNumRR" value="0"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptSlider" id="knbRRLock" x="0" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="btnRandom" x="150" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="knbNumRR" x="300" y="0" width="-1" height="-1"/>
+                      </ContentProperties>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -20280,7 +20720,7 @@
                 <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator"
-                               Bypassed="0" Intensity="1" UseTable="0" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
                       <ChildProcessors/>
                     </Processor>
@@ -20291,9 +20731,9 @@
                              Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
                              Send4="-1" Channel5="1" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteStaccato" SaveMode="2" RRGroupAmount="3"
                          MicPositions="close;decca;hall;">
@@ -33383,7 +33823,11 @@
                        Balance="0" VoiceLimit="128" KillFadeTime="20" IconColour="0"
                        PreloadSize="2048" BufferSize="0" VoiceAmount="128" SamplerRepeatMode="0"
                        RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
-                       Purged="0" Reversed="0" NumChannels="3" SampleMap="">
+                       Purged="0" Reversed="0" NumChannels="3" Group0Table="24...............vO...f+....9C...vO"
+                       Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
+                       Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
+                       Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
+                       Group7Table="24...............vO...f+....9C...vO" SampleMap="">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors>
@@ -33394,11 +33838,25 @@
                         <Control type="ScriptSlider" id="Min" value="90"/>
                         <Control type="ScriptSlider" id="Max" value="127"/>
                       </Content>
+                      <ContentProperties>
+                        <Component type="ScriptSlider" id="Min" x="0" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptSlider" id="Max" x="150" y="0" width="-1" height="-1"/>
+                      </ContentProperties>
                     </Processor>
                     <Processor Type="ScriptProcessor" ID="staccatoSputatoRoundRobin" Bypassed="0"
                                Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/velocityMappedRoundRobin.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptSlider" id="knbRRLock" value="0"/>
+                        <Control type="ScriptButton" id="btnRandom" value="0"/>
+                        <Control type="ScriptSlider" id="knbNumRR" value="0"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptSlider" id="knbRRLock" x="0" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="btnRandom" x="150" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="knbNumRR" x="300" y="0" width="-1" height="-1"/>
+                      </ContentProperties>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -33438,9 +33896,9 @@
                              Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
                              Send4="-1" Channel5="1" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteSputato" SaveMode="2" RRGroupAmount="1"
                          MicPositions="close;decca;hall;">
@@ -37822,7 +38280,22 @@
                     <Processor Type="ScriptProcessor" ID="staccatoReleaseHandler" Bypassed="0"
                                Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/releaseTrigger.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptButton" id="btnMute" value="0"/>
+                        <Control type="ScriptButton" id="btnLegato" value="0"/>
+                        <Control type="ScriptButton" id="Attenuate" value="0"/>
+                        <Control type="ScriptSlider" id="Time" value="0"/>
+                        <Control type="ScriptTable" id="tblTime" value="0" data="24...............vO...f+....9C...vO"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptButton" id="btnMute" x="0" y="10" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="btnLegato" x="150" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptButton" id="Attenuate" x="300" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="Time" x="450" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptTable" id="tblTime" x="140" y="0" width="100" height="50"/>
+                      </ContentProperties>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -37865,7 +38338,7 @@
                 <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator"
-                               Bypassed="0" Intensity="1" UseTable="0" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
                       <ChildProcessors/>
                     </Processor>
@@ -37876,9 +38349,9 @@
                              Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
                              Send4="-1" Channel5="1" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteReleases" SaveMode="2" RRGroupAmount="3"
                          MicPositions="close;decca;hall;">
@@ -39012,6 +39485,7 @@
                 <Processor Type="ScriptProcessor" ID="flutterIgnoreCC64" Bypassed="0" Script="function onNoteOn()&#10;{&#10;&#9;&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#10;&#9;if (Message.getControllerNumber() == 64)&#13;&#10;&#9;{&#13;&#10;&#9;&#9;Message.ignoreEvent(true);&#10;&#9;}&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;&#10;}&#10;">
                   <ChildProcessors/>
                   <Content/>
+                  <ContentProperties/>
                 </Processor>
               </ChildProcessors>
             </Processor>
@@ -39028,7 +39502,11 @@
                        VoiceLimit="64" KillFadeTime="20" IconColour="0" PreloadSize="2048"
                        BufferSize="0" VoiceAmount="128" SamplerRepeatMode="0" RRGroupAmount="1"
                        PitchTracking="1" OneShot="0" CrossfadeGroups="0" Purged="0"
-                       Reversed="0" NumChannels="3" SampleMap="">
+                       Reversed="0" NumChannels="3" Group0Table="24...............vO...f+....9C...vO"
+                       Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
+                       Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
+                       Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
+                       Group7Table="24...............vO...f+....9C...vO" SampleMap="">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -39073,9 +39551,9 @@
                              Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
                              Send4="-1" Channel5="1" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteFlutter" SaveMode="2" RRGroupAmount="1"
                          MicPositions="close;decca;hall;">
@@ -39505,7 +39983,7 @@
                 <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator"
-                               Bypassed="0" Intensity="1" UseTable="0" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
                       <ChildProcessors/>
                     </Processor>
@@ -39516,9 +39994,9 @@
                              Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
                              Send4="-1" Channel5="1" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteSustain" SaveMode="2" RRGroupAmount="3"
                          MicPositions="close;decca;hall;">
@@ -40650,7 +41128,22 @@
                     <Processor Type="ScriptProcessor" ID="flutterReleaseHandler" Bypassed="0"
                                Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/releaseTrigger.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptButton" id="btnMute" value="0"/>
+                        <Control type="ScriptButton" id="btnLegato" value="0"/>
+                        <Control type="ScriptButton" id="Attenuate" value="0"/>
+                        <Control type="ScriptSlider" id="Time" value="0"/>
+                        <Control type="ScriptTable" id="tblTime" value="0" data="24...............vO...f+....9C...vO"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptButton" id="btnMute" x="0" y="10" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="btnLegato" x="150" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptButton" id="Attenuate" x="300" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="Time" x="450" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptTable" id="tblTime" x="140" y="0" width="100" height="50"/>
+                      </ContentProperties>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -40693,7 +41186,7 @@
                 <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator"
-                               Bypassed="0" Intensity="1" UseTable="0" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
                       <ChildProcessors/>
                     </Processor>
@@ -40704,9 +41197,9 @@
                              Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
                              Send4="-1" Channel5="1" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteReleases" SaveMode="2" RRGroupAmount="3"
                          MicPositions="close;decca;hall;">
@@ -41852,7 +42345,11 @@
                        Balance="0" VoiceLimit="128" KillFadeTime="20" IconColour="0"
                        PreloadSize="2048" BufferSize="0" VoiceAmount="128" SamplerRepeatMode="0"
                        RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
-                       Purged="0" Reversed="0" NumChannels="3" SampleMap="">
+                       Purged="0" Reversed="0" NumChannels="3" Group0Table="24...............vO...f+....9C...vO"
+                       Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
+                       Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
+                       Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
+                       Group7Table="24...............vO...f+....9C...vO" SampleMap="">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -41892,9 +42389,9 @@
                              Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
                              Send4="-1" Channel5="1" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteHarmonics" SaveMode="2" RRGroupAmount="1"
                          MicPositions="close;decca;hall;">
@@ -42286,7 +42783,22 @@
                     <Processor Type="ScriptProcessor" ID="harmonicsReleaseHandler" Bypassed="0"
                                Script="{EXTERNAL_SCRIPT}/media/dave/work1/Xtant Audio/Products/Virtual Instruments/0Frameworks/HISE-Scripting-Framework/modules/releaseTrigger.js">
                       <ChildProcessors/>
-                      <Content/>
+                      <Content>
+                        <Control type="ScriptButton" id="btnMute" value="0"/>
+                        <Control type="ScriptButton" id="btnLegato" value="0"/>
+                        <Control type="ScriptButton" id="Attenuate" value="0"/>
+                        <Control type="ScriptSlider" id="Time" value="0"/>
+                        <Control type="ScriptTable" id="tblTime" value="0" data="24...............vO...f+....9C...vO"/>
+                      </Content>
+                      <ContentProperties>
+                        <Component type="ScriptButton" id="btnMute" x="0" y="10" width="-1" height="-1"/>
+                        <Component type="ScriptButton" id="btnLegato" x="150" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptButton" id="Attenuate" x="300" y="10" width="-1"
+                                   height="-1"/>
+                        <Component type="ScriptSlider" id="Time" x="450" y="0" width="-1" height="-1"/>
+                        <Component type="ScriptTable" id="tblTime" x="140" y="0" width="100" height="50"/>
+                      </ContentProperties>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -42329,7 +42841,7 @@
                 <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator"
-                               Bypassed="0" Intensity="1" UseTable="0" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
                       <ChildProcessors/>
                     </Processor>
@@ -42340,9 +42852,9 @@
                              Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
                              Send4="-1" Channel5="1" Send5="-1"/>
               <channels>
-                <channelData enabled="0" level="-100" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="close"/>
+                <channelData enabled="1" level="-100" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
               <samplemap ID="altoFlute/altoFluteReleases" SaveMode="2" RRGroupAmount="3"
                          MicPositions="close;decca;hall;">

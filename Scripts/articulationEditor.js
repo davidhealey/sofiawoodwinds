@@ -64,22 +64,22 @@ namespace articulationEditor
 		}
 
 		//GUI		
-		const var leftZone = ui.panel(10, 0, {width:200, height:225, id:"aeLeftZone", paintRoutine:paintRoutines.zone, parentComponent:tab.getPanelId(tabs[0])}); //Outer parent		
-		const var lblTitle = ui.label(0, 0, {width:200, height:25, text:"Articulations", textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize, fontName:Theme.H1.font, alignment:"centred", parentComponent:"aeLeftZone"});		
+		const var leftZone = ui.panel("aeleftZone", 10, 0, {width:200, height:225, paintRoutine:paintRoutines.zone, parentComponent:tab.getPanelId(tabs[0])}); //Outer parent		
+		const var lblTitle = ui.label("lblTitle", 0, 0, {width:200, height:25, text:"Articulations", textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize, fontName:Theme.H1.font, alignment:"centred", parentComponent:"aeLeftZone"});		
 		
 		//Headings
-		const var lblArt = ui.label(5, 41, {width:85, height:25, text:"Articulation", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblKs = ui.label(5, 76, {width:85, height:25, text:"Key Switch", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblUacc = ui.label(5, 111, {width:85, height:25, text:"UACC", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblAttack = ui.label(5, 147, {width:85, height:25, text:"Attack", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblRelease = ui.label(5, 182, {width:85, height:25, text:"Release", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblOffset = ui.label(5, 147, {width:85, height:25, text:"Offset", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblRatio = ui.label(5, 182, {width:85, height:25, text:"Fade Ratio", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblGlide = ui.label(5, 147, {width:85, height:25, text:"Rate", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblGlideMode = ui.label(5000, 182, {width:85, height:25, text:"Whole Step", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblArt = ui.label("lblArt", 5, 41, {width:85, height:25, text:"Articulation", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblKs = ui.label("lblKs", 5, 76, {width:85, height:25, text:"Key Switch", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblUacc = ui.label("lblUacc", 5, 111, {width:85, height:25, text:"UACC", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblAttack = ui.label("lblAttack", 5, 147, {width:85, height:25, text:"Attack", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblRelease = ui.label("lblRelease", 5, 182, {width:85, height:25, text:"Release", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblOffset = ui.label("lblOffset", 5, 147, {width:85, height:25, text:"Offset", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblRatio = ui.label("lblRatio", 5, 182, {width:85, height:25, text:"Fade Ratio", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblGlide = ui.label("lblGlide", 5, 147, {width:85, height:25, text:"Rate", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblGlideMode = ui.label("lblGlMode", 5000, 182, {width:85, height:25, text:"Whole Step", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
 		
 		//Articulation dropdown
-		const var cmbArt = ui.comboBoxPanel(90, 42, {width:100, height:25, text:"Articulation", items:articulationNames, paintRoutine:paintRoutines.dropDown, parentComponent:"aeLeftZone"});
+		const var cmbArt = ui.comboBoxPanel("cmbArt", 90, 42, {width:100, height:25, text:"Articulation", items:articulationNames, paintRoutine:paintRoutines.dropDown, parentComponent:"aeLeftZone"});
 		
 		//One set of controls per articulation
 		const var cmbKs = []; //Key switch selector
@@ -89,21 +89,21 @@ namespace articulationEditor
 		
 		for (i = 0; i < articulationNames.length; i++)
 		{
-			cmbKs.push(ui.comboBoxPanel(90, 77, {width:100, height:25, text:"Key Switch", items:noteNames, paintRoutine:paintRoutines.dropDown, parentComponent:"aeLeftZone"}));	
-			cmbUacc.push(ui.comboBoxPanel(90, 112, {width:100, height:25, text:"UACC", items:uaccValues, paintRoutine:paintRoutines.dropDown, parentComponent:"aeLeftZone"}));
-			sliAttack.push(ui.knob(90, 147, {width:100, height:25, style:"Horizontal", min:5, max:5000, middlePosition:1000, defaultValue:5, suffix:"ms", stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"}));
-			sliRelease.push(ui.knob(90, 182, {width:100, height:25, style:"Horizontal", min:25, max:20000, middlePosition:1000, defaultValue:350, suffix:"ms", stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"}));
+			cmbKs.push(ui.comboBoxPanel("cmbKs"+i, 90, 77, {width:100, height:25, text:"Key Switch", items:noteNames, paintRoutine:paintRoutines.dropDown, parentComponent:"aeLeftZone"}));	
+			cmbUacc.push(ui.comboBoxPanel("cmbUacc"+i, 90, 112, {width:100, height:25, text:"UACC", items:uaccValues, paintRoutine:paintRoutines.dropDown, parentComponent:"aeLeftZone"}));
+			sliAttack.push(ui.knob("sliAttack"+i, 90, 147, {width:100, height:25, style:"Horizontal", min:5, max:5000, middlePosition:1000, defaultValue:5, suffix:"ms", stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"}));
+			sliRelease.push(ui.knob("sliRelease"+i, 90, 182, {width:100, height:25, style:"Horizontal", min:25, max:20000, middlePosition:1000, defaultValue:350, suffix:"ms", stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"}));
 		}
 		
 		//Change default attack slider value for sustain articulation
 		sliAttack[ARTICULATIONS.SUSTAIN].set("defaultValue", 300);
 			
 		//Add extra controls for legato and glide articulations
-		const var sliOffset = ui.knob(90, 147, {width:100, height:25, style:"Horizontal", min:0, max:100, middlePosition:40, defaultValue:25, stepSize:0.1, suffix:"%", bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"});
-		const var sliRatio = ui.knob(90, 182, {width:100, height:25, style:"Horizontal", min:20, max:100, defaultValue:100, stepSize:1, suffix:"%", bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"});
-		const var sliGlide = ui.knob(90, 147, {width:100, height:25, style:"Horizontal", min:0, max:11, defaultValue:5, stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:0, parentComponent:"aeLeftZone"});
-		const var lblGlideValue = ui.label(90, 145, {width:100, height:25, textColour:Theme.SLIDER.text, alignment:"centred", parentComponent:"aeLeftZone"});
-		const var btnGlideMode = ui.buttonPanel(90, 182, {width:100, height:25, text:"Whole Step", paintRoutine:paintRoutines.pushButton, parentComponent:"aeLeftZone"});		
+		const var sliOffset = ui.knob("sliOffset", 90, 147, {width:100, height:25, style:"Horizontal", min:0, max:100, middlePosition:40, defaultValue:25, stepSize:0.1, suffix:"%", bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"});
+		const var sliRatio = ui.knob("sliRatio", 90, 182, {width:100, height:25, style:"Horizontal", min:20, max:100, defaultValue:100, stepSize:1, suffix:"%", bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"});
+		const var sliGlide = ui.knob("sliGlide", 90, 147, {width:100, height:25, style:"Horizontal", min:0, max:11, defaultValue:5, stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:0, parentComponent:"aeLeftZone"});
+		const var lblGlideValue = ui.label("sliGlVal", 90, 145, {width:100, height:25, textColour:Theme.SLIDER.text, alignment:"centred", parentComponent:"aeLeftZone"});
+		const var btnGlideMode = ui.buttonPanel("sliGlMode", 90, 182, {width:100, height:25, text:"Whole Step", paintRoutine:paintRoutines.pushButton, parentComponent:"aeLeftZone"});		
 		
 		setKsColours(); //Update KS colours
 	}
