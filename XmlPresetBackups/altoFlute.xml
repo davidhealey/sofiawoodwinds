@@ -2,7 +2,7 @@
 
 <Processor Type="SynthChain" ID="AltoFlute" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....B.........LDZg4lakwF..7pImA....." currentView="-1"
+           views="32.rk1bzA.....7YBVW......brfPJV+A..ryglkA....." currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -67,70 +67,54 @@
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
-              <Component type="ScriptSlider" id="vol0" x="0" y="0" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="delay0" x="0" y="50" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="width0" x="0" y="100" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="pan0" x="0" y="150" width="-1" height="-1"/>
-              <Component type="ScriptButton" id="mute0" x="0" y="200" width="-1" height="-1"/>
-              <Component type="ScriptButton" id="solo0" x="0" y="250" width="-1" height="-1"/>
-              <Component type="ScriptButton" id="purge0" x="0" y="300" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="vol1" x="100" y="0" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="delay1" x="100" y="50" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="width1" x="100" y="100" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="pan1" x="100" y="150" width="-1" height="-1"/>
-              <Component type="ScriptButton" id="mute1" x="100" y="200" width="-1" height="-1"/>
-              <Component type="ScriptButton" id="solo1" x="100" y="250" width="-1" height="-1"/>
-              <Component type="ScriptButton" id="purge1" x="100" y="300" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="vol2" x="200" y="0" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="delay2" x="200" y="50" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="width2" x="200" y="100" width="-1" height="-1"/>
-              <Component type="ScriptSlider" id="pan2" x="200" y="150" width="-1" height="-1"/>
-              <Component type="ScriptButton" id="mute2" x="200" y="200" width="-1" height="-1"/>
-              <Component type="ScriptButton" id="solo2" x="200" y="250" width="-1" height="-1"/>
-              <Component type="ScriptButton" id="purge2" x="200" y="300" width="-1" height="-1"/>
+              <Component type="ScriptSlider" id="vol0" x="0" y="0" width="95" height="-1"
+                         max="4" defaultValue="1" text="Vol 1"/>
+              <Component type="ScriptSlider" id="delay0" x="0" y="50" width="95" height="-1"
+                         max="500" text="Delay 1"/>
+              <Component type="ScriptSlider" id="width0" x="0" y="100" width="95" height="-1"
+                         max="200" text="Width 1"/>
+              <Component type="ScriptSlider" id="pan0" x="0" y="150" width="95" height="-1"
+                         min="-100" max="100" text="Pan 1"/>
+              <Component type="ScriptButton" id="mute0" x="0" y="200" width="95" height="-1"
+                         text="Mute 1"/>
+              <Component type="ScriptButton" id="solo0" x="0" y="250" width="95" height="-1"
+                         text="Solo 1"/>
+              <Component type="ScriptButton" id="purge0" x="0" y="300" width="95" height="-1"
+                         text="Purge 1"/>
+              <Component type="ScriptSlider" id="vol1" x="100" y="0" width="95" height="-1"
+                         max="4" defaultValue="1" text="Vol 2"/>
+              <Component type="ScriptSlider" id="delay1" x="100" y="50" width="95" height="-1"
+                         max="500" text="Delay 2"/>
+              <Component type="ScriptSlider" id="width1" x="100" y="100" width="95" height="-1"
+                         max="200" text="Width 2"/>
+              <Component type="ScriptSlider" id="pan1" x="100" y="150" width="95" height="-1"
+                         min="-100" max="100" text="Pan 2"/>
+              <Component type="ScriptButton" id="mute1" x="100" y="200" width="95" height="-1"
+                         text="Mute 2"/>
+              <Component type="ScriptButton" id="solo1" x="100" y="250" width="95" height="-1"
+                         text="Solo 2"/>
+              <Component type="ScriptButton" id="purge1" x="100" y="300" width="95" height="-1"
+                         text="Purge 2"/>
+              <Component type="ScriptSlider" id="vol2" x="200" y="0" width="95" height="-1"
+                         max="4" defaultValue="1" text="Vol 3"/>
+              <Component type="ScriptSlider" id="delay2" x="200" y="50" width="95" height="-1"
+                         max="500" text="Delay 3"/>
+              <Component type="ScriptSlider" id="width2" x="200" y="100" width="95" height="-1"
+                         max="200" text="Width 3"/>
+              <Component type="ScriptSlider" id="pan2" x="200" y="150" width="95" height="-1"
+                         min="-100" max="100" text="Pan 3"/>
+              <Component type="ScriptButton" id="mute2" x="200" y="200" width="95" height="-1"
+                         text="Mute 3"/>
+              <Component type="ScriptButton" id="solo2" x="200" y="250" width="95" height="-1"
+                         text="Solo 3"/>
+              <Component type="ScriptButton" id="purge2" x="200" y="300" width="95" height="-1"
+                         text="Purge 3"/>
             </ContentProperties>
           </UIData>
         </Processor>
-        <Processor Type="ScriptProcessor" ID="frontInterface" Bypassed="0" Script="//Global library Includes&#10;include(&quot;HISE-Scripting-Framework/libraries/asyncUpdater.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/helpers.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/tab.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/uiFactory.js&quot;);&#10;&#10;//Local includes&#10;include(&quot;theme.js&quot;); //Themes for UI&#10;include(&quot;paintRoutines.js&quot;); //Paint routines for GUI components&#13;&#10;include(&quot;settingsPanelJson.js&quot;); //Settings panel JSON&#10;include(&quot;articulationEditor.js&quot;); //Articulation editor&#10;include(&quot;micMixer.js&quot;); //Microphone mixer&#10;include(&quot;paramEditor.js&quot;); //Parameter editor*/&#10;&#10;//Main&#10;Content.makeFrontInterface(650, 372);&#10;&#10;Engine.loadFontAs(&quot;{PROJECT_FOLDER}Fonts/OpenSans-Regular.ttf&quot;, &quot;Open Sans&quot;);&#10;&#10;reg chanFilter = Synth.getMidiProcessor(&quot;instrumentChannelFilter&quot;); //Instrument level MIDI channel filter&#10;reg playableRangeScript = Synth.getMidiProcessor(&quot;playableRange&quot;); //Get playable range script&#10;const var samplerIds = Synth.getIdList(&quot;Sampler&quot;);&#10;const var containerIds = Synth.getIdList(&quot;Container&quot;);&#10;const var scriptIds = Synth.getIdList(&quot;Script Processor&quot;);&#10;reg samplers = [];&#10;reg releaseSamplers = [];&#10;reg rrHandlers = []; //Round robin handlers&#10;reg legatoHandler = Synth.getMidiProcessor(&quot;legatoHandler&quot;); //Control panel for switching between sustain, legato, glide&#10;reg sustainRRHandler = Synth.getMidiProcessor(&quot;sustainRoundRobin&quot;); //Sustain RR handler - required for special treatment when in legato mode&#10;&#10;//Get playable range from script&#10;const var playableRange = [playableRangeScript.getAttribute(0), playableRangeScript.getAttribute(1)];&#10;&#10;//Get samplers&#10;for (id in samplerIds)&#10;{&#10;&#9;samplers.push(Synth.getSampler(id)); //Store all samplers&#10;&#9;&#10;&#9;//Get release sampler&#10;&#9;if (id.indexOf(&quot;elease&quot;) == -1) continue&#10;&#9;releaseSamplers.push(Synth.getSampler(id));&#10;}&#10;&#10;//Get RR handler scripts&#10;for (s in scriptIds) //Each script processor&#10;{&#10;&#9;if (s.indexOf(&quot;oundRobin&quot;) != -1)&#10;&#9;{&#10;&#9;&#9;rrHandlers.push(Synth.getMidiProcessor(s));&#10;&#9;}&#10;}&#10;&#10;//GUI&#10;&#10;//Header and background&#10;//const var header = ui.panel(0, 0, {id:&quot;pnlHeader&quot;, width:650, height:50})&#10;const var bg = ui.panel(&quot;bg&quot;, 0, 0, {width:650, height:300, paintRoutine:paintRoutines.mainBackground})&#10;const var logo = ui.panel(&quot;logo&quot;, 15, 15, {width:39, height:25, paintRoutine:paintRoutines.logo});&#10;const var logoText = ui.panel(&quot;logoText&quot;, 60, 21, {width:145, height:15, paintRoutine:paintRoutines.logoText});&#10;&#10;const var titleBg = ui.panel(&quot;titleBg&quot;, 270, 14, {width:325, height:32, paintRoutine:paintRoutines.titleBG});&#10;const var title = ui.label(&quot;title&quot;, 0, -5, {width:titleBg.get(&quot;width&quot;), height:32, parentComponent:&quot;titleBg&quot;, text:containerIds[0], fontName:Theme.TITLE.font, textColour:Theme.TITLE.colour, fontSize:Theme.TITLE.size, alignment:&quot;centred&quot;});&#10;&#10;const var btnPresetBrowser = ui.button(&quot;btnPresetBrowser&quot;, 270, 14, {width:325, height:32, saveInPreset:false, filmstripImage:&quot;empty.png&quot;}); //Covers title label&#10;&#10;const var btnSettings = ui.panel(&quot;btnSettings&quot;, 15, 15, {width:200, height:25});&#10;btnSettings.set(&quot;allowCallbacks&quot;, &quot;Context Menu&quot;);&#10;btnSettings.setPopupData(SettingsJson.settings, [183, 20, 300, 275]);&#10;&#10;//On screen keyboard&#10;const var keyboard = ui.floatingTile(&quot;keyboard&quot;, 0, 300, {width:650}, {&quot;Type&quot;:&quot;Keyboard&quot;, &quot;LayoutData&quot;:{}, &quot;LowKey&quot;:24}); //Floating tile for on screen keyboard&#10;&#10;//Page tabs&#10;const var tabs = [];&#10;tabs[0] = tab.addTab(&quot;Main&quot;, 0, 60, 650, 240);&#10;tabs[1] = tab.addTab(&quot;Preset_Browser&quot;, 0, 50, 650, 322);&#10;&#10;tab.solo(tabs[0], tabs);&#10;&#10;//Home tab&#10;articulationEditor.onInitCB();&#10;micMixer.onInitCB();&#10;paramEditor.onInitCB();&#10;&#10;//Preset browser and settings&#10;const var channels = [&quot;Omni&quot;, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];&#10;const var bufferSizes = [256, 512, 1024, 2048, 4096, 8192, 16384];&#10;const var presetBrowser = ui.floatingTile(&quot;presetBrowser&quot;, 0, 0, {width:650, height:250, parentComponent:tab.getPanelId(tabs[1])}, {&quot;Type&quot;:&quot;PresetBrowser&quot;, &quot;ColourData&quot;:{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}});&#10;const var settings = ui.panel(&quot;pnlSettings&quot;, 0, 250, {width:650, height:72, parentComponent:tab.getPanelId(tabs[1]), paintRoutine:function(g){g.fillAll(Theme.BG);}})&#10;&#10;//Settings controls&#10;const var lblChan = ui.label(&quot;lblChan&quot;, 10, 5, {width:100, height:20, text:&quot;MIDI Channel&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblPre = ui.label(&quot;lblPre&quot;, 120, 5, {width:100, height:20, text:&quot;Preload Size&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblBuf = ui.label(&quot;lblBuf&quot;, 230, 5, {width:100, height:20, text:&quot;Buffer Size&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblRR = ui.label(&quot;lblRR&quot;, 340, 5, {width:100, height:20, text:&quot;RR Mode&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblRel = ui.label(&quot;lblRel&quot;, 450, 5, {width:100, height:20, text:&quot;Releases&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblMem = ui.label(&quot;lblMem&quot;, 560, 5, {width:80, height:20, text:&quot;Memory&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;&#10;const var cmbChan = ui.comboBoxPanel(&quot;cmbChan&quot;, 10, 33, {width:100, height:25, text:&quot;Channel&quot;, items:channels, paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#10;const var cmbPre = ui.comboBoxPanel(&quot;cmbPre&quot;, 120, 33, {width:100, height:25, text:&quot;Preload&quot;, items:bufferSizes, paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#10;const var cmbBuf = ui.comboBoxPanel(&quot;cmbBuf&quot;, 230, 33, {width:100, height:25, text:&quot;Buffer&quot;, items:bufferSizes, paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#10;const var cmbRR = ui.comboBoxPanel(&quot;cmbRR&quot;, 340, 33, {width:100, height:25, text:&quot;Round Robin&quot;, items:[&quot;Off&quot;, &quot;Cycle RR&quot;, &quot;Random RR&quot;], paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#10;const var btnRel = ui.buttonPanel(&quot;btnRel&quot;, 450, 33, {width:100, height:25, text:&quot;Release Triggers&quot;, paintRoutine:paintRoutines.pushButton, parentComponent:&quot;pnlSettings&quot;});&#10;const var lblRam = ui.label(&quot;lblRam&quot;, 560, 31, {width:80, height:25, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;}); //Memory usage display&#10;&#10;//FUNCTIONS&#10;inline function changeBufferSettings(attribute, value)&#10;{&#10;&#9;for (s in samplers)&#10;&#9;{&#10;&#9;&#9;s.setAttribute(attribute, bufferSizes[value]);&#10;&#9;}&#10;}&#10;&#10;inline function changeRRSettings()&#10;{&#10;&#9;for (r in rrHandlers)&#10;&#9;{&#10;&#9;&#9;switch (cmbRR.getValue())&#10;&#9;&#9;{&#10;&#9;&#9;&#9;case 1: //RR off&#10;&#9;&#9;&#9;&#9;r.setAttribute(0, 1);&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;case 2: //Cycle&#10;&#9;&#9;&#9;&#9;for (r in rrHandlers)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(0, 0); //Bypass off&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(1, 0); //Random off&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;case 3: //Random&#10;&#9;&#9;&#9;&#9;for (r in rrHandlers)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(0, 0); //Bypass off&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(1, 1); //Random on&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;}&#10;&#9;}&#10;&#9;&#10;&#9;if (legatoHandler.getAttribute(0) != 1) //Legato or Glide is enabled&#10;&#9;{&#10;&#9;&#9;sustainRRHandler.setAttribute(0, 1); //Bypass sustain RR&#10;&#9;}&#10;}&#10;&#10;inline function updateRamDisplay()&#10;{&#10;&#9;lblRam.set(&quot;text&quot;, Math.round(Engine.getMemoryUsage())+&quot;MB&quot;);&#10;}function onNoteOn()&#10;{&#10;&#9;articulationEditor.onNoteOnCB(Message.getNoteNumber(), Message.getVelocity());&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#10;&#9;articulationEditor.onControllerCB(Message.getControllerNumber(), Message.getControllerValue());&#10;&#9;paramEditor.onControllerCB(Message.getControllerNumber(), Message.getControllerValue());&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;articulationEditor.onControlCB(number, value);&#10;&#9;micMixer.onControlCB(number, value);&#10;&#9;paramEditor.onControlCB(number, value);&#10;&#9;&#9;&#10;&#9;switch (number)&#10;&#9;{&#10;&#9;&#9;case btnPresetBrowser: //Switch to preset browser and settings screen&#10;&#9;&#9;&#9;if (value == 0)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;tab.hide(tabs[1]);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;else&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;&#9;&#9;tab.show(tabs[1]);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbChan: //MIDI channel filter&#10;&#9;&#9;&#9;if (value == 1) //Omni&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;chanFilter.setBypassed(true);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;else &#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;chanFilter.setBypassed(false);&#10;&#9;&#9;&#9;&#9;chanFilter.setAttribute(0, value-1);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbPre: //Preload size&#10;&#9;&#9;&#9;changeBufferSettings(4, value-1);&#10;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbBuf: //Buffer size&#10;&#9;&#9;&#9;changeBufferSettings(5, value-1);&#10;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbRR: //Round robin mode&#10;&#9;&#9;&#9;changeRRSettings();&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case btnRel: //Load/purge release samples&#10;&#9;&#9;&#9;for (s in releaseSamplers)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;s.setAttribute(12, 1-value);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;&#9;btnRel.repaint();&#10;&#9;&#9;break;&#10;&#9;}&#10;}">
+        <Processor Type="ScriptProcessor" ID="frontInterface" Bypassed="0" Script="//Global library Includes&#10;include(&quot;HISE-Scripting-Framework/libraries/asyncUpdater.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/helpers.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/tab.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/uiFactory.js&quot;);&#10;&#10;//Local includes&#10;include(&quot;theme.js&quot;); //Themes for UI&#10;include(&quot;paintRoutines.js&quot;); //Paint routines for GUI components&#13;&#10;include(&quot;settingsPanelJson.js&quot;); //Settings panel JSON&#10;//include(&quot;articulationEditor.js&quot;); //Articulation editor&#10;//include(&quot;micMixer.js&quot;); //Microphone mixer&#10;//include(&quot;paramEditor.js&quot;); //Parameter editor*/&#10;&#10;//Main&#10;Content.makeFrontInterface(650, 372);&#10;&#10;Engine.loadFontAs(&quot;{PROJECT_FOLDER}Fonts/OpenSans-Regular.ttf&quot;, &quot;Open Sans&quot;);&#10;&#10;reg chanFilter = Synth.getMidiProcessor(&quot;instrumentChannelFilter&quot;); //Instrument level MIDI channel filter&#10;reg playableRangeScript = Synth.getMidiProcessor(&quot;playableRange&quot;); //Get playable range script&#10;const var samplerIds = Synth.getIdList(&quot;Sampler&quot;);&#10;const var containerIds = Synth.getIdList(&quot;Container&quot;);&#10;const var scriptIds = Synth.getIdList(&quot;Script Processor&quot;);&#10;reg samplers = [];&#10;reg releaseSamplers = [];&#10;reg rrHandlers = []; //Round robin handlers&#10;reg legatoHandler = Synth.getMidiProcessor(&quot;legatoHandler&quot;); //Control panel for switching between sustain, legato, glide&#10;reg sustainRRHandler = Synth.getMidiProcessor(&quot;sustainRoundRobin&quot;); //Sustain RR handler - required for special treatment when in legato mode&#10;&#10;//Get playable range from script&#10;const var playableRange = [playableRangeScript.getAttribute(0), playableRangeScript.getAttribute(1)];&#10;&#10;//Get samplers&#10;for (id in samplerIds)&#10;{&#10;&#9;samplers.push(Synth.getSampler(id)); //Store all samplers&#10;&#9;&#10;&#9;//Get release sampler&#10;&#9;if (id.indexOf(&quot;elease&quot;) == -1) continue&#10;&#9;releaseSamplers.push(Synth.getSampler(id));&#10;}&#10;&#10;//Get RR handler scripts&#10;for (s in scriptIds) //Each script processor&#10;{&#10;&#9;if (s.indexOf(&quot;oundRobin&quot;) != -1)&#10;&#9;{&#10;&#9;&#9;rrHandlers.push(Synth.getMidiProcessor(s));&#10;&#9;}&#10;}&#10;&#10;//GUI&#10;&#10;//Header and background&#10;//const var header = ui.panel(0, 0, {id:&quot;pnlHeader&quot;, width:650, height:50})&#10;const var bg = Content.addPanel(&quot;bg&quot;, 0, 0);&#13;&#10;ui.setProperties(&quot;bg&quot;, {width:650, height:300, paintRoutine:paintRoutines.mainBackground});&#13;&#10;&#13;&#10;const var logo = Content.addPanel(&quot;logo&quot;, 15, 15); &#13;&#10;ui.setProperties(&quot;logo&quot;, {width:39, height:25, paintRoutine:paintRoutines.logo});&#13;&#10;&#9;&#10;const var logoText = Content.addPanel(&quot;logoText&quot;, 60, 21);&#13;&#10;ui.setProperties(&quot;logoText&quot;, {width:145, height:15, paintRoutine:paintRoutines.logoText});&#10;&#10;const var titleBg = Content.addPanel(&quot;titleBg&quot;, 270, 14);&#13;&#10;ui.setProperties(&quot;titleBg&quot;, {width:325, height:32, paintRoutine:paintRoutines.titleBG});&#13;&#10;&#10;const var title = Content.addLabel(&quot;title&quot;, 0, -5)&#13;&#10;ui.setProperties(&quot;title&quot;, {width:titleBg.get(&quot;width&quot;), height:32, parentComponent:&quot;titleBg&quot;, text:containerIds[0], fontName:Theme.TITLE.font, textColour:Theme.TITLE.colour, fontSize:Theme.TITLE.size, alignment:&quot;centred&quot;, &quot;editable&quot;:false});&#10;&#10;const var btnPresetBrowser = Content.addButton(&quot;btnPresetBrowser&quot;);&#13;&#10;ui.setProperties(&quot;btnPresetBrowser&quot;, {width:325, height:32, saveInPreset:false, filmstripImage:&quot;empty.png&quot;}); //Covers title label&#10;&#10;const var btnSettings = Content.addButton(&quot;btnSettings&quot;, 15, 15);&#13;&#10;ui.setProperties(&quot;btnSettings&quot;, {width:200, height:25, allowCallbacks:&quot;Context Menu&quot;});&#13;&#10;//btnSettings.setPopupData(SettingsJson.settings, [183, 20, 300, 275]);&#13;&#10;&#10;//On screen keyboard&#10;const var keyboard = Content.addFloatingTile(&quot;keyboard&quot;, 0, 300);&#13;&#10;ui.setFloatingTileProperties(&quot;keyboard&quot;, {width:650}, {&quot;Type&quot;:&quot;Keyboard&quot;, &quot;LayoutData&quot;:{}, &quot;LowKey&quot;:24}); //Floating tile for on screen keyboard&#10;&#10;//Page tabs&#10;const var tabs = [];&#10;tabs[0] = Content.addPanel(&quot;pnlMain&quot;, 0, 60);&#13;&#10;tabs[1] = Content.addPanel(&quot;pnlPresetBrowser&quot;, 0, 50);&#13;&#10;ui.setProperties(&quot;pnlMain&quot;, {width:650, height:240, itemColour:0x0, itemColour2:0x0, borderSize:0});&#13;&#10;ui.setProperties(&quot;pnlPresetBrowser&quot;, {width:650, height:322, itemColour:0x0, itemColour2:0x0, borderSize:0});&#10;&#10;ui.showControlFromArray(tabs, 1);&#10;&#10;//Home tab&#10;//articulationEditor.onInitCB();&#10;//micMixer.onInitCB();&#10;//paramEditor.onInitCB();&#10;&#10;//Preset browser and settings&#10;const var channels = [&quot;Omni&quot;, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];&#10;const var bufferSizes = [256, 512, 1024, 2048, 4096, 8192, 16384];&#10;const var presetBrowser = Content.addFloatingTile(&quot;presetBrowser&quot;, 0, 0);&#13;&#10;ui.setFloatingTileProperties(&quot;presetBrowser&quot;, {width:650, height:250, parentComponent:&quot;pnlPresetBrowser&quot;}, {&quot;Type&quot;:&quot;PresetBrowser&quot;, &quot;ColourData&quot;:{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}});&#10;&#13;&#10;const var settings = Content.addPanel(&quot;pnlSettings&quot;, 0, 250);&#13;&#10;ui.setProperties(&quot;pnlSettings&quot;, {width:650, height:72, parentComponent:tab.&quot;pnlPresetBrowser&quot;, paintRoutine:function(g){g.fillAll(Theme.BG);}});&#10;&#10;//Settings controls&#10;const var lblChan = Content.addLabel(&quot;lblChan&quot;, 10, 5);&#13;&#10;ui.setProperties(&quot;lblChan&quot;, {width:100, height:20, text:&quot;MIDI Channel&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#10;const var lblPre = Content.addLabel(&quot;lblPre&quot;, 120, 5);&#13;&#10;ui.setProperties(&quot;lblPre&quot;, {width:100, height:20, text:&quot;Preload Size&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#10;const var lblBuf = Content.addLabel(&quot;lblBuf&quot;, 230, 5);&#13;&#10;ui.setProperties(&quot;lblBuf&quot;, {width:100, height:20, text:&quot;Buffer Size&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#10;const var lblRR = Content.addLabel(&quot;lblRR&quot;, 340, 5);&#13;&#10;ui.setProperties(&quot;lblRR&quot;, {width:100, height:20, text:&quot;RR Mode&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#9;&#10;const var lblRel = Content.addLabel(&quot;lblRel&quot;, 450, 5);&#13;&#10;ui.setProperties(&quot;lblRel&quot;, {width:100, height:20, text:&quot;Releases&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#10;const var lblMem = Content.addLabel(&quot;lblMem&quot;, 560, 5);&#13;&#10;ui.setProperties(&quot;lblMem&quot;, {width:80, height:20, text:&quot;Memory&quot;, textColour:Theme.H2.colour, fontName:Theme.H2.font, fontSize:Theme.H2.fontSize, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;});&#10;&#10;const var cmbChan = Content.addPanel(&quot;cmbChan&quot;, 10, 33);&#13;&#10;ui.comboBoxPanel(&quot;cmbChan&quot;, {width:100, height:25, text:&quot;Channel&quot;, items:channels, paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#10;const var cmbPre = Content.addPanel(&quot;cmbPre&quot;, 120, 33);&#13;&#10;ui.comboBoxPanel(&quot;cmbPre&quot;, {width:100, height:25, text:&quot;Preload&quot;, items:bufferSizes, paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#10;const var cmbBuf = Content.addPanel(&quot;cmbBuf&quot;, 230, 33);&#13;&#10;ui.comboBoxPanel(&quot;cmbBuf&quot;, {width:100, height:25, text:&quot;Buffer&quot;, items:bufferSizes, paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#10;const var cmbRR = Content.addPanel(&quot;cmbRR&quot;, 340, 33);&#13;&#10;ui.comboBoxPanel(&quot;cmbRR&quot;, {width:100, height:25, text:&quot;Round Robin&quot;, items:[&quot;Off&quot;, &quot;Cycle RR&quot;, &quot;Random RR&quot;], paintRoutine:paintRoutines.dropDown, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#10;const var btnRel = Content.addPanel(&quot;btnRel&quot;, 450, 33);&#13;&#10;ui.buttonPanel(&quot;btnRel&quot;, {width:100, height:25, text:&quot;Release Triggers&quot;, paintRoutine:paintRoutines.pushButton, parentComponent:&quot;pnlSettings&quot;});&#13;&#10;&#13;&#10;const var lblRam = Content.addLabel(&quot;lblRam&quot;, 560, 31);&#13;&#10;ui.setProperties(&quot;lblRam&quot;, {width:80, height:25, alignment:&quot;centred&quot;, parentComponent:&quot;pnlSettings&quot;}); //Memory usage display&#10;&#10;//FUNCTIONS&#10;inline function changeBufferSettings(attribute, value)&#10;{&#10;&#9;for (s in samplers)&#10;&#9;{&#10;&#9;&#9;s.setAttribute(attribute, bufferSizes[value]);&#10;&#9;}&#10;}&#10;&#10;inline function changeRRSettings()&#10;{&#10;&#9;for (r in rrHandlers)&#10;&#9;{&#10;&#9;&#9;switch (cmbRR.getValue())&#10;&#9;&#9;{&#10;&#9;&#9;&#9;case 1: //RR off&#10;&#9;&#9;&#9;&#9;r.setAttribute(0, 1);&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;case 2: //Cycle&#10;&#9;&#9;&#9;&#9;for (r in rrHandlers)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(0, 0); //Bypass off&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(1, 0); //Random off&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;case 3: //Random&#10;&#9;&#9;&#9;&#9;for (r in rrHandlers)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(0, 0); //Bypass off&#10;&#9;&#9;&#9;&#9;&#9;r.setAttribute(1, 1); //Random on&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;}&#10;&#9;}&#10;&#9;&#10;&#9;if (legatoHandler.getAttribute(0) != 1) //Legato or Glide is enabled&#10;&#9;{&#10;&#9;&#9;sustainRRHandler.setAttribute(0, 1); //Bypass sustain RR&#10;&#9;}&#10;}&#10;&#10;inline function updateRamDisplay()&#10;{&#10;&#9;lblRam.set(&quot;text&quot;, Math.round(Engine.getMemoryUsage())+&quot;MB&quot;);&#10;}function onNoteOn()&#10;{&#10;&#9;//articulationEditor.onNoteOnCB(Message.getNoteNumber(), Message.getVelocity());&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#10;&#9;//articulationEditor.onControllerCB(Message.getControllerNumber(), Message.getControllerValue());&#10;&#9;//paramEditor.onControllerCB(Message.getControllerNumber(), Message.getControllerValue());&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;//articulationEditor.onControlCB(number, value);&#10;&#9;//micMixer.onControlCB(number, value);&#10;&#9;//paramEditor.onControlCB(number, value);&#10;&#9;&#9;&#10;&#9;switch (number)&#10;&#9;{&#10;&#9;&#9;case btnPresetBrowser: //Switch to preset browser and settings screen&#10;&#9;&#9;&#9;if (value == 0)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;tab.hide(tabs[1]);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;else&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;&#9;&#9;tab.show(tabs[1]);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbChan: //MIDI channel filter&#10;&#9;&#9;&#9;if (value == 1) //Omni&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;chanFilter.setBypassed(true);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;else &#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;chanFilter.setBypassed(false);&#10;&#9;&#9;&#9;&#9;chanFilter.setAttribute(0, value-1);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbPre: //Preload size&#10;&#9;&#9;&#9;changeBufferSettings(4, value-1);&#10;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbBuf: //Buffer size&#10;&#9;&#9;&#9;changeBufferSettings(5, value-1);&#10;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case cmbRR: //Round robin mode&#10;&#9;&#9;&#9;changeRRSettings();&#10;&#9;&#9;break;&#10;&#9;&#9;&#10;&#9;&#9;case btnRel: //Load/purge release samples&#10;&#9;&#9;&#9;for (s in releaseSamplers)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;s.setAttribute(12, 1-value);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;updateRamDisplay();&#10;&#9;&#9;&#9;btnRel.repaint();&#10;&#9;&#9;break;&#10;&#9;}&#10;}">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptPanel" id="sliPan0" value="0"/>
-            <Control type="ScriptSlider" id="sliDelay0" value="0"/>
-            <Control type="ScriptSlider" id="sliWidth0" value="0"/>
-            <Control type="ScriptSlider" id="sliVol0" value="0"/>
-            <Control type="ScriptPanel" id="btnPurge0" value="0"/>
-            <Control type="ScriptPanel" id="sliPan1" value="0"/>
-            <Control type="ScriptSlider" id="sliDelay1" value="0"/>
-            <Control type="ScriptSlider" id="sliWidth1" value="0"/>
-            <Control type="ScriptSlider" id="sliVol1" value="0"/>
-            <Control type="ScriptPanel" id="btnPurge1" value="0"/>
-            <Control type="ScriptPanel" id="sliPan2" value="0"/>
-            <Control type="ScriptSlider" id="sliDelay2" value="0"/>
-            <Control type="ScriptSlider" id="sliWidth2" value="0"/>
-            <Control type="ScriptSlider" id="sliVol2" value="0"/>
-            <Control type="ScriptPanel" id="btnPurge2" value="0"/>
-            <Control type="ScriptPanel" id="cmbParam" value="0"/>
-            <Control type="ScriptPanel" id="cmbCCDynamics" value="0"/>
-            <Control type="ScriptSlider" id="sliValueDynamics" value="0"/>
-            <Control type="ScriptTable" id="tblResponseDynamics" value="0" data="24...............vO...f+....9C...vO"/>
-            <Control type="ScriptPanel" id="cmbCCExpression" value="0"/>
-            <Control type="ScriptSlider" id="sliValueExpression" value="0"/>
-            <Control type="ScriptTable" id="tblResponseExpression" value="0" data="24...............vO...f+....9C...vO"/>
-            <Control type="ScriptPanel" id="cmbCCVibrato Depth" value="0"/>
-            <Control type="ScriptSlider" id="sliValueVibrato Depth" value="0"/>
-            <Control type="ScriptTable" id="tblResponseVibrato Depth" value="0" data="24...............vO...f+....9C...vO"/>
-            <Control type="ScriptPanel" id="cmbCCVibrato Rate" value="0"/>
-            <Control type="ScriptSlider" id="sliValueVibrato Rate" value="0"/>
-            <Control type="ScriptTable" id="tblResponseVibrato Rate" value="0" data="24...............vO...f+....9C...vO"/>
-            <Control type="ScriptPanel" id="cmbCCFlutter" value="0"/>
-            <Control type="ScriptSlider" id="sliValueFlutter" value="0"/>
-            <Control type="ScriptTable" id="tblResponseFlutter" value="0" data="24...............vO...f+....9C...vO"/>
-            <Control type="ScriptPanel" id="cmbChan" value="0"/>
-            <Control type="ScriptPanel" id="cmbPre" value="0"/>
-            <Control type="ScriptPanel" id="cmbBuf" value="0"/>
-            <Control type="ScriptPanel" id="cmbRR" value="0"/>
-            <Control type="ScriptPanel" id="btnRel" value="0"/>
-            <Control type="ScriptPanel" id="cmbArt" value="0"/>
             <Control type="ScriptPanel" id="cmbKs0" value="0"/>
             <Control type="ScriptPanel" id="cmbUacc0" value="0"/>
             <Control type="ScriptSlider" id="sliAttack0" value="0"/>
@@ -159,142 +143,364 @@
             <Control type="ScriptSlider" id="sliRatio" value="0"/>
             <Control type="ScriptSlider" id="sliGlide" value="0"/>
             <Control type="ScriptPanel" id="sliGlMode" value="0"/>
+            <Control type="ScriptPanel" id="cmbArt" value="0"/>
+            <Control type="ScriptPanel" id="cmbParam" value="0"/>
+            <Control type="ScriptPanel" id="cmbCCDynamics" value="0"/>
+            <Control type="ScriptSlider" id="sliValueDynamics" value="0"/>
+            <Control type="ScriptTable" id="tblResponseDynamics" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="cmbCCExpression" value="0"/>
+            <Control type="ScriptSlider" id="sliValueExpression" value="0"/>
+            <Control type="ScriptTable" id="tblResponseExpression" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="cmbCCVibrato Depth" value="0"/>
+            <Control type="ScriptSlider" id="sliValueVibrato Depth" value="0"/>
+            <Control type="ScriptTable" id="tblResponseVibrato Depth" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="cmbCCVibrato Rate" value="0"/>
+            <Control type="ScriptSlider" id="sliValueVibrato Rate" value="0"/>
+            <Control type="ScriptTable" id="tblResponseVibrato Rate" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="cmbCCFlutter" value="0"/>
+            <Control type="ScriptSlider" id="sliValueFlutter" value="0"/>
+            <Control type="ScriptTable" id="tblResponseFlutter" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="sliPan0" value="0"/>
+            <Control type="ScriptSlider" id="sliDelay0" value="0"/>
+            <Control type="ScriptSlider" id="sliWidth0" value="0"/>
+            <Control type="ScriptSlider" id="sliVol0" value="0"/>
+            <Control type="ScriptPanel" id="btnPurge0" value="0"/>
+            <Control type="ScriptPanel" id="sliPan1" value="0"/>
+            <Control type="ScriptSlider" id="sliDelay1" value="0"/>
+            <Control type="ScriptSlider" id="sliWidth1" value="0"/>
+            <Control type="ScriptSlider" id="sliVol1" value="0"/>
+            <Control type="ScriptPanel" id="btnPurge1" value="0"/>
+            <Control type="ScriptPanel" id="sliPan2" value="0"/>
+            <Control type="ScriptSlider" id="sliDelay2" value="0"/>
+            <Control type="ScriptSlider" id="sliWidth2" value="0"/>
+            <Control type="ScriptSlider" id="sliVol2" value="0"/>
+            <Control type="ScriptPanel" id="btnPurge2" value="0"/>
+            <Control type="ScriptPanel" id="cmbChan" value="0"/>
+            <Control type="ScriptPanel" id="cmbPre" value="0"/>
+            <Control type="ScriptPanel" id="cmbBuf" value="0"/>
+            <Control type="ScriptPanel" id="cmbRR" value="0"/>
+            <Control type="ScriptPanel" id="btnRel" value="0"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
               <Component type="ScriptFloatingTile" id="keyboard" x="0" y="300" width="650"
                          updateAfterInit="0"/>
               <Component type="ScriptPanel" id="pnlTabMain" x="0" y="60" width="650" height="240"
-                         itemColour="0" itemColour2="0" borderSize="0">
+                         itemColour="0" itemColour2="0" borderSize="0" visible="0">
                 <Component type="ScriptPanel" id="aeleftZone" x="10" y="0" itemColour="0"
                            itemColour2="0" borderSize="0" borderRadius="0" width="200" height="225"
                            parentComponent="pnlTabMain"/>
                 <Component type="ScriptPanel" id="mMidZone" x="225" y="0" width="200" height="225"
                            itemColour="0" itemColour2="0" borderSize="0" borderRadius="0"
+                           parentComponent="pnlTabMain"/>
+                <Component type="ScriptPanel" id="peRightZone" x="440" y="0" width="200"
+                           height="225" itemColour="0" itemColour2="0" borderSize="0" borderRadius="0"
+                           parentComponent="pnlTabMain"/>
+                <Component type="ScriptPanel" id="aeLeftZone" x="10" y="0" width="200" height="225"
+                           itemColour="0" itemColour2="0" borderSize="0" borderRadius="0"
+                           parentComponent="pnlTabMain">
+                  <Component type="ScriptPanel" id="cmbKs0" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptPanel" id="cmbUacc0" x="90" y="112" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptSlider" id="sliAttack0" x="90" y="147" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
+                             width="100" height="25" defaultValue="300" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptSlider" id="sliRelease0" x="90" y="182" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
+                             width="100" height="25" defaultValue="350" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptPanel" id="cmbKs1" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptPanel" id="cmbUacc1" x="90" y="112" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptSlider" id="sliAttack1" x="90" y="147" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
+                             width="100" height="25" defaultValue="5" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptSlider" id="sliRelease1" x="90" y="182" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
+                             width="100" height="25" defaultValue="350" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptPanel" id="cmbKs2" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptPanel" id="cmbUacc2" x="90" y="112" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptSlider" id="sliAttack2" x="90" y="147" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
+                             width="100" height="25" defaultValue="5" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptSlider" id="sliRelease2" x="90" y="182" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
+                             width="100" height="25" defaultValue="350" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptPanel" id="cmbKs3" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptPanel" id="cmbUacc3" x="90" y="112" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptSlider" id="sliAttack3" x="90" y="147" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
+                             width="100" height="25" defaultValue="5" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptSlider" id="sliRelease3" x="90" y="182" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
+                             width="100" height="25" defaultValue="350" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptPanel" id="cmbKs4" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptPanel" id="cmbUacc4" x="90" y="112" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptSlider" id="sliAttack4" x="90" y="147" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
+                             width="100" height="25" defaultValue="5" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptSlider" id="sliRelease4" x="90" y="182" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
+                             width="100" height="25" defaultValue="350" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptPanel" id="cmbKs5" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptPanel" id="cmbUacc5" x="90" y="112" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="aeLeftZone"/>
+                  <Component type="ScriptSlider" id="sliAttack5" x="90" y="147" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
+                             width="100" height="25" defaultValue="5" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptSlider" id="sliRelease5" x="90" y="182" style="Horizontal"
+                             middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
+                             width="100" height="25" defaultValue="350" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptSlider" id="sliOffset" x="90" y="147" style="Horizontal"
+                             middlePosition="40" stepSize="0.1" max="100" suffix="%" width="100"
+                             height="25" defaultValue="25" bgColour="4280427042" itemColour="4289759532"
+                             itemColour2="0" parentComponent="aeLeftZone" mouseSensitivity="0.3"/>
+                  <Component type="ScriptSlider" id="sliRatio" x="90" y="182" style="Horizontal"
+                             stepSize="1" min="20" max="100" suffix="%" width="100" height="25"
+                             defaultValue="100" bgColour="4280427042" itemColour="4289759532"
+                             itemColour2="0" parentComponent="aeLeftZone" mouseSensitivity="0.3"/>
+                  <Component type="ScriptSlider" id="sliGlide" x="90" y="147" style="Horizontal"
+                             stepSize="1" max="11" width="100" height="25" defaultValue="5"
+                             bgColour="4280427042" itemColour="4289759532" itemColour2="0"
+                             textColour="0" parentComponent="aeLeftZone" mouseSensitivity="0.3"/>
+                  <Component type="ScriptLabel" id="sliGlVal" x="90" y="145" saveInPreset="0"
+                             width="100" height="25" parentComponent="aeLeftZone" editable="0"
+                             text="1/1"/>
+                  <Component type="ScriptPanel" id="sliGlMode" x="90" y="182" allowCallbacks="Clicks Only"
+                             saveInPreset="1" width="100" height="25" text="Whole Step" parentComponent="aeLeftZone"/>
+                </Component>
+                <Component type="ScriptPanel" id="articulationEditor" x="10" y="0" itemColour="0"
+                           itemColour2="0" borderSize="0" borderRadius="0" width="200" height="225"
+                           parentComponent="pnlTabMain">
+                  <Component type="ScriptLabel" id="lblArt" x="5" y="41" saveInPreset="0"
+                             width="85" height="25" text="Articulation" fontName="Open Sans"
+                             fontSize="18" alignment="left" parentComponent="articulationEditor"
+                             editable="0"/>
+                  <Component type="ScriptLabel" id="lblKs" x="5" y="76" saveInPreset="0" width="85"
+                             height="25" text="Key Switch" fontName="Open Sans" fontSize="18"
+                             alignment="left" parentComponent="articulationEditor" editable="0"/>
+                  <Component type="ScriptLabel" id="lblUacc" x="5" y="111" saveInPreset="0"
+                             width="85" height="25" text="UACC" fontName="Open Sans" fontSize="18"
+                             alignment="left" parentComponent="articulationEditor" editable="0"/>
+                  <Component type="ScriptLabel" id="lblAttack" x="5" y="147" saveInPreset="0"
+                             width="85" height="25" text="Attack" fontName="Open Sans" fontSize="18"
+                             alignment="left" parentComponent="articulationEditor" editable="0"/>
+                  <Component type="ScriptLabel" id="lblRelease" x="5" y="182" saveInPreset="0"
+                             width="85" height="25" text="Release" fontName="Open Sans" fontSize="18"
+                             alignment="left" parentComponent="articulationEditor" editable="0"/>
+                  <Component type="ScriptLabel" id="lblOffset" x="5" y="147" saveInPreset="0"
+                             width="85" height="25" text="Offset" fontName="Open Sans" fontSize="18"
+                             alignment="left" parentComponent="articulationEditor" editable="0"/>
+                  <Component type="ScriptLabel" id="lblRatio" x="5" y="182" saveInPreset="0"
+                             width="85" height="25" text="Fade Ratio" fontName="Open Sans"
+                             fontSize="18" alignment="left" parentComponent="articulationEditor"
+                             editable="0"/>
+                  <Component type="ScriptLabel" id="lblGlide" x="5" y="147" saveInPreset="0"
+                             width="85" height="25" text="Rate" fontName="Open Sans" fontSize="18"
+                             alignment="left" parentComponent="articulationEditor" editable="0"/>
+                  <Component type="ScriptLabel" id="lblGlMode" x="5000" y="182" saveInPreset="0"
+                             width="85" height="25" text="Whole Step" fontName="Open Sans"
+                             fontSize="18" alignment="left" parentComponent="articulationEditor"
+                             editable="0"/>
+                  <Component type="ScriptPanel" id="cmbArt" x="90" y="42" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Sustain&#10;Legato&#10;Glide&#10;Staccato&#10;Flutter&#10;Harmonics"
+                             width="100" height="25" parentComponent="articulationEditor"/>
+                </Component>
+                <Component type="ScriptPanel" id="parameterEditor" x="440" y="0" itemColour="0"
+                           itemColour2="0" borderSize="0" borderRadius="0" width="200" height="225"
+                           parentComponent="pnlTabMain">
+                  <Component type="ScriptLabel" id="lblParam" x="5" y="42" saveInPreset="0"
+                             width="85" height="25" text="Parameter" fontName="Open Sans"
+                             fontSize="18" alignment="topLeft" parentComponent="parameterEditor"
+                             editable="0"/>
+                  <Component type="ScriptLabel" id="lblCc" x="5" y="77" saveInPreset="0" width="85"
+                             height="25" text="Controller" fontName="Open Sans" fontSize="18"
+                             alignment="topLeft" parentComponent="parameterEditor" editable="0"/>
+                  <Component type="ScriptLabel" id="lblValue" x="5" y="112" saveInPreset="0"
+                             width="85" height="25" text="Value" fontName="Open Sans" fontSize="18"
+                             alignment="topLeft" parentComponent="parameterEditor" editable="0"/>
+                  <Component type="ScriptPanel" id="cmbParam" x="90" y="42" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Dynamics&#10;Expression&#10;Vibrato Depth&#10;Vibrato Rate&#10;Flutter"
+                             width="100" height="25" parentComponent="parameterEditor"/>
+                  <Component type="ScriptPanel" id="pnlResponseBg" x="10" y="147" itemColour="0"
+                             itemColour2="0" borderSize="0" borderRadius="0" width="180" height="70"
+                             parentComponent="parameterEditor"/>
+                  <Component type="ScriptPanel" id="cmbCCDynamics" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="parameterEditor" visible="0"/>
+                  <Component type="ScriptSlider" id="sliValueDynamics" x="90" y="112" style="Horizontal"
+                             max="127" width="100" height="25" visible="0" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" textColour="0" parentComponent="parameterEditor"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptTable" id="tblResponseDynamics" x="10" y="147" width="180"
+                             height="70" visible="0" parentComponent="parameterEditor"/>
+                  <Component type="ScriptPanel" id="cmbCCExpression" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="parameterEditor" visible="0"/>
+                  <Component type="ScriptSlider" id="sliValueExpression" x="90" y="112" style="Horizontal"
+                             max="127" width="100" height="25" visible="0" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" textColour="0" parentComponent="parameterEditor"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptTable" id="tblResponseExpression" x="10" y="147"
+                             width="180" height="70" visible="0" parentComponent="parameterEditor"/>
+                  <Component type="ScriptPanel" id="cmbCCVibrato Depth" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="parameterEditor" visible="0"/>
+                  <Component type="ScriptSlider" id="sliValueVibrato Depth" x="90" y="112"
+                             style="Horizontal" max="127" width="100" height="25" visible="0"
+                             bgColour="4280427042" itemColour="4289759532" itemColour2="0"
+                             textColour="0" parentComponent="parameterEditor" mouseSensitivity="0.3"/>
+                  <Component type="ScriptTable" id="tblResponseVibrato Depth" x="10" y="147"
+                             width="180" height="70" visible="0" parentComponent="parameterEditor"/>
+                  <Component type="ScriptPanel" id="cmbCCVibrato Rate" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="parameterEditor" visible="0"/>
+                  <Component type="ScriptSlider" id="sliValueVibrato Rate" x="90" y="112"
+                             style="Horizontal" max="127" width="100" height="25" visible="0"
+                             bgColour="4280427042" itemColour="4289759532" itemColour2="0"
+                             textColour="0" parentComponent="parameterEditor" mouseSensitivity="0.3"/>
+                  <Component type="ScriptTable" id="tblResponseVibrato Rate" x="10" y="147"
+                             width="180" height="70" visible="0" parentComponent="parameterEditor"/>
+                  <Component type="ScriptPanel" id="cmbCCFlutter" x="90" y="77" allowCallbacks="Context Menu"
+                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                             width="100" height="25" parentComponent="parameterEditor" visible="0"/>
+                  <Component type="ScriptSlider" id="sliValueFlutter" x="90" y="112" style="Horizontal"
+                             max="127" width="100" height="25" visible="0" bgColour="4280427042"
+                             itemColour="4289759532" itemColour2="0" textColour="0" parentComponent="parameterEditor"
+                             mouseSensitivity="0.3"/>
+                  <Component type="ScriptTable" id="tblResponseFlutter" x="10" y="147" width="180"
+                             height="70" visible="0" parentComponent="parameterEditor"/>
+                  <Component type="ScriptLabel" id="lblTitle" x="0" y="0" saveInPreset="0"
+                             width="200" height="25" text="Controllers" fontSize="18" fontName="Open Sans Bold"
+                             parentComponent="parameterEditor" editable="0"/>
+                </Component>
+                <Component type="ScriptPanel" id="micMixer" x="225" y="0" itemColour="0"
+                           itemColour2="0" borderSize="0" borderRadius="0" width="200" height="225"
                            parentComponent="pnlTabMain">
                   <Component type="ScriptPanel" id="sliPan0" x="28" y="40" allowCallbacks="Clicks, Hover &amp; Dragging"
                              saveInPreset="1" enableMidiLearn="1" borderSize="0" width="34"
-                             height="20" min="-100" max="100" parentComponent="mMidZone"/>
+                             height="20" min="-100" max="100" parentComponent="micMixer"/>
                   <Component type="ScriptSlider" id="sliDelay0" x="28" y="125" style="Vertical"
                              max="500" width="10" height="45" bgColour="4280427042" itemColour="4289759532"
-                             itemColour2="0" textColour="0" parentComponent="mMidZone" mouseSensitivity="0.3"/>
+                             itemColour2="0" textColour="0" parentComponent="micMixer" mouseSensitivity="0.3"/>
                   <Component type="ScriptSlider" id="sliWidth0" x="28" y="70" style="Vertical"
                              max="200" width="10" height="45" bgColour="4280427042" itemColour="4289759532"
-                             itemColour2="0" textColour="0" parentComponent="mMidZone" mouseSensitivity="0.3"
+                             itemColour2="0" textColour="0" parentComponent="micMixer" mouseSensitivity="0.3"
                              visible="0"/>
                   <Component type="ScriptSlider" id="sliVol0" x="43" y="70" style="Vertical"
                              middlePosition="1" max="4" width="19" height="100" defaultValue="1"
                              bgColour="4280427042" itemColour="4289759532" itemColour2="0"
-                             textColour="0" parentComponent="mMidZone" mouseSensitivity="0.3"/>
+                             textColour="0" parentComponent="micMixer" mouseSensitivity="0.3"/>
                   <Component type="ScriptPanel" id="btnPurge0" x="28" y="182" allowCallbacks="Clicks Only"
-                             saveInPreset="1" width="34" height="25" text="C" parentComponent="mMidZone"/>
+                             saveInPreset="1" width="34" height="25" text="C" parentComponent="micMixer"/>
                   <Component type="ScriptPanel" id="sliPan1" x="83" y="40" allowCallbacks="Clicks, Hover &amp; Dragging"
                              saveInPreset="1" enableMidiLearn="1" borderSize="0" width="34"
-                             height="20" min="-100" max="100" parentComponent="mMidZone"/>
+                             height="20" min="-100" max="100" parentComponent="micMixer"/>
                   <Component type="ScriptSlider" id="sliDelay1" x="83" y="125" style="Vertical"
                              max="500" width="10" height="45" bgColour="4280427042" itemColour="4289759532"
-                             itemColour2="0" textColour="0" parentComponent="mMidZone" mouseSensitivity="0.3"/>
+                             itemColour2="0" textColour="0" parentComponent="micMixer" mouseSensitivity="0.3"/>
                   <Component type="ScriptSlider" id="sliWidth1" x="83" y="70" style="Vertical"
                              max="200" width="10" height="45" bgColour="4280427042" itemColour="4289759532"
-                             itemColour2="0" textColour="0" parentComponent="mMidZone" mouseSensitivity="0.3"/>
+                             itemColour2="0" textColour="0" parentComponent="micMixer" mouseSensitivity="0.3"/>
                   <Component type="ScriptSlider" id="sliVol1" x="98" y="70" style="Vertical"
                              middlePosition="1" max="4" width="19" height="100" defaultValue="1"
                              bgColour="4280427042" itemColour="4289759532" itemColour2="0"
-                             textColour="0" parentComponent="mMidZone" mouseSensitivity="0.3"/>
+                             textColour="0" parentComponent="micMixer" mouseSensitivity="0.3"/>
                   <Component type="ScriptPanel" id="btnPurge1" x="83" y="182" allowCallbacks="Clicks Only"
-                             saveInPreset="1" width="34" height="25" text="D" parentComponent="mMidZone"/>
+                             saveInPreset="1" width="34" height="25" text="D" parentComponent="micMixer"/>
                   <Component type="ScriptPanel" id="sliPan2" x="138" y="40" allowCallbacks="Clicks, Hover &amp; Dragging"
                              saveInPreset="1" enableMidiLearn="1" borderSize="0" width="34"
-                             height="20" min="-100" max="100" parentComponent="mMidZone"/>
+                             height="20" min="-100" max="100" parentComponent="micMixer"/>
                   <Component type="ScriptSlider" id="sliDelay2" x="138" y="125" style="Vertical"
                              max="500" width="10" height="45" bgColour="4280427042" itemColour="4289759532"
-                             itemColour2="0" textColour="0" parentComponent="mMidZone" mouseSensitivity="0.3"/>
+                             itemColour2="0" textColour="0" parentComponent="micMixer" mouseSensitivity="0.3"/>
                   <Component type="ScriptSlider" id="sliWidth2" x="138" y="70" style="Vertical"
                              max="200" width="10" height="45" bgColour="4280427042" itemColour="4289759532"
-                             itemColour2="0" textColour="0" parentComponent="mMidZone" mouseSensitivity="0.3"/>
+                             itemColour2="0" textColour="0" parentComponent="micMixer" mouseSensitivity="0.3"/>
                   <Component type="ScriptSlider" id="sliVol2" x="153" y="70" style="Vertical"
                              middlePosition="1" max="4" width="19" height="100" defaultValue="1"
                              bgColour="4280427042" itemColour="4289759532" itemColour2="0"
-                             textColour="0" parentComponent="mMidZone" mouseSensitivity="0.3"/>
+                             textColour="0" parentComponent="micMixer" mouseSensitivity="0.3"/>
                   <Component type="ScriptPanel" id="btnPurge2" x="138" y="182" allowCallbacks="Clicks Only"
-                             saveInPreset="1" width="34" height="25" text="H" parentComponent="mMidZone"/>
-                </Component>
-                <Component type="ScriptPanel" id="peRightZone" x="440" y="0" width="200"
-                           height="225" itemColour="0" itemColour2="0" borderSize="0" borderRadius="0"
-                           parentComponent="pnlTabMain">
-                  <Component type="ScriptLabel" id="lblParam" x="5" y="42" saveInPreset="0"
-                             width="85" height="25" text="Parameter" fontName="Open Sans"
-                             fontSize="18" alignment="topLeft" parentComponent="peRightZone"
-                             editable="0"/>
-                  <Component type="ScriptLabel" id="lblCc" x="5" y="77" saveInPreset="0" width="85"
-                             height="25" text="Controller" fontName="Open Sans" fontSize="18"
-                             alignment="topLeft" parentComponent="peRightZone" editable="0"/>
-                  <Component type="ScriptLabel" id="lblValue" x="5" y="112" saveInPreset="0"
-                             width="85" height="25" text="Value" fontName="Open Sans" fontSize="18"
-                             alignment="topLeft" parentComponent="peRightZone" editable="0"/>
-                  <Component type="ScriptPanel" id="cmbParam" x="90" y="42" allowCallbacks="Context Menu"
-                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Dynamics&#10;Expression&#10;Vibrato Depth&#10;Vibrato Rate&#10;Flutter"
-                             width="100" height="25" parentComponent="peRightZone"/>
-                  <Component type="ScriptPanel" id="pnlResponseBg" x="10" y="147" itemColour="0"
-                             itemColour2="0" borderSize="0" borderRadius="0" width="180" height="70"
-                             parentComponent="peRightZone"/>
-                  <Component type="ScriptPanel" id="cmbCCDynamics" x="90" y="77" allowCallbacks="Context Menu"
-                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             width="100" height="25" parentComponent="peRightZone" visible="0"/>
-                  <Component type="ScriptSlider" id="sliValueDynamics" x="90" y="112" style="Horizontal"
-                             max="127" width="100" height="25" visible="0" bgColour="4280427042"
-                             itemColour="4289759532" itemColour2="0" textColour="0" parentComponent="peRightZone"
-                             mouseSensitivity="0.3"/>
-                  <Component type="ScriptTable" id="tblResponseDynamics" x="10" y="147" width="180"
-                             height="70" visible="0" parentComponent="peRightZone"/>
-                  <Component type="ScriptPanel" id="cmbCCExpression" x="90" y="77" allowCallbacks="Context Menu"
-                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             width="100" height="25" parentComponent="peRightZone" visible="0"/>
-                  <Component type="ScriptSlider" id="sliValueExpression" x="90" y="112" style="Horizontal"
-                             max="127" width="100" height="25" visible="0" bgColour="4280427042"
-                             itemColour="4289759532" itemColour2="0" textColour="0" parentComponent="peRightZone"
-                             mouseSensitivity="0.3"/>
-                  <Component type="ScriptTable" id="tblResponseExpression" x="10" y="147"
-                             width="180" height="70" visible="0" parentComponent="peRightZone"/>
-                  <Component type="ScriptPanel" id="cmbCCVibrato Depth" x="90" y="77" allowCallbacks="Context Menu"
-                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             width="100" height="25" parentComponent="peRightZone" visible="0"/>
-                  <Component type="ScriptSlider" id="sliValueVibrato Depth" x="90" y="112"
-                             style="Horizontal" max="127" width="100" height="25" visible="0"
-                             bgColour="4280427042" itemColour="4289759532" itemColour2="0"
-                             textColour="0" parentComponent="peRightZone" mouseSensitivity="0.3"/>
-                  <Component type="ScriptTable" id="tblResponseVibrato Depth" x="10" y="147"
-                             width="180" height="70" visible="0" parentComponent="peRightZone"/>
-                  <Component type="ScriptPanel" id="cmbCCVibrato Rate" x="90" y="77" allowCallbacks="Context Menu"
-                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             width="100" height="25" parentComponent="peRightZone" visible="0"/>
-                  <Component type="ScriptSlider" id="sliValueVibrato Rate" x="90" y="112"
-                             style="Horizontal" max="127" width="100" height="25" visible="0"
-                             bgColour="4280427042" itemColour="4289759532" itemColour2="0"
-                             textColour="0" parentComponent="peRightZone" mouseSensitivity="0.3"/>
-                  <Component type="ScriptTable" id="tblResponseVibrato Rate" x="10" y="147"
-                             width="180" height="70" visible="0" parentComponent="peRightZone"/>
-                  <Component type="ScriptPanel" id="cmbCCFlutter" x="90" y="77" allowCallbacks="Context Menu"
-                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             width="100" height="25" parentComponent="peRightZone" visible="0"/>
-                  <Component type="ScriptSlider" id="sliValueFlutter" x="90" y="112" style="Horizontal"
-                             max="127" width="100" height="25" visible="0" bgColour="4280427042"
-                             itemColour="4289759532" itemColour2="0" textColour="0" parentComponent="peRightZone"
-                             mouseSensitivity="0.3"/>
-                  <Component type="ScriptTable" id="tblResponseFlutter" x="10" y="147" width="180"
-                             height="70" visible="0" parentComponent="peRightZone"/>
-                  <Component type="ScriptLabel" id="lblTitle" x="0" y="0" saveInPreset="0"
-                             width="200" height="25" text="Controllers" fontSize="18" fontName="Open Sans Bold"
-                             parentComponent="peRightZone" editable="0"/>
+                             saveInPreset="1" width="34" height="25" text="H" parentComponent="micMixer"/>
                 </Component>
               </Component>
               <Component type="ScriptPanel" id="pnlTabPreset_Browser" x="0" y="50" width="650"
-                         height="322" itemColour="0" itemColour2="0" borderSize="0" visible="0">
+                         height="322" itemColour="0" itemColour2="0" borderSize="0"/>
+              <Component type="ScriptPanel" id="bg" x="0" y="0" itemColour="0" itemColour2="0"
+                         borderSize="0" borderRadius="0" width="650" height="300"/>
+              <Component type="ScriptPanel" id="logo" x="15" y="15" itemColour="0" itemColour2="0"
+                         borderSize="0" borderRadius="0" width="39" height="25"/>
+              <Component type="ScriptPanel" id="logoText" x="60" y="21" itemColour="0"
+                         itemColour2="0" borderSize="0" borderRadius="0" width="145" height="15"/>
+              <Component type="ScriptButton" id="btnPresetBrowser" x="0" y="0" width="325"
+                         height="32" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}empty.png"/>
+              <Component type="ScriptPanel" id="btnSettings" x="15" y="15" itemColour="0"
+                         itemColour2="0" borderSize="0" borderRadius="0" width="200" height="25"
+                         allowCallbacks="Context Menu"/>
+              <Component type="ScriptPanel" id="titleBg" x="270" y="14" width="325" height="32"
+                         itemColour="0" itemColour2="0" borderSize="0" borderRadius="0">
+                <Component type="ScriptLabel" id="title" x="0" y="-5" saveInPreset="0" width="325"
+                           height="32" parentComponent="titleBg" text="AltoFlute" fontName="Open Sans Bold"
+                           fontSize="26" editable="0"/>
+              </Component>
+              <Component type="ScriptPanel" id="mainTab" x="0" y="60" width="650" height="240"
+                         itemColour="0" itemColour2="0" borderSize="0"/>
+              <Component type="ScriptPanel" id="presetBrowserTab" x="0" y="50" width="650"
+                         height="322" itemColour="0" itemColour2="0" borderSize="0" visible="0"/>
+              <Component type="ScriptPanel" id="pnlMain" x="0" y="60" width="650" height="240"
+                         visible="0"/>
+              <Component type="ScriptPanel" id="pnlPresetBrowser" x="0" y="50" width="650"
+                         height="322">
                 <Component type="ScriptFloatingTile" id="presetBrowser" x="0" y="0" width="650"
-                           height="250" parentComponent="pnlTabPreset_Browser" updateAfterInit="0"/>
+                           height="250" parentComponent="pnlPresetBrowser" updateAfterInit="0"/>
                 <Component type="ScriptPanel" id="pnlSettings" x="0" y="250" width="650"
                            height="72" itemColour="0" itemColour2="0" borderSize="0" borderRadius="0"
-                           parentComponent="pnlTabPreset_Browser">
+                           parentComponent="pnlPresetBrowser">
                   <Component type="ScriptLabel" id="lblChan" x="10" y="5" saveInPreset="0"
                              width="100" height="20" text="MIDI Channel" fontName="Open Sans"
                              fontSize="18" parentComponent="pnlSettings" editable="0"/>
@@ -332,168 +538,6 @@
                              width="80" height="25" parentComponent="pnlSettings" editable="0"
                              text="0MB"/>
                 </Component>
-              </Component>
-              <Component type="ScriptPanel" id="aeLeftZone" x="10" y="0" width="100" height="50">
-                <Component type="ScriptLabel" id="lblArt" x="5" y="41" saveInPreset="0"
-                           width="85" height="25" text="Articulation" fontName="Open Sans"
-                           fontSize="18" alignment="left" parentComponent="aeLeftZone" editable="0"/>
-                <Component type="ScriptLabel" id="lblKs" x="5" y="76" saveInPreset="0" width="85"
-                           height="25" text="Key Switch" fontName="Open Sans" fontSize="18"
-                           alignment="left" parentComponent="aeLeftZone" editable="0"/>
-                <Component type="ScriptLabel" id="lblUacc" x="5" y="111" saveInPreset="0"
-                           width="85" height="25" text="UACC" fontName="Open Sans" fontSize="18"
-                           alignment="left" parentComponent="aeLeftZone" editable="0"/>
-                <Component type="ScriptLabel" id="lblAttack" x="5" y="147" saveInPreset="0"
-                           width="85" height="25" text="Attack" fontName="Open Sans" fontSize="18"
-                           alignment="left" parentComponent="aeLeftZone" editable="0"/>
-                <Component type="ScriptLabel" id="lblRelease" x="5" y="182" saveInPreset="0"
-                           width="85" height="25" text="Release" fontName="Open Sans" fontSize="18"
-                           alignment="left" parentComponent="aeLeftZone" editable="0"/>
-                <Component type="ScriptLabel" id="lblOffset" x="5" y="147" saveInPreset="0"
-                           width="85" height="25" text="Offset" fontName="Open Sans" fontSize="18"
-                           alignment="left" parentComponent="aeLeftZone" editable="0"/>
-                <Component type="ScriptLabel" id="lblRatio" x="5" y="182" saveInPreset="0"
-                           width="85" height="25" text="Fade Ratio" fontName="Open Sans"
-                           fontSize="18" alignment="left" parentComponent="aeLeftZone" editable="0"/>
-                <Component type="ScriptLabel" id="lblGlide" x="5" y="147" saveInPreset="0"
-                           width="85" height="25" text="Rate" fontName="Open Sans" fontSize="18"
-                           alignment="left" parentComponent="aeLeftZone" editable="0"/>
-                <Component type="ScriptLabel" id="lblGlMode" x="5000" y="182" saveInPreset="0"
-                           width="85" height="25" text="Whole Step" fontName="Open Sans"
-                           fontSize="18" alignment="left" parentComponent="aeLeftZone" editable="0"/>
-                <Component type="ScriptPanel" id="cmbArt" x="90" y="42" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Sustain&#10;Legato&#10;Glide&#10;Staccato&#10;Flutter&#10;Harmonics"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptPanel" id="cmbKs0" x="90" y="77" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptPanel" id="cmbUacc0" x="90" y="112" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptSlider" id="sliAttack0" x="90" y="147" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
-                           width="100" height="25" defaultValue="300" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptSlider" id="sliRelease0" x="90" y="182" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
-                           width="100" height="25" defaultValue="350" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptPanel" id="cmbKs1" x="90" y="77" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptPanel" id="cmbUacc1" x="90" y="112" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptSlider" id="sliAttack1" x="90" y="147" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
-                           width="100" height="25" defaultValue="5" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptSlider" id="sliRelease1" x="90" y="182" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
-                           width="100" height="25" defaultValue="350" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptPanel" id="cmbKs2" x="90" y="77" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptPanel" id="cmbUacc2" x="90" y="112" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptSlider" id="sliAttack2" x="90" y="147" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
-                           width="100" height="25" defaultValue="5" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptSlider" id="sliRelease2" x="90" y="182" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
-                           width="100" height="25" defaultValue="350" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptPanel" id="cmbKs3" x="90" y="77" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptPanel" id="cmbUacc3" x="90" y="112" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptSlider" id="sliAttack3" x="90" y="147" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
-                           width="100" height="25" defaultValue="5" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptSlider" id="sliRelease3" x="90" y="182" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
-                           width="100" height="25" defaultValue="350" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptPanel" id="cmbKs4" x="90" y="77" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptPanel" id="cmbUacc4" x="90" y="112" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptSlider" id="sliAttack4" x="90" y="147" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
-                           width="100" height="25" defaultValue="5" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptSlider" id="sliRelease4" x="90" y="182" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
-                           width="100" height="25" defaultValue="350" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptPanel" id="cmbKs5" x="90" y="77" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7&#10;C8&#10;C#8&#10;D8&#10;D#8&#10;E8&#10;F8&#10;F#8&#10;G8"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptPanel" id="cmbUacc5" x="90" y="112" allowCallbacks="Context Menu"
-                           popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="Disabled&#10;1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                           width="100" height="25" parentComponent="aeLeftZone"/>
-                <Component type="ScriptSlider" id="sliAttack5" x="90" y="147" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="5" max="5000" suffix="ms"
-                           width="100" height="25" defaultValue="5" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptSlider" id="sliRelease5" x="90" y="182" style="Horizontal"
-                           middlePosition="1000" stepSize="1" min="25" max="20000" suffix="ms"
-                           width="100" height="25" defaultValue="350" bgColour="4280427042"
-                           itemColour="4289759532" itemColour2="0" parentComponent="aeLeftZone"
-                           mouseSensitivity="0.3"/>
-                <Component type="ScriptSlider" id="sliOffset" x="90" y="147" style="Horizontal"
-                           middlePosition="40" stepSize="0.1" max="100" suffix="%" width="100"
-                           height="25" defaultValue="25" bgColour="4280427042" itemColour="4289759532"
-                           itemColour2="0" parentComponent="aeLeftZone" mouseSensitivity="0.3"/>
-                <Component type="ScriptSlider" id="sliRatio" x="90" y="182" style="Horizontal"
-                           stepSize="1" min="20" max="100" suffix="%" width="100" height="25"
-                           defaultValue="100" bgColour="4280427042" itemColour="4289759532"
-                           itemColour2="0" parentComponent="aeLeftZone" mouseSensitivity="0.3"/>
-                <Component type="ScriptSlider" id="sliGlide" x="90" y="147" style="Horizontal"
-                           stepSize="1" max="11" width="100" height="25" defaultValue="5"
-                           bgColour="4280427042" itemColour="4289759532" itemColour2="0"
-                           textColour="0" parentComponent="aeLeftZone" mouseSensitivity="0.3"/>
-                <Component type="ScriptLabel" id="sliGlVal" x="90" y="145" saveInPreset="0"
-                           width="100" height="25" parentComponent="aeLeftZone" editable="0"
-                           text="1/1"/>
-                <Component type="ScriptPanel" id="sliGlMode" x="90" y="182" allowCallbacks="Clicks Only"
-                           saveInPreset="1" width="100" height="25" text="Whole Step" parentComponent="aeLeftZone"/>
-              </Component>
-              <Component type="ScriptPanel" id="bg" x="0" y="0" itemColour="0" itemColour2="0"
-                         borderSize="0" borderRadius="0" width="650" height="300"/>
-              <Component type="ScriptPanel" id="logo" x="15" y="15" itemColour="0" itemColour2="0"
-                         borderSize="0" borderRadius="0" width="39" height="25"/>
-              <Component type="ScriptPanel" id="logoText" x="60" y="21" itemColour="0"
-                         itemColour2="0" borderSize="0" borderRadius="0" width="145" height="15"/>
-              <Component type="ScriptButton" id="btnPresetBrowser" x="270" y="14" width="325"
-                         height="32" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}empty.png"/>
-              <Component type="ScriptPanel" id="btnSettings" x="15" y="15" itemColour="0"
-                         itemColour2="0" borderSize="0" borderRadius="0" width="200" height="25"
-                         allowCallbacks="Context Menu"/>
-              <Component type="ScriptPanel" id="titleBg" x="270" y="14" width="325" height="32"
-                         itemColour="0" itemColour2="0" borderSize="0" borderRadius="0">
-                <Component type="ScriptLabel" id="title" x="0" y="-5" saveInPreset="0" width="325"
-                           height="32" parentComponent="titleBg" text="AltoFlute" fontName="Open Sans Bold"
-                           fontSize="26" editable="0"/>
               </Component>
             </ContentProperties>
           </UIData>

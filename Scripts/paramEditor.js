@@ -22,26 +22,26 @@ namespace paramEditor
 		}		
 		
 		//GUI
-		const var zone = ui.panel("peRightZone", 440, 0, {width:200, height:225, paintRoutine:paintRoutines.zone, parentComponent:tab.getPanelId(tabs[0])}); //Outer panel
-		const var lblTitle = ui.label("lblTitle", 0, 0, {width:200, height:25, text:"Controllers", textColour:Theme.H1.colour, fontName:Theme.H1.font, fontSize:Theme.H1.fontSize, alignment:"centred", parentComponent:"peRightZone"});
+		const var zone = ui.panel("parameterEditor", 440, 0, {width:200, height:225, paintRoutine:paintRoutines.zone, parentComponent:tab.getPanelId(tabs[0])}); //Outer panel
+		const var lblTitle = ui.label("lblTitle", 0, 0, {width:200, height:25, text:"Controllers", textColour:Theme.H1.colour, fontName:Theme.H1.font, fontSize:Theme.H1.fontSize, alignment:"centred", parentComponent:"parameterEditor"});
 
-		const var lblParam = ui.label("lblParam", 5, 42, {width:85, height:25, text:"Parameter", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"topLeft", parentComponent:"peRightZone"});
-		const var lblCc = ui.label("lblCc", 5, 77, {width:85, height:25, text:"Controller",  fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"topLeft", parentComponent:"peRightZone"});
-		const var lblValue = ui.label("lblValue", 5, 112, {width:85, height:25, text:"Value",  fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"topLeft", parentComponent:"peRightZone"});
+		const var lblParam = ui.label("lblParam", 5, 42, {width:85, height:25, text:"Parameter", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"topLeft", parentComponent:"parameterEditor"});
+		const var lblCc = ui.label("lblCc", 5, 77, {width:85, height:25, text:"Controller",  fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"topLeft", parentComponent:"parameterEditor"});
+		const var lblValue = ui.label("lblValue", 5, 112, {width:85, height:25, text:"Value",  fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"topLeft", parentComponent:"parameterEditor"});
 
 		//Parameter selection dropdown
-		const var cmbParam = ui.comboBoxPanel("cmbParam", 90, 42, {width:100, height:25, text:"Parameter", items:PARAMETERS.LABELS, paintRoutine:paintRoutines.dropDown, parentComponent:"peRightZone"});
+		const var cmbParam = ui.comboBoxPanel("cmbParam", 90, 42, {width:100, height:25, text:"Parameter", items:PARAMETERS.LABELS, paintRoutine:paintRoutines.dropDown, parentComponent:"parameterEditor"});
 
 		const var cmbCc = []; //One CC number selection dropdown per parameter
 		const var sliValue = []; //One value slider per parameter
 		const var tblResponse = []; //One response curve table per parameter
-		const var responseBg = ui.panel("pnlResponseBg", 10, 147, {width:180, height:70, paintRoutine:function(g){g.fillAll(Theme.TABLE.bg);}, parentComponent:"peRightZone"}); //Background for tables
+		const var responseBg = ui.panel("pnlResponseBg", 10, 147, {width:180, height:70, paintRoutine:function(g){g.fillAll(Theme.TABLE.bg);}, parentComponent:"parameterEditor"}); //Background for tables
 		
 		for (p in PARAMETERS.LABELS)
 		{
-			cmbCc.push(ui.comboBoxPanel("cmbCC"+p, 90, 77, {width:100, height:25, text:"Controller", visible:false, items:controllerNumbers, paintRoutine:paintRoutines.dropDown, parentComponent:"peRightZone"}));
-			sliValue.push(ui.knob("sliValue"+p, 90, 112, {width:100, height:25, style:"Horizontal", min:0, max:127, visible:false, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:0, parentComponent:"peRightZone"}));
-			tblResponse.push(ui.table("tblResponse"+p, 10, 147, {width:180, height:70, visible:false, parentComponent:"peRightZone"})); //Add a response curve table for each parameter - hide by default
+			cmbCc.push(ui.comboBoxPanel("cmbCC"+p, 90, 77, {width:100, height:25, text:"Controller", visible:false, items:controllerNumbers, paintRoutine:paintRoutines.dropDown, parentComponent:"parameterEditor"}));
+			sliValue.push(ui.knob("sliValue"+p, 90, 112, {width:100, height:25, style:"Horizontal", min:0, max:127, visible:false, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:0, parentComponent:"parameterEditor"}));
+			tblResponse.push(ui.table("tblResponse"+p, 10, 147, {width:180, height:70, visible:false, parentComponent:"parameterEditor"})); //Add a response curve table for each parameter - hide by default
 		}
 	}
 	

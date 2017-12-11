@@ -64,22 +64,22 @@ namespace articulationEditor
 		}
 
 		//GUI		
-		const var leftZone = ui.panel("aeleftZone", 10, 0, {width:200, height:225, paintRoutine:paintRoutines.zone, parentComponent:tab.getPanelId(tabs[0])}); //Outer parent		
-		const var lblTitle = ui.label("lblTitle", 0, 0, {width:200, height:25, text:"Articulations", textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize, fontName:Theme.H1.font, alignment:"centred", parentComponent:"aeLeftZone"});		
+		const var leftZone = ui.panel("articulationEditor", 10, 0, {width:200, height:225, paintRoutine:paintRoutines.zone, parentComponent:tab.getPanelId(tabs[0])}); //Outer parent		
+		const var lblTitle = ui.label("lblTitle", 0, 0, {width:200, height:25, text:"Articulations", textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize, fontName:Theme.H1.font, alignment:"centred", parentComponent:"articulationEditor"});		
 		
 		//Headings
-		const var lblArt = ui.label("lblArt", 5, 41, {width:85, height:25, text:"Articulation", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblKs = ui.label("lblKs", 5, 76, {width:85, height:25, text:"Key Switch", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblUacc = ui.label("lblUacc", 5, 111, {width:85, height:25, text:"UACC", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblAttack = ui.label("lblAttack", 5, 147, {width:85, height:25, text:"Attack", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblRelease = ui.label("lblRelease", 5, 182, {width:85, height:25, text:"Release", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblOffset = ui.label("lblOffset", 5, 147, {width:85, height:25, text:"Offset", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblRatio = ui.label("lblRatio", 5, 182, {width:85, height:25, text:"Fade Ratio", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblGlide = ui.label("lblGlide", 5, 147, {width:85, height:25, text:"Rate", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
-		const var lblGlideMode = ui.label("lblGlMode", 5000, 182, {width:85, height:25, text:"Whole Step", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"aeLeftZone"});
+		const var lblArt = ui.label("lblArt", 5, 41, {width:85, height:25, text:"Articulation", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblKs = ui.label("lblKs", 5, 76, {width:85, height:25, text:"Key Switch", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblUacc = ui.label("lblUacc", 5, 111, {width:85, height:25, text:"UACC", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblAttack = ui.label("lblAttack", 5, 147, {width:85, height:25, text:"Attack", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblRelease = ui.label("lblRelease", 5, 182, {width:85, height:25, text:"Release", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblOffset = ui.label("lblOffset", 5, 147, {width:85, height:25, text:"Offset", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblRatio = ui.label("lblRatio", 5, 182, {width:85, height:25, text:"Fade Ratio", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblGlide = ui.label("lblGlide", 5, 147, {width:85, height:25, text:"Rate", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblGlideMode = ui.label("lblGlMode", 5000, 182, {width:85, height:25, text:"Whole Step", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
 		
 		//Articulation dropdown
-		const var cmbArt = ui.comboBoxPanel("cmbArt", 90, 42, {width:100, height:25, text:"Articulation", items:articulationNames, paintRoutine:paintRoutines.dropDown, parentComponent:"aeLeftZone"});
+		const var cmbArt = ui.comboBoxPanel("cmbArt", 90, 42, {width:100, height:25, text:"Articulation", items:articulationNames, paintRoutine:paintRoutines.dropDown, parentComponent:"articulationEditor"});
 		
 		//One set of controls per articulation
 		const var cmbKs = []; //Key switch selector
