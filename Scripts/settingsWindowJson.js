@@ -1,5 +1,3 @@
-/** External Script File settingsPanelJson */
-
 namespace SettingsJson
 {
     const var isPlugin = Engine.isPlugin();
@@ -13,26 +11,27 @@ namespace SettingsJson
     // Pass this object to the floating tile
     const var settings = {
     "Type": "Tabs",
-    "Font": "Comic Sans MS",
-    "FontSize": 18,
+    "Font": "Open Sans",
+    "FontSize": 20,
     "Dynamic": false,
     "ColourData":
         {
-            "bgColour": "0",
-            "itemColour1": "0xFF222222"
+            "bgColour": Theme.BG,
+            "itemColour1": Theme.ZONE
         },
     "Content": [
         {
         "Type": "CustomSettings",
-        "Title": "Settings",
+        "Title": "Engine",
         "StyleData": {
         },
         "ColourData":
             {
-                "textColour": "0xFFCCCCCC"
+                "textColour": "0xFFCCCCCC",
+                "bgColour": Theme.ZONE
             },
-        "Font": "Comic Sans MS",
-        "FontSize": 16,
+        "Font": "Open Sans Bold",
+        "FontSize": 18,
         "Driver": !isPlugin,
         "Device": !isPlugin,
         "Output": !isPlugin,
@@ -55,9 +54,8 @@ namespace SettingsJson
         }
         
     ],
-    "CurrentTab": 0
-    };
-    
+    "CurrentTab": 4
+    };    
     
     if(!isPlugin)
     {
@@ -67,23 +65,25 @@ namespace SettingsJson
         "Title": "MIDI Input",
         "StyleData": {
         },
-        "Font": "Comic Sans MS",
-        "FontSize": 15,
+        "Font": "Open Sans",
+        "FontSize": 18,
         "ColourData": {
-                "textColour": "0xFFCCCCCC"
+                "textColour": "0xFFCCCCCC",
+                "bgColour": Theme.ZONE
         }
         });
     }
     
     settings["Content"].push({
         "Type": "MidiChannelList",
-        "Title": "MIDI Channel Filter",
+        "Title": "MIDI Channel",
         "StyleData": {
         },
-        "Font": "Comic Sans MS",
-        "FontSize": 15,
+        "Font": "Open Sans",
+        "FontSize": 18,
         "ColourData": {
-                "textColour": "0xFFCCCCCC"
+                "textColour": "0xFFCCCCCC",
+                "bgColour": Theme.ZONE
         }
         });
         
@@ -91,14 +91,14 @@ namespace SettingsJson
     
         "Type": "MidiLearnPanel",
         "Title": "MIDI Automation",
-        "Font": "Comic Sans MS",
-        "FontSize": 15,
+        "Font": "Open Sans",
+        "FontSize": 18,
         "ColourData":
         {
             "textColour": "0xFFCCCCCC",
             "itemColour2": "0xFF50ebf8",
             "itemColour1": "0xFF111111",
-            "bgColour": "0xFF000000"
+            "bgColour": Theme.ZONE
         }
     });
 };
