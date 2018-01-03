@@ -1,7 +1,7 @@
 namespace articulationEditor
 {
 	inline function onInitCB()
-	{				
+	{					
 		//Enums
 		const var ARTICULATIONS = {SUSTAIN:0, LEGATO:1,	GLIDE:2}; //Legato handler articulations
 		
@@ -64,22 +64,38 @@ namespace articulationEditor
 		}
 
 		//GUI		
-		const var leftZone = ui.panel("articulationEditor", 10, 0, {width:200, height:225, paintRoutine:paintRoutines.zone, parentComponent:tab.getPanelId(tabs[0])}); //Outer parent		
-		const var lblTitle = ui.label("lblTitle", 0, 0, {width:200, height:25, text:"Articulations", textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize, fontName:Theme.H1.font, alignment:"centred", parentComponent:"articulationEditor"});		
+		const var articulationEditor = Content.addPanel("articulationEditor", 10, 0);
+		ui.setProperties("articulationEditor", {width:200, height:225, paintRoutine:paintRoutines.zone, parentComponent:"pnlMain"}); //Outer parent		
 		
-		//Headings
-		const var lblArt = ui.label("lblArt", 5, 41, {width:85, height:25, text:"Articulation", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
-		const var lblKs = ui.label("lblKs", 5, 76, {width:85, height:25, text:"Key Switch", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
-		const var lblUacc = ui.label("lblUacc", 5, 111, {width:85, height:25, text:"UACC", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
-		const var lblAttack = ui.label("lblAttack", 5, 147, {width:85, height:25, text:"Attack", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
-		const var lblRelease = ui.label("lblRelease", 5, 182, {width:85, height:25, text:"Release", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
-		const var lblOffset = ui.label("lblOffset", 5, 147, {width:85, height:25, text:"Offset", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
-		const var lblRatio = ui.label("lblRatio", 5, 182, {width:85, height:25, text:"Fade Ratio", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
-		const var lblGlide = ui.label("lblGlide", 5, 147, {width:85, height:25, text:"Rate", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
-		const var lblGlideMode = ui.label("lblGlMode", 5000, 182, {width:85, height:25, text:"Whole Step", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblTitle = Content.addLabel("lblTitle", 0, 0);
+		ui.setProperties("lblTitle", {width:200, height:25, text:"Articulations", textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize, fontName:Theme.H1.font, alignment:"centred", parentComponent:"articulationEditor"});		
+		
+		//Headings	
+		const var lblArt = Content.addLabel("lblArt", 5, 41);
+		ui.setProperties("lblArt", {width:85, height:25, text:"Articulation", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		
+		const var lblKs = Content.addLabel("lblKs", 5, 76);
+		ui.setProperties("lblKs", {width:85, height:25, text:"Key Switch", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		
+		const var lblUacc = Content.addLabel("lblUacc", 5, 111);
+		ui.setProperties("lblUacc", {width:85, height:25, text:"UACC", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		
+		const var lblAttack = Content.addLabel("lblAttack", 5, 147);
+		ui.setProperties("lblAttack", {width:85, height:25, text:"Attack", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblRelease = Content.addLabel("lblRelease", 5, 182);
+ 		ui.setProperties("lblRelease", {width:85, height:25, text:"Release", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblOffset = Content.addLabel("lblOffset", 5, 147);
+		ui.setProperties("lblOffset", {width:85, height:25, text:"Offset", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblRatio = Content.addLabel("lblRatio", 5, 182);
+		ui.setProperties("lblRatio", {width:85, height:25, text:"Fade Ratio", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblGlide = Content.addLabel("lblRate", 5, 147); 
+		ui.setProperties("lblRate", {width:85, height:25, text:"Rate", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
+		const var lblGlideMode = Content.addLabel("lblGlMode", 5000, 182);
+ 		ui.setProperties("lblGlMode", {width:85, height:25, text:"Whole Step", fontName:Theme.H2.font, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize, alignment:"left", parentComponent:"articulationEditor"});
 		
 		//Articulation dropdown
-		const var cmbArt = ui.comboBoxPanel("cmbArt", 90, 42, {width:100, height:25, text:"Articulation", items:articulationNames, paintRoutine:paintRoutines.dropDown, parentComponent:"articulationEditor"});
+		const var cmbArt = Content.addPanel("cmbArt", 90, 42);
+		ui.comboBoxPanel("cmbArt", {width:100, height:25, text:"Articulation", items:articulationNames, paintRoutine:paintRoutines.dropDown, parentComponent:"articulationEditor"});
 		
 		//One set of controls per articulation
 		const var cmbKs = []; //Key switch selector
@@ -89,21 +105,30 @@ namespace articulationEditor
 		
 		for (i = 0; i < articulationNames.length; i++)
 		{
-			cmbKs.push(ui.comboBoxPanel("cmbKs"+i, 90, 77, {width:100, height:25, text:"Key Switch", items:noteNames, paintRoutine:paintRoutines.dropDown, parentComponent:"aeLeftZone"}));	
-			cmbUacc.push(ui.comboBoxPanel("cmbUacc"+i, 90, 112, {width:100, height:25, text:"UACC", items:uaccValues, paintRoutine:paintRoutines.dropDown, parentComponent:"aeLeftZone"}));
-			sliAttack.push(ui.knob("sliAttack"+i, 90, 147, {width:100, height:25, style:"Horizontal", min:5, max:5000, middlePosition:1000, defaultValue:5, suffix:"ms", stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"}));
-			sliRelease.push(ui.knob("sliRelease"+i, 90, 182, {width:100, height:25, style:"Horizontal", min:25, max:20000, middlePosition:1000, defaultValue:350, suffix:"ms", stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"}));
+			cmbKs.push(Content.addPanel("cmbKs"+i, 90, 77));			
+			ui.comboBoxPanel("cmbKs"+i, {width:100, height:25, text:"Key Switch", items:noteNames, paintRoutine:paintRoutines.dropDown, parentComponent:"articulationEditor"});
+			cmbUacc.push(Content.addPanel("cmbUacc"+i, 90, 112));
+			ui.comboBoxPanel("cmbUacc"+i, {width:100, height:25, text:"UACC", items:uaccValues, paintRoutine:paintRoutines.dropDown, parentComponent:"articulationEditor"});
+			sliAttack.push(Content.addKnob("sliAttack"+i, 90, 147));
+			ui.setProperties("sliAttack"+i, {width:100, height:25, style:"Horizontal", min:5, max:5000, middlePosition:1000, defaultValue:5, suffix:"ms", stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"articulationEditor"});
+			sliRelease.push(Content.addKnob("sliRelease"+i, 90, 182));
+			ui.setProperties("sliRelease"+i, {width:100, height:25, style:"Horizontal", min:25, max:20000, middlePosition:1000, defaultValue:350, suffix:"ms", stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"articulationEditor"});
 		}
 		
 		//Change default attack slider value for sustain articulation
 		sliAttack[ARTICULATIONS.SUSTAIN].set("defaultValue", 300);
 			
 		//Add extra controls for legato and glide articulations
-		const var sliOffset = ui.knob("sliOffset", 90, 147, {width:100, height:25, style:"Horizontal", min:0, max:100, middlePosition:40, defaultValue:25, stepSize:0.1, suffix:"%", bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"});
-		const var sliRatio = ui.knob("sliRatio", 90, 182, {width:100, height:25, style:"Horizontal", min:20, max:100, defaultValue:100, stepSize:1, suffix:"%", bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"aeLeftZone"});
-		const var sliGlide = ui.knob("sliGlide", 90, 147, {width:100, height:25, style:"Horizontal", min:0, max:11, defaultValue:5, stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:0, parentComponent:"aeLeftZone"});
-		const var lblGlideValue = ui.label("sliGlVal", 90, 145, {width:100, height:25, textColour:Theme.SLIDER.text, alignment:"centred", parentComponent:"aeLeftZone"});
-		const var btnGlideMode = ui.buttonPanel("sliGlMode", 90, 182, {width:100, height:25, text:"Whole Step", paintRoutine:paintRoutines.pushButton, parentComponent:"aeLeftZone"});		
+		const var sliOffset = Content.addKnob("sliOffset", 90, 147);
+		ui.setProperties("sliOffset", {width:100, height:25, style:"Horizontal", min:0, max:100, middlePosition:40, defaultValue:25, stepSize:0.1, suffix:"%", bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"articulationEditor"});
+		const var sliRatio = Content.addKnob("sliRatio", 90, 182);
+		ui.setProperties("sliRatio", {width:100, height:25, style:"Horizontal", min:20, max:100, defaultValue:100, stepSize:1, suffix:"%", bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:Theme.SLIDER.text, parentComponent:"articulationEditor"});
+		const var sliGlide = Content.addKnob("sliGlide", 90, 147);
+		ui.setProperties("sliGlide", {width:100, height:25, style:"Horizontal", min:0, max:11, defaultValue:5, stepSize:1, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, itemColour2:0, textColour:0, parentComponent:"articulationEditor"});
+		const var lblGlideValue = Content.addLabel("sliGlVal", 90, 145);
+		ui.setProperties("sliGlVal", {width:100, height:25, textColour:Theme.SLIDER.text, alignment:"centred", parentComponent:"articulationEditor"});
+		const var btnGlideMode = Content.addButton("btnGlMode", 90, 182);
+		ui.buttonPanel("btnGlMode", {width:100, height:25, text:"Whole Step", paintRoutine:paintRoutines.pushButton, parentComponent:"articulationEditor"});
 		
 		setKsColours(); //Update KS colours
 	}
@@ -272,7 +297,7 @@ namespace articulationEditor
 	{
 		for (i = 0; i < 128; i++)
 		{
-			if (i < playableRange[0] || i > playableRange[1]) ui.resetKeyColour(i); //Reset colour of all keys outside of playable range
+			if (i < playableRange[0] || i > playableRange[1])  Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset colour of all keys outside of playable range
 			if (keyswitches.contains(i)) Engine.setKeyColour(i, Colours.withAlpha(Colours.red, 0.3)); //Set colour of key switches
 		}
 	}
