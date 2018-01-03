@@ -19,7 +19,7 @@ namespace Theme1
 {
 	const var BLACK = 0xFF000000;
 	const var WHITE = 0xFFFFFFFF;
-	const var FEATURE_COLOUR = 0xFF86b300;
+	const var FEATURE_COLOUR = 0xFFB0892C;
 	const var BG = 0xFF222222;
 	const var TITLE = {colour:0xFFFFFFFF, fontName:"Open Sans Bold", fontSize:26}; //Patch title text
 	const var H1 = {colour:0xFFFFFFFF, fontName:"Open Sans Bold", fontSize:19}; //Main headings text
@@ -37,7 +37,7 @@ namespace Theme
 {
 	const var BLACK = 0xFF000000;
 	const var WHITE = 0xFFFFFFFF;
-	const var FEATURE_COLOUR = 0xFF86b300;
+	const var FEATURE_COLOUR = 0xFFB0892C;
 	const var BG = 0xFF222222;
 	const var TITLE = {colour:0xFFFFFFFF, fontName:"Sarala-Bold", fontSize:34}; //Patch title text
 	const var H1 = {colour:0xFFFFFFFF, fontName:"Sarala-Bold", fontSize:26}; //Main headings text
