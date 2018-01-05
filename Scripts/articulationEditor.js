@@ -23,8 +23,8 @@ namespace articulationEditor
 	{
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var muterIds = Synth.getIdList("MidiMuter");
+		const var containerIds = Synth.getIdList("Container");
 		
-		local containerIds = Synth.getIdList("Container");
 		reg containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
 		reg envelopes = {};
@@ -39,6 +39,9 @@ namespace articulationEditor
 		const var sliArtVol = [];
 		const var sliAtk = [];
 		const var sliRel = [];
+		const var lblVol = Content.getComponent("lblVol");
+		const var lblAtk = Content.getComponent("lblAtk");
+		const var lblRel = Content.getComponent("lblRel");
 				
 		const var cmbArt = Content.getComponent("cmbArt");
 		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, idh.getArticulationDisplayNames(instrumentName));
@@ -116,7 +119,7 @@ namespace articulationEditor
 		if (idx != -1) //Keyswitch triggered the callback
 		{
 			changeArticulation(idx);
-			asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, idx);
+			asyncUpdater.setFunctionAndUpdate(articulationHandlerAndColourKeys, idx);
 			cmbArt.setValue(idh.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change selected articulation display
 			cmbArt.repaint(); //Async repaint	
 		}
@@ -136,7 +139,7 @@ namespace articulationEditor
 				if (idx != -1) //Assigned program number triggered callback
 				{
 					changeArticulation(idx);
-					asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, idx);
+					asyncUpdater.setFunctionAndUpdate(articulationHandlerAndColourKeys, idx);
 					cmbArt.setValue(idh.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change displayed selected articulation
 					cmbArt.repaint(); //Async repaint
 				}
@@ -163,7 +166,7 @@ namespace articulationEditor
 			local idx = idh.allArticulationIndexToInstrumentArticulationIndex(value-1);
 			changeArticulation(idx);
 		    colourPlayableKeys();
-		    showArticulationControls(idx); //Change displayed articulation controls
+		    articulationHandler(idx); //Change displayed articulation controls
 		}
 
 		for (i = 0; i < idh.getNumArticulations(null); i++) //Each of the instrument's articulations
@@ -223,8 +226,8 @@ namespace articulationEditor
 		}
 	}
 	
-	inline function showArticulationControls(idx)
-	{
+	inline function articulationHandler(idx)
+	{	    
 		for (i = 0; i < idh.getNumArticulations(null); i++)
 		{
 			//Hide all articulations controls
@@ -242,16 +245,24 @@ namespace articulationEditor
 		
 		if (idh.getArticulationNames(null)[idx].indexOf("meta_") == -1) //Not meta articulaiton
 	    {
+	        legatoHandler.setAttribute(0, 1); //Bypass legato script
             sliArtVol[idx].set("visible", true);
             sliAtk[idx].set("visible", true);
-            sliRel[idx].set("visible", true);	       
+            sliRel[idx].set("visible", true);
+            lblVol.set("visible", true);
+            lblAtk.set("visible", true);
+            lblRel.set("visible", true);
+	    }
+	    else //Meta articulation
+	    {
+	        metaArticulationHandler(idx);
 	    }
 	}
 	
-	inline function showArticulationControlsAndColourKeys(idx)
+	inline function articulationHandlerAndColourKeys(idx)
 	{
 		colourPlayableKeys();
-		showArticulationControls(idx); //Change displayed articulation controls
+		articulationHandler(idx); //Change displayed articulation controls
 	}
 	
 	inline function changeArticulation(idx)
@@ -285,4 +296,14 @@ namespace articulationEditor
 			}
 		}
 	}
+	
+	inline function metaArticulationHandler(idx)
+    {
+        local a = idh.getArticulationName(idx); //Get name of articulation
+        
+        if (a == "meta_legato"  || a == "meta_glide") //Legato script articulation
+        {
+            legatoHandler.setAttribute(idx, 1); //Enable correct legato script mode
+        }
+    }
 }
