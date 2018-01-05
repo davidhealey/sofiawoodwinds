@@ -10,6 +10,13 @@ namespace instData
 		    displayName:"Alto Flute",
 			range:[60, 90], //Maximum range of instrument
 			keyswitches:[24, 25, 26, 27], //Default keyswitches (unused should be set to -1)
+			legatoSettings:
+		    {
+                bendTime:10,
+                minBend:30,
+                maxBend:70,
+                fadeTime:80
+		    },
 			articulations:
 			{
 				sustain:{range:[60, 90]},

@@ -137,6 +137,18 @@ inline function changeBufferSettings(attribute, value)
 	{
 		s.setAttribute(attribute, bufferSizes[value]);
 	}
+}
+
+inline function loadLegatoSettings()
+{
+    local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
+    local legatoHandler = Synth.getMidiProcessor("legatoHandler");
+    local settings = idh.getData(instrumentName)["legatoSettings"]; //Get instrument's legato settings
+    
+    legatoHandler.setAttribute(attributes.BEND_TIME, settings.bendTime);
+    legatoHandler.setAttribute(attributes.MIN_BEND, settings.minBend);
+    legatoHandler.setAttribute(attributes.MAX_BEND, settings.maxBend);
+    legatoHandler.setAttribute(attributes.FADE_TIME, settings.fadeTime);
 }function onNoteOn()
 {
 	articulationEditor.onNoteCB();
@@ -162,6 +174,7 @@ function onControl(number, value)
 	    case cmbInstrument: //Hidden admin control to select instrument for preset
 	        instrumentName = cmbInstrument.getItemText();
 	        idh.loadInstrument(instrumentName, false);
+	        loadLegatoSettings();
 	    break;
 	    
 		case btnPreset:
