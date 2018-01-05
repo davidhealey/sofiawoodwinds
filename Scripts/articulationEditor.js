@@ -28,16 +28,12 @@ namespace articulationEditor
 		reg containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
 		reg envelopes = {};
-	
-		//Get articulation containers
-		for (c in containerIds) //containerIDs
-		{
-			if (idh.getArticulationNames(null).indexOf(c) != -1)
-			{
-				containers.push(Synth.getChildSynth(c));
-			}
-		}
-		
+
+		//Variables used to get the parent index of meta articulations
+        local articulationName;
+        local parentName;
+        local parentIdx;
+        		
 		//GUI
 		const var cmbKs = [];
 		const var sliArtVol = [];
@@ -59,30 +55,53 @@ namespace articulationEditor
 			ui.comboBoxPanel("cmbKs"+i, paintRoutines.comboBox, noteNames);
 			Content.setPropertiesFromJSON("cmbKs"+i, {x:90});
 	
-			sliAtk.push(Content.getComponent("sliAtk"+i));
-			Content.setPropertiesFromJSON("sliAtk"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+			//Attack release and volume controls, only applicable to non-meta articulations
+			if (idh.getArticulationNames(null)[i].indexOf("meta_") == -1)
+		    {
+                sliAtk[i] = Content.getComponent("sliAtk"+i);
+                Content.setPropertiesFromJSON("sliAtk"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
 	
-			sliRel.push(Content.getComponent("sliRel"+i));
-			Content.setPropertiesFromJSON("sliRel"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+                sliRel[i] = Content.getComponent("sliRel"+i);
+                Content.setPropertiesFromJSON("sliRel"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
 	
-			sliArtVol.push(Content.getComponent("sliArtVol"+i));
-			Content.setPropertiesFromJSON("sliArtVol"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
-	
-			//Get MIDI muter for each articulation
-			for (m in muterIds) //Each MIDI muter ID
-			{
-				if (m.indexOf(idh.getArticulationNames(null)[i]) != -1) //MIDI muter ID contains articulation name
+                sliArtVol[i] = Content.getComponent("sliArtVol"+i);
+                Content.setPropertiesFromJSON("sliArtVol"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+		    }
+		    
+            //Get containers and muters for each articulation
+            for (j = 0; j < containerIds.length; j++)
+            {
+		        if (idh.getArticulationNames(null)[i].indexOf("meta_") != -1) //Meta artculation uses parent's
 				{
-					muters[i] = Synth.getMidiProcessor(m); //Get muter for articulation
-					break; //Exit inner loop
+				    //Get the parent's index
+				    articulationName = idh.getArticulationNames(null)[i];
+				    parentName = idh.getData(instrumentName).articulations[articulationName].parent;
+				    parentIdx = idh.getArticulationNames(null).indexOf(parentName);
+
+				    containers[i] = containers[parentIdx];; //Use parent's container for meta articulation
+				    muters[i] = muters[parentIdx]; //Use parent's muter for meta articulation
+				    break; //Exit inner loop
 				}
-			}
-	
-			//Find envelopes for each articulation - ignore those with Release or Without envelope in the ID
+				else 
+                {
+                    if (containerIds[j].indexOf(idh.getArticulationNames(null)[i]) != -1)
+                    {
+                        containers.push(Synth.getChildSynth(containerIds[j]));
+                    }
+                    
+                    if (j < muterIds.length && muterIds[j].indexOf(idh.getArticulationNames(null)[i]) != -1) //MIDI muter ID contains articulation name   
+                    {
+                        muters.push(Synth.getMidiProcessor(muterIds[j])); //Get muter for articulation
+                    } 
+                }
+            }
+            		    	
+			//Find envelopes for each articulation - ignore those with Release or without envelope in the ID
 			for (e in envelopeIds)
 			{
 				if (e.indexOf(idh.getArticulationNames(null)[i]) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
 				{
+   				    if (idh.getArticulationNames(null)[i].indexOf("meta_") != -1) continue; //Skip meta articulations
 					if (envelopes[i] == undefined) envelopes[i] = []; //An articulation may have more than one envelope
 					envelopes[i].push(Synth.getModulator(e));
 				}
@@ -204,22 +223,29 @@ namespace articulationEditor
 		}
 	}
 	
-	inline function showArticulationControls(a)
+	inline function showArticulationControls(idx)
 	{
 		for (i = 0; i < idh.getNumArticulations(null); i++)
 		{
 			//Hide all articulations controls
 			cmbKs[i].set("visible", false);
+			
+			if (idh.getArticulationNames(null)[i].indexOf("meta_") != -1) continue; //Skip meta articulations
+
 			sliArtVol[i].set("visible", false);
 			sliAtk[i].set("visible", false);
 			sliRel[i].set("visible", false);
 		}
 		
-		//Show controls for current articulation (a)
-		cmbKs[a].set("visible", true);
-		sliArtVol[a].set("visible", true);
-		sliAtk[a].set("visible", true);
-		sliRel[a].set("visible", true);		
+		//Show controls for given articulation index (idx)
+		cmbKs[idx].set("visible", true);
+		
+		if (idh.getArticulationNames(null)[idx].indexOf("meta_") == -1) //Not meta articulaiton
+	    {
+            sliArtVol[idx].set("visible", true);
+            sliAtk[idx].set("visible", true);
+            sliRel[idx].set("visible", true);	       
+	    }
 	}
 	
 	inline function showArticulationControlsAndColourKeys(idx)
