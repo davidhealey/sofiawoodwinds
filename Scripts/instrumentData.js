@@ -1,22 +1,21 @@
 namespace instData
 {	
-	const var allArticulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
-	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", "Prés de la table", "Harmonics"];
-	reg programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
+	const var allArticulations = ["sustain", "staccato", "flutter", "harmonics"];
+	const var articulationDisplayNames = ["Sustain", "Staccato", "Flutter", "Harmonics"];
+	reg programs = [1, 40, 50]; //UACC and Program Change numbers for articulations
 
 	const var database = {
 		altoFlute:
 		{
 		    displayName:"Alto Flute",
-			range:[60, 96], //Maximum range of instrument
-			keyswitches:[24, 25, 26, 27, 28], //Default keyswitches (unused should be set to -1)
+			range:[60, 90], //Maximum range of instrument
+			keyswitches:[24, 25, 26, 27], //Default keyswitches (unused should be set to -1)
 			articulations:
 			{
-				normal:{range:[60, 96]},
-				staccato:{range:[60, 96]},
-				fingernail:{range:[60, 96]},
-				table:{range:[60, 96]},
-				harmonics:{range:[60, 88]}
+				sustain:{range:[60, 90]},
+				staccato:{range:[60, 90]},
+				flutter:{range:[60, 90]},
+				harmonics:{range:[60, 90]}
 			}
 		}		
 	};
