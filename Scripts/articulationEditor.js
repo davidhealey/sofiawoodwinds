@@ -24,12 +24,13 @@ namespace articulationEditor
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var muterIds = Synth.getIdList("MidiMuter");
 		
+		local containerIds = Synth.getIdList("Container");
 		reg containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
 		reg envelopes = {};
 	
 		//Get articulation containers
-		for (c in containerIds) //containerIDs is in main script
+		for (c in containerIds) //containerIDs
 		{
 			if (idh.getArticulationNames(null).indexOf(c) != -1)
 			{
