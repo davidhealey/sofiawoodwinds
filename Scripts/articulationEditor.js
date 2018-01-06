@@ -25,6 +25,7 @@ namespace articulationEditor
 		const var muterIds = Synth.getIdList("MidiMuter");
 		const var containerIds = Synth.getIdList("Container");
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
+        const var releaseHandler = Synth.getMidiProcessor("sustainReleaseHandler"); //Sustain/legato/glide release handler
         
 		reg containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
@@ -290,6 +291,7 @@ namespace articulationEditor
 		if (idh.getArticulationNames(null)[idx].indexOf("meta_") == -1) //Not meta articulaiton
 	    {
 	        legatoHandler.setAttribute(0, 1); //Bypass legato script
+	        releaseHandler.setAttribute(1, 0); //Disable release legato mode
             sliArtVol[idx].set("visible", true);
             sliAtk[idx].set("visible", true);
             sliRel[idx].set("visible", true);
@@ -351,6 +353,7 @@ namespace articulationEditor
             lblAtk.set("visible", false);
             lblRel.set("visible", false);
             legatoHandler.setAttribute(idx, 1); //Enable correct legato script mode
+            releaseHandler.setAttribute(1, 1); //Enable release legato mode
             
             if (a == "meta_legato") //Legato specific controls
             {
