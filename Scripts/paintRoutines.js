@@ -56,7 +56,7 @@ namespace paintRoutines
 		g.fillRoundedRectangle([0, 0, this.get("width"), this.get("height")], 2);
 		
 		this.getValue() == 0 ? g.setColour(Theme.PUSH_BUTTON.textAlt) : g.setColour(Theme.PUSH_BUTTON.text);
-		g.setFont(Theme.PUSH_BUTTON.font, Theme.PUSH_BUTTON.fontSize);
+		g.setFont(Theme.PUSH_BUTTON.fontName, Theme.PUSH_BUTTON.fontSize);
 		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");		
 	};
 	

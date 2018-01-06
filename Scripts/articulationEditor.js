@@ -24,11 +24,12 @@ namespace articulationEditor
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var muterIds = Synth.getIdList("MidiMuter");
 		const var containerIds = Synth.getIdList("Container");
-		
+        const var rates = ["1/1", "1/2", "1/2T", "1/4", "1/4T", "1/8", "1/8T", "1/16", "1/16T", "1/32", "1/32T", "Velocity"]; //Glide time rates		
+        
 		reg containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
 		reg envelopes = {};
-
+		
 		//Variables used to get the parent index of meta articulations
         local articulationName;
         local parentName;
@@ -42,7 +43,18 @@ namespace articulationEditor
 		const var lblVol = Content.getComponent("lblVol");
 		const var lblAtk = Content.getComponent("lblAtk");
 		const var lblRel = Content.getComponent("lblRel");
-				
+		
+		const var lblOffset = ui.setupControl("lblOffset", {fontName:Theme.H2.fontName, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize});
+		const var lblRatio = ui.setupControl("lblRatio", {fontName:Theme.H2.fontName, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize});
+		const var lblRate = ui.setupControl("lblRate", {fontName:Theme.H2.fontName, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize});
+		const var lblGlide = ui.setupControl("lblGlide", {fontName:Theme.H2.fontName, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize});
+		const var sliOffset = ui.setupControl("sliOffset", {bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, textColour:Theme.SLIDER.text});
+		const var sliRatio = ui.setupControl("sliRatio", {bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, textColour:Theme.SLIDER.text});
+		const var sliRate = ui.setupControl("sliRate", {bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, textColour:Theme.SLIDER.text});
+		const var lblGlideVal = Content.getComponent("lblGlideVal");
+		const var btnGlideMode = Content.getComponent("btnGlideMode");
+		ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);
+		
 		const var cmbArt = Content.getComponent("cmbArt");
 		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, idh.getArticulationDisplayNames(instrumentName));
 	
@@ -161,53 +173,74 @@ namespace articulationEditor
 	
 	inline function onControlCB(number, value)
 	{
-		if (number == cmbArt)
-		{
-			local idx = idh.allArticulationIndexToInstrumentArticulationIndex(value-1);
-			changeArticulation(idx);
-		    colourPlayableKeys();
-		    articulationHandler(idx); //Change displayed articulation controls
-		}
+	    switch (number)
+	    {
+	        case cmbArt:
+                local idx = idh.allArticulationIndexToInstrumentArticulationIndex(value-1);
+                changeArticulation(idx);
+                colourPlayableKeys();
+                articulationHandler(idx); //Change displayed articulation controls
+            break;
+            
+		    case sliOffset:
+				legatoHandler.setAttribute(9, 1-(value/100));
+			break;
+			
+			case sliRatio:
+				legatoHandler.setAttribute(8, value);
+			break;
+			
+			case sliRate:
+				legatoHandler.setAttribute(10, value);
+				lblGlideVal.set("text", rates[value]);
+			break;
+			
+			case btnGlideMode:
+				legatoHandler.setAttribute(3, value);
+			break;
+			
+            default:
+                for (i = 0; i < idh.getNumArticulations(null); i++) //Each of the instrument's articulations
+                {
+                    if (number == cmbKs[i]) //Key switch
+                    {
+                        local r = idh.getRange(instrumentName); //Full playable range of instrument
 
-		for (i = 0; i < idh.getNumArticulations(null); i++) //Each of the instrument's articulations
-		{
-			if (number == cmbKs[i]) //Key switch
-			{
-				local r = idh.getRange(instrumentName); //Full playable range of instrument
-
-				if (value-1 < r[0] || value-1 > r[1]) //Outside playable range
-				{
-					Engine.setKeyColour(idh.getKeyswitch(instrumentName, i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+                        if (value-1 < r[0] || value-1 > r[1]) //Outside playable range
+                        {
+                            Engine.setKeyColour(idh.getKeyswitch(instrumentName, i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
 					
-					if (idh.searchArticulationIndexes(i) != -1) //If the articulation is used by the instrument
-					{
-						idh.setKeyswitch(instrumentName, i, value-1); //Update KS
-						Engine.setKeyColour(value-1, Colours.withAlpha(Colours.red, 0.3)); //Update KS colour					
-					}
-				}
-				else 
-				{
-					cmbKs[i].setValue(idh.getKeyswitch(instrumentName, i)+1); //Revert to previous KS
-					cmbKs[i].repaintImmediately();
-				}
-				break;
-			}
-			else if (number == sliArtVol[i]) //Articulation volume
-			{
-				containers[i].setAttribute(0, Engine.getGainFactorForDecibels(value));
-				break;
-			}
-			else if (number == sliAtk[i])
-			{
-				setEnvelopeAttack(i, value);
-				break;
-			}
-			else if (number == sliRel[i])
-			{
-				setEnvelopeRelease(i, value);
-				break;
-			}
-		}
+                            if (idh.searchArticulationIndexes(i) != -1) //If the articulation is used by the instrument
+                            {
+                                idh.setKeyswitch(instrumentName, i, value-1); //Update KS
+                                Engine.setKeyColour(value-1, Colours.withAlpha(Colours.red, 0.3)); //Update KS colour					
+                            }
+                        }
+                        else 
+                        {
+                            cmbKs[i].setValue(idh.getKeyswitch(instrumentName, i)+1); //Revert to previous KS
+                            cmbKs[i].repaintImmediately();
+                        }
+                        break;
+                    }
+                    else if (number == sliArtVol[i]) //Articulation volume
+                    {
+                        containers[i].setAttribute(0, Engine.getGainFactorForDecibels(value));
+                        break;
+                    }
+                    else if (number == sliAtk[i])
+                    {
+                        setEnvelopeAttack(i, value);
+                        break;
+                    }
+                    else if (number == sliRel[i])
+                    {
+                        setEnvelopeRelease(i, value);
+                        break;
+                    }
+                }
+            break;
+	    }
 	}
 	
 	inline function setEnvelopeAttack(idx, value)
@@ -240,6 +273,16 @@ namespace articulationEditor
 			sliRel[i].set("visible", false);
 		}
 		
+		//Meta articulation controls
+		lblOffset.set("visible", false);
+		lblRatio.set("visible", false);
+        lblRate.set("visible", false);
+        lblGlide.set("visible", false);
+		sliOffset.set("visible", false);
+		sliRatio.set("visible", false);
+        sliRate.set("visible", false);
+        lblGlideVal.set("visible", false);
+            
 		//Show controls for given articulation index (idx)
 		cmbKs[idx].set("visible", true);
 		
@@ -303,7 +346,25 @@ namespace articulationEditor
         
         if (a == "meta_legato"  || a == "meta_glide") //Legato script articulation
         {
+            lblVol.set("visible", false);
+            lblAtk.set("visible", false);
+            lblRel.set("visible", false);
             legatoHandler.setAttribute(idx, 1); //Enable correct legato script mode
+            
+            if (a == "meta_legato") //Legato specific controls
+            {
+                lblOffset.set("visible", true);
+                lblRatio.set("visible", true);
+                sliOffset.set("visible", true);
+                sliRatio.set("visible", true);
+            }
+            else //Glide specific controls
+            {
+                lblRate.set("visible", true);
+                lblGlide.set("visible", true);
+                sliRate.set("visible", true);
+                lblGlideVal.set("visible", true);
+            }
         }
     }
 }
