@@ -24,7 +24,7 @@ namespace articulationEditor
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var muterIds = Synth.getIdList("MidiMuter");
 		const var containerIds = Synth.getIdList("Container");
-        const var rates = ["1/1", "1/2", "1/2T", "1/4", "1/4T", "1/8", "1/8T", "1/16", "1/16T", "1/32", "1/32T", "Velocity"]; //Glide time rates		
+        const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
         
 		reg containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
@@ -282,6 +282,7 @@ namespace articulationEditor
 		sliRatio.set("visible", false);
         sliRate.set("visible", false);
         lblGlideVal.set("visible", false);
+        btnGlideMode.set("visible", false);
             
 		//Show controls for given articulation index (idx)
 		cmbKs[idx].set("visible", true);
@@ -364,6 +365,7 @@ namespace articulationEditor
                 lblGlide.set("visible", true);
                 sliRate.set("visible", true);
                 lblGlideVal.set("visible", true);
+                btnGlideMode.set("visible", true);
             }
         }
     }
