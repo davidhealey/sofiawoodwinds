@@ -303,6 +303,12 @@ namespace articulationEditor
 	    {
 	        metaArticulationHandler(idx);
 	    }
+	    
+	    //If articulation is sustain enable correct round robin mode
+	    if (idh.getArticulationNames(null)[idx] == "sustain")
+	    {
+            changeRRSettings();   
+	    }
 	}
 	
 	inline function articulationHandlerAndColourKeys(idx)
@@ -349,11 +355,13 @@ namespace articulationEditor
         
         if (a == "meta_legato"  || a == "meta_glide") //Legato script articulation
         {
+            legatoHandler.setAttribute(idx, 1); //Enable correct legato script mode
+            releaseHandler.setAttribute(1, 1); //Enable release legato mode
+            sustainRoundRobin.setAttribute(0, 1); //Bypass round robin
+            
             lblVol.set("visible", false);
             lblAtk.set("visible", false);
             lblRel.set("visible", false);
-            legatoHandler.setAttribute(idx, 1); //Enable correct legato script mode
-            releaseHandler.setAttribute(1, 1); //Enable release legato mode
             
             if (a == "meta_legato") //Legato specific controls
             {
