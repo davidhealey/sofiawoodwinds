@@ -34,10 +34,13 @@ Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
 Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
 
 const var cmbInstrument = Content.getComponent("cmbInstrument"); //Instrument name selector (admin control)
-reg instrumentName = cmbInstrument.getItemText(); //Instrument name, accesible to every other part of script
+reg instrumentName = "altoFlute"; //Instrument name, accesible to every other part of script
 
 const var noteNames = [];
 const var ccNums = [];
+
+const var legatoHandler = Synth.getMidiProcessor("legatoHandler"); //legato handler script
+const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sustain/legato/glide round robin handler
 
 const var samplerIds = Synth.getIdList("Sampler");
 const var containerIds = Synth.getIdList("Container");
@@ -118,17 +121,16 @@ const var fltSettings = Content.getComponent("fltSettings");
 fltSettings.setContentData(SettingsJson.settings);
 SettingsJson.settings["Content"].push({"Type":"PresetBrowser", "Title":"Presets", "ColourData":{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}});
 
-const var cmbSettings = [];
+const var bufferSizes = [256, 512, 1024, 2048, 4096, 8192, 16384];
+const var cmbPreload = ui.comboBoxPanel("cmbPreload", paintRoutines.comboBox, bufferSizes); //Preload size
+const var cmbBuffer = ui.comboBoxPanel("cmbBuffer", paintRoutines.comboBox, bufferSizes); //Buffer Size
+const var cmbRRMode = ui.comboBoxPanel("cmbRRMode", paintRoutines.comboBox, ["Off", "Cycle RR", "Random RR"]); //RR Mode
 
+//Settings label properties
 for (i = 0; i < 3; i++)
 {
 	Content.setPropertiesFromJSON("lblSet"+i, {textColour:Theme.H2.colour, fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
-	cmbSettings[i] = Content.getComponent("cmbSet"+i);
 }
-const var bufferSizes = [256, 512, 1024, 2048, 4096, 8192, 16384];
-ui.comboBoxPanel("cmbSet0", paintRoutines.comboBox, bufferSizes); //Preload size
-ui.comboBoxPanel("cmbSet1", paintRoutines.comboBox, bufferSizes); //Buffer Size
-ui.comboBoxPanel("cmbSet2", paintRoutines.comboBox, ["Off", "Cycle RR", "Random RR"]); //RR Mode
 
 //Functions
 inline function changeBufferSettings(attribute, value)
@@ -142,13 +144,34 @@ inline function changeBufferSettings(attribute, value)
 inline function loadLegatoSettings()
 {
     local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
-    local legatoHandler = Synth.getMidiProcessor("legatoHandler");
     local settings = idh.getData(instrumentName)["legatoSettings"]; //Get instrument's legato settings
     
     legatoHandler.setAttribute(attributes.BEND_TIME, settings.bendTime);
     legatoHandler.setAttribute(attributes.MIN_BEND, settings.minBend);
     legatoHandler.setAttribute(attributes.MAX_BEND, settings.maxBend);
     legatoHandler.setAttribute(attributes.FADE_TIME, settings.fadeTime);
+}
+
+inline function changeRRSettings()
+{
+        for (r in rrHandlers) //Each round robin handler script
+    {
+        if (cmbRRMode.getValue() == 1)
+        {
+            r.setAttribute(0, 1); //Bypass button
+        }
+        else 
+        {
+            r.setAttribute(0, 0); //Bypass button
+            cmbRRMode.getValue() == 3 ? r.setAttribute(1, 1) : r.setAttribute(1, 0); //Random/Cycle mode
+        }
+    }
+    
+    //Bypass sustain RR if in a legato mode
+    if (legatoHandler.getAttribute(0) != 1) //Legato/Glide enabled
+    {
+        sustainRoundRobin.setAttribute(0, 1); //Bypass sustain RR
+    }
 }function onNoteOn()
 {
 	articulationEditor.onNoteCB();
@@ -181,27 +204,16 @@ function onControl(number, value)
 			ui.showControlFromArray(tabs, value);
 		break;
 			
-		case cmbSettings[0]: //Preload size
+		case cmbPreload: //Preload size
 			changeBufferSettings(4, value-1);
 		break;
 		
-		case cmbSettings[1]: //Buffer size
+		case cmbBuffer: //Buffer size
 			changeBufferSettings(5, value-1);
 		break;
 
-		case cmbSettings[2]: //RR Mode
-		    for (r in rrHandlers) //Each round robin handler script
-            {
-	            if (value == 1)
-                {
-                    r.setAttribute(0, 1); //Bypass button
-                }
-                else 
-                {
-                    r.setAttribute(0, 0); //Bypass button
-                    value == 3 ? r.setAttribute(1, 1) : r.setAttribute(1, 0); //Random/Cycle mode
-                }
-            }
+		case cmbRRMode: //RR Mode
+            changeRRSettings();
 		break;
 		
 		default:
