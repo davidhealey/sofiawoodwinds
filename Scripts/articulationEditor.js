@@ -173,6 +173,21 @@ namespace articulationEditor
 			
 			case 64: //Sustain pedal
 			    Message.ignoreEvent(true);
+			
+                if (cmbArt.getValue()-1 == idh.getArticulationIndex("meta_legato", false)) //Current articulation is legato
+                {				
+                    Synth.isSustainPedalDown() ? legatoHandler.setAttribute(11, 1) : legatoHandler.setAttribute(11, 0); //Toggle same note legato based on sustain pedal position
+                }
+                else if (cmbArt.getValue()-1 == idh.getArticulationIndex("meta_glide", false) && !Synth.isSustainPedalDown()) //Current articulation is glide and sustain pedal is lifted
+                {
+                    //Change articulation to legato
+                    local idx = idh.getArticulationIndex("meta_legato", false);
+                    
+                    cmbArt.setValue(idx+1);
+                    cmbArt.repaint();
+                    changeArticulation(idx);
+                    asyncUpdater.setFunctionAndUpdate(articulationUIHandler, idx);
+                }	
 			break;			
 			
 			case 73: //MIDI attack CC
