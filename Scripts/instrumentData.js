@@ -1,6 +1,6 @@
 namespace instData
 {	
-	const var allArticulations = ["sustain", "meta_legato", "meta_glide", "staccato", "flutter", "harmonics"];
+	const var allArticulations = ["sustain", "meta_legato", "meta_glide", "staccato", "flutter", "harmonics"]; //Global articulation list, available to all instruments
 	const var articulationDisplayNames = ["Sustain", "Legato", "Glide", "Staccato", "Flutter", "Harmonics"];
 	reg programs = [1, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
 
