@@ -129,26 +129,22 @@ namespace articulationEditor
 	{
 		reg idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check for index in keyswitches array
 
-		if (idx != -1) //Keyswitch triggered the callback
+		if (idx == -1) //keyswitch did not trigger callback
+	    {
+            //If the current articulation is legato, two notes are held, and the sustain pedal is down, change to the glide articulation
+			if (cmbArt.getValue()-1 == idh.getArticulationIndex("meta_legato", false) && Synth.isLegatoInterval() && Synth.isSustainPedalDown())
+			{
+			    idx = idh.getArticulationIndex("meta_glide", false);
+			}
+	    }
+		
+		if (idx != -1) //Keyswitch triggered the callback or switched to glide articulation via sustain pedal
 		{
 		    cmbArt.setValue(idx+1);
 			cmbArt.repaint(); //Async repaint
 			changeArticulation(idx);
 			asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx);
 		}
-		else 
-	    {
-            //If the current articulation is legato, two notes are held, and the sustain pedal is down, change to the glide articulation
-			if (cmbArt.getValue()-1 == idh.getArticulationIndex("meta_legato", false) && Synth.isLegatoInterval() && Synth.isSustainPedalDown())
-			{
-			    idx = idh.getArticulationIndex("meta_glide", false);
-
-                cmbArt.setValue(idx+1);
-                cmbArt.repaint(); //Async
-                changeArticulation(idx);
-                asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx);
-			}
-	    }
 	}
 		
 	inline function onControllerCB()
@@ -186,7 +182,7 @@ namespace articulationEditor
                     cmbArt.setValue(idx+1);
                     cmbArt.repaint();
                     changeArticulation(idx);
-                    asyncUpdater.setFunctionAndUpdate(articulationUIHandler, idx);
+                    asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx);
                 }	
 			break;			
 			
