@@ -224,6 +224,7 @@ namespace articulationEditor
 			
 			case btnGlideMode:
 				legatoHandler.setAttribute(3, value);
+				btnGlideMode.repaintImmediately();
 			break;
 			
             default:

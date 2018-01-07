@@ -52,10 +52,10 @@ namespace paintRoutines
 	
 	const var pushButton = function(g)
 	{							
-		this.getValue() == 0 ? g.setColour(Theme.PUSH_BUTTON.off) : g.setColour(Theme.PUSH_BUTTON.on);
+		this.getValue() < 1 ? g.setColour(Theme.PUSH_BUTTON.off) : g.setColour(Theme.PUSH_BUTTON.on);
 		g.fillRoundedRectangle([0, 0, this.get("width"), this.get("height")], 2);
 		
-		this.getValue() == 0 ? g.setColour(Theme.PUSH_BUTTON.textAlt) : g.setColour(Theme.PUSH_BUTTON.text);
+		this.getValue() < 1 ? g.setColour(Theme.PUSH_BUTTON.textAlt) : g.setColour(Theme.PUSH_BUTTON.text);
 		g.setFont(Theme.PUSH_BUTTON.fontName, Theme.PUSH_BUTTON.fontSize);
 		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");		
 	};
