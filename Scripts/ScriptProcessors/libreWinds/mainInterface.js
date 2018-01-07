@@ -46,12 +46,18 @@ const var samplerIds = Synth.getIdList("Sampler");
 const var containerIds = Synth.getIdList("Container");
 const var scriptIds = Synth.getIdList("Script Processor");
 const var samplers = [];
+const var releaseSamplers = [];
 const var rrHandlers = []; //Round robin script processors
 
 //Build array of samplers
 for (id in samplerIds)
 {
 	samplers.push(Synth.getSampler(id));
+	
+	if (id.indexOf("elease") != -1) //Release sampler
+    {
+        releaseSamplers.push(Synth.getSampler(id));   
+    }
 }
 
 //Build array of round robin handler scrips
@@ -125,6 +131,7 @@ const var bufferSizes = [256, 512, 1024, 2048, 4096, 8192, 16384];
 const var cmbPreload = ui.comboBoxPanel("cmbPreload", paintRoutines.comboBox, bufferSizes); //Preload size
 const var cmbBuffer = ui.comboBoxPanel("cmbBuffer", paintRoutines.comboBox, bufferSizes); //Buffer Size
 const var cmbRRMode = ui.comboBoxPanel("cmbRRMode", paintRoutines.comboBox, ["Off", "Cycle RR", "Random RR"]); //RR Mode
+const var btnReleases = ui.buttonPanel("btnReleases", paintRoutines.pushButton);
 
 //Settings label properties
 for (i = 0; i < 3; i++)
@@ -214,6 +221,15 @@ function onControl(number, value)
 
 		case cmbRRMode: //RR Mode
             changeRRSettings();
+		break;
+		
+		case btnReleases: //Release triggers purge/load
+		    value == 1 ? btnReleases.set("text", "Loaded") : btnReleases.set("text", "Purged");
+		    btnReleases.repaintImmediately();
+		    for (s in releaseSamplers)
+            {
+	            s.setAttribute(12, 1-value);
+            }
 		break;
 		
 		default:

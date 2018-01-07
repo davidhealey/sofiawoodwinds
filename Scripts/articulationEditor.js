@@ -53,8 +53,7 @@ namespace articulationEditor
 		const var sliRatio = ui.setupControl("sliRatio", {bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, textColour:Theme.SLIDER.text});
 		const var sliRate = ui.setupControl("sliRate", {bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, textColour:Theme.SLIDER.text});
 		const var lblGlideVal = Content.getComponent("lblGlideVal");
-		const var btnGlideMode = Content.getComponent("btnGlideMode");
-		ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);
+		const var btnGlideMode = ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);		
 		
 		const var cmbArt = Content.getComponent("cmbArt");
 		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, idh.getArticulationDisplayNames(instrumentName));
