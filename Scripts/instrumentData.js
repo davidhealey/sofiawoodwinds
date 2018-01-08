@@ -8,23 +8,28 @@ namespace instData
 		altoFlute:
 		{
 		    displayName:"Alto Flute",
-			range:[60, 90], //Maximum range of instrument
+			range:[55, 91], //Maximum range of instrument
 			keyswitches:[24, 25, 26, 27, 29, 30], //Default keyswitches (unused should be set to -1)
 			articulations:
 			{
-				sustain:{range:[60, 90]},
-				meta_legato:{parent:"sustain", range:[60, 90]},
-				meta_glide:{parent:"sustain", range:[60, 90]},
-				staccato:{range:[60, 90]},
-				flutter:{range:[60, 90]},
-				harmonics:{range:[60, 90]}
+				sustain:{range:[55, 91]},
+				meta_legato:{parent:"sustain", range:[55, 91]},
+				meta_glide:{parent:"sustain", range:[55, 91]},
+				staccato:{range:[55, 91]},
+				flutter:{range:[55, 91]},
+				harmonics:{range:[55, 91]}
 			},
 			legatoSettings:
 		    {
-                bendTime:10,
-                minBend:30,
-                maxBend:70,
-                fadeTime:80
+                bendTime:0,
+                minBend:20,
+                maxBend:50,
+                fadeTime:60
+		    },
+			vibratoSettings:
+		    {
+                gain:0.35,
+                pitch:0.25
 		    }
 		}		
 	};
