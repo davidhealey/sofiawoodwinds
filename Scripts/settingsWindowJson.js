@@ -97,7 +97,7 @@ namespace SettingsJson
         {
             "textColour": "0xFFCCCCCC",
             "itemColour2": "0xFF50ebf8",
-            "itemColour1": "0xFF111111",
+            "itemColour1": "0xFF222222",
             "bgColour": Theme.ZONE
         }
     });
