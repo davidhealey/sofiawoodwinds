@@ -148,17 +148,6 @@ inline function changeBufferSettings(attribute, value)
 	}
 }
 
-inline function loadLegatoSettings()
-{
-    local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
-    local settings = idh.getData(instrumentName)["legatoSettings"]; //Get instrument's legato settings
-    
-    legatoHandler.setAttribute(attributes.BEND_TIME, settings.bendTime);
-    legatoHandler.setAttribute(attributes.MIN_BEND, settings.minBend);
-    legatoHandler.setAttribute(attributes.MAX_BEND, settings.maxBend);
-    legatoHandler.setAttribute(attributes.FADE_TIME, settings.fadeTime);
-}
-
 inline function changeRRSettings()
 {
         for (r in rrHandlers) //Each round robin handler script
@@ -179,6 +168,31 @@ inline function changeRRSettings()
     {
         sustainRoundRobin.setAttribute(0, 1); //Bypass sustain RR
     }
+}
+
+inline function loadLegatoSettings()
+{
+    local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
+    local settings = idh.getData(instrumentName)["legatoSettings"]; //Get instrument's legato settings
+    
+    legatoHandler.setAttribute(attributes.BEND_TIME, settings.bendTime);
+    legatoHandler.setAttribute(attributes.MIN_BEND, settings.minBend);
+    legatoHandler.setAttribute(attributes.MAX_BEND, settings.maxBend);
+    legatoHandler.setAttribute(attributes.FADE_TIME, settings.fadeTime);
+}
+
+inline function loadVibratoSettings()
+{
+    
+}
+
+inline function setRoundRobinRange()
+{
+    local range = idh.getArticulationRange(instrumentName, "sustain");
+    
+    //Set the range of the sustain/legato/glide round robin handler
+    sustainRoundRobin.setAttribute(2, range[0]);
+    sustainRoundRobin.setAttribute(3, range[1]);
 }function onNoteOn()
 {
 	articulationEditor.onNoteCB();
@@ -204,6 +218,7 @@ function onControl(number, value)
 	    case cmbInstrument: //Hidden admin control to select instrument for preset
 	        instrumentName = cmbInstrument.getItemText();
 	        idh.loadInstrument(instrumentName, false);
+	        setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
 	        loadLegatoSettings();
 	    break;
 	    
