@@ -148,14 +148,27 @@ namespace articulationEditor
 		
 	inline function onControllerCB()
 	{
+	    local ccNum;
+	    local ccValue;
 		local v; //For converting the CC value (0-127) to the correct slider value
 		local skewFactor = 5.0; //values > 1 will yield more resolution at the lower end
 		local normalised = Message.getControllerValue() / 127.0;
 		
-		switch (Message.getControllerNumber())
+		if (Message.isProgramChange())
+	    {
+	        ccNum = 32; //Treat program changes as UACC
+	        ccValue = Message.getProgramChangeNumber();
+	    }
+	    else
+	    {
+	        ccNum = Message.getControllerNumber();
+	        ccValue = Message.getControllerValue();
+	    }
+				
+		switch (ccNum)
 		{		
 			case 32: //UACC
-				local idx = idh.getProgramIndex(Message.getControllerValue()); //Lookup program number
+				local idx = idh.getProgramIndex(ccValue); //Lookup program number
 				
 				if (idx != -1) //Assigned program number triggered callback
 				{
@@ -167,6 +180,7 @@ namespace articulationEditor
 			break;
 			
 			case 64: //Sustain pedal
+			
 			    Message.ignoreEvent(true);
 			
                 if (cmbArt.getValue()-1 == idh.getArticulationIndex("meta_legato", false)) //Current articulation is legato
