@@ -28,8 +28,10 @@ namespace instData
 		    },
 			vibratoSettings:
 		    {
-                gain:0.35,
-                pitch:0.25
+                gain:0.25,
+                pitch:0.15,
+                eqFreq:650,
+                eqGain:6
 		    }
 		}		
 	};

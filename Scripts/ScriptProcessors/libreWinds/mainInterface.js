@@ -183,7 +183,15 @@ inline function loadLegatoSettings()
 
 inline function loadVibratoSettings()
 {
+    local gainMod = Synth.getModulator("globalGainModLFO"); //Vibrato gain modulator
+    local pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch modulator
+    local eq = Synth.getEffect("vibratoEq"); //Vibrato EQ
+    local settings = idh.getData(instrumentName)["vibratoSettings"]; //Get instrument's vibrato settings
     
+    gainMod.setIntensity(settings.gain);
+    pitchMod.setIntensity(settings.pitch);
+    eq.setAttribute(0, settings.eqGain);
+    eq.setAttribute(1, settings.eqFreq);
 }
 
 inline function setRoundRobinRange()
@@ -220,6 +228,7 @@ function onControl(number, value)
 	        idh.loadInstrument(instrumentName, false);
 	        setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
 	        loadLegatoSettings();
+	        loadVibratoSettings();
 	    break;
 	    
 		case btnPreset:
