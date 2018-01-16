@@ -12,12 +12,12 @@ namespace instData
 			keyswitches:[24, 25, 26, 27, 29, 30], //Default keyswitches (unused should be set to -1)
 			articulations:
 			{
-				sustain:{range:[55, 91]},
+				sustain:{range:[55, 91], attack:5, release:250},
 				meta_legato:{parent:"sustain", range:[55, 91]},
 				meta_glide:{parent:"sustain", range:[55, 91]},
-				staccato:{range:[55, 91]},
-				flutter:{range:[55, 91]},
-				harmonics:{range:[55, 91]}
+				staccato:{range:[55, 91], attack:5, release:250},
+				flutter:{range:[55, 91], attack:5, release:250},
+				harmonics:{range:[55, 91], attack:5, release:250}
 			},
 			legatoSettings:
 		    {
