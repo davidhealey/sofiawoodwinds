@@ -34,7 +34,8 @@ Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
 Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
 
 const var cmbInstrument = Content.getComponent("cmbInstrument"); //Instrument name selector (admin control)
-reg instrumentName = "altoFlute"; //Instrument name, accesible to every other part of script
+reg instrumentName = cmbInstrument.getItemText(); //Instrument name, accesible to every other part of script
+idh.loadInstrument(instrumentName, false); //Load the instrument's data
 
 const var noteNames = [];
 const var ccNums = [];
@@ -224,11 +225,11 @@ function onControl(number, value)
 	switch (number)
 	{
 	    case cmbInstrument: //Hidden admin control to select instrument for preset
-	        instrumentName = cmbInstrument.getItemText();
-	        idh.loadInstrument(instrumentName, false);
-	        setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
-	        loadLegatoSettings();
-	        loadVibratoSettings();
+            instrumentName = cmbInstrument.getItemText();
+            idh.loadInstrument(instrumentName, false);
+            setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
+            loadLegatoSettings();
+            loadVibratoSettings();
 	    break;
 	    
 		case btnPreset:

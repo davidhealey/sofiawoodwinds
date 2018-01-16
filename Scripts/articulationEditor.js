@@ -78,9 +78,11 @@ namespace articulationEditor
 		    {
                 sliAtk[i] = Content.getComponent("sliAtk"+i);
                 Content.setPropertiesFromJSON("sliAtk"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+                sliAtk[i].set("defaultValue", idh.getAttack(instrumentName, idh.getArticulationName(i, false)));
 	
                 sliRel[i] = Content.getComponent("sliRel"+i);
                 Content.setPropertiesFromJSON("sliRel"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+                sliRel[i].set("defaultValue", idh.getRelease(instrumentName, idh.getArticulationName(i, false)));
 	
                 sliArtVol[i] = Content.getComponent("sliArtVol"+i);
                 Content.setPropertiesFromJSON("sliArtVol"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
