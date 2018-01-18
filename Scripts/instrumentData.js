@@ -8,13 +8,14 @@ namespace instData
 		{
 		    displayName:"Alto Flute",
 			range:[55, 91], //Maximum range of instrument
-			keyswitches:[24, 25, 26, 27, -1, 29, 30], //Default keyswitches (unused articulation = -1)
+			keyswitches:[], //Instrument's keyswitches
 			articulations:
 			{
 				sustain:{displayName:"Sustain", range:[55, 91], attack:5, release:250},
 				meta_legato:{displayName:"Legato", parent:"sustain", range:[55, 91]},
 				meta_glide:{displayName:"Glide", parent:"sustain", range:[55, 91]},
 				staccato:{displayName:"Staccato", range:[55, 91], attack:5, release:250},
+				sputato:{displayName:"Sputato", range:[55, 91], attack:5, release:250},
 				flutter:{displayName:"Flutter", range:[55, 91], attack:5, release:250},
 				harmonics:{displayName:"Harmonics", range:[55, 91], attack:5, release:250}
 			},
