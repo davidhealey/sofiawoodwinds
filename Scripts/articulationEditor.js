@@ -71,21 +71,21 @@ namespace articulationEditor
 		{
 			cmbKs.push(Content.getComponent("cmbKs"+i));
 			ui.comboBoxPanel("cmbKs"+i, paintRoutines.comboBox, noteNames);
-			Content.setPropertiesFromJSON("cmbKs"+i, {x:90});
+			Content.setPropertiesFromJSON("cmbKs"+i, {x:90, y:80});
 	
 			//Attack release and volume controls, only applicable to non-meta articulations
 			if (idh.getArticulationNames(true)[i].indexOf("meta_") == -1)
 		    {
                 sliAtk[i] = Content.getComponent("sliAtk"+i);
-                Content.setPropertiesFromJSON("sliAtk"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+                Content.setPropertiesFromJSON("sliAtk"+i, {x:90, y:150, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
                 sliAtk[i].set("defaultValue", idh.getAttack(instrumentName, idh.getArticulationName(i, false)));
 	
                 sliRel[i] = Content.getComponent("sliRel"+i);
-                Content.setPropertiesFromJSON("sliRel"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+                Content.setPropertiesFromJSON("sliRel"+i, {x:90, y:185, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
                 sliRel[i].set("defaultValue", idh.getRelease(instrumentName, idh.getArticulationName(i, false)));
 	
                 sliArtVol[i] = Content.getComponent("sliArtVol"+i);
-                Content.setPropertiesFromJSON("sliArtVol"+i, {x:90, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+                Content.setPropertiesFromJSON("sliArtVol"+i, {x:90, y:115, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
 		    }
 		    
             //Get containers and muters for each articulation
@@ -249,26 +249,33 @@ namespace articulationEditor
             default:
                 for (i = 0; i < idh.getNumArticulations(null); i++) //Each of the instrument's articulations
                 {
-                    if (number == cmbKs[i]) //Key switch
+                    if (number == cmbKs[i]) //Key switch drop down
                     {
                         local r = idh.getRange(instrumentName); //Full playable range of instrument
-
-                        if (value-1 < r[0] || value-1 > r[1]) //Outside playable range
+                        local keyswitches = idh.getKeyswitches(instrumentName); //Get instrument's key switches
+                        
+                        if (value-1 < r[0] || value-1 > r[1]) //Selection is outside playable range
                         {
-                            Engine.setKeyColour(idh.getKeyswitch(instrumentName, i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
-					
-                            if (idh.getArticulationNames(false).contains(idh.getArticulationNames(true)[i])) //If the articulation is used by the instrument
+                            idh.setKeyswitch(instrumentName, i, value-1); //Update the KS array
+                            
+                            for (j = 0; j < 128; j++) //Every MIDI note
                             {
-                                idh.setKeyswitch(instrumentName, i, value-1); //Update KS
-                                Engine.setKeyColour(value-1, Colours.withAlpha(Colours.red, 0.3)); //Update KS colour					
+                                if (j < r[0] || j > r[1]) //j is outside playable range    
+                                {
+                                    Engine.setKeyColour(j, Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+                                
+                                    if (keyswitches.contains(j)) //j is an assigned key switch
+                                    {
+                                        Engine.setKeyColour(j, Colours.withAlpha(Colours.red, 0.3)); //Colour KS
+                                    }
+                                }
                             }
                         }
-                        else 
+                        else
                         {
                             cmbKs[i].setValue(idh.getKeyswitch(instrumentName, i)+1); //Revert to previous KS
                             cmbKs[i].repaintImmediately();
                         }
-                        break;
                     }
                     else if (number == sliArtVol[i]) //Articulation volume
                     {
@@ -430,7 +437,7 @@ namespace articulationEditor
 			
 			if (i >= r[0] && i <= r[1]) //i is in articulation's range
 			{
-				Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Update KS colour	
+				Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Update colour	
 			}
 		}
 	}

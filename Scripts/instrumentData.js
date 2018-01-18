@@ -1,14 +1,14 @@
 namespace instData
 {	
-	const var allArticulations = ["sustain", "meta_legato", "meta_glide", "staccato", "flutter", "harmonics"]; //Global articulation list, available to all instruments
-	reg programs = [1, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
+	const var allArticulations = ["sustain", "meta_legato", "meta_glide", "staccato", "sputato", "flutter", "harmonics"]; //Global articulation list, available to all instruments
+	reg programs = [1, 2, 3, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
 
 	const var database = {
 		altoFlute:
 		{
 		    displayName:"Alto Flute",
 			range:[55, 91], //Maximum range of instrument
-			keyswitches:[24, 25, 26, 27, 29, 30], //Default keyswitches (unused should be set to -1)
+			keyswitches:[24, 25, 26, 27, -1, 29, 30], //Default keyswitches (unused articulation = -1)
 			articulations:
 			{
 				sustain:{displayName:"Sustain", range:[55, 91], attack:5, release:250},
