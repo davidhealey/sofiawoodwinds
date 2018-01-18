@@ -2,9 +2,9 @@ namespace controllerEditor
 {
 	inline function onInitCB()
 	{
-		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate", "Flutter"];
-		const var userCc = [-1, 11, 1, 20, 21, 23]; //User assigned controllers
-		const var realCc = [-1, 11, 1, 20, 21, 23]; //Real CCs forwarded internally. -1 = velocity
+		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
+		const var userCc = [-1, 11, 1, 20, 21]; //User assigned controllers
+		const var realCc = [-1, 11, 1, 20, 21]; //Real CCs forwarded internally. -1 = velocity
 
 		const var cmbParam = Content.getComponent("cmbParam");
 		ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, parameters);
