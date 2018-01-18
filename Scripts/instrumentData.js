@@ -1,7 +1,6 @@
 namespace instData
 {	
 	const var allArticulations = ["sustain", "meta_legato", "meta_glide", "staccato", "flutter", "harmonics"]; //Global articulation list, available to all instruments
-	const var articulationDisplayNames = ["Sustain", "Legato", "Glide", "Staccato", "Flutter", "Harmonics"];
 	reg programs = [1, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
 
 	const var database = {
@@ -12,12 +11,12 @@ namespace instData
 			keyswitches:[24, 25, 26, 27, 29, 30], //Default keyswitches (unused should be set to -1)
 			articulations:
 			{
-				sustain:{range:[55, 91], attack:5, release:250},
-				meta_legato:{parent:"sustain", range:[55, 91]},
-				meta_glide:{parent:"sustain", range:[55, 91]},
-				staccato:{range:[55, 91], attack:5, release:250},
-				flutter:{range:[55, 91], attack:5, release:250},
-				harmonics:{range:[55, 91], attack:5, release:250}
+				sustain:{displayName:"Sustain", range:[55, 91], attack:5, release:250},
+				meta_legato:{displayName:"Legato", parent:"sustain", range:[55, 91]},
+				meta_glide:{displayName:"Glide", parent:"sustain", range:[55, 91]},
+				staccato:{displayName:"Staccato", range:[55, 91], attack:5, release:250},
+				flutter:{displayName:"Flutter", range:[55, 91], attack:5, release:250},
+				harmonics:{displayName:"Harmonics", range:[55, 91], attack:5, release:250}
 			},
 			legatoSettings:
 		    {

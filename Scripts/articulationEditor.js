@@ -59,7 +59,7 @@ namespace articulationEditor
 		const var btnGlideMode = ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);		
 		
 		const var cmbArt = Content.getComponent("cmbArt");
-		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, idh.getArticulationDisplayNames(instrumentName));
+		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, idh.getArticulationDisplayNames());
 	
 		Content.setPropertiesFromJSON("lblArt", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		Content.setPropertiesFromJSON("lblKs", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
