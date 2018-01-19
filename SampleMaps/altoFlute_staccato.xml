@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="altoFlute_staccato" SaveMode="1" RRGroupAmount="3" MicPositions="close;decca;hall;">
+<samplemap ID="altoFlute_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="1" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1831"
           SampleEnd="54602" SampleStartMod="0" LoopStart="0" LoopEnd="0"
