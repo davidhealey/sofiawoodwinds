@@ -2,13 +2,13 @@ namespace instData
 {	
 	const var allArticulations = ["sustain", "meta_legato", "meta_glide", "staccato", "sputato", "flutter", "harmonics"]; //Global articulation list, available to all instruments
 	reg programs = [1, 2, 3, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
-
+    reg keyswitches = [];
+	
 	const var database = {
 		altoFlute:
 		{
 		    displayName:"Alto Flute",
 			range:[55, 91], //Maximum range of instrument
-			keyswitches:[], //Instrument's keyswitches
 			articulations:
 			{
 				sustain:{displayName:"Sustain", range:[55, 91], attack:5, release:250},
