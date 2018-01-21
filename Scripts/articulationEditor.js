@@ -136,7 +136,7 @@ namespace articulationEditor
 		if (idx == -1) //keyswitch did not trigger callback
 	    {
             //If the current articulation is legato, two notes are held, and the sustain pedal is down, change to the glide articulation
-			if (cmbArt.getValue()-1 == idh.getArticulationIndex("meta_legato", false) && Synth.isLegatoInterval() && Synth.isSustainPedalDown())
+			if (Synth.isLegatoInterval() && Synth.isSustainPedalDown() && cmbArt.getValue()-1 == idh.getArticulationIndex("meta_legato", false))
 			{
 			    idx = idh.getArticulationIndex("meta_glide", false);
 			}
@@ -146,7 +146,7 @@ namespace articulationEditor
 		{
 		    cmbArt.setValue(idx+1);
 			cmbArt.repaint(); //Async repaint
-			changeArticulation(idx);
+			changeArticulation(idx); //MIDI muter handler
 			asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx);
 		}
 	}
@@ -191,9 +191,10 @@ namespace articulationEditor
                     Message.ignoreEvent(true);
                     Synth.isSustainPedalDown() ? legatoHandler.setAttribute(11, 1) : legatoHandler.setAttribute(11, 0); //Toggle same note legato based on sustain pedal position
                 }
-                else if (cmbArt.getValue()-1 == idh.getArticulationIndex("meta_glide", false) && !Synth.isSustainPedalDown()) //Current articulation is glide and sustain pedal is lifted
+                else if (!Synth.isSustainPedalDown() && cmbArt.getValue()-1 == idh.getArticulationIndex("meta_glide", false)) //Current articulation is glide and sustain pedal is lifted
                 {
                     Message.ignoreEvent(true);
+                    
                     //Change articulation to legato
                     local idx = idh.getArticulationIndex("meta_legato", false);
                     
