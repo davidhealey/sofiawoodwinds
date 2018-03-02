@@ -27,7 +27,7 @@ namespace paintRoutines
 	const var zone = function(g)
 	{
 		g.setColour(Theme.ZONE);
-		g.fillRoundedRectangle([0, 0, this.get("width"), this.get("height")], 3);
+        g.fillRect([0, 0, this.get("width"), this.get("height")]);
 	}
 	
 	const var biDirectionalSlider = function(g)
@@ -81,7 +81,7 @@ namespace paintRoutines
 	const var comboBox = function(g)
 	{
 		g.setColour(Theme.COMBO.bg);
-		g.fillRoundedRectangle([0, 0, this.get("width"), this.get("height")], 2);
+		g.fillRect([0, 0, this.get("width"), this.get("height")]);
 		
 		this.get("enabled") == true ? g.setColour(Theme.COMBO.arrow) : g.setColour(Theme.CONTROL_FG_DISABLED);
 		g.fillTriangle([this.get("width")-18, this.get("height")/2-2, 10, 5], Math.toRadians(900));
