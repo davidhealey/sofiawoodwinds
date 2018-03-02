@@ -28,7 +28,7 @@ namespace Theme
 	const var COMBO = {bg:0xFF777777, arrow:0xFFEEEEEE, fontName:"Sarala-Bold", fontSize:20, text:0xFFFFFFFF, textAlt:0xAA333333}; //Combo box
 	const var SLIDER = {bg:0xFF222222, fg:FEATURE_COLOUR, text:0xFFFFFFFF};
 	const var BUTTON = {bg:0xFF111111, fg:FEATURE_COLOUR, text:0xFFFFFFFF, fontName:"Sarala-Bold", fontSize:22};
-	const var PUSH_BUTTON = {off:0xFF555555, on:0xFF777777, text:0xFFFFFFFF, textAlt:0xFFDDDDDD, fontName:"Sarala-Bold", fontSize:20};
+	const var PUSH_BUTTON = {off:0xFF444444, on:0xFF777777, text:0xFFFFFFFF, textAlt:0xFFDDDDDD, fontName:"Sarala-Bold", fontSize:20};
 	const var PRESET_BROWSER = {bg:0xFF333333, itemColour1:FEATURE_COLOUR};
 	const var TABLE = {bg:0xFF222222};
 }

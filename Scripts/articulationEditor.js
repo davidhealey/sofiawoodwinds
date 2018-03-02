@@ -243,6 +243,7 @@ namespace articulationEditor
 			break;
 			
 			case btnGlideMode:
+			    value == 1 ? btnGlideMode.set("text", "Enabled") : btnGlideMode.set("text", "Disabled");
 				legatoHandler.setAttribute(3, value);
 				btnGlideMode.repaintImmediately();
 			break;
