@@ -31,4 +31,5 @@ namespace Theme
 	const var PUSH_BUTTON = {off:0xFF444444, on:0xFF777777, text:0xFFFFFFFF, textAlt:0xFFDDDDDD, fontName:"Sarala-Bold", fontSize:20};
 	const var PRESET_BROWSER = {bg:0xFF333333, itemColour1:FEATURE_COLOUR};
 	const var TABLE = {bg:0xFF222222};
+	const var CONTROLLER_WHEEL = {fg:FEATURE_COLOUR, line:0xFFFFFFFF};
 }

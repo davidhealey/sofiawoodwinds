@@ -57,6 +57,39 @@ namespace paintRoutines
 		g.fillRect([xPos, 0, this.get("width")/4, this.get("height")]);
 	};
 	
+	const var modWheelDisplay = function(g)
+    {
+        reg linePos = Math.range(this.get("height")-((this.get("height")/this.get("max")) * this.getValue()), 2, this.get("height")-2);
+        Console.print(linePos);
+        //Draw value
+        g.setColour(Theme.CONTROLLER_WHEEL.fg);                
+        g.fillRect([0, linePos, this.get("width"), this.get("height")]);
+        
+        //Draw line
+        g.setColour(Theme.CONTROLLER_WHEEL.line);
+        g.drawLine(0, this.get("width"), linePos, linePos, 4);
+    };
+	
+    const var pitchWheelDisplay = function(g)
+    {
+        reg linePos = Math.range(this.get("height")-((this.get("height")/this.get("max")) * this.getValue()), 2, this.get("height")-2);
+        
+        //Draw value display
+        g.setColour(Theme.CONTROLLER_WHEEL.fg);
+        if (this.getValue() > 8192)
+        {   
+            g.fillRect([0, linePos, this.get("width"), this.get("height")/2 - linePos]);
+        }
+        else if (this.getValue() < 8192)
+        {
+            g.fillRect([0, this.get("height")/2, this.get("width"), linePos-this.get("height")/2]);
+        }
+        
+        //Draw line
+        g.setColour(Theme.CONTROLLER_WHEEL.line);
+        g.drawLine(0, this.get("width"), linePos, linePos, 4);
+    };
+    
 	const var textButton = function(g)
 	{							
 		this.getValue() == 0 ? g.setColour(Theme.BUTTON.bg) : g.setColour(Theme.BUTTON.fg);
