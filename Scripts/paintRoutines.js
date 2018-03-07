@@ -60,9 +60,9 @@ namespace paintRoutines
 	const var modWheelDisplay = function(g)
     {
         reg linePos = Math.range(this.get("height")-((this.get("height")/this.get("max")) * this.getValue()), 2, this.get("height")-2);
-        Console.print(linePos);
+
         //Draw value
-        g.setColour(Theme.CONTROLLER_WHEEL.fg);                
+        g.setColour(Theme.CONTROLLER_WHEEL.fg);
         g.fillRect([0, linePos, this.get("width"), this.get("height")]);
         
         //Draw line
@@ -123,6 +123,18 @@ namespace paintRoutines
 		this.getValue()-1 == -1 ? text = this.get("text") : text = this.data.items[this.getValue()-1];
 		g.drawAlignedText(text, [7, 0, this.get("width"), this.get("height")], "left");
 	}
+	
+	const var octaveUp = function(g)
+    {        
+        g.setColour(this.get("itemColour"));
+        g.fillTriangle([0, 0, this.get("width"), this.get("height")/2], 0);
+    }
+    
+	const var octaveDn = function(g)
+    {        
+        g.setColour(this.get("itemColour"));
+        g.fillTriangle([0, this.get("height")/2, this.get("width"), this.get("height")/2], Math.toRadians(180));
+    }
 }
 
 namespace svgPaths
