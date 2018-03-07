@@ -2,7 +2,7 @@
 
 <Processor Type="SynthChain" ID="libreWinds" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....reH1Q..........................." currentView="-1"
+           views="32.rk1bzA.....vfoER......wliKD......x+xGA....." currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -81,7 +81,7 @@
             <Control type="ScriptPanel" id="pnlBg" value="0"/>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlOct" value="2"/>
-            <Control type="ScriptPanel" id="pnlOctUp" value="1"/>
+            <Control type="ScriptPanel" id="pnlOctUp" value="0"/>
             <Control type="ScriptLabel" id="lblOct" value="0"/>
             <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
             <Control type="ScriptPanel" id="pnlLeftZone" value="0"/>
@@ -209,16 +209,16 @@
                                holdIsRightClick="0" bgColour="7434609" parentComponent="pnlKeyControls"
                                itemColour="16711680" itemColour2="16711680" textColour="16777215"
                                saveInPreset="1">
-                      <Component type="ScriptPanel" id="pnlOctUp" x="5" y="2" width="15" height="15"
+                      <Component type="ScriptPanel" id="pnlOctUp" x="8" y="15" width="9" height="9"
                                  text="" borderRadius="0" allowCallbacks="Clicks Only" bgColour="0"
-                                 itemColour="4294967295" borderSize="1" parentComponent="pnlOct"
+                                 itemColour="4289374890" borderSize="1" parentComponent="pnlOct"
                                  saveInPreset="1"/>
-                      <Component type="ScriptLabel" id="lblOct" x="0" y="15" width="25" height="42"
-                                 text="0" parentComponent="pnlOct" fontSize="12" fontName="Default"
-                                 itemColour2="1118481"/>
-                      <Component type="ScriptPanel" id="pnlOctDn" x="5" y="55" width="15" height="15"
+                      <Component type="ScriptLabel" id="lblOct" x="0" y="24" width="25" height="23"
+                                 text="0" parentComponent="pnlOct" fontSize="16" fontName="Open Sans"
+                                 itemColour2="1118481" editable="0"/>
+                      <Component type="ScriptPanel" id="pnlOctDn" x="8" y="48" width="9" height="9"
                                  text="" borderRadius="0" allowCallbacks="Clicks Only" bgColour="0"
-                                 itemColour="4294967295" borderSize="1" parentComponent="pnlOct"
+                                 itemColour="4289374890" borderSize="1" parentComponent="pnlOct"
                                  saveInPreset="1"/>
                     </Component>
                     <Component type="ScriptPanel" id="pnlPitch" x="25" y="0" width="15" height="72"
