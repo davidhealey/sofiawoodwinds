@@ -23,7 +23,7 @@ namespace mixer
 		const var ATTRIBUTES = {GAIN:0, DELAY:1, WIDTH:2, PAN:3, MUTE:4, SOLO:5, PURGE:6}; //The attributes/controls of the mic mixer module script
 		const var NUM_ATTRIBUTES = 7;
 		
-		const var micNames = ["C", "D", "H"]; //Close, decca, hall
+		const var micNames = ["Close", "Decca", "Hall"]; //Close, decca, hall
 		const var pan = [];
 		const var vol = [];
 		const var delay = [];
@@ -38,11 +38,11 @@ namespace mixer
 			width[i] = Content.getComponent("sliWidth"+i);
 			purge[i] = Content.getComponent("btnPurge"+i);
 
-			Content.setPropertiesFromJSON("sliPan"+i, {x:20+(i*60), stepSize:0.01});
-			Content.setPropertiesFromJSON("sliVol"+i, {x:35+(i*60), type:"Decibel", max:3, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
-			Content.setPropertiesFromJSON("sliDelay"+i, {x:20+(i*60), bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
-			Content.setPropertiesFromJSON("sliWidth"+i, {x:20+(i*60), bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
-			Content.setPropertiesFromJSON("btnPurge"+i, {x:20+(i*60), text:micNames[i]});
+			Content.setPropertiesFromJSON("sliPan"+i, {x:20+(i*60), stepSize:0.01, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			Content.setPropertiesFromJSON("sliVol"+i, {x:35+(i*60), type:"Decibel", max:3, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			Content.setPropertiesFromJSON("sliDelay"+i, {x:20+(i*60), bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			Content.setPropertiesFromJSON("sliWidth"+i, {x:20+(i*60), bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			Content.setPropertiesFromJSON("btnPurge"+i, {x:20+(i*60), text:micNames[i], bgColour:Theme.CONTROL1, textColour:Theme.BLACK});
 	
 			ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up callbacks for pan slider
 			ui.buttonPanel("btnPurge"+i, paintRoutines.textButton); //Set up callbacks for purge button

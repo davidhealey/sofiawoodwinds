@@ -19,17 +19,18 @@ namespace Theme
 {
 	const var BLACK = 0xFF000000;
 	const var WHITE = 0xFFFFFFFF;
-	const var FEATURE_COLOUR = 0xFFB0892C;
-	const var BG = 0xFF222222;
-	const var TITLE = {colour:0xFFFFFFFF, fontName:"Sarala-Bold", fontSize:34}; //Patch title text
-	const var H1 = {colour:0xFFFFFFFF, fontName:"Sarala-Bold", fontSize:26}; //Main headings text
-	const var H2 = {colour:0xFFFFFFFF, fontName:"Sarala-Regular", fontSize:22};
-	const var ZONE = 0xFF333333; //Zone panels for different GUI sections
-	const var COMBO = {bg:0xFF777777, arrow:0xFFEEEEEE, fontName:"Sarala-Bold", fontSize:20, text:0xFFFFFFFF, textAlt:0xAA333333}; //Combo box
-	const var SLIDER = {bg:0xFF222222, fg:FEATURE_COLOUR, text:0xFFFFFFFF};
-	const var BUTTON = {bg:0xFF111111, fg:FEATURE_COLOUR, text:0xFFFFFFFF, fontName:"Sarala-Bold", fontSize:22};
-	const var PUSH_BUTTON = {off:0xFF444444, on:0xFF777777, text:0xFFFFFFFF, textAlt:0xFFDDDDDD, fontName:"Sarala-Bold", fontSize:20};
-	const var PRESET_BROWSER = {bg:0xFF333333, itemColour1:FEATURE_COLOUR};
-	const var TABLE = {bg:0xFF222222};
-	const var CONTROLLER_WHEEL = {fg:FEATURE_COLOUR, line:0xFFFFFFFF};
+	const var HEADER = 0xFF1C2A39;
+	const var LOGO = 0xFFEEEEEE;
+	const var PRESET = 0xFF5C6A79;
+	const var BODY = 0xFFBDBDBD;
+	const var ZONE = 0xFFEEEEEE;
+	const var ZONE_FONT = "Sarala-Bold";
+	const var ZONE_FONT_SIZE = 26;
+	const var CONTROL1 = 0xFF9E9E9E;
+	const var CONTROL2 = 0xFF5C6A79;
+	const var CONTROL_TEXT = 0xFFFFFFFF;
+	const var CONTROL_FONT = "Sarala-Regular";
+	const var CONTROL_FONT_SIZE = 20;
+	const var LABEL_FONT = "Sarala-Regular";
+	const var LABEL_FONT_SIZE = 23;
 }

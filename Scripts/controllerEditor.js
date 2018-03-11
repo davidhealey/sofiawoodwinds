@@ -23,8 +23,8 @@ namespace controllerEditor
 		const var userCc = [-1, 11, 1, 20, 21]; //User assigned controllers
 		const var realCc = [-1, 11, 1, 20, 21]; //Real CCs forwarded internally. -1 = velocity
 
-		const var cmbParam = Content.getComponent("cmbParam");
-		ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, parameters);
+		const var cmbParam = ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, parameters);
+		Content.setPropertiesFromJSON("cmbParam", {bgColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 
 		const var cmbCc = []; //Controller number selection combo boxes
 		const var tblCc = []; //Controller value tables
@@ -33,7 +33,7 @@ namespace controllerEditor
 		{
 			//Controller selection
 			cmbCc[i] = Content.addPanel("cmbCc"+i, 90, 80);
-			Content.setPropertiesFromJSON("cmbCc"+i, {width:100, height:25, parentComponent:"pnlRightZone"});
+			Content.setPropertiesFromJSON("cmbCc"+i, {width:100, height:25, bgColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT, parentComponent:"pnlRightZone"});
 			ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ccNums);
 	
 			//Response table
@@ -42,7 +42,7 @@ namespace controllerEditor
 		}
 		
 		const var pnlTblBg = Content.getComponent("pnlTblBg"); //Table background colour panel
-		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.TABLE.bg);});
+		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.CONTROL2);});
 		
 	}
 	

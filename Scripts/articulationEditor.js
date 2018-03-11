@@ -42,48 +42,48 @@ namespace articulationEditor
 		const var sliArtVol = [];
 		const var sliAtk = [];
 		const var sliRel = [];
-		const var lblVol = Content.getComponent("lblVol");
-		const var lblAtk = Content.getComponent("lblAtk");
-		const var lblRel = Content.getComponent("lblRel");
+
+		//Labels
+		Content.setPropertiesFromJSON("lblArt", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+	    Content.setPropertiesFromJSON("lblKs", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		const var lblVol = ui.setupControl("lblVol", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		const var lblAtk = ui.setupControl("lblAtk", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		const var lblRel = ui.setupControl("lblRel", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		const var lblOffset = ui.setupControl("lblOffset", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		const var lblRatio = ui.setupControl("lblRatio", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		const var lblRate = ui.setupControl("lblRate", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		const var lblGlide = ui.setupControl("lblGlide", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
 		
-		const var lblOffset = ui.setupControl("lblOffset", {fontName:Theme.H2.fontName, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize});
-		const var lblRatio = ui.setupControl("lblRatio", {fontName:Theme.H2.fontName, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize});
-		const var lblRate = ui.setupControl("lblRate", {fontName:Theme.H2.fontName, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize});
-		const var lblGlide = ui.setupControl("lblGlide", {fontName:Theme.H2.fontName, textColour:Theme.H2.colour, fontSize:Theme.H2.fontSize});
-		const var sliOffset = ui.setupControl("sliOffset", {bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, textColour:Theme.SLIDER.text});
-		const var sliRatio = ui.setupControl("sliRatio", {bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, textColour:Theme.SLIDER.text});
-		const var sliRate = ui.setupControl("sliRate", {bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg, textColour:Theme.SLIDER.text});
+		//Combo boxes, sliders, and buttons
+		const var cmbArt = ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, idh.getArticulationDisplayNames());
+	    Content.setPropertiesFromJSON("cmbArt", {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
+	    
+	    const var sliOffset = ui.setupControl("sliOffset", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
+		const var sliRatio = ui.setupControl("sliRatio", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
+		const var sliRate = ui.setupControl("sliRate", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
+		const var btnGlideMode = ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);
+		Content.setPropertiesFromJSON("btnGlideMode", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var lblGlideVal = Content.getComponent("lblGlideVal");
-		const var btnGlideMode = ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);		
-		
-		const var cmbArt = Content.getComponent("cmbArt");
-		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, idh.getArticulationDisplayNames());
-	
-		Content.setPropertiesFromJSON("lblArt", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
-		Content.setPropertiesFromJSON("lblKs", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
-		Content.setPropertiesFromJSON("lblArtVol", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
-		Content.setPropertiesFromJSON("lblAtk", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
-		Content.setPropertiesFromJSON("lblRel", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
-		
+				
 		for (i = 0; i < idh.getNumArticulations(true); i++) //All available articulations
 		{
 			cmbKs.push(Content.getComponent("cmbKs"+i));
 			ui.comboBoxPanel("cmbKs"+i, paintRoutines.comboBox, noteNames);
-			Content.setPropertiesFromJSON("cmbKs"+i, {x:90, y:80});
+			Content.setPropertiesFromJSON("cmbKs"+i, {x:90, y:80, bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
 	
 			//Attack release and volume controls, only applicable to non-meta articulations
 			if (idh.getArticulationNames(true)[i].indexOf("meta_") == -1)
 		    {
                 sliAtk[i] = Content.getComponent("sliAtk"+i);
-                Content.setPropertiesFromJSON("sliAtk"+i, {x:90, y:150, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+                Content.setPropertiesFromJSON("sliAtk"+i, {x:90, y:150, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
                 sliAtk[i].set("defaultValue", idh.getAttack(instrumentName, idh.getArticulationName(i, false)));
 	
                 sliRel[i] = Content.getComponent("sliRel"+i);
-                Content.setPropertiesFromJSON("sliRel"+i, {x:90, y:185, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+                Content.setPropertiesFromJSON("sliRel"+i, {x:90, y:185, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
                 sliRel[i].set("defaultValue", idh.getRelease(instrumentName, idh.getArticulationName(i, false)));
 	
                 sliArtVol[i] = Content.getComponent("sliArtVol"+i);
-                Content.setPropertiesFromJSON("sliArtVol"+i, {x:90, y:115, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+                Content.setPropertiesFromJSON("sliArtVol"+i, {x:90, y:115, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		    }
 		    
             //Get containers and muters for each articulation
@@ -243,7 +243,7 @@ namespace articulationEditor
 			case btnGlideMode:
 			    value == 1 ? btnGlideMode.set("text", "Enabled") : btnGlideMode.set("text", "Disabled");
 				legatoHandler.setAttribute(3, value);
-				btnGlideMode.repaintImmediately();
+				btnGlideMode.repaint();
 			break;
 			
             default:

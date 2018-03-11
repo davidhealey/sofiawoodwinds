@@ -33,8 +33,9 @@ namespace SettingsJson
     "Dynamic": false,
     "ColourData":
         {
-            "bgColour": Theme.BG,
-            "itemColour1": Theme.ZONE
+            "bgColour": 0xFFBFB9B8,
+            "itemColour1": 0xFFCFCBCA,
+            "textColour":0xFF000000       
         },
     "Content": [
         {
@@ -44,8 +45,8 @@ namespace SettingsJson
         },
         "ColourData":
             {
-                "textColour": "0xFFCCCCCC",
-                "bgColour": Theme.ZONE
+                "bgColour": 0xFFCFCBCA,
+                "textColour": 0xFF000000
             },
         "Font": "Open Sans Bold",
         "FontSize": 18,
@@ -71,7 +72,7 @@ namespace SettingsJson
         }
         
     ],
-    "CurrentTab": 4
+    "CurrentTab": 0
     };    
     
     if(!isPlugin)
@@ -85,8 +86,9 @@ namespace SettingsJson
         "Font": "Open Sans",
         "FontSize": 18,
         "ColourData": {
-                "textColour": "0xFFCCCCCC",
-                "bgColour": Theme.ZONE
+            "bgColour": 0xFFCFCBCA,
+            "textColour": 0xFF000000,
+            "itemColour1": 0xFFDFDFDF
         }
         });
     }
@@ -99,8 +101,9 @@ namespace SettingsJson
         "Font": "Open Sans",
         "FontSize": 18,
         "ColourData": {
-                "textColour": "0xFFCCCCCC",
-                "bgColour": Theme.ZONE
+            "bgColour": 0xFFCFCBCA,
+            "textColour": 0xFF000000,
+            "itemColour1": 0xFFDFDFDF
         }
         });
         
@@ -110,12 +113,11 @@ namespace SettingsJson
         "Title": "MIDI Automation",
         "Font": "Open Sans",
         "FontSize": 18,
-        "ColourData":
+       "ColourData":
         {
-            "textColour": "0xFFCCCCCC",
-            "itemColour2": "0xFF50ebf8",
-            "itemColour1": "0xFF222222",
-            "bgColour": Theme.ZONE
+           "bgColour": 0xFFCFCBCA,
+           "textColour": 0xFF000000,
+           "itemColour1": 0xFFDFDFDF
         }
     });
 };
