@@ -28,8 +28,8 @@ namespace SettingsJson
     // Pass this object to the floating tile
     const var settings = {
     "Type": "Tabs",
-    "Font": "Open Sans",
-    "FontSize": 20,
+    "Font": Theme.ZONE_FONT,
+    "FontSize": 26,
     "Dynamic": false,
     "ColourData":
         {
@@ -69,8 +69,7 @@ namespace SettingsJson
             1.5,
             2
         ]
-        }
-        
+        }  
     ],
     "CurrentTab": 0
     };    
