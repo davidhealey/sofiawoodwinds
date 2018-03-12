@@ -33,9 +33,9 @@ namespace SettingsJson
     "Dynamic": false,
     "ColourData":
         {
-            "bgColour": 0xFFBFB9B8,
-            "itemColour1": 0xFFCFCBCA,
-            "textColour":0xFF000000       
+            "bgColour": Theme.BODY,
+            "itemColour1": Theme.CONTROL1,
+            "textColour":Theme.LABEL_TEXT  
         },
     "Content": [
         {
@@ -45,11 +45,11 @@ namespace SettingsJson
         },
         "ColourData":
             {
-                "bgColour": 0xFFCFCBCA,
-                "textColour": 0xFF000000
+                "bgColour": Theme.BODY,
+                "textColour": Theme.LABEL_TEXT
             },
-        "Font": "Open Sans Bold",
-        "FontSize": 18,
+        "Font": Theme.CONTROL_FONT,
+        "FontSize": 22,
         "Driver": !isPlugin,
         "Device": !isPlugin,
         "Output": !isPlugin,
@@ -83,12 +83,11 @@ namespace SettingsJson
         "Title": "MIDI Input",
         "StyleData": {
         },
-        "Font": "Open Sans",
-        "FontSize": 18,
+        "Font": Theme.CONTROL_FONT,
+        "FontSize": 22,
         "ColourData": {
-            "bgColour": 0xFFCFCBCA,
-            "textColour": 0xFF000000,
-            "itemColour1": 0xFFDFDFDF
+            "bgColour": Theme.BODY,
+            "textColour": Theme.LABEL_TEXT,
         }
         });
     }
@@ -98,11 +97,11 @@ namespace SettingsJson
         "Title": "MIDI Channel",
         "StyleData": {
         },
-        "Font": "Open Sans",
-        "FontSize": 18,
+        "Font": Theme.CONTROL_FONT,
+        "FontSize": 22,
         "ColourData": {
-            "bgColour": 0xFFCFCBCA,
-            "textColour": 0xFF000000,
+            "bgColour": Theme.BODY,
+            "textColour": Theme.LABEL_TEXT,
             "itemColour1": 0xFFDFDFDF
         }
         });
@@ -111,13 +110,13 @@ namespace SettingsJson
     
         "Type": "MidiLearnPanel",
         "Title": "MIDI Automation",
-        "Font": "Open Sans",
-        "FontSize": 18,
+        "Font": Theme.CONTROL_FONT,
+        "FontSize": 22,
        "ColourData":
         {
-           "bgColour": 0xFFCFCBCA,
-           "textColour": 0xFF000000,
-           "itemColour1": 0xFFDFDFDF
+            "bgColour": Theme.BODY,
+            "textColour": Theme.LABEL_TEXT,
+            "itemColour1": Theme.ZONE
         }
     });
 };

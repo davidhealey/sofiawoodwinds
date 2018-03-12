@@ -31,6 +31,7 @@ namespace Theme
 	const var CONTROL_TEXT = 0xFFFFFFFF;
 	const var CONTROL_FONT = "Sarala-Regular";
 	const var CONTROL_FONT_SIZE = 20;
+	const var LABEL_TEXT = 0xFF000000;
 	const var LABEL_FONT = "Sarala-Regular";
 	const var LABEL_FONT_SIZE = 23;
 }
