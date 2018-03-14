@@ -270,7 +270,7 @@ namespace articulationEditor
                         
                         if (value-1 < r[0] || value-1 > r[1]) //Selection is outside playable range
                         {
-                            idh.setKeyswitch(instrumentName, i, value-1); //Update the KS array
+                            idh.setKeyswitch(i, value-1); //Update the KS array
                             
                             for (j = 0; j < 128; j++) //Every MIDI note
                             {
