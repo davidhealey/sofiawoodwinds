@@ -25,9 +25,13 @@ namespace articulationEditor
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
         const var releaseHandler = Synth.getMidiProcessor("releaseHandler"); //Release handler
         
-		reg containers = []; //Containers whose IDs match articulation names
-		reg muters = [];
-		reg envelopes = {};
+        //Store some articulation indexes to reduce CPU usage
+        const var legatoIndex = idh.getArticulationIndex("meta_legato", false);
+        const var glideIndex = idh.getArticulationIndex("meta_glide", false);
+        
+		const var containers = []; //Containers whose IDs match articulation names
+		const var muters = [];
+		const var envelopes = {};
 		reg idx; //Variable to store indexes
 		reg t; //Temp variable for scratch values
 		reg r; //Temp variable for scratch values
@@ -129,14 +133,14 @@ namespace articulationEditor
 	
 	inline function onNoteCB()
 	{
-		idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check for index in keyswitches array
-
+		idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check if note is ks
+		
 		if (idx == -1) //keyswitch did not trigger callback
 	    {
-            //If the current articulation is legato, two notes are held, and the sustain pedal is down, change to the glide articulation
-			if (Synth.isLegatoInterval() && Synth.isSustainPedalDown() && cmbArt.getValue()-1 == idh.getArticulationIndex("meta_legato", false))
+            //If two notes are held, and the sustain pedal is down, and the current articulation is legato change to the glide articulation
+			if (Synth.isLegatoInterval() && Synth.isSustainPedalDown() && cmbArt.getValue()-1 == legatoIndex)
 			{
-			    idx = idh.getArticulationIndex("meta_glide", false);
+			    idx = glideIndex; //Get index of glide articulation
 			}
 	    }
 		
@@ -145,7 +149,7 @@ namespace articulationEditor
 		    cmbArt.setValue(idx+1);
 			cmbArt.repaint(); //Async repaint
 			changeArticulation(idx); //MIDI muter handler
-			asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx);
+			asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx); //Async UI update
 		}
 	}
 		
@@ -156,7 +160,7 @@ namespace articulationEditor
 		local v; //For converting the CC value (0-127) to the correct slider value
 		local skewFactor = 5.0; //values > 1 will yield more resolution at the lower end
 		local normalised = Message.getControllerValue() / 127.0;
-		
+
 		if (Message.isProgramChange())
 	    {
 	        ccNum = 32; //Treat program changes as UACC
@@ -171,7 +175,8 @@ namespace articulationEditor
 		switch (ccNum)
 		{		
 			case 32: //UACC
-				local idx = idh.getProgramIndex(ccValue); //Lookup program number
+			
+				idx = idh.getProgramIndex(ccValue); //Lookup program number
 				
 				if (idx != -1) //Assigned program number triggered callback
 				{
@@ -184,22 +189,20 @@ namespace articulationEditor
 			
 			case 64: //Sustain pedal
 						
-                if (cmbArt.getValue()-1 == idh.getArticulationIndex("meta_legato", false)) //Current articulation is legato
+                if (cmbArt.getValue()-1 == legatoIndex) //Current articulation is legato
                 {	
                     Message.ignoreEvent(true);
                     Synth.isSustainPedalDown() ? legatoHandler.setAttribute(11, 1) : legatoHandler.setAttribute(11, 0); //Toggle same note legato based on sustain pedal position
                 }
-                else if (!Synth.isSustainPedalDown() && cmbArt.getValue()-1 == idh.getArticulationIndex("meta_glide", false)) //Current articulation is glide and sustain pedal is lifted
+                else if (!Synth.isSustainPedalDown() && cmbArt.getValue()-1 == glideIndex) //Current articulation is glide and sustain pedal is lifted
                 {
                     Message.ignoreEvent(true);
                     
-                    //Change articulation to legato
-                    local idx = idh.getArticulationIndex("meta_legato", false);
-                    
-                    cmbArt.setValue(idx+1);
+                    //Change articulation to legato                    
+                    cmbArt.setValue(legatoIndex+1);
                     cmbArt.repaint();
-                    changeArticulation(idx);
-                    asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx);
+                    changeArticulation(legatoIndex);
+                    asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, legatoIndex);
                 }	
 			break;			
 			
@@ -251,7 +254,7 @@ namespace articulationEditor
                 {
                     if (number == cmbKs[i]) //Key switch drop down
                     {
-                        local r = idh.getRange(instrumentName); //Full playable range of instrument
+                        r = idh.getRange(instrumentName); //Full playable range of instrument
                         local keyswitches = idh.getKeyswitches(instrumentName); //Get instrument's key switches
                         
                         if (value-1 < r[0] || value-1 > r[1]) //Selection is outside playable range

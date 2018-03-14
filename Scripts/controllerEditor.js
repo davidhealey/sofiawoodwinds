@@ -22,9 +22,21 @@ namespace controllerEditor
 		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
 		const var userCc = [-1, 11, 1, 20, 21]; //User assigned controllers
 		const var realCc = [-1, 11, 1, 20, 21]; //Real CCs forwarded internally. -1 = velocity
-
+        const var reservedCc = [32, 64, 72, 73]; //CCs used internally, not user selectable
+		
+        const var ccNums = [];       
+        //Populate list of CC numbers
+        for (i = 1; i < 128; i++)
+	    {
+	        //CC is not reserved
+	        if (reservedCc.indexOf(i) == -1)
+            {
+	             ccNums.push(i);
+            }
+	    }
+        
 		const var cmbParam = ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, parameters);
-		Content.setPropertiesFromJSON("cmbParam", {bgColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
+		Content.setPropertiesFromJSON("cmbParam", {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
 
 		const var cmbCc = []; //Controller number selection combo boxes
 		const var tblCc = []; //Controller value tables
@@ -33,7 +45,7 @@ namespace controllerEditor
 		{
 			//Controller selection
 			cmbCc[i] = Content.addPanel("cmbCc"+i, 90, 80);
-			Content.setPropertiesFromJSON("cmbCc"+i, {width:100, height:25, bgColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT, parentComponent:"pnlRightZone"});
+			Content.setPropertiesFromJSON("cmbCc"+i, {width:100, height:25, bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT, parentComponent:"pnlRightZone"});
 			ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ccNums);
 	
 			//Response table
@@ -42,8 +54,7 @@ namespace controllerEditor
 		}
 		
 		const var pnlTblBg = Content.getComponent("pnlTblBg"); //Table background colour panel
-		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.CONTROL2);});
-		
+		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.CONTROL2);});		
 	}
 	
 	inline function onNoteCB()
@@ -53,8 +64,8 @@ namespace controllerEditor
 	
 	inline function onControllerCB()
 	{
-		local n = Message.getControllerNumber();
-		local v = Message.getControllerValue();
+		reg n = Message.getControllerNumber();
+		reg v = Message.getControllerValue();
 		
 		if (userCc.contains(n)) //User defined CC triggered the callback
 		{
@@ -89,7 +100,7 @@ namespace controllerEditor
 			cmbCc[value-1].set("visible", true);
 			tblCc[value-1].set("visible", true);
 		}
-		else 
+		else //cmbCc
 		{
 			for (i = 0; i < parameters.length; i++)
 			{
@@ -97,7 +108,7 @@ namespace controllerEditor
 				{
 					if (realCc[i] != -1) //Velocity (ui control should be disabled anyway)
 					{
-						userCc[i] = value;
+						userCc[i] = cmbCc[i].data.items[value-1]; //Get value from panel's items
 					}
 					break; //Exit loop
 				}

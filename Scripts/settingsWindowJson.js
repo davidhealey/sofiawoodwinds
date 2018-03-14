@@ -35,7 +35,7 @@ namespace SettingsJson
         {
             "bgColour": Theme.BODY,
             "itemColour1": Theme.CONTROL1,
-            "textColour":Theme.LABEL_TEXT  
+            "textColour":Theme.LABEL_TEXT
         },
     "Content": [
         {
@@ -46,7 +46,7 @@ namespace SettingsJson
         "ColourData":
             {
                 "bgColour": Theme.BODY,
-                "textColour": Theme.LABEL_TEXT
+                "textColour": Theme.LABEL_TEXT,
             },
         "Font": Theme.CONTROL_FONT,
         "FontSize": 22,
@@ -56,7 +56,7 @@ namespace SettingsJson
         "BufferSize": !isPlugin,
         "SampleRate": !isPlugin,
         "GlobalBPM": true,
-        "StreamingMode": false,
+        "StreamingMode": true,
         "GraphicRendering": false,
         "ScaleFactor": true,
         "SustainCC": false,
