@@ -219,17 +219,17 @@ namespace articulationEditor
 		        }
 			break;
 			
-			case 73: //MIDI attack CC
-				v = (Math.pow(normalised, skewFactor)) * 20000.0;
-				sliAtk[cmbArt.getValue()-1].setValue(v);
-				setEnvelopeAttack(cmbArt.getValue()-1, v);
-			break;
-			
-			case 72: //MIDI release CC
+			case 72: //MIDI release
 				v = (Math.pow(normalised, skewFactor)) * 20000.0;
 				sliRel[cmbArt.getValue()-1].setValue(v);
 				setEnvelopeRelease(cmbArt.getValue()-1, v);
 			break;
+			
+			case 73: //MIDI attack
+				v = (Math.pow(normalised, skewFactor)) * 20000.0;
+				sliAtk[cmbArt.getValue()-1].setValue(v);
+				setEnvelopeAttack(cmbArt.getValue()-1, v);
+			break;			
 		}
 	}
 	
@@ -260,13 +260,13 @@ namespace articulationEditor
                 updateGlideWholeToneState();
 			break;
 			
-            default:
+            default: //Common controls for all articulations
                 for (i = 0; i < idh.getNumArticulations(null); i++) //Each of the instrument's articulations
                 {
                     if (number == cmbKs[i]) //Key switch drop down
                     {
                         r = idh.getRange(instrumentName); //Full playable range of instrument
-                        local keyswitches = idh.getKeyswitches(instrumentName); //Get instrument's key switches
+                        local keyswitches = idh.getKeyswitches(); //Get instrument's key switches
                         
                         if (value-1 < r[0] || value-1 > r[1]) //Selection is outside playable range
                         {
