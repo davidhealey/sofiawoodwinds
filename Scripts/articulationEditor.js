@@ -212,7 +212,7 @@ namespace articulationEditor
                 }	
 			break;
 			
-			case 1: //Glide whole tone on/off
+			case 65: //Glide whole tone on/off
 			    if (ccValue > 64 != btnGlideMode.getValue()) //Only carry on if the value has changed
 		        {
 		            btnGlideMode.setValue(ccValue > 64);
