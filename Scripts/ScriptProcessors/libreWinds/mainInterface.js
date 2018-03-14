@@ -1,20 +1,20 @@
 /*
     Copyright 2018 David Healey
 
-    This file is part of Libre Harp.
+    This file is part of Libre Winds.
 
-    Libre Harp is free software: you can redistribute it and/or modify
+    Libre Winds is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    Libre Harp is distributed in the hope that it will be useful,
+    Libre Winds is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Libre Harp. If not, see <http://www.gnu.org/licenses/>.
+    along with Libre Winds. If not, see <http://www.gnu.org/licenses/>.
 */
 
 include("HISE-Scripting-Framework/libraries/asyncUpdater.js");
@@ -28,7 +28,9 @@ include("articulationEditor.js");
 include("mixer.js");
 include("controllerEditor.js");
 
-Content.makeFrontInterface(650, 372);
+Content.makeFrontInterface(676, 392);
+
+//Synth.deferCallbacks(true);
 
 Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
 Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
@@ -39,7 +41,6 @@ if (instrumentName == "") instrumentName = "altoFlute"; //Fallback
 idh.loadInstrument(instrumentName, true); //Load the instrument's data
 
 const var noteNames = [];
-const var ccNums = [];
 
 const var legatoHandler = Synth.getMidiProcessor("legatoHandler"); //legato handler script
 const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sustain/legato/glide round robin handler
@@ -69,71 +70,59 @@ for (id in scriptIds)
     rrHandlers.push(Synth.getMidiProcessor(id));
 }
 
-//Populate note names and CC numbers arrays
+//Populate note names array
 for (i = 0; i < 127; i++)
 {
-	noteNames[i] = Engine.getMidiNoteName(i);
-	ccNums[i] = i+1;
+	if (i < 120) noteNames[i] = Engine.getMidiNoteName(i); //Up to B7
 }
 
-const var pnlLogo = Content.getComponent("pnlLogo");
+//*** GUI ***
+//Header
+Content.setPropertiesFromJSON("pnlHeader", {itemColour:Theme.HEADER, itemColour2:Theme.HEADER});
+Content.setPropertiesFromJSON("pnlPresetBg", {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});
+
+//Logo
+const var pnlLogo = ui.setupControl("pnlLogo", {textColour:Theme.LOGO});
 pnlLogo.setPaintRoutine(paintRoutines.logo);
-pnlLogo.setPopupData(SettingsJson.settings, [200, 15, 300, 300]);
 
-const var pnlBg = Content.getComponent("pnlBg");
-pnlBg.setPaintRoutine(paintRoutines.mainBg);
+//Preset menu
+const var presetNames = ui.getPresetNames();
+const var cmbPreset = ui.comboBoxPanel("cmbPreset", paintRoutines.comboBox, presetNames);
+const var btnSavePreset = ui.buttonPanel("btnSavePreset", paintRoutines.disk);
 
-const var fltKeyboard = Content.getComponent("fltKeyboard");
-fltKeyboard.setContentData({"Type":"Keyboard", "LowKey":24});
-
-const var pnlTitleBg = Content.getComponent("pnlTitleBg");
-pnlTitleBg.setPaintRoutine(paintRoutines.titleBG);
-
-//Title label
-const var displayName = idh.getData(instrumentName).displayName; //Get insturment's display name
-Content.setPropertiesFromJSON("lblTitle", {text:displayName, textColour:Theme.TITLE.colour, fontName:Theme.TITLE.fontName, fontSize:Theme.TITLE.fontSize});
-
-const var btnPreset = Content.getComponent("btnPreset"); //Preset browser button, invisible, over instrument title
-
-//Page tabs
+//Tabs
 const var tabs = [];
 tabs[0] = Content.getComponent("pnlMain");
 tabs[1] = Content.getComponent("pnlSettings");
 
 //Main tab
-const var zones = [];
-zones[0] = Content.getComponent("pnlLeftZone");
-zones[1] = Content.getComponent("pnlMidZone");
-zones[2] = Content.getComponent("pnlRightZone");
+Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.BODY, itemColour2:Theme.BODY}); //Background panel
 
-for (i = 0; i < zones.length; i++)
-{
-	zones[i].setPaintRoutine(paintRoutines.zone);
-}
+const var zones = [];
+zones[0] = ui.setupControl("pnlLeftZone", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
+zones[1] = ui.setupControl("pnlMidZone", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
+zones[2] = ui.setupControl("pnlRightZone", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
 
 //Zone titles
-const var lblArtTitle = Content.getComponent("lblArtTitle");
-const var lblMixer = Content.getComponent("lblMixer");
-const var lblControllers = Content.getComponent("lblControllers");
-Content.setPropertiesFromJSON("lblArtTitle", {textColour:Theme.H1.colour, fontName:Theme.H1.fontName, fontSize:Theme.H1.fontSize});
-Content.setPropertiesFromJSON("lblMixer", {textColour:Theme.H1.colour, fontName:Theme.H1.fontName, fontSize:Theme.H1.fontSize});
-Content.setPropertiesFromJSON("lblControllers", {textColour:Theme.H1.colour, fontName:Theme.H1.fontName, fontSize:Theme.H1.fontSize});
+Content.setPropertiesFromJSON("lblArtTitle", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});
+Content.setPropertiesFromJSON("lblMixer", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});
+Content.setPropertiesFromJSON("lblControllers", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});
 
 //Includes initialisation
 articulationEditor.onInitCB();
 mixer.onInitCB();
 controllerEditor.onInitCB();
 
+//Settings button (gear icon)
+const var btnSettings = ui.buttonPanel("btnSettings", paintRoutines.gear);
+
 //Settings tab
 const var fltSettings = Content.getComponent("fltSettings");
 fltSettings.setContentData(SettingsJson.settings);
-SettingsJson.settings["Content"].push({"Type":"PresetBrowser", "Title":"Presets", "ColourData":{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}});
+//SettingsJson.settings["Content"].push({"Type":"PresetBrowser", "Title":"Presets", /*"ColourData":{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}*/});
 
-const var bufferSizes = [256, 512, 1024, 2048, 4096, 8192, 16384];
-const var cmbPreload = ui.comboBoxPanel("cmbPreload", paintRoutines.comboBox, bufferSizes); //Preload size
-const var cmbBuffer = ui.comboBoxPanel("cmbBuffer", paintRoutines.comboBox, bufferSizes); //Buffer Size
-const var cmbRRMode = ui.comboBoxPanel("cmbRRMode", paintRoutines.comboBox, ["Off", "Cycle RR", "Random RR"]); //RR Mode
-const var btnReleases = ui.buttonPanel("btnReleases", paintRoutines.pushButton);
+//const var cmbRRMode = ui.comboBoxPanel("cmbRRMode", paintRoutines.comboBox, ["Off", "Cycle RR", "Random RR"]); //RR Mode
+//const var btnReleases = ui.buttonPanel("btnReleases", paintRoutines.pushButton);
 
 //Settings label properties
 for (i = 0; i < 3; i++)
@@ -152,7 +141,7 @@ inline function changeBufferSettings(attribute, value)
 
 inline function changeRRSettings()
 {
-        for (r in rrHandlers) //Each round robin handler script
+    /*for (r in rrHandlers) //Each round robin handler script
     {
         if (cmbRRMode.getValue() == 1)
         {
@@ -169,7 +158,7 @@ inline function changeRRSettings()
     if (legatoHandler.getAttribute(0) != 1) //Legato/Glide enabled
     {
         sustainRoundRobin.setAttribute(0, 1); //Bypass sustain RR
-    }
+    }*/
 }
 
 inline function loadLegatoSettings()
@@ -213,7 +202,7 @@ function onNoteOff()
 	
 }
 function onController()
-{
+{   
 	articulationEditor.onControllerCB();	
 	controllerEditor.onControllerCB();
 }
@@ -231,19 +220,19 @@ function onControl(number, value)
             loadVibratoSettings();
 	    break;
 	    
-		case btnPreset:
-			ui.showControlFromArray(tabs, value);
-		break;
-			
-		case cmbPreload: //Preload size
-			changeBufferSettings(4, value-1);
+		case btnSavePreset:
+			if (value == 1)
+	        {
+			    Engine.saveUserPreset(""); //Save the current user preset
+			    btnSavePreset.setValue(0);
+	        }
 		break;
 		
-		case cmbBuffer: //Buffer size
-			changeBufferSettings(5, value-1);
+		case btnSettings:
+		    ui.showControlFromArray(tabs, value);
 		break;
-
-		case cmbRRMode: //RR Mode
+			
+		/*case cmbRRMode: //RR Mode
             changeRRSettings();
 		break;
 		
@@ -254,8 +243,8 @@ function onControl(number, value)
             {
 	            s.setAttribute(12, 1-value);
             }
-		break;
-		
+		break;*/
+				
 		default:
 			articulationEditor.onControlCB(number, value);
 			mixer.onControlCB(number, value);

@@ -2,7 +2,7 @@
 
 <Processor Type="SynthChain" ID="libreWinds" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....b2lVR.....HzarQF.....A.........." currentView="-1"
+           views="32.rk1bzA.....B.........LDZg4lakwF...OpGA....." currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -73,7 +73,7 @@
             </ContentProperties>
           </UIData>
         </Processor>
-        <Processor Type="ScriptProcessor" ID="mainInterface" Bypassed="0" Script="/*&#13;&#10;    Copyright 2018 David Healey&#13;&#10;&#13;&#10;    This file is part of Libre Winds.&#13;&#10;&#13;&#10;    Libre Winds is free software: you can redistribute it and/or modify&#13;&#10;    it under the terms of the GNU General Public License as published by&#13;&#10;    the Free Software Foundation, either version 3 of the License, or&#13;&#10;    (at your option) any later version.&#13;&#10;&#13;&#10;    Libre Winds is distributed in the hope that it will be useful,&#13;&#10;    but WITHOUT ANY WARRANTY; without even the implied warranty of&#13;&#10;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#13;&#10;    GNU General Public License for more details.&#13;&#10;&#13;&#10;    You should have received a copy of the GNU General Public License&#13;&#10;    along with Libre Winds. If not, see &lt;http://www.gnu.org/licenses/&gt;.&#13;&#10;*/&#13;&#10;&#13;&#10;include(&quot;HISE-Scripting-Framework/libraries/asyncUpdater.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/instrumentDataHandler.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/uiFactory.js&quot;);&#13;&#10;&#13;&#10;include(&quot;theme.js&quot;);&#13;&#10;include(&quot;paintRoutines.js&quot;);&#13;&#10;include(&quot;settingsWindowJson.js&quot;);&#13;&#10;include(&quot;articulationEditor.js&quot;);&#13;&#10;include(&quot;mixer.js&quot;);&#13;&#10;include(&quot;controllerEditor.js&quot;);&#13;&#10;&#13;&#10;Content.makeFrontInterface(676, 392);&#13;&#10;&#13;&#10;//Synth.deferCallbacks(true);&#13;&#10;&#13;&#10;Engine.loadFontAs(&quot;{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf&quot;, &quot;Sarala-Regular&quot;);&#13;&#10;Engine.loadFontAs(&quot;{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf&quot;, &quot;Sarala-Bold&quot;);&#13;&#10;&#13;&#10;const var cmbInstrument = Content.getComponent(&quot;cmbInstrument&quot;); //Instrument name selector (admin control)&#13;&#10;reg instrumentName = cmbInstrument.getItemText(); //Instrument name, accesible to every other part of script&#13;&#10;if (instrumentName == &quot;&quot;) instrumentName = &quot;altoFlute&quot;; //Fallback&#13;&#10;idh.loadInstrument(instrumentName, true); //Load the instrument's data&#13;&#10;&#13;&#10;const var noteNames = [];&#13;&#10;&#13;&#10;const var legatoHandler = Synth.getMidiProcessor(&quot;legatoHandler&quot;); //legato handler script&#13;&#10;const var sustainRoundRobin = Synth.getMidiProcessor(&quot;sustainRoundRobin&quot;); //Sustain/legato/glide round robin handler&#13;&#10;&#13;&#10;const var samplerIds = Synth.getIdList(&quot;Sampler&quot;);&#10;const var containerIds = Synth.getIdList(&quot;Container&quot;);&#10;const var scriptIds = Synth.getIdList(&quot;Script Processor&quot;);&#13;&#10;const var samplers = [];&#13;&#10;const var releaseSamplers = [];&#13;&#10;const var rrHandlers = []; //Round robin script processors&#13;&#10;&#13;&#10;//Build array of samplers&#13;&#10;for (id in samplerIds)&#13;&#10;{&#13;&#10;&#9;samplers.push(Synth.getSampler(id));&#13;&#10;&#9;&#13;&#10;&#9;if (id.indexOf(&quot;elease&quot;) != -1) //Release sampler&#13;&#10;    {&#13;&#10;        releaseSamplers.push(Synth.getSampler(id));   &#10;    }&#10;}&#13;&#10;&#13;&#10;//Build array of round robin handler scrips&#13;&#10;for (id in scriptIds)&#13;&#10;{&#13;&#10;    if (id.indexOf(&quot;RoundRobin&quot;) == -1) continue;&#13;&#10;    rrHandlers.push(Synth.getMidiProcessor(id));&#10;}&#13;&#10;&#13;&#10;//Populate note names array&#13;&#10;for (i = 0; i &lt; 127; i++)&#13;&#10;{&#13;&#10;&#9;if (i &lt; 120) noteNames[i] = Engine.getMidiNoteName(i); //Up to B7&#13;&#10;}&#13;&#10;&#13;&#10;//*** GUI ***&#13;&#10;//Header&#13;&#10;Content.setPropertiesFromJSON(&quot;pnlHeader&quot;, {itemColour:Theme.HEADER, itemColour2:Theme.HEADER});&#13;&#10;Content.setPropertiesFromJSON(&quot;pnlPresetBg&quot;, {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});&#13;&#10;&#13;&#10;//Logo&#13;&#10;const var pnlLogo = ui.setupControl(&quot;pnlLogo&quot;, {textColour:Theme.LOGO});&#13;&#10;pnlLogo.setPaintRoutine(paintRoutines.logo);&#13;&#10;&#13;&#10;//Preset menu&#13;&#10;const var presetNames = ui.getPresetNames();&#13;&#10;const var cmbPreset = ui.comboBoxPanel(&quot;cmbPreset&quot;, paintRoutines.comboBox, presetNames);&#13;&#10;const var btnSavePreset = ui.buttonPanel(&quot;btnSavePreset&quot;, paintRoutines.disk);&#13;&#10;&#13;&#10;//Tabs&#13;&#10;const var tabs = [];&#13;&#10;tabs[0] = Content.getComponent(&quot;pnlMain&quot;);&#13;&#10;tabs[1] = Content.getComponent(&quot;pnlSettings&quot;);&#13;&#10;&#13;&#10;//Main tab&#13;&#10;Content.setPropertiesFromJSON(&quot;pnlMain&quot;, {itemColour:Theme.BODY, itemColour2:Theme.BODY}); //Background panel&#13;&#10;&#13;&#10;const var zones = [];&#13;&#10;zones[0] = ui.setupControl(&quot;pnlLeftZone&quot;, {&quot;itemColour&quot;:Theme.ZONE, &quot;itemColour2&quot;:Theme.ZONE});&#13;&#10;zones[1] = ui.setupControl(&quot;pnlMidZone&quot;, {&quot;itemColour&quot;:Theme.ZONE, &quot;itemColour2&quot;:Theme.ZONE});&#13;&#10;zones[2] = ui.setupControl(&quot;pnlRightZone&quot;, {&quot;itemColour&quot;:Theme.ZONE, &quot;itemColour2&quot;:Theme.ZONE});&#13;&#10;&#13;&#10;//Zone titles&#13;&#10;Content.setPropertiesFromJSON(&quot;lblArtTitle&quot;, {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblMixer&quot;, {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblControllers&quot;, {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});&#13;&#10;&#13;&#10;//Includes initialisation&#13;&#10;articulationEditor.onInitCB();&#13;&#10;mixer.onInitCB();&#13;&#10;controllerEditor.onInitCB();&#13;&#10;&#13;&#10;//Settings button (gear icon)&#13;&#10;const var btnSettings = ui.buttonPanel(&quot;btnSettings&quot;, paintRoutines.gear);&#13;&#10;&#13;&#10;//Settings tab&#13;&#10;const var fltSettings = Content.getComponent(&quot;fltSettings&quot;);&#13;&#10;fltSettings.setContentData(SettingsJson.settings);&#13;&#10;//SettingsJson.settings[&quot;Content&quot;].push({&quot;Type&quot;:&quot;PresetBrowser&quot;, &quot;Title&quot;:&quot;Presets&quot;, /*&quot;ColourData&quot;:{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}*/});&#13;&#10;&#13;&#10;//const var cmbRRMode = ui.comboBoxPanel(&quot;cmbRRMode&quot;, paintRoutines.comboBox, [&quot;Off&quot;, &quot;Cycle RR&quot;, &quot;Random RR&quot;]); //RR Mode&#13;&#10;//const var btnReleases = ui.buttonPanel(&quot;btnReleases&quot;, paintRoutines.pushButton);&#13;&#10;&#13;&#10;//Settings label properties&#13;&#10;for (i = 0; i &lt; 3; i++)&#13;&#10;{&#13;&#10;&#9;Content.setPropertiesFromJSON(&quot;lblSet&quot;+i, {textColour:Theme.H2.colour, fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});&#13;&#10;}&#13;&#10;&#13;&#10;//Functions&#13;&#10;inline function changeBufferSettings(attribute, value)&#10;{&#10;&#9;for (s in samplers)&#10;&#9;{&#10;&#9;&#9;s.setAttribute(attribute, bufferSizes[value]);&#10;&#9;}&#10;}&#13;&#10;&#13;&#10;inline function changeRRSettings()&#13;&#10;{&#13;&#10;    /*for (r in rrHandlers) //Each round robin handler script&#13;&#10;    {&#13;&#10;        if (cmbRRMode.getValue() == 1)&#13;&#10;        {&#13;&#10;            r.setAttribute(0, 1); //Bypass button&#10;        }&#13;&#10;        else &#13;&#10;        {&#13;&#10;            r.setAttribute(0, 0); //Bypass button&#13;&#10;            cmbRRMode.getValue() == 3 ? r.setAttribute(1, 1) : r.setAttribute(1, 0); //Random/Cycle mode&#13;&#10;        }&#10;    }&#13;&#10;    &#13;&#10;    //Bypass sustain RR if in a legato mode&#13;&#10;    if (legatoHandler.getAttribute(0) != 1) //Legato/Glide enabled&#13;&#10;    {&#13;&#10;        sustainRoundRobin.setAttribute(0, 1); //Bypass sustain RR&#10;    }*/&#10;}&#13;&#10;&#13;&#10;inline function loadLegatoSettings()&#13;&#10;{&#13;&#10;    local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes&#13;&#10;    local settings = idh.getData(instrumentName)[&quot;legatoSettings&quot;]; //Get instrument's legato settings&#13;&#10;    &#13;&#10;    legatoHandler.setAttribute(attributes.BEND_TIME, settings.bendTime);&#13;&#10;    legatoHandler.setAttribute(attributes.MIN_BEND, settings.minBend);&#13;&#10;    legatoHandler.setAttribute(attributes.MAX_BEND, settings.maxBend);&#13;&#10;    legatoHandler.setAttribute(attributes.FADE_TIME, settings.fadeTime);&#10;}&#13;&#10;&#13;&#10;inline function loadVibratoSettings()&#13;&#10;{&#13;&#10;    local gainMod = Synth.getModulator(&quot;globalGainModLFO&quot;); //Vibrato gain modulator&#13;&#10;    local pitchMod = Synth.getModulator(&quot;globalPitchModLFO&quot;); //Vibrato pitch modulator&#13;&#10;    local eq = Synth.getEffect(&quot;vibratoEq&quot;); //Vibrato EQ&#13;&#10;    local settings = idh.getData(instrumentName)[&quot;vibratoSettings&quot;]; //Get instrument's vibrato settings&#13;&#10;    &#13;&#10;    gainMod.setIntensity(settings.gain);&#13;&#10;    pitchMod.setIntensity(settings.pitch);&#13;&#10;    eq.setAttribute(0, settings.eqGain);&#13;&#10;    eq.setAttribute(1, settings.eqFreq);&#13;&#10;}&#13;&#10;&#13;&#10;inline function setRoundRobinRange()&#13;&#10;{&#13;&#10;    local range = idh.getArticulationRange(instrumentName, &quot;sustain&quot;);&#13;&#10;    &#13;&#10;    //Set the range of the sustain/legato/glide round robin handler&#13;&#10;    sustainRoundRobin.setAttribute(2, range[0]);&#13;&#10;    sustainRoundRobin.setAttribute(3, range[1]);&#13;&#10;}function onNoteOn()&#10;{&#10;&#9;articulationEditor.onNoteCB();&#13;&#10;&#9;controllerEditor.onNoteCB();&#13;&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{   &#13;&#10;&#9;articulationEditor.onControllerCB();&#9;&#13;&#10;&#9;controllerEditor.onControllerCB();&#13;&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#13;&#10;&#9;switch (number)&#13;&#10;&#9;{&#13;&#10;&#9;    case cmbInstrument: //Hidden admin control to select instrument for preset&#13;&#10;            setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting&#13;&#10;            loadLegatoSettings();&#13;&#10;            loadVibratoSettings();&#13;&#10;&#9;    break;&#13;&#10;&#9;    &#13;&#10;&#9;&#9;case btnSavePreset:&#13;&#10;&#9;&#9;&#9;if (value == 1)&#13;&#10;&#9;        {&#13;&#10;&#9;&#9;&#9;    Engine.saveUserPreset(&quot;&quot;); //Save the current user preset&#13;&#10;&#9;&#9;&#9;    btnSavePreset.setValue(0);&#13;&#10;&#9;        }&#13;&#10;&#9;&#9;break;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;case btnSettings:&#13;&#10;&#9;&#9;    ui.showControlFromArray(tabs, value);&#13;&#10;&#9;&#9;break;&#13;&#10;&#9;&#9;&#9;&#13;&#10;&#9;&#9;/*case cmbRRMode: //RR Mode&#13;&#10;            changeRRSettings();&#13;&#10;&#9;&#9;break;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;case btnReleases: //Release triggers purge/load&#13;&#10;&#9;&#9;    value == 1 ? btnReleases.set(&quot;text&quot;, &quot;Loaded&quot;) : btnReleases.set(&quot;text&quot;, &quot;Purged&quot;);&#13;&#10;&#9;&#9;    btnReleases.repaintImmediately();&#13;&#10;&#9;&#9;    for (s in releaseSamplers)&#13;&#10;            {&#13;&#10;&#9;            s.setAttribute(12, 1-value);&#10;            }&#13;&#10;&#9;&#9;break;*/&#13;&#10;&#9;&#9;&#9;&#9;&#13;&#10;&#9;&#9;default:&#13;&#10;&#9;&#9;&#9;articulationEditor.onControlCB(number, value);&#13;&#10;&#9;&#9;&#9;mixer.onControlCB(number, value);&#13;&#10;&#9;&#9;&#9;controllerEditor.onControlCB(number, value);&#13;&#10;&#9;&#9;break;&#10;&#9;}&#10;}&#10;">
+        <Processor Type="ScriptProcessor" ID="mainInterface" Bypassed="0">
           <ChildProcessors/>
           <Content>
             <Control type="ScriptPanel" id="pnlAdmin" value="0"/>
@@ -91,7 +91,7 @@
             <Control type="ScriptLabel" id="lblRatio" value="Fade Ratio"/>
             <Control type="ScriptLabel" id="lblRate" value="Rate"/>
             <Control type="ScriptLabel" id="lblGlide" value="Wholetone"/>
-            <Control type="ScriptPanel" id="cmbArt" value="1"/>
+            <Control type="ScriptPanel" id="cmbArt" value="3"/>
             <Control type="ScriptPanel" id="cmbKs0" value="25"/>
             <Control type="ScriptPanel" id="cmbKs1" value="26"/>
             <Control type="ScriptPanel" id="cmbKs2" value="27"/>
@@ -122,8 +122,8 @@
             <Control type="ScriptSlider" id="sliRel6" value="250"/>
             <Control type="ScriptSlider" id="sliOffset" value="10.899999618530273438"/>
             <Control type="ScriptSlider" id="sliRatio" value="100"/>
-            <Control type="ScriptSlider" id="sliRate" value="2"/>
-            <Control type="ScriptLabel" id="lblGlideVal" value="1/2"/>
+            <Control type="ScriptSlider" id="sliRate" value="9"/>
+            <Control type="ScriptLabel" id="lblGlideVal" value="1/8T"/>
             <Control type="ScriptPanel" id="btnGlideMode" value="0"/>
             <Control type="ScriptPanel" id="pnlMidZone" value="0"/>
             <Control type="ScriptLabel" id="lblMixer" value="Mixer"/>
@@ -152,9 +152,9 @@
             <Control type="ScriptPanel" id="cmbCc2" value="1"/>
             <Control type="ScriptPanel" id="cmbCc3" value="80"/>
             <Control type="ScriptPanel" id="cmbCc4" value="9"/>
-            <Control type="ScriptTable" id="tblCc0" value="39" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="38" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C...vO"/>
-            <Control type="ScriptTable" id="tblCc2" value="88" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc2" value="64" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="3" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc4" value="43" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptPanel" id="pnlOct" value="2"/>
@@ -209,13 +209,16 @@
                              fontName="Sarala-Regular" fontSize="23" textColour="4278190080"/>
                   <Component type="ScriptLabel" id="lblVol" x="5" y="115" width="85" height="25"
                              text="Volume" alignment="left" editable="0" parentComponent="pnlLeftZone"
-                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"/>
+                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"
+                             visible="0"/>
                   <Component type="ScriptLabel" id="lblAtk" x="5" y="150" width="85" height="25"
                              text="Attack" alignment="left" editable="0" parentComponent="pnlLeftZone"
-                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"/>
+                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"
+                             visible="0"/>
                   <Component type="ScriptLabel" id="lblRel" x="5" y="185" width="85" height="25"
                              text="Release" alignment="left" editable="0" parentComponent="pnlLeftZone"
-                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"/>
+                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"
+                             visible="0"/>
                   <Component type="ScriptLabel" id="lblOffset" x="5" y="115" width="85" height="25"
                              text="Offset" alignment="left" editable="0" parentComponent="pnlLeftZone"
                              fontName="Sarala-Regular" fontSize="23" textColour="4278190080"
@@ -226,11 +229,10 @@
                              visible="0"/>
                   <Component type="ScriptLabel" id="lblRate" x="5" y="115" width="85" height="25"
                              text="Rate" alignment="left" editable="0" parentComponent="pnlLeftZone"
-                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"
-                             visible="0"/>
+                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"/>
                   <Component type="ScriptLabel" id="lblGlide" x="5" y="150" width="85" height="25"
                              text="Wholetone" editable="0" parentComponent="pnlLeftZone" fontName="Sarala-Regular"
-                             fontSize="23" alignment="left" textColour="4278190080" visible="0"/>
+                             fontSize="23" alignment="left" textColour="4278190080"/>
                   <Component type="ScriptPanel" id="cmbArt" x="90" y="45" width="100" height="25"
                              parentComponent="pnlLeftZone" borderRadius="0" borderSize="0"
                              allowCallbacks="Context Menu" popupOnRightClick="0" popupMenuAlign="1"
@@ -242,7 +244,7 @@
                              allowCallbacks="Context Menu" popupOnRightClick="0" popupMenuAlign="1"
                              saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7"
                              textColour="4294967295" text="Keyswitch" bgColour="4284246649"
-                             itemColour2="4278190080" itemColour="4288585374"/>
+                             itemColour2="4278190080" itemColour="4288585374" visible="0"/>
                   <Component type="ScriptPanel" id="cmbKs1" x="90" y="80" width="100" height="25"
                              parentComponent="pnlLeftZone" borderRadius="0" borderSize="0"
                              allowCallbacks="Context Menu" popupOnRightClick="0" popupMenuAlign="1"
@@ -254,7 +256,7 @@
                              allowCallbacks="Context Menu" popupOnRightClick="0" popupMenuAlign="1"
                              saveInPreset="1" popupMenuItems="C-2&#10;C#-2&#10;D-2&#10;D#-2&#10;E-2&#10;F-2&#10;F#-2&#10;G-2&#10;G#-2&#10;A-2&#10;A#-2&#10;B-2&#10;C-1&#10;C#-1&#10;D-1&#10;D#-1&#10;E-1&#10;F-1&#10;F#-1&#10;G-1&#10;G#-1&#10;A-1&#10;A#-1&#10;B-1&#10;C0&#10;C#0&#10;D0&#10;D#0&#10;E0&#10;F0&#10;F#0&#10;G0&#10;G#0&#10;A0&#10;A#0&#10;B0&#10;C1&#10;C#1&#10;D1&#10;D#1&#10;E1&#10;F1&#10;F#1&#10;G1&#10;G#1&#10;A1&#10;A#1&#10;B1&#10;C2&#10;C#2&#10;D2&#10;D#2&#10;E2&#10;F2&#10;F#2&#10;G2&#10;G#2&#10;A2&#10;A#2&#10;B2&#10;C3&#10;C#3&#10;D3&#10;D#3&#10;E3&#10;F3&#10;F#3&#10;G3&#10;G#3&#10;A3&#10;A#3&#10;B3&#10;C4&#10;C#4&#10;D4&#10;D#4&#10;E4&#10;F4&#10;F#4&#10;G4&#10;G#4&#10;A4&#10;A#4&#10;B4&#10;C5&#10;C#5&#10;D5&#10;D#5&#10;E5&#10;F5&#10;F#5&#10;G5&#10;G#5&#10;A5&#10;A#5&#10;B5&#10;C6&#10;C#6&#10;D6&#10;D#6&#10;E6&#10;F6&#10;F#6&#10;G6&#10;G#6&#10;A6&#10;A#6&#10;B6&#10;C7&#10;C#7&#10;D7&#10;D#7&#10;E7&#10;F7&#10;F#7&#10;G7&#10;G#7&#10;A7&#10;A#7&#10;B7"
                              textColour="4294967295" text="Keyswitch" bgColour="4284246649"
-                             itemColour2="4278190080" itemColour="4288585374" visible="0"/>
+                             itemColour2="4278190080" itemColour="4288585374"/>
                   <Component type="ScriptPanel" id="cmbKs3" x="90" y="80" width="100" height="25"
                              parentComponent="pnlLeftZone" borderRadius="0" borderSize="0"
                              allowCallbacks="Context Menu" popupOnRightClick="0" popupMenuAlign="1"
@@ -283,7 +285,8 @@
                              width="100" parentComponent="pnlLeftZone" height="25" bgColour="4288585374"
                              itemColour="4284246649" middlePosition="-18.000000000000003553"
                              itemColour2="1118481" isVertical="0" mode="Decibel" min="-100"
-                             max="0" stepSize="0.10000000000000000555" suffix=" dB" scaleFactor="0.1"/>
+                             max="0" stepSize="0.10000000000000000555" suffix=" dB" scaleFactor="0.1"
+                             visible="0"/>
                   <Component type="ScriptSlider" id="sliArtVol1" x="90" y="115" style="Horizontal"
                              width="100" parentComponent="pnlLeftZone" height="25" bgColour="4291085508"
                              itemColour="4293322470" middlePosition="-18.000000000000003553"
@@ -324,7 +327,7 @@
                              width="100" parentComponent="pnlLeftZone" height="25" bgColour="4288585374"
                              itemColour="4284246649" mode="Time" max="20000" stepSize="1"
                              suffix=" ms" middlePosition="999.99999999999977263" itemColour2="0"
-                             isVertical="0" defaultValue="5"/>
+                             isVertical="0" defaultValue="5" visible="0"/>
                   <Component type="ScriptSlider" id="sliAtk1" x="90" y="150" style="Horizontal"
                              width="100" parentComponent="pnlLeftZone" height="25" bgColour="4291085508"
                              itemColour="4293322470" mode="Time" max="20000" stepSize="1"
@@ -359,7 +362,7 @@
                              width="100" parentComponent="pnlLeftZone" height="25" bgColour="4288585374"
                              itemColour="4284246649" mode="Time" max="20000" stepSize="1"
                              suffix=" ms" middlePosition="999.99999999999977263" itemColour2="1118481"
-                             isVertical="0" text="Release" defaultValue="250"/>
+                             isVertical="0" text="Release" defaultValue="250" visible="0"/>
                   <Component type="ScriptSlider" id="sliRel1" x="90" y="185" style="Horizontal"
                              width="100" parentComponent="pnlLeftZone" height="25" bgColour="4291085508"
                              itemColour="4293322470" mode="Time" max="20000" stepSize="1"
@@ -406,16 +409,15 @@
                              width="100" parentComponent="pnlLeftZone" height="25" bgColour="4288585374"
                              itemColour="4284246649" stepSize="1" suffix=" " middlePosition="9"
                              itemColour2="1118481" defaultValue="8" isVertical="0" text="HELLO"
-                             max="19" showTextBox="0" visible="0"/>
+                             max="19" showTextBox="0"/>
                   <Component type="ScriptLabel" id="lblGlideVal" x="90" y="115" width="100"
-                             height="25" text="1/2" editable="0" parentComponent="pnlLeftZone"
-                             fontName="Sarala-Regular" fontSize="20" itemColour2="0" enabled="0"
-                             visible="0"/>
+                             height="25" text="1/8T" editable="0" parentComponent="pnlLeftZone"
+                             fontName="Sarala-Regular" fontSize="20" itemColour2="0"/>
                   <Component type="ScriptPanel" id="btnGlideMode" x="90" y="150" width="100"
                              height="25" parentComponent="pnlLeftZone" borderRadius="0" borderSize="0"
                              popupOnRightClick="0" saveInPreset="1" textColour="4294967295"
                              text="Disabled" allowCallbacks="Clicks Only" enableMidiLearn="1"
-                             bgColour="4288585374" itemColour="4284246649" visible="0"/>
+                             bgColour="4288585374" itemColour="4284246649"/>
                 </Component>
                 <Component type="ScriptPanel" id="pnlMidZone" x="238" y="10" width="200"
                            height="225" parentComponent="pnlMain" saveInPreset="1" borderSize="0"
@@ -771,7 +773,7 @@
                     <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                   </Content>
                 </Processor>
-                <Processor Type="ScriptProcessor" ID="sustainIgnoreCC64" Bypassed="0" Script="function onNoteOn()&#10;{&#10;&#9;&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#10;&#9;if (Message.getControllerNumber() == 64) Message.ignoreEvent(true);&#13;&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;&#10;}&#10;">
+                <Processor Type="ScriptProcessor" ID="sustainIgnoreCC64" Bypassed="0">
                   <ChildProcessors/>
                   <Content/>
                   <UIData>
@@ -824,9 +826,9 @@
                     <Processor Type="ScriptProcessor" ID="legatoHandler" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/legato.js">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="Bypass" value="1"/>
+                        <Control type="ScriptButton" id="Bypass" value="0"/>
                         <Control type="ScriptButton" id="Legato" value="0"/>
-                        <Control type="ScriptButton" id="Glide" value="0"/>
+                        <Control type="ScriptButton" id="Glide" value="1"/>
                         <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
                         <Control type="ScriptSlider" id="Bend Time" value="0"/>
                         <Control type="ScriptSlider" id="Min Bend" value="20"/>
@@ -834,7 +836,7 @@
                         <Control type="ScriptSlider" id="Fade Time" value="60"/>
                         <Control type="ScriptSlider" id="Fade Out Ratio" value="100"/>
                         <Control type="ScriptSlider" id="Offset" value="0.89100003242492675781"/>
-                        <Control type="ScriptSlider" id="Rate" value="2"/>
+                        <Control type="ScriptSlider" id="Rate" value="9"/>
                         <Control type="ScriptButton" id="Same Note Legato" value="0"/>
                       </Content>
                       <UIData>
@@ -19744,7 +19746,7 @@
                     <Control type="ScriptButton" id="fixStuckNotes" value="0"/>
                   </Content>
                 </Processor>
-                <Processor Type="ScriptProcessor" ID="flutterIgnoreCC64" Bypassed="0" Script="function onNoteOn()&#10;{&#10;&#9;&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#10;&#9;if (Message.getControllerNumber() == 64)&#13;&#10;&#9;{&#13;&#10;&#9;&#9;Message.ignoreEvent(true);&#10;&#9;}&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;&#10;}&#10;">
+                <Processor Type="ScriptProcessor" ID="flutterIgnoreCC64" Bypassed="0">
                   <ChildProcessors/>
                   <Content/>
                   <UIData>
@@ -20204,8 +20206,7 @@
                     <Control type="ScriptButton" id="fixStuckNotes" value="0"/>
                   </Content>
                 </Processor>
-                <Processor Type="ScriptProcessor" ID="harmonicsIgnoreCC642" Bypassed="0"
-                           Script="function onNoteOn()&#10;{&#10;&#9;&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#10;&#9;if (Message.getControllerNumber() == 64)&#13;&#10;&#9;{&#13;&#10;&#9;&#9;Message.ignoreEvent(true);&#10;&#9;}&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;&#10;}&#10;">
+                <Processor Type="ScriptProcessor" ID="harmonicsIgnoreCC642" Bypassed="0">
                   <ChildProcessors/>
                   <Content/>
                   <UIData>
@@ -20670,10 +20671,10 @@
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="btnMute" value="0"/>
-                    <Control type="ScriptButton" id="btnLegato" value="0"/>
+                    <Control type="ScriptButton" id="btnLegato" value="1"/>
                     <Control type="ScriptButton" id="Attenuate" value="1"/>
                     <Control type="ScriptSlider" id="Time" value="8"/>
-                    <Control type="ScriptTable" id="tblTime" value="5" data="24..........9C...vO...f+.........vO"/>
+                    <Control type="ScriptTable" id="tblTime" value="33" data="24..........9C...vO...f+.........vO"/>
                   </Content>
                   <UIData>
                     <ContentProperties DeviceType="Desktop">
