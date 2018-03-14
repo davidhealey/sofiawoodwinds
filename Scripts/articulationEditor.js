@@ -174,6 +174,12 @@ namespace articulationEditor
 				
 		switch (ccNum)
 		{		
+			case 5: //Glide Time
+			    v = Math.ceil(sliRate.get("max") / 100 * (normalised * 100));
+			    sliRate.setValue(v);
+			    lblGlideVal.set("text", rates[v]);
+			break;
+			
 			case 32: //UACC
 			
 				idx = idh.getProgramIndex(ccValue); //Lookup program number
@@ -204,7 +210,17 @@ namespace articulationEditor
                     changeArticulation(legatoIndex);
                     asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, legatoIndex);
                 }	
-			break;			
+			break;
+			
+			case 65: //Glide whole tone on/off
+			    if (ccValue > 64 != btnGlideMode.getValue()) //Only carry on if the value has changed
+		        {
+		            btnGlideMode.setValue(ccValue > 64);
+		            legatoHandler.setAttribute(3, ccValue > 64);
+			        ccValue > 64 ? btnGlideMode.set("text", "Enabled") : btnGlideMode.set("text", "Disabled");
+			        btnGlideMode.repaint(); //Async redraw
+		        }
+			break;
 			
 			case 73: //MIDI attack CC
 				v = (Math.pow(normalised, skewFactor)) * 20000.0;

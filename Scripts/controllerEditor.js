@@ -22,9 +22,9 @@ namespace controllerEditor
 		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
 		const var userCc = [-1, 11, 1, 20, 21]; //User assigned controllers
 		const var realCc = [-1, 11, 1, 20, 21]; //Real CCs forwarded internally. -1 = velocity
-        const var reservedCc = [32, 64, 72, 73]; //CCs used internally, not user selectable
+        const var reservedCc = [5, 32, 64, 65, 72, 73]; //CCs used internally, not user selectable
 		
-        const var ccNums = [];       
+        const var ccNums = [];
         //Populate list of CC numbers
         for (i = 1; i < 128; i++)
 	    {
