@@ -212,13 +212,11 @@ namespace articulationEditor
                 }	
 			break;
 			
-			case 65: //Glide whole tone on/off
+			case 1: //Glide whole tone on/off
 			    if (ccValue > 64 != btnGlideMode.getValue()) //Only carry on if the value has changed
 		        {
 		            btnGlideMode.setValue(ccValue > 64);
-		            legatoHandler.setAttribute(3, ccValue > 64);
-			        ccValue > 64 ? btnGlideMode.set("text", "Enabled") : btnGlideMode.set("text", "Disabled");
-			        btnGlideMode.repaint(); //Async redraw
+		            updateGlideWholeToneState();
 		        }
 			break;
 			
@@ -260,9 +258,7 @@ namespace articulationEditor
 			break;
 			
 			case btnGlideMode:
-			    value == 1 ? btnGlideMode.set("text", "Enabled") : btnGlideMode.set("text", "Disabled");
-				legatoHandler.setAttribute(3, value);
-				btnGlideMode.repaint();
+                updateGlideWholeToneState();
 			break;
 			
             default:
@@ -460,4 +456,13 @@ namespace articulationEditor
 			}
 		}
 	}
+	
+	inline function updateGlideWholeToneState()
+    {
+        local state = btnGlideMode.getValue();
+        
+        legatoHandler.setAttribute(3, state);
+        state == 1 ? btnGlideMode.set("text", "Enabled") : btnGlideMode.set("text", "Disabled");
+        btnGlideMode.repaint(); //Async redraw
+    }
 }
