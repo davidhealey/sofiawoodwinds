@@ -24,14 +24,14 @@ namespace articulationEditor
 		const var containerIds = Synth.getIdList("Container");
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
         const var releaseHandler = Synth.getMidiProcessor("releaseHandler"); //Release handler
-        
+		const var containers = []; //Containers whose IDs match articulation names
+		const var muters = [];
+		const var envelopes = {};
+		
         //Store some articulation indexes to reduce CPU usage
         const var legatoIndex = idh.getArticulationIndex("meta_legato", false);
         const var glideIndex = idh.getArticulationIndex("meta_glide", false);
         
-		const var containers = []; //Containers whose IDs match articulation names
-		const var muters = [];
-		const var envelopes = {};
 		reg idx; //Variable to store indexes
 		reg t; //Temp variable for scratch values
 		reg r; //Temp variable for scratch values
@@ -133,8 +133,14 @@ namespace articulationEditor
 	
 	inline function onNoteCB()
 	{
-		idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check if note is ks
-		
+	    local range = idh.getRange(instrumentName); //Instruments max playable range
+
+	    //If the note is outside of the instrument's playable range check if it is a key switch
+	    if (Message.getNoteNumber() < range[0] || Message.getNoteNumber() > range[1])
+	    {
+            idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check if note is ks   
+	    }
+
 		if (idx == -1) //keyswitch did not trigger callback
 	    {
             //If two notes are held, and the sustain pedal is down, and the current articulation is legato change to the glide articulation
@@ -290,6 +296,7 @@ namespace articulationEditor
                             cmbKs[i].setValue(idh.getKeyswitch(instrumentName, i)+1); //Revert to previous KS
                             cmbKs[i].repaintImmediately();
                         }
+                        break;
                     }
                     else if (number == sliArtVol[i]) //Articulation volume
                     {
