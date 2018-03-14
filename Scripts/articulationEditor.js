@@ -181,15 +181,14 @@ namespace articulationEditor
 			break;
 			
 			case 32: //UACC
-			
 				idx = idh.getProgramIndex(ccValue); //Lookup program number
 				
 				if (idx != -1) //Assigned program number triggered callback
 				{
+				    cmbArt.setValue(idx+1); //Change displayed selected articulation
+				    cmbArt.repaint(); //Async repaint
 					changeArticulation(idx);
 					asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx);
-					cmbArt.setValue(idh.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change displayed selected articulation
-					cmbArt.repaint(); //Async repaint
 				}
 			break;
 			
