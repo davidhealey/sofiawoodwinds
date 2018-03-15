@@ -44,6 +44,7 @@ const var noteNames = [];
 
 const var legatoHandler = Synth.getMidiProcessor("legatoHandler"); //legato handler script
 const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sustain/legato/glide round robin handler
+const var velToCC = Synth.getMidiProcessor("velocityToCC"); //For controlling dynamics with velocity
 
 const var samplerIds = Synth.getIdList("Sampler");
 const var containerIds = Synth.getIdList("Container");
@@ -115,7 +116,8 @@ fltSettings.setContentData(SettingsJson.settings);
 //Footer buttons
 const var btnSettings = ui.buttonPanel("btnSettings", paintRoutines.gear); //Settings
 const var btnRR = ui.buttonPanel("btnRR", paintRoutines.roundRobin); //Round Robin
-const var btnRelease = ui.buttonPanel("btnRelease", paintRoutines.release); //Release samples
+const var btnRelease = ui.buttonPanel("btnRelease", paintRoutines.release); //Release samples purge/load
+const var btnVelocity = ui.buttonPanel("btnVelocity", paintRoutines.velocity); //Velocity mode on/off
 
 //Includes initialisation
 articulationEditor.onInitCB();
@@ -135,15 +137,8 @@ inline function changeRRSettings()
 {
     for (r in rrHandlers) //Each round robin handler script
     {
-        if (btnRR.getValue() == 0)
-        {
-            r.setAttribute(0, 1); //Bypass button
-        }
-        else 
-        {
-            r.setAttribute(0, 0); //Bypass button
-            r.setAttribute(1, 1); //Random mode
-        }
+        r.setAttribute(0, 1-btnRR.getValue()); //Bypass button
+        if (btnRR.getValue() == 1) r.setAttribute(1, 1); //Random mode
     }
     
     //Bypass sustain RR if in a legato mode
