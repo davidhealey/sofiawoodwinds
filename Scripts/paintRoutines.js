@@ -32,22 +32,23 @@ namespace paintRoutines
 
     const var gear = function(g)
     {
-        g.setColour(this.get("itemColour"));
+        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
         g.fillPath(svgPaths.gear, [0, 0, this.get("width"), this.get("height")]);
     };
     		
-    const var volumeFader = function(g)
+    const var roundRobin = function(g)
     {
-        g.setColour(this.get("bgColour"));    
-        g.fillRect([0, 0, this.get("width"), this.get("height")]);
-    
-        g.setColour(this.get("itemColour"));
-    
-        var newVal = (this.get("height") / this.get("max")) * this.getValue();
-    
-        g.fillRect([0, this.get("height")-newVal, this.get("width"), this.get("height")]);
+        g.setFont(Theme.ZONE_FONT, 24);
+        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
+        g.drawAlignedText("RR", [0, 0, this.get("width"), this.get("height")], "centred");
     };
-    
+
+    const var release = function(g)
+    {
+        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
+        g.fillPath(svgPaths.release, [0, 0, this.get("width"), this.get("height")]);
+    };
+
 	const var biDirectionalSlider = function(g)
 	{
 		//Background
@@ -178,4 +179,10 @@ namespace svgPaths
 	
 	const var gear = Content.createPath();
 	gear.loadFromData(gearData);
+	
+	const var releaseData = [110,109,96,176,136,196,80,120,15,197,108,96,176,136,196,16,194,14,197,108,16,161,140,196,16,194,14,197,108,16,161,140,196,240,73,14,197,108,96,176,136,196,240,73,14,197,108,240,152,132,196,240,73,14,197,108,160,164,134,196,32,225,14,197,108,96,176,136,
+196,80,120,15,197,99,101,0,0];
+	
+    const var release = Content.createPath();
+	release.loadFromData(releaseData);
 }

@@ -108,27 +108,19 @@ Content.setPropertiesFromJSON("lblArtTitle", {fontName:Theme.ZONE_FONT, fontSize
 Content.setPropertiesFromJSON("lblMixer", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});
 Content.setPropertiesFromJSON("lblControllers", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});
 
+//Settings tab
+const var fltSettings = Content.getComponent("fltSettings");
+fltSettings.setContentData(SettingsJson.settings);
+
+//Footer buttons
+const var btnSettings = ui.buttonPanel("btnSettings", paintRoutines.gear); //Settings
+const var btnRR = ui.buttonPanel("btnRR", paintRoutines.roundRobin); //Round Robin
+const var btnRelease = ui.buttonPanel("btnRelease", paintRoutines.release); //Release samples
+
 //Includes initialisation
 articulationEditor.onInitCB();
 mixer.onInitCB();
 controllerEditor.onInitCB();
-
-//Settings button (gear icon)
-const var btnSettings = ui.buttonPanel("btnSettings", paintRoutines.gear);
-
-//Settings tab
-const var fltSettings = Content.getComponent("fltSettings");
-fltSettings.setContentData(SettingsJson.settings);
-//SettingsJson.settings["Content"].push({"Type":"PresetBrowser", "Title":"Presets", /*"ColourData":{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}*/});
-
-//const var cmbRRMode = ui.comboBoxPanel("cmbRRMode", paintRoutines.comboBox, ["Off", "Cycle RR", "Random RR"]); //RR Mode
-//const var btnReleases = ui.buttonPanel("btnReleases", paintRoutines.pushButton);
-
-//Settings label properties
-for (i = 0; i < 3; i++)
-{
-	Content.setPropertiesFromJSON("lblSet"+i, {textColour:Theme.H2.colour, fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
-}
 
 //Functions
 inline function changeBufferSettings(attribute, value)
@@ -141,16 +133,16 @@ inline function changeBufferSettings(attribute, value)
 
 inline function changeRRSettings()
 {
-    /*for (r in rrHandlers) //Each round robin handler script
+    for (r in rrHandlers) //Each round robin handler script
     {
-        if (cmbRRMode.getValue() == 1)
+        if (btnRR.getValue() == 0)
         {
             r.setAttribute(0, 1); //Bypass button
         }
         else 
         {
             r.setAttribute(0, 0); //Bypass button
-            cmbRRMode.getValue() == 3 ? r.setAttribute(1, 1) : r.setAttribute(1, 0); //Random/Cycle mode
+            r.setAttribute(1, 1); //Random mode
         }
     }
     
@@ -158,7 +150,7 @@ inline function changeRRSettings()
     if (legatoHandler.getAttribute(0) != 1) //Legato/Glide enabled
     {
         sustainRoundRobin.setAttribute(0, 1); //Bypass sustain RR
-    }*/
+    }
 }
 
 inline function loadLegatoSettings()
@@ -232,18 +224,18 @@ function onControl(number, value)
 		    ui.showControlFromArray(tabs, value);
 		break;
 			
-		/*case cmbRRMode: //RR Mode
+		case btnRR: //RR Mode
             changeRRSettings();
 		break;
 		
-		case btnReleases: //Release triggers purge/load
-		    value == 1 ? btnReleases.set("text", "Loaded") : btnReleases.set("text", "Purged");
-		    btnReleases.repaintImmediately();
+		case btnRelease: //Release triggers purge/load
+		    
 		    for (s in releaseSamplers)
             {
 	            s.setAttribute(12, 1-value);
             }
-		break;*/
+            
+		break;
 				
 		default:
 			articulationEditor.onControlCB(number, value);
