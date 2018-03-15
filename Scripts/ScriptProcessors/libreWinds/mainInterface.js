@@ -44,7 +44,6 @@ const var noteNames = [];
 
 const var legatoHandler = Synth.getMidiProcessor("legatoHandler"); //legato handler script
 const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sustain/legato/glide round robin handler
-const var velToCC = Synth.getMidiProcessor("velocityToCC"); //For controlling dynamics with velocity
 
 const var samplerIds = Synth.getIdList("Sampler");
 const var containerIds = Synth.getIdList("Container");
@@ -191,7 +190,6 @@ function onNoteOff()
 function onController()
 {   
 	articulationEditor.onControllerCB();	
-	controllerEditor.onControllerCB();
 }
 function onTimer()
 {

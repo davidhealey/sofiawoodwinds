@@ -20,10 +20,14 @@ namespace controllerEditor
 	inline function onInitCB()
 	{
 		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
-		const var userCc = [-1, 11, 1, 20, 21]; //User assigned controllers
-		const var realCc = [-1, 11, 1, 20, 21]; //Real CCs forwarded internally. -1 = velocity
         const var reservedCc = [5, 32, 64, 65, 72, 73]; //CCs used internally, not user selectable
-		
+
+        const var ccMods = [];
+        ccMods[1] = Synth.getModulator("expressionCC");
+        ccMods[2] = Synth.getAllModulators("dynamicsCC"); //All dynamics CC modulators
+        ccMods[3] = Synth.getModulator("vibratoIntensityCC");
+        ccMods[4] = Synth.getModulator("vibratoRateCC");
+
         const var ccNums = [];
         //Populate list of CC numbers
         for (i = 1; i < 128; i++)
@@ -34,7 +38,7 @@ namespace controllerEditor
 	             ccNums.push(i);
             }
 	    }
-        
+
 		const var cmbParam = ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, parameters);
 		Content.setPropertiesFromJSON("cmbParam", {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
 
@@ -47,47 +51,21 @@ namespace controllerEditor
 			cmbCc[i] = Content.addPanel("cmbCc"+i, 90, 80);
 			Content.setPropertiesFromJSON("cmbCc"+i, {width:100, height:25, bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT, parentComponent:"pnlRightZone"});
 			ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ccNums);
-	
+
 			//Response table
 			tblCc[i] = Content.addTable("tblCc"+i, 10, 115);
 			Content.setPropertiesFromJSON("tblCc"+i, {width:180, height:95, parentComponent:"pnlRightZone"});
 		}
-		
+
 		const var pnlTblBg = Content.getComponent("pnlTblBg"); //Table background colour panel
-		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.CONTROL2);});		
+		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.CONTROL2);});
 	}
-	
+
 	inline function onNoteCB()
 	{
 		Message.setVelocity(Math.max(1, 127 * tblCc[0].getTableValue(Message.getVelocity()))); //Scale velocity according to table
 	}
-	
-	inline function onControllerCB()
-	{
-		reg n = Message.getControllerNumber();
-		reg v = Message.getControllerValue();
-		
-		if (userCc.contains(n)) //User defined CC triggered the callback
-		{
-			Message.ignoreEvent(true); //I'll take it from here
-			
-			for (i = 0; i < parameters.length; i++) //Each parameter
-			{
-				if (realCC[i] < 0) continue; //Ignore internal modulators
-				
-				if (n == cmbCc[i].getValue()) //CC has been assigned to this parameter
-				{
-					//Scale and forward value to real CC
-					Synth.sendController(realCc[i], 127 * tblCc[i].getTableValue(v));
-				}
-			}
-		}
-		else if (realCc.contains(n)) //Real CCs should only ever be controlled via User CCs
-		{
-			Message.ignoreEvent(true);
-		}
-	}
-	
+
 	inline function onControlCB(number, value)
 	{
 		if (number == cmbParam)
@@ -100,16 +78,23 @@ namespace controllerEditor
 			cmbCc[value-1].set("visible", true);
 			tblCc[value-1].set("visible", true);
 		}
-		else //cmbCc
+		else //cmbCc[] or tblCc[]
 		{
-			for (i = 0; i < parameters.length; i++)
+			for (i = 1; i < parameters.length; i++) //Start at 1 to skip velocity
 			{
 				if (number == cmbCc[i])
 				{
-					if (realCc[i] != -1) //Velocity (ui control should be disabled anyway)
-					{
-						userCc[i] = cmbCc[i].data.items[value-1]; //Get value from panel's items
-					}
+                    if (!Array.isArray(ccMods[i])) //Single modulator
+                    {
+                        ccMods[i].setAttribute(2, cmbCc[i].data.items[value-1]); //Change the mod's CC number
+                    }
+				    else //Multiple modulators for this parameter
+				    {
+				        for (m in ccMods[i])
+				        {
+				            m.setAttribute(2, cmbCc[i].data.items[value-1]); //Change the mod's CC number
+				        }
+				    }
 					break; //Exit loop
 				}
 			}
