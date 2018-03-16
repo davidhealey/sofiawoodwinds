@@ -20,7 +20,7 @@ namespace controllerEditor
 	inline function onInitCB()
 	{
 		const var parameters = ["Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
-        const var reservedCc = [5, 32, 64, 65, 72, 73]; //CCs used internally, not user selectable
+        const var reservedCc = [5, 14, 32, 64, 65, 72, 73]; //CCs used internally, not user selectable
 
         const var ccMods = [];
         ccMods[0] = Synth.getModulator("expressionCC");

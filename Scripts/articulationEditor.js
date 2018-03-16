@@ -23,23 +23,22 @@ namespace articulationEditor
 		const var muterIds = Synth.getIdList("MidiMuter");
 		const var containerIds = Synth.getIdList("Container");
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
-        const var releaseHandler = Synth.getMidiProcessor("releaseHandler"); //Release handler
+        const var releaseHandler = Synth.getMidiProcessor("releaseHandler"); //Release handler script
 		const var containers = []; //Containers whose IDs match articulation names
 		const var muters = [];
-		const var envelopes = {};
+		const var envelopes = [];
+		const var keyswitches = [];
 		
         //Store some articulation indexes to reduce CPU usage
         const var legatoIndex = idh.getArticulationIndex("meta_legato", false);
         const var glideIndex = idh.getArticulationIndex("meta_glide", false);
-        
-		reg idx; //Variable to store indexes
-		reg t; //Temp variable for scratch values
-		reg r; //Temp variable for scratch values
-		
-		//Variables used to get the parent index of meta articulations
-        local articulationName;
-        local parentName;
-        local parentIdx;
+        		        
+        //Populate note names array
+        const var noteNames = [];
+        for (i = 0; i < 127; i++)
+        {
+            noteNames[i] = Engine.getMidiNoteName(i);
+        }
         		
 		//GUI
 		const var cmbKs = [];
@@ -69,14 +68,19 @@ namespace articulationEditor
 		Content.setPropertiesFromJSON("btnGlideMode", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var lblGlideVal = Content.getComponent("lblGlideVal");
 				
+        local parentIdx; //The parent index of meta articulations
+        local articulationName;
+        
 		for (i = 0; i < idh.getNumArticulations(true); i++) //All available articulations
 		{
-			cmbKs.push(Content.getComponent("cmbKs"+i));
+		    articulationName = idh.getArticulationName(i, true); //Name of current (i) articulation in allArticulations array
+		    
+			cmbKs.push(Content.getComponent("cmbKs"+i)); //key switches
 			ui.comboBoxPanel("cmbKs"+i, paintRoutines.comboBox, noteNames);
 			Content.setPropertiesFromJSON("cmbKs"+i, {x:90, y:80, bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
 	
 			//Attack release and volume controls, only applicable to non-meta articulations
-			if (idh.getArticulationNames(true)[i].indexOf("meta_") == -1)
+			if (articulationName.indexOf("meta_") == -1)
 		    {
                 sliAtk[i] = Content.getComponent("sliAtk"+i);
                 Content.setPropertiesFromJSON("sliAtk"+i, {x:90, y:150, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
@@ -93,25 +97,24 @@ namespace articulationEditor
             //Get containers and muters for each articulation
             for (j = 0; j < containerIds.length; j++)
             {
-		        if (idh.getArticulationNames(true)[i].indexOf("meta_") != -1) //Meta artculation uses parent's container and muter
+                //Meta artculation uses parent's container and muter
+		        if (articulationName.indexOf("meta_") != -1)
 				{
-				    //Get the parent's index
-				    articulationName = idh.getArticulationNames(null)[i];
-				    parentName = idh.getData(instrumentName).articulations[articulationName].parent;
-				    parentIdx = idh.getArticulationNames(null).indexOf(parentName);
-
+                    parentIdx = idh.getParentIdx(instrumentName, articulationName); //Get the parent's index
 				    containers[i] = containers[parentIdx];; //Use parent's container for meta articulation
 				    muters[i] = muters[parentIdx]; //Use parent's muter for meta articulation
 				    break; //Exit inner loop
 				}
 				else 
                 {
-                    if (containerIds[j].indexOf(idh.getArticulationNames(null)[i]) != -1)
+                    //Container's ID contains articulation name
+                    if (containerIds[j].indexOf(articulationName) != -1)
                     {
                         containers.push(Synth.getChildSynth(containerIds[j]));
                     }
                     
-                    if (j < muterIds.length && muterIds[j].indexOf(idh.getArticulationNames(null)[i]) != -1) //MIDI muter ID contains articulation name   
+                    //MIDI muter ID contains articulation name
+                    if (j < muterIds.length && muterIds[j].indexOf(articulationName) != -1)
                     {
                         muters.push(Synth.getMidiProcessor(muterIds[j])); //Get muter for articulation
                     } 
@@ -121,11 +124,10 @@ namespace articulationEditor
 			//Find envelopes for each articulation - ignore those with Release or without envelope in the ID
 			for (e in envelopeIds)
 			{
-				if (e.indexOf(idh.getArticulationNames(null)[i]) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
+				if (e.indexOf(articulationName) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
 				{
-   				    if (idh.getArticulationNames(null)[i].indexOf("meta_") != -1) continue; //Skip meta articulations
-					if (envelopes[i] == undefined) envelopes[i] = []; //An articulation may have more than one envelope
-					envelopes[i].push(Synth.getModulator(e));
+   				    if (articulationName.indexOf("meta_") != -1) continue; //Skip meta articulations
+   				    envelopes[i] = Synth.getModulator(e);
 				}
 			}
 		}
@@ -133,13 +135,13 @@ namespace articulationEditor
 	
 	inline function onNoteCB()
 	{
-	    local range = idh.getRange(instrumentName); //Instruments max playable range
-        idx = -1;
+        local idx = -1;
         
 	    //If the note is outside of the instrument's playable range check if it is a key switch
 	    if (Message.getNoteNumber() < range[0] || Message.getNoteNumber() > range[1])
 	    {
-            idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check if note is ks   
+	        Message.ignoreEvent(true);
+            idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check if note is ks
 	    }
 
 		if (idx == -1) //keyswitch did not trigger callback
@@ -156,7 +158,7 @@ namespace articulationEditor
 		    cmbArt.setValue(idx+1);
 			cmbArt.repaint(); //Async repaint
 			changeArticulation(idx); //MIDI muter handler
-			asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx); //Async UI update
+			asyncUpdater.deferFunction(articulationUIHandlerAndColourKeys, idx); //Async UI update
 		}
 	}
 		
@@ -195,7 +197,7 @@ namespace articulationEditor
 				    cmbArt.setValue(idx+1); //Change displayed selected articulation
 				    cmbArt.repaint(); //Async repaint
 					changeArticulation(idx);
-					asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, idx);
+					asyncUpdater.deferFunction(articulationUIHandlerAndColourKeys, idx);
 				}
 			break;
 			
@@ -214,7 +216,7 @@ namespace articulationEditor
                     cmbArt.setValue(legatoIndex+1);
                     cmbArt.repaint();
                     changeArticulation(legatoIndex);
-                    asyncUpdater.setFunctionAndUpdate(articulationUIHandlerAndColourKeys, legatoIndex);
+                    asyncUpdater.deferFunction(articulationUIHandlerAndColourKeys, legatoIndex);
                 }	
 			break;
 			
@@ -241,13 +243,13 @@ namespace articulationEditor
 	}
 	
 	inline function onControlCB(number, value)
-	{
+	{	    
 	    switch (number)
 	    {
 	        case cmbArt:
                 changeArticulation(value-1);
                 colourPlayableKeys();
-                articulationUIHandler(value-1); //Change displayed articulation controls
+                updateUI(value-1); //Change displayed articulation controls
             break;
             
 		    case sliOffset:
@@ -267,49 +269,34 @@ namespace articulationEditor
                 updateGlideWholeToneState();
 			break;
 			
-            default: //Common controls for all articulations
-                for (i = 0; i < idh.getNumArticulations(null); i++) //Each of the instrument's articulations
+            default: //Common controls for each articulations
+                for (i = 0; i < cmbKs.length; i++)
                 {
                     if (number == cmbKs[i]) //Key switch drop down
-                    {
-                        r = idh.getRange(instrumentName); //Full playable range of instrument
-                        local keyswitches = idh.getKeyswitches(); //Get instrument's key switches
-                        
-                        if (value-1 < r[0] || value-1 > r[1]) //Selection is outside playable range
+                    {                                                
+                        if (value-1 < range[0] || value-1 > range[1]) //Selection is outside max playable range
                         {
-                            idh.setKeyswitch(i, value-1); //Update the KS array
-                            
-                            for (j = 0; j < 128; j++) //Every MIDI note
-                            {
-                                if (j < r[0] || j > r[1]) //j is outside playable range    
-                                {
-                                    Engine.setKeyColour(j, Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
-                                
-                                    if (keyswitches.contains(j)) //j is an assigned key switch
-                                    {
-                                        Engine.setKeyColour(j, Colours.withAlpha(Colours.red, 0.3)); //Colour KS
-                                    }
-                                }
-                            }
+                            keyswitches[i] = value-1;
+                            colourKeyswitches();
                         }
-                        else
+                        else //Selection overlaps playable range
                         {
                             cmbKs[i].setValue(idh.getKeyswitch(instrumentName, i)+1); //Revert to previous KS
-                            cmbKs[i].repaintImmediately();
+                            cmbKs[i].repaint();
                         }
                         break;
                     }
-                    else if (number == sliArtVol[i]) //Articulation volume
+                    else if (number == sliArtVol[i]) //Volume
                     {
                         containers[i].setAttribute(0, Engine.getGainFactorForDecibels(value));
                         break;
                     }
-                    else if (number == sliAtk[i])
+                    else if (number == sliAtk[i]) //Attack
                     {
                         setEnvelopeAttack(i, value);
                         break;
                     }
-                    else if (number == sliRel[i])
+                    else if (number == sliRel[i]) //Release
                     {
                         setEnvelopeRelease(i, value);
                         break;
@@ -321,110 +308,102 @@ namespace articulationEditor
 	
 	inline function setEnvelopeAttack(idx, value)
 	{
-		for (e in envelopes[idx]) //Each envelope for the articulation (i)
-		{
-			e.setAttribute(e.Attack, value);
-		}
+        envelopes[idx].setAttribute(envelopes[idx].Attack, value);
 	}
 	
 	inline function setEnvelopeRelease(idx, value)
 	{
-		for (e in envelopes[idx]) //Each envelope for the articulation (i)
-		{
-			e.setAttribute(e.Release, value);
-		}
+        envelopes[idx].setAttribute(envelopes[idx].Release, value);
 	}
 	
 	//idx = instrumentArticulations array index (not allArticulations)
-	inline function articulationUIHandler(idx)
+	inline function updateUI(idx)
 	{	    	    
-        t = idh.getArticulationName(idx, false); //Get name of articulation
-
-	    //Hide all articulation controls
-		for (i = 0; i < idh.getNumArticulations(null); i++)
+	    local n;
+	    
+        n = idh.getArticulationName(idx, false); //Get name of articulation (idx)
+        
+	    //Hide articulation controls
+		for (i = 0; i < cmbKs.length; i++)
 		{
-			cmbKs[i].set("visible", false);
+			cmbKs[i].showControl(false);
 			
-			if (idh.getArticulationNames(null)[i].indexOf("meta_") != -1) continue; //Skip meta articulations
+			if (idh.getArticulationName(i, true).indexOf("meta_") != -1) continue; //Skip meta articulations
 
-			sliArtVol[i].set("visible", false);
-			sliAtk[i].set("visible", false);
-			sliRel[i].set("visible", false);
+			sliArtVol[i].showControl(false);
+			sliAtk[i].showControl(false);
+			sliRel[i].showControl(false);
 		}
 		
 		//Hide meta articulation controls
-		lblOffset.set("visible", false);
-		lblRatio.set("visible", false);
-        lblRate.set("visible", false);
-        lblGlide.set("visible", false);
-		sliOffset.set("visible", false);
-		sliRatio.set("visible", false);
-        sliRate.set("visible", false);
-        lblGlideVal.set("visible", false);
-        btnGlideMode.set("visible", false);            
+		lblOffset.showControl(false);
+		lblRatio.showControl(false);
+        lblRate.showControl(false);
+        lblGlide.showControl(false);
+		sliOffset.showControl(false);
+		sliRatio.showControl(false);
+        sliRate.showControl(false);
+        lblGlideVal.showControl(false);
+        btnGlideMode.showControl(false);            
 
         //Show controls for given articulation index (idx)
 		cmbKs[idx].set("visible", true);
 		
-		if (t.indexOf("meta_") == -1) //Not a meta articulation
+		if (n.indexOf("meta_") == -1) //Not a meta articulation
 	    {
-            sliArtVol[idx].set("visible", true);
-            sliAtk[idx].set("visible", true);
-            sliRel[idx].set("visible", true);
-            lblVol.set("visible", true);
-            lblAtk.set("visible", true);
-            lblRel.set("visible", true);
-            if (t == "sustain") changeRRSettings(); //If articulation is sustain enable correct round robin mode
+            sliArtVol[idx].showControl(true);
+            sliAtk[idx].showControl(true);
+            sliRel[idx].showControl(true);
+            lblVol.showControl(true);
+            lblAtk.showControl(true);
+            lblRel.showControl(true);
 	    }
-	    else
-	    {
-	        metaArticulationUIHandler(t);
+	    else //Meta articulations
+	    {	        
+            if (n == "meta_legato"  || n == "meta_glide") //Legato script articulation
+            {
+                lblVol.showControl(false);
+                lblAtk.showControl(false);
+                lblRel.showControl(false);
+            
+                if (n == "meta_legato") //Legato specific controls
+                {
+                    lblOffset.showControl(true);
+                    lblRatio.showControl(true);
+                    sliOffset.showControl(true);
+                    sliRatio.showControl(true);
+                }
+                else //Glide specific controls
+                {
+                    lblRate.showControl(true);
+                    lblGlide.showControl(true);
+                    sliRate.showControl(true);
+                    lblGlideVal.showControl(true);
+                    btnGlideMode.showControl(true);
+                }
+            }
 	    }
 	}
-	
-	inline function metaArticulationUIHandler(a)
-    {        
-        if (a == "meta_legato"  || a == "meta_glide") //Legato script articulation
-        {            
-            lblVol.set("visible", false);
-            lblAtk.set("visible", false);
-            lblRel.set("visible", false);
-            
-            if (a == "meta_legato") //Legato specific controls
-            {
-                lblOffset.set("visible", true);
-                lblRatio.set("visible", true);
-                sliOffset.set("visible", true);
-                sliRatio.set("visible", true);
-            }
-            else //Glide specific controls
-            {
-                lblRate.set("visible", true);
-                lblGlide.set("visible", true);
-                sliRate.set("visible", true);
-                lblGlideVal.set("visible", true);
-                btnGlideMode.set("visible", true);
-            }
-        }
-    }
     
 	inline function changeArticulation(idx)
 	{
+	    local n;
+	    
 		if (idx > -1) //Sanity check
 		{
-		    t = idh.getArticulationName(idx, false); //Get name of articulation
+		    n = idh.getArticulationName(idx, false); //Get name of articulation
 		    
 			//Mute every articulation
 			for (m in muters) //Each Midi muter
 			{
 				m.setAttribute(0, 1);
 			}		
-			muters[idx].setAttribute(0, 0); //Unmute articulation (a)	
+			muters[idx].setAttribute(0, 0); //Unmute articulation (idx)
 			
 			//Meta articulations
-            if (t.indexOf("meta_") != -1)
+            if (n.indexOf("meta_") != -1)
 		    {
-                if (t == "meta_legato"  || t == "meta_glide") //Legato script articulation
+                if (n == "meta_legato"  || n == "meta_glide") //Legato script articulation
                 {
                     legatoHandler.setAttribute(idx, 1); //Enable correct legato script mode
                     releaseHandler.setAttribute(1, 1); //Enable release legato mode
@@ -442,17 +421,29 @@ namespace articulationEditor
 	inline function articulationUIHandlerAndColourKeys(idx)
 	{
 		colourPlayableKeys();
-		articulationUIHandler(idx); //Change displayed articulation controls
+		updateUI(idx); //Change displayed articulation controls
 	}
-	
-	inline function colourPlayableKeys()
+		
+	inline function updateGlideWholeToneState()
+    {
+        local state = btnGlideMode.getValue();
+        
+        legatoHandler.setAttribute(3, state);
+        state == 1 ? btnGlideMode.set("text", "Enabled") : btnGlideMode.set("text", "Disabled");
+        btnGlideMode.repaint(); //Async redraw
+    }
+    
+    inline function colourPlayableKeys()
 	{
-		t = idh.getArticulationName(cmbArt.getValue()-1, false);
-		r = idh.getArticulationRange(instrumentName, t); //Range of current articulation
+	    local n;
+	    local r;
+	    
+		n = idh.getArticulationName(cmbArt.getValue()-1, false); //Name of current articulation
+		r = idh.getArticulationRange(instrumentName, n); //Range of current articulation
 
 		for (i = 0; i < 128; i++)
 		{
-		    if (idh.getKeyswitchIndex(instrumentName, i) != -1) continue; //Skip key switches
+		    if (keyswitches.indexOf(i) != -1) continue; //Skip key switches
 		    
             Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour   
 			
@@ -463,12 +454,19 @@ namespace articulationEditor
 		}
 	}
 	
-	inline function updateGlideWholeToneState()
+    inline function colourKeyswitches()
     {
-        local state = btnGlideMode.getValue();
-        
-        legatoHandler.setAttribute(3, state);
-        state == 1 ? btnGlideMode.set("text", "Enabled") : btnGlideMode.set("text", "Disabled");
-        btnGlideMode.repaint(); //Async redraw
+        for (i = 0; i < 128; i++) //Every MIDI note
+        {
+            if (i < range[0] || i > range[1]) //j is outside max playable range
+            {
+                Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+                                
+                if (keyswitches.contains(i)) //j is an assigned key switch
+                {
+                    Engine.setKeyColour(i, Colours.withAlpha(Colours.red, 0.3)); //Colour KS
+                }
+            }
+        }
     }
 }
