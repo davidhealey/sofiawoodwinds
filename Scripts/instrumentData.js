@@ -25,7 +25,7 @@ namespace instData
 	const var database = {
 		"Alto Flute":
 		{
-		    displayName:"Alto Flute",
+		    sampleMapId:"altoFlute", //Identifier for finding sample maps
 			range:[55, 91], //Maximum range of instrument
 			articulations:
 			{
