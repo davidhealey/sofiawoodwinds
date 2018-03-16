@@ -47,6 +47,8 @@ namespace mixer
 			ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up callbacks for pan slider
 			ui.buttonPanel("btnPurge"+i, paintRoutines.textButton); //Set up callbacks for purge button
 		}
+		
+		width[0].showControl(false); //First channel is mono so no need for width control
 	}
 	
 	inline function onControlCB(number, value)
