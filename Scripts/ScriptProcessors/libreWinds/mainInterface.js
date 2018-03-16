@@ -30,17 +30,8 @@ include("controllerEditor.js");
 
 Content.makeFrontInterface(676, 392);
 
-//Synth.deferCallbacks(true);
-
 Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
 Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
-
-const var cmbInstrument = Content.getComponent("cmbInstrument"); //Instrument name selector (admin control)
-reg instrumentName = cmbInstrument.getItemText(); //Instrument name, accesible to every other part of script
-if (instrumentName == "") instrumentName = "altoFlute"; //Fallback
-idh.loadInstrument(instrumentName, true); //Load the instrument's data
-
-const var noteNames = [];
 
 const var legatoHandler = Synth.getMidiProcessor("legatoHandler"); //legato handler script
 const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sustain/legato/glide round robin handler
@@ -51,6 +42,14 @@ const var scriptIds = Synth.getIdList("Script Processor");
 const var samplers = [];
 const var releaseSamplers = [];
 const var rrHandlers = []; //Round robin script processors
+
+//Load instrument - based on preset name matched against instrumentData database
+const var instrumentName = idh.getInstrumentName(); //Name of current instrument
+const var range = idh.getRange(instrumentName); //Instrument's max playable range
+idh.loadInstrument(instrumentName, true); //Load the instrument's data
+setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
+loadLegatoSettings();
+loadVibratoSettings();            
 
 //Build array of samplers
 for (id in samplerIds)
@@ -68,12 +67,6 @@ for (id in scriptIds)
 {
     if (id.indexOf("RoundRobin") == -1) continue;
     rrHandlers.push(Synth.getMidiProcessor(id));
-}
-
-//Populate note names array
-for (i = 0; i < 127; i++)
-{
-	if (i < 120) noteNames[i] = Engine.getMidiNoteName(i); //Up to B7
 }
 
 //*** GUI ***
@@ -118,19 +111,11 @@ const var btnRR = ui.buttonPanel("btnRR", paintRoutines.roundRobin); //Round Rob
 const var btnRelease = ui.buttonPanel("btnRelease", paintRoutines.release); //Release samples purge/load
 
 //Includes initialisation
-articulationEditor.onInitCB();
+articulationEditor.onInitCB(); //Initialise articulation editor
 mixer.onInitCB();
 controllerEditor.onInitCB();
 
 //Functions
-inline function changeBufferSettings(attribute, value)
-{
-	for (s in samplers)
-	{
-		s.setAttribute(attribute, bufferSizes[value]);
-	}
-}
-
 inline function loadLegatoSettings()
 {
     local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
@@ -155,13 +140,22 @@ inline function loadVibratoSettings()
     eq.setAttribute(1, settings.eqFreq);
 }
 
+//Set the range of the sustain/legato/glide round robin handler
 inline function setRoundRobinRange()
 {
     local range = idh.getArticulationRange(instrumentName, "sustain");
     
-    //Set the range of the sustain/legato/glide round robin handler
     sustainRoundRobin.setAttribute(2, range[0]);
     sustainRoundRobin.setAttribute(3, range[1]);
+}
+//Turn round robin on or off
+inline function changeRRSettings()
+{
+    for (r in rrHandlers) //Each round robin handler script
+    {
+        r.setAttribute(0, 1-btnRR.getValue()); //Bypass button
+        if (btnRR.getValue() == 1) r.setAttribute(1, 1); //Random mode
+    }
 }function onNoteOn()
 {
 	articulationEditor.onNoteCB();
@@ -172,6 +166,16 @@ function onNoteOff()
 }
 function onController()
 {   
+    if (Message.getControllerNumber() == 14) //Controls RR on/off
+    {
+        if (Message.getControllerValue() > 64 != btnRR.getValue()) //Value has changed
+        {
+            btnRR.setValue(Message.getControllerValue() > 64);
+            btnRR.repaint();
+            changeRRSettings();
+        }
+    }
+    
 	articulationEditor.onControllerCB();	
 }
 function onTimer()
@@ -181,13 +185,7 @@ function onTimer()
 function onControl(number, value)
 {
 	switch (number)
-	{
-	    case cmbInstrument: //Hidden admin control to select instrument for preset
-            setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
-            loadLegatoSettings();
-            loadVibratoSettings();
-	    break;
-	    
+	{    
 		case btnSavePreset:
 			if (value == 1)
 	        {
@@ -201,11 +199,7 @@ function onControl(number, value)
 		break;
 			
 		case btnRR: //RR Mode
-            for (r in rrHandlers) //Each round robin handler script
-            {
-                r.setAttribute(0, 1-btnRR.getValue()); //Bypass button
-                if (btnRR.getValue() == 1) r.setAttribute(1, 1); //Random mode
-            }
+            changeRRSettings();
 		break;
 		
 		case btnRelease: //Release triggers purge/load

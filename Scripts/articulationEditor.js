@@ -56,7 +56,7 @@ namespace articulationEditor
 		const var lblRatio = ui.setupControl("lblRatio", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
 		const var lblRate = ui.setupControl("lblRate", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
 		const var lblGlide = ui.setupControl("lblGlide", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
-		
+
 		//Combo boxes, sliders, and buttons
 		const var cmbArt = ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, idh.getArticulationDisplayNames());
 	    Content.setPropertiesFromJSON("cmbArt", {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
@@ -141,7 +141,7 @@ namespace articulationEditor
 	    if (Message.getNoteNumber() < range[0] || Message.getNoteNumber() > range[1])
 	    {
 	        Message.ignoreEvent(true);
-            idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check if note is ks
+            idx = keyswitches.indexOf(Message.getNoteNumber()); //Check if note is ks
 	    }
 
 		if (idx == -1) //keyswitch did not trigger callback
@@ -388,11 +388,11 @@ namespace articulationEditor
 	inline function changeArticulation(idx)
 	{
 	    local n;
-	    
+
 		if (idx > -1) //Sanity check
 		{
 		    n = idh.getArticulationName(idx, false); //Get name of articulation
-		    
+
 			//Mute every articulation
 			for (m in muters) //Each Midi muter
 			{

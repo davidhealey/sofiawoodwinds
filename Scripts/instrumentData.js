@@ -23,7 +23,7 @@ namespace instData
 	reg programs = [1, 2, 3, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
 	
 	const var database = {
-		altoFlute:
+		"Alto Flute":
 		{
 		    displayName:"Alto Flute",
 			range:[55, 91], //Maximum range of instrument
