@@ -19,14 +19,14 @@ namespace controllerEditor
 {
 	inline function onInitCB()
 	{
-		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
+		const var parameters = ["Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
         const var reservedCc = [5, 32, 64, 65, 72, 73]; //CCs used internally, not user selectable
 
         const var ccMods = [];
-        ccMods[1] = Synth.getModulator("expressionCC");
-        ccMods[2] = Synth.getAllModulators("dynamicsCC"); //All dynamics CC modulators
-        ccMods[3] = Synth.getModulator("vibratoIntensityCC");
-        ccMods[4] = Synth.getModulator("vibratoRateCC");
+        ccMods[0] = Synth.getModulator("expressionCC");
+        ccMods[1] = Synth.getModulator("dynamicsCC");
+        ccMods[2] = Synth.getModulator("vibratoIntensityCC");
+        ccMods[3] = Synth.getModulator("vibratoRateCC");
 
         const var ccNums = [];
         //Populate list of CC numbers
@@ -48,13 +48,11 @@ namespace controllerEditor
 		for (i = 0; i < parameters.length; i++)
 		{
 			//Controller selection
-			cmbCc[i] = Content.addPanel("cmbCc"+i, 90, 80);
-			Content.setPropertiesFromJSON("cmbCc"+i, {width:100, height:25, bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT, parentComponent:"pnlRightZone"});
+			cmbCc[i] = ui.setupControl("cmbCc"+i, {width:100, height:25, bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT, parentComponent:"pnlRightZone"});
 			ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ccNums);
 
 			//Response table
-			tblCc[i] = Content.addTable("tblCc"+i, 10, 115);
-			Content.setPropertiesFromJSON("tblCc"+i, {width:180, height:95, parentComponent:"pnlRightZone"});
+			tblCc[i] = ui.setupControl("tblCc"+i, {width:180, height:95, parentComponent:"pnlRightZone"});
 		}
 
 		const var pnlTblBg = Content.getComponent("pnlTblBg"); //Table background colour panel
@@ -63,7 +61,6 @@ namespace controllerEditor
 
 	inline function onNoteCB()
 	{
-		Message.setVelocity(Math.max(1, 127 * tblCc[0].getTableValue(Message.getVelocity()))); //Scale velocity according to table
 	}
 
 	inline function onControlCB(number, value)
@@ -80,21 +77,11 @@ namespace controllerEditor
 		}
 		else //cmbCc[] or tblCc[]
 		{
-			for (i = 1; i < parameters.length; i++) //Start at 1 to skip velocity
+			for (i = 0; i < parameters.length; i++)
 			{
 				if (number == cmbCc[i])
 				{
-                    if (!Array.isArray(ccMods[i])) //Single modulator
-                    {
-                        ccMods[i].setAttribute(2, cmbCc[i].data.items[value-1]); //Change the mod's CC number
-                    }
-				    else //Multiple modulators for this parameter
-				    {
-				        for (m in ccMods[i])
-				        {
-				            m.setAttribute(2, cmbCc[i].data.items[value-1]); //Change the mod's CC number
-				        }
-				    }
+                    ccMods[i].setAttribute(2, cmbCc[i].data.items[value-1]); //Change the mod's CC number
 					break; //Exit loop
 				}
 			}
