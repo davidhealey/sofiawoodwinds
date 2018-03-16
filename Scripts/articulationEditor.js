@@ -134,7 +134,8 @@ namespace articulationEditor
 	inline function onNoteCB()
 	{
 	    local range = idh.getRange(instrumentName); //Instruments max playable range
-
+        idx = -1;
+        
 	    //If the note is outside of the instrument's playable range check if it is a key switch
 	    if (Message.getNoteNumber() < range[0] || Message.getNoteNumber() > range[1])
 	    {
@@ -427,7 +428,6 @@ namespace articulationEditor
                 {
                     legatoHandler.setAttribute(idx, 1); //Enable correct legato script mode
                     releaseHandler.setAttribute(1, 1); //Enable release legato mode
-                    sustainRoundRobin.setAttribute(0, 1); //Bypass round robin
                 }
             }
             else //Not meta articulation 

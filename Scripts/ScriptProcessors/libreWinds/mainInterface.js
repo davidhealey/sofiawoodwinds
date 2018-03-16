@@ -131,21 +131,6 @@ inline function changeBufferSettings(attribute, value)
 	}
 }
 
-inline function changeRRSettings()
-{
-    for (r in rrHandlers) //Each round robin handler script
-    {
-        r.setAttribute(0, 1-btnRR.getValue()); //Bypass button
-        if (btnRR.getValue() == 1) r.setAttribute(1, 1); //Random mode
-    }
-    
-    //Bypass sustain RR if in a legato mode
-    if (legatoHandler.getAttribute(0) != 1) //Legato/Glide enabled
-    {
-        sustainRoundRobin.setAttribute(0, 1); //Bypass sustain RR
-    }
-}
-
 inline function loadLegatoSettings()
 {
     local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
@@ -180,7 +165,6 @@ inline function setRoundRobinRange()
 }function onNoteOn()
 {
 	articulationEditor.onNoteCB();
-	controllerEditor.onNoteCB();
 }
 function onNoteOff()
 {
@@ -217,7 +201,11 @@ function onControl(number, value)
 		break;
 			
 		case btnRR: //RR Mode
-            changeRRSettings();
+            for (r in rrHandlers) //Each round robin handler script
+            {
+                r.setAttribute(0, 1-btnRR.getValue()); //Bypass button
+                if (btnRR.getValue() == 1) r.setAttribute(1, 1); //Random mode
+            }
 		break;
 		
 		case btnRelease: //Release triggers purge/load

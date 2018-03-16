@@ -59,10 +59,6 @@ namespace controllerEditor
 		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.CONTROL2);});
 	}
 
-	inline function onNoteCB()
-	{
-	}
-
 	inline function onControlCB(number, value)
 	{
 		if (number == cmbParam)
