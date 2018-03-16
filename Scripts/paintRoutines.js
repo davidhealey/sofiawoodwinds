@@ -48,14 +48,6 @@ namespace paintRoutines
         this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
         g.fillPath(svgPaths.release, [0, 0, this.get("width"), this.get("height")]);
     };
-
-    const var velocity = function(g)
-    {
-        g.setFont(Theme.ZONE_FONT, 24);
-        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
-        g.drawAlignedText("V", [0, 0, this.get("width"), this.get("height")], "centred");
-    };
-
     
 	const var biDirectionalSlider = function(g)
 	{
