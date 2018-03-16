@@ -44,7 +44,9 @@ const var releaseSamplers = [];
 const var rrHandlers = []; //Round robin script processors
 
 //Load instrument - based on preset name matched against instrumentData database
-const var instrumentName = idh.getInstrumentName(); //Name of current instrument
+reg instrumentName = idh.getInstrumentNameFromPresetName(); //Name of current instrument
+if (instrumentName == "") instrumentName = "Alto Flute"; //Default
+
 const var range = idh.getRange(instrumentName); //Instrument's max playable range
 idh.loadInstrument(instrumentName, true); //Load the instrument's data
 setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
@@ -186,6 +188,10 @@ function onControl(number, value)
 {
 	switch (number)
 	{    
+	    case cmbPreset:
+	        Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
+	    break;
+	    
 		case btnSavePreset:
 			if (value == 1)
 	        {
