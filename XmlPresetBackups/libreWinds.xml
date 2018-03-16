@@ -2,7 +2,7 @@
 
 <Processor Type="SynthChain" ID="libreWinds" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA......OUjR.....rvBK3vBKrPCJnfBLnfBJv." currentView="-1"
+           views="32.rk1bzA.....B.........LDZg4lakwF..HxWJA....." currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -155,14 +155,13 @@
             <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C..HyO"/>
             <Control type="ScriptTable" id="tblCc2" value="54" data="24...............vO...f+....9C..XzO"/>
             <Control type="ScriptTable" id="tblCc3" value="3" data="24......3NVA5C...vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc4" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptPanel" id="pnlOct" value="2"/>
             <Control type="ScriptPanel" id="pnlOctUp" value="0"/>
             <Control type="ScriptLabel" id="lblOct" value="0"/>
             <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
             <Control type="ScriptPanel" id="btnRR" value="1"/>
             <Control type="ScriptPanel" id="btnRelease" value="0"/>
-            <Control type="ScriptPanel" id="btnVelocity" value="0"/>
-            <Control type="ScriptTable" id="tblCc4" value="0" data="24...............vO...f+....9C...vO"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
@@ -618,10 +617,6 @@
                 <Component type="ScriptPanel" id="btnRelease" x="589" y="7" width="20" height="11"
                            parentComponent="pnlFooter" borderRadius="0" borderSize="0" itemColour="1291845631"
                            allowCallbacks="Clicks Only" itemColour2="3053453311" saveInPreset="1"/>
-                <Component type="ScriptPanel" id="btnVelocity" x="565" y="4" width="19"
-                           height="19" parentComponent="pnlFooter" borderRadius="0" borderSize="0"
-                           itemColour="1291845631" allowCallbacks="Clicks Only" itemColour2="3053453311"
-                           saveInPreset="1"/>
               </Component>
             </ContentProperties>
           </UIData>

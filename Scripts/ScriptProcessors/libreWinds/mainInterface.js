@@ -116,7 +116,6 @@ fltSettings.setContentData(SettingsJson.settings);
 const var btnSettings = ui.buttonPanel("btnSettings", paintRoutines.gear); //Settings
 const var btnRR = ui.buttonPanel("btnRR", paintRoutines.roundRobin); //Round Robin
 const var btnRelease = ui.buttonPanel("btnRelease", paintRoutines.release); //Release samples purge/load
-const var btnVelocity = ui.buttonPanel("btnVelocity", paintRoutines.velocity); //Velocity mode on/off
 
 //Includes initialisation
 articulationEditor.onInitCB();
