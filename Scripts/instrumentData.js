@@ -19,7 +19,7 @@
 
 namespace instData
 {	
-	const var allArticulations = ["sustain", "meta_legato", "meta_glide", "staccato", "sputato", "flutter", "harmonics"]; //Global articulation list, available to all instruments
+	const var allArticulations = ["sustain", "flutter", "harmonics", "glide"]; //Global articulation list, available to all instruments
 	reg programs = [1, 2, 3, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
 	
 	const var database = {
@@ -30,12 +30,11 @@ namespace instData
 			articulations:
 			{
 				sustain:{displayName:"Sustain", range:[55, 91], attack:5, release:250},
-				meta_legato:{displayName:"Legato", parent:"sustain", range:[55, 91]},
-				meta_glide:{displayName:"Glide", parent:"sustain", range:[55, 91]},
-				staccato:{displayName:"Staccato", range:[55, 91], attack:5, release:250},
-				sputato:{displayName:"Sputato", range:[55, 91], attack:5, release:250},
 				flutter:{displayName:"Flutter", range:[55, 91], attack:5, release:250},
-				harmonics:{displayName:"Harmonics", range:[55, 91], attack:5, release:250}
+				harmonics:{displayName:"Harmonics", range:[55, 91], attack:5, release:250},
+				glide:{displayName:"Glide", range:[55, 91]}
+				//staccato:{displayName:"Staccato", overlay:"sustain", range:[55, 91], attack:5, release:250},
+				//sputato:{displayName:"Sputato", overlay:"sustain", range:[55, 91], attack:5, release:250},
 			},
 			legatoSettings:
 		    {
