@@ -24,7 +24,6 @@ namespace articulationEditor
 		const var muterIds = Synth.getIdList("MidiMuter");
 		const var muters = []; //Stores MIDI muters
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
-        const var releaseHandler = Synth.getMidiProcessor("releaseHandler"); //Release handler script
 		const var keyswitches = [24, 25, 26];
 		
         //Store some articulation indexes to reduce CPU usage
@@ -236,13 +235,10 @@ namespace articulationEditor
 		    {
 		        //Enable correct legato script mode
 		        idx == sustainIndex ? legatoHandler.setAttribute(1, 1) : legatoHandler.setAttribute(2, 1);
-                 
-                releaseHandler.setAttribute(1, 1); //Enable release legato mode
                 muters[sustainIndex].setAttribute(0, 0); //Unmute sustain/legato/glide muter
 		    }
 		    else
 		    {
-		        releaseHandler.setAttribute(1, 0); //Disable release legato mode
 		        muters[idx].setAttribute(0, 0); //Unmute articulation (idx)
 		    }
 		    

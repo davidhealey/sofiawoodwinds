@@ -2,7 +2,7 @@
 
 <Processor Type="SynthChain" ID="librewinds2" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....B.........LDZg4lakwF............" currentView="-1"
+           views="32.rk1bzA.....X2sEQ.....D..AD..AD...D........." currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -12,7 +12,7 @@
           <Content>
             <Control type="ScriptPanel" id="pnlPresetBg" value="0"/>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
-            <Control type="ScriptPanel" id="pnlArticulations" value="2"/>
+            <Control type="ScriptPanel" id="pnlArticulations" value="0"/>
             <Control type="ScriptLabel" id="lblArtTitle" value="Instrument Settings"/>
             <Control type="ScriptLabel" id="lblArt0" value="Offset"/>
             <Control type="ScriptLabel" id="lblArt1" value="Ratio"/>
@@ -61,7 +61,7 @@
             <Control type="ScriptPanel" id="pnlOctUp" value="0"/>
             <Control type="ScriptLabel" id="lblOct" value="0"/>
             <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
-            <Control type="ScriptLabel" id="lblStats" value="Harmonics, CPU: 5%, RAM: 0MB, Voices: 0"/>
+            <Control type="ScriptLabel" id="lblStats" value="Sustain, CPU: 3%, RAM: 0MB, Voices: 0"/>
             <Control type="ScriptPanel" id="btnRR" value="1"/>
             <Control type="ScriptPanel" id="btnRelease" value="1"/>
           </Content>
@@ -339,7 +339,7 @@
                            textColour="0" itemColour="0" bgColour="0">
                   <Component type="ScriptLabel" id="lblStats" x="0" y="0" width="300" height="25"
                              parentComponent="pnlStats" fontName="Sarala-Bold" fontSize="20"
-                             textColour="4289309097" text="Harmonics, CPU: 5%, RAM: 0MB, Voices: 0"
+                             textColour="4289309097" text="Sustain, CPU: 3%, RAM: 0MB, Voices: 0"
                              alignment="left"/>
                 </Component>
                 <Component type="ScriptPanel" id="btnSettings" x="647" y="4" width="17"
@@ -19900,7 +19900,7 @@
                 <Processor Type="MidiMuter" ID="harmonicsMidiMuter" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
-                    <Control type="ScriptButton" id="ignoreButton" value="0"/>
+                    <Control type="ScriptButton" id="ignoreButton" value="1"/>
                     <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                   </Content>
                 </Processor>
@@ -20375,7 +20375,7 @@
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="btnMute" value="0"/>
-                    <Control type="ScriptButton" id="btnLegato" value="0"/>
+                    <Control type="ScriptButton" id="btnLegato" value="1"/>
                     <Control type="ScriptButton" id="Attenuate" value="1"/>
                     <Control type="ScriptSlider" id="Time" value="8"/>
                     <Control type="ScriptTable" id="tblTime" value="32" data="24..........9C...vO...f+.........vO"/>
