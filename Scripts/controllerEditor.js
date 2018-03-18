@@ -19,14 +19,15 @@ namespace controllerEditor
 {
 	inline function onInitCB()
 	{
-		const var parameters = ["Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
-        const var reservedCc = [5, 14, 32, 64, 65, 72, 73]; //CCs used internally, not user selectable
+		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
+        const var reservedCc = [5, 14, 15, 32, 64, 65, 72, 73]; //CCs used internally, not user selectable
 
         const var ccMods = [];
-        ccMods[0] = Synth.getModulator("expressionCC");
-        ccMods[1] = Synth.getModulator("dynamicsCC");
-        ccMods[2] = Synth.getModulator("vibratoIntensityCC");
-        ccMods[3] = Synth.getModulator("vibratoRateCC");
+        ccMods[0] = Synth.getModulator("velocityInput");
+        ccMods[1] = Synth.getModulator("expressionCC");
+        ccMods[2] = Synth.getModulator("dynamicsCC");
+        ccMods[3] = Synth.getModulator("vibratoIntensityCC");
+        ccMods[4] = Synth.getModulator("vibratoRateCC");
 
         const var ccNums = [];
         //Populate list of CC numbers
@@ -48,13 +49,21 @@ namespace controllerEditor
 		for (i = 0; i < parameters.length; i++)
 		{
 			//Controller selection
-			cmbCc[i] = ui.setupControl("cmbCc"+i, {width:100, height:25, bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT, parentComponent:"pnlRightZone"});
-			ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ccNums);
+			cmbCc[i] = ui.setupControl("cmbCc"+i, {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
+			
+			if (i > 0) //Skip velocity
+		    {
+                ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ccNums);   
+		    }
+		    else //Velocity
+		    {
+		        ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ["Velocity"]);
+		    }
 
 			//Response table
-			tblCc[i] = ui.setupControl("tblCc"+i, {width:180, height:95, parentComponent:"pnlRightZone"});
+			tblCc[i] = Content.getComponent("tblCc"+i);
 		}
-
+		
 		const var pnlTblBg = Content.getComponent("pnlTblBg"); //Table background colour panel
 		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.CONTROL2);});
 	}
@@ -73,7 +82,7 @@ namespace controllerEditor
 		}
 		else //cmbCc[] or tblCc[]
 		{
-			for (i = 0; i < parameters.length; i++)
+			for (i = 1; i < parameters.length; i++) //Start at 1 to skip velocity
 			{
 				if (number == cmbCc[i])
 				{

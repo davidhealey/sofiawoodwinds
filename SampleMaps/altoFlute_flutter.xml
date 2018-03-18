@@ -2,7 +2,7 @@
 
 <samplemap ID="altoFlute_flutter" SaveMode="2" RRGroupAmount="1" MicPositions="close;decca;hall;">
   <sample ID="0" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4438"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5284"
           SampleEnd="135167" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="0" MonolithLength="135168"
@@ -12,7 +12,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_55_dynamic1.wav"/>
   </sample>
   <sample ID="1" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4438"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6033"
           SampleEnd="255862" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="135168" MonolithLength="258048"
@@ -22,7 +22,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_56_dynamic1.wav"/>
   </sample>
   <sample ID="2" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4438"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5324"
           SampleEnd="239932" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="393216" MonolithLength="241664"
@@ -32,7 +32,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_57_dynamic1.wav"/>
   </sample>
   <sample ID="3" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4438"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5234"
           SampleEnd="237018" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="634880" MonolithLength="237568"
@@ -52,7 +52,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_59_dynamic1.wav"/>
   </sample>
   <sample ID="5" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4361"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5539"
           SampleEnd="262143" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="1130496"
@@ -72,7 +72,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_61_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4438"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5569"
           SampleEnd="255664" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="1626112"
@@ -122,7 +122,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_66_dynamic1.wav"/>
   </sample>
   <sample ID="12" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4438"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5368"
           SampleEnd="225130" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="2842624"
@@ -132,7 +132,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_67_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4438"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5341"
           SampleEnd="237567" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="3067904"
@@ -182,7 +182,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_72_dynamic1.wav"/>
   </sample>
   <sample ID="18" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4438"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="5773"
           SampleEnd="232123" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="4255744"
@@ -192,7 +192,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_73_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4438"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="5759"
           SampleEnd="241663" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="4489216"
@@ -202,7 +202,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_74_dynamic1.wav"/>
   </sample>
   <sample ID="20" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6178"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="6178"
           SampleEnd="249855" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="4730880"
@@ -212,7 +212,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_75_dynamic1.wav"/>
   </sample>
   <sample ID="21" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6519"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="6519"
           SampleEnd="244778" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="4980736"
@@ -222,7 +222,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_76_dynamic1.wav"/>
   </sample>
   <sample ID="22" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6403"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="6403"
           SampleEnd="248256" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="5226496"
@@ -232,7 +232,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_77_dynamic1.wav"/>
   </sample>
   <sample ID="23" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6291"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="6291"
           SampleEnd="249855" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="5476352"
@@ -242,7 +242,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_78_dynamic1.wav"/>
   </sample>
   <sample ID="24" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6411"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="6411"
           SampleEnd="239934" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="5726208"
@@ -262,7 +262,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_80_dynamic1.wav"/>
   </sample>
   <sample ID="26" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6549"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="6549"
           SampleEnd="256319" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="6225920"
@@ -272,10 +272,10 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_81_dynamic1.wav"/>
   </sample>
   <sample ID="27" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6239"
-          SampleEnd="255362" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" MonolithOffset="6483968"
+          RRGroup="1" Volume="-2.0000002384185791016" Pan="0" Normalized="0"
+          Pitch="0" SampleStart="6239" SampleEnd="255362" SampleStartMod="0"
+          LoopStart="0" LoopEnd="0" LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" MonolithOffset="6483968"
           MonolithLength="258048" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_close_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_decca_82_dynamic1.wav"/>
@@ -302,7 +302,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_84_dynamic1.wav"/>
   </sample>
   <sample ID="30" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6600"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7657"
           SampleEnd="257393" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="7266304"
@@ -362,7 +362,7 @@
     <file FileName="{PROJECT_FOLDER}altoFlute/flutter/altoFlute_flutter_hall_90_dynamic1.wav"/>
   </sample>
   <sample ID="36" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6809"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="6809"
           SampleEnd="239185" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" MonolithOffset="8769536"

@@ -42,6 +42,7 @@ namespace articulationEditor
 	    {
 	        Content.setPropertiesFromJSON("lblArt"+i, {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
 	    }
+	    const var lblArticulation = Content.getComponent("lblArticulation");
 	    
 	    const var sliOffset = ui.setupControl("sliOffset", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var sliRatio = ui.setupControl("sliRatio", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
@@ -57,7 +58,7 @@ namespace articulationEditor
         //Build array of envelopes
         for (e in envelopeIds)
 	    {
-	        if (e.indexOf("xclude")) continue; //Skip envelopes with "xclude" in their ID
+	        if (e.indexOf("xclude") != -1) continue; //Skip envelopes with "xclude" in their ID
 	        envelopes.push(Synth.getModulator(e));
 	    }
         
@@ -116,9 +117,14 @@ namespace articulationEditor
 				
 		switch (ccNum)
 		{		
-			case 5: //Glide Time
+			case 5: //Glide Rate
 			    v = Math.ceil(sliRate.get("max") / 100 * (normalised * 100));
 			    asyncUpdater.deferFunction(changeGlideRate, v);
+			break;
+			
+			case 15: //Legato offset
+			    v = Math.ceil(sliOffset.get("max") / 100 * (normalised * 100));
+                asyncUpdater.deferFunction(changeLegatoOffset, v);
 			break;
 			
 			case 32: //UACC
@@ -157,7 +163,7 @@ namespace articulationEditor
 		        }
 			break;
 			
-			case 72: //MIDI release
+			case 72: //ADSR release
 				v = (Math.pow(normalised, skewFactor)) * 20000.0;
 				sliRel.setValue(v);
 				asyncUpdater.deferFunction(setEnvelopeRelease, v);
@@ -174,7 +180,7 @@ namespace articulationEditor
 	        break;
 	        
 		    case sliOffset:
-				legatoHandler.setAttribute(9, 1-(value/100));
+				changeLegatoOffset(value);
 			break;
 			
 			case sliRatio:
@@ -189,7 +195,7 @@ namespace articulationEditor
                 updateGlideWholeToneState(value);
 			break;
 			
-			case sliRelease:
+			case sliRel:
 			    setEnvelopeRelease(value);
 			break;
 	    }
@@ -202,11 +208,17 @@ namespace articulationEditor
         lblRateVal.set("text", rates[v]);
     }
     
-	inline function setEnvelopeRelease(value)
+    inline function changeLegatoOffset(v)
+    {
+        sliOffset.setValue(v);
+        legatoHandler.setAttribute(9, 1-(v/100));
+    }
+    
+	inline function setEnvelopeRelease(v)
 	{
 	    for (e in envelopes)
 	    {
-	        e.setAttribute(e.Release, value);
+	        e.setAttribute(e.Release, v);
 	    }        
 	}
 	    
@@ -235,8 +247,19 @@ namespace articulationEditor
 		    }
 		    
 		    currentArt.setValue(idx); //Store the articulation as the panel's value
+		    lblArticulation.set("text", idh.getDisplayName(idx));
 		}
 	}
+	
+	/*inline function drawStatusBar()
+    {
+        local a = idh.getDisplayName(currentArt.getValue()); //Articulation display name
+        local cpu = Math.round(Engine.getCpuUsage()) + "%";
+        local ram = Math.round(Engine.getMemoryUsage()) + "MB";
+        local voices = Engine.getNumVoices();
+        
+        lblArticulation.set("text", a + ", " + "CPU: " + cpu + ", " + "RAM: " + ram + ", " + "Voices: " + voices);
+    }*/
 		
 	inline function updateGlideWholeToneState(v)
     {        
