@@ -42,6 +42,7 @@ const var scriptIds = Synth.getIdList("Script Processor");
 const var samplers = [];
 const var releaseSamplers = [];
 const var rrHandlers = []; //Round robin script processors
+reg articulationName = "";
 
 //Load instrument - based on preset name matched against instrumentData database
 reg instrumentName = idh.getInstrumentNameFromPresetName(); //Name of current instrument
@@ -112,6 +113,15 @@ const var btnSettings = ui.buttonPanel("btnSettings", paintRoutines.gear); //Set
 const var btnRR = ui.buttonPanel("btnRR", paintRoutines.roundRobin); //Round Robin
 const var btnRelease = ui.buttonPanel("btnRelease", paintRoutines.release); //Release samples purge/load
 
+//Footer stat bar/performance meter
+const var pnlStats = Content.getComponent("pnlStats");
+const var lblStats = Content.getComponent("lblStats");
+pnlStats.startTimer(250);
+pnlStats.setTimerCallback(function()
+{        
+    lblStats.set("text", articulationName + ", " + "CPU: " + Math.round(Engine.getCpuUsage()) + "%" + ", " + "RAM: " + Math.round(Engine.getMemoryUsage()) + "MB" + ", " + "Voices: " + Engine.getNumVoices());
+});
+
 //Includes initialisation
 articulationEditor.onInitCB(); //Initialise articulation editor
 mixer.onInitCB();
@@ -158,6 +168,16 @@ inline function changeRRSettings()
         r.setAttribute(0, 1-btnRR.getValue()); //Bypass button
         if (btnRR.getValue() == 1) r.setAttribute(1, 1); //Random mode
     }
+}
+
+inline function drawStatusBar()
+{
+    local a = idh.getDisplayName(currentArt.getValue()); //Articulation display name
+    local cpu = Math.round(Engine.getCpuUsage()) + "%";
+    local ram = Math.round(Engine.getMemoryUsage()) + "MB";
+    local voices = Engine.getNumVoices();
+        
+    lblArticulation.set("text", a + ", " + "CPU: " + cpu + ", " + "RAM: " + ram + ", " + "Voices: " + voices);
 }function onNoteOn()
 {
 	articulationEditor.onNoteCB();

@@ -2,7 +2,7 @@
 
 <Processor Type="SynthChain" ID="librewinds2" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....b0opP.....HCLw...kA.H..E.xAva..." currentView="-1"
+           views="32.rk1bzA.....fk+zQ......va.PF.kA.H..E.xAvaK.D" currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -85,7 +85,7 @@
             <Control type="ScriptLabel" id="lblArt2" value="Glide Rate"/>
             <Control type="ScriptLabel" id="lblArt3" value="Glide Mode"/>
             <Control type="ScriptLabel" id="lblArt4" value="Release"/>
-            <Control type="ScriptSlider" id="sliOffset" value="0"/>
+            <Control type="ScriptSlider" id="sliOffset" value="75"/>
             <Control type="ScriptSlider" id="sliRatio" value="75"/>
             <Control type="ScriptSlider" id="sliRate" value="8"/>
             <Control type="ScriptLabel" id="lblRateVal" value="1/8"/>
@@ -127,7 +127,7 @@
             <Control type="ScriptPanel" id="pnlOctUp" value="0"/>
             <Control type="ScriptLabel" id="lblOct" value="0"/>
             <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
-            <Control type="ScriptLabel" id="lblArticulation" value="Sustain"/>
+            <Control type="ScriptLabel" id="lblStats" value="Sustain, CPU: 4%, RAM: 51MB, Voices: 0"/>
             <Control type="ScriptPanel" id="btnRR" value="1"/>
             <Control type="ScriptPanel" id="btnRelease" value="0"/>
           </Content>
@@ -398,13 +398,14 @@
               </Component>
               <Component type="ScriptPanel" id="pnlFooter" x="0" y="367" width="676" height="25"
                          borderSize="0" borderRadius="0" itemColour="4278190080" itemColour2="4278190080">
-                <Component type="ScriptLabel" id="lblArticulation" x="0" y="0" width="300"
-                           height="25" parentComponent="pnlFooter" fontName="Sarala-Regular"
-                           fontSize="20" textColour="4287664272" text="Sustain" alignment="left"/>
-                <Component type="ScriptFloatingTile" id="fltStats" x="70" y="0" width="200"
-                           height="25" bgColour="0" itemColour="4294951115" itemColour2="4294951115"
-                           ContentType="PerformanceLabel" Data="{&#13;&#10;}" parentComponent="pnlFooter"
-                           textColour="4286940549"/>
+                <Component type="ScriptPanel" id="pnlStats" x="0" y="0" width="300" height="25"
+                           parentComponent="pnlFooter" borderRadius="0" borderSize="0" itemColour2="0"
+                           textColour="0" itemColour="0" bgColour="0">
+                  <Component type="ScriptLabel" id="lblStats" x="0" y="0" width="300" height="25"
+                             parentComponent="pnlStats" fontName="Sarala-Bold" fontSize="22"
+                             textColour="4289309097" text="Sustain, CPU: 4%, RAM: 51MB, Voices: 0"
+                             alignment="left"/>
+                </Component>
                 <Component type="ScriptPanel" id="btnSettings" x="647" y="4" width="17"
                            height="17" parentComponent="pnlFooter" borderRadius="0" borderSize="0"
                            itemColour="1291845631" allowCallbacks="Clicks Only" itemColour2="3053453311"/>
@@ -644,7 +645,7 @@
                         <Control type="ScriptSlider" id="Max Bend" value="50"/>
                         <Control type="ScriptSlider" id="Fade Time" value="60"/>
                         <Control type="ScriptSlider" id="Fade Out Ratio" value="75"/>
-                        <Control type="ScriptSlider" id="Offset" value="1"/>
+                        <Control type="ScriptSlider" id="Offset" value="0.25"/>
                         <Control type="ScriptSlider" id="Rate" value="8"/>
                         <Control type="ScriptButton" id="Same Note Legato" value="0"/>
                       </Content>
@@ -19504,7 +19505,7 @@
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="ignoreButton" value="1"/>
-                    <Control type="ScriptButton" id="fixStuckNotes" value="0"/>
+                    <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                   </Content>
                 </Processor>
                 <Processor Type="ScriptProcessor" ID="flutterIgnoreCC64" Bypassed="0">
@@ -19964,7 +19965,7 @@
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="ignoreButton" value="1"/>
-                    <Control type="ScriptButton" id="fixStuckNotes" value="0"/>
+                    <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                   </Content>
                 </Processor>
                 <Processor Type="ScriptProcessor" ID="harmonicsIgnoreCC642" Bypassed="0">

@@ -42,7 +42,6 @@ namespace articulationEditor
 	    {
 	        Content.setPropertiesFromJSON("lblArt"+i, {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
 	    }
-	    const var lblArticulation = Content.getComponent("lblArticulation");
 	    
 	    const var sliOffset = ui.setupControl("sliOffset", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var sliRatio = ui.setupControl("sliRatio", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
@@ -51,10 +50,7 @@ namespace articulationEditor
 		Content.setPropertiesFromJSON("btnGlideMode", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var lblRateVal = Content.getComponent("lblRateVal");
 		const var sliRel = ui.setupControl("sliRel", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
-				
-        local parentIdx; //The parent index of meta articulations
-        local articulationName;
-        
+				        
         //Build array of envelopes
         for (e in envelopeIds)
 	    {
@@ -150,7 +146,7 @@ namespace articulationEditor
                 {
                     Message.ignoreEvent(true);
                     
-                    //Change articulation to sustain/legato                    
+                    //Change articulation to sustain/legato
                     changeArticulation(sustainIndex);
                     asyncUpdater.deferFunction(colourPlayableKeys, idx);
                 }	
@@ -180,6 +176,7 @@ namespace articulationEditor
 	    {            
 	        case currentArt: //pnlArticulations
 	            colourPlayableKeys(value);
+	            articulationName = idh.getDisplayName(value); //Update variable in main
 	        break;
 	        
 		    case sliOffset:
@@ -250,20 +247,10 @@ namespace articulationEditor
 		    }
 		    
 		    currentArt.setValue(idx); //Store the articulation as the panel's value
-		    lblArticulation.set("text", idh.getDisplayName(idx));
+		    articulationName = idh.getDisplayName(idx); //Update variable in main
 		}
 	}
-	
-	/*inline function drawStatusBar()
-    {
-        local a = idh.getDisplayName(currentArt.getValue()); //Articulation display name
-        local cpu = Math.round(Engine.getCpuUsage()) + "%";
-        local ram = Math.round(Engine.getMemoryUsage()) + "MB";
-        local voices = Engine.getNumVoices();
-        
-        lblArticulation.set("text", a + ", " + "CPU: " + cpu + ", " + "RAM: " + ram + ", " + "Voices: " + voices);
-    }*/
-		
+			
 	inline function updateGlideWholeToneState(v)
     {        
         btnGlideMode.setValue(v);
