@@ -119,12 +119,12 @@ namespace articulationEditor
 		{		
 			case 5: //Glide Rate
 			    v = Math.ceil(sliRate.get("max") / 100 * (normalised * 100));
-			    asyncUpdater.deferFunction(changeGlideRate, v);
+			    if (v != sliRate.getValue()) asyncUpdater.deferFunction(changeGlideRate, v);
 			break;
 			
 			case 15: //Legato offset
 			    v = Math.ceil(sliOffset.get("max") / 100 * (normalised * 100));
-                asyncUpdater.deferFunction(changeLegatoOffset, v);
+			    if (v != sliOffset.getValue()) asyncUpdater.deferFunction(changeLegatoOffset, v);
 			break;
 			
 			case 32: //UACC
@@ -165,8 +165,11 @@ namespace articulationEditor
 			
 			case 72: //ADSR release
 				v = (Math.pow(normalised, skewFactor)) * 20000.0;
-				sliRel.setValue(v);
-				asyncUpdater.deferFunction(setEnvelopeRelease, v);
+				if(v != sliRel.getValue(v))
+                {
+                    sliRel.setValue(v);
+                    asyncUpdater.deferFunction(setEnvelopeRelease, v);		        
+                }
 			break;		
 		}
 	}
