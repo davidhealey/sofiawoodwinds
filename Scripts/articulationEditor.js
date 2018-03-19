@@ -19,6 +19,7 @@ namespace articulationEditor
 {
 	inline function onInitCB()
 	{
+	    const var range = idh.getRange(instrumentName); //Instrument's max playable range
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var envelopes = []; //Stores simple envelopes
 		const var muterIds = Synth.getIdList("MidiMuter");
@@ -27,8 +28,8 @@ namespace articulationEditor
 		const var keyswitches = [24, 25, 26];
 		
         //Store some articulation indexes to reduce CPU usage
-        const var sustainIndex = idh.getArticulationIndex("sustain", false);
-        const var glideIndex = idh.getArticulationIndex("glide", false);
+        const var sustainIndex = idh.getArticulationIndex("sustain");
+        const var glideIndex = idh.getArticulationIndex("glide");
         		               		
 		//GUI
 		//Use the panel to persistently store the selected articulation
@@ -258,18 +259,16 @@ namespace articulationEditor
     inline function colourPlayableKeys(idx)
 	{
 	    local n;
-	    local r;
+	    local aRange;
 	    
-		n = idh.getArticulationName(idx, false); //Name of current articulation
-		r = idh.getArticulationRange(instrumentName, n); //Range of current articulation
+		n = idh.getArticulationName(idx); //Name of current articulation
+		aRange = idh.getArticulationRange(instrumentName, n); //Range of current articulation
 
-		for (i = 0; i < 128; i++)
-		{
-		    if (keyswitches.indexOf(i) != -1) continue; //Skip key switches
-		    
+		for (i = range[0]; i <= range[1]; i++) //Max playable range of instrument
+		{		    
             Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour   
 			
-			if (i >= r[0] && i <= r[1]) //i is in articulation's range
+			if (i >= aRange[0] && i <= aRange[1]) //i is in articulation's range
 			{
 				Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Update colour	
 			}

@@ -62,7 +62,7 @@ namespace mixer
                     //Only purge or load if it's not already purged/loaded
                     if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(i) != value)
                     {
-                        s.purgeMicPosition(s.getMicPositionName(i), value);
+                        s.purgeMicPosition(s.getMicPositionName(i), 1-value);
                     }
                 }
 				purge[i].repaint();
