@@ -48,7 +48,6 @@ reg articulationName = "";
 reg instrumentName = idh.getInstrumentNameFromPresetName(); //Name of current instrument
 if (instrumentName == "") instrumentName = "Alto Flute"; //Default
 
-const var range = idh.getRange(instrumentName); //Instrument's max playable range
 idh.loadInstrument(instrumentName, true); //Load the instrument's data
 setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
 loadLegatoSettings();
