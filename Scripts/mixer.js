@@ -60,7 +60,7 @@ namespace mixer
                 for (s in samplers) //Each sampler
                 {
                     //Only purge or load if it's not already purged/loaded
-                    if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(i) != value)
+                    if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(i) != 1-value)
                     {
                         s.purgeMicPosition(s.getMicPositionName(i), 1-value);
                     }
