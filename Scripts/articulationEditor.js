@@ -25,7 +25,7 @@ namespace articulationEditor
 		const var muterIds = Synth.getIdList("MidiMuter");
 		const var muters = []; //Stores MIDI muters
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
-		const var keyswitches = [24, 25, 26];
+		const var keyswitches = [24, 25, 26, 27];
 		
         //Store some articulation indexes to reduce CPU usage
         const var sustainIndex = idh.getArticulationIndex("sustain");

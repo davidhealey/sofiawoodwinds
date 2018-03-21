@@ -19,7 +19,7 @@
 
 namespace instData
 {
-	const var allArticulations = ["sustain", "flutter", "harmonics", "glide"]; //Global articulation list, available to all instruments
+	const var allArticulations = ["sustain", "staccato", "flutter", "harmonics", "glide"]; //Global articulation list, available to all instruments
 	reg programs = [1, 2, 3, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
 
 	const var database = {
@@ -30,6 +30,7 @@ namespace instData
 			articulations:
 			{
 				sustain:{displayName:"Sustain", range:[55, 91], attack:5, release:350},
+				staccato:{displayName:"Staccato", range:[55, 91], attack:5, release:350},
 				flutter:{displayName:"Flutter", range:[55, 91], attack:5, release:350},
 				harmonics:{displayName:"Harmonics", range:[55, 91], attack:5, release:350},
 				glide:{displayName:"Glide", parent:"sustain", range:[55, 91]}
