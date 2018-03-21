@@ -68,6 +68,11 @@ namespace controllerEditor
 		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.CONTROL2);});
 	}
 
+	inline function onNoteCB()
+    {
+        Message.setVelocity(127/100 * tblCc[0].getTableValue(Message.getVelocity()) * 100); //Scale velocity using table
+    }
+	
 	inline function onControlCB(number, value)
 	{
 		if (number == cmbParam)

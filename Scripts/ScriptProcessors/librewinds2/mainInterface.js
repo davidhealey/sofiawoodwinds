@@ -33,6 +33,10 @@ Content.makeFrontInterface(676, 392);
 Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
 Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
 
+//Loop iterators
+reg i;
+reg j;
+
 const var legatoHandler = Synth.getMidiProcessor("legatoHandler"); //legato handler script
 const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sustain/legato/glide round robin handler
 
@@ -180,6 +184,7 @@ inline function drawStatusBar()
 }function onNoteOn()
 {
 	articulationEditor.onNoteCB();
+	controllerEditor.onNoteCB();
 }
 function onNoteOff()
 {

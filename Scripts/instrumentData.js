@@ -37,9 +37,9 @@ namespace instData
 			},
 			legatoSettings:
 		    {
-                bendTime:-10,
-                minBend:20,
-                maxBend:50,
+                bendTime:-25,
+                minBend:30,
+                maxBend:70,
                 fadeTime:60
 		    },
 			vibratoSettings:
