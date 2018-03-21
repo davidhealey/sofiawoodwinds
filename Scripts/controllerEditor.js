@@ -23,7 +23,6 @@ namespace controllerEditor
         const var reservedCc = [5, 14, 15, 32, 64, 65, 72, 73]; //CCs used internally, not user selectable
 
         const var ccMods = [];
-        ccMods[0] = Synth.getModulator("velocityInput");
         ccMods[1] = Synth.getModulator("expressionCC");
         ccMods[2] = Synth.getModulator("dynamicsCC");
         ccMods[3] = Synth.getModulator("vibratoIntensityCC");
