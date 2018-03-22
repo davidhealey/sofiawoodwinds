@@ -20,12 +20,13 @@
 namespace instData
 {
 	const var allArticulations = ["sustain", "staccato", "flutter", "harmonics", "glide"]; //Global articulation list, available to all instruments
-	reg programs = [1, 2, 3, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
-
+	const var programs = [1, 2, 3, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
+    
 	const var database = {
 		"Alto Flute":
 		{
 		    sampleMapId:"altoFlute", //Identifier for finding sample maps
+		    keyswitches:[24, 25, 26, 27],
 			range:[55, 91], //Maximum range of instrument
 			articulations:
 			{
@@ -38,9 +39,9 @@ namespace instData
 			legatoSettings:
 		    {
                 bendTime:-25,
-                minBend:20,
-                maxBend:50,
-                fadeTime:60
+                minBend:10,
+                maxBend:40,
+                fadeTime:50
 		    },
 			vibratoSettings:
 		    {
