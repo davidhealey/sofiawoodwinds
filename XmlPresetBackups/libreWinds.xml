@@ -2,7 +2,7 @@
 
 <Processor Type="SynthChain" ID="librewinds2" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....dKnSnr7G...d6.G..............PAD" currentView="-1"
+           views="32.rk1bzA.....B.........LDZg4lakwF..rQyEA....." currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -46,13 +46,13 @@
             <Control type="ScriptLabel" id="lblControllers" value="Controllers"/>
             <Control type="ScriptLabel" id="lblParameter" value="Parameter"/>
             <Control type="ScriptLabel" id="lblController" value="Controller"/>
-            <Control type="ScriptPanel" id="cmbParam" value="5"/>
+            <Control type="ScriptPanel" id="cmbParam" value="3"/>
             <Control type="ScriptPanel" id="cmbCc0" value="1"/>
             <Control type="ScriptPanel" id="cmbCc1" value="6"/>
-            <Control type="ScriptPanel" id="cmbCc2" value="1"/>
-            <Control type="ScriptPanel" id="cmbCc3" value="4"/>
-            <Control type="ScriptPanel" id="cmbCc4" value="10"/>
-            <Control type="ScriptTable" id="tblCc0" value="32" data="24...............vO...f+....9C..PwO"/>
+            <Control type="ScriptPanel" id="cmbCc2" value="10"/>
+            <Control type="ScriptPanel" id="cmbCc3" value="1"/>
+            <Control type="ScriptPanel" id="cmbCc4" value="19"/>
+            <Control type="ScriptTable" id="tblCc0" value="45" data="24...............vO...f+....9C..PwO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="54" data="24...............vO...f+....9C..fxO"/>
             <Control type="ScriptTable" id="tblCc3" value="3" data="24...............vO...f+....9C..XzO"/>
@@ -258,8 +258,7 @@
                              parentComponent="pnlRightZone" allowCallbacks="Context Menu"
                              popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" text="Controller"
                              bgColour="4284246649" textColour="4294967295" itemColour="4288585374"
-                             popupMenuItems="1&#10;2&#10;3&#10;4&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             visible="0"/>
+                             popupMenuItems="1&#10;2&#10;3&#10;4&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"/>
                   <Component type="ScriptPanel" id="cmbCc3" x="90" y="80" width="100" height="25"
                              parentComponent="pnlRightZone" allowCallbacks="Context Menu"
                              popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" text="Controller"
@@ -270,18 +269,18 @@
                              bgColour="4284246649" itemColour="4288585374" textColour="4294967295"
                              parentComponent="pnlRightZone" allowCallbacks="Context Menu"
                              popupOnRightClick="0" popupMenuAlign="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             saveInPreset="1"/>
+                             saveInPreset="1" visible="0"/>
                   <Component type="ScriptTable" id="tblCc0" x="10" y="115" width="180" height="95"
                              parentComponent="pnlRightZone" visible="0"/>
                   <Component type="ScriptTable" id="tblCc1" x="10" y="115" width="180" height="95"
                              parentComponent="pnlRightZone" processorId="expressionCC" visible="0"/>
                   <Component type="ScriptTable" id="tblCc2" x="10" y="115" width="180" height="95"
-                             parentComponent="pnlRightZone" processorId="dynamicsCC" visible="0"/>
+                             parentComponent="pnlRightZone" processorId="dynamicsCC"/>
                   <Component type="ScriptTable" id="tblCc3" x="10" y="115" width="180" height="95"
                              parentComponent="pnlRightZone" processorId="vibratoIntensityCC"
                              visible="0"/>
                   <Component type="ScriptTable" id="tblCc4" x="10" y="115" width="180" height="95"
-                             parentComponent="pnlRightZone" processorId="vibratoRateCC"/>
+                             parentComponent="pnlRightZone" processorId="vibratoRateCC" visible="0"/>
                 </Component>
               </Component>
               <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="295" width="676"
@@ -434,7 +433,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="MidiController" ID="dynamicsCC" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" ControllerNumber="1" SmoothTime="1000"
+                       UseTable="1" Inverted="0" ControllerNumber="11" SmoothTime="1000"
                        DefaultValue="80" ControllerTableData="24...............vO...f+....9C..fxO">
               <ChildProcessors/>
             </Processor>
@@ -446,7 +445,7 @@
                 <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="MidiController" ID="vibratoIntensityCC" Bypassed="0" Intensity="1"
-                               UseTable="1" Inverted="0" ControllerNumber="4" SmoothTime="250"
+                               UseTable="1" Inverted="0" ControllerNumber="1" SmoothTime="250"
                                DefaultValue="0" ControllerTableData="24...............vO...f+....9C..XzO">
                       <ChildProcessors/>
                     </Processor>
@@ -455,7 +454,7 @@
                 <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="MidiController" ID="vibratoRateCC" Bypassed="0" Intensity="1"
-                               UseTable="1" Inverted="0" ControllerNumber="11" SmoothTime="250"
+                               UseTable="1" Inverted="0" ControllerNumber="22" SmoothTime="250"
                                DefaultValue="40" ControllerTableData="24......3z707C...vO...f+....9C...vO">
                       <ChildProcessors/>
                     </Processor>
@@ -620,8 +619,8 @@
                       </ChildProcessors>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="globalGainModLFO" Bypassed="0"
-                               Intensity="0.25" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
-                               Connection="Global Modulator Container:vibratoLFO">
+                               Intensity="0.30000001192092895508" UseTable="0" Inverted="0"
+                               TableData="24...............vO...f+....9C...vO" Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -633,8 +632,8 @@
                       <ChildProcessors/>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="globalPitchModLFO" Bypassed="0"
-                               Intensity="-0.0083333337679505348206" UseTable="1" Inverted="1"
-                               TableData="24...............vO...f+LyLS8C..fsO" Connection="Global Modulator Container:vibratoLFO">
+                               Intensity="-0.0083333337679505348206" UseTable="1" Inverted="0"
+                               TableData="24...............vO...f+....7C..fsO" Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -19416,7 +19415,7 @@
                         <Control type="ScriptButton" id="btnLegato" value="1"/>
                         <Control type="ScriptButton" id="Attenuate" value="1"/>
                         <Control type="ScriptSlider" id="Time" value="8"/>
-                        <Control type="ScriptTable" id="tblTime" value="10" data="24..........9C...vO...f+.........vO"/>
+                        <Control type="ScriptTable" id="tblTime" value="11" data="24..........9C...vO...f+.........vO"/>
                       </Content>
                       <UIData>
                         <ContentProperties DeviceType="Desktop">
