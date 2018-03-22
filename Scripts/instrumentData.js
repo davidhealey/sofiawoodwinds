@@ -38,17 +38,15 @@ namespace instData
 			},
 			legatoSettings:
 		    {
-                bendTime:-25,
-                minBend:10,
-                maxBend:40,
-                fadeTime:50
+                bendTime:-15,
+                minBend:5,
+                maxBend:30,
+                fadeTime:60
 		    },
 			vibratoSettings:
 		    {
                 gain:0.25,
-                pitch:0.15,
-                eqFreq:650,
-                eqGain:6
+                pitch:-0.10
 		    }
 		}
 	};

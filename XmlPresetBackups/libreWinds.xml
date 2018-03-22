@@ -2,7 +2,7 @@
 
 <Processor Type="SynthChain" ID="librewinds2" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....B.........LDZg4lakwF......PA...." currentView="-1"
+           views="32.rk1bzA.....dKnSnr7G...d6.G..............PAD" currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -19,7 +19,7 @@
             <Control type="ScriptLabel" id="lblArt2" value="Glide Rate"/>
             <Control type="ScriptLabel" id="lblArt3" value="Glide Mode"/>
             <Control type="ScriptLabel" id="lblArt4" value="Release"/>
-            <Control type="ScriptSlider" id="sliOffset" value="69.8000030517578125"/>
+            <Control type="ScriptSlider" id="sliOffset" value="40"/>
             <Control type="ScriptSlider" id="sliRatio" value="75"/>
             <Control type="ScriptSlider" id="sliRate" value="2"/>
             <Control type="ScriptLabel" id="lblRateVal" value="1/2"/>
@@ -46,24 +46,24 @@
             <Control type="ScriptLabel" id="lblControllers" value="Controllers"/>
             <Control type="ScriptLabel" id="lblParameter" value="Parameter"/>
             <Control type="ScriptLabel" id="lblController" value="Controller"/>
-            <Control type="ScriptPanel" id="cmbParam" value="1"/>
+            <Control type="ScriptPanel" id="cmbParam" value="5"/>
             <Control type="ScriptPanel" id="cmbCc0" value="1"/>
-            <Control type="ScriptPanel" id="cmbCc1" value="10"/>
+            <Control type="ScriptPanel" id="cmbCc1" value="6"/>
             <Control type="ScriptPanel" id="cmbCc2" value="1"/>
-            <Control type="ScriptPanel" id="cmbCc3" value="8"/>
-            <Control type="ScriptPanel" id="cmbCc4" value="0"/>
-            <Control type="ScriptTable" id="tblCc0" value="42" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptPanel" id="cmbCc3" value="4"/>
+            <Control type="ScriptPanel" id="cmbCc4" value="10"/>
+            <Control type="ScriptTable" id="tblCc0" value="32" data="24...............vO...f+....9C..PwO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="54" data="24...............vO...f+....9C..fxO"/>
             <Control type="ScriptTable" id="tblCc3" value="3" data="24...............vO...f+....9C..XzO"/>
-            <Control type="ScriptTable" id="tblCc4" value="0" data="24......3NVA5C...vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc4" value="0" data="24......3z707C...vO...f+....9C...vO"/>
             <Control type="ScriptPanel" id="pnlOct" value="2"/>
             <Control type="ScriptPanel" id="pnlOctUp" value="0"/>
             <Control type="ScriptLabel" id="lblOct" value="0"/>
             <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
-            <Control type="ScriptLabel" id="lblStats" value="Sustain, CPU: 7%, RAM: 78MB, Voices: 0"/>
-            <Control type="ScriptPanel" id="btnRR" value="1"/>
-            <Control type="ScriptPanel" id="btnRelease" value="1"/>
+            <Control type="ScriptLabel" id="lblStats" value="Sustain, CPU: 4%, RAM: 76MB, Voices: 0"/>
+            <Control type="ScriptPanel" id="btnRR" value="0"/>
+            <Control type="ScriptPanel" id="btnRelease" value="0"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
@@ -247,7 +247,7 @@
                              parentComponent="pnlRightZone" allowCallbacks="Context Menu"
                              popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" text="Velocity"
                              bgColour="4284246649" textColour="4294967295" itemColour="4288585374"
-                             popupMenuItems="Velocity" enabled="0"/>
+                             popupMenuItems="Velocity" enabled="0" visible="0"/>
                   <Component type="ScriptPanel" id="cmbCc1" x="90" y="80" width="100" height="25"
                              parentComponent="pnlRightZone" allowCallbacks="Context Menu"
                              popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" text="Controller"
@@ -270,9 +270,9 @@
                              bgColour="4284246649" itemColour="4288585374" textColour="4294967295"
                              parentComponent="pnlRightZone" allowCallbacks="Context Menu"
                              popupOnRightClick="0" popupMenuAlign="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             visible="0" saveInPreset="1"/>
+                             saveInPreset="1"/>
                   <Component type="ScriptTable" id="tblCc0" x="10" y="115" width="180" height="95"
-                             parentComponent="pnlRightZone"/>
+                             parentComponent="pnlRightZone" visible="0"/>
                   <Component type="ScriptTable" id="tblCc1" x="10" y="115" width="180" height="95"
                              parentComponent="pnlRightZone" processorId="expressionCC" visible="0"/>
                   <Component type="ScriptTable" id="tblCc2" x="10" y="115" width="180" height="95"
@@ -281,7 +281,7 @@
                              parentComponent="pnlRightZone" processorId="vibratoIntensityCC"
                              visible="0"/>
                   <Component type="ScriptTable" id="tblCc4" x="10" y="115" width="180" height="95"
-                             parentComponent="pnlRightZone" visible="0" processorId="vibratoRateCC"/>
+                             parentComponent="pnlRightZone" processorId="vibratoRateCC"/>
                 </Component>
               </Component>
               <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="295" width="676"
@@ -336,7 +336,7 @@
                            textColour="0" itemColour="0" bgColour="0">
                   <Component type="ScriptLabel" id="lblStats" x="0" y="0" width="300" height="25"
                              parentComponent="pnlStats" fontName="Sarala-Bold" fontSize="20"
-                             textColour="4289309097" text="Sustain, CPU: 7%, RAM: 78MB, Voices: 0"
+                             textColour="4289309097" text="Sustain, CPU: 4%, RAM: 76MB, Voices: 0"
                              alignment="left"/>
                 </Component>
                 <Component type="ScriptPanel" id="btnSettings" x="647" y="4" width="17"
@@ -422,15 +422,6 @@
                          Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
                          Channel4="4" Send4="-1" Channel5="5" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleReverb" ID="Simple Reverb" Bypassed="0" RoomSize="0.80000001192092895508"
-                   Damping="0.60000002384185791016" WetLevel="0.050000000745058059692"
-                   DryLevel="0.94999998807907104492" Width="0.80000001192092895508"
-                   FreezeMode="0.10000000149011611938">
-          <ChildProcessors/>
-          <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                         Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
-                         Send4="-1" Channel5="-1" Send5="-1"/>
-        </Processor>
       </ChildProcessors>
     </Processor>
     <Processor Type="GlobalModulatorContainer" ID="Global Modulator Container"
@@ -447,15 +438,15 @@
                        DefaultValue="80" ControllerTableData="24...............vO...f+....9C..fxO">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="LFO" ID="vibratoLFO" Bypassed="0" Intensity="1" Frequency="9"
-                       FadeIn="100" WaveformType="6" Legato="1" TempoSync="1" SmoothingTime="200"
-                       LoopEnabled="1" CustomWaveform="60......3FKC7C...vO...f9....9C...vO....+nTgI7C...vO...P+.........vO...f+3FKC7C...vO"
-                       StepData="64.......................................................................................">
+            <Processor Type="LFO" ID="vibratoLFO" Bypassed="0" Intensity="1" Frequency="10"
+                       FadeIn="1000" WaveformType="2" Legato="1" TempoSync="1" SmoothingTime="5"
+                       LoopEnabled="0" CustomWaveform="60......3FKC7C...vO...f9....9C...vO....+nTgI7C...vO...P+.........vO...f+3FKC7C...vO"
+                       StepData="64.MyLS9nYlY7SyLyzOlYlY+XlYl8SyLyzOyLyL+nYlY7SyLyrOZlYl9zLyL4SyLyjOMyLS9zLyL4ilYloOZlYF+.">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="MidiController" ID="vibratoIntensityCC" Bypassed="0" Intensity="1"
-                               UseTable="1" Inverted="0" ControllerNumber="9" SmoothTime="250"
+                               UseTable="1" Inverted="0" ControllerNumber="4" SmoothTime="250"
                                DefaultValue="0" ControllerTableData="24...............vO...f+....9C..XzO">
                       <ChildProcessors/>
                     </Processor>
@@ -464,8 +455,8 @@
                 <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="MidiController" ID="vibratoRateCC" Bypassed="0" Intensity="1"
-                               UseTable="1" Inverted="0" ControllerNumber="0" SmoothTime="250"
-                               DefaultValue="88" ControllerTableData="24......3NVA5C...vO...f+....9C...vO">
+                               UseTable="1" Inverted="0" ControllerNumber="11" SmoothTime="250"
+                               DefaultValue="40" ControllerTableData="24......3z707C...vO...f+....9C...vO">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -492,7 +483,7 @@
         <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="MidiController" ID="expressionCC" Bypassed="0" Intensity="1"
-                       UseTable="0" Inverted="0" ControllerNumber="11" SmoothTime="200"
+                       UseTable="0" Inverted="0" ControllerNumber="7" SmoothTime="200"
                        DefaultValue="127">
               <ChildProcessors/>
             </Processor>
@@ -555,7 +546,7 @@
                     <Processor Type="ScriptProcessor" ID="sustainRoundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="Bypass" value="0"/>
+                        <Control type="ScriptButton" id="Bypass" value="1"/>
                         <Control type="ScriptButton" id="Random" value="1"/>
                         <Control type="ScriptSlider" id="Low Note" value="55"/>
                         <Control type="ScriptSlider" id="High Note" value="91"/>
@@ -578,12 +569,12 @@
                         <Control type="ScriptButton" id="Legato" value="1"/>
                         <Control type="ScriptButton" id="Glide" value="0"/>
                         <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
-                        <Control type="ScriptSlider" id="Bend Time" value="-25"/>
-                        <Control type="ScriptSlider" id="Min Bend" value="20"/>
-                        <Control type="ScriptSlider" id="Max Bend" value="50"/>
+                        <Control type="ScriptSlider" id="Bend Time" value="-15"/>
+                        <Control type="ScriptSlider" id="Min Bend" value="5"/>
+                        <Control type="ScriptSlider" id="Max Bend" value="30"/>
                         <Control type="ScriptSlider" id="Fade Time" value="60"/>
                         <Control type="ScriptSlider" id="Fade Out Ratio" value="75"/>
-                        <Control type="ScriptSlider" id="Offset" value="0.30199995636940002441"/>
+                        <Control type="ScriptSlider" id="Offset" value="0.60000002384185791016"/>
                         <Control type="ScriptSlider" id="Rate" value="2"/>
                         <Control type="ScriptButton" id="Same Note Legato" value="0"/>
                       </Content>
@@ -615,13 +606,13 @@
                 <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="SimpleEnvelope" ID="sustainEnvelope" Bypassed="0" Monophonic="0"
-                               Retrigger="0" Intensity="1" Attack="150" Release="416" LinearMode="1">
+                               Retrigger="0" Intensity="1" Attack="200" Release="416" LinearMode="1">
                       <ChildProcessors>
                         <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
                                    Intensity="1">
                           <ChildProcessors>
                             <Processor Type="Velocity" ID="sustainVelocityAttack" Bypassed="0" Intensity="1"
-                                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="60..........9C...vO58Lo9.MyL0C..voOqppJ+.MyL0C...vOszRK+....9C...vO...f+....9C...vO">
+                                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="60..........9C...vO8G0I9.MyL0C..voOqppJ+.MyL0C...vOszRK+....9C...vO...f+....9C...vO">
                               <ChildProcessors/>
                             </Processor>
                           </ChildProcessors>
@@ -629,7 +620,7 @@
                       </ChildProcessors>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="globalGainModLFO" Bypassed="0"
-                               Intensity="0.25" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C..XzO"
+                               Intensity="0.25" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
@@ -642,41 +633,14 @@
                       <ChildProcessors/>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="globalPitchModLFO" Bypassed="0"
-                               Intensity="0.012500000186264514923" UseTable="1" Inverted="0"
-                               TableData="24...............vO...f+....7C..fsO" Connection="Global Modulator Container:vibratoLFO">
+                               Intensity="-0.0083333337679505348206" UseTable="1" Inverted="1"
+                               TableData="24...............vO...f+LyLS8C..fsO" Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
                 <Processor Type="EffectChain" ID="FX" Bypassed="0">
-                  <ChildProcessors>
-                    <Processor Type="MonophonicFilter" ID="vibratoEq" Bypassed="0" Gain="6"
-                               Frequency="650" Q="0.89999997615814208984" Mode="4" RenderQuality="256"
-                               BipolarIntensity="2.0816681711721685133e-17">
-                      <ChildProcessors>
-                        <Processor Type="ModulatorChain" ID="Freq Modulation" Bypassed="0" Intensity="1">
-                          <ChildProcessors/>
-                        </Processor>
-                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
-                          <ChildProcessors>
-                            <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator8"
-                                       Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="24..........5C...vO...f+....9C...vO"
-                                       Connection="Global Modulator Container:vibratoLFO">
-                              <ChildProcessors/>
-                            </Processor>
-                            <Processor Type="MidiController" ID="Midi Controller4" Bypassed="0" Intensity="1"
-                                       UseTable="0" Inverted="0" ControllerNumber="20" SmoothTime="200"
-                                       DefaultValue="0">
-                              <ChildProcessors/>
-                            </Processor>
-                          </ChildProcessors>
-                        </Processor>
-                        <Processor Type="ModulatorChain" ID="Bipolar Freq Mod" Bypassed="0" Intensity="1">
-                          <ChildProcessors/>
-                        </Processor>
-                      </ChildProcessors>
-                    </Processor>
-                  </ChildProcessors>
+                  <ChildProcessors/>
                 </Processor>
                 <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1">
                   <ChildProcessors>
@@ -1842,11 +1806,15 @@
                 </Processor>
                 <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
                   <ChildProcessors>
-                    <Processor Type="SimpleEnvelope" ID="staccatoEnvelopeExclude" Bypassed="0"
-                               Monophonic="0" Retrigger="1" Intensity="1" Attack="5" Release="250"
-                               LinearMode="1">
+                    <Processor Type="TableEnvelope" ID="Table Envelope" Bypassed="0" Monophonic="0"
+                               Retrigger="1" Intensity="1" Attack="400" Release="300" AttackTableData="24..........9C...vO...f+.........vO"
+                               ReleaseTableData="24..........9C...vO...f+.........vO">
                       <ChildProcessors>
-                        <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                        <Processor Type="ModulatorChain" ID="AttackTime Modulation" Bypassed="0"
+                                   Intensity="1">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="ReleaseTime Modulation" Bypassed="0"
                                    Intensity="1">
                           <ChildProcessors/>
                         </Processor>
@@ -19432,7 +19400,7 @@
                        Balance="0" VoiceLimit="64" KillFadeTime="50" IconColour="0"
                        PreloadSize="1024" BufferSize="1024" VoiceAmount="128" SamplerRepeatMode="0"
                        RRGroupAmount="3" PitchTracking="1" OneShot="0" CrossfadeGroups="1"
-                       Purged="0" Reversed="0" NumChannels="3" Group0Table="36..........9C...vO....+........voO...f+.........vO"
+                       Purged="1" Reversed="0" NumChannels="3" Group0Table="36..........9C...vO....+........voO...f+.........vO"
                        Group1Table="36...............vO....+....9C..fxO...f+........voO"
                        Group2Table="36...............vO....+.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
@@ -19448,7 +19416,7 @@
                         <Control type="ScriptButton" id="btnLegato" value="1"/>
                         <Control type="ScriptButton" id="Attenuate" value="1"/>
                         <Control type="ScriptSlider" id="Time" value="8"/>
-                        <Control type="ScriptTable" id="tblTime" value="45" data="24..........9C...vO...f+.........vO"/>
+                        <Control type="ScriptTable" id="tblTime" value="10" data="24..........9C...vO...f+.........vO"/>
                       </Content>
                       <UIData>
                         <ContentProperties DeviceType="Desktop">
@@ -19524,7 +19492,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23865"
                         SampleEnd="87520" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="0" MonolithLength="90112"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="0" MonolithLength="90112"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_55_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_55_dynamic1.wav"/>
@@ -19534,7 +19502,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="72994"
                         SampleEnd="154579" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="90112" MonolithLength="155648"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="90112" MonolithLength="155648"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_55_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_55_dynamic2.wav"/>
@@ -19544,7 +19512,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12212"
                         SampleEnd="75850" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="245760" MonolithLength="77824"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="245760" MonolithLength="77824"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_55_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_55_dynamic3.wav"/>
@@ -19554,7 +19522,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="29819"
                         SampleEnd="82284" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="323584" MonolithLength="86016"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="323584" MonolithLength="86016"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_56_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_56_dynamic1.wav"/>
@@ -19564,7 +19532,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="38897"
                         SampleEnd="97864" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="409600" MonolithLength="98304"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="409600" MonolithLength="98304"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_56_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_56_dynamic2.wav"/>
@@ -19574,7 +19542,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13682"
                         SampleEnd="76092" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="507904" MonolithLength="77824"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="507904" MonolithLength="77824"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_56_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_56_dynamic3.wav"/>
@@ -19584,7 +19552,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="31353"
                         SampleEnd="64383" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="585728" MonolithLength="65536"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="585728" MonolithLength="65536"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_57_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_57_dynamic1.wav"/>
@@ -19594,7 +19562,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="36223"
                         SampleEnd="87470" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="651264" MonolithLength="90112"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="651264" MonolithLength="90112"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_57_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_57_dynamic2.wav"/>
@@ -19604,7 +19572,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13577"
                         SampleEnd="74706" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="741376" MonolithLength="77824"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="741376" MonolithLength="77824"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_57_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_57_dynamic3.wav"/>
@@ -19614,7 +19582,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24133"
                         SampleEnd="64162" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="819200" MonolithLength="65536"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="819200" MonolithLength="65536"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_58_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_58_dynamic1.wav"/>
@@ -19624,7 +19592,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="37350"
                         SampleEnd="105427" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="884736" MonolithLength="106496"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="884736" MonolithLength="106496"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_58_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_58_dynamic2.wav"/>
@@ -19634,7 +19602,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14871"
                         SampleEnd="74542" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="991232" MonolithLength="77824"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="991232" MonolithLength="77824"
                         SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_58_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_58_dynamic3.wav"/>
@@ -19644,7 +19612,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21032"
                         SampleEnd="79828" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1069056"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1069056"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_59_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_59_dynamic1.wav"/>
@@ -19654,7 +19622,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="35939"
                         SampleEnd="87735" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1150976"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1150976"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_59_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_59_dynamic2.wav"/>
@@ -19664,7 +19632,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11602"
                         SampleEnd="72573" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1241088"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1241088"
                         MonolithLength="73728" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_59_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_59_dynamic3.wav"/>
@@ -19674,7 +19642,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21990"
                         SampleEnd="59097" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1314816"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1314816"
                         MonolithLength="61440" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_60_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_60_dynamic1.wav"/>
@@ -19684,7 +19652,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23135"
                         SampleEnd="86407" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1376256"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1376256"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_60_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_60_dynamic2.wav"/>
@@ -19694,7 +19662,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14409"
                         SampleEnd="64527" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1466368"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1466368"
                         MonolithLength="65536" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_60_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_60_dynamic3.wav"/>
@@ -19704,7 +19672,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="32222"
                         SampleEnd="71584" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1531904"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1531904"
                         MonolithLength="73728" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_61_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_61_dynamic1.wav"/>
@@ -19714,7 +19682,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="32974"
                         SampleEnd="95633" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1605632"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1605632"
                         MonolithLength="98304" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_61_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_61_dynamic2.wav"/>
@@ -19724,7 +19692,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17504"
                         SampleEnd="69465" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1703936"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1703936"
                         MonolithLength="69632" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_61_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_61_dynamic3.wav"/>
@@ -19734,7 +19702,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23470"
                         SampleEnd="97428" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1773568"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1773568"
                         MonolithLength="98304" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_62_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_62_dynamic1.wav"/>
@@ -19744,7 +19712,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="28427"
                         SampleEnd="85736" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1871872"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1871872"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_62_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_62_dynamic2.wav"/>
@@ -19754,7 +19722,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10726"
                         SampleEnd="63134" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="1957888"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="1957888"
                         MonolithLength="65536" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_62_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_62_dynamic3.wav"/>
@@ -19764,7 +19732,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24148"
                         SampleEnd="88278" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2023424"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2023424"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_63_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_63_dynamic1.wav"/>
@@ -19774,7 +19742,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="27511"
                         SampleEnd="86652" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2113536"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2113536"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_63_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_63_dynamic2.wav"/>
@@ -19784,7 +19752,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="29924"
                         SampleEnd="97104" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2203648"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2203648"
                         MonolithLength="98304" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_63_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_63_dynamic3.wav"/>
@@ -19794,7 +19762,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="27920"
                         SampleEnd="80884" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2301952"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2301952"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_64_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_64_dynamic1.wav"/>
@@ -19804,7 +19772,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15444"
                         SampleEnd="56629" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2383872"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2383872"
                         MonolithLength="57344" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_64_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_64_dynamic2.wav"/>
@@ -19814,7 +19782,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23338"
                         SampleEnd="89853" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2441216"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2441216"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_64_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_64_dynamic3.wav"/>
@@ -19824,7 +19792,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25624"
                         SampleEnd="59242" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2531328"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2531328"
                         MonolithLength="61440" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_65_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_65_dynamic1.wav"/>
@@ -19834,7 +19802,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24675"
                         SampleEnd="85347" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2592768"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2592768"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_65_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_65_dynamic2.wav"/>
@@ -19844,7 +19812,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17504"
                         SampleEnd="82461" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2678784"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2678784"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_65_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_65_dynamic3.wav"/>
@@ -19854,7 +19822,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25624"
                         SampleEnd="65228" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2764800"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2764800"
                         MonolithLength="65536" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_66_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_66_dynamic1.wav"/>
@@ -19864,7 +19832,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17671"
                         SampleEnd="73841" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2830336"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2830336"
                         MonolithLength="77824" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_66_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_66_dynamic2.wav"/>
@@ -19874,7 +19842,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="22244"
                         SampleEnd="86324" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2908160"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2908160"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_66_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_66_dynamic3.wav"/>
@@ -19884,7 +19852,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18395"
                         SampleEnd="88497" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="2998272"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="2998272"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_67_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_67_dynamic1.wav"/>
@@ -19894,7 +19862,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="20614"
                         SampleEnd="84343" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3088384"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3088384"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_67_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_67_dynamic2.wav"/>
@@ -19904,7 +19872,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21990"
                         SampleEnd="81435" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3174400"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3174400"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_67_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_67_dynamic3.wav"/>
@@ -19914,7 +19882,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25624"
                         SampleEnd="116239" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3256320"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3256320"
                         MonolithLength="118784" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_68_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_68_dynamic1.wav"/>
@@ -19924,7 +19892,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="22001"
                         SampleEnd="87294" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3375104"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3375104"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_68_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_68_dynamic2.wav"/>
@@ -19934,7 +19902,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="27268"
                         SampleEnd="86451" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3465216"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3465216"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_68_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_68_dynamic3.wav"/>
@@ -19944,7 +19912,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="38602"
                         SampleEnd="62475" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3555328"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3555328"
                         MonolithLength="65536" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_69_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_69_dynamic1.wav"/>
@@ -19954,7 +19922,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="30985"
                         SampleEnd="94973" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3620864"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3620864"
                         MonolithLength="98304" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_69_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_69_dynamic2.wav"/>
@@ -19964,7 +19932,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23905"
                         SampleEnd="87224" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3719168"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3719168"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_69_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_69_dynamic3.wav"/>
@@ -19974,7 +19942,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="29497"
                         SampleEnd="88278" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3809280"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3809280"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_70_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_70_dynamic1.wav"/>
@@ -19984,7 +19952,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="26493"
                         SampleEnd="82895" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3899392"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3899392"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_70_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_70_dynamic2.wav"/>
@@ -19994,7 +19962,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25023"
                         SampleEnd="84287" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="3985408"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="3985408"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_70_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_70_dynamic3.wav"/>
@@ -20004,7 +19972,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24366"
                         SampleEnd="82810" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4071424"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4071424"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_71_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_71_dynamic1.wav"/>
@@ -20014,7 +19982,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25591"
                         SampleEnd="99311" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4157440"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4157440"
                         MonolithLength="102400" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_71_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_71_dynamic2.wav"/>
@@ -20024,7 +19992,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23940"
                         SampleEnd="82355" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4259840"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4259840"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_71_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_71_dynamic3.wav"/>
@@ -20034,7 +20002,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="36084"
                         SampleEnd="82834" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4345856"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4345856"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_72_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_72_dynamic1.wav"/>
@@ -20044,7 +20012,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="20885"
                         SampleEnd="80585" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4431872"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4431872"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_72_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_72_dynamic2.wav"/>
@@ -20054,7 +20022,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18756"
                         SampleEnd="76960" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4513792"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4513792"
                         MonolithLength="77824" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_72_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_72_dynamic3.wav"/>
@@ -20064,7 +20032,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23389"
                         SampleEnd="100482" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4591616"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4591616"
                         MonolithLength="102400" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_73_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_73_dynamic1.wav"/>
@@ -20074,7 +20042,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21852"
                         SampleEnd="82986" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4694016"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4694016"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_73_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_73_dynamic2.wav"/>
@@ -20084,7 +20052,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="19763"
                         SampleEnd="85867" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4780032"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4780032"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_73_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_73_dynamic3.wav"/>
@@ -20094,7 +20062,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21415"
                         SampleEnd="73525" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4866048"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4866048"
                         MonolithLength="73728" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_74_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_74_dynamic1.wav"/>
@@ -20104,7 +20072,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="20885"
                         SampleEnd="82652" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="4939776"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="4939776"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_74_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_74_dynamic2.wav"/>
@@ -20114,7 +20082,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="29578"
                         SampleEnd="90067" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5025792"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5025792"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_74_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_74_dynamic3.wav"/>
@@ -20124,7 +20092,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="28200"
                         SampleEnd="96401" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5115904"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5115904"
                         MonolithLength="98304" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_75_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_75_dynamic1.wav"/>
@@ -20134,7 +20102,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="37652"
                         SampleEnd="77272" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5214208"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5214208"
                         MonolithLength="77824" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_75_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_75_dynamic2.wav"/>
@@ -20144,7 +20112,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="26493"
                         SampleEnd="82675" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5292032"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5292032"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_75_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_75_dynamic3.wav"/>
@@ -20154,7 +20122,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24310"
                         SampleEnd="87956" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5378048"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5378048"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_76_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_76_dynamic1.wav"/>
@@ -20164,7 +20132,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="28233"
                         SampleEnd="82094" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5468160"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5468160"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_76_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_76_dynamic2.wav"/>
@@ -20174,7 +20142,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="33103"
                         SampleEnd="86424" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5554176"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5554176"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_76_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_76_dynamic3.wav"/>
@@ -20184,7 +20152,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25624"
                         SampleEnd="70566" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5644288"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5644288"
                         MonolithLength="73728" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_77_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_77_dynamic1.wav"/>
@@ -20194,7 +20162,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="34269"
                         SampleEnd="94161" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5718016"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5718016"
                         MonolithLength="94208" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_77_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_77_dynamic2.wav"/>
@@ -20204,7 +20172,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="31806"
                         SampleEnd="88947" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5812224"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5812224"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_77_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_77_dynamic3.wav"/>
@@ -20214,7 +20182,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="19537"
                         SampleEnd="67484" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5902336"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5902336"
                         MonolithLength="69632" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_78_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_78_dynamic1.wav"/>
@@ -20224,7 +20192,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="20111"
                         SampleEnd="79568" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="5971968"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="5971968"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_78_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_78_dynamic2.wav"/>
@@ -20234,7 +20202,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="32252"
                         SampleEnd="89168" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6053888"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6053888"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_78_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_78_dynamic3.wav"/>
@@ -20244,7 +20212,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="28454"
                         SampleEnd="98557" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6144000"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6144000"
                         MonolithLength="102400" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_79_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_79_dynamic1.wav"/>
@@ -20254,7 +20222,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="20540"
                         SampleEnd="77424" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6246400"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6246400"
                         MonolithLength="77824" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_79_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_79_dynamic2.wav"/>
@@ -20264,7 +20232,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25139"
                         SampleEnd="85888" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6324224"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6324224"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_79_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_79_dynamic3.wav"/>
@@ -20274,7 +20242,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25624"
                         SampleEnd="92511" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6410240"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6410240"
                         MonolithLength="94208" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_80_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_80_dynamic1.wav"/>
@@ -20284,7 +20252,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25603"
                         SampleEnd="83312" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6504448"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6504448"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_80_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_80_dynamic2.wav"/>
@@ -20294,7 +20262,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="29626"
                         SampleEnd="84514" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6590464"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6590464"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_80_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_80_dynamic3.wav"/>
@@ -20304,7 +20272,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21857"
                         SampleEnd="90286" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6676480"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6676480"
                         MonolithLength="94208" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_81_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_81_dynamic1.wav"/>
@@ -20314,7 +20282,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21426"
                         SampleEnd="82329" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6770688"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6770688"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_81_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_81_dynamic2.wav"/>
@@ -20324,7 +20292,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="27957"
                         SampleEnd="79774" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6856704"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6856704"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_81_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_81_dynamic3.wav"/>
@@ -20334,7 +20302,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="22027"
                         SampleEnd="80193" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="6938624"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="6938624"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_82_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_82_dynamic1.wav"/>
@@ -20344,7 +20312,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17146"
                         SampleEnd="75193" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7020544"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7020544"
                         MonolithLength="77824" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_82_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_82_dynamic2.wav"/>
@@ -20354,7 +20322,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15765"
                         SampleEnd="78746" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7098368"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7098368"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_82_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_82_dynamic3.wav"/>
@@ -20364,7 +20332,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21645"
                         SampleEnd="92567" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7180288"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7180288"
                         MonolithLength="94208" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_83_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_83_dynamic1.wav"/>
@@ -20374,7 +20342,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25591"
                         SampleEnd="84844" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7274496"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7274496"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_83_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_83_dynamic2.wav"/>
@@ -20384,7 +20352,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17916"
                         SampleEnd="74360" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7360512"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7360512"
                         MonolithLength="77824" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_83_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_83_dynamic3.wav"/>
@@ -20394,7 +20362,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="32046"
                         SampleEnd="81731" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7438336"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7438336"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_84_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_84_dynamic1.wav"/>
@@ -20404,7 +20372,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="31957"
                         SampleEnd="95183" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7520256"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7520256"
                         MonolithLength="98304" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_84_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_84_dynamic2.wav"/>
@@ -20414,7 +20382,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17504"
                         SampleEnd="78491" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7618560"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7618560"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_84_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_84_dynamic3.wav"/>
@@ -20424,7 +20392,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24432"
                         SampleEnd="89598" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7700480"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7700480"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_85_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_85_dynamic1.wav"/>
@@ -20434,7 +20402,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="16170"
                         SampleEnd="79387" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7790592"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7790592"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_85_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_85_dynamic2.wav"/>
@@ -20444,7 +20412,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="31220"
                         SampleEnd="105988" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7872512"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7872512"
                         MonolithLength="106496" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_85_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_85_dynamic3.wav"/>
@@ -20454,7 +20422,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="36532"
                         SampleEnd="77649" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="7979008"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="7979008"
                         MonolithLength="77824" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_86_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_86_dynamic1.wav"/>
@@ -20464,7 +20432,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="19106"
                         SampleEnd="84323" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8056832"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8056832"
                         MonolithLength="86016" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_86_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_86_dynamic2.wav"/>
@@ -20474,7 +20442,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18557"
                         SampleEnd="88328" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8142848"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8142848"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_86_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_86_dynamic3.wav"/>
@@ -20484,7 +20452,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25624"
                         SampleEnd="70017" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8232960"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8232960"
                         MonolithLength="73728" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_87_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_87_dynamic1.wav"/>
@@ -20494,7 +20462,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23703"
                         SampleEnd="90030" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8306688"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8306688"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_87_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_87_dynamic2.wav"/>
@@ -20504,7 +20472,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15912"
                         SampleEnd="81828" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8396800"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8396800"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_87_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_87_dynamic3.wav"/>
@@ -20514,7 +20482,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21572"
                         SampleEnd="68300" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8478720"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8478720"
                         MonolithLength="69632" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_88_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_88_dynamic1.wav"/>
@@ -20524,7 +20492,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="31176"
                         SampleEnd="94134" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8548352"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8548352"
                         MonolithLength="94208" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_88_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_88_dynamic2.wav"/>
@@ -20534,7 +20502,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10394"
                         SampleEnd="68976" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8642560"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8642560"
                         MonolithLength="69632" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_88_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_88_dynamic3.wav"/>
@@ -20544,7 +20512,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="22111"
                         SampleEnd="72181" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8712192"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8712192"
                         MonolithLength="73728" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_89_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_89_dynamic1.wav"/>
@@ -20554,7 +20522,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="26123"
                         SampleEnd="94475" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8785920"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8785920"
                         MonolithLength="98304" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_89_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_89_dynamic2.wav"/>
@@ -20564,7 +20532,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11860"
                         SampleEnd="81664" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8884224"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8884224"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_89_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_89_dynamic3.wav"/>
@@ -20574,7 +20542,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15256"
                         SampleEnd="74202" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="8966144"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="8966144"
                         MonolithLength="77824" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_90_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_90_dynamic1.wav"/>
@@ -20584,7 +20552,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="36024"
                         SampleEnd="120574" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="9043968"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="9043968"
                         MonolithLength="122880" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_90_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_90_dynamic2.wav"/>
@@ -20594,7 +20562,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15477"
                         SampleEnd="88866" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="9166848"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="9166848"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_90_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_90_dynamic3.wav"/>
@@ -20604,7 +20572,7 @@
                         RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24067"
                         SampleEnd="87622" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="9256960"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="9256960"
                         MonolithLength="90112" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_91_dynamic1.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_91_dynamic1.wav"/>
@@ -20614,7 +20582,7 @@
                         RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="32644"
                         SampleEnd="102138" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="9347072"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="9347072"
                         MonolithLength="102400" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_91_dynamic2.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_91_dynamic2.wav"/>
@@ -20624,7 +20592,7 @@
                         RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17504"
                         SampleEnd="79310" SampleStartMod="0" LoopStart="0" LoopEnd="0"
                         LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-                        SampleState="0" NormalizedPeak="-1" MonolithOffset="9449472"
+                        SampleState="1" NormalizedPeak="-1" MonolithOffset="9449472"
                         MonolithLength="81920" SampleRate="48000" Duplicate="0">
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_close_91_dynamic3.wav"/>
                   <file FileName="{PROJECT_FOLDER}altoFlute/release/altoFlute_release_decca_91_dynamic3.wav"/>
@@ -20677,7 +20645,7 @@
                     <Processor Type="ScriptProcessor" ID="staccatoRoundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/velocityMappedRoundRobin.js">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptSlider" id="knbRRLock" value="0"/>
+                        <Control type="ScriptSlider" id="knbRRLock" value="1"/>
                         <Control type="ScriptButton" id="btnRandom" value="1"/>
                         <Control type="ScriptSlider" id="knbNumRR" value="12"/>
                       </Content>
