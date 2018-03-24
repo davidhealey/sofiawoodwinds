@@ -19,24 +19,22 @@ namespace articulationEditor
 {
 	inline function onInitCB()
 	{
-	    const var range = idh.getRange(instrumentName); //Instrument's max playable range
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var envelopes = []; //Stores simple envelopes
 		const var muterIds = Synth.getIdList("MidiMuter");
 		const var muters = []; //Stores MIDI muters
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
-		const var keyswitches = idh.getKeyswitches(instrumentName);
         
-        //Store some articulation indexes to reduce CPU usage
-        const var sustainIndex = idh.getArticulationIndex("sustain");
-        const var glideIndex = idh.getArticulationIndex("glide");
+        //Instrument specific variables set in currentArt (pnlArticulations) callback
+        reg range;
+		reg keyswitches; //idh.getKeyswitches(instrumentName);
+        reg sustainIndex; //Holds index of sustain articulation for current instrument
+        reg glideIndex; //Holds index of glide articulation for current instrument
         		               		
 		//GUI
 		//Use the panel to persistently store the selected articulation
 		const var currentArt = Content.getComponent("pnlArticulations");
-		
-		colourKeyswitches();
-		
+				
 		//Labels
 		for (i = 0; i < 4; i++)
 	    {
@@ -173,10 +171,15 @@ namespace articulationEditor
 	inline function onControlCB(number, value)
 	{	    
 	    switch (number)
-	    {            
-	        case currentArt: //pnlArticulations
-	            colourPlayableKeys(value);
-	            articulationName = idh.getDisplayName(value); //Update variable in main
+	    {   	        
+	        case currentArt: //pnlArticulations - triggered on init
+                range = idh.getRange(instrumentName); //Instrument's max playable range
+                sustainIndex = idh.getArticulationIndex("sustain");
+                glideIndex = idh.getArticulationIndex("glide");
+                keyswitches = idh.getKeyswitches(instrumentName);
+                colourKeyswitches();
+                colourPlayableKeys(value);
+                articulationName = idh.getDisplayName(value); //Update variable in main
 	        break;
 	        
 		    case sliOffset:

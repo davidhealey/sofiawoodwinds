@@ -26,7 +26,7 @@ namespace instData
 		"Alto Flute":
 		{
 		    sampleMapId:"altoFlute", //Identifier for finding sample maps
-		    keyswitches:[24, 25, 26, 27],
+		    keyswitches:[24, 25, 26, 27, 28],
 			range:[55, 91], //Maximum range of instrument
 			articulations:
 			{
@@ -35,6 +35,31 @@ namespace instData
 				flutter:{displayName:"Flutter", range:[55, 91], attack:5, release:350},
 				harmonics:{displayName:"Harmonics", range:[55, 91], attack:5, release:350},
 				glide:{displayName:"Glide", parent:"sustain", range:[55, 91]}
+			},
+			legatoSettings:
+		    {
+                bendTime:-15,
+                minBend:5,
+                maxBend:30,
+                fadeTime:60
+		    },
+			vibratoSettings:
+		    {
+                gain:0.25,
+                pitch:-0.10
+		    }
+		},
+		"Concert Flute I":
+		{
+		    sampleMapId:"flute1", //Identifier for finding sample maps
+		    keyswitches:[24, 25, 26, 28],
+			range:[60, 96], //Maximum range of instrument
+			articulations:
+			{
+				sustain:{displayName:"Sustain", range:[60, 96], attack:5, release:350},
+				staccato:{displayName:"Staccato", range:[60, 96], attack:5, release:350},
+				flutter:{displayName:"Flutter", range:[60, 96], attack:5, release:350},
+				glide:{displayName:"Glide", parent:"sustain", range:[60, 96]}
 			},
 			legatoSettings:
 		    {
