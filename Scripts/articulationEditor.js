@@ -45,7 +45,6 @@ namespace articulationEditor
 	    }
 	    
 	    const var sliOffset = ui.setupControl("sliOffset", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
-		const var sliRatio = ui.setupControl("sliRatio", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var sliRate = ui.setupControl("sliRate", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var btnGlideMode = ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);
 		Content.setPropertiesFromJSON("btnGlideMode", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
@@ -190,11 +189,7 @@ namespace articulationEditor
 		    case sliOffset:
 				changeLegatoOffset(value);
 			break;
-			
-			case sliRatio:
-				legatoHandler.setAttribute(8, value);
-			break;
-			
+						
 			case sliRate:
                 changeGlideRate(value);
 			break;
