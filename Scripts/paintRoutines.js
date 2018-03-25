@@ -26,7 +26,7 @@ namespace paintRoutines
 	
 	const var disk = function(g)
     {
-        g.setColour(this.get("itemColour"));
+        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
         g.fillPath(svgPaths.disk, [0, 0, this.get("width"), this.get("height")]);
     };
 
