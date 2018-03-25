@@ -87,7 +87,7 @@
     <Control type="ScriptLabel" id="lblOct" value="0"/>
     <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
     <Control type="ScriptPanel" id="btnRR" value="1"/>
-    <Control type="ScriptPanel" id="btnRelease" value="0"/>
+    <Control type="ScriptPanel" id="btnRelease" value="1"/>
   </Content>
   <MidiAutomation/>
 </Preset>
