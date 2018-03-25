@@ -69,7 +69,7 @@ namespace controllerEditor
 
 	inline function onNoteCB()
     {
-        Message.setVelocity(127/100 * tblCc[0].getTableValue(Message.getVelocity()) * 100); //Scale velocity using table
+        Message.setVelocity(Math.max(1, 127/100 * tblCc[0].getTableValue(Message.getVelocity()) * 100)); //Scale velocity using table
     }
 	
 	inline function onControlCB(number, value)
