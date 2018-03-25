@@ -28,11 +28,14 @@ namespace articulationEditor
         //Instrument specific variables set in currentArt (pnlArticulations) callback
         reg range;
 		reg keyswitches; //idh.getKeyswitches(instrumentName);
+		reg articulations; //Instrument's articulation names
+		reg displayNames; //Articulation display names
         reg sustainIndex; //Holds index of sustain articulation for current instrument
         reg glideIndex; //Holds index of glide articulation for current instrument
         		               		
 		//GUI
-		//Use the panel to persistently store the selected articulation
+		
+		//Use the panel to persistently store the selected articulation and load instrument's articulation settings
 		const var currentArt = Content.getComponent("pnlArticulations");
 				
 		//Labels
@@ -173,13 +176,15 @@ namespace articulationEditor
 	    switch (number)
 	    {   	        
 	        case currentArt: //pnlArticulations - triggered on init
-                range = idh.getRange(instrumentName); //Instrument's max playable range
-                sustainIndex = idh.getArticulationIndex("sustain");
-                glideIndex = idh.getArticulationIndex("glide");
-                keyswitches = idh.getKeyswitches(instrumentName);
+                range = idh.getRange(instrumentName); //Get the instruments playable range
+                articulations = idh.getArticulationNames(instrumentName); //Get instrument's articulation names
+                displayNames = idh.getArticulationDisplayNames(instrumentName); //Get articulation display names
+                keyswitches = idh.getKeyswitches(instrumentName); //Get instrument's keyswitch numbers
+                sustainIndex = articulations.indexOf("sustain"); //Get sustain articulation index
+                glideIndex = articulations.indexOf("glide"); //Get glide articulation index
                 colourKeyswitches();
                 colourPlayableKeys(value);
-                articulationName = idh.getDisplayName(value); //Update variable in main
+                articulationName = displayNames[value]; //Update variable in main for user display
 	        break;
 	        
 		    case sliOffset:
@@ -247,7 +252,7 @@ namespace articulationEditor
 		    }
 		    
 		    currentArt.setValue(idx); //Store the articulation as the panel's value
-		    articulationName = idh.getDisplayName(idx); //Update variable in main
+		    articulationName = displayNames[idx]; //Update variable in main
 		}
 	}
 			
@@ -261,11 +266,9 @@ namespace articulationEditor
     
     inline function colourPlayableKeys(idx)
 	{
-	    local n;
 	    local aRange;
 	    
-		n = idh.getArticulationName(idx); //Name of current articulation
-		aRange = idh.getArticulationRange(instrumentName, n); //Range of current articulation
+		aRange = idh.getArticulationRange(instrumentName, articulations[idx]); //Range of current articulation
 
 		for (i = range[0]; i <= range[1]; i++) //Max playable range of instrument
 		{		    
