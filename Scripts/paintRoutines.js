@@ -65,7 +65,7 @@ namespace paintRoutines
 	{							
 		this.getValue() == 0 ? g.setColour(this.get("bgColour")) : g.setColour(this.get("textColour"));
 
-		g.setFont(Theme.CONTROL_FONT, Theme.CONTROL_FONT_SIZE);
+		g.setFont(Theme.LABEL_FONT, Theme.LABEL_FONT_SIZE);
 		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");
 	};
 	
@@ -87,7 +87,7 @@ namespace paintRoutines
 		this.get("enabled") == true ? g.setColour(this.get("itemColour")) : g.setColour(this.get("bgColour"));
 		g.fillTriangle([this.get("width")-18, this.get("height")/2-2, 10, 5], Math.toRadians(900));
 		
-		g.setFont(Theme.CONTROL_FONT, Theme.CONTROL_FONT_SIZE);
+		g.setFont(Theme.CONTROL_FONT, this.data["fontSize"]);
 	    g.setColour(this.get("textColour"));
 		
 		reg text;

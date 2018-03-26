@@ -37,7 +37,7 @@ namespace articulationEditor
 		const var currentArt = Content.getComponent("pnlArticulations");
 				
 		//Labels
-		for (i = 0; i < 4; i++)
+		for (i = 0; i < 5; i++)
 	    {
 	        Content.setPropertiesFromJSON("lblArt"+i, {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
 	    }

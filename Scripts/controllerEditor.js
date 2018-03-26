@@ -39,8 +39,13 @@ namespace controllerEditor
             }
 	    }
 
+	    //Labels
+        Content.setPropertiesFromJSON("lblParameter", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+        Content.setPropertiesFromJSON("lblController", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+	    
 		const var cmbParam = ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, parameters);
 		Content.setPropertiesFromJSON("cmbParam", {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
+		cmbParam.data["fontSize"] = Theme.CONTROL_FONT_SIZE;
 
 		const var cmbCc = []; //Controller number selection combo boxes
 		const var tblCc = []; //Controller value tables
@@ -49,6 +54,7 @@ namespace controllerEditor
 		{
 			//Controller selection
 			cmbCc[i] = ui.setupControl("cmbCc"+i, {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
+			cmbCc[i].data["fontSize"] = Theme.CONTROL_FONT_SIZE;
 			
 			if (i > 0) //Skip velocity
 		    {
