@@ -19,8 +19,6 @@ namespace articulationEditor
 {
 	inline function onInitCB()
 	{
-		const var envelopeIds = Synth.getIdList("Simple Envelope");
-		const var envelopes = []; //Stores simple envelopes
 		const var muterIds = Synth.getIdList("MidiMuter"); //One muter per articulation
 		const var muters = []; //Stores MIDI muters
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
@@ -48,17 +46,11 @@ namespace articulationEditor
 		const var sliRate = ui.setupControl("sliRate", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var btnGlideMode = ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);
 		Content.setPropertiesFromJSON("btnGlideMode", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
-		const var lblRateVal = Content.getComponent("lblRateVal");
-        const var sliRel = ui.setupControl("sliRel", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});		
+		const var lblRateVal = Content.getComponent("lblRateVal");		
+		Content.setPropertiesFromJSON("sliAtk", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT}); //Legato fade in time
+        Content.setPropertiesFromJSON("sliRel", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT}); //Sustain envelope release
 		
-        //Build array of envelopes
-        for (e in envelopeIds)
-	    {
-	        if (e.indexOf("xclude") != -1) continue; //Skip envelopes with "xclude" in their ID
-	        envelopes.push(Synth.getModulator(e));
-	    }
-        
-	    //Build array of MIDI muters, should be one per keyswitchable articulation
+   	    //Build array of MIDI muters, should be one per keyswitchable articulation
 	    for (m in muterIds)
 	    {
 	        muters.push(Synth.getMidiProcessor(m));
@@ -158,17 +150,6 @@ namespace articulationEditor
 		            asyncUpdater.deferFunction(updateGlideWholeToneState, (ccValue > 64));
 		        }
 			break;
-			
-			case 72: //ADSR release
-				v = (Math.pow(normalised, skewFactor)) * 20000.0;
-				
-				//Value has changed and not glide articulation
-				if (v != sliRel.getValue() && currentArt.getValue() != glideIndex)
-                {
-                    sliRel.setValue(v);
-                    asyncUpdater.deferFunction(setEnvelopeRelease, v);		        
-                }
-			break;		
 		}
 	}
 	
@@ -199,34 +180,9 @@ namespace articulationEditor
 			case btnGlideMode:
                 updateGlideWholeToneState(value);
 			break;
-
-            case sliRel:
-                setEnvelopeRelease(value);
-            break;
 	    }
 	}
-		
-	inline function changeGlideRate(v)
-    {
-        sliRate.setValue(v);
-        legatoHandler.setAttribute(10, v);
-        lblRateVal.set("text", rates[v]);
-    }
-    
-    inline function changeLegatoOffset(v)
-    {
-        sliOffset.setValue(v);
-        legatoHandler.setAttribute(9, 1-(v/100));
-    }
-    
-	inline function setEnvelopeRelease(v)
-	{
-	    if (currentArt.getValue() != glideIndex) //Ignore glidde
-	    {
-            envelopes[currentArt.getValue()].setAttribute(envelopes[currentArt.getValue()].Release, v);
-	    }
-	}
-	    
+		    	    
 	inline function changeArticulation(idx)
 	{
 		if (idx > -1) //Sanity check
@@ -247,20 +203,25 @@ namespace articulationEditor
 		    {
 		        muters[idx].setAttribute(0, 0); //Unmute articulation (idx)
 		    }
-		    		    
-		    //Disable release and volume sliders when glide selected
-		    sliRel.set("enabled", 1-(idx == glideIndex));
-		    
-		    if (idx != glideIndex)
-		    {
-		        sliRel.setValue(envelopes[idx].getAttribute(envelopes[idx].Release)); //Set slider value
-		    }
 	        
 		    currentArt.setValue(idx); //Store the articulation as the panel's value
 		    articulationName = displayNames[idx]; //Update variable in main
 		}
 	}
-			
+	
+	inline function changeLegatoOffset(v)
+    {
+        sliOffset.setValue(v);
+        legatoHandler.setAttribute(9, 1-(v/100));
+    }
+    
+	inline function changeGlideRate(v)
+    {
+        sliRate.setValue(v);
+        legatoHandler.setAttribute(10, v);
+        lblRateVal.set("text", rates[v]);
+    }
+        
 	inline function updateGlideWholeToneState(v)
     {        
         btnGlideMode.setValue(v);
