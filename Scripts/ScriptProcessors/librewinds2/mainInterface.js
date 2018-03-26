@@ -43,19 +43,13 @@ const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sus
 const var samplerIds = Synth.getIdList("Sampler");
 const var containerIds = Synth.getIdList("Container");
 const var scriptIds = Synth.getIdList("Script Processor");
+const var gainMod = Synth.getModulator("globalGainModLFO"); //Vibrato gain modulator
+const var pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch modulator
 const var samplers = [];
 const var releaseSamplers = [];
 const var rrHandlers = []; //Round robin script processors
-reg articulationName = "";
-
-//Load instrument - based on preset name matched against instrumentData database
-reg instrumentName = idh.getInstrumentNameFromPresetName(); //Name of current instrument
-if (instrumentName == "") instrumentName = "Alto Flute"; //Default
-
-idh.loadInstrument(instrumentName, true); //Load the instrument's data
-setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
-loadLegatoSettings();
-loadVibratoSettings();            
+reg articulationName = ""; //Name of current articulation, to display to user
+reg instrumentName; //Name of current instrument - populated in pnlPreset onControl
 
 //Build array of samplers
 for (id in samplerIds)
@@ -78,7 +72,15 @@ for (id in scriptIds)
 //*** GUI ***
 //Header
 Content.setPropertiesFromJSON("pnlHeader", {itemColour:Theme.HEADER, itemColour2:Theme.HEADER});
-Content.setPropertiesFromJSON("pnlPresetBg", {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});
+const var pnlPreset = ui.setupControl("pnlPreset", {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});
+
+pnlPreset.setTimerCallback(function(){
+    
+    //Do check here to see if preset has finished loading
+    loadPresetSettings();
+    this.stopTimer();
+
+});
 
 //Logo
 const var pnlLogo = ui.setupControl("pnlLogo", {textColour:Theme.LOGO});
@@ -87,7 +89,7 @@ pnlLogo.setPaintRoutine(paintRoutines.logo);
 //Preset menu
 const var presetNames = ui.getPresetNames();
 const var cmbPreset = ui.comboBoxPanel("cmbPreset", paintRoutines.comboBox, presetNames);
-const var btnSavePreset = ui.buttonPanel("btnSavePreset", paintRoutines.disk);
+const var btnSavePreset = ui.momentaryButtonPanel("btnSavePreset", paintRoutines.disk);
 
 //Tabs
 const var tabs = [];
@@ -144,8 +146,6 @@ inline function loadLegatoSettings()
 
 inline function loadVibratoSettings()
 {
-    local gainMod = Synth.getModulator("globalGainModLFO"); //Vibrato gain modulator
-    local pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch modulator
     local settings = idh.getData(instrumentName)["vibratoSettings"]; //Get instrument's vibrato settings
     
     gainMod.setIntensity(settings.gain);
@@ -178,8 +178,25 @@ inline function drawStatusBar()
     local voices = Engine.getNumVoices();
         
     lblArticulation.set("text", a + ", " + "CPU: " + cpu + ", " + "RAM: " + ram + ", " + "Voices: " + voices);
+}
+
+inline function setInstrumentName()
+{
+    local preset = Engine.getUserPresetList()[cmbPreset.getValue()-1]; //Get current preset name
+    instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable
+}
+
+//Just a wrapper function for loading preset settings
+inline function loadPresetSettings()
+{
+    setInstrumentName();
+    idh.loadSampleMaps(instrumentName); //Load sample maps
+    setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
+    loadLegatoSettings();
+    loadVibratoSettings();
 }function onNoteOn()
 {
+    //Check here to make sure preset is loaded
 	articulationEditor.onNoteCB();
 	controllerEditor.onNoteCB();
 }
@@ -209,15 +226,21 @@ function onControl(number, value)
 {
 	switch (number)
 	{    
-	    case cmbPreset:
+	    case pnlPreset:
+	        cmbPreset.setValue(value); //Restore last selected preset menu value
+	        setInstrumentName(); //Set the name of the instrument from the current preset
+	    break;
+	    
+	    case cmbPreset:            
 	        Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
+	        pnlPreset.setValue(value); //Store selected preset value in persistent parent panel
+	        pnlPreset.startTimer(1000); //Trigger preset panel timer to load preset settings
 	    break;
 	    
 		case btnSavePreset:
 			if (value == 1)
 	        {
 			    Engine.saveUserPreset(""); //Save the current user preset
-			    btnSavePreset.setValue(0);
 	        }
 		break;
 		
@@ -230,12 +253,11 @@ function onControl(number, value)
 		break;
 		
 		case btnRelease: //Release triggers purge/load
-		    
 		    for (s in releaseSamplers)
             {
 	            s.setAttribute(12, 1-value);
             }
-            
+            btnRelease.repaint();
 		break;
 				
 		default:
