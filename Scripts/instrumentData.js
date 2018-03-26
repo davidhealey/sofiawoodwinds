@@ -26,7 +26,7 @@ namespace instData
 		"Alto Flute":
 		{
 		    sampleMapId:"altoFlute", //Identifier for finding sample maps
-		    keyswitches:[24, 25, 26, 27, 28],
+		    keyswitches:[24, 25, 26, 27],
 			range:[55, 91], //Maximum range of instrument
 			articulations:
 			{
