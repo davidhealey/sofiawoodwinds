@@ -34,7 +34,7 @@ namespace instData
 				staccato:{displayName:"Staccato", range:[55, 91], attack:5, release:350},
 				flutter:{displayName:"Flutter", range:[55, 91], attack:5, release:350},
 				harmonics:{displayName:"Harmonics", range:[55, 91], attack:5, release:350},
-				glide:{displayName:"Glide", parent:"sustain", range:[55, 91]}
+				glide:{displayName:"Glide", range:[55, 91]}
 			},
 			legatoSettings:
 		    {
