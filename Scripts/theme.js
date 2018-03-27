@@ -17,6 +17,9 @@
 
 namespace Theme
 {
+    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
+    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
+
 	const var BLACK = 0xFF000000;
 	const var WHITE = 0xFFFFFFFF;
 	const var HEADER = 0xFF1C2A39;
