@@ -33,7 +33,7 @@ namespace articulationEditor
         reg glideIndex; //Holds index of glide articulation for current instrument
         		               		
 		//GUI
-        const var pnlArticulations = Content.getComponent("pnlArticulations");
+        const var pnlArticulations = Content.getComponent("pnlArticulations"); //Articulation controls parent
 				
 		//Labels
 		for (i = 0; i < 5; i++)

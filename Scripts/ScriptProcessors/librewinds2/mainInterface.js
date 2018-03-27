@@ -89,6 +89,7 @@ pnlLogo.setPaintRoutine(paintRoutines.logo);
 //Preset menu
 const var presetNames = ui.getPresetNames();
 const var cmbPreset = ui.comboBoxPanel("cmbPreset", paintRoutines.comboBox, presetNames);
+cmbPreset.data["fontSize"] = Theme.LABEL_FONT_SIZE;
 const var btnSavePreset = ui.momentaryButtonPanel("btnSavePreset", paintRoutines.disk);
 
 //Tabs
