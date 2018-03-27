@@ -49,7 +49,7 @@ namespace articulationEditor
 		Content.setPropertiesFromJSON("sliAtk", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT}); //Legato fade in time
         Content.setPropertiesFromJSON("sliRel", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT}); //Sustain envelope release
 		
-   	    //Build array of MIDI muters, should be one per keyswitchable articulation
+   	    //Build array of MIDI muters - one per keyswitchable articulation
 	    for (m in muterIds)
 	    {
 	        muters.push(Synth.getMidiProcessor(m));
