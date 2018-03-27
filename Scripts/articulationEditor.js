@@ -22,19 +22,18 @@ namespace articulationEditor
 		const var muterIds = Synth.getIdList("MidiMuter"); //One muter per articulation
 		const var muters = []; //Stores MIDI muters
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
+        reg currentArt; //Current articulation
         
-        //Instrument specific variables set in currentArt (pnlArticulations) callback
+        //Instrument specific variables set in pnlArticulation's callback
         reg range;
 		reg keyswitches; //idh.getKeyswitches(instrumentName);
 		reg articulations; //Instrument's articulation names
 		reg displayNames; //Articulation display names
-        reg sustainIndex; //Holds index of sustain articulation for current instrument
+        reg sustainIndex; //Holds index of sustain/legato articulation for current instrument
         reg glideIndex; //Holds index of glide articulation for current instrument
         		               		
 		//GUI
-		
-		//Use the panel to persistently store the selected articulation and load instrument's articulation settings
-		const var currentArt = Content.getComponent("pnlArticulations");
+        const var pnlArticulations = Content.getComponent("pnlArticulations");
 				
 		//Labels
 		for (i = 0; i < 5; i++)
@@ -55,6 +54,8 @@ namespace articulationEditor
 	    {
 	        muters.push(Synth.getMidiProcessor(m));
 	    }
+	    
+	    changeArticulation(0); //Set default articulation
 	}
 	
 	inline function onNoteCB()
@@ -127,14 +128,14 @@ namespace articulationEditor
 			
 			case 64: //Sustain pedal
 						
-                if (currentArt.getValue() == sustainIndex) //Current articulation is sustain/legato
+                if (currentArt == sustainIndex) //Current articulation is sustain/legato
                 {	
                     Message.ignoreEvent(true);
                     
                     //Toggle same note legato based on sustain pedal position
                     Synth.isSustainPedalDown() ? legatoHandler.setAttribute(11, 1) : legatoHandler.setAttribute(11, 0);
                 }
-                else if (!Synth.isSustainPedalDown() && currentArt.getValue() == glideIndex) //Current articulation is glide and sustain pedal is lifted
+                else if (!Synth.isSustainPedalDown() && currentArt == glideIndex) //Current articulation is glide and sustain pedal is lifted
                 {
                     Message.ignoreEvent(true);
                     
@@ -157,7 +158,7 @@ namespace articulationEditor
 	{	    
 	    switch (number)
 	    {   	        
-	        case currentArt: //pnlArticulations - triggered on init
+	        case pnlArticulations:
                 range = idh.getRange(instrumentName); //Get the instruments playable range
                 articulations = idh.getArticulationNames(instrumentName); //Get instrument's articulation names
                 displayNames = idh.getArticulationDisplayNames(instrumentName); //Get articulation display names
@@ -204,7 +205,7 @@ namespace articulationEditor
 		        muters[idx].setAttribute(0, 0); //Unmute articulation (idx)
 		    }
 	        
-		    currentArt.setValue(idx); //Store the articulation as the panel's value
+		    currentArt = idx; //Store the articulation as the panel's value
 		    articulationName = displayNames[idx]; //Update variable in main
 		}
 	}
