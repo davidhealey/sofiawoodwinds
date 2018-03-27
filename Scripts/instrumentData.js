@@ -30,10 +30,10 @@ namespace instData
 			range:[55, 91], //Maximum range of instrument
 			articulations:
 			{
-				sustain:{displayName:"Sustain", range:[55, 91], attack:5, release:350},
-				staccato:{displayName:"Staccato", range:[55, 91], attack:5, release:350},
-				flutter:{displayName:"Flutter", range:[55, 91], attack:5, release:350},
-				harmonics:{displayName:"Harmonics", range:[55, 91], attack:5, release:350},
+				sustain:{displayName:"Sustain", range:[55, 91]},
+				staccato:{displayName:"Staccato", range:[55, 91]},
+				flutter:{displayName:"Flutter", range:[55, 91]},
+				harmonics:{displayName:"Harmonics", range:[55, 91]},
 				glide:{displayName:"Glide", range:[55, 91]}
 			},
 			legatoSettings:
@@ -52,14 +52,14 @@ namespace instData
 		"Concert Flute I":
 		{
 		    sampleMapId:"flute1", //Identifier for finding sample maps
-		    keyswitches:[24, 25, 26, 28],
+		    keyswitches:[24, 25, 26],
 			range:[60, 96], //Maximum range of instrument
 			articulations:
 			{
-				sustain:{displayName:"Sustain", range:[60, 96], attack:5, release:350},
-				staccato:{displayName:"Staccato", range:[60, 96], attack:5, release:350},
-				flutter:{displayName:"Flutter", range:[60, 96], attack:5, release:350},
-				glide:{displayName:"Glide", parent:"sustain", range:[60, 96]}
+				sustain:{displayName:"Sustain", range:[60, 96]},
+				staccato:{displayName:"Staccato", range:[60, 96]},
+				flutter:{displayName:"Flutter", range:[60, 96]},
+				glide:{displayName:"Glide", parent:"sustain"}
 			},
 			legatoSettings:
 		    {
