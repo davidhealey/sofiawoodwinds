@@ -30,9 +30,6 @@ include("controllerEditor.js");
 
 Content.makeFrontInterface(676, 392);
 
-Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
-Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
-
 //Loop iterators
 reg i;
 reg j;
@@ -145,6 +142,33 @@ inline function loadLegatoSettings()
     legatoHandler.setAttribute(attributes.FADE_TIME, settings.fadeTime);
 }
 
+inline function drawStatusBar()
+{
+    local a = idh.getDisplayName(currentArt.getValue()); //Articulation display name
+    local cpu = Math.round(Engine.getCpuUsage()) + "%";
+    local ram = Math.round(Engine.getMemoryUsage()) + "MB";
+    local voices = Engine.getNumVoices();
+        
+    lblArticulation.set("text", a + ", " + "CPU: " + cpu + ", " + "RAM: " + ram + ", " + "Voices: " + voices);
+}
+
+inline function setInstrumentName()
+{
+    local preset = Engine.getUserPresetList()[cmbPreset.getValue()-1]; //Get current preset name
+    instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable
+}
+
+//Just a wrapper function for loading preset settings
+inline function loadPresetSettings()
+{
+    setInstrumentName();
+    idh.loadSampleMaps(instrumentName); //Load sample maps
+    idh.loadContainerGain(instrumentName); //Set the gain of articulation containers
+    setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
+    loadLegatoSettings();
+    loadVibratoSettings();
+}
+
 inline function loadVibratoSettings()
 {
     local settings = idh.getData(instrumentName)["vibratoSettings"]; //Get instrument's vibrato settings
@@ -169,32 +193,6 @@ inline function changeRRSettings()
         r.setAttribute(0, 1-btnRR.getValue()); //Bypass button
         if (btnRR.getValue() == 1) r.setAttribute(1, 1); //Random mode
     }
-}
-
-inline function drawStatusBar()
-{
-    local a = idh.getDisplayName(currentArt.getValue()); //Articulation display name
-    local cpu = Math.round(Engine.getCpuUsage()) + "%";
-    local ram = Math.round(Engine.getMemoryUsage()) + "MB";
-    local voices = Engine.getNumVoices();
-        
-    lblArticulation.set("text", a + ", " + "CPU: " + cpu + ", " + "RAM: " + ram + ", " + "Voices: " + voices);
-}
-
-inline function setInstrumentName()
-{
-    local preset = Engine.getUserPresetList()[cmbPreset.getValue()-1]; //Get current preset name
-    instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable
-}
-
-//Just a wrapper function for loading preset settings
-inline function loadPresetSettings()
-{
-    setInstrumentName();
-    idh.loadSampleMaps(instrumentName); //Load sample maps
-    setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
-    loadLegatoSettings();
-    loadVibratoSettings();
 }function onNoteOn()
 {
     //Check here to make sure preset is loaded

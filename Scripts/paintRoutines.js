@@ -56,9 +56,9 @@ namespace paintRoutines
 		g.fillRect([0, 0, this.get("width"), this.get("height")]);
 
 		//X position of slider based on its current normalized value
-		reg xPos = (this.get("width")-(this.get("width")/4)) * ui.getNormalizedValue(this.get("id"));
+		reg xPos = (parseInt(this.get("width"))-(parseInt(this.get("width"))/4)) * ui.getNormalizedValue(this.get("id"));
 		g.setColour(this.get("itemColour"));
-		g.fillRect([xPos, 0, this.get("width")/4, this.get("height")]);
+		g.fillRect([xPos, 0, parseInt(this.get("width"))/4, this.get("height")]);
 	};
 	    
 	const var textButton = function(g)
@@ -85,7 +85,7 @@ namespace paintRoutines
 		g.fillRect([0, 0, this.get("width"), this.get("height")]);
 		
 		this.get("enabled") == true ? g.setColour(this.get("itemColour")) : g.setColour(this.get("bgColour"));
-		g.fillTriangle([this.get("width")-18, this.get("height")/2-2, 10, 5], Math.toRadians(900));
+		g.fillTriangle([parseInt(this.get("width"))-18, parseInt(this.get("height"))/2-2, 10, 5], Math.toRadians(900));
 		
 		g.setFont(Theme.CONTROL_FONT, this.data["fontSize"]);
 	    g.setColour(this.get("textColour"));
