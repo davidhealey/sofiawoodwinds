@@ -46,7 +46,7 @@ const var samplers = [];
 const var releaseSamplers = [];
 const var rrHandlers = []; //Round robin script processors
 reg articulationName = ""; //Name of current articulation, to display to user
-reg instrumentName; //Name of current instrument - populated in pnlPreset onControl
+reg instrumentName; //Name of current instrument - populated in pnlPreset or cmbPreset
 
 //Build array of samplers
 for (id in samplerIds)
@@ -227,7 +227,7 @@ function onControl(number, value)
 	{    
 	    case pnlPreset:
 	        //Restore the last selected preset or default to 1
-	        if (typeof value == "number")
+	        if (typeof value == "number" && value != 0)
             {
                 cmbPreset.setValue(value);
             }
@@ -241,7 +241,7 @@ function onControl(number, value)
 	    case cmbPreset:
 	        Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
 	        pnlPreset.setValue(value); //Store selected preset value in persistent parent panel
-	        pnlPreset.startTimer(1000); //Trigger preset panel timer to load preset settings
+	        pnlPreset.startTimer(500); //Trigger preset panel timer to load preset settings
 	    break;
 	    
 		case btnSavePreset:

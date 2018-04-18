@@ -88,6 +88,20 @@
     <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
     <Control type="ScriptPanel" id="btnRR" value="1"/>
     <Control type="ScriptPanel" id="btnRelease" value="0"/>
+    <Control type="ScriptPanel" id="pnlPreset" value="0"/>
+    <Control type="ScriptPanel" id="pnlArticulations" value="0"/>
+    <Control type="ScriptLabel" id="lblArt0" value="0"/>
+    <Control type="ScriptLabel" id="lblArt1" value="0"/>
+    <Control type="ScriptLabel" id="lblArt2" value="0"/>
+    <Control type="ScriptLabel" id="lblArt3" value="0"/>
+    <Control type="ScriptLabel" id="lblArt4" value="0"/>
+    <Control type="ScriptLabel" id="lblRateVal" value="0"/>
+    <Control type="ScriptSlider" id="sliAtk" value="60"/>
+    <Control type="ScriptSlider" id="sliRel" value="100"/>
+    <Control type="ScriptPanel" id="pnlMixer" value="0"/>
+    <Control type="ScriptPanel" id="pnlControllers" value="0"/>
+    <Control type="ScriptPanel" id="cmbCc4" value="0"/>
+    <Control type="ScriptLabel" id="lblStats" value="0"/>
   </Content>
   <MidiAutomation/>
 </Preset>
