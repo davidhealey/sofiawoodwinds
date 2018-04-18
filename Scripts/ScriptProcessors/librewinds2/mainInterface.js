@@ -99,8 +99,8 @@ Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.BODY, itemColour2:The
 
 const var zones = [];
 zones[0] = ui.setupControl("pnlArticulations", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
-zones[1] = ui.setupControl("pnlMidZone", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
-zones[2] = ui.setupControl("pnlRightZone", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
+zones[1] = ui.setupControl("pnlMixer", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
+zones[2] = ui.setupControl("pnlControllers", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
 
 //Zone titles
 Content.setPropertiesFromJSON("lblArtTitle", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});

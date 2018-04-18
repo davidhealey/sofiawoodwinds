@@ -53,6 +53,7 @@ namespace mixer
 		{
 			if (number == pan[i])
 			{
+			    Console.print(value);
 				pan[i].repaint();
 				break;
 			}
