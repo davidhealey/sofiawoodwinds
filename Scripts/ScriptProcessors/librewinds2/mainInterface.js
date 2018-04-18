@@ -155,7 +155,7 @@ inline function drawStatusBar()
 inline function setInstrumentName()
 {
     local preset = Engine.getUserPresetList()[cmbPreset.getValue()-1]; //Get current preset name
-    instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable
+    instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable   
 }
 
 //Just a wrapper function for loading preset settings
@@ -226,11 +226,19 @@ function onControl(number, value)
 	switch (number)
 	{    
 	    case pnlPreset:
-	        cmbPreset.setValue(value); //Restore last selected preset menu value
+	        //Restore the last selected preset or default to 1
+	        if (typeof value == "number")
+            {
+                cmbPreset.setValue(value);
+            }
+            else 
+	        {
+	            cmbPreset.setValue(1);
+	        }
 	        setInstrumentName(); //Set the name of the instrument from the current preset
 	    break;
 	    
-	    case cmbPreset:            
+	    case cmbPreset:
 	        Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
 	        pnlPreset.setValue(value); //Store selected preset value in persistent parent panel
 	        pnlPreset.startTimer(1000); //Trigger preset panel timer to load preset settings

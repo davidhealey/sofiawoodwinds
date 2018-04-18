@@ -48,7 +48,7 @@
             <Control type="ScriptPanel" id="cmbCc2" value="1"/>
             <Control type="ScriptPanel" id="cmbCc3" value="80"/>
             <Control type="ScriptPanel" id="cmbCc4" value="19"/>
-            <Control type="ScriptTable" id="tblCc0" value="33" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="35" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C..fxO"/>
             <Control type="ScriptTable" id="tblCc2" value="54" data="24...............vO...f+....9C..XzO"/>
             <Control type="ScriptTable" id="tblCc3" value="3" data="24......3NVA5C...vO...f+....9C...vO"/>
@@ -57,7 +57,7 @@
             <Control type="ScriptPanel" id="pnlOctUp" value="0"/>
             <Control type="ScriptLabel" id="lblOct" value="0"/>
             <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
-            <Control type="ScriptLabel" id="lblStats" value="Sustain, CPU: 3%, RAM: 53MB, Voices: 0"/>
+            <Control type="ScriptLabel" id="lblStats" value="Sustain, CPU: 5%, RAM: 53MB, Voices: 0"/>
             <Control type="ScriptPanel" id="btnRR" value="1"/>
             <Control type="ScriptPanel" id="btnRelease" value="1"/>
           </Content>
@@ -335,7 +335,7 @@
                            textColour="0" itemColour="0" bgColour="0">
                   <Component type="ScriptLabel" id="lblStats" x="0" y="0" width="300" height="25"
                              parentComponent="pnlStats" fontName="Sarala-Bold" fontSize="20"
-                             textColour="4289309097" text="Sustain, CPU: 3%, RAM: 53MB, Voices: 0"
+                             textColour="4289309097" text="Sustain, CPU: 5%, RAM: 53MB, Voices: 0"
                              alignment="left"/>
                 </Component>
                 <Component type="ScriptPanel" id="btnSettings" x="647" y="4" width="17"
@@ -546,7 +546,7 @@
                     <Processor Type="ScriptProcessor" ID="sustainRoundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="Bypass" value="1"/>
+                        <Control type="ScriptButton" id="Bypass" value="0"/>
                         <Control type="ScriptButton" id="Random" value="1"/>
                         <Control type="ScriptSlider" id="Low Note" value="55"/>
                         <Control type="ScriptSlider" id="High Note" value="91"/>
