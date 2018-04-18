@@ -62,7 +62,7 @@ namespace manifest
 				sustain:{displayName:"Sustain", range:[60, 96], gain:-6},
 				staccato:{displayName:"Staccato", range:[60, 96]},
 				flutter:{displayName:"Flutter", range:[60, 96]},
-				glide:{displayName:"Glide", parent:"sustain"}
+				glide:{displayName:"Glide"}
 			},
 			legatoSettings:
 		    {
