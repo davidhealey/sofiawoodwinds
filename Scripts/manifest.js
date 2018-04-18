@@ -17,12 +17,15 @@
     along with Libre Winds. If not, see <http://www.gnu.org/licenses/>.
 */
 
-namespace instData
+namespace manifest
 {
-	const var allArticulations = ["sustain", "staccato", "flutter", "harmonics", "glide"]; //Global articulation list, available to all instruments
-	const var programs = [1, 2, 3, 40, 50, 60, 70]; //UACC and Program Change numbers for articulations
-    
-	const var database = {
+    //Articulations available to all patches - but not all patches have to use them
+	const var allArticulations = ["sustain", "staccato", "flutter", "harmonics", "glide"]; 
+	
+	//UACC and Program Change numbers for articulations
+	const var programs = [1, 2, 3, 40, 50, 60, 70];
+
+	const var patches = {
 		"Alto Flute":
 		{
 		    sampleMapId:"altoFlute", //Identifier for finding sample maps
