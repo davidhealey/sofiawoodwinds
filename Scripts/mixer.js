@@ -35,29 +35,23 @@ namespace mixer
 
 		for (i = 0; i < micNames.length; i++)
 		{
-			pan[i] = ui.setupControl("sliPan"+i, {stepSize:0.01, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up callbacks for pan slider
+			Content.setPropertiesFromJSON("sliPan"+i, {stepSize:0.01, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			pan[i] = ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up callbacks for pan slider
 
 			Content.setPropertiesFromJSON("sliVol"+i, {type:"Decibel", max:3, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
 			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
 			Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			purge[i] = ui.setupControl("btnPurge"+i, {text:micNames[i], bgColour:Theme.CONTROL1, textColour:Theme.BLACK});
-			ui.buttonPanel("btnPurge"+i, paintRoutines.textButton); //Set up callbacks for purge button
 			
+			Content.setPropertiesFromJSON("btnPurge"+i, {text:micNames[i], bgColour:Theme.CONTROL1, textColour:Theme.BLACK});
+			purge[i] = ui.buttonPanel("btnPurge"+i, paintRoutines.textButton); //Set up callbacks for purge button	
 		}
     }
 	
 	inline function onControlCB(number, value)
-	{
+	{	        
 		for (i = 0; i < micNames.length; i++)
 		{
-			if (number == pan[i])
-			{
-			    Console.print(value);
-				pan[i].repaint();
-				break;
-			}
-			else if (number == purge[i])
+            if (number == purge[i])
 			{
                 for (s in samplers) //Each sampler
                 {

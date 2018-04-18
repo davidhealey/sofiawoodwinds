@@ -50,13 +50,14 @@ namespace paintRoutines
     };
     
 	const var biDirectionalSlider = function(g)
-	{
+	{       
 		//Background
 		g.setColour(this.get("bgColour"));
 		g.fillRect([0, 0, this.get("width"), this.get("height")]);
 
-		//X position of slider based on its current normalized value
+		//X position of slider based on its current normalized value		
 		reg xPos = (parseInt(this.get("width"))-(parseInt(this.get("width"))/4)) * ui.getNormalizedValue(this.get("id"));
+		
 		g.setColour(this.get("itemColour"));
 		g.fillRect([xPos, 0, parseInt(this.get("width"))/4, this.get("height")]);
 	};
