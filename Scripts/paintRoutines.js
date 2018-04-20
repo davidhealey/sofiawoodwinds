@@ -80,26 +80,24 @@ namespace paintRoutines
 	};
 		
 	const var comboBox = function(g)
-	{
-		g.setColour(this.get("bgColour"));
-		g.fillRect([0, 0, this.get("width"), this.get("height")]);
+	{		
+		g.fillAll(this.get("bgColour"));
 		
 		this.get("enabled") == true ? g.setColour(this.get("itemColour")) : g.setColour(this.get("bgColour"));
-		g.fillTriangle([parseInt(this.get("width"))-18, parseInt(this.get("height"))/2-2, 10, 5], Math.toRadians(900));
+		g.fillTriangle([this.getWidth()-18, this.getHeight()/2-2, 10, 5], Math.toRadians(900));
 		
 		g.setFont(Theme.CONTROL_FONT, this.data["fontSize"]);
 	    g.setColour(this.get("textColour"));
-		
+
 		reg text;
 		this.getValue()-1 == -1 ? text = this.get("text") : text = this.data.items[this.getValue()-1];
-		g.drawAlignedText(text, [7, 0, this.get("width"), this.get("height")], "left");
+		g.drawAlignedText(text, [7, 0, this.getWidth(), this.getHeight()], "left");
 	}
 	
 	const var verticalSlider = function(g)
     {
         g.fillAll(this.get("bgColour"));        
         g.setColour(this.get("itemColour"));
-
         g.fillRect([0, this.getHeight() - this.getValue() * this.getHeight(), this.getWidth(), this.getValue() * this.getHeight()]);
     }
 }
