@@ -31,14 +31,15 @@ namespace mixer
 		
 		const var micNames = ["Close", "Decca", "Hall"]; //Close, decca, hall
 		const var pan = [];
+		const var pnlVol = [];
 		const var purge = [];
 
 		for (i = 0; i < micNames.length; i++)
 		{
 			Content.setPropertiesFromJSON("sliPan"+i, {stepSize:0.01, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
 			pan[i] = ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up callbacks for pan slider
-
-			Content.setPropertiesFromJSON("sliVol"+i, {type:"Decibel", max:3, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			
+			Content.setPropertiesFromJSON("sliVol"+i, {type:"Decibel", max:3, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});						
 			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
 			Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
 			
@@ -48,22 +49,20 @@ namespace mixer
     }
 	
 	inline function onControlCB(number, value)
-	{	        
-		for (i = 0; i < micNames.length; i++)
-		{
-            if (number == purge[i])
-			{
-                for (s in samplers) //Each sampler
-                {
-                    //Only purge or load if it's not already purged/loaded
-                    if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(i) != 1-value)
-                    {
-                        s.purgeMicPosition(s.getMicPositionName(i), 1-value);
-                    }
-                }
-				purge[i].repaint();
-				break;
-			}
-		}		
+	{    
+	    local idx = purge.indexOf(number); //Check if number is a purge button
+	    
+	    if (idx != -1)
+	    {
+	        for (s in samplers) //Each sampler
+	        {
+	            //Only purge or load if it's state has changed
+	            if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(idx) != 1-value)
+	            {
+                    s.purgeMicPosition(s.getMicPositionName(idx), 1-value);   
+	            }
+	        }
+	        purge[idx].repaint();
+	    }
 	}
 }
