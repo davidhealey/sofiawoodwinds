@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptButton" id="Button1" value="0"/>
+    <Control type="ScriptSlider" id="Knob1" value="5.409999847412109375"/>
+  </Content>
+  <MidiAutomation/>
+</Preset>

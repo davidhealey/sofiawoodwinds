@@ -52,8 +52,7 @@ namespace paintRoutines
 	const var biDirectionalSlider = function(g)
 	{       
 		//Background
-		g.setColour(this.get("bgColour"));
-		g.fillRect([0, 0, this.get("width"), this.get("height")]);
+		g.fillAll(this.get("bgColour"));
 
 		//X position of slider based on its current normalized value		
 		reg xPos = (parseInt(this.get("width"))-(parseInt(this.get("width"))/4)) * ui.getNormalizedValue(this.get("id"));
@@ -77,7 +76,7 @@ namespace paintRoutines
 		g.setColour(this.get("textColour"));
 		
 		g.setFont(Theme.CONTROL_FONT, Theme.CONTROL_FONT_SIZE);
-		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");
+		g.drawAlignedText(this.get("text"), [0, 0, this.getWidth(), this.getHeight()], "centred");
 	};
 		
 	const var comboBox = function(g)
@@ -95,6 +94,14 @@ namespace paintRoutines
 		this.getValue()-1 == -1 ? text = this.get("text") : text = this.data.items[this.getValue()-1];
 		g.drawAlignedText(text, [7, 0, this.get("width"), this.get("height")], "left");
 	}
+	
+	const var verticalSlider = function(g)
+    {
+        g.fillAll(this.get("bgColour"));        
+        g.setColour(this.get("itemColour"));
+
+        g.fillRect([0, this.getHeight() - this.getValue() * this.getHeight(), this.getWidth(), this.getValue() * this.getHeight()]);
+    }
 }
 
 namespace svgPaths

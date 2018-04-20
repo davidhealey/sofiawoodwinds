@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptButton" id="SyncFreeButton" value="1"/>
+    <Control type="ScriptSlider" id="LeftDelayTimerSync" value="4"/>
+    <Control type="ScriptSlider" id="RightDelayTimerSync" value="8"/>
+  </Content>
+  <MidiAutomation/>
+</Preset>

@@ -78,16 +78,16 @@ namespace SettingsJson
     {
         settings["Content"].push(
         {
-        "Type": "MidiSources",
-        "Title": "MIDI Input",
-        "StyleData": {
-        },
-        "Font": Theme.CONTROL_FONT,
-        "FontSize": 22,
-        "ColourData": {
-            "bgColour": Theme.BODY,
-            "textColour": Theme.LABEL_TEXT,
-        }
+            "Type": "MidiSources",
+            "Title": "MIDI Input",
+            "StyleData": {
+            },
+            "Font": Theme.CONTROL_FONT,
+            "FontSize": 22,
+            "ColourData": {
+                "bgColour": Theme.BODY,
+                "textColour": Theme.LABEL_TEXT,
+            }
         });
     }
     
@@ -103,15 +103,14 @@ namespace SettingsJson
             "textColour": Theme.LABEL_TEXT,
             "itemColour1": 0xFFDFDFDF
         }
-        });
+    });
         
     settings["Content"].push({
-    
         "Type": "MidiLearnPanel",
         "Title": "MIDI Automation",
         "Font": Theme.CONTROL_FONT,
         "FontSize": 22,
-       "ColourData":
+        "ColourData":
         {
             "bgColour": Theme.BODY,
             "textColour": Theme.LABEL_TEXT,

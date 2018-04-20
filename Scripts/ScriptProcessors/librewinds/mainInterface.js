@@ -30,8 +30,9 @@ include("controllerEditor.js");
 
 Content.makeFrontInterface(676, 392);
 
-Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
-Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
+//Loop iterators
+reg i;
+reg j;
 
 const var legatoHandler = Synth.getMidiProcessor("legatoHandler"); //legato handler script
 const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sustain/legato/glide round robin handler
@@ -39,19 +40,13 @@ const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sus
 const var samplerIds = Synth.getIdList("Sampler");
 const var containerIds = Synth.getIdList("Container");
 const var scriptIds = Synth.getIdList("Script Processor");
+const var gainMod = Synth.getModulator("globalGainModLFO"); //Vibrato gain modulator
+const var pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch modulator
 const var samplers = [];
 const var releaseSamplers = [];
 const var rrHandlers = []; //Round robin script processors
-
-//Load instrument - based on preset name matched against instrumentData database
-reg instrumentName = idh.getInstrumentNameFromPresetName(); //Name of current instrument
-if (instrumentName == "") instrumentName = "Alto Flute"; //Default
-
-const var range = idh.getRange(instrumentName); //Instrument's max playable range
-idh.loadInstrument(instrumentName, true); //Load the instrument's data
-setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
-loadLegatoSettings();
-loadVibratoSettings();            
+reg articulationName = ""; //Name of current articulation, to display to user
+reg instrumentName; //Name of current instrument - populated in pnlPreset or cmbPreset
 
 //Build array of samplers
 for (id in samplerIds)
@@ -74,7 +69,15 @@ for (id in scriptIds)
 //*** GUI ***
 //Header
 Content.setPropertiesFromJSON("pnlHeader", {itemColour:Theme.HEADER, itemColour2:Theme.HEADER});
-Content.setPropertiesFromJSON("pnlPresetBg", {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});
+const var pnlPreset = ui.setupControl("pnlPreset", {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});
+
+pnlPreset.setTimerCallback(function(){
+    
+    //Do check here to see if preset has finished loading
+    loadPresetSettings();
+    this.stopTimer();
+
+});
 
 //Logo
 const var pnlLogo = ui.setupControl("pnlLogo", {textColour:Theme.LOGO});
@@ -83,7 +86,8 @@ pnlLogo.setPaintRoutine(paintRoutines.logo);
 //Preset menu
 const var presetNames = ui.getPresetNames();
 const var cmbPreset = ui.comboBoxPanel("cmbPreset", paintRoutines.comboBox, presetNames);
-const var btnSavePreset = ui.buttonPanel("btnSavePreset", paintRoutines.disk);
+cmbPreset.data["fontSize"] = Theme.LABEL_FONT_SIZE;
+const var btnSavePreset = ui.momentaryButtonPanel("btnSavePreset", paintRoutines.disk);
 
 //Tabs
 const var tabs = [];
@@ -94,9 +98,9 @@ tabs[1] = Content.getComponent("pnlSettings");
 Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.BODY, itemColour2:Theme.BODY}); //Background panel
 
 const var zones = [];
-zones[0] = ui.setupControl("pnlLeftZone", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
-zones[1] = ui.setupControl("pnlMidZone", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
-zones[2] = ui.setupControl("pnlRightZone", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
+zones[0] = ui.setupControl("pnlArticulations", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
+zones[1] = ui.setupControl("pnlMixer", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
+zones[2] = ui.setupControl("pnlControllers", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
 
 //Zone titles
 Content.setPropertiesFromJSON("lblArtTitle", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});
@@ -112,12 +116,40 @@ const var btnSettings = ui.buttonPanel("btnSettings", paintRoutines.gear); //Set
 const var btnRR = ui.buttonPanel("btnRR", paintRoutines.roundRobin); //Round Robin
 const var btnRelease = ui.buttonPanel("btnRelease", paintRoutines.release); //Release samples purge/load
 
+//Footer stat bar/performance meter
+const var pnlStats = Content.getComponent("pnlStats");
+const var lblStats = Content.getComponent("lblStats");
+pnlStats.startTimer(250);
+pnlStats.setTimerCallback(function()
+{        
+    lblStats.set("text", articulationName + ", " + "CPU: " + Math.round(Engine.getCpuUsage()) + "%" + ", " + "RAM: " + Math.round(Engine.getMemoryUsage()) + "MB" + ", " + "Voices: " + Engine.getNumVoices());
+});
+
 //Includes initialisation
 articulationEditor.onInitCB(); //Initialise articulation editor
 mixer.onInitCB();
 controllerEditor.onInitCB();
 
 //Functions
+
+//Get the patch name from the preset name and assign it to the instrumentName variable for use in other parts of the script
+inline function setInstrumentName()
+{
+    local preset = Engine.getUserPresetList()[cmbPreset.getValue()-1]; //Get current preset name
+    instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable   
+}
+
+//Just a wrapper function for loading preset settings
+inline function loadPresetSettings()
+{
+    //setInstrumentName();
+    idh.loadSampleMaps(instrumentName); //Load sample maps
+    idh.loadContainerGain(instrumentName); //Set the gain of articulation containers
+    setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
+    loadLegatoSettings();
+    loadVibratoSettings();
+}
+
 inline function loadLegatoSettings()
 {
     local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
@@ -131,15 +163,10 @@ inline function loadLegatoSettings()
 
 inline function loadVibratoSettings()
 {
-    local gainMod = Synth.getModulator("globalGainModLFO"); //Vibrato gain modulator
-    local pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch modulator
-    local eq = Synth.getEffect("vibratoEq"); //Vibrato EQ
     local settings = idh.getData(instrumentName)["vibratoSettings"]; //Get instrument's vibrato settings
     
     gainMod.setIntensity(settings.gain);
     pitchMod.setIntensity(settings.pitch);
-    eq.setAttribute(0, settings.eqGain);
-    eq.setAttribute(1, settings.eqFreq);
 }
 
 //Set the range of the sustain/legato/glide round robin handler
@@ -160,7 +187,9 @@ inline function changeRRSettings()
     }
 }function onNoteOn()
 {
+    //Check here to make sure preset is loaded
 	articulationEditor.onNoteCB();
+	controllerEditor.onNoteCB();
 }
 function onNoteOff()
 {
@@ -188,15 +217,31 @@ function onControl(number, value)
 {
 	switch (number)
 	{    
+	    case pnlPreset:
+	        //Restore the last selected preset or default to 1
+	        if (typeof value == "number" && value != 0)
+            {
+                cmbPreset.setValue(value);
+            }
+            else 
+	        {
+	            cmbPreset.setValue(1);
+	        }
+	        setInstrumentName(); //Set the name of the instrument from the current preset name
+	    break;
+	    
 	    case cmbPreset:
+	        setInstrumentName();
 	        Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
+	        loadPresetSettings();
+	        //pnlPreset.setValue(value); //Store selected preset value in persistent parent panel
+	        //pnlPreset.startTimer(500); //Trigger preset panel timer to load preset settings
 	    break;
 	    
 		case btnSavePreset:
 			if (value == 1)
 	        {
 			    Engine.saveUserPreset(""); //Save the current user preset
-			    btnSavePreset.setValue(0);
 	        }
 		break;
 		
@@ -209,12 +254,11 @@ function onControl(number, value)
 		break;
 		
 		case btnRelease: //Release triggers purge/load
-		    
 		    for (s in releaseSamplers)
             {
 	            s.setAttribute(12, 1-value);
             }
-            
+            btnRelease.repaint();
 		break;
 				
 		default:
