@@ -22,40 +22,59 @@ namespace articulationEditor
 		const var muterIds = Synth.getIdList("MidiMuter"); //One muter per articulation
 		const var muters = []; //Stores MIDI muters
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
-        reg currentArt; //Current articulation
+        const var sustainIndex = 0; //Holds index of sustain/legato articulation for current instrument
         
         //Instrument specific variables set in pnlArticulation's callback
         reg range;
 		reg keyswitches; //idh.getKeyswitches(instrumentName);
 		reg articulations; //Instrument's articulation names
 		reg displayNames; //Articulation display names
-        reg sustainIndex; //Holds index of sustain/legato articulation for current instrument
         reg glideIndex; //Holds index of glide articulation for current instrument
-        		               		
+                        
 		//GUI
         const var pnlArticulations = Content.getComponent("pnlArticulations"); //Articulation controls parent
 				
 		//Labels
-		for (i = 0; i < 5; i++)
+		//Legato and glide labels
+		const var lblOffset = ui.setupControl("lblOffset", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		const var lblRate = ui.setupControl("lblRate", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		const var lblGlideMode = ui.setupControl("lblGlideMode", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		
+		//Generic labels for most articulations
+		const var lbls = [];
+		for (i = 0; i < 4; i++)
 	    {
-	        Content.setPropertiesFromJSON("lblArt"+i, {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+	        lbls[i] = ui.setupControl("lblArt"+i, {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
 	    }
+
+	    //Articulation selection combo box
+	    const var cmbArt = ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, Theme.CONTROL_FONT_SIZE, []);
+	    Content.setPropertiesFromJSON("cmbArt", {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
 	    
+	    //Get volume, attack, and release controls and set their properties
+	    const var vol = [];
+	    const var atk = [];
+	    const var rel = [];
+	    
+	    for (i = 0; i < idh.getNumArticulations(true)-1; i++) //-1 for glide meta articulations
+	    {
+	        vol[i] = ui.setupControl("sliArtVol"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:0x00000000});
+	        atk[i] = ui.setupControl("sliAtk"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
+	        rel[i] = ui.setupControl("sliRel"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
+	    }	    
+	    
+	    //Legato and glide controls
 	    const var sliOffset = ui.setupControl("sliOffset", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var sliRate = ui.setupControl("sliRate", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 		const var btnGlideMode = ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);
 		Content.setPropertiesFromJSON("btnGlideMode", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
-		const var lblRateVal = Content.getComponent("lblRateVal");		
-		Content.setPropertiesFromJSON("sliAtk", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT}); //Legato fade in time
-        Content.setPropertiesFromJSON("sliRel", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT}); //Sustain envelope release
+		const var lblRateVal = Content.getComponent("lblRateVal");
 		
    	    //Build array of MIDI muters - one per keyswitchable articulation
 	    for (m in muterIds)
 	    {
 	        muters.push(Synth.getMidiProcessor(m));
 	    }
-	    
-	    changeArticulation(0); //Set default articulation
 	}
 	
 	inline function onNoteCB()
@@ -80,8 +99,9 @@ namespace articulationEditor
 		
 		if (idx != -1) //Keyswitch triggered the callback or switched to glide articulation via sustain pedal
 		{
-			changeArticulation(idx); //MIDI muter handler
-			asyncUpdater.deferFunction(colourPlayableKeys, idx);
+		    cmbArt.setValue(idx+1);
+		    cmbArt.changed();			
+			asyncUpdater.deferFunction(updateGUI, idx);
 		}
 	}
 		
@@ -163,11 +183,17 @@ namespace articulationEditor
                 articulations = idh.getArticulationNames(instrumentName); //Get instrument's articulation names
                 displayNames = idh.getArticulationDisplayNames(instrumentName); //Get articulation display names
                 keyswitches = idh.getKeyswitches(instrumentName); //Get instrument's keyswitch numbers
-                sustainIndex = articulations.indexOf("sustain"); //Get sustain articulation index
                 glideIndex = articulations.indexOf("glide"); //Get glide articulation index
                 colourKeyswitches();
                 colourPlayableKeys(value);
-                articulationName = displayNames[value]; //Update variable in main for user display
+                
+                //Set patch's articulation names as cmbArt's menu items
+                ui.setComboPanelItems("cmbArt", idh.getArticulationDisplayNames(instrumentName));
+	        break;
+	        
+	        case cmbArt:
+	            changeArticulation(value-1);
+	            asyncUpdater.deferFunction(updateGUI, value-1);
 	        break;
 	        
 		    case sliOffset:
@@ -204,9 +230,6 @@ namespace articulationEditor
 		    {
 		        muters[idx].setAttribute(0, 0); //Unmute articulation (idx)
 		    }
-	        
-		    currentArt = idx; //Store the articulation as the panel's value
-		    articulationName = displayNames[idx]; //Update variable in main
 		}
 	}
 	
@@ -261,6 +284,61 @@ namespace articulationEditor
                     Engine.setKeyColour(i, Colours.withAlpha(Colours.red, 0.3)); //Colour KS
                 }
             }
+        }
+    }
+    
+    //This function should only ever be called async
+    inline function updateGUI(idx)
+    {
+        local i;
+        
+        colourPlayableKeys(idx);
+                
+        //Hide all articulation controls
+        for (i = 0; i < vol.length; i++)
+        {
+            vol[i].showControl(false);
+            atk[i].showControl(false);
+            rel[i].showControl(false);
+        }
+               
+        lblOffset.showControl(false);
+        lblRate.showControl(false);
+        lblGlideMode.showControl(false);
+        sliRate.showControl(false);
+        sliOffset.showControl(false);
+        btnGlideMode.showControl(false);        
+        
+        if (articulations[idx] == "glide") //Glide has special controls...
+        {
+            lblRate.showControl(true);
+            lblGlideMode.showControl(true);
+            sliRate.showControl(true);
+            btnGlideMode.showControl(true);
+            
+            //Hide generic labels
+            for (i = 1; i < lbls.length; i++)
+            {
+                lbls[i].showControl(false);
+            }
+        }
+        else
+        {
+            if (articulations[idx] == "sustain")
+            {
+                lblOffset.showControl(true);
+                sliOffset.showControl(true);
+            }
+                
+            //Show controls for current articulation
+            for (i = 0; i < lbls.length; i++) //Generic labels
+            {
+                lbls[i].showControl(true);
+            }
+        
+            vol[idx].showControl(true);
+            atk[idx].showControl(true);
+            rel[idx].showControl(true);   
         }
     }
 }

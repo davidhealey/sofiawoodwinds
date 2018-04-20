@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Processor Type="SynthChain" ID="test" Bypassed="0" Gain="1" Balance="0"
-           VoiceLimit="256" KillFadeTime="20" IconColour="0" packageName=""
+           VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+        <Processor Type="ScriptProcessor" ID="Script Processor" Bypassed="0">
           <ChildProcessors/>
-          <Content/>
+          <Content>
+            <Control type="ScriptComboBox" id="cmb" value="0"/>
+          </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
-              <Component type="ScriptPanel" id="Panel1" x="244" y="93" width="100" height="50"
-                         max="25"/>
+              <Component type="ScriptComboBox" id="cmb" x="0" y="0" max="0"/>
             </ContentProperties>
           </UIData>
         </Processor>

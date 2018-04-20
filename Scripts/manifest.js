@@ -20,7 +20,7 @@
 namespace manifest
 {
     //Articulations available to all patches - but not all patches have to use them
-	const var allArticulations = ["sustain", "staccato", "flutter", "harmonics", "glide"]; 
+	const var allArticulations = ["sustain", "staccato", "sputato", "flutter", "harmonics", "glide"]; 
 	
 	//UACC and Program Change numbers for articulations
 	const var programs = [1, 2, 3, 40, 50, 60, 70];
@@ -29,12 +29,13 @@ namespace manifest
 		"Alto Flute":
 		{
 		    sampleMapId:"altoFlute", //Identifier for finding sample maps
-		    keyswitches:[24, 25, 26, 27],
+		    keyswitches:[24, 25, 26, 27, 28, 29],
 			range:[55, 91], //Maximum range of instrument
 			articulations:
 			{
 				sustain:{displayName:"Sustain", range:[55, 91], gain:-5},
 				staccato:{displayName:"Staccato", range:[55, 91]},
+				sputato:{displayName:"Sputato", range:[55, 91]},
 				flutter:{displayName:"Flutter", range:[55, 91]},
 				harmonics:{displayName:"Harmonics", range:[55, 91]},
 				glide:{displayName:"Glide", range:[55, 91]}

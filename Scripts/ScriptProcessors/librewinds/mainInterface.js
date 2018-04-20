@@ -45,7 +45,6 @@ const var pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch mo
 const var samplers = [];
 const var releaseSamplers = [];
 const var rrHandlers = []; //Round robin script processors
-reg articulationName = ""; //Name of current articulation, to display to user
 reg instrumentName; //Name of current instrument - populated in pnlPreset or cmbPreset
 
 //Build array of samplers
@@ -85,8 +84,7 @@ pnlLogo.setPaintRoutine(paintRoutines.logo);
 
 //Preset menu
 const var presetNames = ui.getPresetNames();
-const var cmbPreset = ui.comboBoxPanel("cmbPreset", paintRoutines.comboBox, presetNames);
-cmbPreset.data["fontSize"] = Theme.LABEL_FONT_SIZE;
+const var cmbPreset = ui.comboBoxPanel("cmbPreset", paintRoutines.comboBox, Theme.CONTROL_FONT_SIZE, presetNames);
 const var btnSavePreset = ui.momentaryButtonPanel("btnSavePreset", paintRoutines.disk);
 
 //Tabs
@@ -122,7 +120,7 @@ const var lblStats = Content.getComponent("lblStats");
 pnlStats.startTimer(250);
 pnlStats.setTimerCallback(function()
 {        
-    lblStats.set("text", articulationName + ", " + "CPU: " + Math.round(Engine.getCpuUsage()) + "%" + ", " + "RAM: " + Math.round(Engine.getMemoryUsage()) + "MB" + ", " + "Voices: " + Engine.getNumVoices());
+    lblStats.set("text", "CPU: " + Math.round(Engine.getCpuUsage()) + "%" + ", " + "RAM: " + Math.round(Engine.getMemoryUsage()) + "MB" + ", " + "Voices: " + Engine.getNumVoices());
 });
 
 //Includes initialisation
