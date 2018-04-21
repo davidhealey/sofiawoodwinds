@@ -168,14 +168,6 @@ namespace articulationEditor
 		            asyncUpdater.deferFunction(updateGlideWholeToneState, (ccValue > 64));
 		        }
 			break;
-			
-			case 72: //Release of current articulation
-		        rel[cmbArt.getValue()-1].setValue(Math.pow(normalised, skewFactor) * 20000);
-			break;
-			
-			case 73: //Attack of current articulation
-                atk[cmbArt.getValue()-1].setValue(Math.pow(normalised, skewFactor) * 20000);
-			break;
 		}
 	}
 	
@@ -313,7 +305,8 @@ namespace articulationEditor
         sliOffset.showControl(false);
         btnGlideMode.showControl(false);        
         
-        if (articulations[idx] == "glide") //Glide has special controls...
+        //Show controls for current articulation
+        if (articulations[idx] == "glide") //Glide has specific controls...
         {
             lblRate.showControl(true);
             lblGlideMode.showControl(true);
@@ -328,13 +321,12 @@ namespace articulationEditor
         }
         else
         {
-            if (articulations[idx] == "sustain")
+            if (articulations[idx] == "sustain") //Sustain/legato specific controls
             {
                 lblOffset.showControl(true);
                 sliOffset.showControl(true);
             }
                 
-            //Show controls for current articulation
             for (i = 0; i < lbls.length; i++) //Generic labels
             {
                 lbls[i].showControl(true);
