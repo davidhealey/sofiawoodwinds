@@ -56,7 +56,7 @@ namespace articulationEditor
 	    const var atk = [];
 	    const var rel = [];
 	    
-	    for (i = 0; i < idh.getNumArticulations(true)-1; i++) //-1 for glide meta articulations
+	    for (i = 0; i < idh.getNumArticulations(true); i++) //Every articulation available (even meta)
 	    {
 	        vol[i] = ui.setupControl("sliArtVol"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:0x00000000});
 	        atk[i] = ui.setupControl("sliAtk"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
@@ -170,6 +170,14 @@ namespace articulationEditor
 		        {
 		            asyncUpdater.deferFunction(updateGlideWholeToneState, (ccValue > 64));
 		        }
+			break;
+			
+			case 72: //Release of current articulation
+		        rel[cmbArt.getValue()-1].setValue(Math.pow(normalised, skewFactor) * 20000);
+			break;
+			
+			case 73: //Attack of current articulation
+                atk[cmbArt.getValue()-1].setValue(Math.pow(normalised, skewFactor) * 20000);
 			break;
 		}
 	}
