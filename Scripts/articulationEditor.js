@@ -109,9 +109,6 @@ namespace articulationEditor
 	{
 	    local ccNum;
 	    local ccValue;
-		local v; //For converting the CC value (0-127) to the correct slider value
-		local skewFactor = 5.0; //values > 1 will yield more resolution at the lower end
-		local normalised = Message.getControllerValue() / 127.0;
 
 		if (Message.isProgramChange())
 	    {
@@ -125,17 +122,7 @@ namespace articulationEditor
 	    }
 				
 		switch (ccNum)
-		{		
-			case 5: //Glide Rate
-			    v = Math.ceil(sliRate.get("max") / 100 * (normalised * 100));
-			    if (v != sliRate.getValue()) asyncUpdater.deferFunction(changeGlideRate, v);
-			break;
-			
-			case 15: //Legato offset
-			    v = Math.ceil(sliOffset.get("max") / 100 * (normalised * 100));
-			    if (v != sliOffset.getValue()) asyncUpdater.deferFunction(changeLegatoOffset, v);
-			break;
-			
+		{					
 			case 32: //UACC
 				idx = idh.getProgramIndex(ccValue); //Lookup program number
 				
@@ -160,13 +147,6 @@ namespace articulationEditor
                     Message.ignoreEvent(true);
                     asyncUpdater.deferFunction(updateGUI, sustainIndex); //Change articulation to sustain/legato
                 }	
-			break;
-			
-			case 65: //Glide whole tone on/off
-			    if (ccValue > 64 != btnGlideMode.getValue()) //Only carry on if the value has changed
-		        {
-		            asyncUpdater.deferFunction(updateGlideWholeToneState, (ccValue > 64));
-		        }
 			break;
 		}
 	}
