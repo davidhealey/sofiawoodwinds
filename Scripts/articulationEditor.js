@@ -91,7 +91,7 @@ namespace articulationEditor
 		if (idx == -1) //keyswitch did not trigger callback
 	    {
             //If two notes are held, and the sustain pedal is down, and the current articulation is legato change to the glide articulation
-			if (Synth.isLegatoInterval() && Synth.isSustainPedalDown() && currentArt.getValue() == sustainIndex)
+			if (Synth.isLegatoInterval() && Synth.isSustainPedalDown() && cmbArt.getValue() == sustainIndex)
 			{
 			    idx = glideIndex; //Get index of glide articulation
 			}
@@ -142,26 +142,23 @@ namespace articulationEditor
 				if (idx != -1) //Assigned program number triggered callback
 				{
 					changeArticulation(idx);
-					asyncUpdater.deferFunction(colourPlayableKeys, idx);
+					asyncUpdater.deferFunction(updateGUI, idx); //Change articulation to sustain/legato
 				}
 			break;
 			
 			case 64: //Sustain pedal
 						
-                if (currentArt == sustainIndex) //Current articulation is sustain/legato
+                if (cmbArt.getValue()-1 == sustainIndex) //Current articulation is sustain/legato
                 {	
                     Message.ignoreEvent(true);
                     
                     //Toggle same note legato based on sustain pedal position
                     Synth.isSustainPedalDown() ? legatoHandler.setAttribute(11, 1) : legatoHandler.setAttribute(11, 0);
                 }
-                else if (!Synth.isSustainPedalDown() && currentArt == glideIndex) //Current articulation is glide and sustain pedal is lifted
+                else if (!Synth.isSustainPedalDown() && cmbArt.getValue()-1 == glideIndex) //Current articulation is glide and sustain pedal is lifted
                 {
                     Message.ignoreEvent(true);
-                    
-                    //Change articulation to sustain/legato
-                    changeArticulation(sustainIndex);
-                    asyncUpdater.deferFunction(colourPlayableKeys, idx);
+                    asyncUpdater.deferFunction(updateGUI, sustainIndex); //Change articulation to sustain/legato
                 }	
 			break;
 			
@@ -193,7 +190,6 @@ namespace articulationEditor
                 keyswitches = idh.getKeyswitches(instrumentName); //Get instrument's keyswitch numbers
                 glideIndex = articulations.indexOf("glide"); //Get glide articulation index
                 colourKeyswitches();
-                colourPlayableKeys(value);
                 
                 //Set patch's articulation names as cmbArt's menu items
                 ui.setComboPanelItems("cmbArt", idh.getArticulationDisplayNames(instrumentName));
@@ -201,7 +197,7 @@ namespace articulationEditor
 	        
 	        case cmbArt:
 	            changeArticulation(value-1);
-	            asyncUpdater.deferFunction(updateGUI, value-1);
+	            updateGUI(value-1);
 	        break;
 	        
 		    case sliOffset:

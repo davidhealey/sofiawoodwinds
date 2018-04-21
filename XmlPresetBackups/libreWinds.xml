@@ -58,7 +58,7 @@
             <Control type="ScriptPanel" id="cmbCc2" value="4"/>
             <Control type="ScriptPanel" id="cmbCc3" value="80"/>
             <Control type="ScriptPanel" id="cmbCc4" value="0"/>
-            <Control type="ScriptTable" id="tblCc0" value="102" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="31" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C..fxO"/>
             <Control type="ScriptTable" id="tblCc2" value="54" data="24...............vO...f+....9C..XzO"/>
             <Control type="ScriptTable" id="tblCc3" value="3" data="24......3NVA5C...vO...f+....9C...vO"/>
@@ -67,7 +67,7 @@
             <Control type="ScriptPanel" id="pnlOctUp" value="0"/>
             <Control type="ScriptLabel" id="lblOct" value="0"/>
             <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
-            <Control type="ScriptLabel" id="lblStats" value="CPU: 4%, RAM: 51MB, Voices: 0"/>
+            <Control type="ScriptLabel" id="lblStats" value="CPU: 5%, RAM: 51MB, Voices: 0"/>
             <Control type="ScriptPanel" id="btnRR" value="1"/>
             <Control type="ScriptPanel" id="btnRelease" value="0"/>
           </Content>
@@ -463,7 +463,7 @@
                            textColour="0" itemColour="0" bgColour="0">
                   <Component type="ScriptLabel" id="lblStats" x="0" y="0" width="300" height="25"
                              parentComponent="pnlStats" fontName="Sarala-Bold" fontSize="20"
-                             textColour="4289309097" text="CPU: 4%, RAM: 51MB, Voices: 0"
+                             textColour="4289309097" text="CPU: 5%, RAM: 51MB, Voices: 0"
                              alignment="left"/>
                 </Component>
                 <Component type="ScriptPanel" id="btnSettings" x="647" y="4" width="17"
