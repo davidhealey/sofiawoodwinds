@@ -22,13 +22,13 @@ namespace articulationEditor
 		const var muterIds = Synth.getIdList("MidiMuter"); //One muter per articulation
 		const var muters = []; //Stores MIDI muters
         const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"]; //Glide rates
-        const var sustainIndex = 0; //Holds index of sustain/legato articulation for current instrument
         
         //Instrument specific variables set in pnlArticulation's callback
         reg range;
 		reg keyswitches; //idh.getKeyswitches(instrumentName);
 		reg articulations; //Instrument's articulation names
 		reg displayNames; //Articulation display names
+		reg sustainIndex = 0; //Holds index of sustain/legato articulation for current instrument
         reg glideIndex; //Holds index of glide articulation for current instrument
                         
 		//GUI
@@ -107,18 +107,13 @@ namespace articulationEditor
 		
 	inline function onControllerCB()
 	{
-	    local ccNum;
-	    local ccValue;
+        local ccNum = Message.getControllerNumber();
+        local ccValue = Message.getControllerValue();
 
-		if (Message.isProgramChange())
+		if (Message.isProgramChange()) //Program change message
 	    {
 	        ccNum = 32; //Treat program changes as UACC
 	        ccValue = Message.getProgramChangeNumber();
-	    }
-	    else
-	    {
-	        ccNum = Message.getControllerNumber();
-	        ccValue = Message.getControllerValue();
 	    }
 				
 		switch (ccNum)
@@ -129,7 +124,7 @@ namespace articulationEditor
 				if (idx != -1) //Assigned program number triggered callback
 				{
 					changeArticulation(idx);
-					asyncUpdater.deferFunction(updateGUI, idx); //Change articulation to sustain/legato
+					asyncUpdater.deferFunction(updateGUI, idx);
 				}
 			break;
 			
@@ -145,7 +140,8 @@ namespace articulationEditor
                 else if (!Synth.isSustainPedalDown() && cmbArt.getValue()-1 == glideIndex) //Current articulation is glide and sustain pedal is lifted
                 {
                     Message.ignoreEvent(true);
-                    asyncUpdater.deferFunction(updateGUI, sustainIndex); //Change articulation to sustain/legato
+                    changeArticulation(sustainIndex);
+                    asyncUpdater.deferFunction(updateGUI, sustainIndex);
                 }	
 			break;
 		}

@@ -130,19 +130,11 @@ controllerEditor.onInitCB();
 
 //Functions
 
-//Get the patch name from the preset name and assign it to the instrumentName variable for use in other parts of the script
-inline function setInstrumentName()
-{
-    local preset = Engine.getUserPresetList()[cmbPreset.getValue()-1]; //Get current preset name
-    instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable   
-}
-
 //Just a wrapper function for loading preset settings
 inline function loadPresetSettings()
 {
     //setInstrumentName();
     idh.loadSampleMaps(instrumentName); //Load sample maps
-    idh.loadContainerGain(instrumentName); //Set the gain of articulation containers
     setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
     loadLegatoSettings();
     loadVibratoSettings();
@@ -216,24 +208,15 @@ function onControl(number, value)
 	switch (number)
 	{    
 	    case pnlPreset:
-	        //Restore the last selected preset or default to 1
-	        if (typeof value == "number" && value != 0)
-            {
-                cmbPreset.setValue(value);
-            }
-            else 
-	        {
-	            cmbPreset.setValue(1);
-	        }
-	        setInstrumentName(); //Set the name of the instrument from the current preset name
+	        //Get the patch name from the preset name and assign it to the instrumentName variable for use in other parts of the script
+            local preset = presetNames[cmbPreset.getValue()-1];
+            instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable
 	    break;
 	    
 	    case cmbPreset:
-	        setInstrumentName();
+	        pnlPreset.setValue(value); //Store selected preset value in persistent parent panel
 	        Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
 	        loadPresetSettings();
-	        //pnlPreset.setValue(value); //Store selected preset value in persistent parent panel
-	        //pnlPreset.startTimer(500); //Trigger preset panel timer to load preset settings
 	    break;
 	    
 		case btnSavePreset:
