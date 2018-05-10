@@ -41,7 +41,6 @@ namespace articulationEditor
 		const var lblGlideMode = ui.setupControl("lblGlideMode", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
 		
 		//Generic labels for most articulations
-		const var lblArtVol = Content.getComponent("lblArtVol");
 		const var lbls = [];
 		for (i = 0; i < 4; i++)
 	    {
@@ -59,7 +58,7 @@ namespace articulationEditor
 	        
 	    for (i = 0; i < idh.getNumArticulations(true)-1; i++) //Every articulation available (even meta)
 	    {
-	        vol[i] = ui.setupControl("sliArtVol"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:0x00000000});
+	        vol[i] = ui.setupControl("sliArtVol"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 	        vol[i].setControlCallback(sliVolCallback);
 	        
 	        atk[i] = ui.setupControl("sliAtk"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
@@ -90,11 +89,11 @@ namespace articulationEditor
 	        Message.ignoreEvent(true);
             idx = keyswitches.indexOf(Message.getNoteNumber()); //Check if note is ks
 	    }
-
+    
 		if (idx == -1) //keyswitch did not trigger callback
 	    {
             //If two notes are held, and the sustain pedal is down, and the current articulation is legato change to the glide articulation
-			if (Synth.isLegatoInterval() && Synth.isSustainPedalDown() && cmbArt.getValue() == sustainIndex)
+			if (Synth.isLegatoInterval() && Synth.isSustainPedalDown() && cmbArt.getValue()-1 == sustainIndex)
 			{
 			    idx = glideIndex; //Get index of glide articulation
 			}
@@ -168,7 +167,6 @@ namespace articulationEditor
 	        
 	        case cmbArt:
 	            changeArticulation(value-1);
-	            updateVolumeLabel();
 	            updateGUI(value-1);
 	        break;
 	        	        
@@ -193,18 +191,10 @@ namespace articulationEditor
         //Set the gain of the component's processor (container)
         local id = component.get("processorId"); //Get container ID
         local processor = Synth.getChildSynth("sustainContainer"); //Get container
-        processor.setAttribute(processor.GAIN, value); //Set container's volume
-        updateVolumeLabel();
+        local gain = Engine.getGainFactorForDecibels(value); //Convert dB to gain
+        processor.setAttribute(processor.GAIN, gain); //Set container's volume
     }
-    
-	//Set lblArtVol to display the gain of the currently selected articulation
-	inline function updateVolumeLabel()
-    {
-        local artVol = vol[cmbArt.getValue()-1].getValue();
-        local dbValue = Engine.doubleToString(Engine.getDecibelsForGainFactor(artVol), 1); //Convert value to dB      
-        lblArtVol.set("text", dbValue + " dB"); //Update volume label
-    }
-		    	    
+    		    	    
 	inline function changeArticulation(idx)
 	{
 		if (idx > -1) //Sanity check
@@ -297,7 +287,6 @@ namespace articulationEditor
         sliRate.showControl(false);
         sliOffset.showControl(false);
         btnGlideMode.showControl(false);
-        lblArtVol.showControl(false);
         
         //Show controls for current articulation
         if (articulations[idx] == "glide") //Glide has specific controls...
@@ -327,7 +316,6 @@ namespace articulationEditor
                 lbls[i].showControl(true);
             }
             
-            lblArtVol.showControl(true);
             vol[idx].showControl(true);
             atk[idx].showControl(true);
             rel[idx].showControl(true);   

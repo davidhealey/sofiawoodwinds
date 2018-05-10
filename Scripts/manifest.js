@@ -33,7 +33,7 @@ namespace manifest
 			range:[55, 91], //Maximum range of instrument
 			articulations:
 			{
-				sustain:{displayName:"Sustain", range:[55, 91], gain:-5},
+				sustain:{displayName:"Sustain", range:[55, 91]},
 				staccato:{displayName:"Staccato", range:[55, 91]},
 				sputato:{displayName:"Sputato", range:[55, 91]},
 				flutter:{displayName:"Flutter", range:[55, 91]},
@@ -60,7 +60,7 @@ namespace manifest
 			range:[60, 96], //Maximum range of instrument
 			articulations:
 			{
-				sustain:{displayName:"Sustain", range:[60, 96], gain:-6},
+				sustain:{displayName:"Sustain", range:[60, 96]},
 				staccato:{displayName:"Staccato", range:[60, 96]},
 				flutter:{displayName:"Flutter", range:[60, 96]},
 				glide:{displayName:"Glide"}
