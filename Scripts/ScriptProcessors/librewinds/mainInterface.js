@@ -209,6 +209,8 @@ function onControl(number, value)
 	{    
 	    case pnlPreset:
 	        //Get the patch name from the preset name and assign it to the instrumentName variable for use in other parts of the script
+	        
+	        if (cmbPreset.getValue() == 0) cmbPreset.setValue(1); //Lowest combo box value should be 1
             local preset = presetNames[cmbPreset.getValue()-1];
             instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable
 	    break;

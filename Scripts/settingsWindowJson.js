@@ -115,6 +115,14 @@ namespace SettingsJson
             "bgColour": Theme.BODY,
             "textColour": Theme.LABEL_TEXT,
             "itemColour1": Theme.ZONE
-        }
+        }        
     });
+        
+    /*settings["Content"].push({
+        "Type": "PresetBrowser",
+        "Title": "Preset Browser",
+        "Font": Theme.CONTROL_FONT,
+        "FontSize": 22,
+        "ColourData": { "bgColour": "0xFF222222", "itemColour1": "0xFF555588" }
+    });*/
 };

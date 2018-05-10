@@ -31,7 +31,6 @@ namespace mixer
 		
 		const var micNames = ["Close", "Decca", "Hall"]; //Close, decca, hall
 		const var pan = [];
-		const var pnlVol = [];
 		const var purge = [];
 
 		for (i = 0; i < micNames.length; i++)

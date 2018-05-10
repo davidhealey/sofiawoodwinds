@@ -16,7 +16,7 @@
 */
 
 namespace articulationEditor
-{
+{    
 	inline function onInitCB()
 	{
 		const var muterIds = Synth.getIdList("MidiMuter"); //One muter per articulation
@@ -41,6 +41,7 @@ namespace articulationEditor
 		const var lblGlideMode = ui.setupControl("lblGlideMode", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
 		
 		//Generic labels for most articulations
+		const var lblArtVol = Content.getComponent("lblArtVol");
 		const var lbls = [];
 		for (i = 0; i < 4; i++)
 	    {
@@ -55,10 +56,12 @@ namespace articulationEditor
 	    const var vol = [];
 	    const var atk = [];
 	    const var rel = [];
-	    
-	    for (i = 0; i < idh.getNumArticulations(true); i++) //Every articulation available (even meta)
+	        
+	    for (i = 0; i < idh.getNumArticulations(true)-1; i++) //Every articulation available (even meta)
 	    {
 	        vol[i] = ui.setupControl("sliArtVol"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:0x00000000});
+	        vol[i].setControlCallback(sliVolCallback);
+	        
 	        atk[i] = ui.setupControl("sliAtk"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 	        rel[i] = ui.setupControl("sliRel"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
 	    }	    
@@ -76,6 +79,15 @@ namespace articulationEditor
 	        muters.push(Synth.getMidiProcessor(m));
 	    }
 	}
+	
+    inline function sliVolCallback(component, value)
+    {
+        //Set the gain of the component's processor (container)
+        local id = component.get("processorId"); //Get container ID
+        local processor = Synth.getChildSynth("sustainContainer"); //Get container
+        processor.setAttribute(processor.GAIN, value); //Set container's volume
+        updateVolumeLabel();
+    }
 	
 	inline function onNoteCB()
 	{
@@ -148,7 +160,7 @@ namespace articulationEditor
 	}
 	
 	inline function onControlCB(number, value)
-	{	    
+	{	    	    
 	    switch (number)
 	    {   	        
 	        case pnlArticulations:
@@ -165,11 +177,12 @@ namespace articulationEditor
 	        
 	        case cmbArt:
 	            changeArticulation(value-1);
+	            updateVolumeLabel();
 	            updateGUI(value-1);
 	        break;
-	        
+	        	        
 		    case sliOffset:
-				changeLegatoOffset(value);
+                legatoHandler.setAttribute(9, 1-(value/100));
 			break;
 						
 			case sliRate:
@@ -181,6 +194,14 @@ namespace articulationEditor
 			break;
 	    }
 	}
+	
+	//Set lblArtVol to display the gain of the currently selected articulation
+	inline function updateVolumeLabel()
+    {
+        local artVol = vol[cmbArt.getValue()-1].getValue();
+        local dbValue = Engine.doubleToString(Engine.getDecibelsForGainFactor(artVol), 1); //Convert value to dB      
+        lblArtVol.set("text", dbValue + " dB"); //Update volume label
+    }
 		    	    
 	inline function changeArticulation(idx)
 	{
@@ -204,12 +225,6 @@ namespace articulationEditor
 		    }
 		}
 	}
-	
-	inline function changeLegatoOffset(v)
-    {
-        sliOffset.setValue(v);
-        legatoHandler.setAttribute(9, 1-(v/100));
-    }
     
 	inline function changeGlideRate(v)
     {
@@ -279,7 +294,8 @@ namespace articulationEditor
         lblGlideMode.showControl(false);
         sliRate.showControl(false);
         sliOffset.showControl(false);
-        btnGlideMode.showControl(false);        
+        btnGlideMode.showControl(false);
+        lblArtVol.showControl(false);
         
         //Show controls for current articulation
         if (articulations[idx] == "glide") //Glide has specific controls...
@@ -302,12 +318,14 @@ namespace articulationEditor
                 lblOffset.showControl(true);
                 sliOffset.showControl(true);
             }
-                
-            for (i = 0; i < lbls.length; i++) //Generic labels
+            
+            //Show generic labels
+            for (i = 0; i < lbls.length; i++)
             {
                 lbls[i].showControl(true);
             }
-        
+            
+            lblArtVol.showControl(true);
             vol[idx].showControl(true);
             atk[idx].showControl(true);
             rel[idx].showControl(true);   
