@@ -191,7 +191,7 @@ namespace articulationEditor
     {
         //Set the gain of the component's processor (container)
         local id = component.get("processorId"); //Get container ID
-        local processor = Synth.getChildSynth("sustainContainer"); //Get container
+        local processor = Synth.getChildSynth(id); //Get container
         local gain = Engine.getGainFactorForDecibels(value); //Convert dB to gain
         processor.setAttribute(processor.GAIN, gain); //Set container's volume
     }
