@@ -80,15 +80,6 @@ namespace articulationEditor
 	    }
 	}
 	
-    inline function sliVolCallback(component, value)
-    {
-        //Set the gain of the component's processor (container)
-        local id = component.get("processorId"); //Get container ID
-        local processor = Synth.getChildSynth("sustainContainer"); //Get container
-        processor.setAttribute(processor.GAIN, value); //Set container's volume
-        updateVolumeLabel();
-    }
-	
 	inline function onNoteCB()
 	{
         local idx = -1;
@@ -195,6 +186,17 @@ namespace articulationEditor
 	    }
 	}
 	
+	//FUNCTIONS
+	
+	inline function sliVolCallback(component, value)
+    {
+        //Set the gain of the component's processor (container)
+        local id = component.get("processorId"); //Get container ID
+        local processor = Synth.getChildSynth("sustainContainer"); //Get container
+        processor.setAttribute(processor.GAIN, value); //Set container's volume
+        updateVolumeLabel();
+    }
+    
 	//Set lblArtVol to display the gain of the currently selected articulation
 	inline function updateVolumeLabel()
     {
