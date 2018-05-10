@@ -42,6 +42,7 @@ const var containerIds = Synth.getIdList("Container");
 const var scriptIds = Synth.getIdList("Script Processor");
 const var gainMod = Synth.getModulator("globalGainModLFO"); //Vibrato gain modulator
 const var pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch modulator
+const var presetNames = ui.getPresetNames(); //Get array of preset names
 const var samplers = [];
 const var releaseSamplers = [];
 const var rrHandlers = []; //Round robin script processors
@@ -70,20 +71,11 @@ for (id in scriptIds)
 Content.setPropertiesFromJSON("pnlHeader", {itemColour:Theme.HEADER, itemColour2:Theme.HEADER});
 const var pnlPreset = ui.setupControl("pnlPreset", {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});
 
-pnlPreset.setTimerCallback(function(){
-    
-    //Do check here to see if preset has finished loading
-    loadPresetSettings();
-    this.stopTimer();
-
-});
-
 //Logo
 const var pnlLogo = ui.setupControl("pnlLogo", {textColour:Theme.LOGO});
 pnlLogo.setPaintRoutine(paintRoutines.logo);
 
 //Preset menu
-const var presetNames = ui.getPresetNames();
 const var cmbPreset = ui.comboBoxPanel("cmbPreset", paintRoutines.comboBox, Theme.CONTROL_FONT_SIZE, presetNames);
 const var btnSavePreset = ui.momentaryButtonPanel("btnSavePreset", paintRoutines.disk);
 
@@ -133,7 +125,6 @@ controllerEditor.onInitCB();
 //Just a wrapper function for loading preset settings
 inline function loadPresetSettings()
 {
-    //setInstrumentName();
     idh.loadSampleMaps(instrumentName); //Load sample maps
     setRoundRobinRange(); //Set the upper and lower note range of the RR scripts with these setting
     loadLegatoSettings();
@@ -208,17 +199,14 @@ function onControl(number, value)
 	switch (number)
 	{    
 	    case pnlPreset:
-	        //Get the patch name from the preset name and assign it to the instrumentName variable for use in other parts of the script
-	        
-	        if (cmbPreset.getValue() == 0) cmbPreset.setValue(1); //Lowest combo box value should be 1
-            local preset = presetNames[cmbPreset.getValue()-1];
-            instrumentName = preset.substring(preset.lastIndexOf(": ")+2, preset.length); //Set global variable
+	        //Get the internal instrumentName from the preset name
+	        local presetName = presetNames[cmbPreset.getValue()-1];
+            instrumentName = presetName.substring(presetName.lastIndexOf(": ")+2, presetName.length); //Set global variable            
+            loadPresetSettings(); //Load the preset settings (sample maps, etc.)
 	    break;
 	    
 	    case cmbPreset:
-	        pnlPreset.setValue(value); //Store selected preset value in persistent parent panel
 	        Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
-	        loadPresetSettings();
 	    break;
 	    
 		case btnSavePreset:
