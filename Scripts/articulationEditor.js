@@ -143,6 +143,7 @@ namespace articulationEditor
                 {
                     Message.ignoreEvent(true);
                     changeArticulation(sustainIndex);
+                    cmbArt.setValue(sustainIndex+1);
                     asyncUpdater.deferFunction(updateGUI, sustainIndex);
                 }	
 			break;
@@ -287,6 +288,9 @@ namespace articulationEditor
         sliRate.showControl(false);
         sliOffset.showControl(false);
         btnGlideMode.showControl(false);
+        
+        //Repaint articulation menu
+        cmbArt.repaint();
         
         //Show controls for current articulation
         if (articulations[idx] == "glide") //Glide has specific controls...
