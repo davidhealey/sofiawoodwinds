@@ -24,7 +24,7 @@ namespace SettingsJson
     {
         return isPlugin ? 360 : 520;
     };
-    
+
     // Pass this object to the floating tile
     const var settings = {
     "Type": "Tabs",
@@ -69,11 +69,11 @@ namespace SettingsJson
             1.5,
             2
         ]
-        }  
+        }
     ],
     "CurrentTab": 0
-    };    
-    
+    };
+
     if(!isPlugin)
     {
         settings["Content"].push(
@@ -90,7 +90,7 @@ namespace SettingsJson
             }
         });
     }
-    
+
     settings["Content"].push({
         "Type": "MidiChannelList",
         "Title": "MIDI Channel",
@@ -104,7 +104,7 @@ namespace SettingsJson
             "itemColour1": 0xFFDFDFDF
         }
     });
-        
+
     settings["Content"].push({
         "Type": "MidiLearnPanel",
         "Title": "MIDI Automation",
@@ -115,14 +115,6 @@ namespace SettingsJson
             "bgColour": Theme.BODY,
             "textColour": Theme.LABEL_TEXT,
             "itemColour1": Theme.ZONE
-        }        
+        }
     });
-        
-    /*settings["Content"].push({
-        "Type": "PresetBrowser",
-        "Title": "Preset Browser",
-        "Font": Theme.CONTROL_FONT,
-        "FontSize": 22,
-        "ColourData": { "bgColour": "0xFF222222", "itemColour1": "0xFF555588" }
-    });*/
 };
