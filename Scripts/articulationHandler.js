@@ -72,7 +72,6 @@ namespace ArticulationHandler
     const var legatoCtrl = [];
     legatoCtrl[0] = ui.setupControl("lblOffset", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
     legatoCtrl[1] = ui.setupControl("sliOffset", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
-    legatoCtrl[1].setControlCallback(sliOffsetCB);
 
     const var glideCtrl = [];
     glideCtrl[0] = ui.setupControl("lblRate", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
@@ -177,11 +176,6 @@ namespace ArticulationHandler
     local processor = Synth.getChildSynth(id); //Get container
     local gain = Engine.getGainFactorForDecibels(value); //Convert dB to gain
     processor.setAttribute(processor.GAIN, gain); //Set container's volume
-  }
-
-  inline function sliOffsetCB(control, value)
-  {
-    legatoHandler.setAttribute(9, 1-(value/100));
   }
 
   inline function sliGlideRateCB(control, value)
