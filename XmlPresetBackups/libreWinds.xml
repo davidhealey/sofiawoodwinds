@@ -28,7 +28,7 @@
             <Control type="ScriptSlider" id="sliRel2" value="2500"/>
             <Control type="ScriptSlider" id="sliRel3" value="2765"/>
             <Control type="ScriptSlider" id="sliRel4" value="250"/>
-            <Control type="ScriptSlider" id="sliOffset" value="500"/>
+            <Control type="ScriptSlider" id="sliOffset" value="0"/>
             <Control type="ScriptPanel" id="btnGlideMode" value="1"/>
             <Control type="ScriptSlider" id="sliRate" value="8"/>
             <Control type="ScriptLabel" id="lblRateVal" value="1/8"/>
@@ -49,13 +49,13 @@
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
             <Control type="ScriptPanel" id="btnPurge2" value="1"/>
             <Control type="ScriptPanel" id="pnlControllers" value="0"/>
-            <Control type="ScriptPanel" id="cmbParam" value="2"/>
+            <Control type="ScriptPanel" id="cmbParam" value="3"/>
             <Control type="ScriptPanel" id="cmbCc0" value="10"/>
-            <Control type="ScriptPanel" id="cmbCc1" value="1"/>
-            <Control type="ScriptPanel" id="cmbCc2" value="4"/>
+            <Control type="ScriptPanel" id="cmbCc1" value="10"/>
+            <Control type="ScriptPanel" id="cmbCc2" value="1"/>
             <Control type="ScriptPanel" id="cmbCc3" value="80"/>
             <Control type="ScriptPanel" id="cmbCc4" value="0"/>
-            <Control type="ScriptTable" id="tblCc0" value="64" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="49" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C..fxO"/>
             <Control type="ScriptTable" id="tblCc2" value="54" data="24...............vO...f+....9C..XzO"/>
             <Control type="ScriptTable" id="tblCc3" value="3" data="24......3NVA5C...vO...f+....9C...vO"/>
@@ -64,9 +64,9 @@
             <Control type="ScriptPanel" id="pnlOctUp" value="0"/>
             <Control type="ScriptLabel" id="lblOct" value="0"/>
             <Control type="ScriptPanel" id="pnlOctDn" value="1"/>
-            <Control type="ScriptLabel" id="lblStats" value="CPU: 6%, RAM: 53MB, Voices: 0"/>
+            <Control type="ScriptLabel" id="lblStats" value="CPU: 3%, RAM: 53MB, Voices: 0"/>
             <Control type="ScriptPanel" id="btnSettings" value="0"/>
-            <Control type="ScriptPanel" id="btnRR" value="1"/>
+            <Control type="ScriptPanel" id="btnRR" value="0"/>
             <Control type="ScriptPanel" id="btnRelease" value="1"/>
           </Content>
           <UIData>
@@ -233,9 +233,10 @@
                              min="50" visible="0"/>
                   <Component type="ScriptSlider" id="sliOffset" x="90" y="185" style="Horizontal"
                              width="100" parentComponent="pnlArticulations" height="25" bgColour="4288585374"
-                             itemColour="4284246649" max="500" stepSize="0.1" suffix="%" middlePosition="250"
-                             itemColour2="1118481" defaultValue="150" isVertical="0" text=""
-                             mode="Time" processorId="legatoHandler" parameterId="Offset"/>
+                             itemColour="4284246649" max="500" stepSize="0.10000000149011611938"
+                             suffix="%" middlePosition="250" itemColour2="1118481" defaultValue="150"
+                             isVertical="0" text="" mode="Time" processorId="legatoHandler"
+                             parameterId="Offset"/>
                   <Component type="ScriptPanel" id="btnGlideMode" x="90" y="80" width="100"
                              height="25" parentComponent="pnlArticulations" borderRadius="0"
                              borderSize="0" popupOnRightClick="0" saveInPreset="1" textColour="4294967295"
@@ -361,13 +362,12 @@
                              popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" text="Controller"
                              bgColour="4284246649" textColour="4294967295" itemColour="4288585374"
                              popupMenuItems="1&#10;2&#10;3&#10;4&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             itemColour2="4294117127"/>
+                             itemColour2="4294117127" visible="0"/>
                   <Component type="ScriptPanel" id="cmbCc2" x="90" y="80" width="100" height="25"
                              parentComponent="pnlControllers" allowCallbacks="Context Menu"
                              popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" text="Controller"
                              bgColour="4284246649" textColour="4294967295" itemColour="4288585374"
-                             popupMenuItems="1&#10;2&#10;3&#10;4&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             visible="0"/>
+                             popupMenuItems="1&#10;2&#10;3&#10;4&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"/>
                   <Component type="ScriptPanel" id="cmbCc3" x="90" y="80" width="100" height="25"
                              parentComponent="pnlControllers" allowCallbacks="Context Menu"
                              popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" text="Controller"
@@ -384,11 +384,11 @@
                              customColours="1" itemColour="4284246649" itemColour2="4280035897"/>
                   <Component type="ScriptTable" id="tblCc1" x="10" y="115" width="180" height="95"
                              parentComponent="pnlControllers" processorId="expressionCC" bgColour="4288585374"
-                             itemColour="4284246649" itemColour2="4280035897" customColours="1"/>
+                             itemColour="4284246649" itemColour2="4280035897" customColours="1"
+                             visible="0"/>
                   <Component type="ScriptTable" id="tblCc2" x="10" y="115" width="180" height="95"
-                             parentComponent="pnlControllers" processorId="dynamicsCC" visible="0"
-                             bgColour="4288585374" customColours="1" itemColour="4284246649"
-                             itemColour2="4280035897"/>
+                             parentComponent="pnlControllers" processorId="dynamicsCC" bgColour="4288585374"
+                             customColours="1" itemColour="4284246649" itemColour2="4280035897"/>
                   <Component type="ScriptTable" id="tblCc3" x="10" y="115" width="180" height="95"
                              parentComponent="pnlControllers" processorId="vibratoIntensityCC"
                              visible="0" bgColour="4288585374" customColours="1" itemColour="4284246649"
@@ -451,7 +451,7 @@
                            textColour="0" itemColour="0" bgColour="0">
                   <Component type="ScriptLabel" id="lblStats" x="0" y="0" width="300" height="25"
                              parentComponent="pnlStats" fontName="Sarala-Bold" fontSize="20"
-                             textColour="4289309097" text="CPU: 6%, RAM: 53MB, Voices: 0"
+                             textColour="4289309097" text="CPU: 3%, RAM: 53MB, Voices: 0"
                              alignment="left"/>
                 </Component>
                 <Component type="ScriptPanel" id="btnSettings" x="647" y="4" width="17"
@@ -550,7 +550,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="MidiController" ID="dynamicsCC" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" ControllerNumber="4" SmoothTime="1000"
+                       UseTable="1" Inverted="0" ControllerNumber="1" SmoothTime="1000"
                        DefaultValue="80" ControllerTableData="24...............vO...f+....9C..XzO">
               <ChildProcessors/>
             </Processor>
@@ -579,6 +579,11 @@
                 </Processor>
               </ChildProcessors>
             </Processor>
+            <Processor Type="KeyNumber" ID="Notenumber Modulator" Bypassed="0" Intensity="1"
+                       Mode="1" MidiTableData="24...............vO...f+....9C..vtO"
+                       KeyTableData="512....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C">
+              <ChildProcessors/>
+            </Processor>
           </ChildProcessors>
         </Processor>
         <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
@@ -590,8 +595,8 @@
       </ChildProcessors>
       <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
     </Processor>
-    <Processor Type="SynthChain" ID="Main" Bypassed="0" Gain="1" Balance="0"
-               VoiceLimit="256" KillFadeTime="20" IconColour="0">
+    <Processor Type="SynthChain" ID="Main" Bypassed="0" Gain="0.25118863582611083984"
+               Balance="0" VoiceLimit="256" KillFadeTime="20" IconColour="0">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors/>
@@ -599,7 +604,7 @@
         <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="MidiController" ID="expressionCC" Bypassed="0" Intensity="1"
-                       UseTable="0" Inverted="0" ControllerNumber="1" SmoothTime="200"
+                       UseTable="0" Inverted="0" ControllerNumber="11" SmoothTime="200"
                        DefaultValue="127">
               <ChildProcessors/>
             </Processor>
@@ -663,7 +668,7 @@
                     <Processor Type="ScriptProcessor" ID="sustainRoundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="Bypass" value="0"/>
+                        <Control type="ScriptButton" id="Bypass" value="1"/>
                         <Control type="ScriptButton" id="Random" value="1"/>
                         <Control type="ScriptSlider" id="Low Note" value="55"/>
                         <Control type="ScriptSlider" id="High Note" value="91"/>
@@ -691,7 +696,7 @@
                         <Control type="ScriptSlider" id="Max Bend" value="30"/>
                         <Control type="ScriptSlider" id="Fade Time" value="17"/>
                         <Control type="ScriptSlider" id="Fade Out Ratio" value="75"/>
-                        <Control type="ScriptSlider" id="Offset" value="500"/>
+                        <Control type="ScriptSlider" id="Offset" value="0"/>
                         <Control type="ScriptSlider" id="Rate" value="8"/>
                         <Control type="ScriptButton" id="Same Note Legato" value="0"/>
                         <Control type="ScriptButton" id="Kill Old Notes" value="1"/>
@@ -743,6 +748,11 @@
                     <Processor Type="GlobalTimeVariantModulator" ID="globalGainModLFO" Bypassed="0"
                                Intensity="0.25" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:vibratoLFO">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Connection="Global Modulator Container:Notenumber Modulator">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -1887,7 +1897,7 @@
                         <Control type="ScriptButton" id="btnLegato" value="1"/>
                         <Control type="ScriptButton" id="Attenuate" value="1"/>
                         <Control type="ScriptSlider" id="Time" value="8"/>
-                        <Control type="ScriptTable" id="tblTime" value="18" data="24..........9C...vO...f+.........vO"/>
+                        <Control type="ScriptTable" id="tblTime" value="33" data="24..........9C...vO...f+.........vO"/>
                       </Content>
                       <UIData>
                         <ContentProperties DeviceType="Desktop">
@@ -1917,6 +1927,11 @@
                     </Processor>
                     <Processor Type="Velocity" ID="gainVelocity" Bypassed="0" Intensity="1"
                                UseTable="0" Inverted="0" DecibelMode="0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator2"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Connection="Global Modulator Container:Notenumber Modulator">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -3116,7 +3131,7 @@
                     <Processor Type="ScriptProcessor" ID="staccatoRoundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/velocityMappedRoundRobin.js">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptSlider" id="knbRRLock" value="0"/>
+                        <Control type="ScriptSlider" id="knbRRLock" value="1"/>
                         <Control type="ScriptButton" id="btnRandom" value="1"/>
                         <Control type="ScriptSlider" id="knbNumRR" value="12"/>
                       </Content>
@@ -3150,6 +3165,11 @@
                           <ChildProcessors/>
                         </Processor>
                       </ChildProcessors>
+                    </Processor>
+                    <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator3"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Connection="Global Modulator Container:Notenumber Modulator">
+                      <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
@@ -16347,6 +16367,11 @@
                         </Processor>
                       </ChildProcessors>
                     </Processor>
+                    <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator4"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Connection="Global Modulator Container:Notenumber Modulator">
+                      <ChildProcessors/>
+                    </Processor>
                   </ChildProcessors>
                 </Processor>
                 <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
@@ -20801,6 +20826,11 @@
                         </Processor>
                       </ChildProcessors>
                     </Processor>
+                    <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator5"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Connection="Global Modulator Container:Notenumber Modulator">
+                      <ChildProcessors/>
+                    </Processor>
                   </ChildProcessors>
                 </Processor>
                 <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
@@ -21260,6 +21290,11 @@
                           <ChildProcessors/>
                         </Processor>
                       </ChildProcessors>
+                    </Processor>
+                    <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator6"
+                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Connection="Global Modulator Container:Notenumber Modulator">
+                      <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
                 </Processor>
