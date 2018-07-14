@@ -63,13 +63,8 @@ namespace PresetHandler
     loadLegatoSettings();
     loadVibratoSettings();
 
-    Instrument.range = Manifest.patches[Instrument.name].maxRange; //Get the instruments playable range
-    Instrument.articulations = Manifest.patches[Instrument.name].articulations; //Get instrument's articulation names
-    Instrument.displayNames = Manifest.patches[Instrument.name].displayNames; //Get articulation display names
-    Instrument.keyswitches = Manifest.patches[Instrument.name].keyswitches; //Get instrument's keyswitch numbers
-    Instrument.glideIndex = Instrument.articulations.indexOf("glide"); //Get glide articulation index
-
-    colourKeyswitches();
+    Instrument.range = Manifest.patches[Instrument.name].range; //Get the instruments playable range
+    Instrument.glideIndex = 1;
   }
 
   inline function cmbPresetCB(control, value)
@@ -146,7 +141,7 @@ namespace PresetHandler
   //Set the range of the sustain/legato/glide round robin handler
   inline function setRoundRobinRange()
   {
-      local range = Manifest.patches[Instrument.name].ranges["sustain"];
+      local range = Manifest.patches[Instrument.name].range;
 
       sustainRoundRobin.setAttribute(2, range[0]);
       sustainRoundRobin.setAttribute(3, range[1]);
