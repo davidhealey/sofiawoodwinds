@@ -784,7 +784,7 @@
     <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/piccolo/media/final/sustain/piccolo_sustain_decca_102_dynamic3.wav"/>
     <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/piccolo/media/final/sustain/piccolo_sustain_hall_102_dynamic3.wav"/>
   </sample>
-  <sample ID="87" Root="103" HiKey="103" LoKey="103" LoVel="0" HiVel="127"
+  <sample ID="87" Root="103" HiKey="105" LoKey="103" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3997"
           SampleEnd="497739" SampleStartMod="0" LoopStart="117863" LoopEnd="365587"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -793,7 +793,7 @@
     <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/piccolo/media/final/sustain/piccolo_sustain_decca_103_dynamic1.wav"/>
     <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/piccolo/media/final/sustain/piccolo_sustain_hall_103_dynamic1.wav"/>
   </sample>
-  <sample ID="88" Root="103" HiKey="103" LoKey="103" LoVel="0" HiVel="127"
+  <sample ID="88" Root="103" HiKey="105" LoKey="103" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10277"
           SampleEnd="490425" SampleStartMod="0" LoopStart="65982" LoopEnd="387465"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -802,7 +802,7 @@
     <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/piccolo/media/final/sustain/piccolo_sustain_decca_103_dynamic2.wav"/>
     <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/piccolo/media/final/sustain/piccolo_sustain_hall_103_dynamic2.wav"/>
   </sample>
-  <sample ID="89" Root="103" HiKey="103" LoKey="103" LoVel="0" HiVel="127"
+  <sample ID="89" Root="103" HiKey="105" LoKey="103" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7181"
           SampleEnd="395488" SampleStartMod="0" LoopStart="79828" LoopEnd="278271"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"

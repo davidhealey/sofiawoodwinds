@@ -21,9 +21,10 @@ namespace PresetHandler
   {
     const var gainMod = Synth.getModulator("globalGainModLFO"); //Vibrato gain modulator
     const var pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch modulator
-    const var legatoHandler = Synth.getMidiProcessor("legatoHandler"); //legato handler script
-    const var sustainRoundRobin = Synth.getMidiProcessor("sustainRoundRobin"); //Sustain/legato/glide round robin handler
-
+    const var legato = Synth.getMidiProcessor("legato"); //legato script
+    const var roundRobin = Synth.getMidiProcessor("roundRobin"); //Sustain/legato/glide round robin handler
+    const var noise = Synth.getChildSynth("noise"); //Get noise generator
+    
     //Get samplers as child synths
     const var samplerIds = Synth.getIdList("Sampler");
     const var childSynths = {};
@@ -55,16 +56,15 @@ namespace PresetHandler
     //Get the internal instrumentName from the preset name
     if (cmbPreset.getValue() < 1) cmbPreset.setValue(1); //Min cmbPreset value is 1
     local presetName = presetNames[cmbPreset.getValue()-1];
-    Instrument.name = presetName.substring(presetName.lastIndexOf(": ")+2, presetName.length); //Set global variable
+    instrumentName = presetName.substring(presetName.lastIndexOf(": ")+2, presetName.length); //Set global variable
 
     //Load the preset settings
     loadSampleMaps(); //Load sample maps for current preset
     setRoundRobinRange(); //Set the upper and lower note range of the RR scripts
+    loadGainSettings();
     loadLegatoSettings();
     loadVibratoSettings();
-
-    Instrument.range = Manifest.patches[Instrument.name].range; //Get the instruments playable range
-    Instrument.glideIndex = 1;
+    colourKeys();
   }
 
   inline function cmbPresetCB(control, value)
@@ -79,71 +79,97 @@ namespace PresetHandler
   }
 
   //Functions
-  inline function colourKeyswitches()
-  {
-    for (i = 0; i < 128; i++) //Every MIDI note
+    inline function colourKeys()
     {
-      if (i < Instrument.range[0] || i > Instrument.range[1]) //j is outside max playable range
-      {
-          Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+        local range = Manifest.patches[instrumentName].range;
+        
+        for (i = 0; i < 128; i++) //Every MIDI note
+        {
+            if (i < range[0] || i > range[1]) //i is outside max playable range
+            {
+                Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+            }
+            else
+            {
+                Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Reset current KS colour    
+            }
+        }
+    }
+  
+    inline function loadSampleMaps()
+    {
+        local sampleMapId = Manifest.patches[instrumentName].sampleMapId; //Get patch's sample map id
+        local sampleMaps = Sampler.getSampleMapList();
+        local childSynth;
+        local s;
 
-          if (Instrument.keyswitches.contains(i)) //j is an assigned key switch
+        for (id in samplerIds) //Each sampler
+        {
+          childSynth = childSynths[id];
+
+          if (sampleMaps.contains(sampleMapId + "_" + id)) //A sample map for this patch was found
           {
-              Engine.setKeyColour(i, Colours.withAlpha(Colours.red, 0.3)); //Colour KS
+            childSynth.setBypassed(false); //Enable sampler
+            childSynth.asSampler().loadSampleMap(sampleMapId + "_" + id); //Load the sample map for this sampler
           }
-      }
+          else
+          {
+            childSynth.setBypassed(true); //Bypass sampler
+            childSynth.asSampler().loadSampleMap("empty"); //Load empty sample map for this sampler
+          }
+        }
     }
-  }
 
-  inline function loadSampleMaps()
-	{
-    local sampleMapId = Manifest.patches[Instrument.name].sampleMapId; //Get patch's sample map id
-    local sampleMaps = Sampler.getSampleMapList();
-    local childSynth;
-    local s;
-
-    for (id in samplerIds) //Each sampler
+    inline function loadGainSettings()
     {
-      childSynth = childSynths[id];
+        local settings = Manifest.patches[instrumentName].gain;
+        
+        //Set gain of each sampler
+        for (id in samplerIds)
+        {
+            if (settings[id]) //A settings for this sampler is in the manifest
+            {
+                childSynths[id].setAttribute(0, Engine.getGainFactorForDecibels(settings[id]));
+            }
+            else //Default to 0dB if no value provided
+            {
+                childSynths[id].setAttribute(0, Engine.getGainFactorForDecibels(0));
+            }
+        }
 
-      if (sampleMaps.contains(sampleMapId + "_" + id)) //A sample map for this patch was found
-      {
-        childSynth.setBypassed(false); //Enable sampler
-        childSynth.asSampler().loadSampleMap(sampleMapId + "_" + id); //Load the sample map for this sampler
-      }
-      else
-      {
-        childSynth.setBypassed(true); //Bypass sampler
-        childSynth.asSampler().loadSampleMap("empty"); //Load empty sample map for this sampler
-      }
+        //Set noise generator gain, if in the manifest
+        if (settings.noise)
+        {
+            noise.setAttribute(0, Engine.getGainFactorForDecibels(settings.noise));
+        }
+
     }
-	}
+    
+    inline function loadLegatoSettings()
+    {
+        local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
+        local settings = Manifest.patches[instrumentName].legatoSettings; //Get instrument's settings
 
-  inline function loadLegatoSettings()
-  {
-      local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
-      local settings = Manifest.patches[Instrument.name].legatoSettings; //Get instrument's legato settings
+        legato.setAttribute(attributes.BEND_TIME, settings.bendTime);
+        legato.setAttribute(attributes.MIN_BEND, settings.minBend);
+        legato.setAttribute(attributes.MAX_BEND, settings.maxBend);
+        legato.setAttribute(attributes.FADE_TIME, settings.fadeTime);
+    }
 
-      legatoHandler.setAttribute(attributes.BEND_TIME, settings.bendTime);
-      legatoHandler.setAttribute(attributes.MIN_BEND, settings.minBend);
-      legatoHandler.setAttribute(attributes.MAX_BEND, settings.maxBend);
-      legatoHandler.setAttribute(attributes.FADE_TIME, settings.fadeTime);
-  }
+    inline function loadVibratoSettings()
+    {
+        local settings = Manifest.patches[instrumentName].vibratoSettings; //Get instrument's vibrato settings
 
-  inline function loadVibratoSettings()
-  {
-      local settings = Manifest.patches[Instrument.name].vibratoSettings; //Get instrument's vibrato settings
-
-      gainMod.setIntensity(settings.gain);
-      pitchMod.setIntensity(settings.pitch);
-  }
+        gainMod.setIntensity(settings.gain);
+        pitchMod.setIntensity(settings.pitch);
+    }
 
   //Set the range of the sustain/legato/glide round robin handler
   inline function setRoundRobinRange()
   {
-      local range = Manifest.patches[Instrument.name].range;
+      local range = Manifest.patches[instrumentName].range;
 
-      sustainRoundRobin.setAttribute(2, range[0]);
-      sustainRoundRobin.setAttribute(3, range[1]);
+      roundRobin.setAttribute(2, range[0]);
+      roundRobin.setAttribute(3, range[1]);
   }
 }

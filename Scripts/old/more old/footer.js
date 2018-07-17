@@ -19,8 +19,24 @@ namespace Footer
 {
   inline function onInitCB()
   {
-    const var rrHandler = Synth.getMidiProcessor("roundRobin"); //RR Script
-    const var releaseMuter = Synth.getMidiProcessor("releaseMuter"); //Releases MIDI muter
+    //Build array of round robin handler scrips
+    const var scriptIds = Synth.getIdList("Script Processor");
+    const var rrHandlers = [];
+    for (id in scriptIds)
+    {
+        if (id.indexOf("RoundRobin") == -1) continue;
+        rrHandlers.push(Synth.getMidiProcessor(id));
+    }
+
+    //Get release samplers
+    const var samplerIds = Synth.getIdList("Sampler");
+    const var releaseSamplers = [];
+
+    for (id in samplerIds)
+    {
+      if (id.indexOf("elease") == -1) continue;
+      releaseSamplers.push(Synth.getSampler(id));
+    }
 
     const var btnSettings = ui.buttonPanel("btnSettings", paintRoutines.gear); //Settings
     btnSettings.setControlCallback(btnSettingsCB);
@@ -60,12 +76,18 @@ namespace Footer
 
   inline function btnRRCB(control, value)
   {
-        rrHandler.setAttribute(0, 1-value); //Bypass button
-        if (1-value == 1) rrHandler.setAttribute(1, 1); //Random mode
+    for (r in rrHandlers) //Each round robin handler script
+    {
+        r.setAttribute(0, 1-value); //Bypass button
+        if (1-value == 1) r.setAttribute(1, 1); //Random mode
+    }
   }
 
   inline function btnReleaseCB(control, value)
   {
-      releaseMuter.setAttribute(0, 1-value);
+    for (s in releaseSamplers)
+    {
+      s.setAttribute(12, 1-value);
+    }
   }
 }

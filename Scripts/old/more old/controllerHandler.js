@@ -19,19 +19,16 @@ namespace ControllerHandler
 {
 	inline function onInitCB()
 	{
-		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate", "Flutter"];
+		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato Depth", "Vibrato Rate"];
 		const var reservedCc = [5, 14, 15, 32, 64, 65]; //CCs used internally, not user selectable
-	
+
 		//Get CC modulators
 		const var mods = [];
 		mods[1] = Synth.getModulator("expressionCC");
 		mods[2] = Synth.getModulator("dynamicsCC");
 		mods[3] = Synth.getModulator("vibratoIntensityCC");
 		mods[4] = Synth.getModulator("vibratoRateCC");
-		mods[5] = Synth.getModulator("flutterCC");
-        
-		const var flutterIntensityCC = Synth.getModulator("flutterIntensityCC");
-		
+
 		const var ccNums = [];
 		//Populate list of CC numbers
 		for (i = 1; i < 128; i++)
@@ -76,9 +73,9 @@ namespace ControllerHandler
 	}
 
 	inline function onNoteCB()
-    {
-        Message.setVelocity(Math.max(1, 127/100 * tblCc[0].getTableValue(Message.getVelocity()) * 100)); //Scale velocity using table
-    }
+  {
+      Message.setVelocity(Math.max(1, 127/100 * tblCc[0].getTableValue(Message.getVelocity()) * 100)); //Scale velocity using table
+  }
 
 	inline function cmbParamCB(control, value)
 	{
@@ -91,16 +88,10 @@ namespace ControllerHandler
 
 	inline function cmbCcCB(control, value)
 	{
-		local idx = cmbCc.indexOf(control); //Get control's index
-
+		local idx = cmbCc.indexOf(control); //Get control's parameter index
 		if (idx > 0) //Ignore velocity mod
 		{
 			mods[idx].setAttribute(2, control.data.items[value-1]);
 		}
-		
-		if (idx == 5) //Flutter control sets two modulators so must be handled in script
-	    {
-	        flutterIntensityCC.setAttribute(2, control.data.items[value-1]);
-	    }
 	}
 }

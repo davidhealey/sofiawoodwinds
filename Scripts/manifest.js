@@ -29,7 +29,11 @@ namespace Manifest
         "Piccolo":
         {
             sampleMapId: "piccolo", //Identifier for finding sample maps
-	        range: [74, 103],
+	        range: [74, 105],
+	        gain: 
+            {
+                noise:-37.0
+            },
             legatoSettings:
 		    {
                 bendTime:-15,
@@ -47,6 +51,31 @@ namespace Manifest
 		{
             sampleMapId:"flute1",
             range:[60, 96],
+            gain: 
+            {
+                noise:-38.0
+            },
+            legatoSettings:
+            {
+                bendTime:-15,
+                minBend:5,
+                maxBend:30,
+                fadeTime:60
+            },
+            vibratoSettings:
+            {
+                gain:0.25,
+                pitch:-0.10
+            }
+		},
+		"Concert Flute II":
+		{
+            sampleMapId:"flute2",
+            range:[60, 96],
+	        gain: 
+            {
+                noise:-38.0
+            },
             legatoSettings:
             {
                 bendTime:-15,
@@ -64,10 +93,15 @@ namespace Manifest
 		{
             sampleMapId: "altoFlute",
 			range: [55, 91],
+			gain: 
+            {
+                release:-6.0,
+                noise:-40.0
+            },
 			legatoSettings:
 		    {
                 bendTime:-15,
-                minBend:5,
+                minBend:10,
                 maxBend:30,
                 fadeTime:60
 		    },
@@ -77,5 +111,200 @@ namespace Manifest
                 pitch:-0.10
 		    }
 		},
+        "Oboe I":
+        {
+            sampleMapId: "oboe1", //Identifier for finding sample maps
+	        range: [58, 91],
+	        gain: 
+            {
+                release:-3.0,
+                noise:-40.0
+            },
+            legatoSettings:
+		    {
+                bendTime:0,
+                minBend:30,
+                maxBend:60,
+                fadeTime:40
+		    },
+			vibratoSettings:
+		    {
+                gain:0.35,
+                pitch:-0.07
+		    }
+	    },
+        "Oboe II":
+        {
+            sampleMapId: "oboe2", //Identifier for finding sample maps
+	        range: [58, 91],
+	        gain: 
+            {
+                release:-3.0,
+                noise:-40.0
+            },
+            legatoSettings:
+		    {
+                bendTime:0,
+                minBend:30,
+                maxBend:60,
+                fadeTime:40
+		    },
+			vibratoSettings:
+		    {
+                gain:0.35,
+                pitch:-0.07
+		    }
+	    },
+        "Cor Anglais":
+        {
+            sampleMapId: "englishHorn", //Identifier for finding sample maps
+	        range: [52, 83],
+	        gain: 
+            {
+                release:-3.0,
+                noise:-35.0
+            },
+            legatoSettings:
+		    {
+                bendTime:0,
+                minBend:30,
+                maxBend:60,
+                fadeTime:40
+		    },
+			vibratoSettings:
+		    {
+                gain:0.35,
+                pitch:-0.07
+		    }
+	    },
+        "Clarinet I":
+        {
+            sampleMapId: "clarinet1", //Identifier for finding sample maps
+	        range: [50, 91],
+	        gain: 
+            {
+                release:-6.0,
+                noise:-45.0
+            },
+            legatoSettings:
+		    {
+                bendTime:-15,
+                minBend:20,
+                maxBend:40,
+                fadeTime:50
+		    },
+			vibratoSettings:
+		    {
+                gain:0.30,
+                pitch:-0.07
+		    }
+	    },
+        "Clarinet II":
+        {
+            sampleMapId: "clarinet2", //Identifier for finding sample maps
+	        range: [50, 91],
+	        gain: 
+            {
+                release:-6.0,
+                noise:-45.0
+            },
+            legatoSettings:
+		    {
+                bendTime:-15,
+                minBend:20,
+                maxBend:40,
+                fadeTime:50
+		    },
+			vibratoSettings:
+		    {
+                gain:0.30,
+                pitch:-0.07
+		    }
+	    },
+        "Bass Clarinet":
+        {
+            sampleMapId: "bassClarinet", //Identifier for finding sample maps
+	        range: [34, 75],
+	        gain: 
+            {
+                release:-6.0,
+                noise:-45.0
+            },
+            legatoSettings:
+		    {
+                bendTime:-15,
+                minBend:20,
+                maxBend:40,
+                fadeTime:30
+		    },
+			vibratoSettings:
+		    {
+                gain:0.30,
+                pitch:-0.07
+		    }
+	    },
+        "Bassoon I":
+        {
+            sampleMapId: "bassoon1", //Identifier for finding sample maps
+	        range: [34, 74],
+	        gain: 
+            {
+                noise:-50.0
+            },
+            legatoSettings:
+		    {
+                bendTime:-15,
+                minBend:25,
+                maxBend:50,
+                fadeTime:70
+		    },
+			vibratoSettings:
+		    {
+                gain:0.35,
+                pitch:-0.08
+		    }
+	    },
+        "Bassoon II":
+        {
+            sampleMapId: "bassoon2", //Identifier for finding sample maps
+	        range: [34, 74],
+	        gain: 
+            {
+                noise:-52.0
+            },
+            legatoSettings:
+		    {
+                bendTime:-15,
+                minBend:25,
+                maxBend:50,
+                fadeTime:80
+		    },
+			vibratoSettings:
+		    {
+                gain:0.35,
+                pitch:-0.08
+		    }
+	    },
+        "Contrabassoon":
+        {
+            sampleMapId: "contrabassoon", //Identifier for finding sample maps
+	        range: [22, 55],
+	        gain:
+            {
+                noise:-52.0
+            },
+            legatoSettings:
+		    {
+                bendTime:-15,
+                minBend:25,
+                maxBend:50,
+                fadeTime:80
+		    },
+			vibratoSettings:
+		    {
+                gain:0.35,
+                pitch:-0.10
+		    }
+	    },
 	};
 }

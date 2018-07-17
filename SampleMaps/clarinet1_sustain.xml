@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="clarinet1_sustain" SaveMode="1" RRGroupAmount="3" MicPositions="close;decca;hall;">
+  <sample ID="0" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12577"
+          SampleEnd="361755" SampleStartMod="0" LoopStart="64852" LoopEnd="209351"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_50_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_50_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_50_dynamic1.wav"/>
+  </sample>
+  <sample ID="1" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5286"
+          SampleEnd="396601" SampleStartMod="0" LoopStart="141694" LoopEnd="291881"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_50_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_50_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_50_dynamic2.wav"/>
+  </sample>
+  <sample ID="2" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3695"
+          SampleEnd="383679" SampleStartMod="0" LoopStart="79246" LoopEnd="277541"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_50_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_50_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_50_dynamic3.wav"/>
+  </sample>
+  <sample ID="3" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17920"
+          SampleEnd="388187" SampleStartMod="0" LoopStart="31209" LoopEnd="284358"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_51_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_51_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_51_dynamic1.wav"/>
+  </sample>
+  <sample ID="4" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4728"
+          SampleEnd="401955" SampleStartMod="0" LoopStart="110446" LoopEnd="279787"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_51_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_51_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_51_dynamic2.wav"/>
+  </sample>
+  <sample ID="5" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3725"
+          SampleEnd="383821" SampleStartMod="0" LoopStart="146622" LoopEnd="296485"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_51_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_51_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_51_dynamic3.wav"/>
+  </sample>
+  <sample ID="6" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7666"
+          SampleEnd="389730" SampleStartMod="0" LoopStart="93694" LoopEnd="238361"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_52_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_52_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_52_dynamic1.wav"/>
+  </sample>
+  <sample ID="7" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3399"
+          SampleEnd="393434" SampleStartMod="0" LoopStart="127239" LoopEnd="271798"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_52_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_52_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_52_dynamic2.wav"/>
+  </sample>
+  <sample ID="8" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5337"
+          SampleEnd="403788" SampleStartMod="0" LoopStart="144064" LoopEnd="294800"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_52_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_52_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_52_dynamic3.wav"/>
+  </sample>
+  <sample ID="9" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14142"
+          SampleEnd="413841" SampleStartMod="0" LoopStart="88924" LoopEnd="247002"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_53_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_53_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_53_dynamic1.wav"/>
+  </sample>
+  <sample ID="10" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5375"
+          SampleEnd="417062" SampleStartMod="0" LoopStart="129664" LoopEnd="274676"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_53_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_53_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_53_dynamic2.wav"/>
+  </sample>
+  <sample ID="11" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3463"
+          SampleEnd="374236" SampleStartMod="0" LoopStart="108133" LoopEnd="255131"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_53_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_53_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_53_dynamic3.wav"/>
+  </sample>
+  <sample ID="12" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6779"
+          SampleEnd="396740" SampleStartMod="0" LoopStart="88912" LoopEnd="233428"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_54_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_54_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_54_dynamic1.wav"/>
+  </sample>
+  <sample ID="13" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5062"
+          SampleEnd="402276" SampleStartMod="0" LoopStart="139254" LoopEnd="288411"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_54_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_54_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_54_dynamic2.wav"/>
+  </sample>
+  <sample ID="14" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5840"
+          SampleEnd="408415" SampleStartMod="0" LoopStart="74487" LoopEnd="306817"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_54_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_54_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_54_dynamic3.wav"/>
+  </sample>
+  <sample ID="15" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23642"
+          SampleEnd="433398" SampleStartMod="0" LoopStart="56399" LoopEnd="300444"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_55_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_55_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_55_dynamic1.wav"/>
+  </sample>
+  <sample ID="16" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11007"
+          SampleEnd="388039" SampleStartMod="0" LoopStart="134510" LoopEnd="288902"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_55_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_55_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_55_dynamic2.wav"/>
+  </sample>
+  <sample ID="17" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6178"
+          SampleEnd="385854" SampleStartMod="0" LoopStart="129764" LoopEnd="278931"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_55_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_55_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_55_dynamic3.wav"/>
+  </sample>
+  <sample ID="18" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11044"
+          SampleEnd="394108" SampleStartMod="0" LoopStart="132247" LoopEnd="276899"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_56_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_56_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_56_dynamic1.wav"/>
+  </sample>
+  <sample ID="19" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5101"
+          SampleEnd="404055" SampleStartMod="0" LoopStart="127274" LoopEnd="272540"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_56_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_56_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_56_dynamic2.wav"/>
+  </sample>
+  <sample ID="20" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3402"
+          SampleEnd="388799" SampleStartMod="0" LoopStart="151427" LoopEnd="304568"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_56_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_56_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_56_dynamic3.wav"/>
+  </sample>
+  <sample ID="21" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14187"
+          SampleEnd="392853" SampleStartMod="0" LoopStart="106445" LoopEnd="250950"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_57_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_57_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_57_dynamic1.wav"/>
+  </sample>
+  <sample ID="22" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6088"
+          SampleEnd="371663" SampleStartMod="0" LoopStart="98486" LoopEnd="250379"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_57_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_57_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_57_dynamic2.wav"/>
+  </sample>
+  <sample ID="23" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4105"
+          SampleEnd="362829" SampleStartMod="0" LoopStart="79412" LoopEnd="231919"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_57_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_57_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_57_dynamic3.wav"/>
+  </sample>
+  <sample ID="24" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5961"
+          SampleEnd="396565" SampleStartMod="0" LoopStart="134962" LoopEnd="279496"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_58_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_58_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_58_dynamic1.wav"/>
+  </sample>
+  <sample ID="25" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6384"
+          SampleEnd="404080" SampleStartMod="0" LoopStart="98635" LoopEnd="243473"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_58_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_58_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_58_dynamic2.wav"/>
+  </sample>
+  <sample ID="26" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3743"
+          SampleEnd="381970" SampleStartMod="0" LoopStart="79322" LoopEnd="287615"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_58_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_58_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_58_dynamic3.wav"/>
+  </sample>
+  <sample ID="27" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9330"
+          SampleEnd="386192" SampleStartMod="0" LoopStart="108094" LoopEnd="252746"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_59_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_59_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_59_dynamic1.wav"/>
+  </sample>
+  <sample ID="28" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5652"
+          SampleEnd="399063" SampleStartMod="0" LoopStart="84039" LoopEnd="258397"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_59_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_59_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_59_dynamic2.wav"/>
+  </sample>
+  <sample ID="29" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3868"
+          SampleEnd="389312" SampleStartMod="0" LoopStart="108145" LoopEnd="267547"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_59_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_59_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_59_dynamic3.wav"/>
+  </sample>
+  <sample ID="30" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6785"
+          SampleEnd="409160" SampleStartMod="0" LoopStart="101055" LoopEnd="245536"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_60_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_60_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_60_dynamic1.wav"/>
+  </sample>
+  <sample ID="31" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8561"
+          SampleEnd="404192" SampleStartMod="0" LoopStart="127316" LoopEnd="273961"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_60_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_60_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_60_dynamic2.wav"/>
+  </sample>
+  <sample ID="32" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5089"
+          SampleEnd="390373" SampleStartMod="0" LoopStart="108086" LoopEnd="294398"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_60_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_60_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_60_dynamic3.wav"/>
+  </sample>
+  <sample ID="33" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9981"
+          SampleEnd="404230" SampleStartMod="0" LoopStart="113352" LoopEnd="268356"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_61_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_61_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_61_dynamic1.wav"/>
+  </sample>
+  <sample ID="34" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="16358"
+          SampleEnd="386088" SampleStartMod="0" LoopStart="151277" LoopEnd="305943"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_61_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_61_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_61_dynamic2.wav"/>
+  </sample>
+  <sample ID="35" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7401"
+          SampleEnd="402723" SampleStartMod="0" LoopStart="141685" LoopEnd="298371"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_61_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_61_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_61_dynamic3.wav"/>
+  </sample>
+  <sample ID="36" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8089"
+          SampleEnd="368779" SampleStartMod="0" LoopStart="16868" LoopEnd="285733"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_62_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_62_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_62_dynamic1.wav"/>
+  </sample>
+  <sample ID="37" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9733"
+          SampleEnd="398960" SampleStartMod="0" LoopStart="127359" LoopEnd="282940"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_62_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_62_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_62_dynamic2.wav"/>
+  </sample>
+  <sample ID="38" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5229"
+          SampleEnd="397869" SampleStartMod="0" LoopStart="74486" LoopEnd="290415"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_62_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_62_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_62_dynamic3.wav"/>
+  </sample>
+  <sample ID="39" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7760"
+          SampleEnd="420962" SampleStartMod="0" LoopStart="95996" LoopEnd="240532"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_63_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_63_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_63_dynamic1.wav"/>
+  </sample>
+  <sample ID="40" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="16338"
+          SampleEnd="417332" SampleStartMod="0" LoopStart="33610" LoopEnd="251513"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_63_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_63_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_63_dynamic2.wav"/>
+  </sample>
+  <sample ID="41" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6530"
+          SampleEnd="378867" SampleStartMod="0" LoopStart="45655" LoopEnd="242067"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_63_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_63_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_63_dynamic3.wav"/>
+  </sample>
+  <sample ID="42" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8428"
+          SampleEnd="407486" SampleStartMod="0" LoopStart="60085" LoopEnd="204680"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_64_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_64_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_64_dynamic1.wav"/>
+  </sample>
+  <sample ID="43" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11700"
+          SampleEnd="399232" SampleStartMod="0" LoopStart="120188" LoopEnd="266171"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_64_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_64_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_64_dynamic2.wav"/>
+  </sample>
+  <sample ID="44" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3077"
+          SampleEnd="393203" SampleStartMod="0" LoopStart="64949" LoopEnd="263406"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_64_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_64_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_64_dynamic3.wav"/>
+  </sample>
+  <sample ID="45" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12757"
+          SampleEnd="431319" SampleStartMod="0" LoopStart="73718" LoopEnd="262046"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_65_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_65_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_65_dynamic1.wav"/>
+  </sample>
+  <sample ID="46" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13149"
+          SampleEnd="414343" SampleStartMod="0" LoopStart="117717" LoopEnd="317519"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_65_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_65_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_65_dynamic2.wav"/>
+  </sample>
+  <sample ID="47" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3577"
+          SampleEnd="377850" SampleStartMod="0" LoopStart="21607" LoopEnd="212927"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_65_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_65_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_65_dynamic3.wav"/>
+  </sample>
+  <sample ID="48" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7614"
+          SampleEnd="412989" SampleStartMod="0" LoopStart="107369" LoopEnd="264727"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_66_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_66_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_66_dynamic1.wav"/>
+  </sample>
+  <sample ID="49" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6060"
+          SampleEnd="403016" SampleStartMod="0" LoopStart="139268" LoopEnd="287209"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_66_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_66_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_66_dynamic2.wav"/>
+  </sample>
+  <sample ID="50" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3546"
+          SampleEnd="393992" SampleStartMod="0" LoopStart="93821" LoopEnd="272548"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_66_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_66_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_66_dynamic3.wav"/>
+  </sample>
+  <sample ID="51" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9210"
+          SampleEnd="412090" SampleStartMod="0" LoopStart="120414" LoopEnd="255934"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_67_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_67_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_67_dynamic1.wav"/>
+  </sample>
+  <sample ID="52" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6050"
+          SampleEnd="407872" SampleStartMod="0" LoopStart="125318" LoopEnd="283060"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_67_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_67_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_67_dynamic2.wav"/>
+  </sample>
+  <sample ID="53" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3501"
+          SampleEnd="389244" SampleStartMod="0" LoopStart="137287" LoopEnd="315242"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_67_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_67_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_67_dynamic3.wav"/>
+  </sample>
+  <sample ID="54" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5732"
+          SampleEnd="398424" SampleStartMod="0" LoopStart="115143" LoopEnd="259633"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_68_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_68_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_68_dynamic1.wav"/>
+  </sample>
+  <sample ID="55" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6127"
+          SampleEnd="402848" SampleStartMod="0" LoopStart="129646" LoopEnd="282953"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_68_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_68_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_68_dynamic2.wav"/>
+  </sample>
+  <sample ID="56" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3033"
+          SampleEnd="396517" SampleStartMod="0" LoopStart="137821" LoopEnd="283374"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_68_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_68_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_68_dynamic3.wav"/>
+  </sample>
+  <sample ID="57" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14879"
+          SampleEnd="440848" SampleStartMod="0" LoopStart="71240" LoopEnd="263279"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_69_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_69_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_69_dynamic1.wav"/>
+  </sample>
+  <sample ID="58" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3284"
+          SampleEnd="387387" SampleStartMod="0" LoopStart="26431" LoopEnd="269892"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_69_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_69_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_69_dynamic2.wav"/>
+  </sample>
+  <sample ID="59" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3602"
+          SampleEnd="391061" SampleStartMod="0" LoopStart="173455" LoopEnd="288503"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_69_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_69_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_69_dynamic3.wav"/>
+  </sample>
+  <sample ID="60" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="27"
+          SampleEnd="406669" SampleStartMod="0" LoopStart="117733" LoopEnd="224377"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_70_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_70_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_70_dynamic1.wav"/>
+  </sample>
+  <sample ID="61" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5502"
+          SampleEnd="413134" SampleStartMod="0" LoopStart="144268" LoopEnd="295951"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_70_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_70_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_70_dynamic2.wav"/>
+  </sample>
+  <sample ID="62" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6224"
+          SampleEnd="404124" SampleStartMod="0" LoopStart="139628" LoopEnd="309703"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_70_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_70_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_70_dynamic3.wav"/>
+  </sample>
+  <sample ID="63" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9360"
+          SampleEnd="405983" SampleStartMod="0" LoopStart="177276" LoopEnd="284531"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_71_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_71_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_71_dynamic1.wav"/>
+  </sample>
+  <sample ID="64" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6872"
+          SampleEnd="391407" SampleStartMod="0" LoopStart="93630" LoopEnd="250881"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_71_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_71_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_71_dynamic2.wav"/>
+  </sample>
+  <sample ID="65" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7582"
+          SampleEnd="396402" SampleStartMod="0" LoopStart="120696" LoopEnd="267731"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_71_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_71_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_71_dynamic3.wav"/>
+  </sample>
+  <sample ID="66" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11093"
+          SampleEnd="423381" SampleStartMod="0" LoopStart="85442" LoopEnd="283187"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_72_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_72_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_72_dynamic1.wav"/>
+  </sample>
+  <sample ID="67" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5873"
+          SampleEnd="407038" SampleStartMod="0" LoopStart="100865" LoopEnd="287866"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_72_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_72_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_72_dynamic2.wav"/>
+  </sample>
+  <sample ID="68" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3646"
+          SampleEnd="395075" SampleStartMod="0" LoopStart="45600" LoopEnd="279388"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_72_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_72_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_72_dynamic3.wav"/>
+  </sample>
+  <sample ID="69" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14538"
+          SampleEnd="409284" SampleStartMod="0" LoopStart="78147" LoopEnd="294780"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_73_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_73_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_73_dynamic1.wav"/>
+  </sample>
+  <sample ID="70" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11421"
+          SampleEnd="400059" SampleStartMod="0" LoopStart="175455" LoopEnd="282105"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_73_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_73_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_73_dynamic2.wav"/>
+  </sample>
+  <sample ID="71" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2559"
+          SampleEnd="389381" SampleStartMod="0" LoopStart="60035" LoopEnd="276675"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_73_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_73_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_73_dynamic3.wav"/>
+  </sample>
+  <sample ID="72" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24177"
+          SampleEnd="426747" SampleStartMod="0" LoopStart="60067" LoopEnd="236805"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_74_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_74_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_74_dynamic1.wav"/>
+  </sample>
+  <sample ID="73" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5397"
+          SampleEnd="400814" SampleStartMod="0" LoopStart="57632" LoopEnd="287024"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_74_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_74_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_74_dynamic2.wav"/>
+  </sample>
+  <sample ID="74" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3248"
+          SampleEnd="401754" SampleStartMod="0" LoopStart="133546" LoopEnd="296088"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_74_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_74_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_74_dynamic3.wav"/>
+  </sample>
+  <sample ID="75" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8616"
+          SampleEnd="409629" SampleStartMod="0" LoopStart="122489" LoopEnd="267033"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_75_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_75_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_75_dynamic1.wav"/>
+  </sample>
+  <sample ID="76" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5781"
+          SampleEnd="401338" SampleStartMod="0" LoopStart="64837" LoopEnd="253211"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_75_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_75_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_75_dynamic2.wav"/>
+  </sample>
+  <sample ID="77" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5074"
+          SampleEnd="393081" SampleStartMod="0" LoopStart="122961" LoopEnd="271096"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_75_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_75_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_75_dynamic3.wav"/>
+  </sample>
+  <sample ID="78" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15170"
+          SampleEnd="402385" SampleStartMod="0" LoopStart="30289" LoopEnd="267407"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_76_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_76_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_76_dynamic1.wav"/>
+  </sample>
+  <sample ID="79" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5803"
+          SampleEnd="405644" SampleStartMod="0" LoopStart="88026" LoopEnd="257569"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_76_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_76_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_76_dynamic2.wav"/>
+  </sample>
+  <sample ID="80" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4053"
+          SampleEnd="382436" SampleStartMod="0" LoopStart="102888" LoopEnd="279955"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_76_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_76_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_76_dynamic3.wav"/>
+  </sample>
+  <sample ID="81" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3767"
+          SampleEnd="398958" SampleStartMod="0" LoopStart="100952" LoopEnd="288490"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_77_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_77_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_77_dynamic1.wav"/>
+  </sample>
+  <sample ID="82" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5726"
+          SampleEnd="396720" SampleStartMod="0" LoopStart="106377" LoopEnd="251378"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_77_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_77_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_77_dynamic2.wav"/>
+  </sample>
+  <sample ID="83" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3662"
+          SampleEnd="398491" SampleStartMod="0" LoopStart="124484" LoopEnd="290795"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_77_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_77_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_77_dynamic3.wav"/>
+  </sample>
+  <sample ID="84" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14161"
+          SampleEnd="388810" SampleStartMod="0" LoopStart="84967" LoopEnd="229608"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_78_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_78_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_78_dynamic1.wav"/>
+  </sample>
+  <sample ID="85" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5965"
+          SampleEnd="406575" SampleStartMod="0" LoopStart="28816" LoopEnd="248663"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_78_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_78_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_78_dynamic2.wav"/>
+  </sample>
+  <sample ID="86" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3735"
+          SampleEnd="403692" SampleStartMod="0" LoopStart="157864" LoopEnd="318642"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_78_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_78_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_78_dynamic3.wav"/>
+  </sample>
+  <sample ID="87" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2687"
+          SampleEnd="373498" SampleStartMod="0" LoopStart="91944" LoopEnd="245973"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_79_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_79_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_79_dynamic1.wav"/>
+  </sample>
+  <sample ID="88" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5945"
+          SampleEnd="381233" SampleStartMod="0" LoopStart="112934" LoopEnd="263761"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_79_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_79_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_79_dynamic2.wav"/>
+  </sample>
+  <sample ID="89" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4009"
+          SampleEnd="384419" SampleStartMod="0" LoopStart="64940" LoopEnd="238374"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_79_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_79_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_79_dynamic3.wav"/>
+  </sample>
+  <sample ID="90" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11777"
+          SampleEnd="395411" SampleStartMod="0" LoopStart="88999" LoopEnd="234396"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_80_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_80_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_80_dynamic1.wav"/>
+  </sample>
+  <sample ID="91" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6011"
+          SampleEnd="407469" SampleStartMod="0" LoopStart="127530" LoopEnd="311913"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_80_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_80_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_80_dynamic2.wav"/>
+  </sample>
+  <sample ID="92" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3575"
+          SampleEnd="402879" SampleStartMod="0" LoopStart="121030" LoopEnd="290726"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_80_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_80_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_80_dynamic3.wav"/>
+  </sample>
+  <sample ID="93" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9144"
+          SampleEnd="371998" SampleStartMod="0" LoopStart="150733" LoopEnd="261389"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_81_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_81_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_81_dynamic1.wav"/>
+  </sample>
+  <sample ID="94" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6107"
+          SampleEnd="400629" SampleStartMod="0" LoopStart="135773" LoopEnd="286268"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_81_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_81_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_81_dynamic2.wav"/>
+  </sample>
+  <sample ID="95" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3988"
+          SampleEnd="399890" SampleStartMod="0" LoopStart="64852" LoopEnd="300241"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_81_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_81_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_81_dynamic3.wav"/>
+  </sample>
+  <sample ID="96" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12173"
+          SampleEnd="409576" SampleStartMod="0" LoopStart="31706" LoopEnd="204833"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_82_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_82_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_82_dynamic1.wav"/>
+  </sample>
+  <sample ID="97" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5555"
+          SampleEnd="386185" SampleStartMod="0" LoopStart="72609" LoopEnd="265163"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_82_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_82_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_82_dynamic2.wav"/>
+  </sample>
+  <sample ID="98" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3727"
+          SampleEnd="391685" SampleStartMod="0" LoopStart="50479" LoopEnd="273245"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_82_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_82_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_82_dynamic3.wav"/>
+  </sample>
+  <sample ID="99" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5289"
+          SampleEnd="361442" SampleStartMod="0" LoopStart="45720" LoopEnd="230839"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_83_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_83_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_83_dynamic1.wav"/>
+  </sample>
+  <sample ID="100" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5998"
+          SampleEnd="362573" SampleStartMod="0" LoopStart="26803" LoopEnd="201785"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_83_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_83_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_83_dynamic2.wav"/>
+  </sample>
+  <sample ID="101" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3979"
+          SampleEnd="389123" SampleStartMod="0" LoopStart="84862" LoopEnd="243553"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_83_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_83_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_83_dynamic3.wav"/>
+  </sample>
+  <sample ID="102" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9951"
+          SampleEnd="379326" SampleStartMod="0" LoopStart="141434" LoopEnd="266447"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_84_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_84_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_84_dynamic1.wav"/>
+  </sample>
+  <sample ID="103" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6078"
+          SampleEnd="412522" SampleStartMod="0" LoopStart="168290" LoopEnd="307997"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_84_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_84_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_84_dynamic2.wav"/>
+  </sample>
+  <sample ID="104" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3780"
+          SampleEnd="402266" SampleStartMod="0" LoopStart="131984" LoopEnd="277525"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_84_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_84_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_84_dynamic3.wav"/>
+  </sample>
+  <sample ID="105" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6392"
+          SampleEnd="392990" SampleStartMod="0" LoopStart="80516" LoopEnd="271149"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_85_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_85_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_85_dynamic1.wav"/>
+  </sample>
+  <sample ID="106" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6033"
+          SampleEnd="389442" SampleStartMod="0" LoopStart="99269" LoopEnd="267309"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_85_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_85_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_85_dynamic2.wav"/>
+  </sample>
+  <sample ID="107" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3785"
+          SampleEnd="383253" SampleStartMod="0" LoopStart="111658" LoopEnd="258794"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_85_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_85_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_85_dynamic3.wav"/>
+  </sample>
+  <sample ID="108" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24"
+          SampleEnd="376630" SampleStartMod="0" LoopStart="82394" LoopEnd="250854"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_86_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_86_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_86_dynamic1.wav"/>
+  </sample>
+  <sample ID="109" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8328"
+          SampleEnd="382004" SampleStartMod="0" LoopStart="33808" LoopEnd="194923"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_86_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_86_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_86_dynamic2.wav"/>
+  </sample>
+  <sample ID="110" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3966"
+          SampleEnd="388594" SampleStartMod="0" LoopStart="30876" LoopEnd="243876"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_86_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_86_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_86_dynamic3.wav"/>
+  </sample>
+  <sample ID="111" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="16229"
+          SampleEnd="384386" SampleStartMod="0" LoopStart="102620" LoopEnd="259382"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_87_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_87_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_87_dynamic1.wav"/>
+  </sample>
+  <sample ID="112" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5997"
+          SampleEnd="376538" SampleStartMod="0" LoopStart="58283" LoopEnd="231836"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_87_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_87_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_87_dynamic2.wav"/>
+  </sample>
+  <sample ID="113" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3606"
+          SampleEnd="388822" SampleStartMod="0" LoopStart="104820" LoopEnd="228804"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_87_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_87_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_87_dynamic3.wav"/>
+  </sample>
+  <sample ID="114" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15055"
+          SampleEnd="377958" SampleStartMod="0" LoopStart="104036" LoopEnd="248574"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_88_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_88_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_88_dynamic1.wav"/>
+  </sample>
+  <sample ID="115" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6100"
+          SampleEnd="395925" SampleStartMod="0" LoopStart="101535" LoopEnd="257036"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_88_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_88_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_88_dynamic2.wav"/>
+  </sample>
+  <sample ID="116" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="907"
+          SampleEnd="380220" SampleStartMod="0" LoopStart="19816" LoopEnd="276071"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_88_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_88_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_88_dynamic3.wav"/>
+  </sample>
+  <sample ID="117" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8789"
+          SampleEnd="384360" SampleStartMod="0" LoopStart="89728" LoopEnd="263505"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_89_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_89_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_89_dynamic1.wav"/>
+  </sample>
+  <sample ID="118" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2210"
+          SampleEnd="412696" SampleStartMod="0" LoopStart="162755" LoopEnd="320853"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_89_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_89_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_89_dynamic2.wav"/>
+  </sample>
+  <sample ID="119" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="658"
+          SampleEnd="384256" SampleStartMod="0" LoopStart="68005" LoopEnd="277690"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_89_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_89_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_89_dynamic3.wav"/>
+  </sample>
+  <sample ID="120" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3834"
+          SampleEnd="389610" SampleStartMod="0" LoopStart="26429" LoopEnd="260217"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_90_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_90_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_90_dynamic1.wav"/>
+  </sample>
+  <sample ID="121" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6090"
+          SampleEnd="391795" SampleStartMod="0" LoopStart="114509" LoopEnd="281559"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_90_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_90_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_90_dynamic2.wav"/>
+  </sample>
+  <sample ID="122" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3770"
+          SampleEnd="389576" SampleStartMod="0" LoopStart="77598" LoopEnd="244448"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_90_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_90_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_90_dynamic3.wav"/>
+  </sample>
+  <sample ID="123" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11674"
+          SampleEnd="409620" SampleStartMod="0" LoopStart="149061" LoopEnd="294608"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_91_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_91_dynamic1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_91_dynamic1.wav"/>
+  </sample>
+  <sample ID="124" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6070"
+          SampleEnd="402335" SampleStartMod="0" LoopStart="163643" LoopEnd="300179"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_91_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_91_dynamic2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_91_dynamic2.wav"/>
+  </sample>
+  <sample ID="125" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4997"
+          SampleEnd="402732" SampleStartMod="0" LoopStart="115063" LoopEnd="263503"
+          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_close_91_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_decca_91_dynamic3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/clarinet 1/media/final/sustain/clarinet1_sustain_hall_91_dynamic3.wav"/>
+  </sample>
+</samplemap>
