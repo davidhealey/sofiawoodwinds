@@ -278,18 +278,20 @@
                                  height="32" parentComponent="pnlPerformance" mode="NormalizedPercentage"
                                  suffix="%" middlePosition="0.5" style="Horizontal" defaultValue="0.80000001"
                                  isPluginParameter="1" pluginParameterName="Legato Offset" bgColour="4280690214"
-                                 itemColour="4286292825"/>
+                                 itemColour="4286292825" processorId="legato" parameterId="Offset"/>
                       <Component type="ScriptPanel" id="sliGlide" x="200" y="69" width="100" height="32"
                                  parentComponent="pnlPerformance" saveInPreset="1" borderSize="0"
                                  borderRadius="0" isPluginParameter="1" pluginParameterName="Glide Rate"
                                  bgColour="4280690214" itemColour="4286292825" allowCallbacks="Clicks, Hover &amp; Dragging"
-                                 max="19" textColour="4294967295" defaultValue="8"/>
+                                 max="19" textColour="4294967295" defaultValue="8" processorId="legato"
+                                 parameterId="Rate"/>
                       <Component type="ScriptPanel" id="btnGlideMode" x="200" y="119" width="100"
                                  parentComponent="pnlPerformance" text="Off" height="32" borderRadius="0"
                                  borderSize="0" allowCallbacks="Clicks Only" textColour="4294967295"
                                  itemColour2="4280690214" itemColour="4283585106" saveInPreset="1"
                                  bgColour="4286216826" popupOnRightClick="0" holdIsRightClick="0"
-                                 opaque="1" isPluginParameter="1" pluginParameterName="Whole Note Glide"/>
+                                 opaque="1" isPluginParameter="1" pluginParameterName="Whole Note Glide"
+                                 processorId="legato" parameterId="Whole Step Glide"/>
                       <Component type="ScriptSlider" id="sliRelease" x="200" y="168" width="100"
                                  height="32" parentComponent="pnlPerformance" mode="Time" suffix=" ms"
                                  middlePosition="2000" style="Horizontal" defaultValue="80" isPluginParameter="1"
@@ -300,12 +302,13 @@
                                  borderSize="0" allowCallbacks="Clicks Only" textColour="4294967295"
                                  itemColour2="4280690214" itemColour="4283585106" saveInPreset="1"
                                  bgColour="4286216826" popupOnRightClick="0" holdIsRightClick="0"
-                                 opaque="1"/>
+                                 opaque="1" processorId="release" parameterId="Purged"/>
                       <Component type="ScriptPanel" id="btnRR" x="200" y="268" width="100" parentComponent="pnlPerformance"
                                  text="On" height="32" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
                                  textColour="4294967295" itemColour2="4280690214" itemColour="4283585106"
                                  saveInPreset="1" bgColour="4286216826" popupOnRightClick="0"
-                                 holdIsRightClick="0" opaque="1" isPluginParameter="1" pluginParameterName="Round Robin"/>
+                                 holdIsRightClick="0" opaque="1" isPluginParameter="1" pluginParameterName="Round Robin"
+                                 processorId="roundRobin" parameterId="Enabled" defaultValue="1"/>
                     </Component>
                   </Component>
                   <Component type="ScriptPanel" id="page2" x="20" y="60" width="660" height="320"
@@ -504,19 +507,17 @@
               <Content>
                 <Control type="ScriptButton" id="Enable" value="0"/>
                 <Control type="ScriptButton" id="Random" value="0"/>
-                <Control type="ScriptSlider" id="Low Note" value="0"/>
-                <Control type="ScriptSlider" id="High Note" value="127"/>
+                <Control type="ScriptSlider" id="Low Note" value="60"/>
+                <Control type="ScriptSlider" id="High Note" value="96"/>
               </Content>
               <UIData>
                 <ContentProperties DeviceType="Desktop">
                   <Component type="ScriptButton" id="Enable" x="0" y="10"/>
                   <Component type="ScriptButton" id="Random" x="150" y="10"/>
-                  <Component type="ScriptSlider" id="Low Note" x="300" y="0" style="Knob"
-                             middlePosition="-1" stepSize="1" max="127" suffix="" filmstripImage="Use default skin"
-                             linkedTo=""/>
-                  <Component type="ScriptSlider" id="High Note" x="450" y="0" style="Knob"
-                             middlePosition="-1" stepSize="1" max="127" suffix="" filmstripImage="Use default skin"
-                             linkedTo="" defaultValue="127"/>
+                  <Component type="ScriptSlider" id="Low Note" x="300" y="0" stepSize="1"
+                             max="127"/>
+                  <Component type="ScriptSlider" id="High Note" x="450" y="0" stepSize="1"
+                             max="127" defaultValue="127"/>
                 </ContentProperties>
               </UIData>
             </Processor>
@@ -527,13 +528,13 @@
                 <Control type="ScriptButton" id="Legato" value="1"/>
                 <Control type="ScriptButton" id="Glide" value="0"/>
                 <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
-                <Control type="ScriptSlider" id="Bend Time" value="0"/>
-                <Control type="ScriptSlider" id="Min Bend" value="0"/>
-                <Control type="ScriptSlider" id="Max Bend" value="0"/>
-                <Control type="ScriptSlider" id="Fade Time" value="0"/>
+                <Control type="ScriptSlider" id="Bend Time" value="-15"/>
+                <Control type="ScriptSlider" id="Min Bend" value="5"/>
+                <Control type="ScriptSlider" id="Max Bend" value="30"/>
+                <Control type="ScriptSlider" id="Fade Time" value="60"/>
                 <Control type="ScriptSlider" id="Fade Out Ratio" value="100"/>
-                <Control type="ScriptSlider" id="Offset" value="0"/>
-                <Control type="ScriptSlider" id="Rate" value="0"/>
+                <Control type="ScriptSlider" id="Offset" value="0.80000001"/>
+                <Control type="ScriptSlider" id="Rate" value="8"/>
                 <Control type="ScriptButton" id="Same Note Legato" value="0"/>
                 <Control type="ScriptButton" id="Kill Old Notes" value="0"/>
               </Content>
@@ -543,27 +544,20 @@
                   <Component type="ScriptButton" id="Legato" x="150" y="10" radioGroup="1"/>
                   <Component type="ScriptButton" id="Glide" x="300" y="10" radioGroup="1"/>
                   <Component type="ScriptButton" id="Whole Step Glide" x="450" y="10" tooltip="When active each step of a glide will be a whole tone rather than chromatic."/>
-                  <Component type="ScriptSlider" id="Bend Time" x="0" y="50" style="Knob"
-                             middlePosition="-1" stepSize="0.1" min="-50" max="50" suffix="ms"
-                             filmstripImage="Use default skin" linkedTo="" tooltip="The pitch bend lasts the same duration as the crossfade time by default but can be adjusted with this knob. If the bend time ends up being less than 0 it will automatically (behind the scenes) be set to 10ms."/>
-                  <Component type="ScriptSlider" id="Min Bend" x="150" y="50" style="Knob"
-                             middlePosition="-1" stepSize="1" max="100" suffix="ct" filmstripImage="Use default skin"
-                             linkedTo="" tooltip="The amount of pitch bend in cents (ct) for an interval of 1 semitone"/>
-                  <Component type="ScriptSlider" id="Max Bend" x="300" y="50" style="Knob"
-                             middlePosition="-1" stepSize="1" max="100" suffix="ct" filmstripImage="Use default skin"
-                             linkedTo="" tooltip="The amount of pitch bend in cents (ct) for an interval of 12 semitones"/>
-                  <Component type="ScriptSlider" id="Fade Time" x="450" y="50" style="Knob"
-                             middlePosition="-1" stepSize="0.1" min="10" max="500" suffix="ms"
-                             filmstripImage="Use default skin" linkedTo="" tooltip="Maximum crossfade time in milliseconds, the actual time used will vary based on playing speed and velocity."/>
-                  <Component type="ScriptSlider" id="Fade Out Ratio" x="600" y="50" style="Knob"
-                             middlePosition="-1" stepSize="1" max="100" suffix="%" filmstripImage="Use default skin"
-                             linkedTo="" defaultValue="100" tooltip="Shortens the fade out time to a percentage of the fade time. 100% = the same as fade in time."/>
-                  <Component type="ScriptSlider" id="Offset" x="0" y="100" style="Knob" middlePosition="-1"
-                             stepSize="0.1" max="1000" suffix="" filmstripImage="Use default skin"
-                             linkedTo="" tooltip="Sets the startMod constant modulator (required) for legato phrase and glide notes."/>
-                  <Component type="ScriptSlider" id="Rate" x="150" y="100" style="Knob" middlePosition="9"
-                             stepSize="1" max="19" filmstripImage="Use default skin" linkedTo=""
-                             mode="TempoSync" tooltip="Rate for glide timer relative to current tempo. If velocity is selected then the glide time will be based on the played velocity."/>
+                  <Component type="ScriptSlider" id="Bend Time" x="0" y="50" stepSize="0.1"
+                             min="-50" max="50" suffix="ms" tooltip="The pitch bend lasts the same duration as the crossfade time by default but can be adjusted with this knob. If the bend time ends up being less than 0 it will automatically (behind the scenes) be set to 10ms."/>
+                  <Component type="ScriptSlider" id="Min Bend" x="150" y="50" stepSize="1"
+                             max="100" suffix="ct" tooltip="The amount of pitch bend in cents (ct) for an interval of 1 semitone"/>
+                  <Component type="ScriptSlider" id="Max Bend" x="300" y="50" stepSize="1"
+                             max="100" suffix="ct" tooltip="The amount of pitch bend in cents (ct) for an interval of 12 semitones"/>
+                  <Component type="ScriptSlider" id="Fade Time" x="450" y="50" stepSize="0.1"
+                             min="10" max="500" suffix="ms" tooltip="Maximum crossfade time in milliseconds, the actual time used will vary based on playing speed and velocity."/>
+                  <Component type="ScriptSlider" id="Fade Out Ratio" x="600" y="50" stepSize="1"
+                             max="100" suffix="%" defaultValue="100" tooltip="Shortens the fade out time to a percentage of the fade time. 100% = the same as fade in time."/>
+                  <Component type="ScriptSlider" id="Offset" x="0" y="100" stepSize="0.1"
+                             max="1000" tooltip="Sets the startMod constant modulator (required) for legato phrase and glide notes."/>
+                  <Component type="ScriptSlider" id="Rate" x="150" y="100" middlePosition="9"
+                             stepSize="1" max="19" mode="TempoSync" tooltip="Rate for glide timer relative to current tempo. If velocity is selected then the glide time will be based on the played velocity."/>
                   <Component type="ScriptButton" id="Same Note Legato" x="300" y="110" tooltip="When active releasing a note in normal legato mode will retrigger the note that was released with a transition."/>
                   <Component type="ScriptButton" id="Kill Old Notes" x="450" y="110" tooltip="If enabled old notes will be turned off, triggering releases, rather than faded out. Use an evelope to control the fade out time when enabled."/>
                 </ContentProperties>
@@ -600,7 +594,7 @@
                    Group2Table="36...............vObpe+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_sustain">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_sustain">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors/>
@@ -681,7 +675,7 @@
                    Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_staccato">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_staccato">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors/>
@@ -746,7 +740,7 @@
                    Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_release">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_release">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -765,9 +759,7 @@
                       <Component type="ScriptButton" id="btnLegato" x="150" y="10" text="Legato"
                                  tooltip="When enabled release samples will only be triggered when no other keys are held."/>
                       <Component type="ScriptButton" id="Attenuate" x="300" y="10"/>
-                      <Component type="ScriptSlider" id="Time" x="450" y="0" style="Knob" middlePosition="-1"
-                                 stepSize="0.1" max="20" suffix="" filmstripImage="Use default skin"
-                                 linkedTo=""/>
+                      <Component type="ScriptSlider" id="Time" x="450" y="0" stepSize="0.1" max="20"/>
                       <Component type="ScriptTable" id="tblTime" x="0" y="60" width="575" height="100"/>
                     </ContentProperties>
                   </UIData>

@@ -21,8 +21,8 @@ namespace PresetHandler
     {
         //const var gainMod = Synth.getModulator("globalGainModLFO"); //Vibrato gain modulator
         //const var pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch modulator
-        //const var legato = Synth.getMidiProcessor("legato"); //legato script
-        //const var roundRobin = Synth.getMidiProcessor("roundRobin"); //Sustain/legato/glide round robin handler
+        const var legato = Synth.getMidiProcessor("legato"); //legato script
+        const var roundRobin = Synth.getMidiProcessor("roundRobin"); //Sustain/legato/glide round robin handler
         //const var noise = Synth.getChildSynth("noise"); //Get noise generator
 
         //Get samplers as child synths
@@ -73,9 +73,9 @@ namespace PresetHandler
         colourKeys(name);
         loadSampleMaps(name); //Load sample maps for current preset
         //loadGainSettings(name);
-        //loadLegatoSettings(name);
+        loadLegatoSettings(name);
         //loadVibratoSettings(name);
-        //setRoundRobinRange(name); //Set the upper and lower note range of the RR scripts
+        setRoundRobinRange(name); //Set the upper and lower note range of the RR scripts
     }
 
     inline function colourKeys(patchName)
