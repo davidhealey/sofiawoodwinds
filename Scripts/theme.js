@@ -17,24 +17,22 @@
 
 namespace Theme
 {
-    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
-    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
-
+    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/oxygen.light.ttf", "Oxygen-Light");
+    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/oxygen.regular.ttf", "Oxygen-Regular");
+    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/oxygen.bold.ttf", "Oxygen-Bold");
+    
 	const var BLACK = 0xFF000000;
 	const var WHITE = 0xFFFFFFFF;
 	const var HEADER = 0xFF1C2A39;
 	const var LOGO = 0xFFEEEEEE;
-	const var PRESET = 0xFF5C6A79;
-	const var BODY = 0xFFBDBDBD;
-	const var ZONE = 0xFFEEEEEE;
-	const var ZONE_FONT = "Sarala-Bold";
-	const var ZONE_FONT_SIZE = 26;
-	const var CONTROL1 = 0xFF9E9E9E;
-	const var CONTROL2 = 0xFF5C6A79;
-	const var CONTROL_TEXT = 0xFFFFFFFF;
-	const var CONTROL_FONT = "Sarala-Regular";
-	const var CONTROL_FONT_SIZE = 20;
-	const var LABEL_TEXT = 0xFF000000;
-	const var LABEL_FONT = "Sarala-Regular";
-	const var LABEL_FONT_SIZE = 23;
+	const var LIGHT = "Oxygen-Light";
+	const var REGULAR = "Oxygen-Regular";
+	const var BOLD = "Oxygen-Bold";	
+	const var C1 = 0xff000000;
+	const var C2 = 0xff262626;
+	const var C3 = 0xff333333;
+	const var C4 = 0xff525252;
+	const var C5 = 0xff7a7a7a;
+	const var C6 = 0xffffffff;	
+	const var F = 0xff7ba359; //Feature colour
 }

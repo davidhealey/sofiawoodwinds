@@ -19,14 +19,8 @@
 
 namespace Manifest
 {
-    //Articulations available to all patches - but not all patches have to use them
-	const var allArticulations = ["sustain", "staccato", "harmonics", "glide"];
-
-	//UACC and Program Change numbers for articulations
-	const var programs = [1, 2, 3, 40, 50, 60, 70];
-
     const var patches = {
-        "Piccolo":
+        "Sofia Woodwinds: Piccolo":
         {
             sampleMapId: "piccolo", //Identifier for finding sample maps
 	        range: [74, 105],
@@ -47,7 +41,7 @@ namespace Manifest
                 pitch:-0.10
 		    }
 	    },
-		"Concert Flute I":
+		"Sofia Woodwinds: Concert Flute I":
 		{
             sampleMapId:"flute1",
             range:[60, 96],
@@ -68,7 +62,7 @@ namespace Manifest
                 pitch:-0.10
             }
 		},
-		"Concert Flute II":
+		"Sofia Woodwinds: Concert Flute II":
 		{
             sampleMapId:"flute2",
             range:[60, 96],
@@ -89,7 +83,7 @@ namespace Manifest
                 pitch:-0.10
             }
 		},
-		"Alto Flute":
+		"Sofia Woodwinds: Alto Flute":
 		{
             sampleMapId: "altoFlute",
 			range: [55, 91],
@@ -111,9 +105,9 @@ namespace Manifest
                 pitch:-0.10
 		    }
 		},
-        "Oboe I":
+        "Sofia Woodwinds: Oboe I":
         {
-            sampleMapId: "oboe1", //Identifier for finding sample maps
+            sampleMapId: "oboe1",
 	        range: [58, 91],
 	        gain: 
             {
@@ -133,9 +127,9 @@ namespace Manifest
                 pitch:-0.07
 		    }
 	    },
-        "Oboe II":
+        "Sofia Woodwinds: Oboe II":
         {
-            sampleMapId: "oboe2", //Identifier for finding sample maps
+            sampleMapId: "oboe2",
 	        range: [58, 91],
 	        gain: 
             {
@@ -155,9 +149,9 @@ namespace Manifest
                 pitch:-0.07
 		    }
 	    },
-        "Cor Anglais":
+        "Sofia Woodwinds: Cor Anglais":
         {
-            sampleMapId: "englishHorn", //Identifier for finding sample maps
+            sampleMapId: "englishHorn",
 	        range: [52, 83],
 	        gain: 
             {
@@ -177,9 +171,9 @@ namespace Manifest
                 pitch:-0.07
 		    }
 	    },
-        "Clarinet I":
+        "Sofia Woodwinds: Clarinet I":
         {
-            sampleMapId: "clarinet1", //Identifier for finding sample maps
+            sampleMapId: "clarinet1",
 	        range: [50, 91],
 	        gain: 
             {
@@ -199,9 +193,9 @@ namespace Manifest
                 pitch:-0.07
 		    }
 	    },
-        "Clarinet II":
+        "Sofia Woodwinds: Clarinet II":
         {
-            sampleMapId: "clarinet2", //Identifier for finding sample maps
+            sampleMapId: "clarinet2",
 	        range: [50, 91],
 	        gain: 
             {
@@ -221,9 +215,9 @@ namespace Manifest
                 pitch:-0.07
 		    }
 	    },
-        "Bass Clarinet":
+        "Sofia Woodwinds: Bass Clarinet":
         {
-            sampleMapId: "bassClarinet", //Identifier for finding sample maps
+            sampleMapId: "bassClarinet",
 	        range: [34, 75],
 	        gain: 
             {
@@ -243,9 +237,9 @@ namespace Manifest
                 pitch:-0.07
 		    }
 	    },
-        "Bassoon I":
+        "Sofia Woodwinds: Bassoon I":
         {
-            sampleMapId: "bassoon1", //Identifier for finding sample maps
+            sampleMapId: "bassoon1",
 	        range: [34, 74],
 	        gain: 
             {
@@ -264,9 +258,9 @@ namespace Manifest
                 pitch:-0.08
 		    }
 	    },
-        "Bassoon II":
+        "Sofia Woodwinds: Bassoon II":
         {
-            sampleMapId: "bassoon2", //Identifier for finding sample maps
+            sampleMapId: "bassoon2",
 	        range: [34, 74],
 	        gain: 
             {
@@ -285,9 +279,9 @@ namespace Manifest
                 pitch:-0.08
 		    }
 	    },
-        "Contrabassoon":
+        "Sofia Woodwinds: Contrabassoon":
         {
-            sampleMapId: "contrabassoon", //Identifier for finding sample maps
+            sampleMapId: "contrabassoon",
 	        range: [22, 55],
 	        gain:
             {

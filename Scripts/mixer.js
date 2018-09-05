@@ -19,9 +19,6 @@ namespace Mixer
 {
 	inline function onInitCB()
 	{
-		const var micNames = ["Close", "Decca", "Hall"]; //Close, decca, hall
-		const var pan = [];
-		const var purge = [];
 
 		//Retrieve samplers and store in samplers array
 		const var samplerIds = Synth.getIdList("Sampler"); //Get IDs of samplers
@@ -32,30 +29,46 @@ namespace Mixer
 		    samplers.push(Synth.getSampler(s));
 		}
 
-		//Panel
-		ui.setupControl("pnlMixer", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
+		//Background panel
+		Content.setPropertiesFromJSON("pnlMixer", {itemColour:Theme.C3, itemColour2:Theme.C3});
+		
+		//Labels	
+		Content.setPropertiesFromJSON("lblVol", {fontName:Theme.BOLD, fontSize:Theme.H2});
+		Content.setPropertiesFromJSON("lblPan", {fontName:Theme.BOLD, fontSize:Theme.H2});
+		Content.setPropertiesFromJSON("lblWidth", {fontName:Theme.BOLD, fontSize:Theme.H2});
+		Content.setPropertiesFromJSON("lblDelay", {fontName:Theme.BOLD, fontSize:Theme.H2});
+	
+		//Knobs and sliders
+		const var purge = [];
 
-		//Title label
-		Content.setPropertiesFromJSON("lblMixer", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});
-
-		for (i = 0; i < micNames.length; i++)
+		for (i = 0; i < 3; i++)
 		{
-			Content.setPropertiesFromJSON("sliPan"+i, {stepSize:0.01, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			pan[i] = ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up for pan slider
-
-			Content.setPropertiesFromJSON("sliVol"+i, {type:"Decibel", max:3, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-
-			Content.setPropertiesFromJSON("btnPurge"+i, {text:micNames[i], bgColour:Theme.CONTROL1, textColour:Theme.BLACK});
-			purge[i] = ui.buttonPanel("btnPurge"+i, paintRoutines.textButton); //Set up callbacks for purge button
+		    //Purge button
+		    Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.C6, itemColour:Theme.C5});
+			purge[i] = ui.buttonPanel("btnPurge"+i, purgeButtonPaintRoutine);
 			purge[i].setControlCallback(btnPurgeCB);
+			
+		    //Volume slider
+		    Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+		    //ui.sliderPanel("sliVol"+i, paintRoutines.verticalSlider, -50, 0.8);
+		    
+		    //Pan knob
+			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+			ui.sliderPanel("sliPan"+i, paintRoutines.knob, 0, 0.5);
+
+			//Width knob
+            Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+			ui.sliderPanel("sliWidth"+i, paintRoutines.knob, 0, 0.5);
+			
+			//Delay knob
+			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+			ui.sliderPanel("sliDelay"+i, paintRoutines.knob, 0, 0.5);
 		}
 	}
-
+	
 	inline function btnPurgeCB(control, value)
 	{
-		local idx = purge.indexOf(control); //Check if number is a purge button
+		local idx = purge.indexOf(control);
 
 		for (s in samplers) //Each sampler
 		{
@@ -66,4 +79,12 @@ namespace Mixer
 			}
 		}
 	}
+	
+    function purgeButtonPaintRoutine(g)
+	{							
+		this.getValue() == 1 ? g.setColour(this.get("textColour")) : g.setColour(this.get("itemColour"));
+
+		g.setFont(Theme.BOLD, 22);
+		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");
+	};
 }

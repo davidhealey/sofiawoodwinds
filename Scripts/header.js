@@ -20,7 +20,7 @@ namespace Header
   inline function onInitCB()
   {
     //Header background
-    Content.setPropertiesFromJSON("pnlHeader", {itemColour:Theme.HEADER, itemColour2:Theme.HEADER});
+    Content.setPropertiesFromJSON("pnlHeader", {itemColour:Theme.C2, itemColour2:Theme.C2});
 
     //Logo
     const var pnlLogo = ui.setupControl("pnlLogo", {textColour:Theme.LOGO});
