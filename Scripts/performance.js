@@ -31,8 +31,8 @@ namespace Performance
 		
         //Sliders
         Content.setPropertiesFromJSON("sliOffset", {bgColour:Theme.C2, itemColour:Theme.F});
-        Content.setPropertiesFromJSON("sliGlideRate", {bgColour:Theme.C2, itemColour:Theme.F});
-        ui.sliderPanel("sliGlideRate", sliGlideRatePaintRoutine, 5, 5);
+        Content.setPropertiesFromJSON("sliGlide", {bgColour:Theme.C2, itemColour:Theme.F, textColour:Theme.C6});
+        ui.sliderPanel("sliGlide", sliGlidePaintRoutine, 5, 5);
         
         Content.setPropertiesFromJSON("sliRelease", {bgColour:Theme.C2, itemColour:Theme.F});
 
@@ -41,15 +41,15 @@ namespace Performance
 	    ui.buttonPanel("btnGlideMode", paintRoutines.onOffButton);
 	    
         //Release trigger purge button
-	    Content.setPropertiesFromJSON("btnRel", {bgColour:Theme.C5, itemColour:Theme.C4, itemColour2:Theme.C2, textColour:Theme.C6});
-	    ui.buttonPanel("btnRel", paintRoutines.onOffButton);
+	    Content.setPropertiesFromJSON("btnPurgeReleases", {bgColour:Theme.C5, itemColour:Theme.C4, itemColour2:Theme.C2, textColour:Theme.C6});
+	    ui.buttonPanel("btnPurgeReleases", paintRoutines.onOffButton);
         
         //Round robin button		
 	    Content.setPropertiesFromJSON("btnRR", {bgColour:Theme.C5, itemColour:Theme.C4, itemColour2:Theme.C2, textColour:Theme.C6});
 	    ui.buttonPanel("btnRR", paintRoutines.onOffButton);
 	}
 	   
-    function sliGlideRatePaintRoutine(g)
+    function sliGlidePaintRoutine(g)
     {   
         reg rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"];
         reg range = this.get("max") - this.get("min");

@@ -50,9 +50,9 @@ Header.onInitCB();
 PresetHandler.onInitCB();
 PageHandler.onInitCB();
 Mixer.onInitCB();
-//ControllerHandler.onInitCB();
-//Performance.onInitCB();
-//Settings.onInitCB();function onNoteOn()
+ControllerHandler.onInitCB();
+Performance.onInitCB();
+Settings.onInitCB();function onNoteOn()
 {
 	
 }
