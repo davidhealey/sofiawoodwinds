@@ -45,7 +45,7 @@
             <Control type="ScriptSlider" id="sliOffset" value="0.80000001"/>
             <Control type="ScriptPanel" id="sliGlide" value="8"/>
             <Control type="ScriptPanel" id="btnGlideMode" value="0"/>
-            <Control type="ScriptSlider" id="sliRelease" value="10000"/>
+            <Control type="ScriptSlider" id="sliRelease" value="80"/>
             <Control type="ScriptPanel" id="btnPurgeReleases" value="0"/>
             <Control type="ScriptPanel" id="btnRR" value="1"/>
           </Content>
@@ -288,7 +288,7 @@
                                  opaque="1" isPluginParameter="1" pluginParameterName="Whole Note Glide"/>
                       <Component type="ScriptSlider" id="sliRelease" x="200" y="168" width="100"
                                  height="32" parentComponent="pnlPerformance" mode="Time" suffix=" ms"
-                                 middlePosition="2000" style="Horizontal" defaultValue="20" isPluginParameter="1"
+                                 middlePosition="2000" style="Horizontal" defaultValue="80" isPluginParameter="1"
                                  pluginParameterName="Release Time" max="10000" stepSize="1" min="20"
                                  bgColour="4280690214" itemColour="4286292825"/>
                       <Component type="ScriptPanel" id="btnPurgeReleases" x="200" y="218" width="100"
@@ -505,8 +505,8 @@
             </Processor>
           </ChildProcessors>
           <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                         Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
-                         Send4="-1" Channel5="1" Send5="-1"/>
+                         Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
+                         Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
             <channelData enabled="1" level="0" suffix="decca"/>
@@ -560,8 +560,8 @@
             </Processor>
           </ChildProcessors>
           <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                         Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
-                         Send4="-1" Channel5="1" Send5="-1"/>
+                         Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
+                         Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
             <channelData enabled="1" level="0" suffix="decca"/>
@@ -615,8 +615,8 @@
             </Processor>
           </ChildProcessors>
           <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                         Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
-                         Send4="-1" Channel5="1" Send5="-1"/>
+                         Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
+                         Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
             <channelData enabled="1" level="0" suffix="decca"/>
@@ -624,7 +624,9 @@
           </channels>
         </Processor>
       </ChildProcessors>
-      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+      <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                     Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
+                     Send4="-1" Channel5="5" Send5="-1"/>
     </Processor>
   </ChildProcessors>
   <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
