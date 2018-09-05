@@ -19,8 +19,12 @@ namespace ControllerHandler
 {
 	inline function onInitCB()
 	{
-		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato", "Vibrato Speed", "Flutter"];
+		const var parameters = ["Velocity", "Expression"];
 		const var reservedCc = [32, 64]; //CCs used internally, not user selectable
+	
+		//Get CC modulators
+		const var mods = [];
+		mods[1] = Synth.getModulator("expressionCC");
         	
 		const var ccNums = [];
 		//Populate list of CC numbers
@@ -47,11 +51,15 @@ namespace ControllerHandler
 		{
 			//Parameter menu
 			cmbCc[i] = ui.setupControl("cmbCc"+i, {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6});
+			cmbCc[i].setControlCallback(cmbCcCB);
             i > 0 ? cmbCc[i].set("items", ccNums.join("\n")) : cmbCc[i].set("items", "Velocity");
 
 			//Response table
 			tblCc[i] = ui.setupControl("tblCc"+i, {customColours:true, bgColour:Theme.C2, itemColour:Theme.C5, itemColour2:0x70000000});
 		}
+		
+		//Value labels
+		const var lblAtkVal = ui.setupControl("lblAtkVal", {fontName:Theme.REGULAR, fontSize:18, textColour:Theme.C6});
 	}
 
 	inline function cmbParamCB(control, value)
@@ -61,5 +69,11 @@ namespace ControllerHandler
 			cmbCc[i].set("visible", i == (value-1));
 			tblCc[i].set("visible", i == (value-1));
 		}
+	}
+
+	inline function cmbCcCB(control, value)
+	{
+		local idx = cmbCc.indexOf(control); //Get control's index
+		if (idx > 0) mods[idx].setAttribute(2, control.getItemText()); //Velocity mod is ignored
 	}
 }
