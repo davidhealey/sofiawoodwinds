@@ -89,7 +89,7 @@ namespace Manifest
 			range: [55, 91],
 			gain: 
             {
-                release:-6.0,
+                release:-15.0,
                 noise:-40.0
             },
 			legatoSettings:

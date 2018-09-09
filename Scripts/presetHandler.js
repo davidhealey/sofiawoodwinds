@@ -19,8 +19,8 @@ namespace PresetHandler
 {
     inline function onInitCB()
     {
-        //const var gainMod = Synth.getModulator("globalGainModLFO"); //Vibrato gain modulator
-        //const var pitchMod = Synth.getModulator("globalPitchModLFO"); //Vibrato pitch modulator
+        const var gainMod = Synth.getModulator("vibratoGain"); //Vibrato gain modulator
+        const var pitchMod = Synth.getModulator("vibratoPitch"); //Vibrato pitch modulator
         const var legato = Synth.getMidiProcessor("legato"); //legato script
         const var roundRobin = Synth.getMidiProcessor("roundRobin"); //Sustain/legato/glide round robin handler
         //const var noise = Synth.getChildSynth("noise"); //Get noise generator
@@ -72,9 +72,9 @@ namespace PresetHandler
 
         colourKeys(name);
         loadSampleMaps(name); //Load sample maps for current preset
-        //loadGainSettings(name);
+        loadGainSettings(name);
         loadLegatoSettings(name);
-        //loadVibratoSettings(name);
+        loadVibratoSettings(name);
         setRoundRobinRange(name); //Set the upper and lower note range of the RR scripts
     }
 
@@ -135,7 +135,7 @@ namespace PresetHandler
         //Set noise generator gain, if present in the manifest
         if (settings.noise)
         {
-            noise.setAttribute(0, Engine.getGainFactorForDecibels(settings.noise));
+            //noise.setAttribute(0, Engine.getGainFactorForDecibels(settings.noise));
         }
     }
 

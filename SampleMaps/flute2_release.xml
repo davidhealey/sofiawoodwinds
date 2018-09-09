@@ -1,1003 +1,1114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="flute2_release" SaveMode="1" RRGroupAmount="3" MicPositions="close;decca;hall;">
+<samplemap ID="flute2_release" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="31196" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_60_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_60_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_60_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
+          MonolithLength="32768" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_60_dynamic1.wav"/>
   </sample>
   <sample ID="1" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="45350" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_60_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_60_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_60_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32768"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_60_dynamic2.wav"/>
   </sample>
   <sample ID="2" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="54718" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_60_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_60_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_60_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="81920"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_60_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_60_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_60_dynamic3.wav"/>
   </sample>
   <sample ID="3" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="37743" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_61_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_61_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_61_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="139264"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_61_dynamic1.wav"/>
   </sample>
   <sample ID="4" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="46082" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_61_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_61_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_61_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="180224"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_61_dynamic2.wav"/>
   </sample>
   <sample ID="5" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60418" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_61_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_61_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_61_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="229376"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_61_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_61_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_61_dynamic3.wav"/>
   </sample>
   <sample ID="6" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="38474" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_62_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_62_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_62_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="290816"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_62_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="44033" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_62_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_62_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_62_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="331776"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_62_dynamic2.wav"/>
   </sample>
   <sample ID="8" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="58809" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_62_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_62_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_62_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="376832"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_62_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_62_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_62_dynamic3.wav"/>
   </sample>
   <sample ID="9" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="41303" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_63_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_63_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_63_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="438272"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_63_dynamic1.wav"/>
   </sample>
   <sample ID="10" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="43106" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_63_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_63_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_63_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="483328"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_63_dynamic2.wav"/>
   </sample>
   <sample ID="11" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="58370" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_63_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_63_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_63_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="528384"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_63_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_63_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_63_dynamic3.wav"/>
   </sample>
   <sample ID="12" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="41985" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_64_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_64_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_64_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="589824"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_64_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="47252" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_64_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_64_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_64_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="634880"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_64_dynamic2.wav"/>
   </sample>
   <sample ID="14" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61296" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_64_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_64_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_64_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="684032"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_64_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_64_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_64_dynamic3.wav"/>
   </sample>
   <sample ID="15" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="40815" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_65_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_65_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_65_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="745472"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_65_dynamic1.wav"/>
   </sample>
   <sample ID="16" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="46520" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_65_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_65_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_65_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="786432"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_65_dynamic2.wav"/>
   </sample>
   <sample ID="17" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57346" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_65_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_65_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_65_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="835584"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_65_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_65_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_65_dynamic3.wav"/>
   </sample>
   <sample ID="18" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="35256" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_66_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_66_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_66_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="897024"
+          MonolithLength="36864" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_66_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="49885" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_66_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_66_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_66_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="933888"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_66_dynamic2.wav"/>
   </sample>
   <sample ID="20" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61296" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_66_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_66_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_66_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="987136"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_66_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_66_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_66_dynamic3.wav"/>
   </sample>
   <sample ID="21" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="38906" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_67_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_67_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_67_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1048576"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_67_dynamic1.wav"/>
   </sample>
   <sample ID="22" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53835" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_67_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_67_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_67_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1089536"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_67_dynamic2.wav"/>
   </sample>
   <sample ID="23" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60468" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_67_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_67_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_67_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1146880"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_67_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_67_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_67_dynamic3.wav"/>
   </sample>
   <sample ID="24" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="39167" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_68_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_68_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_68_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1208320"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_68_dynamic1.wav"/>
   </sample>
   <sample ID="25" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="59872" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_68_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_68_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_68_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1249280"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_68_dynamic2.wav"/>
   </sample>
   <sample ID="26" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63490" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_68_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_68_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_68_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1310720"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_68_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_68_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_68_dynamic3.wav"/>
   </sample>
   <sample ID="27" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="50763" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_69_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_69_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_69_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1376256"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_69_dynamic1.wav"/>
   </sample>
   <sample ID="28" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53258" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_69_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_69_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_69_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1429504"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_69_dynamic2.wav"/>
   </sample>
   <sample ID="29" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63070" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_69_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_69_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_69_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1486848"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_69_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_69_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_69_dynamic3.wav"/>
   </sample>
   <sample ID="30" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="43954" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_70_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_70_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_70_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1552384"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_70_dynamic1.wav"/>
   </sample>
   <sample ID="31" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="52079" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_70_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_70_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_70_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1597440"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_70_dynamic2.wav"/>
   </sample>
   <sample ID="32" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68610" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_70_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_70_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_70_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1650688"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_70_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_70_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_70_dynamic3.wav"/>
   </sample>
   <sample ID="33" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="37940" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_71_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_71_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_71_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1720320"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_71_dynamic1.wav"/>
   </sample>
   <sample ID="34" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="51184" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_71_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_71_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_71_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1761280"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_71_dynamic2.wav"/>
   </sample>
   <sample ID="35" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71243" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_71_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_71_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_71_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1814528"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_71_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_71_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_71_dynamic3.wav"/>
   </sample>
   <sample ID="36" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="47211" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_72_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_72_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_72_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1888256"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_72_dynamic1.wav"/>
   </sample>
   <sample ID="37" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="44873" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_72_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_72_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_72_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1937408"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_72_dynamic2.wav"/>
   </sample>
   <sample ID="38" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70512" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_72_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_72_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_72_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1982464"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_72_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_72_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_72_dynamic3.wav"/>
   </sample>
   <sample ID="39" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="36934" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_73_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_73_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_73_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2056192"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_73_dynamic1.wav"/>
   </sample>
   <sample ID="40" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48341" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_73_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_73_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_73_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2097152"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_73_dynamic2.wav"/>
   </sample>
   <sample ID="41" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69477" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_73_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_73_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_73_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2146304"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_73_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_73_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_73_dynamic3.wav"/>
   </sample>
   <sample ID="42" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48546" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_74_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_74_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_74_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2215936"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_74_dynamic1.wav"/>
   </sample>
   <sample ID="43" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56371" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_74_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_74_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_74_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2265088"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_74_dynamic2.wav"/>
   </sample>
   <sample ID="44" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67294" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_74_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_74_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_74_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2322432"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_74_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_74_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_74_dynamic3.wav"/>
   </sample>
   <sample ID="45" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="49362" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_75_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_75_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_75_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2392064"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_75_dynamic1.wav"/>
   </sample>
   <sample ID="46" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="50711" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_75_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_75_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_75_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2445312"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_75_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_75_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_75_dynamic2.wav"/>
   </sample>
   <sample ID="47" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67879" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_75_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_75_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_75_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2498560"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_75_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_75_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_75_dynamic3.wav"/>
   </sample>
   <sample ID="48" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48159" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_76_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_76_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_76_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2568192"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_76_dynamic1.wav"/>
   </sample>
   <sample ID="49" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66746" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_76_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_76_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_76_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2617344"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_76_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_76_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_76_dynamic2.wav"/>
   </sample>
   <sample ID="50" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69073" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_76_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_76_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_76_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2686976"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_76_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_76_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_76_dynamic3.wav"/>
   </sample>
   <sample ID="51" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="50295" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_77_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_77_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_77_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2756608"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_77_dynamic1.wav"/>
   </sample>
   <sample ID="52" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56807" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_77_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_77_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_77_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2809856"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_77_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_77_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_77_dynamic2.wav"/>
   </sample>
   <sample ID="53" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61003" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_77_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_77_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_77_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2867200"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_77_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_77_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_77_dynamic3.wav"/>
   </sample>
   <sample ID="54" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="36498" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_78_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_78_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_78_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2928640"
+          MonolithLength="36864" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_78_dynamic1.wav"/>
   </sample>
   <sample ID="55" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60772" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_78_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_78_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_78_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2965504"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_78_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_78_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_78_dynamic2.wav"/>
   </sample>
   <sample ID="56" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64075" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_78_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_78_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_78_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3026944"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_78_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_78_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_78_dynamic3.wav"/>
   </sample>
   <sample ID="57" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57813" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_79_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_79_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_79_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3092480"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_79_dynamic1.wav"/>
   </sample>
   <sample ID="58" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68400" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_79_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_79_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_79_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3153920"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_79_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_79_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_79_dynamic2.wav"/>
   </sample>
   <sample ID="59" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69781" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_79_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_79_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_79_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3223552"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_79_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_79_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_79_dynamic3.wav"/>
   </sample>
   <sample ID="60" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62305" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_80_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_80_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_80_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3297280"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_80_dynamic1.wav"/>
   </sample>
   <sample ID="61" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53039" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_80_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_80_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_80_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3362816"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_80_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_80_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_80_dynamic2.wav"/>
   </sample>
   <sample ID="62" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67147" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_80_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_80_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_80_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3416064"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_80_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_80_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_80_dynamic3.wav"/>
   </sample>
   <sample ID="63" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48348" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_81_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_81_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_81_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3485696"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_81_dynamic1.wav"/>
   </sample>
   <sample ID="64" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67030" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_81_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_81_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_81_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3534848"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_81_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_81_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_81_dynamic2.wav"/>
   </sample>
   <sample ID="65" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="78704" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_81_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_81_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_81_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3604480"
+          MonolithLength="81920" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_81_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_81_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_81_dynamic3.wav"/>
   </sample>
   <sample ID="66" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="49959" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_82_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_82_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_82_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3686400"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_82_dynamic1.wav"/>
   </sample>
   <sample ID="67" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64642" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_82_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_82_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_82_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3739648"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_82_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_82_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_82_dynamic2.wav"/>
   </sample>
   <sample ID="68" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68171" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_82_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_82_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_82_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3805184"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_82_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_82_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_82_dynamic3.wav"/>
   </sample>
   <sample ID="69" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53985" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_83_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_83_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_83_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3874816"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_83_dynamic1.wav"/>
   </sample>
   <sample ID="70" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68171" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_83_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_83_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_83_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3932160"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_83_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_83_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_83_dynamic2.wav"/>
   </sample>
   <sample ID="71" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53401" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_83_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_83_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_83_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4001792"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_83_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_83_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_83_dynamic3.wav"/>
   </sample>
   <sample ID="72" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="39806" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_84_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_84_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_84_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4059136"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_84_dynamic1.wav"/>
   </sample>
   <sample ID="73" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="52957" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_84_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_84_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_84_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4100096"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_84_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_84_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_84_dynamic2.wav"/>
   </sample>
   <sample ID="74" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66270" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_84_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_84_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_84_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4153344"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_84_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_84_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_84_dynamic3.wav"/>
   </sample>
   <sample ID="75" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57711" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_85_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_85_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_85_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4222976"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_85_dynamic1.wav"/>
   </sample>
   <sample ID="76" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65133" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_85_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_85_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_85_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4284416"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_85_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_85_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_85_dynamic2.wav"/>
   </sample>
   <sample ID="77" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="72706" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_85_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_85_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_85_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4349952"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_85_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_85_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_85_dynamic3.wav"/>
   </sample>
   <sample ID="78" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60489" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_86_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_86_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_86_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4423680"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_86_dynamic1.wav"/>
   </sample>
   <sample ID="79" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60405" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_86_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_86_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_86_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4485120"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_86_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_86_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_86_dynamic2.wav"/>
   </sample>
   <sample ID="80" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71536" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_86_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_86_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_86_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4546560"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_86_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_86_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_86_dynamic3.wav"/>
   </sample>
   <sample ID="81" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57786" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_87_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_87_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_87_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4620288"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_87_dynamic1.wav"/>
   </sample>
   <sample ID="82" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="76071" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_87_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_87_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_87_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4681728"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_87_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_87_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_87_dynamic2.wav"/>
   </sample>
   <sample ID="83" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69488" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_87_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_87_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_87_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4759552"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_87_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_87_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_87_dynamic3.wav"/>
   </sample>
   <sample ID="84" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="51268" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_88_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_88_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_88_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4829184"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_88_dynamic1.wav"/>
   </sample>
   <sample ID="85" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67732" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_88_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_88_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_88_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4882432"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_88_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_88_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_88_dynamic2.wav"/>
   </sample>
   <sample ID="86" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75778" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_88_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_88_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_88_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4952064"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_88_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_88_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_88_dynamic3.wav"/>
   </sample>
   <sample ID="87" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="52302" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_89_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_89_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_89_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5029888"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_89_dynamic1.wav"/>
   </sample>
   <sample ID="88" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67890" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_89_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_89_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_89_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5083136"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_89_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_89_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_89_dynamic2.wav"/>
   </sample>
   <sample ID="89" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68318" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_89_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_89_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_89_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5152768"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_89_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_89_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_89_dynamic3.wav"/>
   </sample>
   <sample ID="90" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="52603" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_90_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_90_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_90_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5222400"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_90_dynamic1.wav"/>
   </sample>
   <sample ID="91" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68363" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_90_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_90_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_90_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5275648"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_90_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_90_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_90_dynamic2.wav"/>
   </sample>
   <sample ID="92" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61296" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_90_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_90_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_90_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5345280"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_90_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_90_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_90_dynamic3.wav"/>
   </sample>
   <sample ID="93" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="43036" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_91_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_91_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_91_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5406720"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_91_dynamic1.wav"/>
   </sample>
   <sample ID="94" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64513" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_91_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_91_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_91_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5451776"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_91_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_91_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_91_dynamic2.wav"/>
   </sample>
   <sample ID="95" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66562" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_91_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_91_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_91_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5517312"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_91_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_91_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_91_dynamic3.wav"/>
   </sample>
   <sample ID="96" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48183" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_92_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_92_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_92_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5586944"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_92_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_92_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_92_dynamic1.wav"/>
   </sample>
   <sample ID="97" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61773" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_92_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_92_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_92_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5636096"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_92_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_92_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_92_dynamic2.wav"/>
   </sample>
   <sample ID="98" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68025" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_92_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_92_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_92_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5701632"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_92_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_92_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_92_dynamic3.wav"/>
   </sample>
   <sample ID="99" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56434" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_93_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_93_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_93_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5771264"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_93_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_93_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_93_dynamic1.wav"/>
   </sample>
   <sample ID="100" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61568" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_93_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_93_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_93_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5828608"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_93_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_93_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_93_dynamic2.wav"/>
   </sample>
   <sample ID="101" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67001" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_93_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_93_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_93_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5894144"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_93_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_93_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_93_dynamic3.wav"/>
   </sample>
   <sample ID="102" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="76469" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_94_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_94_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_94_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5963776"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_94_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_94_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_94_dynamic1.wav"/>
   </sample>
   <sample ID="103" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="54361" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_94_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_94_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_94_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6041600"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_94_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_94_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_94_dynamic2.wav"/>
   </sample>
   <sample ID="104" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70658" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_94_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_94_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_94_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6098944"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_94_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_94_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_94_dynamic3.wav"/>
   </sample>
   <sample ID="105" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61647" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_95_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_95_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_95_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6172672"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_95_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_95_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_95_dynamic1.wav"/>
   </sample>
   <sample ID="106" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65892" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_95_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_95_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_95_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6238208"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_95_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_95_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_95_dynamic2.wav"/>
   </sample>
   <sample ID="107" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65684" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_95_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_95_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_95_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6307840"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_95_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_95_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_95_dynamic3.wav"/>
   </sample>
   <sample ID="108" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="55162" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_96_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_96_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_96_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6377472"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_96_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_96_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_96_dynamic1.wav"/>
   </sample>
   <sample ID="109" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="47566" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_96_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_96_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_96_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6434816"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_96_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_96_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_96_dynamic2.wav"/>
   </sample>
   <sample ID="110" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65246" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_close_96_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_decca_96_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/flute 2/media/final/releases/flute2_release_hall_96_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6483968"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_close_96_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_decca_96_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}flute2/releases/flute2_release_hall_96_dynamic3.wav"/>
   </sample>
 </samplemap>

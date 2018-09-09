@@ -1,922 +1,922 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="contrabassoon_sustain" SaveMode="1" RRGroupAmount="3" MicPositions="close;decca;hall;">
+<samplemap ID="contrabassoon_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="22" HiKey="22" LoKey="22" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7849"
-          SampleEnd="379502" SampleStartMod="0" LoopStart="190068" LoopEnd="315646"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_22_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_22_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_22_dynamic1.wav"/>
+          SampleEnd="379502" SampleStartMod="10000" LoopStart="190068"
+          LoopEnd="315646" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_22_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_22_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_22_dynamic1.wav"/>
   </sample>
   <sample ID="1" Root="22" HiKey="22" LoKey="22" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4051"
-          SampleEnd="402408" SampleStartMod="0" LoopStart="127244" LoopEnd="248285"
+          SampleEnd="402408" SampleStartMod="7000" LoopStart="127244" LoopEnd="248285"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_22_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_22_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_22_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_22_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_22_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_22_dynamic2.wav"/>
   </sample>
   <sample ID="2" Root="22" HiKey="22" LoKey="22" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4415"
-          SampleEnd="356736" SampleStartMod="0" LoopStart="108198" LoopEnd="228641"
+          SampleEnd="356736" SampleStartMod="7000" LoopStart="108198" LoopEnd="228641"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_22_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_22_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_22_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_22_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_22_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_22_dynamic3.wav"/>
   </sample>
   <sample ID="3" Root="23" HiKey="23" LoKey="23" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5308"
-          SampleEnd="399345" SampleStartMod="0" LoopStart="160920" LoopEnd="282944"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_23_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_23_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_23_dynamic1.wav"/>
+          SampleEnd="399345" SampleStartMod="10000" LoopStart="160920"
+          LoopEnd="282944" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_23_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_23_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_23_dynamic1.wav"/>
   </sample>
   <sample ID="4" Root="23" HiKey="23" LoKey="23" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4873"
-          SampleEnd="420869" SampleStartMod="0" LoopStart="185130" LoopEnd="305868"
+          SampleEnd="420869" SampleStartMod="7000" LoopStart="185130" LoopEnd="305868"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_23_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_23_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_23_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_23_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_23_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_23_dynamic2.wav"/>
   </sample>
   <sample ID="5" Root="23" HiKey="23" LoKey="23" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4492"
-          SampleEnd="380090" SampleStartMod="0" LoopStart="127357" LoopEnd="252849"
+          SampleEnd="380090" SampleStartMod="7000" LoopStart="127357" LoopEnd="252849"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_23_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_23_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_23_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_23_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_23_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_23_dynamic3.wav"/>
   </sample>
   <sample ID="6" Root="24" HiKey="24" LoKey="24" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5369"
-          SampleEnd="391690" SampleStartMod="0" LoopStart="146681" LoopEnd="268087"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_24_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_24_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_24_dynamic1.wav"/>
+          SampleEnd="391690" SampleStartMod="10000" LoopStart="146681"
+          LoopEnd="268087" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_24_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_24_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_24_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="24" HiKey="24" LoKey="24" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8205"
-          SampleEnd="388241" SampleStartMod="0" LoopStart="134594" LoopEnd="273872"
+          SampleEnd="388241" SampleStartMod="7000" LoopStart="134594" LoopEnd="273872"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_24_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_24_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_24_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_24_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_24_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_24_dynamic2.wav"/>
   </sample>
   <sample ID="8" Root="24" HiKey="24" LoKey="24" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4480"
-          SampleEnd="393351" SampleStartMod="0" LoopStart="139436" LoopEnd="269923"
+          SampleEnd="393351" SampleStartMod="7000" LoopStart="139436" LoopEnd="269923"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_24_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_24_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_24_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_24_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_24_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_24_dynamic3.wav"/>
   </sample>
   <sample ID="9" Root="25" HiKey="25" LoKey="25" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7057"
-          SampleEnd="412008" SampleStartMod="0" LoopStart="175627" LoopEnd="295873"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_25_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_25_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_25_dynamic1.wav"/>
+          SampleEnd="412008" SampleStartMod="10000" LoopStart="175627"
+          LoopEnd="295873" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_25_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_25_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_25_dynamic1.wav"/>
   </sample>
   <sample ID="10" Root="25" HiKey="25" LoKey="25" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2973"
-          SampleEnd="412716" SampleStartMod="0" LoopStart="170620" LoopEnd="299437"
+          SampleEnd="412716" SampleStartMod="7000" LoopStart="170620" LoopEnd="299437"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_25_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_25_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_25_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_25_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_25_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_25_dynamic2.wav"/>
   </sample>
   <sample ID="11" Root="25" HiKey="25" LoKey="25" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4618"
-          SampleEnd="400270" SampleStartMod="0" LoopStart="156606" LoopEnd="276781"
+          SampleEnd="400270" SampleStartMod="7000" LoopStart="156606" LoopEnd="276781"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_25_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_25_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_25_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_25_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_25_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_25_dynamic3.wav"/>
   </sample>
   <sample ID="12" Root="26" HiKey="26" LoKey="26" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6273"
-          SampleEnd="394196" SampleStartMod="0" LoopStart="132466" LoopEnd="297794"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_26_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_26_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_26_dynamic1.wav"/>
+          SampleEnd="394196" SampleStartMod="10000" LoopStart="132466"
+          LoopEnd="297794" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_26_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_26_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_26_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="26" HiKey="26" LoKey="26" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4090"
-          SampleEnd="394705" SampleStartMod="0" LoopStart="175745" LoopEnd="296413"
+          SampleEnd="394705" SampleStartMod="7000" LoopStart="175745" LoopEnd="296413"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_26_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_26_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_26_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_26_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_26_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_26_dynamic2.wav"/>
   </sample>
   <sample ID="14" Root="26" HiKey="26" LoKey="26" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4498"
-          SampleEnd="374163" SampleStartMod="0" LoopStart="136991" LoopEnd="265115"
+          SampleEnd="374163" SampleStartMod="7000" LoopStart="136991" LoopEnd="265115"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_26_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_26_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_26_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_26_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_26_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_26_dynamic3.wav"/>
   </sample>
   <sample ID="15" Root="27" HiKey="27" LoKey="27" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6304"
-          SampleEnd="398343" SampleStartMod="0" LoopStart="175447" LoopEnd="302919"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_27_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_27_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_27_dynamic1.wav"/>
+          SampleEnd="398343" SampleStartMod="10000" LoopStart="175447"
+          LoopEnd="302919" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_27_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_27_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_27_dynamic1.wav"/>
   </sample>
   <sample ID="16" Root="27" HiKey="27" LoKey="27" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1948"
-          SampleEnd="390172" SampleStartMod="0" LoopStart="122582" LoopEnd="261472"
+          SampleEnd="390172" SampleStartMod="7000" LoopStart="122582" LoopEnd="261472"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_27_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_27_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_27_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_27_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_27_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_27_dynamic2.wav"/>
   </sample>
   <sample ID="17" Root="27" HiKey="27" LoKey="27" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4709"
-          SampleEnd="381694" SampleStartMod="0" LoopStart="110503" LoopEnd="287048"
+          SampleEnd="381694" SampleStartMod="7000" LoopStart="110503" LoopEnd="287048"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_27_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_27_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_27_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_27_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_27_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_27_dynamic3.wav"/>
   </sample>
   <sample ID="18" Root="28" HiKey="28" LoKey="28" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7867"
-          SampleEnd="376824" SampleStartMod="0" LoopStart="89548" LoopEnd="270293"
+          SampleEnd="376824" SampleStartMod="10000" LoopStart="89548" LoopEnd="270293"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_28_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_28_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_28_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_28_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_28_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_28_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="28" HiKey="28" LoKey="28" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3066"
-          SampleEnd="403106" SampleStartMod="0" LoopStart="187707" LoopEnd="312424"
+          SampleEnd="403106" SampleStartMod="7000" LoopStart="187707" LoopEnd="312424"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_28_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_28_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_28_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_28_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_28_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_28_dynamic2.wav"/>
   </sample>
   <sample ID="20" Root="28" HiKey="28" LoKey="28" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5268"
-          SampleEnd="403515" SampleStartMod="0" LoopStart="139335" LoopEnd="297069"
+          SampleEnd="403515" SampleStartMod="7000" LoopStart="139335" LoopEnd="297069"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_28_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_28_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_28_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_28_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_28_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_28_dynamic3.wav"/>
   </sample>
   <sample ID="21" Root="29" HiKey="29" LoKey="29" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7837"
-          SampleEnd="392690" SampleStartMod="0" LoopStart="88902" LoopEnd="214951"
+          SampleEnd="392690" SampleStartMod="10000" LoopStart="88902" LoopEnd="214951"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_29_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_29_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_29_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_29_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_29_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_29_dynamic1.wav"/>
   </sample>
   <sample ID="22" Root="29" HiKey="29" LoKey="29" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2593"
-          SampleEnd="399324" SampleStartMod="0" LoopStart="134604" LoopEnd="256605"
+          SampleEnd="399324" SampleStartMod="7000" LoopStart="134604" LoopEnd="256605"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_29_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_29_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_29_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_29_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_29_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_29_dynamic2.wav"/>
   </sample>
   <sample ID="23" Root="29" HiKey="29" LoKey="29" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5059"
-          SampleEnd="353718" SampleStartMod="0" LoopStart="60123" LoopEnd="223489"
+          SampleEnd="353718" SampleStartMod="7000" LoopStart="60123" LoopEnd="223489"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_29_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_29_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_29_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_29_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_29_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_29_dynamic3.wav"/>
   </sample>
   <sample ID="24" Root="30" HiKey="30" LoKey="30" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6006"
-          SampleEnd="386502" SampleStartMod="0" LoopStart="175767" LoopEnd="298234"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_30_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_30_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_30_dynamic1.wav"/>
+          SampleEnd="386502" SampleStartMod="10000" LoopStart="175767"
+          LoopEnd="298234" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_30_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_30_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_30_dynamic1.wav"/>
   </sample>
   <sample ID="25" Root="30" HiKey="30" LoKey="30" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7"
-          SampleEnd="409582" SampleStartMod="0" LoopStart="163535" LoopEnd="289114"
+          SampleEnd="409582" SampleStartMod="7000" LoopStart="163535" LoopEnd="289114"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_30_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_30_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_30_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_30_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_30_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_30_dynamic2.wav"/>
   </sample>
   <sample ID="26" Root="30" HiKey="30" LoKey="30" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3964"
-          SampleEnd="436751" SampleStartMod="0" LoopStart="153819" LoopEnd="295048"
+          SampleEnd="436751" SampleStartMod="7000" LoopStart="153819" LoopEnd="295048"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_30_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_30_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_30_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_30_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_30_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_30_dynamic3.wav"/>
   </sample>
   <sample ID="27" Root="31" HiKey="31" LoKey="31" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7894"
-          SampleEnd="385648" SampleStartMod="0" LoopStart="132214" LoopEnd="272511"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_31_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_31_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_31_dynamic1.wav"/>
+          SampleEnd="385648" SampleStartMod="10000" LoopStart="132214"
+          LoopEnd="272511" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_31_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_31_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_31_dynamic1.wav"/>
   </sample>
   <sample ID="28" Root="31" HiKey="31" LoKey="31" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2490"
-          SampleEnd="434144" SampleStartMod="0" LoopStart="96073" LoopEnd="286359"
+          SampleEnd="434144" SampleStartMod="7000" LoopStart="96073" LoopEnd="286359"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_31_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_31_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_31_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_31_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_31_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_31_dynamic2.wav"/>
   </sample>
   <sample ID="29" Root="31" HiKey="31" LoKey="31" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5268"
-          SampleEnd="408962" SampleStartMod="0" LoopStart="136988" LoopEnd="257328"
+          SampleEnd="408962" SampleStartMod="7000" LoopStart="136988" LoopEnd="257328"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_31_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_31_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_31_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_31_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_31_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_31_dynamic3.wav"/>
   </sample>
   <sample ID="30" Root="32" HiKey="32" LoKey="32" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8261"
-          SampleEnd="388431" SampleStartMod="0" LoopStart="146781" LoopEnd="267971"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_32_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_32_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_32_dynamic1.wav"/>
+          SampleEnd="388431" SampleStartMod="10000" LoopStart="146781"
+          LoopEnd="267971" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_32_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_32_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_32_dynamic1.wav"/>
   </sample>
   <sample ID="31" Root="32" HiKey="32" LoKey="32" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3086"
-          SampleEnd="395693" SampleStartMod="0" LoopStart="170653" LoopEnd="291856"
+          SampleEnd="395693" SampleStartMod="7000" LoopStart="170653" LoopEnd="291856"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_32_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_32_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_32_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_32_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_32_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_32_dynamic2.wav"/>
   </sample>
   <sample ID="32" Root="32" HiKey="32" LoKey="32" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5444"
-          SampleEnd="401496" SampleStartMod="0" LoopStart="132195" LoopEnd="267907"
+          SampleEnd="401496" SampleStartMod="7000" LoopStart="132195" LoopEnd="267907"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_32_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_32_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_32_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_32_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_32_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_32_dynamic3.wav"/>
   </sample>
   <sample ID="33" Root="33" HiKey="33" LoKey="33" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7437"
-          SampleEnd="397694" SampleStartMod="0" LoopStart="132313" LoopEnd="252767"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_33_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_33_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_33_dynamic1.wav"/>
+          SampleEnd="397694" SampleStartMod="10000" LoopStart="132313"
+          LoopEnd="252767" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_33_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_33_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_33_dynamic1.wav"/>
   </sample>
   <sample ID="34" Root="33" HiKey="33" LoKey="33" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2929"
-          SampleEnd="392842" SampleStartMod="0" LoopStart="122734" LoopEnd="243814"
+          SampleEnd="392842" SampleStartMod="7000" LoopStart="122734" LoopEnd="243814"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_33_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_33_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_33_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_33_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_33_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_33_dynamic2.wav"/>
   </sample>
   <sample ID="35" Root="33" HiKey="33" LoKey="33" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5070"
-          SampleEnd="404956" SampleStartMod="0" LoopStart="170605" LoopEnd="304628"
+          SampleEnd="404956" SampleStartMod="7000" LoopStart="170605" LoopEnd="304628"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_33_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_33_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_33_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_33_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_33_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_33_dynamic3.wav"/>
   </sample>
   <sample ID="36" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5361"
-          SampleEnd="408087" SampleStartMod="0" LoopStart="146841" LoopEnd="270367"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_34_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_34_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_34_dynamic1.wav"/>
+          SampleEnd="408087" SampleStartMod="10000" LoopStart="146841"
+          LoopEnd="270367" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_34_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_34_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_34_dynamic1.wav"/>
   </sample>
   <sample ID="37" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3409"
-          SampleEnd="400084" SampleStartMod="0" LoopStart="168200" LoopEnd="293293"
+          SampleEnd="400084" SampleStartMod="7000" LoopStart="168200" LoopEnd="293293"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_34_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_34_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_34_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_34_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_34_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_34_dynamic2.wav"/>
   </sample>
   <sample ID="38" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3431"
-          SampleEnd="404031" SampleStartMod="0" LoopStart="156375" LoopEnd="276843"
+          SampleEnd="404031" SampleStartMod="7000" LoopStart="156375" LoopEnd="276843"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_34_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_34_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_34_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_34_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_34_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_34_dynamic3.wav"/>
   </sample>
   <sample ID="39" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6823"
-          SampleEnd="374594" SampleStartMod="0" LoopStart="161153" LoopEnd="290067"
-          LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_35_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_35_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_35_dynamic1.wav"/>
+          SampleEnd="374594" SampleStartMod="16605" LoopStart="161153"
+          LoopEnd="290067" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
+          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_35_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_35_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_35_dynamic1.wav"/>
   </sample>
   <sample ID="40" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1967"
-          SampleEnd="386186" SampleStartMod="0" LoopStart="180319" LoopEnd="302987"
+          SampleEnd="386186" SampleStartMod="7000" LoopStart="180319" LoopEnd="302987"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_35_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_35_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_35_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_35_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_35_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_35_dynamic2.wav"/>
   </sample>
   <sample ID="41" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4618"
-          SampleEnd="404699" SampleStartMod="0" LoopStart="153969" LoopEnd="274479"
+          SampleEnd="404699" SampleStartMod="7000" LoopStart="153969" LoopEnd="274479"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_35_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_35_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_35_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_35_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_35_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_35_dynamic3.wav"/>
   </sample>
   <sample ID="42" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7369"
-          SampleEnd="378954" SampleStartMod="0" LoopStart="175522" LoopEnd="296806"
+          SampleEnd="378954" SampleStartMod="7000" LoopStart="175522" LoopEnd="296806"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_36_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_36_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_36_dynamic1.wav"/>
   </sample>
   <sample ID="43" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4108"
-          SampleEnd="393543" SampleStartMod="0" LoopStart="168294" LoopEnd="288815"
+          SampleEnd="393543" SampleStartMod="7000" LoopStart="168294" LoopEnd="288815"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_36_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_36_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_36_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_36_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_36_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_36_dynamic2.wav"/>
   </sample>
   <sample ID="44" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5816"
-          SampleEnd="416340" SampleStartMod="0" LoopStart="183084" LoopEnd="305566"
+          SampleEnd="416340" SampleStartMod="7000" LoopStart="183084" LoopEnd="305566"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_36_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_36_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_36_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_36_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_36_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_36_dynamic3.wav"/>
   </sample>
   <sample ID="45" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4419"
-          SampleEnd="377985" SampleStartMod="0" LoopStart="154365" LoopEnd="291848"
+          SampleEnd="377985" SampleStartMod="7000" LoopStart="154365" LoopEnd="291848"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_37_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_37_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_37_dynamic1.wav"/>
   </sample>
   <sample ID="46" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5526"
-          SampleEnd="370759" SampleStartMod="0" LoopStart="129843" LoopEnd="290636"
+          SampleEnd="370759" SampleStartMod="7000" LoopStart="129843" LoopEnd="290636"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_37_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_37_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_37_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_37_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_37_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_37_dynamic2.wav"/>
   </sample>
   <sample ID="47" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4950"
-          SampleEnd="428015" SampleStartMod="0" LoopStart="122613" LoopEnd="302748"
+          SampleEnd="428015" SampleStartMod="7000" LoopStart="122613" LoopEnd="302748"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_37_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_37_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_37_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_37_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_37_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_37_dynamic3.wav"/>
   </sample>
   <sample ID="48" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7453"
-          SampleEnd="385903" SampleStartMod="0" LoopStart="158601" LoopEnd="279018"
+          SampleEnd="385903" SampleStartMod="7000" LoopStart="158601" LoopEnd="279018"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_38_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_38_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_38_dynamic1.wav"/>
   </sample>
   <sample ID="49" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3442"
-          SampleEnd="386708" SampleStartMod="0" LoopStart="165875" LoopEnd="286159"
+          SampleEnd="386708" SampleStartMod="7000" LoopStart="165875" LoopEnd="286159"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_38_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_38_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_38_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_38_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_38_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_38_dynamic2.wav"/>
   </sample>
   <sample ID="50" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5109"
-          SampleEnd="450472" SampleStartMod="0" LoopStart="182545" LoopEnd="303430"
+          SampleEnd="450472" SampleStartMod="7000" LoopStart="182545" LoopEnd="303430"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_38_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_38_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_38_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_38_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_38_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_38_dynamic3.wav"/>
   </sample>
   <sample ID="51" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7280"
-          SampleEnd="381963" SampleStartMod="0" LoopStart="146873" LoopEnd="269512"
+          SampleEnd="381963" SampleStartMod="7000" LoopStart="146873" LoopEnd="269512"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_39_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_39_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_39_dynamic1.wav"/>
   </sample>
   <sample ID="52" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2631"
-          SampleEnd="407508" SampleStartMod="0" LoopStart="141792" LoopEnd="272030"
+          SampleEnd="407508" SampleStartMod="7000" LoopStart="141792" LoopEnd="272030"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_39_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_39_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_39_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_39_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_39_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_39_dynamic2.wav"/>
   </sample>
   <sample ID="53" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2863"
-          SampleEnd="456543" SampleStartMod="0" LoopStart="141940" LoopEnd="286034"
+          SampleEnd="456543" SampleStartMod="7000" LoopStart="141940" LoopEnd="286034"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_39_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_39_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_39_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_39_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_39_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_39_dynamic3.wav"/>
   </sample>
   <sample ID="54" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7778"
-          SampleEnd="409195" SampleStartMod="0" LoopStart="132531" LoopEnd="277616"
+          SampleEnd="409195" SampleStartMod="7000" LoopStart="132531" LoopEnd="277616"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_40_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_40_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_40_dynamic1.wav"/>
   </sample>
   <sample ID="55" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3720"
-          SampleEnd="365324" SampleStartMod="0" LoopStart="141944" LoopEnd="284517"
+          SampleEnd="365324" SampleStartMod="7000" LoopStart="141944" LoopEnd="284517"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_40_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_40_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_40_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_40_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_40_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_40_dynamic2.wav"/>
   </sample>
   <sample ID="56" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5575"
-          SampleEnd="405590" SampleStartMod="0" LoopStart="122512" LoopEnd="279743"
+          SampleEnd="405590" SampleStartMod="7000" LoopStart="122512" LoopEnd="279743"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_40_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_40_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_40_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_40_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_40_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_40_dynamic3.wav"/>
   </sample>
   <sample ID="57" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8702"
-          SampleEnd="386158" SampleStartMod="0" LoopStart="176548" LoopEnd="296592"
+          SampleEnd="386158" SampleStartMod="7000" LoopStart="176548" LoopEnd="296592"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_41_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_41_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_41_dynamic1.wav"/>
   </sample>
   <sample ID="58" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3732"
-          SampleEnd="392579" SampleStartMod="0" LoopStart="151403" LoopEnd="273255"
+          SampleEnd="392579" SampleStartMod="7000" LoopStart="151403" LoopEnd="273255"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_41_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_41_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_41_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_41_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_41_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_41_dynamic2.wav"/>
   </sample>
   <sample ID="59" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5133"
-          SampleEnd="422714" SampleStartMod="0" LoopStart="151335" LoopEnd="292172"
+          SampleEnd="422714" SampleStartMod="7000" LoopStart="151335" LoopEnd="292172"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_41_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_41_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_41_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_41_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_41_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_41_dynamic3.wav"/>
   </sample>
   <sample ID="60" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6872"
-          SampleEnd="375154" SampleStartMod="0" LoopStart="162571" LoopEnd="285128"
+          SampleEnd="375154" SampleStartMod="7000" LoopStart="162571" LoopEnd="285128"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_42_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_42_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_42_dynamic1.wav"/>
   </sample>
   <sample ID="61" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3259"
-          SampleEnd="388665" SampleStartMod="0" LoopStart="139694" LoopEnd="267939"
+          SampleEnd="388665" SampleStartMod="7000" LoopStart="139694" LoopEnd="267939"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_42_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_42_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_42_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_42_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_42_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_42_dynamic2.wav"/>
   </sample>
   <sample ID="62" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5713"
-          SampleEnd="475277" SampleStartMod="0" LoopStart="171089" LoopEnd="297666"
+          SampleEnd="475277" SampleStartMod="7000" LoopStart="171089" LoopEnd="297666"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_42_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_42_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_42_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_42_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_42_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_42_dynamic3.wav"/>
   </sample>
   <sample ID="63" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2989"
-          SampleEnd="380360" SampleStartMod="0" LoopStart="137739" LoopEnd="266049"
+          SampleEnd="380360" SampleStartMod="7000" LoopStart="137739" LoopEnd="266049"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_43_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_43_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_43_dynamic1.wav"/>
   </sample>
   <sample ID="64" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4085"
-          SampleEnd="387344" SampleStartMod="0" LoopStart="166275" LoopEnd="288211"
+          SampleEnd="387344" SampleStartMod="7000" LoopStart="166275" LoopEnd="288211"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_43_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_43_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_43_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_43_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_43_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_43_dynamic2.wav"/>
   </sample>
   <sample ID="65" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5256"
-          SampleEnd="458563" SampleStartMod="0" LoopStart="139528" LoopEnd="261031"
+          SampleEnd="458563" SampleStartMod="7000" LoopStart="139528" LoopEnd="261031"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_43_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_43_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_43_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_43_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_43_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_43_dynamic3.wav"/>
   </sample>
   <sample ID="66" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5315"
-          SampleEnd="383398" SampleStartMod="0" LoopStart="171110" LoopEnd="291219"
+          SampleEnd="383398" SampleStartMod="7000" LoopStart="171110" LoopEnd="291219"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_44_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_44_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_44_dynamic1.wav"/>
   </sample>
   <sample ID="67" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4091"
-          SampleEnd="386265" SampleStartMod="0" LoopStart="168226" LoopEnd="289196"
+          SampleEnd="386265" SampleStartMod="7000" LoopStart="168226" LoopEnd="289196"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_44_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_44_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_44_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_44_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_44_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_44_dynamic2.wav"/>
   </sample>
   <sample ID="68" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5623"
-          SampleEnd="405316" SampleStartMod="0" LoopStart="137003" LoopEnd="286324"
+          SampleEnd="405316" SampleStartMod="7000" LoopStart="137003" LoopEnd="286324"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_44_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_44_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_44_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_44_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_44_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_44_dynamic3.wav"/>
   </sample>
   <sample ID="69" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4991"
-          SampleEnd="390042" SampleStartMod="0" LoopStart="64912" LoopEnd="297819"
+          SampleEnd="390042" SampleStartMod="10000" LoopStart="64912" LoopEnd="297819"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_45_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_45_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_45_dynamic1.wav"/>
   </sample>
   <sample ID="70" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4566"
-          SampleEnd="394391" SampleStartMod="0" LoopStart="134913" LoopEnd="291851"
+          SampleEnd="394391" SampleStartMod="7000" LoopStart="134913" LoopEnd="291851"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_45_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_45_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_45_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_45_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_45_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_45_dynamic2.wav"/>
   </sample>
   <sample ID="71" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5700"
-          SampleEnd="448544" SampleStartMod="0" LoopStart="127546" LoopEnd="319692"
+          SampleEnd="448544" SampleStartMod="7000" LoopStart="127546" LoopEnd="319692"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_45_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_45_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_45_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_45_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_45_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_45_dynamic3.wav"/>
   </sample>
   <sample ID="72" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6766"
-          SampleEnd="396145" SampleStartMod="0" LoopStart="171732" LoopEnd="293808"
+          SampleEnd="396145" SampleStartMod="7000" LoopStart="171732" LoopEnd="293808"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_46_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_46_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_46_dynamic1.wav"/>
   </sample>
   <sample ID="73" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2986"
-          SampleEnd="415491" SampleStartMod="0" LoopStart="185165" LoopEnd="305858"
+          SampleEnd="415491" SampleStartMod="7000" LoopStart="185165" LoopEnd="305858"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_46_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_46_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_46_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_46_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_46_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_46_dynamic2.wav"/>
   </sample>
   <sample ID="74" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5629"
-          SampleEnd="431695" SampleStartMod="0" LoopStart="175525" LoopEnd="305275"
+          SampleEnd="431695" SampleStartMod="7000" LoopStart="175525" LoopEnd="305275"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_46_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_46_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_46_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_46_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_46_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_46_dynamic3.wav"/>
   </sample>
   <sample ID="75" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7933"
-          SampleEnd="412037" SampleStartMod="0" LoopStart="146567" LoopEnd="269041"
+          SampleEnd="412037" SampleStartMod="7000" LoopStart="146567" LoopEnd="269041"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_47_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_47_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_47_dynamic1.wav"/>
   </sample>
   <sample ID="76" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3219"
-          SampleEnd="416758" SampleStartMod="0" LoopStart="136897" LoopEnd="264340"
+          SampleEnd="416758" SampleStartMod="7000" LoopStart="136897" LoopEnd="264340"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_47_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_47_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_47_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_47_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_47_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_47_dynamic2.wav"/>
   </sample>
   <sample ID="77" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5777"
-          SampleEnd="441121" SampleStartMod="0" LoopStart="125129" LoopEnd="282660"
+          SampleEnd="441121" SampleStartMod="7000" LoopStart="125129" LoopEnd="282660"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_47_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_47_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_47_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_47_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_47_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_47_dynamic3.wav"/>
   </sample>
   <sample ID="78" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4286"
-          SampleEnd="381289" SampleStartMod="0" LoopStart="161050" LoopEnd="281400"
+          SampleEnd="381289" SampleStartMod="7000" LoopStart="161050" LoopEnd="281400"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_48_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_48_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_48_dynamic1.wav"/>
   </sample>
   <sample ID="79" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4702"
-          SampleEnd="402251" SampleStartMod="0" LoopStart="161274" LoopEnd="282893"
+          SampleEnd="402251" SampleStartMod="7000" LoopStart="161274" LoopEnd="282893"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_48_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_48_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_48_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_48_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_48_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_48_dynamic2.wav"/>
   </sample>
   <sample ID="80" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4199"
-          SampleEnd="389095" SampleStartMod="0" LoopStart="146780" LoopEnd="291932"
+          SampleEnd="389095" SampleStartMod="7000" LoopStart="146780" LoopEnd="291932"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_48_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_48_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_48_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_48_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_48_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_48_dynamic3.wav"/>
   </sample>
   <sample ID="81" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5031"
-          SampleEnd="385809" SampleStartMod="0" LoopStart="175961" LoopEnd="297292"
+          SampleEnd="385809" SampleStartMod="7000" LoopStart="175961" LoopEnd="297292"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_49_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_49_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_49_dynamic1.wav"/>
   </sample>
   <sample ID="82" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10702"
-          SampleEnd="425024" SampleStartMod="0" LoopStart="146634" LoopEnd="280660"
+          SampleEnd="425024" SampleStartMod="7000" LoopStart="146634" LoopEnd="280660"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_49_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_49_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_49_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_49_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_49_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_49_dynamic2.wav"/>
   </sample>
   <sample ID="83" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4614"
-          SampleEnd="394392" SampleStartMod="0" LoopStart="154195" LoopEnd="289804"
+          SampleEnd="394392" SampleStartMod="7000" LoopStart="154195" LoopEnd="289804"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_49_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_49_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_49_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_49_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_49_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_49_dynamic3.wav"/>
   </sample>
   <sample ID="84" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6967"
-          SampleEnd="373738" SampleStartMod="0" LoopStart="146985" LoopEnd="267248"
+          SampleEnd="373738" SampleStartMod="7000" LoopStart="146985" LoopEnd="267248"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_50_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_50_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_50_dynamic1.wav"/>
   </sample>
   <sample ID="85" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2602"
-          SampleEnd="389658" SampleStartMod="0" LoopStart="146626" LoopEnd="287916"
+          SampleEnd="389658" SampleStartMod="7000" LoopStart="146626" LoopEnd="287916"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_50_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_50_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_50_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_50_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_50_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_50_dynamic2.wav"/>
   </sample>
   <sample ID="86" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5410"
-          SampleEnd="416117" SampleStartMod="0" LoopStart="182923" LoopEnd="303466"
+          SampleEnd="416117" SampleStartMod="7000" LoopStart="182923" LoopEnd="303466"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_50_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_50_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_50_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_50_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_50_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_50_dynamic3.wav"/>
   </sample>
   <sample ID="87" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11602"
-          SampleEnd="384731" SampleStartMod="0" LoopStart="147620" LoopEnd="274963"
+          SampleEnd="384731" SampleStartMod="7000" LoopStart="147620" LoopEnd="274963"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_51_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_51_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_51_dynamic1.wav"/>
   </sample>
   <sample ID="88" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2656"
-          SampleEnd="402552" SampleStartMod="0" LoopStart="151778" LoopEnd="273114"
+          SampleEnd="402552" SampleStartMod="7000" LoopStart="151778" LoopEnd="273114"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_51_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_51_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_51_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_51_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_51_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_51_dynamic2.wav"/>
   </sample>
   <sample ID="89" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4372"
-          SampleEnd="422787" SampleStartMod="0" LoopStart="161074" LoopEnd="281123"
+          SampleEnd="422787" SampleStartMod="7000" LoopStart="161074" LoopEnd="281123"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_51_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_51_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_51_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_51_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_51_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_51_dynamic3.wav"/>
   </sample>
   <sample ID="90" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8530"
-          SampleEnd="373426" SampleStartMod="0" LoopStart="132167" LoopEnd="290381"
+          SampleEnd="373426" SampleStartMod="7000" LoopStart="132167" LoopEnd="290381"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_52_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_52_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_52_dynamic1.wav"/>
   </sample>
   <sample ID="91" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4132"
-          SampleEnd="396484" SampleStartMod="0" LoopStart="122660" LoopEnd="287913"
+          SampleEnd="396484" SampleStartMod="7000" LoopStart="122660" LoopEnd="287913"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_52_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_52_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_52_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_52_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_52_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_52_dynamic2.wav"/>
   </sample>
   <sample ID="92" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4316"
-          SampleEnd="400020" SampleStartMod="0" LoopStart="137035" LoopEnd="260061"
+          SampleEnd="400020" SampleStartMod="7000" LoopStart="137035" LoopEnd="260061"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_52_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_52_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_52_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_52_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_52_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_52_dynamic3.wav"/>
   </sample>
   <sample ID="93" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5598"
-          SampleEnd="381376" SampleStartMod="0" LoopStart="172922" LoopEnd="293144"
+          SampleEnd="381376" SampleStartMod="7000" LoopStart="172922" LoopEnd="293144"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_53_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_53_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_53_dynamic1.wav"/>
   </sample>
   <sample ID="94" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2765"
-          SampleEnd="376158" SampleStartMod="0" LoopStart="161043" LoopEnd="297356"
+          SampleEnd="376158" SampleStartMod="7000" LoopStart="161043" LoopEnd="297356"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_53_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_53_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_53_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_53_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_53_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_53_dynamic2.wav"/>
   </sample>
   <sample ID="95" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4243"
-          SampleEnd="377434" SampleStartMod="0" LoopStart="103333" LoopEnd="292576"
+          SampleEnd="377434" SampleStartMod="7000" LoopStart="103333" LoopEnd="292576"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_53_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_53_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_53_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_53_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_53_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_53_dynamic3.wav"/>
   </sample>
   <sample ID="96" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8149"
-          SampleEnd="404130" SampleStartMod="0" LoopStart="120498" LoopEnd="307109"
+          SampleEnd="404130" SampleStartMod="7000" LoopStart="120498" LoopEnd="307109"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_54_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_54_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_54_dynamic1.wav"/>
   </sample>
   <sample ID="97" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5355"
-          SampleEnd="380319" SampleStartMod="0" LoopStart="112857" LoopEnd="237140"
+          SampleEnd="380319" SampleStartMod="7000" LoopStart="112857" LoopEnd="237140"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_54_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_54_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_54_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_54_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_54_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_54_dynamic2.wav"/>
   </sample>
   <sample ID="98" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4989"
-          SampleEnd="426815" SampleStartMod="0" LoopStart="132034" LoopEnd="254306"
+          SampleEnd="426815" SampleStartMod="7000" LoopStart="132034" LoopEnd="254306"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_54_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_54_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_54_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_54_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_54_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_54_dynamic3.wav"/>
   </sample>
   <sample ID="99" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11607"
-          SampleEnd="403334" SampleStartMod="0" LoopStart="192377" LoopEnd="312612"
+          SampleEnd="403334" SampleStartMod="7000" LoopStart="192377" LoopEnd="312612"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_55_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_55_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_55_dynamic1.wav"/>
   </sample>
   <sample ID="100" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1544"
-          SampleEnd="393377" SampleStartMod="0" LoopStart="134493" LoopEnd="264386"
+          SampleEnd="393377" SampleStartMod="7000" LoopStart="134493" LoopEnd="264386"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_55_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_55_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_55_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_55_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_55_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_55_dynamic2.wav"/>
   </sample>
   <sample ID="101" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5158"
-          SampleEnd="382416" SampleStartMod="0" LoopStart="122696" LoopEnd="262600"
+          SampleEnd="382416" SampleStartMod="7000" LoopStart="122696" LoopEnd="262600"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_close_55_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_decca_55_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/contrabassoon/media/final/sustain/contrabassoon_sustain_hall_55_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_close_55_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_decca_55_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_55_dynamic3.wav"/>
   </sample>
 </samplemap>

@@ -1,1111 +1,1234 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="bassoon1_release" SaveMode="1" RRGroupAmount="3" MicPositions="close;decca;hall;">
+<samplemap ID="bassoon1_release" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64394" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_34_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_34_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_34_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_34_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_34_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_34_dynamic1.wav"/>
   </sample>
   <sample ID="1" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60815" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_34_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_34_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_34_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="65536"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_34_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_34_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_34_dynamic2.wav"/>
   </sample>
   <sample ID="2" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70264" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_34_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_34_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_34_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="126976"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_34_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_34_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_34_dynamic3.wav"/>
   </sample>
   <sample ID="3" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="45243" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_35_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_35_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_35_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="200704"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_35_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_35_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_35_dynamic1.wav"/>
   </sample>
   <sample ID="4" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61189" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_35_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_35_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_35_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="249856"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_35_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_35_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_35_dynamic2.wav"/>
   </sample>
   <sample ID="5" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67179" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_35_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_35_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_35_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="311296"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_35_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_35_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_35_dynamic3.wav"/>
   </sample>
   <sample ID="6" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="34057" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_36_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_36_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_36_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="380928"
+          MonolithLength="36864" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_36_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71653" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_36_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_36_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_36_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="417792"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_36_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_36_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_36_dynamic2.wav"/>
   </sample>
   <sample ID="8" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62893" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_36_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_36_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_36_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="491520"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_36_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_36_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_36_dynamic3.wav"/>
   </sample>
   <sample ID="9" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="41522" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_37_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_37_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_37_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="557056"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_37_dynamic1.wav"/>
   </sample>
   <sample ID="10" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60872" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_37_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_37_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_37_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="602112"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_37_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_37_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_37_dynamic2.wav"/>
   </sample>
   <sample ID="11" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63176" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_37_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_37_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_37_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="663552"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_37_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_37_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_37_dynamic3.wav"/>
   </sample>
   <sample ID="12" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48928" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_38_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_38_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_38_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="729088"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_38_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="78970" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_38_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_38_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_38_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="778240"
+          MonolithLength="81920" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_38_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_38_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_38_dynamic2.wav"/>
   </sample>
   <sample ID="14" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61193" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_38_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_38_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_38_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="860160"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_38_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_38_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_38_dynamic3.wav"/>
   </sample>
   <sample ID="15" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53373" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_39_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_39_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_39_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="921600"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_39_dynamic1.wav"/>
   </sample>
   <sample ID="16" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70417" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_39_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_39_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_39_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="978944"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_39_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_39_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_39_dynamic2.wav"/>
   </sample>
   <sample ID="17" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="80867" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_39_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_39_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_39_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1052672"
+          MonolithLength="81920" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_39_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_39_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_39_dynamic3.wav"/>
   </sample>
   <sample ID="18" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="43771" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_40_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_40_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_40_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1134592"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_40_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63785" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_40_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_40_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_40_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1179648"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_40_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_40_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_40_dynamic2.wav"/>
   </sample>
   <sample ID="20" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="49011" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_40_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_40_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_40_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1245184"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_40_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_40_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_40_dynamic3.wav"/>
   </sample>
   <sample ID="21" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="58337" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_41_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_41_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_41_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1294336"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_41_dynamic1.wav"/>
   </sample>
   <sample ID="22" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="86248" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_41_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_41_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_41_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1355776"
+          MonolithLength="90112" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_41_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_41_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_41_dynamic2.wav"/>
   </sample>
   <sample ID="23" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62893" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_41_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_41_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_41_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1445888"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_41_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_41_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_41_dynamic3.wav"/>
   </sample>
   <sample ID="24" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="47853" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_42_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_42_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_42_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1511424"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_42_dynamic1.wav"/>
   </sample>
   <sample ID="25" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67618" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_42_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_42_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_42_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1560576"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_42_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_42_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_42_dynamic2.wav"/>
   </sample>
   <sample ID="26" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="59777" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_42_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_42_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_42_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1630208"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_42_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_42_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_42_dynamic3.wav"/>
   </sample>
   <sample ID="27" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56131" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_43_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_43_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_43_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1691648"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_43_dynamic1.wav"/>
   </sample>
   <sample ID="28" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="76670" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_43_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_43_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_43_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1748992"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_43_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_43_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_43_dynamic2.wav"/>
   </sample>
   <sample ID="29" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61760" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_43_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_43_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_43_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1826816"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_43_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_43_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_43_dynamic3.wav"/>
   </sample>
   <sample ID="30" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53966" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_44_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_44_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_44_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1892352"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_44_dynamic1.wav"/>
   </sample>
   <sample ID="31" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69522" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_44_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_44_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_44_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1949696"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_44_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_44_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_44_dynamic2.wav"/>
   </sample>
   <sample ID="32" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61193" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_44_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_44_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_44_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2019328"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_44_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_44_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_44_dynamic3.wav"/>
   </sample>
   <sample ID="33" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="45753" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_45_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_45_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_45_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2080768"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_45_dynamic1.wav"/>
   </sample>
   <sample ID="34" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56557" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_45_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_45_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_45_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2129920"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_45_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_45_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_45_dynamic2.wav"/>
   </sample>
   <sample ID="35" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69215" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_45_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_45_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_45_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2187264"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_45_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_45_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_45_dynamic3.wav"/>
   </sample>
   <sample ID="36" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="47774" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_46_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_46_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_46_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2256896"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_46_dynamic1.wav"/>
   </sample>
   <sample ID="37" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61992" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_46_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_46_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_46_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2306048"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_46_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_46_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_46_dynamic2.wav"/>
   </sample>
   <sample ID="38" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75961" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_46_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_46_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_46_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2371584"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_46_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_46_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_46_dynamic3.wav"/>
   </sample>
   <sample ID="39" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="46448" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_47_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_47_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_47_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2449408"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_47_dynamic1.wav"/>
   </sample>
   <sample ID="40" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="54947" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_47_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_47_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_47_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2498560"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_47_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_47_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_47_dynamic2.wav"/>
   </sample>
   <sample ID="41" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75928" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_47_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_47_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_47_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2555904"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_47_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_47_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_47_dynamic3.wav"/>
   </sample>
   <sample ID="42" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="42170" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_48_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_48_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_48_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2633728"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_48_dynamic1.wav"/>
   </sample>
   <sample ID="43" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69513" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_48_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_48_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_48_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2678784"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_48_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_48_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_48_dynamic2.wav"/>
   </sample>
   <sample ID="44" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75387" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_48_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_48_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_48_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2748416"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_48_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_48_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_48_dynamic3.wav"/>
   </sample>
   <sample ID="45" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="37832" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_49_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_49_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_49_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2826240"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_49_dynamic1.wav"/>
   </sample>
   <sample ID="46" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66032" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_49_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_49_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_49_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2867200"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_49_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_49_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_49_dynamic2.wav"/>
   </sample>
   <sample ID="47" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="45045" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_49_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_49_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_49_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2936832"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_49_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_49_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_49_dynamic3.wav"/>
   </sample>
   <sample ID="48" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="38288" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_50_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_50_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_50_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2981888"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_50_dynamic1.wav"/>
   </sample>
   <sample ID="49" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="55149" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_50_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_50_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_50_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3022848"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_50_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_50_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_50_dynamic2.wav"/>
   </sample>
   <sample ID="50" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63743" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_50_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_50_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_50_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3080192"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_50_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_50_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_50_dynamic3.wav"/>
   </sample>
   <sample ID="51" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="51807" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_51_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_51_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_51_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3145728"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_51_dynamic1.wav"/>
   </sample>
   <sample ID="52" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69439" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_51_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_51_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_51_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3198976"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_51_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_51_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_51_dynamic2.wav"/>
   </sample>
   <sample ID="53" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67992" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_51_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_51_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_51_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3268608"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_51_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_51_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_51_dynamic3.wav"/>
   </sample>
   <sample ID="54" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="39134" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_52_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_52_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_52_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3338240"
+          MonolithLength="40960" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_52_dynamic1.wav"/>
   </sample>
   <sample ID="55" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64004" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_52_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_52_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_52_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3379200"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_52_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_52_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_52_dynamic2.wav"/>
   </sample>
   <sample ID="56" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70542" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_52_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_52_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_52_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3444736"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_52_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_52_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_52_dynamic3.wav"/>
   </sample>
   <sample ID="57" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48966" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_53_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_53_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_53_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3518464"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_53_dynamic1.wav"/>
   </sample>
   <sample ID="58" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53337" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_53_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_53_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_53_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3567616"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_53_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_53_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_53_dynamic2.wav"/>
   </sample>
   <sample ID="59" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66052" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_53_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_53_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_53_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3624960"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_53_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_53_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_53_dynamic3.wav"/>
   </sample>
   <sample ID="60" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="33005" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_54_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_54_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_54_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3694592"
+          MonolithLength="36864" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_54_dynamic1.wav"/>
   </sample>
   <sample ID="61" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="59199" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_54_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_54_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_54_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3731456"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_54_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_54_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_54_dynamic2.wav"/>
   </sample>
   <sample ID="62" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67992" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_54_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_54_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_54_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3792896"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_54_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_54_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_54_dynamic3.wav"/>
   </sample>
   <sample ID="63" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="52218" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_55_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_55_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_55_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3862528"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_55_dynamic1.wav"/>
   </sample>
   <sample ID="64" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="54947" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_55_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_55_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_55_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3915776"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_55_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_55_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_55_dynamic2.wav"/>
   </sample>
   <sample ID="65" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71675" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_55_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_55_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_55_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3973120"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_55_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_55_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_55_dynamic3.wav"/>
   </sample>
   <sample ID="66" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="43959" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_56_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_56_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_56_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4046848"
+          MonolithLength="45056" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_56_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_56_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_56_dynamic1.wav"/>
   </sample>
   <sample ID="67" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68313" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_56_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_56_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_56_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4091904"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_56_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_56_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_56_dynamic2.wav"/>
   </sample>
   <sample ID="68" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62893" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_56_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_56_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_56_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4161536"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_56_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_56_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_56_dynamic3.wav"/>
   </sample>
   <sample ID="69" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="59098" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_57_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_57_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_57_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4227072"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_57_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_57_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_57_dynamic1.wav"/>
   </sample>
   <sample ID="70" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65041" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_57_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_57_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_57_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4288512"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_57_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_57_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_57_dynamic2.wav"/>
   </sample>
   <sample ID="71" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="85722" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_57_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_57_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_57_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4354048"
+          MonolithLength="86016" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_57_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_57_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_57_dynamic3.wav"/>
   </sample>
   <sample ID="72" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="50258" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_58_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_58_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_58_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4440064"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_58_dynamic1.wav"/>
   </sample>
   <sample ID="73" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65816" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_58_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_58_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_58_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4493312"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_58_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_58_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_58_dynamic2.wav"/>
   </sample>
   <sample ID="74" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66009" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_58_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_58_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_58_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4562944"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_58_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_58_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_58_dynamic3.wav"/>
   </sample>
   <sample ID="75" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64389" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_59_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_59_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_59_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4632576"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_59_dynamic1.wav"/>
   </sample>
   <sample ID="76" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68432" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_59_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_59_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_59_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4698112"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_59_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_59_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_59_dynamic2.wav"/>
   </sample>
   <sample ID="77" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75075" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_59_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_59_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_59_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4767744"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_59_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_59_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_59_dynamic3.wav"/>
   </sample>
   <sample ID="78" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="55411" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_60_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_60_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_60_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4845568"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_60_dynamic1.wav"/>
   </sample>
   <sample ID="79" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="79301" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_60_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_60_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_60_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4902912"
+          MonolithLength="81920" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_60_dynamic2.wav"/>
   </sample>
   <sample ID="80" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68842" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_60_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_60_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_60_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4984832"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_60_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_60_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_60_dynamic3.wav"/>
   </sample>
   <sample ID="81" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="55962" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_61_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_61_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_61_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5054464"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_61_dynamic1.wav"/>
   </sample>
   <sample ID="82" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="78697" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_61_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_61_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_61_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5111808"
+          MonolithLength="81920" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_61_dynamic2.wav"/>
   </sample>
   <sample ID="83" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="88059" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_61_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_61_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_61_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5193728"
+          MonolithLength="90112" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_61_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_61_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_61_dynamic3.wav"/>
   </sample>
   <sample ID="84" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="55380" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_62_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_62_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_62_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5283840"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_62_dynamic1.wav"/>
   </sample>
   <sample ID="85" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77288" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_62_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_62_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_62_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5341184"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_62_dynamic2.wav"/>
   </sample>
   <sample ID="86" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67142" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_62_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_62_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_62_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5419008"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_62_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_62_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_62_dynamic3.wav"/>
   </sample>
   <sample ID="87" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="51532" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_63_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_63_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_63_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5488640"
+          MonolithLength="53248" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_63_dynamic1.wav"/>
   </sample>
   <sample ID="88" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62998" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_63_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_63_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_63_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5541888"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_63_dynamic2.wav"/>
   </sample>
   <sample ID="89" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68559" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_63_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_63_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_63_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5607424"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_63_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_63_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_63_dynamic3.wav"/>
   </sample>
   <sample ID="90" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="45817" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_64_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_64_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_64_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5677056"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_64_dynamic1.wav"/>
   </sample>
   <sample ID="91" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61187" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_64_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_64_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_64_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5726208"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_64_dynamic2.wav"/>
   </sample>
   <sample ID="92" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75320" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_64_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_64_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_64_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5787648"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_64_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_64_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_64_dynamic3.wav"/>
   </sample>
   <sample ID="93" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56688" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_65_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_65_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_65_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5865472"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_65_dynamic1.wav"/>
   </sample>
   <sample ID="94" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62596" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_65_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_65_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_65_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5922816"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_65_dynamic2.wav"/>
   </sample>
   <sample ID="95" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70542" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_65_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_65_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_65_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5988352"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_65_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_65_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_65_dynamic3.wav"/>
   </sample>
   <sample ID="96" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66948" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_66_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_66_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_66_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6062080"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_66_dynamic1.wav"/>
   </sample>
   <sample ID="97" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="47500" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_66_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_66_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_66_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6131712"
+          MonolithLength="49152" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_66_dynamic2.wav"/>
   </sample>
   <sample ID="98" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68559" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_66_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_66_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_66_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6180864"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_66_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_66_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_66_dynamic3.wav"/>
   </sample>
   <sample ID="99" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62580" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_67_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_67_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_67_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6250496"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_67_dynamic1.wav"/>
   </sample>
   <sample ID="100" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57966" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_67_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_67_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_67_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6316032"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_67_dynamic2.wav"/>
   </sample>
   <sample ID="101" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65159" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_67_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_67_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_67_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6377472"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_67_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_67_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_67_dynamic3.wav"/>
   </sample>
   <sample ID="102" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57161" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_68_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_68_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_68_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6443008"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_68_dynamic1.wav"/>
   </sample>
   <sample ID="103" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69238" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_68_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_68_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_68_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6500352"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_68_dynamic2.wav"/>
   </sample>
   <sample ID="104" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63459" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_68_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_68_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_68_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6569984"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_68_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_68_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_68_dynamic3.wav"/>
   </sample>
   <sample ID="105" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65212" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_69_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_69_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_69_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6635520"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_69_dynamic1.wav"/>
   </sample>
   <sample ID="106" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56356" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_69_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_69_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_69_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6701056"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_69_dynamic2.wav"/>
   </sample>
   <sample ID="107" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61476" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_69_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_69_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_69_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6758400"
+          MonolithLength="65536" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_69_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_69_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_69_dynamic3.wav"/>
   </sample>
   <sample ID="108" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53398" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_70_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_70_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_70_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6823936"
+          MonolithLength="57344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_70_dynamic1.wav"/>
   </sample>
   <sample ID="109" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70094" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_70_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_70_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_70_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6881280"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_70_dynamic2.wav"/>
   </sample>
   <sample ID="110" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70542" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_70_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_70_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_70_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6955008"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_70_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_70_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_70_dynamic3.wav"/>
   </sample>
   <sample ID="111" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="74338" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_71_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_71_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_71_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7028736"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_71_dynamic1.wav"/>
   </sample>
   <sample ID="112" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68634" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_71_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_71_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_71_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7106560"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_71_dynamic2.wav"/>
   </sample>
   <sample ID="113" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="80457" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_71_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_71_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_71_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7176192"
+          MonolithLength="81920" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_71_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_71_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_71_dynamic3.wav"/>
   </sample>
   <sample ID="114" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="84479" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_72_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_72_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_72_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7258112"
+          MonolithLength="86016" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_72_dynamic1.wav"/>
   </sample>
   <sample ID="115" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69640" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_72_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_72_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_72_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7344128"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_72_dynamic2.wav"/>
   </sample>
   <sample ID="116" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77559" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_72_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_72_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_72_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7417856"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_72_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_72_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_72_dynamic3.wav"/>
   </sample>
   <sample ID="117" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="78038" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_73_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_73_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_73_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7495680"
+          MonolithLength="81920" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_73_dynamic1.wav"/>
   </sample>
   <sample ID="118" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75241" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_73_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_73_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_73_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7577600"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_73_dynamic2.wav"/>
   </sample>
   <sample ID="119" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="72808" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_73_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_73_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_73_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7655424"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_73_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_73_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_73_dynamic3.wav"/>
   </sample>
   <sample ID="120" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69781" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_74_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_74_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_74_dynamic1.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7729152"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_74_dynamic1.wav"/>
   </sample>
   <sample ID="121" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="72923" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_74_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_74_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_74_dynamic2.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7802880"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_74_dynamic2.wav"/>
   </sample>
   <sample ID="122" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="85274" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_close_74_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_decca_74_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/bassoon 1/media/final/releases/bassoon1_release_hall_74_dynamic3.wav"/>
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7876608"
+          MonolithLength="86016" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_close_74_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_decca_74_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassoon1/releases/bassoon1_release_hall_74_dynamic3.wav"/>
   </sample>
 </samplemap>

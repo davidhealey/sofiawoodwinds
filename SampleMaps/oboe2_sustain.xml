@@ -1,922 +1,922 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="oboe2_sustain" SaveMode="1" RRGroupAmount="3" MicPositions="close;decca;hall;">
+<samplemap ID="oboe2_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5172"
-          SampleEnd="318595" SampleStartMod="0" LoopStart="74544" LoopEnd="224187"
+          SampleEnd="318595" SampleStartMod="5000" LoopStart="74544" LoopEnd="224187"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_58_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_58_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_58_dynamic1.wav"/>
   </sample>
   <sample ID="1" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7602"
-          SampleEnd="347114" SampleStartMod="0" LoopStart="88859" LoopEnd="234875"
+          SampleEnd="347114" SampleStartMod="5000" LoopStart="88859" LoopEnd="234875"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_58_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_58_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_58_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_58_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_58_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_58_dynamic2.wav"/>
   </sample>
   <sample ID="2" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5563"
-          SampleEnd="330643" SampleStartMod="0" LoopStart="60016" LoopEnd="206689"
+          SampleEnd="330643" SampleStartMod="5000" LoopStart="60016" LoopEnd="206689"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_58_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_58_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_58_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_58_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_58_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_58_dynamic3.wav"/>
   </sample>
   <sample ID="3" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5235"
-          SampleEnd="328582" SampleStartMod="0" LoopStart="93615" LoopEnd="239111"
+          SampleEnd="328582" SampleStartMod="5000" LoopStart="93615" LoopEnd="239111"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_59_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_59_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_59_dynamic1.wav"/>
   </sample>
   <sample ID="4" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7569"
-          SampleEnd="343864" SampleStartMod="0" LoopStart="76844" LoopEnd="235526"
+          SampleEnd="343864" SampleStartMod="5000" LoopStart="76844" LoopEnd="235526"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_59_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_59_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_59_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_59_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_59_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_59_dynamic2.wav"/>
   </sample>
   <sample ID="5" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5013"
-          SampleEnd="346177" SampleStartMod="0" LoopStart="74644" LoopEnd="233078"
+          SampleEnd="346177" SampleStartMod="5000" LoopStart="74644" LoopEnd="233078"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_59_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_59_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_59_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_59_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_59_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_59_dynamic3.wav"/>
   </sample>
   <sample ID="6" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5174"
-          SampleEnd="336945" SampleStartMod="0" LoopStart="45690" LoopEnd="220011"
+          SampleEnd="336945" SampleStartMod="5000" LoopStart="45690" LoopEnd="220011"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_60_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_60_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_60_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7447"
-          SampleEnd="361674" SampleStartMod="0" LoopStart="60082" LoopEnd="229089"
+          SampleEnd="361674" SampleStartMod="5000" LoopStart="60082" LoopEnd="229089"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_60_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_60_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_60_dynamic2.wav"/>
   </sample>
   <sample ID="8" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5562"
-          SampleEnd="344324" SampleStartMod="0" LoopStart="79444" LoopEnd="232223"
+          SampleEnd="344324" SampleStartMod="5000" LoopStart="79444" LoopEnd="232223"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_60_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_60_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_60_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_60_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_60_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_60_dynamic3.wav"/>
   </sample>
   <sample ID="9" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5224"
-          SampleEnd="335199" SampleStartMod="0" LoopStart="31261" LoopEnd="214658"
+          SampleEnd="335199" SampleStartMod="5000" LoopStart="31261" LoopEnd="214658"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_61_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_61_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_61_dynamic1.wav"/>
   </sample>
   <sample ID="10" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7552"
-          SampleEnd="365032" SampleStartMod="0" LoopStart="88978" LoopEnd="234881"
+          SampleEnd="365032" SampleStartMod="5000" LoopStart="88978" LoopEnd="234881"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_61_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_61_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_61_dynamic2.wav"/>
   </sample>
   <sample ID="11" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6270"
-          SampleEnd="356529" SampleStartMod="0" LoopStart="38489" LoopEnd="213540"
+          SampleEnd="356529" SampleStartMod="5000" LoopStart="38489" LoopEnd="213540"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_61_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_61_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_61_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_61_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_61_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_61_dynamic3.wav"/>
   </sample>
   <sample ID="12" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5228"
-          SampleEnd="339671" SampleStartMod="0" LoopStart="45634" LoopEnd="210344"
+          SampleEnd="339671" SampleStartMod="5000" LoopStart="45634" LoopEnd="210344"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_62_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_62_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_62_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7424"
-          SampleEnd="355791" SampleStartMod="0" LoopStart="77071" LoopEnd="234232"
+          SampleEnd="355791" SampleStartMod="5000" LoopStart="77071" LoopEnd="234232"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_62_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_62_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_62_dynamic2.wav"/>
   </sample>
   <sample ID="14" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5589"
-          SampleEnd="350738" SampleStartMod="0" LoopStart="99368" LoopEnd="230664"
+          SampleEnd="350738" SampleStartMod="5000" LoopStart="99368" LoopEnd="230664"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_62_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_62_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_62_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_62_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_62_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_62_dynamic3.wav"/>
   </sample>
   <sample ID="15" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5241"
-          SampleEnd="326636" SampleStartMod="0" LoopStart="31237" LoopEnd="237845"
+          SampleEnd="326636" SampleStartMod="5000" LoopStart="31237" LoopEnd="237845"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_63_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_63_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_63_dynamic1.wav"/>
   </sample>
   <sample ID="16" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7622"
-          SampleEnd="350395" SampleStartMod="0" LoopStart="38605" LoopEnd="233123"
+          SampleEnd="350395" SampleStartMod="5000" LoopStart="38605" LoopEnd="233123"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_63_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_63_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_63_dynamic2.wav"/>
   </sample>
   <sample ID="17" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3461"
-          SampleEnd="446140" SampleStartMod="0" LoopStart="65008" LoopEnd="316761"
+          SampleEnd="446140" SampleStartMod="5000" LoopStart="65008" LoopEnd="316761"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_63_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_63_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_63_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_63_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_63_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_63_dynamic3.wav"/>
   </sample>
   <sample ID="18" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5273"
-          SampleEnd="349947" SampleStartMod="0" LoopStart="112865" LoopEnd="263816"
+          SampleEnd="349947" SampleStartMod="5000" LoopStart="112865" LoopEnd="263816"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_64_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_64_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_64_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7520"
-          SampleEnd="324207" SampleStartMod="0" LoopStart="91372" LoopEnd="242380"
+          SampleEnd="324207" SampleStartMod="5000" LoopStart="91372" LoopEnd="242380"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_64_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_64_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_64_dynamic2.wav"/>
   </sample>
   <sample ID="20" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5517"
-          SampleEnd="345143" SampleStartMod="0" LoopStart="81775" LoopEnd="242447"
+          SampleEnd="345143" SampleStartMod="5000" LoopStart="81775" LoopEnd="242447"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_64_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_64_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_64_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_64_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_64_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_64_dynamic3.wav"/>
   </sample>
   <sample ID="21" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5297"
-          SampleEnd="357477" SampleStartMod="0" LoopStart="103458" LoopEnd="259104"
+          SampleEnd="357477" SampleStartMod="7000" LoopStart="103458" LoopEnd="259104"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_65_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_65_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_65_dynamic1.wav"/>
   </sample>
   <sample ID="22" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7693"
-          SampleEnd="338158" SampleStartMod="0" LoopStart="79418" LoopEnd="225715"
+          SampleEnd="338158" SampleStartMod="5000" LoopStart="79418" LoopEnd="225715"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_65_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_65_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_65_dynamic2.wav"/>
   </sample>
   <sample ID="23" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5538"
-          SampleEnd="359595" SampleStartMod="0" LoopStart="39289" LoopEnd="214443"
+          SampleEnd="359595" SampleStartMod="5000" LoopStart="39289" LoopEnd="214443"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_65_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_65_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_65_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_65_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_65_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_65_dynamic3.wav"/>
   </sample>
   <sample ID="24" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5215"
-          SampleEnd="339298" SampleStartMod="0" LoopStart="28803" LoopEnd="251657"
+          SampleEnd="339298" SampleStartMod="5000" LoopStart="28803" LoopEnd="251657"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_66_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_66_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_66_dynamic1.wav"/>
   </sample>
   <sample ID="25" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7592"
-          SampleEnd="345317" SampleStartMod="0" LoopStart="94129" LoopEnd="213269"
+          SampleEnd="345317" SampleStartMod="5000" LoopStart="94129" LoopEnd="213269"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_66_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_66_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_66_dynamic2.wav"/>
   </sample>
   <sample ID="26" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5596"
-          SampleEnd="361788" SampleStartMod="0" LoopStart="89011" LoopEnd="243118"
+          SampleEnd="361788" SampleStartMod="5000" LoopStart="89011" LoopEnd="243118"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_66_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_66_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_66_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_66_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_66_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_66_dynamic3.wav"/>
   </sample>
   <sample ID="27" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5060"
-          SampleEnd="337246" SampleStartMod="0" LoopStart="36035" LoopEnd="199348"
+          SampleEnd="337246" SampleStartMod="5000" LoopStart="36035" LoopEnd="199348"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_67_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_67_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_67_dynamic1.wav"/>
   </sample>
   <sample ID="28" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7626"
-          SampleEnd="349445" SampleStartMod="0" LoopStart="67989" LoopEnd="211165"
+          SampleEnd="349445" SampleStartMod="5000" LoopStart="67989" LoopEnd="211165"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_67_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_67_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_67_dynamic2.wav"/>
   </sample>
   <sample ID="29" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5588"
-          SampleEnd="360113" SampleStartMod="0" LoopStart="133958" LoopEnd="256896"
+          SampleEnd="360113" SampleStartMod="5000" LoopStart="133958" LoopEnd="256896"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_67_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_67_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_67_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_67_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_67_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_67_dynamic3.wav"/>
   </sample>
   <sample ID="30" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5204"
-          SampleEnd="339984" SampleStartMod="0" LoopStart="93634" LoopEnd="243294"
+          SampleEnd="339984" SampleStartMod="5000" LoopStart="93634" LoopEnd="243294"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_68_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_68_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_68_dynamic1.wav"/>
   </sample>
   <sample ID="31" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7655"
-          SampleEnd="349873" SampleStartMod="0" LoopStart="76951" LoopEnd="226327"
+          SampleEnd="349873" SampleStartMod="5000" LoopStart="76951" LoopEnd="226327"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_68_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_68_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_68_dynamic2.wav"/>
   </sample>
   <sample ID="32" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5563"
-          SampleEnd="334781" SampleStartMod="0" LoopStart="66728" LoopEnd="189330"
+          SampleEnd="334781" SampleStartMod="5000" LoopStart="66728" LoopEnd="189330"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_68_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_68_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_68_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_68_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_68_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_68_dynamic3.wav"/>
   </sample>
   <sample ID="33" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4980"
-          SampleEnd="344358" SampleStartMod="0" LoopStart="64925" LoopEnd="248158"
+          SampleEnd="344358" SampleStartMod="5000" LoopStart="64925" LoopEnd="248158"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_69_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_69_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_69_dynamic1.wav"/>
   </sample>
   <sample ID="34" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7582"
-          SampleEnd="361450" SampleStartMod="0" LoopStart="60051" LoopEnd="231626"
+          SampleEnd="361450" SampleStartMod="5000" LoopStart="60051" LoopEnd="231626"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_69_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_69_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_69_dynamic2.wav"/>
   </sample>
   <sample ID="35" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5762"
-          SampleEnd="362411" SampleStartMod="0" LoopStart="110505" LoopEnd="258230"
+          SampleEnd="362411" SampleStartMod="5000" LoopStart="110505" LoopEnd="258230"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_69_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_69_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_69_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_69_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_69_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_69_dynamic3.wav"/>
   </sample>
   <sample ID="36" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5082"
-          SampleEnd="345531" SampleStartMod="0" LoopStart="21620" LoopEnd="218459"
+          SampleEnd="345531" SampleStartMod="5000" LoopStart="21620" LoopEnd="218459"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_70_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_70_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_70_dynamic1.wav"/>
   </sample>
   <sample ID="37" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7619"
-          SampleEnd="378583" SampleStartMod="0" LoopStart="68157" LoopEnd="222075"
+          SampleEnd="378583" SampleStartMod="5000" LoopStart="68157" LoopEnd="222075"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_70_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_70_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_70_dynamic2.wav"/>
   </sample>
   <sample ID="38" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5522"
-          SampleEnd="369321" SampleStartMod="0" LoopStart="65359" LoopEnd="216695"
+          SampleEnd="369321" SampleStartMod="5000" LoopStart="65359" LoopEnd="216695"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_70_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_70_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_70_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_70_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_70_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_70_dynamic3.wav"/>
   </sample>
   <sample ID="39" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5028"
-          SampleEnd="377590" SampleStartMod="0" LoopStart="165874" LoopEnd="306272"
+          SampleEnd="377590" SampleStartMod="5000" LoopStart="165874" LoopEnd="306272"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_71_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_71_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_71_dynamic1.wav"/>
   </sample>
   <sample ID="40" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7621"
-          SampleEnd="366924" SampleStartMod="0" LoopStart="120206" LoopEnd="243380"
+          SampleEnd="366924" SampleStartMod="5000" LoopStart="120206" LoopEnd="243380"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_71_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_71_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_71_dynamic2.wav"/>
   </sample>
   <sample ID="41" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5195"
-          SampleEnd="360636" SampleStartMod="0" LoopStart="129477" LoopEnd="250121"
+          SampleEnd="360636" SampleStartMod="5000" LoopStart="129477" LoopEnd="250121"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_71_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_71_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_71_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_71_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_71_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_71_dynamic3.wav"/>
   </sample>
   <sample ID="42" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5097"
-          SampleEnd="318012" SampleStartMod="0" LoopStart="64885" LoopEnd="217124"
+          SampleEnd="318012" SampleStartMod="5000" LoopStart="64885" LoopEnd="217124"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_72_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_72_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_72_dynamic1.wav"/>
   </sample>
   <sample ID="43" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7592"
-          SampleEnd="369266" SampleStartMod="0" LoopStart="53290" LoopEnd="209043"
+          SampleEnd="369266" SampleStartMod="5000" LoopStart="53290" LoopEnd="209043"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_72_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_72_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_72_dynamic2.wav"/>
   </sample>
   <sample ID="44" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5594"
-          SampleEnd="354547" SampleStartMod="0" LoopStart="50658" LoopEnd="217026"
+          SampleEnd="354547" SampleStartMod="5000" LoopStart="50658" LoopEnd="217026"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_72_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_72_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_72_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_72_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_72_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_72_dynamic3.wav"/>
   </sample>
   <sample ID="45" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5102"
-          SampleEnd="324000" SampleStartMod="0" LoopStart="36016" LoopEnd="198547"
+          SampleEnd="324000" SampleStartMod="5000" LoopStart="36016" LoopEnd="198547"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_73_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_73_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_73_dynamic1.wav"/>
   </sample>
   <sample ID="46" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7551"
-          SampleEnd="356478" SampleStartMod="0" LoopStart="52906" LoopEnd="241847"
+          SampleEnd="356478" SampleStartMod="5000" LoopStart="52906" LoopEnd="241847"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_73_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_73_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_73_dynamic2.wav"/>
   </sample>
   <sample ID="47" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5541"
-          SampleEnd="363122" SampleStartMod="0" LoopStart="65527" LoopEnd="244652"
+          SampleEnd="363122" SampleStartMod="5000" LoopStart="65527" LoopEnd="244652"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_73_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_73_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_73_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_73_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_73_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_73_dynamic3.wav"/>
   </sample>
   <sample ID="48" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5267"
-          SampleEnd="340241" SampleStartMod="0" LoopStart="67275" LoopEnd="226346"
+          SampleEnd="340241" SampleStartMod="5000" LoopStart="67275" LoopEnd="226346"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_74_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_74_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_74_dynamic1.wav"/>
   </sample>
   <sample ID="49" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7584"
-          SampleEnd="359964" SampleStartMod="0" LoopStart="16808" LoopEnd="213730"
+          SampleEnd="359964" SampleStartMod="5000" LoopStart="16808" LoopEnd="213730"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_74_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_74_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_74_dynamic2.wav"/>
   </sample>
   <sample ID="50" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5553"
-          SampleEnd="357899" SampleStartMod="0" LoopStart="50695" LoopEnd="254428"
+          SampleEnd="357899" SampleStartMod="5000" LoopStart="50695" LoopEnd="254428"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_74_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_74_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_74_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_74_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_74_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_74_dynamic3.wav"/>
   </sample>
   <sample ID="51" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5034"
-          SampleEnd="339665" SampleStartMod="0" LoopStart="43244" LoopEnd="210350"
+          SampleEnd="339665" SampleStartMod="5000" LoopStart="43244" LoopEnd="210350"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_75_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_75_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_75_dynamic1.wav"/>
   </sample>
   <sample ID="52" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7629"
-          SampleEnd="410237" SampleStartMod="0" LoopStart="48169" LoopEnd="269634"
+          SampleEnd="410237" SampleStartMod="5000" LoopStart="48169" LoopEnd="269634"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_75_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_75_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_75_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_75_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_75_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_75_dynamic2.wav"/>
   </sample>
   <sample ID="53" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5638"
-          SampleEnd="362371" SampleStartMod="0" LoopStart="71126" LoopEnd="223013"
+          SampleEnd="362371" SampleStartMod="5000" LoopStart="71126" LoopEnd="223013"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_75_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_75_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_75_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_75_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_75_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_75_dynamic3.wav"/>
   </sample>
   <sample ID="54" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5132"
-          SampleEnd="338879" SampleStartMod="0" LoopStart="21628" LoopEnd="240897"
+          SampleEnd="338879" SampleStartMod="5000" LoopStart="21628" LoopEnd="240897"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_76_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_76_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_76_dynamic1.wav"/>
   </sample>
   <sample ID="55" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7572"
-          SampleEnd="348433" SampleStartMod="0" LoopStart="39563" LoopEnd="220525"
+          SampleEnd="348433" SampleStartMod="5000" LoopStart="39563" LoopEnd="220525"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_76_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_76_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_76_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_76_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_76_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_76_dynamic2.wav"/>
   </sample>
   <sample ID="56" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5601"
-          SampleEnd="374977" SampleStartMod="0" LoopStart="52313" LoopEnd="254932"
+          SampleEnd="374977" SampleStartMod="5000" LoopStart="52313" LoopEnd="254932"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_76_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_76_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_76_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_76_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_76_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_76_dynamic3.wav"/>
   </sample>
   <sample ID="57" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5061"
-          SampleEnd="349981" SampleStartMod="0" LoopStart="16816" LoopEnd="242008"
+          SampleEnd="349981" SampleStartMod="5000" LoopStart="16816" LoopEnd="242008"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_77_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_77_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_77_dynamic1.wav"/>
   </sample>
   <sample ID="58" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7586"
-          SampleEnd="357184" SampleStartMod="0" LoopStart="24061" LoopEnd="230586"
+          SampleEnd="357184" SampleStartMod="5000" LoopStart="24061" LoopEnd="230586"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_77_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_77_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_77_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_77_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_77_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_77_dynamic2.wav"/>
   </sample>
   <sample ID="59" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5554"
-          SampleEnd="367319" SampleStartMod="0" LoopStart="50902" LoopEnd="233941"
+          SampleEnd="367319" SampleStartMod="5000" LoopStart="50902" LoopEnd="233941"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_77_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_77_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_77_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_77_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_77_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_77_dynamic3.wav"/>
   </sample>
   <sample ID="60" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5080"
-          SampleEnd="353074" SampleStartMod="0" LoopStart="108246" LoopEnd="256806"
+          SampleEnd="353074" SampleStartMod="5000" LoopStart="108246" LoopEnd="256806"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_78_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_78_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_78_dynamic1.wav"/>
   </sample>
   <sample ID="61" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7424"
-          SampleEnd="314991" SampleStartMod="0" LoopStart="88922" LoopEnd="194971"
+          SampleEnd="314991" SampleStartMod="5000" LoopStart="88922" LoopEnd="194971"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_78_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_78_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_78_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_78_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_78_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_78_dynamic2.wav"/>
   </sample>
   <sample ID="62" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5686"
-          SampleEnd="373408" SampleStartMod="0" LoopStart="145125" LoopEnd="260395"
+          SampleEnd="373408" SampleStartMod="5000" LoopStart="145125" LoopEnd="260395"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_78_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_78_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_78_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_78_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_78_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_78_dynamic3.wav"/>
   </sample>
   <sample ID="63" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5534"
-          SampleEnd="326379" SampleStartMod="0" LoopStart="50558" LoopEnd="224249"
+          SampleEnd="326379" SampleStartMod="5000" LoopStart="50558" LoopEnd="224249"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_79_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_79_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_79_dynamic1.wav"/>
   </sample>
   <sample ID="64" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7596"
-          SampleEnd="362184" SampleStartMod="0" LoopStart="82218" LoopEnd="246829"
+          SampleEnd="362184" SampleStartMod="5000" LoopStart="82218" LoopEnd="246829"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_79_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_79_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_79_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_79_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_79_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_79_dynamic2.wav"/>
   </sample>
   <sample ID="65" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5584"
-          SampleEnd="358428" SampleStartMod="0" LoopStart="50477" LoopEnd="208297"
+          SampleEnd="358428" SampleStartMod="5000" LoopStart="50477" LoopEnd="208297"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_79_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_79_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_79_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_79_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_79_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_79_dynamic3.wav"/>
   </sample>
   <sample ID="66" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3186"
-          SampleEnd="303213" SampleStartMod="0" LoopStart="36875" LoopEnd="191068"
+          SampleEnd="303213" SampleStartMod="5000" LoopStart="36875" LoopEnd="191068"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_80_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_80_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_80_dynamic1.wav"/>
   </sample>
   <sample ID="67" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7589"
-          SampleEnd="345247" SampleStartMod="0" LoopStart="49118" LoopEnd="227187"
+          SampleEnd="345247" SampleStartMod="5000" LoopStart="49118" LoopEnd="227187"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_80_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_80_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_80_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_80_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_80_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_80_dynamic2.wav"/>
   </sample>
   <sample ID="68" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5682"
-          SampleEnd="334245" SampleStartMod="0" LoopStart="62386" LoopEnd="219469"
+          SampleEnd="334245" SampleStartMod="5000" LoopStart="62386" LoopEnd="219469"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_80_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_80_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_80_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_80_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_80_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_80_dynamic3.wav"/>
   </sample>
   <sample ID="69" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1505"
-          SampleEnd="324991" SampleStartMod="0" LoopStart="31216" LoopEnd="178448"
+          SampleEnd="324991" SampleStartMod="5000" LoopStart="31216" LoopEnd="178448"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_81_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_81_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_81_dynamic1.wav"/>
   </sample>
   <sample ID="70" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7638"
-          SampleEnd="352081" SampleStartMod="0" LoopStart="76998" LoopEnd="224593"
+          SampleEnd="352081" SampleStartMod="5000" LoopStart="76998" LoopEnd="224593"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_81_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_81_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_81_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_81_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_81_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_81_dynamic2.wav"/>
   </sample>
   <sample ID="71" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5678"
-          SampleEnd="335250" SampleStartMod="0" LoopStart="36608" LoopEnd="236135"
+          SampleEnd="335250" SampleStartMod="5000" LoopStart="36608" LoopEnd="236135"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_81_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_81_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_81_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_81_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_81_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_81_dynamic3.wav"/>
   </sample>
   <sample ID="72" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5110"
-          SampleEnd="327789" SampleStartMod="0" LoopStart="21613" LoopEnd="252062"
+          SampleEnd="327789" SampleStartMod="5000" LoopStart="21613" LoopEnd="252062"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_82_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_82_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_82_dynamic1.wav"/>
   </sample>
   <sample ID="73" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7695"
-          SampleEnd="372842" SampleStartMod="0" LoopStart="24000" LoopEnd="251671"
+          SampleEnd="372842" SampleStartMod="5000" LoopStart="24000" LoopEnd="251671"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_82_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_82_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_82_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_82_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_82_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_82_dynamic2.wav"/>
   </sample>
   <sample ID="74" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5545"
-          SampleEnd="344318" SampleStartMod="0" LoopStart="42593" LoopEnd="207660"
+          SampleEnd="344318" SampleStartMod="5000" LoopStart="42593" LoopEnd="207660"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_82_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_82_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_82_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_82_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_82_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_82_dynamic3.wav"/>
   </sample>
   <sample ID="75" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5216"
-          SampleEnd="343216" SampleStartMod="0" LoopStart="64848" LoopEnd="214432"
+          SampleEnd="343216" SampleStartMod="5000" LoopStart="64848" LoopEnd="214432"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_83_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_83_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_83_dynamic1.wav"/>
   </sample>
   <sample ID="76" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7612"
-          SampleEnd="356176" SampleStartMod="0" LoopStart="109732" LoopEnd="255430"
+          SampleEnd="356176" SampleStartMod="5000" LoopStart="109732" LoopEnd="255430"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_83_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_83_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_83_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_83_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_83_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_83_dynamic2.wav"/>
   </sample>
   <sample ID="77" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5496"
-          SampleEnd="340963" SampleStartMod="0" LoopStart="50955" LoopEnd="223948"
+          SampleEnd="340963" SampleStartMod="5000" LoopStart="50955" LoopEnd="223948"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_83_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_83_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_83_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_83_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_83_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_83_dynamic3.wav"/>
   </sample>
   <sample ID="78" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1995"
-          SampleEnd="329988" SampleStartMod="0" LoopStart="62460" LoopEnd="241275"
+          SampleEnd="329988" SampleStartMod="5000" LoopStart="62460" LoopEnd="241275"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_84_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_84_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_84_dynamic1.wav"/>
   </sample>
   <sample ID="79" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7559"
-          SampleEnd="353947" SampleStartMod="0" LoopStart="45915" LoopEnd="238505"
+          SampleEnd="353947" SampleStartMod="5000" LoopStart="45915" LoopEnd="238505"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_84_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_84_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_84_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_84_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_84_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_84_dynamic2.wav"/>
   </sample>
   <sample ID="80" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5636"
-          SampleEnd="348844" SampleStartMod="0" LoopStart="31555" LoopEnd="240009"
+          SampleEnd="348844" SampleStartMod="5000" LoopStart="31555" LoopEnd="240009"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_84_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_84_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_84_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_84_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_84_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_84_dynamic3.wav"/>
   </sample>
   <sample ID="81" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5450"
-          SampleEnd="334043" SampleStartMod="0" LoopStart="39253" LoopEnd="263613"
+          SampleEnd="334043" SampleStartMod="5000" LoopStart="39253" LoopEnd="263613"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_85_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_85_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_85_dynamic1.wav"/>
   </sample>
   <sample ID="82" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7012"
-          SampleEnd="345419" SampleStartMod="0" LoopStart="81757" LoopEnd="241943"
+          SampleEnd="345419" SampleStartMod="5000" LoopStart="81757" LoopEnd="241943"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_85_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_85_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_85_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_85_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_85_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_85_dynamic2.wav"/>
   </sample>
   <sample ID="83" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5340"
-          SampleEnd="343571" SampleStartMod="0" LoopStart="93677" LoopEnd="243988"
+          SampleEnd="343571" SampleStartMod="5000" LoopStart="93677" LoopEnd="243988"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_85_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_85_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_85_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_85_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_85_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_85_dynamic3.wav"/>
   </sample>
   <sample ID="84" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5101"
-          SampleEnd="346347" SampleStartMod="0" LoopStart="50543" LoopEnd="265071"
+          SampleEnd="346347" SampleStartMod="5000" LoopStart="50543" LoopEnd="265071"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_86_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_86_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_86_dynamic1.wav"/>
   </sample>
   <sample ID="85" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7588"
-          SampleEnd="344884" SampleStartMod="0" LoopStart="57805" LoopEnd="244593"
+          SampleEnd="344884" SampleStartMod="5000" LoopStart="57805" LoopEnd="244593"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_86_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_86_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_86_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_86_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_86_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_86_dynamic2.wav"/>
   </sample>
   <sample ID="86" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5580"
-          SampleEnd="354100" SampleStartMod="0" LoopStart="22004" LoopEnd="262922"
+          SampleEnd="354100" SampleStartMod="5000" LoopStart="22004" LoopEnd="262922"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_86_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_86_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_86_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_86_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_86_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_86_dynamic3.wav"/>
   </sample>
   <sample ID="87" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5134"
-          SampleEnd="349733" SampleStartMod="0" LoopStart="102013" LoopEnd="247847"
+          SampleEnd="349733" SampleStartMod="5000" LoopStart="102013" LoopEnd="247847"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_87_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_87_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_87_dynamic1.wav"/>
   </sample>
   <sample ID="88" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7611"
-          SampleEnd="347091" SampleStartMod="0" LoopStart="38869" LoopEnd="228573"
+          SampleEnd="347091" SampleStartMod="5000" LoopStart="38869" LoopEnd="228573"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_87_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_87_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_87_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_87_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_87_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_87_dynamic2.wav"/>
   </sample>
   <sample ID="89" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5614"
-          SampleEnd="346771" SampleStartMod="0" LoopStart="72363" LoopEnd="247459"
+          SampleEnd="346771" SampleStartMod="5000" LoopStart="72363" LoopEnd="247459"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_87_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_87_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_87_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_87_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_87_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_87_dynamic3.wav"/>
   </sample>
   <sample ID="90" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4948"
-          SampleEnd="343611" SampleStartMod="0" LoopStart="60013" LoopEnd="232945"
+          SampleEnd="343611" SampleStartMod="5000" LoopStart="60013" LoopEnd="232945"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_88_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_88_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_88_dynamic1.wav"/>
   </sample>
   <sample ID="91" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7526"
-          SampleEnd="344230" SampleStartMod="0" LoopStart="38412" LoopEnd="247244"
+          SampleEnd="344230" SampleStartMod="5000" LoopStart="38412" LoopEnd="247244"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_88_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_88_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_88_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_88_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_88_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_88_dynamic2.wav"/>
   </sample>
   <sample ID="92" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5611"
-          SampleEnd="359766" SampleStartMod="0" LoopStart="50852" LoopEnd="237956"
+          SampleEnd="359766" SampleStartMod="5000" LoopStart="50852" LoopEnd="237956"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_88_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_88_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_88_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_88_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_88_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_88_dynamic3.wav"/>
   </sample>
   <sample ID="93" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5088"
-          SampleEnd="351562" SampleStartMod="0" LoopStart="36024" LoopEnd="259991"
+          SampleEnd="351562" SampleStartMod="5000" LoopStart="36024" LoopEnd="259991"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_89_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_89_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_89_dynamic1.wav"/>
   </sample>
   <sample ID="94" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7530"
-          SampleEnd="350120" SampleStartMod="0" LoopStart="16828" LoopEnd="265585"
+          SampleEnd="350120" SampleStartMod="5000" LoopStart="16828" LoopEnd="265585"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_89_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_89_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_89_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_89_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_89_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_89_dynamic2.wav"/>
   </sample>
   <sample ID="95" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5685"
-          SampleEnd="353010" SampleStartMod="0" LoopStart="50548" LoopEnd="262656"
+          SampleEnd="353010" SampleStartMod="5000" LoopStart="50548" LoopEnd="262656"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_89_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_89_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_89_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_89_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_89_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_89_dynamic3.wav"/>
   </sample>
   <sample ID="96" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5413"
-          SampleEnd="343150" SampleStartMod="0" LoopStart="46009" LoopEnd="251283"
+          SampleEnd="343150" SampleStartMod="5000" LoopStart="46009" LoopEnd="251283"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_90_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_90_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_90_dynamic1.wav"/>
   </sample>
   <sample ID="97" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7613"
-          SampleEnd="323094" SampleStartMod="0" LoopStart="33257" LoopEnd="228219"
+          SampleEnd="323094" SampleStartMod="5000" LoopStart="33257" LoopEnd="228219"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_90_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_90_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_90_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_90_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_90_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_90_dynamic2.wav"/>
   </sample>
   <sample ID="98" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5461"
-          SampleEnd="353001" SampleStartMod="0" LoopStart="116162" LoopEnd="262664"
+          SampleEnd="353001" SampleStartMod="5000" LoopStart="116162" LoopEnd="262664"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_90_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_90_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_90_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_90_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_90_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_90_dynamic3.wav"/>
   </sample>
   <sample ID="99" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5110"
-          SampleEnd="304634" SampleStartMod="0" LoopStart="32226" LoopEnd="245585"
+          SampleEnd="304634" SampleStartMod="5000" LoopStart="32226" LoopEnd="245585"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_91_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_91_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_91_dynamic1.wav"/>
   </sample>
   <sample ID="100" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7488"
-          SampleEnd="342019" SampleStartMod="0" LoopStart="38459" LoopEnd="237052"
+          SampleEnd="342019" SampleStartMod="5000" LoopStart="38459" LoopEnd="237052"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_91_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_91_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_91_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_91_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_91_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_91_dynamic2.wav"/>
   </sample>
   <sample ID="101" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5281"
-          SampleEnd="314572" SampleStartMod="0" LoopStart="109973" LoopEnd="248759"
+          SampleEnd="314572" SampleStartMod="5000" LoopStart="109973" LoopEnd="248759"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_close_91_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_decca_91_dynamic3.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Woodwind/Sofia Woodwinds/Sessions/oboe 2/media/final/sustain/oboe2_sustain_hall_91_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_close_91_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_decca_91_dynamic3.wav"/>
+    <file FileName="{PROJECT_FOLDER}oboe2/sustain/oboe2_sustain_hall_91_dynamic3.wav"/>
   </sample>
 </samplemap>
