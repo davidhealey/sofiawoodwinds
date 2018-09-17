@@ -34,5 +34,5 @@ namespace Theme
 	const var C4 = 0xff525252;
 	const var C5 = 0xff7a7a7a;
 	const var C6 = 0xffffffff;	
-	const var F = 0xff7ba359; //Feature colour
+	const var F = 0xff5185ab; //Feature colour
 }

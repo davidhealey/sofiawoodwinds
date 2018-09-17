@@ -26,19 +26,19 @@ namespace Manifest
 	        range: [74, 105],
 	        gain: 
             {
-                noise:-37.0
+                release:-6.0
             },
             legatoSettings:
 		    {
                 bendTime:-15,
                 minBend:5,
                 maxBend:30,
-                fadeTime:60
+                fadeTime:80
 		    },
 			vibratoSettings:
 		    {
-                gain:0.25,
-                pitch:-0.10
+                gain:0.30,
+                pitch:-0.15
 		    }
 	    },
 		"Sofia Woodwinds: Concert Flute I":
@@ -47,14 +47,14 @@ namespace Manifest
             range:[60, 96],
             gain: 
             {
-                noise:-38.0
+                release:-6.0
             },
             legatoSettings:
             {
                 bendTime:-15,
                 minBend:5,
                 maxBend:30,
-                fadeTime:60
+                fadeTime:80
             },
             vibratoSettings:
             {
@@ -68,14 +68,14 @@ namespace Manifest
             range:[60, 96],
 	        gain: 
             {
-                noise:-38.0
+                release:-6.0
             },
             legatoSettings:
             {
                 bendTime:-15,
                 minBend:5,
                 maxBend:30,
-                fadeTime:60
+                fadeTime:80
             },
             vibratoSettings:
             {
@@ -89,15 +89,14 @@ namespace Manifest
 			range: [55, 91],
 			gain: 
             {
-                release:-15.0,
-                noise:-40.0
+                release:-9.0
             },
 			legatoSettings:
 		    {
                 bendTime:-15,
                 minBend:10,
                 maxBend:30,
-                fadeTime:60
+                fadeTime:80
 		    },
 			vibratoSettings:
 		    {
@@ -111,15 +110,14 @@ namespace Manifest
 	        range: [58, 91],
 	        gain: 
             {
-                release:-3.0,
-                noise:-40.0
+                release:-3.0
             },
             legatoSettings:
 		    {
-                bendTime:0,
+                bendTime:-20,
                 minBend:30,
-                maxBend:60,
-                fadeTime:40
+                maxBend:70,
+                fadeTime:50
 		    },
 			vibratoSettings:
 		    {
@@ -133,15 +131,14 @@ namespace Manifest
 	        range: [58, 91],
 	        gain: 
             {
-                release:-3.0,
-                noise:-40.0
+                release:-3.0
             },
             legatoSettings:
 		    {
-                bendTime:0,
+                bendTime:-20,
                 minBend:30,
-                maxBend:60,
-                fadeTime:40
+                maxBend:70,
+                fadeTime:50
 		    },
 			vibratoSettings:
 		    {
@@ -155,12 +152,11 @@ namespace Manifest
 	        range: [52, 83],
 	        gain: 
             {
-                release:-3.0,
-                noise:-35.0
+                release:-3.0
             },
             legatoSettings:
 		    {
-                bendTime:0,
+                bendTime:20,
                 minBend:30,
                 maxBend:60,
                 fadeTime:40
@@ -177,15 +173,14 @@ namespace Manifest
 	        range: [50, 91],
 	        gain: 
             {
-                release:-6.0,
-                noise:-45.0
+                release:-6.0
             },
             legatoSettings:
 		    {
                 bendTime:-15,
                 minBend:20,
                 maxBend:40,
-                fadeTime:50
+                fadeTime:40
 		    },
 			vibratoSettings:
 		    {
@@ -199,15 +194,14 @@ namespace Manifest
 	        range: [50, 91],
 	        gain: 
             {
-                release:-6.0,
-                noise:-45.0
+                release:-6.0
             },
             legatoSettings:
 		    {
                 bendTime:-15,
                 minBend:20,
                 maxBend:40,
-                fadeTime:50
+                fadeTime:30
 		    },
 			vibratoSettings:
 		    {
@@ -221,8 +215,7 @@ namespace Manifest
 	        range: [34, 75],
 	        gain: 
             {
-                release:-6.0,
-                noise:-45.0
+                release:-6.0
             },
             legatoSettings:
 		    {
@@ -243,7 +236,7 @@ namespace Manifest
 	        range: [34, 74],
 	        gain: 
             {
-                noise:-50.0
+                release:0.0
             },
             legatoSettings:
 		    {
@@ -264,7 +257,7 @@ namespace Manifest
 	        range: [34, 74],
 	        gain: 
             {
-                noise:-52.0
+                release:0.0
             },
             legatoSettings:
 		    {
@@ -285,7 +278,7 @@ namespace Manifest
 	        range: [22, 55],
 	        gain:
             {
-                noise:-52.0
+                release:0.0
             },
             legatoSettings:
 		    {

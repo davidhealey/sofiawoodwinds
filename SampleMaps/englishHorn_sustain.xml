@@ -5,7 +5,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3610"
           SampleEnd="340319" SampleStartMod="7000" LoopStart="82077" LoopEnd="236325"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_52_dynamic1.wav"/>
@@ -14,7 +15,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="346822" SampleStartMod="5000" LoopStart="74765" LoopEnd="221950"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="344064"
+          MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_52_dynamic2.wav"/>
@@ -23,7 +25,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5670"
           SampleEnd="355236" SampleStartMod="5000" LoopStart="67868" LoopEnd="239904"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="692224"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_52_dynamic3.wav"/>
@@ -32,7 +35,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4113"
           SampleEnd="329515" SampleStartMod="7000" LoopStart="69880" LoopEnd="235506"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1048576"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_53_dynamic1.wav"/>
@@ -41,7 +45,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5613"
           SampleEnd="342321" SampleStartMod="5000" LoopStart="55535" LoopEnd="200163"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1380352"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_53_dynamic2.wav"/>
@@ -50,7 +55,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5194"
           SampleEnd="379258" SampleStartMod="5000" LoopStart="90682" LoopEnd="235227"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1724416"
+          MonolithLength="380928" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_53_dynamic3.wav"/>
@@ -59,7 +65,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4384"
           SampleEnd="316403" SampleStartMod="7000" LoopStart="73858" LoopEnd="225670"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2105344"
+          MonolithLength="319488" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_54_dynamic1.wav"/>
@@ -68,7 +75,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5777"
           SampleEnd="333584" SampleStartMod="5000" LoopStart="33633" LoopEnd="204677"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2424832"
+          MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_54_dynamic2.wav"/>
@@ -77,7 +85,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5623"
           SampleEnd="358310" SampleStartMod="5000" LoopStart="76054" LoopEnd="237197"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2760704"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_54_dynamic3.wav"/>
@@ -86,7 +95,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3403"
           SampleEnd="285968" SampleStartMod="7000" LoopStart="40845" LoopEnd="189120"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3121152"
+          MonolithLength="286720" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_55_dynamic1.wav"/>
@@ -95,7 +105,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="331331" SampleStartMod="5000" LoopStart="67385" LoopEnd="212594"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3407872"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_55_dynamic2.wav"/>
@@ -104,7 +115,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5565"
           SampleEnd="323920" SampleStartMod="5000" LoopStart="31372" LoopEnd="191200"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3739648"
+          MonolithLength="327680" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_55_dynamic3.wav"/>
@@ -113,7 +125,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2199"
           SampleEnd="285647" SampleStartMod="9006" LoopStart="30969" LoopEnd="175203"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4067328"
+          MonolithLength="286720" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_56_dynamic1.wav"/>
@@ -122,7 +135,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5778"
           SampleEnd="343683" SampleStartMod="5000" LoopStart="40901" LoopEnd="195218"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4354048"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_56_dynamic2.wav"/>
@@ -131,7 +145,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5535"
           SampleEnd="354874" SampleStartMod="5000" LoopStart="47052" LoopEnd="193173"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4698112"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_56_dynamic3.wav"/>
@@ -140,7 +155,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5170"
           SampleEnd="280459" SampleStartMod="4603" LoopStart="36056" LoopEnd="181677"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5054464"
+          MonolithLength="282624" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_57_dynamic1.wav"/>
@@ -149,7 +165,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="337798" SampleStartMod="5000" LoopStart="28959" LoopEnd="189157"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5337088"
+          MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_57_dynamic2.wav"/>
@@ -158,7 +175,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5629"
           SampleEnd="344043" SampleStartMod="5000" LoopStart="69953" LoopEnd="221190"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5677056"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_57_dynamic3.wav"/>
@@ -167,7 +185,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4511"
           SampleEnd="296277" SampleStartMod="5000" LoopStart="38475" LoopEnd="200231"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6021120"
+          MonolithLength="299008" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_58_dynamic1.wav"/>
@@ -176,7 +195,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5926"
           SampleEnd="332502" SampleStartMod="5000" LoopStart="45233" LoopEnd="190359"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6320128"
+          MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_58_dynamic2.wav"/>
@@ -185,7 +205,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5267"
           SampleEnd="339832" SampleStartMod="5000" LoopStart="76942" LoopEnd="209201"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6656000"
+          MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_58_dynamic3.wav"/>
@@ -194,7 +215,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3760"
           SampleEnd="283042" SampleStartMod="5000" LoopStart="40923" LoopEnd="186706"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6995968"
+          MonolithLength="286720" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_59_dynamic1.wav"/>
@@ -203,7 +225,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5550"
           SampleEnd="337960" SampleStartMod="5000" LoopStart="74554" LoopEnd="238571"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7282688"
+          MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_59_dynamic2.wav"/>
@@ -212,7 +235,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5470"
           SampleEnd="358620" SampleStartMod="5000" LoopStart="24092" LoopEnd="243575"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7622656"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_59_dynamic3.wav"/>
@@ -221,7 +245,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3506"
           SampleEnd="300123" SampleStartMod="5000" LoopStart="55293" LoopEnd="209440"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7983104"
+          MonolithLength="303104" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_60_dynamic1.wav"/>
@@ -230,7 +255,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5722"
           SampleEnd="333035" SampleStartMod="5000" LoopStart="38543" LoopEnd="230610"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8286208"
+          MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_60_dynamic2.wav"/>
@@ -239,7 +265,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5567"
           SampleEnd="355813" SampleStartMod="5000" LoopStart="81927" LoopEnd="232882"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8622080"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_60_dynamic3.wav"/>
@@ -248,7 +275,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4222"
           SampleEnd="283822" SampleStartMod="5000" LoopStart="43030" LoopEnd="187791"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8978432"
+          MonolithLength="286720" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_61_dynamic1.wav"/>
@@ -257,7 +285,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="356397" SampleStartMod="5000" LoopStart="67386" LoopEnd="230679"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9265152"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_61_dynamic2.wav"/>
@@ -266,7 +295,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5489"
           SampleEnd="357604" SampleStartMod="5000" LoopStart="37380" LoopEnd="210513"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9625600"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_61_dynamic3.wav"/>
@@ -275,7 +305,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3842"
           SampleEnd="300977" SampleStartMod="5000" LoopStart="50468" LoopEnd="204846"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9986048"
+          MonolithLength="303104" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_62_dynamic1.wav"/>
@@ -284,7 +315,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5522"
           SampleEnd="363782" SampleStartMod="5000" LoopStart="77021" LoopEnd="221070"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10289152"
+          MonolithLength="364544" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_62_dynamic2.wav"/>
@@ -293,7 +325,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5662"
           SampleEnd="367114" SampleStartMod="5000" LoopStart="61253" LoopEnd="266900"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10653696"
+          MonolithLength="368640" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_62_dynamic3.wav"/>
@@ -302,7 +335,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4444"
           SampleEnd="315116" SampleStartMod="5000" LoopStart="50460" LoopEnd="209845"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11022336"
+          MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_63_dynamic1.wav"/>
@@ -311,7 +345,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4373"
           SampleEnd="346443" SampleStartMod="5000" LoopStart="21654" LoopEnd="235167"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11337728"
+          MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_63_dynamic2.wav"/>
@@ -320,7 +355,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3478"
           SampleEnd="357650" SampleStartMod="5000" LoopStart="115678" LoopEnd="245302"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11685888"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_63_dynamic3.wav"/>
@@ -329,7 +365,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5458"
           SampleEnd="303401" SampleStartMod="5000" LoopStart="95396" LoopEnd="223337"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12046336"
+          MonolithLength="307200" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_64_dynamic1.wav"/>
@@ -338,7 +375,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5808"
           SampleEnd="363917" SampleStartMod="5000" LoopStart="94147" LoopEnd="239102"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12353536"
+          MonolithLength="364544" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_64_dynamic2.wav"/>
@@ -347,7 +385,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5593"
           SampleEnd="357653" SampleStartMod="5000" LoopStart="92832" LoopEnd="229910"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12718080"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_64_dynamic3.wav"/>
@@ -356,7 +395,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4516"
           SampleEnd="304411" SampleStartMod="5000" LoopStart="36107" LoopEnd="188281"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13078528"
+          MonolithLength="307200" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_65_dynamic1.wav"/>
@@ -365,7 +405,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="364926" SampleStartMod="5000" LoopStart="52925" LoopEnd="248347"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13385728"
+          MonolithLength="368640" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_65_dynamic2.wav"/>
@@ -374,7 +415,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5678"
           SampleEnd="355472" SampleStartMod="5000" LoopStart="36324" LoopEnd="233119"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13754368"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_65_dynamic3.wav"/>
@@ -383,7 +425,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4417"
           SampleEnd="371053" SampleStartMod="5000" LoopStart="38479" LoopEnd="228590"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14110720"
+          MonolithLength="372736" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_66_dynamic1.wav"/>
@@ -392,7 +435,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5804"
           SampleEnd="364410" SampleStartMod="5000" LoopStart="40029" LoopEnd="180567"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14483456"
+          MonolithLength="364544" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_66_dynamic2.wav"/>
@@ -401,7 +445,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4723"
           SampleEnd="331651" SampleStartMod="5000" LoopStart="48903" LoopEnd="199339"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14848000"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_66_dynamic3.wav"/>
@@ -410,7 +455,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5140"
           SampleEnd="303552" SampleStartMod="5000" LoopStart="28819" LoopEnd="188592"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15179776"
+          MonolithLength="307200" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_67_dynamic1.wav"/>
@@ -419,7 +465,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3433"
           SampleEnd="361900" SampleStartMod="5000" LoopStart="50480" LoopEnd="227381"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15486976"
+          MonolithLength="364544" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_67_dynamic2.wav"/>
@@ -428,7 +475,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5077"
           SampleEnd="356971" SampleStartMod="5000" LoopStart="70366" LoopEnd="223171"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15851520"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_67_dynamic3.wav"/>
@@ -437,7 +485,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4982"
           SampleEnd="312273" SampleStartMod="5000" LoopStart="53724" LoopEnd="173401"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16211968"
+          MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_68_dynamic1.wav"/>
@@ -446,7 +495,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="366484" SampleStartMod="5000" LoopStart="67273" LoopEnd="230567"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16527360"
+          MonolithLength="368640" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_68_dynamic2.wav"/>
@@ -455,7 +505,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5091"
           SampleEnd="375949" SampleStartMod="5000" LoopStart="114130" LoopEnd="273143"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16896000"
+          MonolithLength="376832" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_68_dynamic3.wav"/>
@@ -464,7 +515,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3501"
           SampleEnd="301447" SampleStartMod="5000" LoopStart="38526" LoopEnd="203324"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17272832"
+          MonolithLength="303104" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_69_dynamic1.wav"/>
@@ -473,7 +525,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="366444" SampleStartMod="5000" LoopStart="89326" LoopEnd="272839"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17575936"
+          MonolithLength="368640" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_69_dynamic2.wav"/>
@@ -482,7 +535,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5585"
           SampleEnd="355556" SampleStartMod="5000" LoopStart="62380" LoopEnd="265099"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17944576"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_69_dynamic3.wav"/>
@@ -491,7 +545,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="312731" SampleStartMod="5000" LoopStart="67300" LoopEnd="213311"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18300928"
+          MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_70_dynamic1.wav"/>
@@ -500,7 +555,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="363256" SampleStartMod="5000" LoopStart="151459" LoopEnd="234091"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18616320"
+          MonolithLength="364544" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_70_dynamic2.wav"/>
@@ -509,7 +565,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5663"
           SampleEnd="377977" SampleStartMod="5000" LoopStart="67241" LoopEnd="265812"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18980864"
+          MonolithLength="380928" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_70_dynamic3.wav"/>
@@ -518,7 +575,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1846"
           SampleEnd="329317" SampleStartMod="10000" LoopStart="74444" LoopEnd="218773"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19361792"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_71_dynamic1.wav"/>
@@ -527,7 +585,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="365827" SampleStartMod="5000" LoopStart="24240" LoopEnd="230018"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19693568"
+          MonolithLength="368640" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_71_dynamic2.wav"/>
@@ -536,7 +595,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5595"
           SampleEnd="382124" SampleStartMod="5000" LoopStart="123594" LoopEnd="273837"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20062208"
+          MonolithLength="385024" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_71_dynamic3.wav"/>
@@ -545,7 +605,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2157"
           SampleEnd="333214" SampleStartMod="10000" LoopStart="76905" LoopEnd="246359"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20447232"
+          MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_72_dynamic1.wav"/>
@@ -554,7 +615,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="364663" SampleStartMod="5000" LoopStart="78115" LoopEnd="237199"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20783104"
+          MonolithLength="368640" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_72_dynamic2.wav"/>
@@ -563,7 +625,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5534"
           SampleEnd="359051" SampleStartMod="5000" LoopStart="76961" LoopEnd="222272"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21151744"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_72_dynamic3.wav"/>
@@ -572,7 +635,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3759"
           SampleEnd="355912" SampleStartMod="5000" LoopStart="93523" LoopEnd="250300"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21512192"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_73_dynamic1.wav"/>
@@ -581,7 +645,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="366799" SampleStartMod="5000" LoopStart="70042" LoopEnd="229189"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21868544"
+          MonolithLength="368640" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_73_dynamic2.wav"/>
@@ -590,7 +655,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5711"
           SampleEnd="382529" SampleStartMod="5000" LoopStart="92862" LoopEnd="253895"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22237184"
+          MonolithLength="385024" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_73_dynamic3.wav"/>
@@ -599,7 +665,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4214"
           SampleEnd="373788" SampleStartMod="5000" LoopStart="50433" LoopEnd="228970"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22622208"
+          MonolithLength="376832" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_74_dynamic1.wav"/>
@@ -608,7 +675,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="380634" SampleStartMod="5000" LoopStart="166842" LoopEnd="245328"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22999040"
+          MonolithLength="380928" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_74_dynamic2.wav"/>
@@ -617,7 +685,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5587"
           SampleEnd="360693" SampleStartMod="5000" LoopStart="21693" LoopEnd="265840"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23379968"
+          MonolithLength="364544" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_74_dynamic3.wav"/>
@@ -626,7 +695,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5005"
           SampleEnd="311411" SampleStartMod="5000" LoopStart="24040" LoopEnd="201254"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23744512"
+          MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_75_dynamic1.wav"/>
@@ -635,7 +705,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1938"
           SampleEnd="370941" SampleStartMod="5000" LoopStart="62245" LoopEnd="220356"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24059904"
+          MonolithLength="372736" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_75_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_75_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_75_dynamic2.wav"/>
@@ -644,7 +715,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2560"
           SampleEnd="326817" SampleStartMod="5000" LoopStart="43128" LoopEnd="171973"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24432640"
+          MonolithLength="327680" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_75_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_75_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_75_dynamic3.wav"/>
@@ -653,7 +725,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4743"
           SampleEnd="343721" SampleStartMod="5000" LoopStart="40969" LoopEnd="189072"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24760320"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_76_dynamic1.wav"/>
@@ -662,7 +735,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="356789" SampleStartMod="5000" LoopStart="68535" LoopEnd="236043"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25104384"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_76_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_76_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_76_dynamic2.wav"/>
@@ -671,7 +745,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3493"
           SampleEnd="328831" SampleStartMod="5000" LoopStart="33620" LoopEnd="220961"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25464832"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_76_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_76_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_76_dynamic3.wav"/>
@@ -680,7 +755,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5016"
           SampleEnd="288143" SampleStartMod="5000" LoopStart="28816" LoopEnd="173914"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25796608"
+          MonolithLength="290816" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_77_dynamic1.wav"/>
@@ -689,7 +765,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="352500" SampleStartMod="5000" LoopStart="57621" LoopEnd="259162"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26087424"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_77_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_77_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_77_dynamic2.wav"/>
@@ -698,7 +775,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5555"
           SampleEnd="329828" SampleStartMod="5000" LoopStart="94374" LoopEnd="238485"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26443776"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_77_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_77_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_77_dynamic3.wav"/>
@@ -707,7 +785,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3450"
           SampleEnd="293971" SampleStartMod="5000" LoopStart="49110" LoopEnd="199898"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26775552"
+          MonolithLength="294912" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_78_dynamic1.wav"/>
@@ -716,7 +795,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3565"
           SampleEnd="345707" SampleStartMod="5000" LoopStart="62484" LoopEnd="225093"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27070464"
+          MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_78_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_78_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_78_dynamic2.wav"/>
@@ -725,7 +805,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5584"
           SampleEnd="331178" SampleStartMod="5000" LoopStart="21619" LoopEnd="245993"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27418624"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_78_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_78_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_78_dynamic3.wav"/>
@@ -734,7 +815,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4537"
           SampleEnd="288738" SampleStartMod="5000" LoopStart="36223" LoopEnd="163730"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27750400"
+          MonolithLength="290816" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_79_dynamic1.wav"/>
@@ -743,7 +825,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="350095" SampleStartMod="5000" LoopStart="38620" LoopEnd="238800"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28041216"
+          MonolithLength="352256" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_79_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_79_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_79_dynamic2.wav"/>
@@ -752,7 +835,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4524"
           SampleEnd="345810" SampleStartMod="5000" LoopStart="89235" LoopEnd="233337"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28393472"
+          MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_79_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_79_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_79_dynamic3.wav"/>
@@ -761,7 +845,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4587"
           SampleEnd="299907" SampleStartMod="5000" LoopStart="29125" LoopEnd="184466"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28741632"
+          MonolithLength="303104" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_80_dynamic1.wav"/>
@@ -770,7 +855,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4434"
           SampleEnd="386128" SampleStartMod="5000" LoopStart="60086" LoopEnd="256141"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29044736"
+          MonolithLength="389120" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_80_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_80_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_80_dynamic2.wav"/>
@@ -779,7 +865,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5494"
           SampleEnd="335618" SampleStartMod="5000" LoopStart="82868" LoopEnd="229566"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29433856"
+          MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_80_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_80_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_80_dynamic3.wav"/>
@@ -788,7 +875,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1589"
           SampleEnd="334178" SampleStartMod="5000" LoopStart="60235" LoopEnd="223144"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29769728"
+          MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_81_dynamic1.wav"/>
@@ -797,7 +885,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="372735" SampleStartMod="5000" LoopStart="42231" LoopEnd="265882"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30105600"
+          MonolithLength="376832" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_81_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_81_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_81_dynamic2.wav"/>
@@ -806,7 +895,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5630"
           SampleEnd="355024" SampleStartMod="5000" LoopStart="88478" LoopEnd="200968"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30482432"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_81_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_81_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_81_dynamic3.wav"/>
@@ -815,7 +905,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5699"
           SampleEnd="331348" SampleStartMod="5000" LoopStart="52314" LoopEnd="221338"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30838784"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_82_dynamic1.wav"/>
@@ -824,7 +915,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2507"
           SampleEnd="364987" SampleStartMod="5000" LoopStart="36278" LoopEnd="252745"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31170560"
+          MonolithLength="368640" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_82_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_82_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_82_dynamic2.wav"/>
@@ -833,7 +925,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5555"
           SampleEnd="330390" SampleStartMod="5000" LoopStart="80301" LoopEnd="230462"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31539200"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_82_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_82_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_82_dynamic3.wav"/>
@@ -842,7 +935,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5380"
           SampleEnd="312715" SampleStartMod="5000" LoopStart="39782" LoopEnd="207351"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31870976"
+          MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_83_dynamic1.wav"/>
@@ -851,7 +945,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5987"
           SampleEnd="363327" SampleStartMod="5000" LoopStart="110548" LoopEnd="255198"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32186368"
+          MonolithLength="364544" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_83_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_83_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_83_dynamic2.wav"/>
@@ -860,7 +955,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5612"
           SampleEnd="342818" SampleStartMod="5000" LoopStart="77765" LoopEnd="223438"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32550912"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_close_83_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_decca_83_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_83_dynamic3.wav"/>

@@ -21,11 +21,7 @@ namespace ControllerHandler
 	{
 		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato", "Vibrato Speed", "Flutter"];
 		const var reservedCc = [32, 64]; //CCs used internally, not user selectable
-		
-		const var flutterCCMods = [];
-		flutterCCMods[0] = Synth.getModulator("flutterIntensityCC");
-		flutterCCMods[1] =  Synth.getModulator("flutterCC");
-        	
+		       	
 		const var ccNums = [];
 		//Populate list of CC numbers
 		for (i = 1; i < 128; i++)
@@ -53,14 +49,16 @@ namespace ControllerHandler
 			cmbCc[i] = ui.setupControl("cmbCc"+i, {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6});
             i > 0 ? cmbCc[i].set("items", ccNums.join("\n")) : cmbCc[i].set("items", "Velocity");
 
-			//Response table
+			//Response tables
 			tblCc[i] = ui.setupControl("tblCc"+i, {customColours:true, bgColour:Theme.C2, itemColour:Theme.C5, itemColour2:0x70000000});
 		}
-		
-		//Flutter CC number selection requires its own callback as the combo box is used for multiple modulators
-		cmbCc[5].setControlCallback(cmbFlutterCB);
 	}
-
+	
+	inline function onNoteCB()
+    {
+        Message.setVelocity(127 * tblCc[0].getTableValue(Message.getVelocity())); //Scale velocity using table        
+    }
+	
 	inline function cmbParamCB(control, value)
 	{
 		for (i = 0; i < parameters.length; i++)
@@ -69,10 +67,4 @@ namespace ControllerHandler
 			tblCc[i].set("visible", i == (value-1));
 		}
 	}
-	
-	inline function cmbFlutterCB(control, value)
-    {
-        flutterCCMods[0].setAttribute(2, value);
-        flutterCCMods[1].setAttribute(2, value);
-    }
 }
