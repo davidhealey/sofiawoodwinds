@@ -3,6 +3,6 @@ This repository contains the HISE project, scripts, and image files for the Libr
 
 In order to build the project you will need [HISE](https://github.com/christophhart/HISE). You'll also need to import my [HISE scripting framework](https://github.com/davidhealey/HISE-Scripting-Framework) as a git sub-module into the project's Scripts directory.
 
-All of scripts contained in this project are released under the GPL license, or a GPL compatible license (see individual files for details.
+All of scripts contained in this project are released under the GPL license, or a GPL compatible license (see individual files for details).
 
 If you wish to fork this project or reuse it in your own virtual instrument you must remove the Libre Wave name and trademark and make it clear that your project is a separate so that it won't be confused with this project. This includes using a different name/imagery for your project.
