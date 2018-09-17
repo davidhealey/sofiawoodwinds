@@ -54,7 +54,7 @@ ControllerHandler.onInitCB();
 Performance.onInitCB();
 Settings.onInitCB();function onNoteOn()
 {
-	
+	ControllerHandler.onNoteCB();
 }
 function onNoteOff()
 {
