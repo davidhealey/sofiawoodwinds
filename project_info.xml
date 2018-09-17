@@ -2,9 +2,9 @@
 
 <ProjectSettings>
   <Name value="Libre Winds" type="TEXT" description="Project Name"/>
-  <Version value="1.0.1" type="TEXT" description="Project version"/>
+  <Version value="1.0.2" type="TEXT" description="Project version"/>
   <Description value="Woodwinds" type="TEXT" description="Project description"/>
-  <BundleIdentifier value="com.librewave.librewinds" type="TEXT" description="Bundle Identifier(eg.com.myCompany.bundle)"/>
+  <BundleIdentifier value="com.librewave.winds" type="TEXT" description="Bundle Identifier(eg.com.myCompany.bundle)"/>
   <PluginCode value="Liwn" type="TEXT" description="a 4 character ID code(eg. 'Abcd')"/>
   <EmbedAudioFiles value="1" type="LIST" description="Embed Audio files in plugin"
                    options="Yes&#10;No"/>
