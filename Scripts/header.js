@@ -22,15 +22,24 @@ namespace Header
     //Header background
     Content.setPropertiesFromJSON("pnlHeader", {itemColour:Theme.C2, itemColour2:Theme.C2});
 
-    //Logo
-    const var pnlLogo = ui.setupControl("pnlLogo", {textColour:Theme.LOGO});
-    pnlLogo.setPaintRoutine(paintRoutines.logo);
+    //Logo   
+    const var pnlLogo = ui.buttonPanel("pnlLogo", paintRoutines.logo);
     pnlLogo.setControlCallback(pnlLogoCB);
+    
+    //About floating tile
+    const var pnlAbout = Content.getComponent("pnlAbout");
+    const var btnWebsite = Content.getComponent("btnWebsite"); //Button to open website link
+    btnWebsite.setControlCallback(btnWebsiteCB);
   }
 
   //UI Callbacks
   inline function pnlLogoCB(control, value)
   {
-    Engine.openWebsite("https://www.librewave.com");
+    pnlAbout.showControl(value);
+  }
+  
+  inline function btnWebsiteCB(control, value)
+  {
+    Engine.openWebsite(control.get("text")); //Get url from button text
   }
 }

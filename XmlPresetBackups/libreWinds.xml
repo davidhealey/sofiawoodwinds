@@ -62,8 +62,9 @@
                              borderRadius="0" borderSize="0" itemColour="4280690214" itemColour2="4280690214"
                              parentComponent="pnlMain">
                     <Component type="ScriptPanel" id="pnlLogo" x="20" y="16" width="170" height="20"
-                               itemColour2="0" itemColour="0" textColour="4293848814" text=""
-                               borderSize="0" borderRadius="0" parentComponent="pnlHeader" popupOnRightClick="0"/>
+                               itemColour2="0" itemColour="0" textColour="4293848814" text="librewave"
+                               borderSize="0" borderRadius="0" parentComponent="pnlHeader" popupOnRightClick="0"
+                               allowCallbacks="Clicks Only" holdIsRightClick="0"/>
                   </Component>
                   <Component type="ScriptPanel" id="pnlPreset" x="430" y="0" width="250" height="50"
                              borderRadius="0" borderSize="0" bgColour="12698049" itemColour="0"
@@ -333,6 +334,19 @@
                              height="72" itemColour="4294951115" itemColour2="4294951115"
                              bgColour="0" parentComponent="pnlKeyboard" textColour="4294951115"
                              ContentType="Keyboard" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 13,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 21,&#13;&#10;  &quot;HiKey&quot;: 127,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: true,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999999,&#13;&#10;  &quot;ToggleMode&quot;: false&#13;&#10;}"/>
+                </Component>
+                <Component type="ScriptPanel" id="pnlAbout" x="200" y="137" width="300"
+                           height="250" parentComponent="guiContainer" borderSize="0" borderRadius="10"
+                           itemColour="4280098077" itemColour2="4280098077" visible="0">
+                  <Component type="ScriptFloatingTile" id="fltAbout" x="25" y="25" width="250"
+                             height="200" parentComponent="pnlAbout" bgColour="1907997" itemColour="4294967295"
+                             itemColour2="4294967295" itemColour3="4294967295" ContentType="AboutPagePanel"
+                             Data="{&#13;&#10;  &quot;CopyrightNotice&quot;: &quot;Copyright David Healey 2018&quot;,&#13;&#10;  &quot;ShowLicensedEmail&quot;: true,&#13;&#10;  &quot;ShowVersion&quot;: true,&#13;&#10;  &quot;BuildDate&quot;: true,&#13;&#10;  &quot;WebsiteURL&quot;: &quot;https://www.librewave.com&quot;,&#13;&#10;  &quot;ShowProductName&quot;: true,&#13;&#10;  &quot;UseCustomImage&quot;: false&#13;&#10;}"
+                             Font="Oxygen" FontSize="18" textColour="4291414473">
+                    <Component type="ScriptButton" id="btnWebsite" x="-9" y="178" width="231"
+                               height="25" parentComponent="fltAbout" filmstripImage="{PROJECT_FOLDER}empty.png"
+                               text="https://www.librewave.com" saveInPreset="0"/>
+                  </Component>
                 </Component>
               </Component>
             </ContentProperties>
