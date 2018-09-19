@@ -28,18 +28,17 @@ namespace Header
     
     //About floating tile
     const var pnlAbout = Content.getComponent("pnlAbout");
-    const var btnWebsite = Content.getComponent("btnWebsite"); //Button to open website link
-    btnWebsite.setControlCallback(btnWebsiteCB);
+    const var btnWebsite = Content.getComponent("btnWebsite"); //Button panel to open website link
+    
+    btnWebsite.setMouseCallback(function(event)
+    {
+        if (event.clicked) Engine.openWebsite("https://www.librewave.com");
+    });
   }
 
   //UI Callbacks
   inline function pnlLogoCB(control, value)
   {
     pnlAbout.showControl(value);
-  }
-  
-  inline function btnWebsiteCB(control, value)
-  {
-    Engine.openWebsite(control.get("text")); //Get url from button text
   }
 }

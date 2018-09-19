@@ -3,9 +3,9 @@
 <ProjectSettings>
   <Name value="Sofia Woodwinds" type="TEXT" description="Project Name"/>
   <Version value="1.0.2" type="TEXT" description="Project version"/>
-  <Description value="Sofia Woodwinds" type="TEXT" description="Project description"/>
-  <BundleIdentifier value="com.librewave.sofiawinds" type="TEXT" description="Bundle Identifier(eg.com.myCompany.bundle)"/>
-  <PluginCode value="Liwn" type="TEXT" description="a 4 character ID code(eg. 'Abcd')"/>
+  <Description value="LibreWave Sofia Woodwinds" type="TEXT" description="Project description"/>
+  <BundleIdentifier value="com.librewave.winds" type="TEXT" description="Bundle Identifier(eg.com.myCompany.bundle)"/>
+  <PluginCode value="Liwp" type="TEXT" description="a 4 character ID code(eg. 'Abcd')"/>
   <EmbedAudioFiles value="1" type="LIST" description="Embed Audio files in plugin"
                    options="Yes&#10;No"/>
   <AdditionalDspLibraries value="" type="TEXT" description="comma separated list of all static dsp factory classes"/>
