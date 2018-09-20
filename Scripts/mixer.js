@@ -31,13 +31,7 @@ namespace Mixer
 
 		//Background panel
 		Content.setPropertiesFromJSON("pnlMixer", {itemColour:Theme.C3, itemColour2:Theme.C3});
-		
-		//Labels	
-		Content.setPropertiesFromJSON("lblVol", {fontName:Theme.BOLD, fontSize:Theme.H2});
-		Content.setPropertiesFromJSON("lblPan", {fontName:Theme.BOLD, fontSize:Theme.H2});
-		Content.setPropertiesFromJSON("lblWidth", {fontName:Theme.BOLD, fontSize:Theme.H2});
-		Content.setPropertiesFromJSON("lblDelay", {fontName:Theme.BOLD, fontSize:Theme.H2});
-	
+			
 		//Knobs and sliders
 		const var purge = [];
 
