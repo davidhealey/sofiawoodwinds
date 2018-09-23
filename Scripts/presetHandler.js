@@ -86,11 +86,11 @@ namespace PresetHandler
         {
             if (i < range[0] || i > range[1]) //i is outside max playable range
             {
-                Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+                Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.5)); //Reset current KS colour
             }
             else
             {
-                Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Set key colour
+                Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Set key colour
             }
         }
     }

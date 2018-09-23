@@ -331,9 +331,9 @@
                            itemColour2="4283974210" borderSize="0" borderRadius="0" text="*"
                            parentComponent="guiContainer">
                   <Component type="ScriptFloatingTile" id="fltKeyboard" x="0" y="0" width="700"
-                             height="72" itemColour="4294951115" itemColour2="4294951115"
-                             bgColour="0" parentComponent="pnlKeyboard" textColour="4294951115"
-                             ContentType="Keyboard" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 13,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 21,&#13;&#10;  &quot;HiKey&quot;: 127,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: true,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999999,&#13;&#10;  &quot;ToggleMode&quot;: false&#13;&#10;}"/>
+                             height="75" itemColour="4294967295" itemColour2="263172" bgColour="4282335039"
+                             parentComponent="pnlKeyboard" textColour="4294951115" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 13,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 21,&#13;&#10;  &quot;HiKey&quot;: 127,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: false,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999999,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: true,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"
+                             ContentType="Keyboard"/>
                 </Component>
                 <Component type="ScriptPanel" id="pnlAbout" x="150" y="150" width="400"
                            height="250" parentComponent="guiContainer" borderSize="0" borderRadius="10"
