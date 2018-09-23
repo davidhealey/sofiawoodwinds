@@ -29,7 +29,7 @@ include("performance.js");
 include("settings.js");
 include("preloadBar.js");
 
-Content.makeFrontInterface(700, 525);
+Content.makeFrontInterface(700, 535);
 
 reg patchName = "";
 

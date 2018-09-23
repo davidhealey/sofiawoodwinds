@@ -11,11 +11,11 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
-            <Control type="ScriptPanel" id="btnPage1" value="0"/>
+            <Control type="ScriptPanel" id="btnPage1" value="1"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
-            <Control type="ScriptPanel" id="btnPurge1" value="1"/>
-            <Control type="ScriptPanel" id="btnPurge2" value="1"/>
+            <Control type="ScriptPanel" id="btnPurge1" value="0"/>
+            <Control type="ScriptPanel" id="btnPurge2" value="0"/>
             <Control type="ScriptSlider" id="sliVol0" value="-5.9999986"/>
             <Control type="ScriptSlider" id="sliVol1" value="-6"/>
             <Control type="ScriptSlider" id="sliVol2" value="-6"/>
@@ -36,7 +36,7 @@
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="21"/>
             <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="57" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="65" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C...vO"/>
@@ -52,25 +52,19 @@
           <UIData>
             <ContentProperties DeviceType="Desktop">
               <Component type="ScriptPanel" id="guiContainer" x="0" y="0" width="700"
-                         height="525" borderSize="0" borderRadius="0" itemColour2="0"
+                         height="575" borderSize="0" borderRadius="0" itemColour2="0"
                          bgColour="0" itemColour="0" textColour="0">
-                <Component type="ScriptPanel" id="pnlMain" x="0" y="0" width="700" height="450"
+                <Component type="ScriptPanel" id="pnlMain" x="0" y="0" width="700" height="460"
                            itemColour2="4280690214" itemColour="4280690214" textColour="0"
                            saveInPreset="1" borderSize="0" borderRadius="0" bgColour="0"
                            parentComponent="guiContainer">
                   <Component type="ScriptPanel" id="pnlHeader" x="0" y="0" width="700" height="50"
                              borderRadius="0" borderSize="0" itemColour="4280690214" itemColour2="4280690214"
                              parentComponent="pnlMain">
-                    <Component type="ScriptPanel" id="preloadBar" x="203" y="11" width="265"
-                               height="30" parentComponent="pnlHeader" opaque="1" visible="0"/>
-                    <Component type="ScriptFloatingTile" id="fltToolTip" x="260" y="12" width="150"
-                               height="30" ContentType="TooltipPanel" bgColour="3459790904"
-                               itemColour="872415231" itemColour2="4294951115" textColour="3439329279"
-                               Data="{&#13;&#10;}" Font="Oxygen" parentComponent="pnlHeader"/>
-                    <Component type="ScriptPanel" id="pnlLogo" x="20" y="15" width="170" height="20"
-                               itemColour2="0" itemColour="0" textColour="4293848814" text="librewave"
-                               borderSize="0" borderRadius="0" parentComponent="pnlHeader" popupOnRightClick="0"
-                               allowCallbacks="Clicks Only" holdIsRightClick="0"/>
+                    <Component type="ScriptLabel" id="lblProjectName" x="20" y="0" width="300"
+                               height="50" parentComponent="pnlHeader" text="Sofia Woodwinds"
+                               fontName="Oxygen" fontSize="32" alignment="left" editable="0"
+                               saveInPreset="0"/>
                   </Component>
                   <Component type="ScriptPanel" id="pnlPreset" x="430" y="0" width="250" height="50"
                              borderRadius="0" borderSize="0" bgColour="12698049" itemColour="0"
@@ -80,7 +74,7 @@
                                bgColour="16777215" items="Sofia Woodwinds: Piccolo&#10;Sofia Woodwinds: Concert Flute I&#10;Sofia Woodwinds: Concert Flute II&#10;Sofia Woodwinds: Alto Flute&#10;Sofia Woodwinds: Oboe I&#10;Sofia Woodwinds: Oboe II&#10;Sofia Woodwinds: Cor Anglais&#10;Sofia Woodwinds: Clarinet I&#10;Sofia Woodwinds: Clarinet II&#10;Sofia Woodwinds: Bass Clarinet&#10;Sofia Woodwinds: Bassoon I&#10;Sofia Woodwinds: Bassoon II&#10;Sofia Woodwinds: Contrabassoon"
                                itemColour="4283585106" itemColour2="4283585106" saveInPreset="0"/>
                   </Component>
-                  <Component type="ScriptPanel" id="pnlMenu" x="0" y="400" width="700" height="50"
+                  <Component type="ScriptPanel" id="pnlMenu" x="0" y="410" width="700" height="50"
                              parentComponent="pnlMain" borderRadius="0" borderSize="0" bgColour="0"
                              itemColour="4281545523" itemColour2="4281545523" textColour="0">
                     <Component type="ScriptLabel" id="lblMenu" x="100" y="0" text="Mixer | Performance | Settings"
@@ -100,7 +94,7 @@
                   </Component>
                   <Component type="ScriptPanel" id="page0" x="20" y="60" width="660" height="320"
                              parentComponent="pnlMain" saveInPreset="1" borderSize="0" borderRadius="0"
-                             itemColour="10354558" itemColour2="10354558" textColour="0">
+                             itemColour="10354558" itemColour2="10354558" textColour="0" visible="0">
                     <Component type="ScriptPanel" id="pnlMixer" x="165" y="0" width="320" height="320"
                                parentComponent="page0" borderRadius="0" borderSize="0" bgColour="16777215"
                                textColour="16777215" itemColour2="4281545523" itemColour="4281545523">
@@ -195,8 +189,7 @@
                   </Component>
                   <Component type="ScriptPanel" id="page1" x="20" y="60" width="660" height="320"
                              parentComponent="pnlMain" borderSize="0" borderRadius="0" itemColour="10354558"
-                             itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215"
-                             visible="0">
+                             itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215">
                     <Component type="ScriptPanel" id="pnlControllers" x="0" y="0" width="320"
                                height="320" parentComponent="page1" bgColour="0" itemColour="4281545523"
                                itemColour2="4281545523" textColour="0" borderSize="0" borderRadius="0">
@@ -335,8 +328,22 @@
                                  itemColour="4284900966" ContentType="Tabs" Data="{&#13;&#10;  &quot;Dynamic&quot;: false,&#13;&#10;  &quot;Content&quot;: [&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;CustomSettings&quot;,&#13;&#10;      &quot;Title&quot;: &quot;Engine&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Bold&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;&#13;&#10;      },&#13;&#10;      &quot;Driver&quot;: true,&#13;&#10;      &quot;Device&quot;: true,&#13;&#10;      &quot;Output&quot;: true,&#13;&#10;      &quot;BufferSize&quot;: true,&#13;&#10;      &quot;SampleRate&quot;: true,&#13;&#10;      &quot;GlobalBPM&quot;: false,&#13;&#10;      &quot;StreamingMode&quot;: true,&#13;&#10;      &quot;GraphicRendering&quot;: false,&#13;&#10;      &quot;ScaleFactor&quot;: true,&#13;&#10;      &quot;SustainCC&quot;: false,&#13;&#10;      &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;      &quot;ClearMidiCC&quot;: true,&#13;&#10;      &quot;SampleLocation&quot;: true,&#13;&#10;      &quot;DebugMode&quot;: false,&#13;&#10;      &quot;ScaleFactorList&quot;: [&#13;&#10;        1,&#13;&#10;        1.25,&#13;&#10;        1.5,&#13;&#10;        2&#13;&#10;      ]&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiSources&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Input&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Regular&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiChannelList&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Channel&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Regular&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiLearnPanel&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Automation&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Regular&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;,&#13;&#10;        &quot;textColour&quot;: &quot;ffffffff&quot;,&#13;&#10;        &quot;itemColour1&quot;: &quot;ff525252&quot;&#13;&#10;      }&#13;&#10;    }&#13;&#10;  ],&#13;&#10;  &quot;CurrentTab&quot;: 0&#13;&#10;}"/>
                     </Component>
                   </Component>
+                  <Component type="ScriptPanel" id="logoBar" x="0" y="385" width="700" height="20"
+                             parentComponent="pnlMain" itemColour="0" itemColour2="0" bgColour="0"
+                             textColour="0" borderSize="0" borderRadius="0">
+                    <Component type="ScriptFloatingTile" id="fltToolTip" x="0" y="0" width="200"
+                               height="20" ContentType="TooltipPanel" bgColour="3684408" itemColour="872415231"
+                               itemColour2="4294951115" textColour="3439329279" Data="{&#13;&#10;}"
+                               Font="Oxygen" parentComponent="logoBar"/>
+                    <Component type="ScriptPanel" id="pnlLogo" x="299" y="4" width="102" height="12"
+                               itemColour2="0" itemColour="0" textColour="2901339886" text="librewave"
+                               borderSize="0" borderRadius="0" popupOnRightClick="0" allowCallbacks="Clicks Only"
+                               holdIsRightClick="0" parentComponent="logoBar"/>
+                    <Component type="ScriptPanel" id="preloadBar" x="530" y="0" width="150"
+                               height="20" opaque="1" parentComponent="logoBar" visible="0"/>
+                  </Component>
                 </Component>
-                <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="450" width="700"
+                <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="460" width="700"
                            height="75" bgColour="16777215" textColour="16777215" itemColour="4283974210"
                            itemColour2="4283974210" borderSize="0" borderRadius="0" text="*"
                            parentComponent="guiContainer">
@@ -345,8 +352,8 @@
                              parentComponent="pnlKeyboard" textColour="4294951115" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 13,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 21,&#13;&#10;  &quot;HiKey&quot;: 125,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: false,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999999,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: true,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"
                              ContentType="Keyboard"/>
                 </Component>
-                <Component type="ScriptPanel" id="pnlAbout" x="150" y="150" width="400"
-                           height="250" parentComponent="guiContainer" borderSize="0" borderRadius="10"
+                <Component type="ScriptPanel" id="pnlAbout" x="150" y="94" width="400" height="250"
+                           parentComponent="guiContainer" borderSize="0" borderRadius="10"
                            itemColour="4280098077" itemColour2="4280098077" visible="0">
                   <Component type="ScriptFloatingTile" id="fltAbout" x="25" y="23" width="250"
                              height="200" parentComponent="pnlAbout" bgColour="0" itemColour="4294967295"
@@ -723,8 +730,8 @@
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
-                <channelData enabled="1" level="0" suffix="decca"/>
-                <channelData enabled="1" level="0" suffix="hall"/>
+                <channelData enabled="0" level="-100" suffix="decca"/>
+                <channelData enabled="0" level="-100" suffix="hall"/>
               </channels>
             </Processor>
             <Processor Type="StreamingSampler" ID="staccato" Bypassed="0" Gain="1" Balance="0"
@@ -788,8 +795,8 @@
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
-                <channelData enabled="1" level="0" suffix="decca"/>
-                <channelData enabled="1" level="0" suffix="hall"/>
+                <channelData enabled="0" level="-100" suffix="decca"/>
+                <channelData enabled="0" level="-100" suffix="hall"/>
               </channels>
             </Processor>
           </ChildProcessors>
@@ -881,8 +888,8 @@
                          Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
-            <channelData enabled="1" level="0" suffix="decca"/>
-            <channelData enabled="1" level="0" suffix="hall"/>
+            <channelData enabled="0" level="-100" suffix="decca"/>
+            <channelData enabled="0" level="-100" suffix="hall"/>
           </channels>
         </Processor>
       </ChildProcessors>
