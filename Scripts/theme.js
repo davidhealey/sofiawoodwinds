@@ -35,4 +35,15 @@ namespace Theme
 	const var C5 = 0xff7a7a7a;
 	const var C6 = 0xffffffff;	
 	const var F = 0xff5185ab; //Feature colour
+	
+	Content.setValuePopupData(
+	{
+	    "fontName": BOLD,
+	    "fontSize": 16.0,
+	    "borderSize": 0,
+	    "bgColour": C3,
+	    "itemColour": C3,
+	    "itemColour2": C3
+	});
 }
+
