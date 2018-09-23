@@ -58,7 +58,7 @@ namespace Settings
         "Output": !isPlugin,
         "BufferSize": !isPlugin,
         "SampleRate": !isPlugin,
-        "GlobalBPM": true,
+        "GlobalBPM": false,
         "StreamingMode": true,
         "GraphicRendering": false,
         "ScaleFactor": true,
