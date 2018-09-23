@@ -11,7 +11,7 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
-            <Control type="ScriptPanel" id="btnPage1" value="1"/>
+            <Control type="ScriptPanel" id="btnPage1" value="0"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
@@ -36,7 +36,7 @@
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="21"/>
             <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="1" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="57" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C...vO"/>
@@ -61,9 +61,13 @@
                   <Component type="ScriptPanel" id="pnlHeader" x="0" y="0" width="700" height="50"
                              borderRadius="0" borderSize="0" itemColour="4280690214" itemColour2="4280690214"
                              parentComponent="pnlMain">
-                    <Component type="ScriptPanel" id="preloadBar" x="202" y="11" width="267"
+                    <Component type="ScriptPanel" id="preloadBar" x="203" y="11" width="265"
                                height="30" parentComponent="pnlHeader" opaque="1" visible="0"/>
-                    <Component type="ScriptPanel" id="pnlLogo" x="20" y="16" width="170" height="20"
+                    <Component type="ScriptFloatingTile" id="fltToolTip" x="260" y="12" width="150"
+                               height="30" ContentType="TooltipPanel" bgColour="3459790904"
+                               itemColour="872415231" itemColour2="4294951115" textColour="3439329279"
+                               Data="{&#13;&#10;}" Font="Oxygen" parentComponent="pnlHeader"/>
+                    <Component type="ScriptPanel" id="pnlLogo" x="20" y="15" width="170" height="20"
                                itemColour2="0" itemColour="0" textColour="4293848814" text="librewave"
                                borderSize="0" borderRadius="0" parentComponent="pnlHeader" popupOnRightClick="0"
                                allowCallbacks="Clicks Only" holdIsRightClick="0"/>
@@ -96,7 +100,7 @@
                   </Component>
                   <Component type="ScriptPanel" id="page0" x="20" y="60" width="660" height="320"
                              parentComponent="pnlMain" saveInPreset="1" borderSize="0" borderRadius="0"
-                             itemColour="10354558" itemColour2="10354558" textColour="0" visible="0">
+                             itemColour="10354558" itemColour2="10354558" textColour="0">
                     <Component type="ScriptPanel" id="pnlMixer" x="165" y="0" width="320" height="320"
                                parentComponent="page0" borderRadius="0" borderSize="0" bgColour="16777215"
                                textColour="16777215" itemColour2="4281545523" itemColour="4281545523">
@@ -191,7 +195,8 @@
                   </Component>
                   <Component type="ScriptPanel" id="page1" x="20" y="60" width="660" height="320"
                              parentComponent="pnlMain" borderSize="0" borderRadius="0" itemColour="10354558"
-                             itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215">
+                             itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215"
+                             visible="0">
                     <Component type="ScriptPanel" id="pnlControllers" x="0" y="0" width="320"
                                height="320" parentComponent="page1" bgColour="0" itemColour="4281545523"
                                itemColour2="4281545523" textColour="0" borderSize="0" borderRadius="0">
