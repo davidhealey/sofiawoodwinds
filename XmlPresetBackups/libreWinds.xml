@@ -349,6 +349,8 @@
                                allowCallbacks="Clicks Only"/>
                   </Component>
                 </Component>
+                <Component type="ScriptPanel" id="preloadBar" x="199" y="11" width="267"
+                           height="27" parentComponent="guiContainer" opaque="1" visible="0"/>
               </Component>
             </ContentProperties>
           </UIData>

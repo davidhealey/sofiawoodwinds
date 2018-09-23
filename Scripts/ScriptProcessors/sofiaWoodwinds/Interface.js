@@ -27,6 +27,7 @@ include("mixer.js");
 include("controllerHandler.js");
 include("performance.js");
 include("settings.js");
+include("preloadBar.js");
 
 Content.makeFrontInterface(700, 525);
 
