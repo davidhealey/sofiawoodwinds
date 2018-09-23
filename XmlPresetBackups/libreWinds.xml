@@ -16,7 +16,7 @@
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
             <Control type="ScriptPanel" id="btnPurge2" value="1"/>
-            <Control type="ScriptSlider" id="sliVol0" value="-6"/>
+            <Control type="ScriptSlider" id="sliVol0" value="-5.9999986"/>
             <Control type="ScriptSlider" id="sliVol1" value="-6"/>
             <Control type="ScriptSlider" id="sliVol2" value="-6"/>
             <Control type="ScriptPanel" id="sliPan0" value="0"/>
@@ -36,7 +36,7 @@
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="21"/>
             <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="58" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="65" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C...vO"/>
@@ -61,6 +61,8 @@
                   <Component type="ScriptPanel" id="pnlHeader" x="0" y="0" width="700" height="50"
                              borderRadius="0" borderSize="0" itemColour="4280690214" itemColour2="4280690214"
                              parentComponent="pnlMain">
+                    <Component type="ScriptPanel" id="preloadBar" x="202" y="11" width="267"
+                               height="30" parentComponent="pnlHeader" opaque="1" visible="0"/>
                     <Component type="ScriptPanel" id="pnlLogo" x="20" y="16" width="170" height="20"
                                itemColour2="0" itemColour="0" textColour="4293848814" text="librewave"
                                borderSize="0" borderRadius="0" parentComponent="pnlHeader" popupOnRightClick="0"
@@ -101,87 +103,90 @@
                       <Component type="ScriptPanel" id="btnPurge0" x="5" y="280" width="100" height="30"
                                  parentComponent="pnlMixer" bgColour="4283979864" itemColour="4286216826"
                                  allowCallbacks="Clicks Only" saveInPreset="1" text="Close" itemColour2="0"
-                                 textColour="4294967295" holdIsRightClick="0"/>
+                                 textColour="4294967295" holdIsRightClick="0" tooltip="Close mic purge"/>
                       <Component type="ScriptPanel" id="btnPurge1" x="110" y="280" width="100"
                                  height="30" parentComponent="pnlMixer" bgColour="4283979864"
                                  itemColour="4286216826" allowCallbacks="Clicks Only" saveInPreset="1"
-                                 text="Decca" itemColour2="0" textColour="4294967295"/>
+                                 text="Decca" itemColour2="0" textColour="4294967295" tooltip="Decca Mic Purge"/>
                       <Component type="ScriptPanel" id="btnPurge2" x="215" y="280" width="100"
                                  height="30" parentComponent="pnlMixer" bgColour="4283979864"
                                  itemColour="4286216826" allowCallbacks="Clicks Only" saveInPreset="1"
-                                 text="Hall" itemColour2="0" textColour="4294967295"/>
+                                 text="Hall" itemColour2="0" textColour="4294967295" tooltip="Hall Mic Purge"/>
                       <Component type="ScriptSlider" id="sliVol0" x="40" y="174" width="32" height="100"
                                  parentComponent="pnlMixer" mode="Decibel" min="-100" max="0"
                                  stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
                                  style="Vertical" showValuePopup="Right" textColour="0" bgColour="4280690214"
                                  itemColour="4283532715" isPluginParameter="1" pluginParameterName="Close Gain"
-                                 processorId="channel1" parameterId="Gain"/>
+                                 processorId="channel1" parameterId="Gain" tooltip="Close Gain"/>
                       <Component type="ScriptSlider" id="sliVol1" x="144" y="174" width="32" height="100"
                                  parentComponent="pnlMixer" mode="Decibel" min="-100" max="0"
                                  stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
                                  style="Vertical" showValuePopup="Right" textColour="0" bgColour="4280690214"
                                  itemColour="4283532715" isPluginParameter="1" pluginParameterName="Decca Gain"
-                                 processorId="channel2" parameterId="Gain"/>
+                                 processorId="channel2" parameterId="Gain" tooltip="Decca Gain"/>
                       <Component type="ScriptSlider" id="sliVol2" x="248" y="174" width="32" height="100"
                                  parentComponent="pnlMixer" mode="Decibel" min="-100" max="0"
                                  stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
                                  style="Vertical" showValuePopup="Right" textColour="0" bgColour="4280690214"
                                  itemColour="4283532715" isPluginParameter="1" pluginParameterName="Hall Gain"
-                                 processorId="channel3" parameterId="Gain"/>
+                                 processorId="channel3" parameterId="Gain" tooltip="Hall Gain"/>
                       <Component type="ScriptPanel" id="sliPan0" x="40" y="125" width="30" height="30"
                                  borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                  enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                  stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
                                  itemColour="4283532715" processorId="channel1" parameterId="Balance"
-                                 itemColour2="16711680" isPluginParameter="1" pluginParameterName="Close Pan"/>
+                                 itemColour2="16711680" isPluginParameter="1" pluginParameterName="Close Pan"
+                                 tooltip="Close Pan"/>
                       <Component type="ScriptPanel" id="sliPan1" x="144" y="125" width="30" height="30"
                                  borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                  enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                  stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
                                  itemColour="4283532715" processorId="channel2" parameterId="Balance"
-                                 itemColour2="16711680" isPluginParameter="1" pluginParameterName="Decca Pan"/>
+                                 itemColour2="16711680" isPluginParameter="1" pluginParameterName="Decca Pan"
+                                 tooltip="Decca Pan"/>
                       <Component type="ScriptPanel" id="sliPan2" x="248" y="125" width="30" height="30"
                                  borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                  enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                  stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
                                  itemColour="4283532715" processorId="channel3" parameterId="Balance"
-                                 itemColour2="16711680" isPluginParameter="1" pluginParameterName="Hall Pan"/>
+                                 itemColour2="16711680" isPluginParameter="1" pluginParameterName="Hall Pan"
+                                 tooltip="Hall Pan"/>
                       <Component type="ScriptPanel" id="sliWidth0" x="40" y="75" width="32" height="32"
                                  borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                  enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                  stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4283532715"
                                  processorId="channel1" parameterId="Width" itemColour2="16711680"
-                                 isPluginParameter="1" pluginParameterName="Close Width"/>
+                                 isPluginParameter="1" pluginParameterName="Close Width" tooltip="Close Width"/>
                       <Component type="ScriptPanel" id="sliWidth1" x="144" y="75" width="32" height="32"
                                  borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                  enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                  stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4283532715"
                                  processorId="channel2" parameterId="Width" itemColour2="16711680"
-                                 isPluginParameter="1" pluginParameterName="Decca Width"/>
+                                 isPluginParameter="1" pluginParameterName="Decca Width" tooltip="Decca Width"/>
                       <Component type="ScriptPanel" id="sliWidth2" x="248" y="75" width="32" height="32"
                                  borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                  enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                  stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4283532715"
                                  processorId="channel3" parameterId="Width" itemColour2="16711680"
-                                 isPluginParameter="1" pluginParameterName="Hall Width"/>
+                                 isPluginParameter="1" pluginParameterName="Hall Width" tooltip="Hall Width"/>
                       <Component type="ScriptPanel" id="sliDelay0" x="40" y="25" width="32" height="32"
                                  borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                  enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                  stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
                                  processorId="channel1" parameterId="Delay" itemColour2="16711680"
-                                 isPluginParameter="1" pluginParameterName="Close Delay"/>
+                                 isPluginParameter="1" pluginParameterName="Close Delay" tooltip="Close Delay"/>
                       <Component type="ScriptPanel" id="sliDelay1" x="144" y="25" width="32" height="32"
                                  borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                  enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                  stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
                                  processorId="channel2" parameterId="Delay" itemColour2="16711680"
-                                 isPluginParameter="1" pluginParameterName="Decca Delay"/>
+                                 isPluginParameter="1" pluginParameterName="Decca Delay" tooltip="Decca Delay"/>
                       <Component type="ScriptPanel" id="sliDelay2" x="248" y="25" width="32" height="32"
                                  borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                  enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                  stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
                                  processorId="channel3" parameterId="Delay" itemColour2="16711680"
-                                 isPluginParameter="1" pluginParameterName="Hall Delay"/>
+                                 isPluginParameter="1" pluginParameterName="Hall Delay" tooltip="Hall Delay"/>
                     </Component>
                   </Component>
                   <Component type="ScriptPanel" id="page1" x="20" y="60" width="660" height="320"
@@ -332,7 +337,7 @@
                            parentComponent="guiContainer">
                   <Component type="ScriptFloatingTile" id="fltKeyboard" x="0" y="0" width="700"
                              height="75" itemColour="4294967295" itemColour2="263172" bgColour="4282335039"
-                             parentComponent="pnlKeyboard" textColour="4294951115" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 13,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 21,&#13;&#10;  &quot;HiKey&quot;: 127,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: false,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999999,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: true,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"
+                             parentComponent="pnlKeyboard" textColour="4294951115" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 13,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 21,&#13;&#10;  &quot;HiKey&quot;: 125,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: false,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999999,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: true,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"
                              ContentType="Keyboard"/>
                 </Component>
                 <Component type="ScriptPanel" id="pnlAbout" x="150" y="150" width="400"
@@ -349,8 +354,6 @@
                                allowCallbacks="Clicks Only"/>
                   </Component>
                 </Component>
-                <Component type="ScriptPanel" id="preloadBar" x="199" y="11" width="267"
-                           height="27" parentComponent="guiContainer" opaque="1" visible="0"/>
               </Component>
             </ContentProperties>
           </UIData>
@@ -365,8 +368,8 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-6" Delay="0"
-                   Width="0" Balance="0">
+        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-5.9999986"
+                   Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>

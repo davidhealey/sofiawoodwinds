@@ -19,7 +19,6 @@ preloadBar.setTimerCallback(function()
 	
 });
 
-
 preloadBar.setLoadingCallback(function(isPreloading)
 {
     this.data.progress = 0.0;
