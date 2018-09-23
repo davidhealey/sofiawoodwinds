@@ -14,8 +14,8 @@
             <Control type="ScriptPanel" id="btnPage1" value="1"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
-            <Control type="ScriptPanel" id="btnPurge1" value="0"/>
-            <Control type="ScriptPanel" id="btnPurge2" value="0"/>
+            <Control type="ScriptPanel" id="btnPurge1" value="1"/>
+            <Control type="ScriptPanel" id="btnPurge2" value="1"/>
             <Control type="ScriptSlider" id="sliVol0" value="-5.9999986"/>
             <Control type="ScriptSlider" id="sliVol1" value="-6"/>
             <Control type="ScriptSlider" id="sliVol2" value="-6"/>
@@ -36,7 +36,7 @@
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="21"/>
             <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="65" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="63" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C...vO"/>
@@ -453,7 +453,7 @@
           <ChildProcessors>
             <Processor Type="MidiController" ID="expressionCC" Bypassed="0" Intensity="1"
                        UseTable="1" Inverted="0" ControllerNumber="11" SmoothTime="200"
-                       DefaultValue="127" ControllerTableData="24...............vO...f+....9C...vO">
+                       DefaultValue="80" ControllerTableData="24...............vO...f+....9C...vO">
               <ChildProcessors/>
             </Processor>
             <Processor Type="MidiController" ID="dynamicsCC" Bypassed="0" Intensity="1"
@@ -535,8 +535,8 @@
               <Content>
                 <Control type="ScriptButton" id="Enable" value="1"/>
                 <Control type="ScriptButton" id="Random" value="1"/>
-                <Control type="ScriptSlider" id="Low Note" value="74"/>
-                <Control type="ScriptSlider" id="High Note" value="105"/>
+                <Control type="ScriptSlider" id="Low Note" value="60"/>
+                <Control type="ScriptSlider" id="High Note" value="96"/>
               </Content>
               <UIData>
                 <ContentProperties DeviceType="Desktop">
@@ -559,7 +559,7 @@
               <ChildProcessors/>
             </Processor>
             <Processor Type="GlobalTimeVariantModulator" ID="dynamicsGain" Bypassed="0"
-                       Intensity="1" UseTable="1" Inverted="0" TableData="24.......MyL0C...vO...f+....9C..PrO"
+                       Intensity="1" UseTable="1" Inverted="0" TableData="24.......u6t2C...vO...f+....9C..PrO"
                        Connection="Global Modulator Container:dynamicsCC">
               <ChildProcessors/>
             </Processor>
@@ -647,7 +647,7 @@
                        Group2Table="36...............vObpe+9.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_sustain">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_sustain">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -670,7 +670,7 @@
                       </ChildProcessors>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="vibratoGain" Bypassed="0"
-                               Intensity="0.30000001" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Intensity="0.25" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
@@ -703,7 +703,7 @@
                       <ChildProcessors/>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="vibratoPitch" Bypassed="0"
-                               Intensity="-0.0125" UseTable="1" Inverted="0" TableData="24...............vO...f+....7C...vO"
+                               Intensity="-0.0083333338" UseTable="1" Inverted="0" TableData="24...............vO...f+....7C...vO"
                                Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
@@ -730,8 +730,8 @@
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="0" suffix="decca"/>
+                <channelData enabled="1" level="0" suffix="hall"/>
               </channels>
             </Processor>
             <Processor Type="StreamingSampler" ID="staccato" Bypassed="0" Gain="1" Balance="0"
@@ -743,7 +743,7 @@
                        Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_staccato">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_staccato">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -795,8 +795,8 @@
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
-                <channelData enabled="0" level="-100" suffix="decca"/>
-                <channelData enabled="0" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="0" suffix="decca"/>
+                <channelData enabled="1" level="0" suffix="hall"/>
               </channels>
             </Processor>
           </ChildProcessors>
@@ -813,7 +813,7 @@
                    Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_release">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_release">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -888,8 +888,8 @@
                          Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
-            <channelData enabled="0" level="-100" suffix="decca"/>
-            <channelData enabled="0" level="-100" suffix="hall"/>
+            <channelData enabled="1" level="0" suffix="decca"/>
+            <channelData enabled="1" level="0" suffix="hall"/>
           </channels>
         </Processor>
       </ChildProcessors>
