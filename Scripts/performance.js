@@ -23,12 +23,7 @@ namespace Performance
 	{
         //Background panel
 		Content.setPropertiesFromJSON("pnlPerformance", {itemColour:Theme.C3, itemColour2:Theme.C3});
-	    
-		//Labels
-        Content.setPropertiesFromJSON("lblAtk", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
-        Content.setPropertiesFromJSON("lblRel", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
-        Content.setPropertiesFromJSON("lblRR", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
-		
+	    		
         //Sliders
         Content.setPropertiesFromJSON("sliOffset", {bgColour:Theme.C2, itemColour:Theme.F});
         Content.setPropertiesFromJSON("sliGlide", {bgColour:Theme.C2, itemColour:Theme.F, textColour:Theme.C6});

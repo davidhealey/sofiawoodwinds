@@ -32,10 +32,6 @@ namespace ControllerHandler
 		//Background panel
 		Content.setPropertiesFromJSON("pnlControllers", {itemColour:Theme.C3, itemColour2:Theme.C3});
 		
-		//Heading Labels
-		Content.setPropertiesFromJSON("lblParameter", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
-		Content.setPropertiesFromJSON("lblController", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
-
         //Parameter combo box
 		const var cmbParam = ui.setupControl("cmbParam", {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6, items:parameters.join("\n")});
 		cmbParam.setControlCallback(cmbParamCB);
