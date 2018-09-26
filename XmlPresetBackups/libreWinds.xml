@@ -11,7 +11,7 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
-            <Control type="ScriptPanel" id="btnPage0" value="1"/>
+            <Control type="ScriptPanel" id="btnPage1" value="1"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
@@ -83,31 +83,30 @@
                                saveInPreset="0" editable="0"/>
                     <Component type="ScriptPanel" id="btnPage0" x="217" y="0" width="60" parentComponent="pnlMenu"
                                text="Mixer" height="50" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
-                               textColour="4294967295" itemColour2="2107744673" itemColour="2107744673"
-                               saveInPreset="1"/>
+                               textColour="4294967295" itemColour2="2107744673" itemColour="2107744673"/>
                     <Component type="ScriptPanel" id="btnPage1" x="279" y="0" width="120" parentComponent="pnlMenu"
                                text="Performance" height="50" borderRadius="0" borderSize="0"
                                allowCallbacks="Clicks Only" textColour="4294967295" itemColour="2107744673"
-                               itemColour2="2107744673"/>
+                               itemColour2="2107744673" saveInPreset="1"/>
                     <Component type="ScriptPanel" id="btnPage2" x="401" y="0" width="80" parentComponent="pnlMenu"
                                text="Settings" height="50" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
                                textColour="4294967295" itemColour="2107744673" itemColour2="2107744673"/>
                   </Component>
                   <Component type="ScriptPanel" id="page0" x="20" y="60" width="660" height="320"
                              parentComponent="pnlMain" saveInPreset="1" borderSize="0" borderRadius="0"
-                             itemColour="10354558" itemColour2="10354558" textColour="0">
+                             itemColour="10354558" itemColour2="10354558" textColour="0" visible="0">
                     <Component type="ScriptPanel" id="pnlMixer" x="0" y="0" width="660" height="320"
                                parentComponent="page0" borderRadius="0" borderSize="0" bgColour="16777215"
                                textColour="16777215" itemColour2="4281545523" itemColour="4281545523">
-                      <Component type="ScriptLabel" id="lblDelay" x="105" y="20" width="100" height="32"
+                      <Component type="ScriptLabel" id="lblDelay" x="105" y="16" width="100" height="32"
                                  text="Delay" alignment="left" editable="0" parentComponent="pnlMixer"
                                  fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
                                  textColour="4258057420"/>
-                      <Component type="ScriptLabel" id="lblWidth" x="105" y="70" width="100" height="32"
+                      <Component type="ScriptLabel" id="lblWidth" x="105" y="68" width="100" height="32"
                                  text="Width" alignment="left" editable="0" parentComponent="pnlMixer"
                                  fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
                                  textColour="4258057420"/>
-                      <Component type="ScriptLabel" id="lblPan" x="105" y="120" width="100" height="32"
+                      <Component type="ScriptLabel" id="lblPan" x="105" y="117" width="100" height="32"
                                  text="Pan" alignment="left" editable="0" parentComponent="pnlMixer"
                                  fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
                                  textColour="4258057420"/>
@@ -206,8 +205,7 @@
                   </Component>
                   <Component type="ScriptPanel" id="page1" x="20" y="60" width="660" height="320"
                              parentComponent="pnlMain" borderSize="0" borderRadius="0" itemColour="10354558"
-                             itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215"
-                             visible="0">
+                             itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215">
                     <Component type="ScriptPanel" id="pnlControllers" x="0" y="0" width="320"
                                height="320" parentComponent="page1" bgColour="0" itemColour="4281545523"
                                itemColour2="4281545523" textColour="0" borderSize="0" borderRadius="0">
@@ -554,8 +552,8 @@
               <Content>
                 <Control type="ScriptButton" id="Enable" value="1"/>
                 <Control type="ScriptButton" id="Random" value="1"/>
-                <Control type="ScriptSlider" id="Low Note" value="50"/>
-                <Control type="ScriptSlider" id="High Note" value="91"/>
+                <Control type="ScriptSlider" id="Low Note" value="74"/>
+                <Control type="ScriptSlider" id="High Note" value="105"/>
               </Content>
               <UIData>
                 <ContentProperties DeviceType="Desktop">
@@ -603,9 +601,9 @@
                     <Control type="ScriptButton" id="Glide" value="0"/>
                     <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
                     <Control type="ScriptSlider" id="Bend Time" value="-15"/>
-                    <Control type="ScriptSlider" id="Min Bend" value="20"/>
-                    <Control type="ScriptSlider" id="Max Bend" value="40"/>
-                    <Control type="ScriptSlider" id="Fade Time" value="30"/>
+                    <Control type="ScriptSlider" id="Min Bend" value="5"/>
+                    <Control type="ScriptSlider" id="Max Bend" value="30"/>
+                    <Control type="ScriptSlider" id="Fade Time" value="80"/>
                     <Control type="ScriptSlider" id="Fade Out Ratio" value="100"/>
                     <Control type="ScriptSlider" id="Offset" value="0.050000001"/>
                     <Control type="ScriptSlider" id="Glide Rate" value="19"/>
@@ -666,7 +664,7 @@
                        Group2Table="36...............vObpe+9.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="clarinet2_sustain">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_sustain">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -722,7 +720,7 @@
                       <ChildProcessors/>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="vibratoPitch" Bypassed="0"
-                               Intensity="-0.0058333334" UseTable="1" Inverted="0" TableData="24...............vO...f+....7C...vO"
+                               Intensity="-0.0125" UseTable="1" Inverted="0" TableData="24...............vO...f+....7C...vO"
                                Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
@@ -762,7 +760,7 @@
                        Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="clarinet2_staccato">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_staccato">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -832,7 +830,7 @@
                    Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="clarinet2_release">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_release">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
