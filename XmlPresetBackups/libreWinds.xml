@@ -11,7 +11,6 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
-            <Control type="ScriptPanel" id="btnPage1" value="1"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
@@ -87,7 +86,7 @@
                     <Component type="ScriptPanel" id="btnPage1" x="279" y="0" width="120" parentComponent="pnlMenu"
                                text="Performance" height="50" borderRadius="0" borderSize="0"
                                allowCallbacks="Clicks Only" textColour="4294967295" itemColour="2107744673"
-                               itemColour2="2107744673" saveInPreset="1"/>
+                               itemColour2="2107744673"/>
                     <Component type="ScriptPanel" id="btnPage2" x="401" y="0" width="80" parentComponent="pnlMenu"
                                text="Settings" height="50" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
                                textColour="4294967295" itemColour="2107744673" itemColour2="2107744673"/>
