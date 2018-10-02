@@ -11,6 +11,7 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
+            <Control type="ScriptComboBox" id="cmbPreset" value="1"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
@@ -71,7 +72,7 @@
                     <Component type="ScriptComboBox" id="cmbPreset" x="50" y="11" width="200"
                                height="32" max="13" parentComponent="pnlPreset" text="Patch"
                                bgColour="16777215" items="Sofia Woodwinds: Piccolo&#10;Sofia Woodwinds: Concert Flute I&#10;Sofia Woodwinds: Concert Flute II&#10;Sofia Woodwinds: Alto Flute&#10;Sofia Woodwinds: Oboe I&#10;Sofia Woodwinds: Oboe II&#10;Sofia Woodwinds: Cor Anglais&#10;Sofia Woodwinds: Clarinet I&#10;Sofia Woodwinds: Clarinet II&#10;Sofia Woodwinds: Bass Clarinet&#10;Sofia Woodwinds: Bassoon I&#10;Sofia Woodwinds: Bassoon II&#10;Sofia Woodwinds: Contrabassoon"
-                               itemColour="4283585106" itemColour2="4283585106" saveInPreset="0"/>
+                               itemColour="4283585106" itemColour2="4283585106"/>
                   </Component>
                   <Component type="ScriptPanel" id="pnlMenu" x="0" y="410" width="700" height="50"
                              parentComponent="pnlMain" borderRadius="0" borderSize="0" bgColour="0"
