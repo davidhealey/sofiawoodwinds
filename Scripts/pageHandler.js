@@ -29,7 +29,6 @@ namespace PageHandler
 	        PageHandler.buttons[i] = ui.buttonPanel("btnPage"+i, buttonPaintRoutine);
 	        PageHandler.buttons[i].setControlCallback(btnPageCB);
 	    }	    
-	    PageHandler.pages[1].setValue(1);
 	    changePage(1);
 	}
 	

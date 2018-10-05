@@ -55,7 +55,7 @@ namespace PresetHandler
     inline function pnlPresetCB(control, value)
     {
         if (cmbPreset.getValue() < 1) cmbPreset.setValue(1); //Default
-        loadPatch(patchNames[cmbPreset.getValue()-1]);
+        //loadPatch(patchNames[cmbPreset.getValue()-1]);
     }
 
     inline function cmbPresetCB(control, value)
