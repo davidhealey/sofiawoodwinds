@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="flute2_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
+  <sample ID="0" Root="60" HiKey="60" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3858"
           SampleEnd="410216" SampleStartMod="10000" LoopStart="206501"
           LoopEnd="358187" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
@@ -11,7 +11,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_decca_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_60_dynamic1.wav"/>
   </sample>
-  <sample ID="1" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
+  <sample ID="1" Root="60" HiKey="60" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14"
           SampleEnd="490004" SampleStartMod="10000" LoopStart="257002"
           LoopEnd="408681" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
@@ -21,7 +21,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_decca_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_60_dynamic2.wav"/>
   </sample>
-  <sample ID="2" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
+  <sample ID="2" Root="60" HiKey="60" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="844"
           SampleEnd="289192" SampleStartMod="8000" LoopStart="55242" LoopEnd="206968"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"

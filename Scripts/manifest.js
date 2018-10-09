@@ -44,7 +44,7 @@ namespace Manifest
 		"Sofia Woodwinds: Concert Flute I":
 		{
             sampleMapId:"flute1",
-            range:[60, 96],
+            range:[59, 96],
             gain: 
             {
                 release:-6.0
@@ -65,7 +65,7 @@ namespace Manifest
 		"Sofia Woodwinds: Concert Flute II":
 		{
             sampleMapId:"flute2",
-            range:[60, 96],
+            range:[59, 96],
 	        gain: 
             {
                 release:-6.0

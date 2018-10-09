@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="flute1_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="60" HiKey="60" LoKey="60" LoVel="70" HiVel="127"
+  <sample ID="0" Root="60" HiKey="60" LoKey="59" LoVel="70" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1664"
           SampleEnd="40552" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -11,7 +11,7 @@
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_decca_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_hall_60_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="1" Root="60" HiKey="60" LoKey="60" LoVel="70" HiVel="127"
+  <sample ID="1" Root="60" HiKey="60" LoKey="59" LoVel="70" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1531"
           SampleEnd="51260" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -21,7 +21,7 @@
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_decca_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_hall_60_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="2" Root="60" HiKey="60" LoKey="60" LoVel="70" HiVel="127"
+  <sample ID="2" Root="60" HiKey="60" LoKey="59" LoVel="70" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="179"
           SampleEnd="54782" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
