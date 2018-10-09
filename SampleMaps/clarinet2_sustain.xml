@@ -2,7 +2,7 @@
 
 <samplemap ID="clarinet2_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6591"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11105"
           SampleEnd="366457" SampleStartMod="10230" LoopStart="127252"
           LoopEnd="245742" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -12,7 +12,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_50_dynamic1.wav"/>
   </sample>
   <sample ID="1" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10795"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13046"
           SampleEnd="375139" SampleStartMod="12795" LoopStart="132178"
           LoopEnd="259944" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -22,7 +22,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_50_dynamic2.wav"/>
   </sample>
   <sample ID="2" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3293"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5248"
           SampleEnd="385488" SampleStartMod="7000" LoopStart="132199" LoopEnd="291415"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="745472"
@@ -32,7 +32,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_50_dynamic3.wav"/>
   </sample>
   <sample ID="3" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7390"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13260"
           SampleEnd="365260" SampleStartMod="10230" LoopStart="163583"
           LoopEnd="274180" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -42,7 +42,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_51_dynamic1.wav"/>
   </sample>
   <sample ID="4" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10305"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14542"
           SampleEnd="381985" SampleStartMod="11188" LoopStart="132141"
           LoopEnd="242553" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -52,7 +52,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_51_dynamic2.wav"/>
   </sample>
   <sample ID="5" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4010"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5423"
           SampleEnd="387773" SampleStartMod="7000" LoopStart="187383" LoopEnd="298096"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1888256"
@@ -62,7 +62,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_51_dynamic3.wav"/>
   </sample>
   <sample ID="6" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8686"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11612"
           SampleEnd="394270" SampleStartMod="10230" LoopStart="204442"
           LoopEnd="315049" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -72,7 +72,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_52_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6971"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8223"
           SampleEnd="387592" SampleStartMod="10184" LoopStart="177720"
           LoopEnd="288304" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -92,7 +92,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_52_dynamic3.wav"/>
   </sample>
   <sample ID="9" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5754"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9273"
           SampleEnd="387780" SampleStartMod="10230" LoopStart="175528"
           LoopEnd="290352" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -102,7 +102,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_53_dynamic1.wav"/>
   </sample>
   <sample ID="10" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7592"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9724"
           SampleEnd="392691" SampleStartMod="9016" LoopStart="175446" LoopEnd="292802"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3846144"
@@ -122,7 +122,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_53_dynamic3.wav"/>
   </sample>
   <sample ID="12" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10034"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13997"
           SampleEnd="386895" SampleStartMod="10230" LoopStart="65538" LoopEnd="268701"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4644864"
@@ -132,7 +132,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_54_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8848"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10672"
           SampleEnd="385845" SampleStartMod="9456" LoopStart="173061" LoopEnd="286092"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5033984"
@@ -152,7 +152,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_54_dynamic3.wav"/>
   </sample>
   <sample ID="15" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7904"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9762"
           SampleEnd="378117" SampleStartMod="10230" LoopStart="161356"
           LoopEnd="272377" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -162,7 +162,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_55_dynamic1.wav"/>
   </sample>
   <sample ID="16" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12105"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13897"
           SampleEnd="401101" SampleStartMod="11058" LoopStart="137206"
           LoopEnd="311948" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -172,7 +172,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_55_dynamic2.wav"/>
   </sample>
   <sample ID="17" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11755"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10897"
           SampleEnd="395193" SampleStartMod="7000" LoopStart="74456" LoopEnd="268233"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6615040"
@@ -182,7 +182,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_55_dynamic3.wav"/>
   </sample>
   <sample ID="18" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18099"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="20008"
           SampleEnd="396414" SampleStartMod="10230" LoopStart="174841"
           LoopEnd="289532" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -192,7 +192,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_56_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6265"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7698"
           SampleEnd="386009" SampleStartMod="10795" LoopStart="158725"
           LoopEnd="269179" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -202,7 +202,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_56_dynamic2.wav"/>
   </sample>
   <sample ID="20" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9760"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10718"
           SampleEnd="394683" SampleStartMod="7000" LoopStart="88892" LoopEnd="274048"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7798784"
@@ -212,7 +212,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_56_dynamic3.wav"/>
   </sample>
   <sample ID="21" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8922"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10540"
           SampleEnd="393381" SampleStartMod="10230" LoopStart="67530" LoopEnd="298517"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8196096"
@@ -222,7 +222,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_57_dynamic1.wav"/>
   </sample>
   <sample ID="22" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4587"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6298"
           SampleEnd="388983" SampleStartMod="10795" LoopStart="187567"
           LoopEnd="298344" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -232,7 +232,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_57_dynamic2.wav"/>
   </sample>
   <sample ID="23" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6250"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6609"
           SampleEnd="394961" SampleStartMod="7000" LoopStart="175321" LoopEnd="287282"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8982528"
@@ -242,7 +242,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_57_dynamic3.wav"/>
   </sample>
   <sample ID="24" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8198"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10182"
           SampleEnd="396374" SampleStartMod="10230" LoopStart="162897"
           LoopEnd="274486" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -252,7 +252,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_58_dynamic1.wav"/>
   </sample>
   <sample ID="25" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7199"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8136"
           SampleEnd="383725" SampleStartMod="10795" LoopStart="88996" LoopEnd="268413"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9777152"
@@ -262,7 +262,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_58_dynamic2.wav"/>
   </sample>
   <sample ID="26" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10341"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11254"
           SampleEnd="396504" SampleStartMod="7000" LoopStart="177871" LoopEnd="296358"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10162176"
@@ -272,7 +272,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_58_dynamic3.wav"/>
   </sample>
   <sample ID="27" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15759"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18757"
           SampleEnd="393809" SampleStartMod="10230" LoopStart="146014"
           LoopEnd="256791" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -282,7 +282,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_59_dynamic1.wav"/>
   </sample>
   <sample ID="28" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12211"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14404"
           SampleEnd="405331" SampleStartMod="10795" LoopStart="84114" LoopEnd="282700"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10956800"
@@ -302,7 +302,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_59_dynamic3.wav"/>
   </sample>
   <sample ID="30" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13016"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="16614"
           SampleEnd="396550" SampleStartMod="12186" LoopStart="182504"
           LoopEnd="293021" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -332,7 +332,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_60_dynamic3.wav"/>
   </sample>
   <sample ID="33" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9743"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13536"
           SampleEnd="401289" SampleStartMod="13095" LoopStart="106473"
           LoopEnd="279137" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -342,7 +342,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_61_dynamic1.wav"/>
   </sample>
   <sample ID="34" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8023"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9646"
           SampleEnd="396545" SampleStartMod="10795" LoopStart="192124"
           LoopEnd="302620" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -362,7 +362,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_61_dynamic3.wav"/>
   </sample>
   <sample ID="36" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6202"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9024"
           SampleEnd="405683" SampleStartMod="10230" LoopStart="171071"
           LoopEnd="285825" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -372,7 +372,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_62_dynamic1.wav"/>
   </sample>
   <sample ID="37" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9247"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10028"
           SampleEnd="402516" SampleStartMod="10795" LoopStart="163495"
           LoopEnd="277248" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -392,7 +392,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_62_dynamic3.wav"/>
   </sample>
   <sample ID="39" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5816"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7249"
           SampleEnd="391994" SampleStartMod="10230" LoopStart="138242"
           LoopEnd="269031" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -402,7 +402,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_63_dynamic1.wav"/>
   </sample>
   <sample ID="40" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10854"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11492"
           SampleEnd="389349" SampleStartMod="10795" LoopStart="146777"
           LoopEnd="259224" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -422,7 +422,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_63_dynamic3.wav"/>
   </sample>
   <sample ID="42" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7522"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9762"
           SampleEnd="380225" SampleStartMod="11842" LoopStart="155606"
           LoopEnd="266051" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -452,7 +452,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_64_dynamic3.wav"/>
   </sample>
   <sample ID="45" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8993"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11669"
           SampleEnd="392172" SampleStartMod="10230" LoopStart="146194"
           LoopEnd="261539" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -482,7 +482,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_65_dynamic3.wav"/>
   </sample>
   <sample ID="48" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4485"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9024"
           SampleEnd="399009" SampleStartMod="13855" LoopStart="151737"
           LoopEnd="273560" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -512,7 +512,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_66_dynamic3.wav"/>
   </sample>
   <sample ID="51" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6512"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7840"
           SampleEnd="402345" SampleStartMod="10230" LoopStart="117662"
           LoopEnd="291238" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -572,7 +572,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_68_dynamic3.wav"/>
   </sample>
   <sample ID="57" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10261"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="11790"
           SampleEnd="395675" SampleStartMod="14179" LoopStart="137134"
           LoopEnd="309919" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -602,7 +602,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_69_dynamic3.wav"/>
   </sample>
   <sample ID="60" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21247"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23760"
           SampleEnd="397086" SampleStartMod="15084" LoopStart="146641"
           LoopEnd="283280" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -632,7 +632,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_70_dynamic3.wav"/>
   </sample>
   <sample ID="63" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13273"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17326"
           SampleEnd="398814" SampleStartMod="14829" LoopStart="32692" LoopEnd="305099"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24993792"
@@ -652,7 +652,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_71_dynamic2.wav"/>
   </sample>
   <sample ID="65" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6077"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8022"
           SampleEnd="403029" SampleStartMod="7000" LoopStart="174701" LoopEnd="290360"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25808896"
@@ -662,7 +662,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_71_dynamic3.wav"/>
   </sample>
   <sample ID="66" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11455"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="12553"
           SampleEnd="389886" SampleStartMod="12024" LoopStart="50453" LoopEnd="247815"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26214400"
@@ -682,7 +682,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_72_dynamic2.wav"/>
   </sample>
   <sample ID="68" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5834"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6814"
           SampleEnd="405002" SampleStartMod="7000" LoopStart="187894" LoopEnd="299405"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27013120"
@@ -692,7 +692,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_72_dynamic3.wav"/>
   </sample>
   <sample ID="69" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17840"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="19853"
           SampleEnd="400769" SampleStartMod="10230" LoopStart="145560"
           LoopEnd="262827" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -782,7 +782,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_75_dynamic3.wav"/>
   </sample>
   <sample ID="78" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8515"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12247"
           SampleEnd="386488" SampleStartMod="12641" LoopStart="178257"
           LoopEnd="289487" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -812,7 +812,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_76_dynamic3.wav"/>
   </sample>
   <sample ID="81" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6046"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8396"
           SampleEnd="395332" SampleStartMod="10230" LoopStart="164913"
           LoopEnd="280321" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -842,7 +842,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_77_dynamic3.wav"/>
   </sample>
   <sample ID="84" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8835"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11133"
           SampleEnd="377897" SampleStartMod="10230" LoopStart="103294"
           LoopEnd="273240" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -852,7 +852,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_78_dynamic1.wav"/>
   </sample>
   <sample ID="85" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8137"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9298"
           SampleEnd="402138" SampleStartMod="10795" LoopStart="171440"
           LoopEnd="291227" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -902,7 +902,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_79_dynamic3.wav"/>
   </sample>
   <sample ID="90" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5593"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7348"
           SampleEnd="388734" SampleStartMod="10230" LoopStart="151295"
           LoopEnd="278025" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -912,7 +912,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_80_dynamic1.wav"/>
   </sample>
   <sample ID="91" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="20184"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="24367"
           SampleEnd="411758" SampleStartMod="14406" LoopStart="141522"
           LoopEnd="293931" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -932,7 +932,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_80_dynamic3.wav"/>
   </sample>
   <sample ID="93" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7807"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9646"
           SampleEnd="394595" SampleStartMod="10230" LoopStart="143954"
           LoopEnd="264578" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -962,7 +962,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_81_dynamic3.wav"/>
   </sample>
   <sample ID="96" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8494"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10147"
           SampleEnd="385530" SampleStartMod="10230" LoopStart="47547" LoopEnd="292967"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38281216"
@@ -1012,7 +1012,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_83_dynamic2.wav"/>
   </sample>
   <sample ID="101" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6529"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6746"
           SampleEnd="404281" SampleStartMod="7000" LoopStart="80816" LoopEnd="266021"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="40312832"
@@ -1032,7 +1032,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_84_dynamic1.wav"/>
   </sample>
   <sample ID="103" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11104"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13765"
           SampleEnd="413033" SampleStartMod="10795" LoopStart="137247"
           LoopEnd="300723" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -1042,7 +1042,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_84_dynamic2.wav"/>
   </sample>
   <sample ID="104" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8663"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9674"
           SampleEnd="418993" SampleStartMod="7000" LoopStart="180184" LoopEnd="308362"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41508864"
@@ -1112,7 +1112,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_86_dynamic3.wav"/>
   </sample>
   <sample ID="111" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23024"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25609"
           SampleEnd="419686" SampleStartMod="12603" LoopStart="89470" LoopEnd="288295"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44388352"
@@ -1122,7 +1122,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_87_dynamic1.wav"/>
   </sample>
   <sample ID="112" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8611"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="8611"
           SampleEnd="410884" SampleStartMod="10795" LoopStart="159260"
           LoopEnd="278115" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -1142,7 +1142,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_87_dynamic3.wav"/>
   </sample>
   <sample ID="114" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7758"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9672"
           SampleEnd="410775" SampleStartMod="11457" LoopStart="107572"
           LoopEnd="218621" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -1162,7 +1162,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_88_dynamic2.wav"/>
   </sample>
   <sample ID="116" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7620"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="7620"
           SampleEnd="416660" SampleStartMod="7000" LoopStart="107653" LoopEnd="288583"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="46460928"
@@ -1232,7 +1232,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_90_dynamic3.wav"/>
   </sample>
   <sample ID="123" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5463"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7657"
           SampleEnd="405012" SampleStartMod="10230" LoopStart="117662"
           LoopEnd="271622" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
