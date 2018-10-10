@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="bassClarinet_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="34" HiKey="34" LoKey="34" LoVel="70" HiVel="127"
+  <sample ID="0" Root="34" HiKey="34" LoKey="34" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11991"
           SampleEnd="66095" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -11,7 +11,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_34_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_34_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="1" Root="34" HiKey="34" LoKey="34" LoVel="70" HiVel="127"
+  <sample ID="1" Root="34" HiKey="34" LoKey="34" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2316"
           SampleEnd="68673" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -21,7 +21,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_34_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_34_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="2" Root="34" HiKey="34" LoKey="34" LoVel="70" HiVel="127"
+  <sample ID="2" Root="34" HiKey="34" LoKey="34" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5852"
           SampleEnd="84513" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -31,7 +31,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_34_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_34_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="3" Root="35" HiKey="35" LoKey="35" LoVel="70" HiVel="127"
+  <sample ID="3" Root="35" HiKey="35" LoKey="35" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4199"
           SampleEnd="59547" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -41,7 +41,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_35_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_35_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="4" Root="35" HiKey="35" LoKey="35" LoVel="70" HiVel="127"
+  <sample ID="4" Root="35" HiKey="35" LoKey="35" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8144"
           SampleEnd="88822" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -51,7 +51,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_35_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_35_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="5" Root="35" HiKey="35" LoKey="35" LoVel="70" HiVel="127"
+  <sample ID="5" Root="35" HiKey="35" LoKey="35" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7048"
           SampleEnd="86602" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -61,7 +61,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_35_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_35_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="6" Root="36" HiKey="36" LoKey="36" LoVel="70" HiVel="127"
+  <sample ID="6" Root="36" HiKey="36" LoKey="36" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10952"
           SampleEnd="73757" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -71,7 +71,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_36_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_36_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="7" Root="36" HiKey="36" LoKey="36" LoVel="70" HiVel="127"
+  <sample ID="7" Root="36" HiKey="36" LoKey="36" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7039"
           SampleEnd="85495" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -81,7 +81,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_36_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_36_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="8" Root="36" HiKey="36" LoKey="36" LoVel="70" HiVel="127"
+  <sample ID="8" Root="36" HiKey="36" LoKey="36" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7329"
           SampleEnd="86226" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -91,7 +91,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_36_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_36_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="9" Root="37" HiKey="37" LoKey="37" LoVel="70" HiVel="127"
+  <sample ID="9" Root="37" HiKey="37" LoKey="37" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7201"
           SampleEnd="66234" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -101,7 +101,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_37_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_37_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="10" Root="37" HiKey="37" LoKey="37" LoVel="70" HiVel="127"
+  <sample ID="10" Root="37" HiKey="37" LoKey="37" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7453"
           SampleEnd="77464" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -111,7 +111,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_37_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_37_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="11" Root="37" HiKey="37" LoKey="37" LoVel="70" HiVel="127"
+  <sample ID="11" Root="37" HiKey="37" LoKey="37" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7499"
           SampleEnd="90158" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -121,7 +121,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_37_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_37_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="12" Root="38" HiKey="38" LoKey="38" LoVel="70" HiVel="127"
+  <sample ID="12" Root="38" HiKey="38" LoKey="38" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6769"
           SampleEnd="66890" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -131,7 +131,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_38_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_38_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="13" Root="38" HiKey="38" LoKey="38" LoVel="70" HiVel="127"
+  <sample ID="13" Root="38" HiKey="38" LoKey="38" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8354"
           SampleEnd="85379" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -141,7 +141,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_38_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_38_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="14" Root="38" HiKey="38" LoKey="38" LoVel="70" HiVel="127"
+  <sample ID="14" Root="38" HiKey="38" LoKey="38" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4870"
           SampleEnd="79653" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -151,7 +151,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_38_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_38_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="15" Root="39" HiKey="39" LoKey="39" LoVel="70" HiVel="127"
+  <sample ID="15" Root="39" HiKey="39" LoKey="39" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7670"
           SampleEnd="65540" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -161,7 +161,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_39_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_39_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="16" Root="39" HiKey="39" LoKey="39" LoVel="70" HiVel="127"
+  <sample ID="16" Root="39" HiKey="39" LoKey="39" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="6694"
           SampleEnd="83967" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -171,7 +171,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_39_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_39_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="17" Root="39" HiKey="39" LoKey="39" LoVel="70" HiVel="127"
+  <sample ID="17" Root="39" HiKey="39" LoKey="39" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7381"
           SampleEnd="86159" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -181,7 +181,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_39_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_39_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="18" Root="40" HiKey="40" LoKey="40" LoVel="70" HiVel="127"
+  <sample ID="18" Root="40" HiKey="40" LoKey="40" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10081"
           SampleEnd="68582" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -191,7 +191,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_40_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_40_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="19" Root="40" HiKey="40" LoKey="40" LoVel="70" HiVel="127"
+  <sample ID="19" Root="40" HiKey="40" LoKey="40" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5875"
           SampleEnd="86126" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -201,7 +201,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_40_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_40_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="20" Root="40" HiKey="40" LoKey="40" LoVel="70" HiVel="127"
+  <sample ID="20" Root="40" HiKey="40" LoKey="40" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9120"
           SampleEnd="87648" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -211,7 +211,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_40_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_40_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="21" Root="41" HiKey="41" LoKey="41" LoVel="70" HiVel="127"
+  <sample ID="21" Root="41" HiKey="41" LoKey="41" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7482"
           SampleEnd="67348" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -221,7 +221,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_41_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_41_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="22" Root="41" HiKey="41" LoKey="41" LoVel="70" HiVel="127"
+  <sample ID="22" Root="41" HiKey="41" LoKey="41" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7993"
           SampleEnd="81192" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -231,7 +231,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_41_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_41_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="23" Root="41" HiKey="41" LoKey="41" LoVel="70" HiVel="127"
+  <sample ID="23" Root="41" HiKey="41" LoKey="41" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6778"
           SampleEnd="84869" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -241,7 +241,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_41_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_41_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="24" Root="42" HiKey="42" LoKey="42" LoVel="70" HiVel="127"
+  <sample ID="24" Root="42" HiKey="42" LoKey="42" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9547"
           SampleEnd="71130" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -251,7 +251,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_42_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_42_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="25" Root="42" HiKey="42" LoKey="42" LoVel="70" HiVel="127"
+  <sample ID="25" Root="42" HiKey="42" LoKey="42" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4621"
           SampleEnd="72877" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -261,7 +261,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_42_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_42_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="26" Root="42" HiKey="42" LoKey="42" LoVel="70" HiVel="127"
+  <sample ID="26" Root="42" HiKey="42" LoKey="42" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2774"
           SampleEnd="80324" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -271,7 +271,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_42_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_42_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="27" Root="43" HiKey="43" LoKey="43" LoVel="70" HiVel="127"
+  <sample ID="27" Root="43" HiKey="43" LoKey="43" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2845"
           SampleEnd="59801" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -281,7 +281,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_43_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_43_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="28" Root="43" HiKey="43" LoKey="43" LoVel="70" HiVel="127"
+  <sample ID="28" Root="43" HiKey="43" LoKey="43" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6930"
           SampleEnd="86583" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -291,7 +291,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_43_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_43_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="29" Root="43" HiKey="43" LoKey="43" LoVel="70" HiVel="127"
+  <sample ID="29" Root="43" HiKey="43" LoKey="43" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1585"
           SampleEnd="80337" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -301,7 +301,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_43_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_43_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="30" Root="44" HiKey="44" LoKey="44" LoVel="70" HiVel="127"
+  <sample ID="30" Root="44" HiKey="44" LoKey="44" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3036"
           SampleEnd="62695" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -311,7 +311,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_44_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_44_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="31" Root="44" HiKey="44" LoKey="44" LoVel="70" HiVel="127"
+  <sample ID="31" Root="44" HiKey="44" LoKey="44" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3516"
           SampleEnd="71747" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -321,7 +321,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_44_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_44_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="32" Root="44" HiKey="44" LoKey="44" LoVel="70" HiVel="127"
+  <sample ID="32" Root="44" HiKey="44" LoKey="44" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5000"
           SampleEnd="83136" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -331,7 +331,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_44_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_44_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="33" Root="45" HiKey="45" LoKey="45" LoVel="70" HiVel="127"
+  <sample ID="33" Root="45" HiKey="45" LoKey="45" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6324"
           SampleEnd="66516" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -341,7 +341,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_45_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_45_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="34" Root="45" HiKey="45" LoKey="45" LoVel="70" HiVel="127"
+  <sample ID="34" Root="45" HiKey="45" LoKey="45" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5242"
           SampleEnd="72841" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -351,7 +351,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_45_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_45_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="35" Root="45" HiKey="45" LoKey="45" LoVel="70" HiVel="127"
+  <sample ID="35" Root="45" HiKey="45" LoKey="45" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4356"
           SampleEnd="78290" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -361,7 +361,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_45_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_45_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="36" Root="46" HiKey="46" LoKey="46" LoVel="70" HiVel="127"
+  <sample ID="36" Root="46" HiKey="46" LoKey="46" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4689"
           SampleEnd="74780" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -371,7 +371,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_46_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_46_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="37" Root="46" HiKey="46" LoKey="46" LoVel="70" HiVel="127"
+  <sample ID="37" Root="46" HiKey="46" LoKey="46" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2834"
           SampleEnd="76170" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -381,7 +381,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_46_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_46_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="38" Root="46" HiKey="46" LoKey="46" LoVel="70" HiVel="127"
+  <sample ID="38" Root="46" HiKey="46" LoKey="46" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3629"
           SampleEnd="66879" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -391,7 +391,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_46_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_46_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="39" Root="47" HiKey="47" LoKey="47" LoVel="70" HiVel="127"
+  <sample ID="39" Root="47" HiKey="47" LoKey="47" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6396"
           SampleEnd="71473" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -401,7 +401,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_47_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_47_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="40" Root="47" HiKey="47" LoKey="47" LoVel="70" HiVel="127"
+  <sample ID="40" Root="47" HiKey="47" LoKey="47" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3576"
           SampleEnd="71624" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -411,7 +411,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_47_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_47_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="41" Root="47" HiKey="47" LoKey="47" LoVel="70" HiVel="127"
+  <sample ID="41" Root="47" HiKey="47" LoKey="47" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3698"
           SampleEnd="82810" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -421,7 +421,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_47_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_47_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="42" Root="48" HiKey="48" LoKey="48" LoVel="70" HiVel="127"
+  <sample ID="42" Root="48" HiKey="48" LoKey="48" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1504"
           SampleEnd="59751" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -431,7 +431,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_48_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_48_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="43" Root="48" HiKey="48" LoKey="48" LoVel="70" HiVel="127"
+  <sample ID="43" Root="48" HiKey="48" LoKey="48" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="773"
           SampleEnd="69011" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -441,7 +441,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_48_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_48_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="44" Root="48" HiKey="48" LoKey="48" LoVel="70" HiVel="127"
+  <sample ID="44" Root="48" HiKey="48" LoKey="48" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3788"
           SampleEnd="83305" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -451,7 +451,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_48_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_48_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="45" Root="49" HiKey="49" LoKey="49" LoVel="70" HiVel="127"
+  <sample ID="45" Root="49" HiKey="49" LoKey="49" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1519"
           SampleEnd="71922" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -461,7 +461,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_49_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_49_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="46" Root="49" HiKey="49" LoKey="49" LoVel="70" HiVel="127"
+  <sample ID="46" Root="49" HiKey="49" LoKey="49" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2444"
           SampleEnd="70024" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -471,7 +471,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_49_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_49_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="47" Root="49" HiKey="49" LoKey="49" LoVel="70" HiVel="127"
+  <sample ID="47" Root="49" HiKey="49" LoKey="49" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3600"
           SampleEnd="82128" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -481,7 +481,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_49_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_49_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="48" Root="50" HiKey="50" LoKey="50" LoVel="70" HiVel="127"
+  <sample ID="48" Root="50" HiKey="50" LoKey="50" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1160"
           SampleEnd="62160" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -491,7 +491,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_50_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_50_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="49" Root="50" HiKey="50" LoKey="50" LoVel="70" HiVel="127"
+  <sample ID="49" Root="50" HiKey="50" LoKey="50" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2684"
           SampleEnd="74526" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -501,7 +501,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_50_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_50_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="50" Root="50" HiKey="50" LoKey="50" LoVel="70" HiVel="127"
+  <sample ID="50" Root="50" HiKey="50" LoKey="50" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3105"
           SampleEnd="82740" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -511,7 +511,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_50_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_50_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="51" Root="51" HiKey="51" LoKey="51" LoVel="70" HiVel="127"
+  <sample ID="51" Root="51" HiKey="51" LoKey="51" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68934" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -521,7 +521,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_51_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_51_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="52" Root="51" HiKey="51" LoKey="51" LoVel="70" HiVel="127"
+  <sample ID="52" Root="51" HiKey="51" LoKey="51" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1153"
           SampleEnd="73598" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -531,7 +531,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_51_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_51_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="53" Root="51" HiKey="51" LoKey="51" LoVel="70" HiVel="127"
+  <sample ID="53" Root="51" HiKey="51" LoKey="51" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1505"
           SampleEnd="78830" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -541,7 +541,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_51_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_51_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="54" Root="52" HiKey="52" LoKey="52" LoVel="70" HiVel="127"
+  <sample ID="54" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="217"
           SampleEnd="60370" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -551,7 +551,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_52_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="55" Root="52" HiKey="52" LoKey="52" LoVel="70" HiVel="127"
+  <sample ID="55" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="645"
           SampleEnd="70557" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -561,7 +561,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_52_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_52_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="56" Root="52" HiKey="52" LoKey="52" LoVel="70" HiVel="127"
+  <sample ID="56" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1998"
           SampleEnd="80877" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -571,7 +571,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_52_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_52_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="57" Root="53" HiKey="53" LoKey="53" LoVel="70" HiVel="127"
+  <sample ID="57" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1308"
           SampleEnd="59362" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -581,7 +581,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_53_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="58" Root="53" HiKey="53" LoKey="53" LoVel="70" HiVel="127"
+  <sample ID="58" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1359"
           SampleEnd="69439" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -591,7 +591,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_53_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_53_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="59" Root="53" HiKey="53" LoKey="53" LoVel="70" HiVel="127"
+  <sample ID="59" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1732"
           SampleEnd="76710" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -601,7 +601,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_53_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_53_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="60" Root="54" HiKey="54" LoKey="54" LoVel="70" HiVel="127"
+  <sample ID="60" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62197" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -611,7 +611,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_54_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="61" Root="54" HiKey="54" LoKey="54" LoVel="70" HiVel="127"
+  <sample ID="61" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2085"
           SampleEnd="68569" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -621,7 +621,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_54_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_54_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="62" Root="54" HiKey="54" LoKey="54" LoVel="70" HiVel="127"
+  <sample ID="62" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="752"
           SampleEnd="70164" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -631,7 +631,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_54_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_54_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="63" Root="55" HiKey="55" LoKey="55" LoVel="70" HiVel="127"
+  <sample ID="63" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="658"
           SampleEnd="63625" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -641,7 +641,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_55_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="64" Root="55" HiKey="55" LoKey="55" LoVel="70" HiVel="127"
+  <sample ID="64" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3390"
           SampleEnd="70896" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -651,7 +651,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_55_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_55_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="65" Root="55" HiKey="55" LoKey="55" LoVel="70" HiVel="127"
+  <sample ID="65" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1440"
           SampleEnd="73259" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -661,7 +661,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_55_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_55_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="66" Root="56" HiKey="56" LoKey="56" LoVel="70" HiVel="127"
+  <sample ID="66" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67972" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -671,7 +671,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_56_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="67" Root="56" HiKey="56" LoKey="56" LoVel="70" HiVel="127"
+  <sample ID="67" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2678"
           SampleEnd="87513" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -681,7 +681,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_56_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_56_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="68" Root="56" HiKey="56" LoKey="56" LoVel="70" HiVel="127"
+  <sample ID="68" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4579"
           SampleEnd="76893" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -691,7 +691,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_56_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_56_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="69" Root="57" HiKey="57" LoKey="57" LoVel="70" HiVel="127"
+  <sample ID="69" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1113"
           SampleEnd="68777" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -701,7 +701,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_57_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="70" Root="57" HiKey="57" LoKey="57" LoVel="70" HiVel="127"
+  <sample ID="70" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1435"
           SampleEnd="69375" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -711,7 +711,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_57_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_57_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="71" Root="57" HiKey="57" LoKey="57" LoVel="70" HiVel="127"
+  <sample ID="71" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4194"
           SampleEnd="74570" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -721,7 +721,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_57_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_57_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="72" Root="58" HiKey="58" LoKey="58" LoVel="70" HiVel="127"
+  <sample ID="72" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3182"
           SampleEnd="71418" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -731,7 +731,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_58_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="73" Root="58" HiKey="58" LoKey="58" LoVel="70" HiVel="127"
+  <sample ID="73" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5396"
           SampleEnd="72695" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -741,7 +741,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_58_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_58_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="74" Root="58" HiKey="58" LoKey="58" LoVel="70" HiVel="127"
+  <sample ID="74" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4245"
           SampleEnd="70458" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -751,7 +751,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_58_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_58_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="75" Root="59" HiKey="59" LoKey="59" LoVel="70" HiVel="127"
+  <sample ID="75" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1453"
           SampleEnd="62100" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -761,7 +761,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_59_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="76" Root="59" HiKey="59" LoKey="59" LoVel="70" HiVel="127"
+  <sample ID="76" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4084"
           SampleEnd="70971" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -771,7 +771,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_59_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_59_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="77" Root="59" HiKey="59" LoKey="59" LoVel="70" HiVel="127"
+  <sample ID="77" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4945"
           SampleEnd="69994" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -781,7 +781,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_59_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_59_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="78" Root="60" HiKey="60" LoKey="60" LoVel="70" HiVel="127"
+  <sample ID="78" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2445"
           SampleEnd="65148" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -791,7 +791,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_60_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="79" Root="60" HiKey="60" LoKey="60" LoVel="70" HiVel="127"
+  <sample ID="79" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4369"
           SampleEnd="84478" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -801,7 +801,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_60_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="80" Root="60" HiKey="60" LoKey="60" LoVel="70" HiVel="127"
+  <sample ID="80" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4695"
           SampleEnd="74054" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -811,7 +811,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_60_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="81" Root="61" HiKey="61" LoKey="61" LoVel="70" HiVel="127"
+  <sample ID="81" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="593"
           SampleEnd="65966" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -821,7 +821,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_61_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="82" Root="61" HiKey="61" LoKey="61" LoVel="70" HiVel="127"
+  <sample ID="82" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3065"
           SampleEnd="84135" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -831,7 +831,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_61_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_61_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="83" Root="61" HiKey="61" LoKey="61" LoVel="70" HiVel="127"
+  <sample ID="83" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4563"
           SampleEnd="83854" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -841,7 +841,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_61_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="84" Root="62" HiKey="62" LoKey="62" LoVel="70" HiVel="127"
+  <sample ID="84" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65927" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -851,7 +851,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_62_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="85" Root="62" HiKey="62" LoKey="62" LoVel="70" HiVel="127"
+  <sample ID="85" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3119"
           SampleEnd="84769" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -861,7 +861,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_62_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_62_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="86" Root="62" HiKey="62" LoKey="62" LoVel="70" HiVel="127"
+  <sample ID="86" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5472"
           SampleEnd="85103" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -871,7 +871,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_62_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="87" Root="63" HiKey="63" LoKey="63" LoVel="70" HiVel="127"
+  <sample ID="87" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="494"
           SampleEnd="68666" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -881,7 +881,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_63_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="88" Root="63" HiKey="63" LoKey="63" LoVel="70" HiVel="127"
+  <sample ID="88" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3017"
           SampleEnd="79354" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -891,7 +891,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_63_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_63_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="89" Root="63" HiKey="63" LoKey="63" LoVel="70" HiVel="127"
+  <sample ID="89" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5732"
           SampleEnd="83288" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -901,7 +901,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_63_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="90" Root="64" HiKey="64" LoKey="64" LoVel="70" HiVel="127"
+  <sample ID="90" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="891"
           SampleEnd="74286" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -911,7 +911,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_64_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="91" Root="64" HiKey="64" LoKey="64" LoVel="70" HiVel="127"
+  <sample ID="91" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2721"
           SampleEnd="81097" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -921,7 +921,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_64_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_64_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="92" Root="64" HiKey="64" LoKey="64" LoVel="70" HiVel="127"
+  <sample ID="92" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3588"
           SampleEnd="80587" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -931,7 +931,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_64_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="93" Root="65" HiKey="65" LoKey="65" LoVel="70" HiVel="127"
+  <sample ID="93" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="607"
           SampleEnd="65295" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -941,7 +941,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_65_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="94" Root="65" HiKey="65" LoKey="65" LoVel="70" HiVel="127"
+  <sample ID="94" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1011"
           SampleEnd="70685" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -951,7 +951,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_65_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_65_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="95" Root="65" HiKey="65" LoKey="65" LoVel="70" HiVel="127"
+  <sample ID="95" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3789"
           SampleEnd="82618" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -961,7 +961,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_65_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="96" Root="66" HiKey="66" LoKey="66" LoVel="70" HiVel="127"
+  <sample ID="96" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="316"
           SampleEnd="70268" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -971,7 +971,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_66_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="97" Root="66" HiKey="66" LoKey="66" LoVel="70" HiVel="127"
+  <sample ID="97" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4269"
           SampleEnd="76571" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -981,7 +981,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_66_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_66_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="98" Root="66" HiKey="66" LoKey="66" LoVel="70" HiVel="127"
+  <sample ID="98" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5575"
           SampleEnd="89816" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -991,7 +991,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_66_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="99" Root="67" HiKey="67" LoKey="67" LoVel="70" HiVel="127"
+  <sample ID="99" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1187"
           SampleEnd="63989" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1001,7 +1001,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_67_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="100" Root="67" HiKey="67" LoKey="67" LoVel="70" HiVel="127"
+  <sample ID="100" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2408"
           SampleEnd="72257" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1011,7 +1011,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_67_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_67_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="101" Root="67" HiKey="67" LoKey="67" LoVel="70" HiVel="127"
+  <sample ID="101" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3876"
           SampleEnd="87861" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1021,7 +1021,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_67_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="102" Root="68" HiKey="68" LoKey="68" LoVel="70" HiVel="127"
+  <sample ID="102" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1263"
           SampleEnd="69496" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1031,7 +1031,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_68_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="103" Root="68" HiKey="68" LoKey="68" LoVel="70" HiVel="127"
+  <sample ID="103" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1777"
           SampleEnd="76678" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1041,7 +1041,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_68_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_68_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="104" Root="68" HiKey="68" LoKey="68" LoVel="70" HiVel="127"
+  <sample ID="104" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4009"
           SampleEnd="82103" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1051,7 +1051,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_68_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="105" Root="69" HiKey="69" LoKey="69" LoVel="70" HiVel="127"
+  <sample ID="105" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1560"
           SampleEnd="73830" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1061,7 +1061,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_69_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="106" Root="69" HiKey="69" LoKey="69" LoVel="70" HiVel="127"
+  <sample ID="106" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4465"
           SampleEnd="78619" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1071,7 +1071,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_69_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_69_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="107" Root="69" HiKey="69" LoKey="69" LoVel="70" HiVel="127"
+  <sample ID="107" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4383"
           SampleEnd="78118" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1081,7 +1081,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_69_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="108" Root="70" HiKey="70" LoKey="70" LoVel="70" HiVel="127"
+  <sample ID="108" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="51"
           SampleEnd="76201" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1091,7 +1091,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_70_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="109" Root="70" HiKey="70" LoKey="70" LoVel="70" HiVel="127"
+  <sample ID="109" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2743"
           SampleEnd="79449" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1101,7 +1101,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_70_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_70_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="110" Root="70" HiKey="70" LoKey="70" LoVel="70" HiVel="127"
+  <sample ID="110" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4736"
           SampleEnd="88547" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1111,7 +1111,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_70_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="111" Root="71" HiKey="71" LoKey="71" LoVel="70" HiVel="127"
+  <sample ID="111" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1856"
           SampleEnd="73728" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1121,7 +1121,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_71_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="112" Root="71" HiKey="71" LoKey="71" LoVel="70" HiVel="127"
+  <sample ID="112" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4442"
           SampleEnd="80283" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1131,7 +1131,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_71_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_71_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="113" Root="71" HiKey="71" LoKey="71" LoVel="70" HiVel="127"
+  <sample ID="113" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6528"
           SampleEnd="85830" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1141,7 +1141,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_71_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="114" Root="72" HiKey="72" LoKey="72" LoVel="70" HiVel="127"
+  <sample ID="114" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="893"
           SampleEnd="78421" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1151,7 +1151,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_72_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="115" Root="72" HiKey="72" LoKey="72" LoVel="70" HiVel="127"
+  <sample ID="115" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2988"
           SampleEnd="75558" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1161,7 +1161,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_72_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_72_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="116" Root="72" HiKey="72" LoKey="72" LoVel="70" HiVel="127"
+  <sample ID="116" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4187"
           SampleEnd="93406" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1171,7 +1171,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_72_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="117" Root="73" HiKey="73" LoKey="73" LoVel="70" HiVel="127"
+  <sample ID="117" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="110"
           SampleEnd="78363" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1181,7 +1181,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_73_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="118" Root="73" HiKey="73" LoKey="73" LoVel="70" HiVel="127"
+  <sample ID="118" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4627"
           SampleEnd="76194" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1191,7 +1191,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_73_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_73_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="119" Root="73" HiKey="73" LoKey="73" LoVel="70" HiVel="127"
+  <sample ID="119" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4048"
           SampleEnd="83814" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1201,7 +1201,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_73_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="120" Root="74" HiKey="74" LoKey="74" LoVel="70" HiVel="127"
+  <sample ID="120" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1366"
           SampleEnd="79690" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1211,7 +1211,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_74_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="121" Root="74" HiKey="74" LoKey="74" LoVel="70" HiVel="127"
+  <sample ID="121" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4293"
           SampleEnd="74595" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1221,7 +1221,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_74_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_74_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="122" Root="74" HiKey="74" LoKey="74" LoVel="70" HiVel="127"
+  <sample ID="122" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4205"
           SampleEnd="82585" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1231,7 +1231,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_74_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="123" Root="75" HiKey="75" LoKey="75" LoVel="70" HiVel="127"
+  <sample ID="123" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1436"
           SampleEnd="82706" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1241,7 +1241,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_75_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="124" Root="75" HiKey="75" LoKey="75" LoVel="70" HiVel="127"
+  <sample ID="124" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4685"
           SampleEnd="82556" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
@@ -1251,7 +1251,7 @@
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_decca_75_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassClarinet/staccato/bassClarinet_staccato_hall_75_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="125" Root="75" HiKey="75" LoKey="75" LoVel="70" HiVel="127"
+  <sample ID="125" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4335"
           SampleEnd="82590" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
