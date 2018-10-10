@@ -26,7 +26,7 @@ namespace Manifest
 	        range: [74, 105],
 	        gain: 
             {
-                release:-6.0
+                release:-8.0
             },
             legatoSettings:
 		    {
@@ -47,7 +47,7 @@ namespace Manifest
             range:[59, 96],
             gain: 
             {
-                release:-6.0
+                release:-8.0
             },
             legatoSettings:
             {
@@ -68,7 +68,7 @@ namespace Manifest
             range:[59, 96],
 	        gain: 
             {
-                release:-6.0
+                release:-8.0
             },
             legatoSettings:
             {
@@ -89,7 +89,7 @@ namespace Manifest
 			range: [55, 91],
 			gain: 
             {
-                release:-9.0
+                release:-11.0
             },
 			legatoSettings:
 		    {
@@ -110,7 +110,7 @@ namespace Manifest
 	        range: [58, 91],
 	        gain: 
             {
-                release:-3.0
+                release:-5.0
             },
             legatoSettings:
 		    {
@@ -131,7 +131,7 @@ namespace Manifest
 	        range: [58, 91],
 	        gain: 
             {
-                release:-3.0
+                release:-5.0
             },
             legatoSettings:
 		    {
@@ -152,7 +152,7 @@ namespace Manifest
 	        range: [52, 83],
 	        gain: 
             {
-                release:-3.0
+                release:-5.0
             },
             legatoSettings:
 		    {
@@ -173,7 +173,7 @@ namespace Manifest
 	        range: [50, 91],
 	        gain: 
             {
-                release:-6.0
+                release:-8.0
             },
             legatoSettings:
 		    {
@@ -194,7 +194,7 @@ namespace Manifest
 	        range: [50, 91],
 	        gain: 
             {
-                release:-6.0
+                release:-8.0
             },
             legatoSettings:
 		    {
@@ -215,7 +215,7 @@ namespace Manifest
 	        range: [34, 75],
 	        gain: 
             {
-                release:-6.0
+                release:-8.0
             },
             legatoSettings:
 		    {
@@ -236,7 +236,7 @@ namespace Manifest
 	        range: [34, 74],
 	        gain: 
             {
-                release:0.0
+                release:-2.0
             },
             legatoSettings:
 		    {
@@ -257,7 +257,7 @@ namespace Manifest
 	        range: [34, 74],
 	        gain: 
             {
-                release:0.0
+                release:-2.0
             },
             legatoSettings:
 		    {
@@ -278,7 +278,7 @@ namespace Manifest
 	        range: [22, 55],
 	        gain:
             {
-                release:0.0
+                release:-2.0
             },
             legatoSettings:
 		    {

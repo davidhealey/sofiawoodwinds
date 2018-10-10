@@ -652,7 +652,7 @@
     <file FileName="{PROJECT_FOLDER}clarinet1/sustain/clarinet1_sustain_hall_71_dynamic3.wav"/>
   </sample>
   <sample ID="66" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8044"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11577"
           SampleEnd="423381" SampleStartMod="4257" LoopStart="85442" LoopEnd="283187"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26431488"
