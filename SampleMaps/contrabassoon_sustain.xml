@@ -2,7 +2,7 @@
 
 <samplemap ID="contrabassoon_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="22" HiKey="22" LoKey="22" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7849"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8525"
           SampleEnd="379502" SampleStartMod="10000" LoopStart="190068"
           LoopEnd="315646" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -32,7 +32,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_22_dynamic3.wav"/>
   </sample>
   <sample ID="3" Root="23" HiKey="23" LoKey="23" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5308"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7139"
           SampleEnd="399345" SampleStartMod="10000" LoopStart="160920"
           LoopEnd="282944" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -62,7 +62,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_23_dynamic3.wav"/>
   </sample>
   <sample ID="6" Root="24" HiKey="24" LoKey="24" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5369"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6286"
           SampleEnd="391690" SampleStartMod="10000" LoopStart="146681"
           LoopEnd="268087" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -72,7 +72,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_24_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="24" HiKey="24" LoKey="24" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8205"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9331"
           SampleEnd="388241" SampleStartMod="7000" LoopStart="134594" LoopEnd="273872"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2748416"
@@ -92,7 +92,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_24_dynamic3.wav"/>
   </sample>
   <sample ID="9" Root="25" HiKey="25" LoKey="25" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7057"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11160"
           SampleEnd="412008" SampleStartMod="10000" LoopStart="175627"
           LoopEnd="295873" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -102,7 +102,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_25_dynamic1.wav"/>
   </sample>
   <sample ID="10" Root="25" HiKey="25" LoKey="25" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2973"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5125"
           SampleEnd="412716" SampleStartMod="7000" LoopStart="170620" LoopEnd="299437"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3948544"
@@ -132,7 +132,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_26_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="26" HiKey="26" LoKey="26" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4090"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4922"
           SampleEnd="394705" SampleStartMod="7000" LoopStart="175745" LoopEnd="296413"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5160960"
@@ -162,7 +162,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_27_dynamic1.wav"/>
   </sample>
   <sample ID="16" Root="27" HiKey="27" LoKey="27" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1948"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3064"
           SampleEnd="390172" SampleStartMod="7000" LoopStart="122582" LoopEnd="261472"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6336512"
@@ -182,7 +182,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_27_dynamic3.wav"/>
   </sample>
   <sample ID="18" Root="28" HiKey="28" LoKey="28" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7867"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8525"
           SampleEnd="376824" SampleStartMod="10000" LoopStart="89548" LoopEnd="270293"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7114752"
@@ -192,7 +192,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_28_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="28" HiKey="28" LoKey="28" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3066"
+          RRGroup="2" Volume="2" Pan="0" Normalized="0" Pitch="0" SampleStart="3066"
           SampleEnd="403106" SampleStartMod="7000" LoopStart="187707" LoopEnd="312424"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7495680"
@@ -212,7 +212,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_28_dynamic3.wav"/>
   </sample>
   <sample ID="21" Root="29" HiKey="29" LoKey="29" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7837"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="7837"
           SampleEnd="392690" SampleStartMod="10000" LoopStart="88902" LoopEnd="214951"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8306688"
@@ -222,7 +222,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_29_dynamic1.wav"/>
   </sample>
   <sample ID="22" Root="29" HiKey="29" LoKey="29" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2593"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2486"
           SampleEnd="399324" SampleStartMod="7000" LoopStart="134604" LoopEnd="256605"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8699904"
@@ -272,7 +272,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_30_dynamic3.wav"/>
   </sample>
   <sample ID="27" Root="31" HiKey="31" LoKey="31" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7894"
+          RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="7894"
           SampleEnd="385648" SampleStartMod="10000" LoopStart="132214"
           LoopEnd="272511" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -322,7 +322,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_32_dynamic2.wav"/>
   </sample>
   <sample ID="32" Root="32" HiKey="32" LoKey="32" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5444"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4781"
           SampleEnd="401496" SampleStartMod="7000" LoopStart="132195" LoopEnd="267907"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12718080"
@@ -332,7 +332,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_32_dynamic3.wav"/>
   </sample>
   <sample ID="33" Root="33" HiKey="33" LoKey="33" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7437"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8342"
           SampleEnd="397694" SampleStartMod="10000" LoopStart="132313"
           LoopEnd="252767" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -342,7 +342,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_33_dynamic1.wav"/>
   </sample>
   <sample ID="34" Root="33" HiKey="33" LoKey="33" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2929"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4243"
           SampleEnd="392842" SampleStartMod="7000" LoopStart="122734" LoopEnd="243814"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13524992"
@@ -362,7 +362,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_33_dynamic3.wav"/>
   </sample>
   <sample ID="36" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5361"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6466"
           SampleEnd="408087" SampleStartMod="10000" LoopStart="146841"
           LoopEnd="270367" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -382,7 +382,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_34_dynamic2.wav"/>
   </sample>
   <sample ID="38" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3431"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4862"
           SampleEnd="404031" SampleStartMod="7000" LoopStart="156375" LoopEnd="276843"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15134720"
@@ -392,7 +392,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_34_dynamic3.wav"/>
   </sample>
   <sample ID="39" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6823"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18751"
           SampleEnd="374594" SampleStartMod="16605" LoopStart="161153"
           LoopEnd="290067" LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -402,7 +402,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_35_dynamic1.wav"/>
   </sample>
   <sample ID="40" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1967"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2721"
           SampleEnd="386186" SampleStartMod="7000" LoopStart="180319" LoopEnd="302987"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15917056"
@@ -422,7 +422,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_35_dynamic3.wav"/>
   </sample>
   <sample ID="42" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7369"
+          RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="7369"
           SampleEnd="378954" SampleStartMod="7000" LoopStart="175522" LoopEnd="296806"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16711680"
@@ -452,7 +452,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_36_dynamic3.wav"/>
   </sample>
   <sample ID="45" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4419"
+          RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="5633"
           SampleEnd="377985" SampleStartMod="7000" LoopStart="154365" LoopEnd="291848"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17907712"
@@ -462,7 +462,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_37_dynamic1.wav"/>
   </sample>
   <sample ID="46" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5526"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6778"
           SampleEnd="370759" SampleStartMod="7000" LoopStart="129843" LoopEnd="290636"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18288640"
@@ -482,7 +482,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_37_dynamic3.wav"/>
   </sample>
   <sample ID="48" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7453"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8709"
           SampleEnd="385903" SampleStartMod="7000" LoopStart="158601" LoopEnd="279018"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19091456"
@@ -512,7 +512,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_38_dynamic3.wav"/>
   </sample>
   <sample ID="51" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7280"
+          RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="9387"
           SampleEnd="381963" SampleStartMod="7000" LoopStart="146873" LoopEnd="269512"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20320256"
@@ -522,7 +522,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_39_dynamic1.wav"/>
   </sample>
   <sample ID="52" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2631"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4993"
           SampleEnd="407508" SampleStartMod="7000" LoopStart="141792" LoopEnd="272030"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20705280"
@@ -532,7 +532,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_39_dynamic2.wav"/>
   </sample>
   <sample ID="53" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2863"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5042"
           SampleEnd="456543" SampleStartMod="7000" LoopStart="141940" LoopEnd="286034"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21114880"
@@ -542,7 +542,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_39_dynamic3.wav"/>
   </sample>
   <sample ID="54" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7778"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8922"
           SampleEnd="409195" SampleStartMod="7000" LoopStart="132531" LoopEnd="277616"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21573632"
@@ -552,7 +552,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_40_dynamic1.wav"/>
   </sample>
   <sample ID="55" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3720"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3462"
           SampleEnd="365324" SampleStartMod="7000" LoopStart="141944" LoopEnd="284517"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21983232"
@@ -602,7 +602,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_41_dynamic3.wav"/>
   </sample>
   <sample ID="60" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6872"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9413"
           SampleEnd="375154" SampleStartMod="7000" LoopStart="162571" LoopEnd="285128"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23969792"
@@ -622,7 +622,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_42_dynamic2.wav"/>
   </sample>
   <sample ID="62" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5713"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5267"
           SampleEnd="475277" SampleStartMod="7000" LoopStart="171089" LoopEnd="297666"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24735744"
@@ -632,7 +632,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_42_dynamic3.wav"/>
   </sample>
   <sample ID="63" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2989"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4339"
           SampleEnd="380360" SampleStartMod="7000" LoopStart="137739" LoopEnd="266049"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25214976"
@@ -662,7 +662,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_43_dynamic3.wav"/>
   </sample>
   <sample ID="66" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5315"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7232"
           SampleEnd="383398" SampleStartMod="7000" LoopStart="171110" LoopEnd="291219"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26443776"
@@ -672,7 +672,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_44_dynamic1.wav"/>
   </sample>
   <sample ID="67" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4091"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3654"
           SampleEnd="386265" SampleStartMod="7000" LoopStart="168226" LoopEnd="289196"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26828800"
@@ -692,7 +692,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_44_dynamic3.wav"/>
   </sample>
   <sample ID="69" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4991"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10372"
           SampleEnd="390042" SampleStartMod="10000" LoopStart="64912" LoopEnd="297819"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27623424"
@@ -702,7 +702,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_45_dynamic1.wav"/>
   </sample>
   <sample ID="70" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4566"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5478"
           SampleEnd="394391" SampleStartMod="7000" LoopStart="134913" LoopEnd="291851"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28016640"
@@ -722,7 +722,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_45_dynamic3.wav"/>
   </sample>
   <sample ID="72" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6766"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7939"
           SampleEnd="396145" SampleStartMod="7000" LoopStart="171732" LoopEnd="293808"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28864512"
@@ -752,7 +752,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_46_dynamic3.wav"/>
   </sample>
   <sample ID="75" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7933"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="7933"
           SampleEnd="412037" SampleStartMod="7000" LoopStart="146567" LoopEnd="269041"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30113792"
@@ -782,7 +782,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_47_dynamic3.wav"/>
   </sample>
   <sample ID="78" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4286"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5539"
           SampleEnd="381289" SampleStartMod="7000" LoopStart="161050" LoopEnd="281400"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31387648"
@@ -792,7 +792,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_48_dynamic1.wav"/>
   </sample>
   <sample ID="79" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4702"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6077"
           SampleEnd="402251" SampleStartMod="7000" LoopStart="161274" LoopEnd="282893"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31772672"
@@ -802,7 +802,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_48_dynamic2.wav"/>
   </sample>
   <sample ID="80" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4199"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4636"
           SampleEnd="389095" SampleStartMod="7000" LoopStart="146780" LoopEnd="291932"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32178176"
@@ -812,7 +812,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_48_dynamic3.wav"/>
   </sample>
   <sample ID="81" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5031"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="5031"
           SampleEnd="385809" SampleStartMod="7000" LoopStart="175961" LoopEnd="297292"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32571392"
@@ -822,7 +822,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_49_dynamic1.wav"/>
   </sample>
   <sample ID="82" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10702"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11577"
           SampleEnd="425024" SampleStartMod="7000" LoopStart="146634" LoopEnd="280660"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32960512"
@@ -842,7 +842,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_49_dynamic3.wav"/>
   </sample>
   <sample ID="84" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6967"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6702"
           SampleEnd="373738" SampleStartMod="7000" LoopStart="146985" LoopEnd="267248"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33783808"
@@ -912,7 +912,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_52_dynamic1.wav"/>
   </sample>
   <sample ID="91" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4132"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3811"
           SampleEnd="396484" SampleStartMod="7000" LoopStart="122660" LoopEnd="287913"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="36564992"
@@ -942,7 +942,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_53_dynamic1.wav"/>
   </sample>
   <sample ID="94" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2765"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3539"
           SampleEnd="376158" SampleStartMod="7000" LoopStart="161043" LoopEnd="297356"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="37748736"
@@ -952,7 +952,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_53_dynamic2.wav"/>
   </sample>
   <sample ID="95" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4243"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5176"
           SampleEnd="377434" SampleStartMod="7000" LoopStart="103333" LoopEnd="292576"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38125568"
@@ -962,7 +962,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_53_dynamic3.wav"/>
   </sample>
   <sample ID="96" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8149"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9238"
           SampleEnd="404130" SampleStartMod="7000" LoopStart="120498" LoopEnd="307109"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38506496"
@@ -972,7 +972,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_54_dynamic1.wav"/>
   </sample>
   <sample ID="97" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5355"
+          RRGroup="2" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="8373"
           SampleEnd="380319" SampleStartMod="7000" LoopStart="112857" LoopEnd="237140"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38912000"
@@ -992,7 +992,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_54_dynamic3.wav"/>
   </sample>
   <sample ID="99" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11607"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14424"
           SampleEnd="403334" SampleStartMod="7000" LoopStart="192377" LoopEnd="312612"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="39723008"
@@ -1002,7 +1002,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/sustain/contrabassoon_sustain_hall_55_dynamic1.wav"/>
   </sample>
   <sample ID="100" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1544"
+          RRGroup="2" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1544"
           SampleEnd="393377" SampleStartMod="7000" LoopStart="134493" LoopEnd="264386"
           LoopXFade="3000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="40128512"

@@ -2,7 +2,7 @@
 
 <samplemap ID="contrabassoon_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="22" HiKey="22" LoKey="22" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1420"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1377"
           SampleEnd="67594" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
@@ -22,7 +22,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="2" Root="22" HiKey="22" LoKey="22" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="844"
+          RRGroup="3" Volume="-1" Pan="0" Normalized="0" Pitch="0" SampleStart="844"
           SampleEnd="67075" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="139264"
@@ -32,7 +32,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="3" Root="23" HiKey="23" LoKey="23" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2040"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2040"
           SampleEnd="69830" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="208896"
@@ -62,7 +62,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="6" Root="24" HiKey="24" LoKey="24" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2266"
+          RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="2266"
           SampleEnd="66176" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="417792"
@@ -92,7 +92,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="9" Root="25" HiKey="25" LoKey="25" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1528"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1528"
           SampleEnd="66632" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="622592"
@@ -122,7 +122,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="12" Root="26" HiKey="26" LoKey="26" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1376"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1376"
           SampleEnd="69551" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="827392"
@@ -152,7 +152,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="15" Root="27" HiKey="27" LoKey="27" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1441"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1441"
           SampleEnd="69671" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1028096"
@@ -182,7 +182,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="18" Root="28" HiKey="28" LoKey="28" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="733"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="733"
           SampleEnd="65723" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1241088"
@@ -212,7 +212,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="21" Root="29" HiKey="29" LoKey="29" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="802"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="802"
           SampleEnd="63813" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1445888"
@@ -242,7 +242,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="24" Root="30" HiKey="30" LoKey="30" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1190"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1190"
           SampleEnd="69461" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1650688"
@@ -272,7 +272,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="27" Root="31" HiKey="31" LoKey="31" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="861"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="861"
           SampleEnd="71537" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1859584"
@@ -302,7 +302,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="30" Root="32" HiKey="32" LoKey="32" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="642"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="642"
           SampleEnd="69572" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2068480"
@@ -332,7 +332,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="33" Root="33" HiKey="33" LoKey="33" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1478"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1478"
           SampleEnd="69178" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2273280"
@@ -362,7 +362,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="36" Root="34" HiKey="34" LoKey="34" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2143"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2143"
           SampleEnd="68114" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2482176"
@@ -392,7 +392,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="39" Root="35" HiKey="35" LoKey="35" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="646"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="646"
           SampleEnd="64479" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2686976"
@@ -422,7 +422,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="42" Root="36" HiKey="36" LoKey="36" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1473"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1473"
           SampleEnd="68058" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2895872"
@@ -452,7 +452,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="45" Root="37" HiKey="37" LoKey="37" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1382"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1382"
           SampleEnd="65440" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3117056"
@@ -482,7 +482,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="48" Root="38" HiKey="38" LoKey="38" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1575"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1575"
           SampleEnd="67184" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3317760"
@@ -512,7 +512,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="51" Root="39" HiKey="39" LoKey="39" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1200"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1200"
           SampleEnd="67335" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3522560"
@@ -542,7 +542,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="54" Root="40" HiKey="40" LoKey="40" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1360"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1360"
           SampleEnd="63393" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3719168"
@@ -572,7 +572,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="57" Root="41" HiKey="41" LoKey="41" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="971"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="971"
           SampleEnd="60002" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3915776"
@@ -602,7 +602,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="60" Root="42" HiKey="42" LoKey="42" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="793"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="793"
           SampleEnd="53456" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4104192"
@@ -632,7 +632,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="63" Root="43" HiKey="43" LoKey="43" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1669"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1669"
           SampleEnd="56817" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4292608"
@@ -662,7 +662,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="66" Root="44" HiKey="44" LoKey="44" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1477"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1477"
           SampleEnd="77218" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4468736"
@@ -692,7 +692,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="69" Root="45" HiKey="45" LoKey="45" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1390"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1390"
           SampleEnd="72674" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4698112"
@@ -722,7 +722,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="72" Root="46" HiKey="46" LoKey="46" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1339"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1339"
           SampleEnd="67534" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4915200"
@@ -752,7 +752,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="75" Root="47" HiKey="47" LoKey="47" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1346"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1346"
           SampleEnd="62745" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5120000"
@@ -782,7 +782,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="78" Root="48" HiKey="48" LoKey="48" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2206"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2206"
           SampleEnd="64301" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5324800"
@@ -812,7 +812,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="81" Root="49" HiKey="49" LoKey="49" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2088"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2088"
           SampleEnd="64477" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5529600"
@@ -842,7 +842,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="84" Root="50" HiKey="50" LoKey="50" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1576"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1576"
           SampleEnd="67664" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5730304"
@@ -872,7 +872,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="87" Root="51" HiKey="51" LoKey="51" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1984"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1984"
           SampleEnd="67836" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5931008"
@@ -902,7 +902,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="90" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1876"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1876"
           SampleEnd="66064" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6135808"
@@ -932,7 +932,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="93" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2220"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2220"
           SampleEnd="65489" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6348800"
@@ -962,7 +962,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="96" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2079"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2079"
           SampleEnd="62318" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6549504"
@@ -992,7 +992,7 @@
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="99" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2071"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2071"
           SampleEnd="60979" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6746112"

@@ -2,7 +2,7 @@
 
 <samplemap ID="flute2_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="60" HiKey="60" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3858"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3678"
           SampleEnd="410216" SampleStartMod="10000" LoopStart="206501"
           LoopEnd="358187" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -22,7 +22,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_60_dynamic2.wav"/>
   </sample>
   <sample ID="2" Root="60" HiKey="60" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="844"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3110"
           SampleEnd="289192" SampleStartMod="8000" LoopStart="55242" LoopEnd="206968"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="962560"
@@ -32,7 +32,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_60_dynamic3.wav"/>
   </sample>
   <sample ID="3" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4030"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4693"
           SampleEnd="458858" SampleStartMod="10000" LoopStart="216188"
           LoopEnd="368011" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -52,7 +52,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_61_dynamic2.wav"/>
   </sample>
   <sample ID="5" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="840"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4665"
           SampleEnd="289773" SampleStartMod="10000" LoopStart="45631" LoopEnd="226116"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2297856"
@@ -62,7 +62,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_61_dynamic3.wav"/>
   </sample>
   <sample ID="6" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3642"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4405"
           SampleEnd="463868" SampleStartMod="10000" LoopStart="216111"
           LoopEnd="367917" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -72,7 +72,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_62_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="27"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="704"
           SampleEnd="478181" SampleStartMod="10000" LoopStart="211412"
           LoopEnd="363149" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -82,7 +82,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_62_dynamic2.wav"/>
   </sample>
   <sample ID="8" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1321"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4724"
           SampleEnd="295984" SampleStartMod="8000" LoopStart="55248" LoopEnd="207330"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3592192"
@@ -102,7 +102,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_63_dynamic1.wav"/>
   </sample>
   <sample ID="10" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="56"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1881"
           SampleEnd="481727" SampleStartMod="10000" LoopStart="257026"
           LoopEnd="408748" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -112,7 +112,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_63_dynamic2.wav"/>
   </sample>
   <sample ID="11" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1763"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4332"
           SampleEnd="288922" SampleStartMod="10000" LoopStart="55322" LoopEnd="222073"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4890624"
@@ -132,7 +132,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_64_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="52"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1319"
           SampleEnd="481694" SampleStartMod="10000" LoopStart="254536"
           LoopEnd="406279" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -142,7 +142,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_64_dynamic2.wav"/>
   </sample>
   <sample ID="14" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="151"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2069"
           SampleEnd="293842" SampleStartMod="10000" LoopStart="55223" LoopEnd="206969"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6230016"
@@ -162,7 +162,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_65_dynamic1.wav"/>
   </sample>
   <sample ID="16" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1023"
           SampleEnd="499695" SampleStartMod="10000" LoopStart="268993"
           LoopEnd="420754" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -172,7 +172,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_65_dynamic2.wav"/>
   </sample>
   <sample ID="17" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="755"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1890"
           SampleEnd="292018" SampleStartMod="8000" LoopStart="67267" LoopEnd="218967"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7548928"
@@ -202,7 +202,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_66_dynamic2.wav"/>
   </sample>
   <sample ID="20" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="368"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2170"
           SampleEnd="314678" SampleStartMod="8000" LoopStart="57659" LoopEnd="209779"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8859648"
@@ -232,7 +232,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_67_dynamic2.wav"/>
   </sample>
   <sample ID="23" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1167"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2271"
           SampleEnd="295837" SampleStartMod="8000" LoopStart="55256" LoopEnd="209619"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10162176"
@@ -242,7 +242,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_67_dynamic3.wav"/>
   </sample>
   <sample ID="24" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10998"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12073"
           SampleEnd="468462" SampleStartMod="10000" LoopStart="173049"
           LoopEnd="324825" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -272,7 +272,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_68_dynamic3.wav"/>
   </sample>
   <sample ID="27" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3351"
+          RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="3351"
           SampleEnd="480775" SampleStartMod="10000" LoopStart="139470"
           LoopEnd="401257" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -362,7 +362,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_71_dynamic3.wav"/>
   </sample>
   <sample ID="36" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1138"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7465"
           SampleEnd="474162" SampleStartMod="15000" LoopStart="257036"
           LoopEnd="408723" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -392,7 +392,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_72_dynamic3.wav"/>
   </sample>
   <sample ID="39" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3881"
+          RRGroup="1" Volume="-5" Pan="0" Normalized="0" Pitch="0" SampleStart="3388"
           SampleEnd="461853" SampleStartMod="8000" LoopStart="208947" LoopEnd="360646"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17010688"
@@ -422,7 +422,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_73_dynamic3.wav"/>
   </sample>
   <sample ID="42" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3351"
           SampleEnd="447075" SampleStartMod="12000" LoopStart="160975"
           LoopEnd="312791" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -442,7 +442,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_74_dynamic2.wav"/>
   </sample>
   <sample ID="44" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2633"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3879"
           SampleEnd="307183" SampleStartMod="5000" LoopStart="24065" LoopEnd="218759"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19296256"
@@ -452,7 +452,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_74_dynamic3.wav"/>
   </sample>
   <sample ID="45" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="31"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1915"
           SampleEnd="447472" SampleStartMod="10000" LoopStart="189856"
           LoopEnd="341555" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -472,7 +472,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_75_dynamic2.wav"/>
   </sample>
   <sample ID="47" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="265"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2263"
           SampleEnd="292442" SampleStartMod="5000" LoopStart="50411" LoopEnd="202230"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20455424"
@@ -482,7 +482,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_75_dynamic3.wav"/>
   </sample>
   <sample ID="48" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3168"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3168"
           SampleEnd="485385" SampleStartMod="8000" LoopStart="240336" LoopEnd="410823"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20779008"
@@ -492,7 +492,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_76_dynamic1.wav"/>
   </sample>
   <sample ID="49" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="49"
+          RRGroup="2" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="3062"
           SampleEnd="510367" SampleStartMod="8000" LoopStart="257025" LoopEnd="408774"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21274624"
@@ -502,7 +502,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_76_dynamic2.wav"/>
   </sample>
   <sample ID="50" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="29"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1638"
           SampleEnd="295408" SampleStartMod="5000" LoopStart="26424" LoopEnd="199571"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21803008"
@@ -512,7 +512,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_76_dynamic3.wav"/>
   </sample>
   <sample ID="51" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="20"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2088"
           SampleEnd="449525" SampleStartMod="10000" LoopStart="192109"
           LoopEnd="343842" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -532,7 +532,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_77_dynamic2.wav"/>
   </sample>
   <sample ID="53" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="34"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1718"
           SampleEnd="286768" SampleStartMod="5000" LoopStart="33637" LoopEnd="203049"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23130112"
@@ -562,7 +562,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_78_dynamic2.wav"/>
   </sample>
   <sample ID="56" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1766"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2737"
           SampleEnd="291231" SampleStartMod="5000" LoopStart="67226" LoopEnd="218967"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24432640"
@@ -572,7 +572,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_78_dynamic3.wav"/>
   </sample>
   <sample ID="57" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2173"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2173"
           SampleEnd="459269" SampleStartMod="8000" LoopStart="209059" LoopEnd="360773"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24743936"
@@ -622,7 +622,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_80_dynamic2.wav"/>
   </sample>
   <sample ID="62" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1333"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1657"
           SampleEnd="301499" SampleStartMod="5000" LoopStart="76859" LoopEnd="231245"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27136000"
@@ -632,7 +632,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_80_dynamic3.wav"/>
   </sample>
   <sample ID="63" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="901"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2517"
           SampleEnd="471373" SampleStartMod="10000" LoopStart="239790"
           LoopEnd="391484" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -692,7 +692,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_82_dynamic3.wav"/>
   </sample>
   <sample ID="69" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="646"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6846"
           SampleEnd="473932" SampleStartMod="15000" LoopStart="177569"
           LoopEnd="351165" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -902,7 +902,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_89_dynamic3.wav"/>
   </sample>
   <sample ID="90" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="476054" SampleStartMod="10000" LoopStart="104528"
           LoopEnd="290392" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -912,7 +912,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_90_dynamic1.wav"/>
   </sample>
   <sample ID="91" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1284"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3048"
           SampleEnd="517002" SampleStartMod="8000" LoopStart="221749" LoopEnd="377663"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="40091648"
@@ -932,7 +932,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_90_dynamic3.wav"/>
   </sample>
   <sample ID="93" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="35"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1329"
           SampleEnd="450369" SampleStartMod="10000" LoopStart="211265"
           LoopEnd="362965" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -952,7 +952,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_91_dynamic2.wav"/>
   </sample>
   <sample ID="95" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="719"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2395"
           SampleEnd="303067" SampleStartMod="5000" LoopStart="40096" LoopEnd="201279"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41951232"
@@ -962,7 +962,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_91_dynamic3.wav"/>
   </sample>
   <sample ID="96" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="33"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="461789" SampleStartMod="10000" LoopStart="177638"
           LoopEnd="358585" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -972,7 +972,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_92_dynamic1.wav"/>
   </sample>
   <sample ID="97" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1383"
           SampleEnd="502460" SampleStartMod="8000" LoopStart="285200" LoopEnd="441532"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="42758144"
@@ -982,7 +982,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_92_dynamic2.wav"/>
   </sample>
   <sample ID="98" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1079"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3151"
           SampleEnd="297940" SampleStartMod="5000" LoopStart="19205" LoopEnd="197509"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="43290624"
@@ -992,7 +992,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_92_dynamic3.wav"/>
   </sample>
   <sample ID="99" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1266"
           SampleEnd="462254" SampleStartMod="10000" LoopStart="240093"
           LoopEnd="391804" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -1002,7 +1002,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_93_dynamic1.wav"/>
   </sample>
   <sample ID="100" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1393"
           SampleEnd="504802" SampleStartMod="8000" LoopStart="266487" LoopEnd="441404"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44093440"
@@ -1022,7 +1022,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_93_dynamic3.wav"/>
   </sample>
   <sample ID="102" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="22"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2146"
           SampleEnd="498652" SampleStartMod="15000" LoopStart="105941"
           LoopEnd="328031" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -1032,7 +1032,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_94_dynamic1.wav"/>
   </sample>
   <sample ID="103" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="26"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1900"
           SampleEnd="495736" SampleStartMod="8000" LoopStart="230421" LoopEnd="382128"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="45518848"
@@ -1052,7 +1052,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_94_dynamic3.wav"/>
   </sample>
   <sample ID="105" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="31"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1386"
           SampleEnd="476972" SampleStartMod="10000" LoopStart="138710"
           LoopEnd="368955" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -1062,7 +1062,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_95_dynamic1.wav"/>
   </sample>
   <sample ID="106" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="17"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2286"
           SampleEnd="513755" SampleStartMod="8000" LoopStart="70031" LoopEnd="439552"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="46858240"
@@ -1072,7 +1072,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_95_dynamic2.wav"/>
   </sample>
   <sample ID="107" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1023"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1990"
           SampleEnd="274685" SampleStartMod="5000" LoopStart="69245" LoopEnd="184413"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="47403008"
@@ -1082,7 +1082,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_95_dynamic3.wav"/>
   </sample>
   <sample ID="108" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="22"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="805"
           SampleEnd="489510" SampleStartMod="10000" LoopStart="169437"
           LoopEnd="392440" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -1092,7 +1092,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_96_dynamic1.wav"/>
   </sample>
   <sample ID="109" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1782"
           SampleEnd="477604" SampleStartMod="10000" LoopStart="79756" LoopEnd="385680"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="48218112"
@@ -1102,7 +1102,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sustain/flute2_sustain_hall_96_dynamic2.wav"/>
   </sample>
   <sample ID="110" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="36"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2809"
           SampleEnd="295979" SampleStartMod="10000" LoopStart="49908" LoopEnd="212918"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="48713728"

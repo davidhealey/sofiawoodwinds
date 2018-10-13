@@ -2,7 +2,7 @@
 
 <samplemap ID="piccolo_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8404"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8121"
           SampleEnd="464033" SampleStartMod="7619" LoopStart="260974" LoopEnd="388446"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
@@ -12,7 +12,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_74_dynamic1.wav"/>
   </sample>
   <sample ID="1" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7021"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6644"
           SampleEnd="483307" SampleStartMod="10000" LoopStart="77895" LoopEnd="403691"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="495616"
@@ -22,7 +22,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_74_dynamic2.wav"/>
   </sample>
   <sample ID="2" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5365"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6967"
           SampleEnd="423397" SampleStartMod="10000" LoopStart="63164" LoopEnd="347960"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="999424"
@@ -32,7 +32,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_74_dynamic3.wav"/>
   </sample>
   <sample ID="3" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4156"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9946"
           SampleEnd="480773" SampleStartMod="12752" LoopStart="46617" LoopEnd="407184"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1458176"
@@ -82,7 +82,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_76_dynamic2.wav"/>
   </sample>
   <sample ID="8" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2812"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4434"
           SampleEnd="497174" SampleStartMod="8000" LoopStart="89371" LoopEnd="310399"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3985408"
@@ -92,7 +92,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_76_dynamic3.wav"/>
   </sample>
   <sample ID="9" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6118"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8688"
           SampleEnd="457237" SampleStartMod="10561" LoopStart="123660"
           LoopEnd="337536" LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
@@ -112,7 +112,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_77_dynamic2.wav"/>
   </sample>
   <sample ID="11" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7989"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9002"
           SampleEnd="453561" SampleStartMod="8000" LoopStart="132671" LoopEnd="383099"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5513216"
@@ -182,7 +182,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_79_dynamic3.wav"/>
   </sample>
   <sample ID="18" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3377"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5034"
           SampleEnd="462368" SampleStartMod="7675" LoopStart="135796" LoopEnd="356432"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9019392"
@@ -192,7 +192,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_80_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9599"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8832"
           SampleEnd="498687" SampleStartMod="5000" LoopStart="120013" LoopEnd="391539"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9523200"
@@ -202,7 +202,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_80_dynamic2.wav"/>
   </sample>
   <sample ID="20" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4378"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5034"
           SampleEnd="473898" SampleStartMod="5000" LoopStart="197954" LoopEnd="371526"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10055680"
@@ -212,7 +212,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_80_dynamic3.wav"/>
   </sample>
   <sample ID="21" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2314"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2796"
           SampleEnd="469506" SampleStartMod="5000" LoopStart="68074" LoopEnd="355153"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10559488"
@@ -222,7 +222,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_81_dynamic1.wav"/>
   </sample>
   <sample ID="22" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9259"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8832"
           SampleEnd="493538" SampleStartMod="5000" LoopStart="209202" LoopEnd="384947"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11059200"
@@ -242,7 +242,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_81_dynamic3.wav"/>
   </sample>
   <sample ID="24" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1842"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2315"
           SampleEnd="457596" SampleStartMod="5000" LoopStart="164277" LoopEnd="328275"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12120064"
@@ -272,7 +272,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_82_dynamic3.wav"/>
   </sample>
   <sample ID="27" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3297"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4832"
           SampleEnd="461806" SampleStartMod="5000" LoopStart="180191" LoopEnd="418851"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13684736"
@@ -332,7 +332,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_84_dynamic3.wav"/>
   </sample>
   <sample ID="33" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2322"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3495"
           SampleEnd="458730" SampleStartMod="5000" LoopStart="185526" LoopEnd="412699"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16863232"
@@ -352,7 +352,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_85_dynamic2.wav"/>
   </sample>
   <sample ID="35" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9727"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9148"
           SampleEnd="506205" SampleStartMod="5000" LoopStart="223724" LoopEnd="421571"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17874944"
@@ -362,7 +362,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_85_dynamic3.wav"/>
   </sample>
   <sample ID="36" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3024"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3926"
           SampleEnd="461768" SampleStartMod="5000" LoopStart="231494" LoopEnd="395223"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18395136"
@@ -372,7 +372,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_86_dynamic1.wav"/>
   </sample>
   <sample ID="37" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8553"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9115"
           SampleEnd="488409" SampleStartMod="5000" LoopStart="196184" LoopEnd="401809"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18898944"
@@ -382,7 +382,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_86_dynamic2.wav"/>
   </sample>
   <sample ID="38" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6052"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6858"
           SampleEnd="488267" SampleStartMod="5000" LoopStart="190976" LoopEnd="421750"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19423232"
@@ -432,7 +432,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_88_dynamic1.wav"/>
   </sample>
   <sample ID="43" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7688"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8236"
           SampleEnd="494066" SampleStartMod="5000" LoopStart="192385" LoopEnd="407352"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22069248"
@@ -442,7 +442,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_88_dynamic2.wav"/>
   </sample>
   <sample ID="44" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4532"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5832"
           SampleEnd="479259" SampleStartMod="5000" LoopStart="205910" LoopEnd="383943"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22597632"
@@ -452,7 +452,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_88_dynamic3.wav"/>
   </sample>
   <sample ID="45" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2794"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4631"
           SampleEnd="463318" SampleStartMod="5000" LoopStart="91053" LoopEnd="358980"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23109632"
@@ -472,7 +472,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_89_dynamic2.wav"/>
   </sample>
   <sample ID="47" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7722"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8663"
           SampleEnd="487177" SampleStartMod="5000" LoopStart="210521" LoopEnd="408307"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24121344"
@@ -532,7 +532,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_91_dynamic2.wav"/>
   </sample>
   <sample ID="53" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5586"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5053"
           SampleEnd="486514" SampleStartMod="5000" LoopStart="99236" LoopEnd="319152"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27176960"
@@ -552,7 +552,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_92_dynamic1.wav"/>
   </sample>
   <sample ID="55" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14249"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13820"
           SampleEnd="470397" SampleStartMod="5000" LoopStart="32175" LoopEnd="374594"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28200960"
@@ -562,7 +562,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_92_dynamic2.wav"/>
   </sample>
   <sample ID="56" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9615"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8905"
           SampleEnd="486130" SampleStartMod="5000" LoopStart="64517" LoopEnd="232255"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28717056"
@@ -572,7 +572,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_92_dynamic3.wav"/>
   </sample>
   <sample ID="57" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8070"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9079"
           SampleEnd="440330" SampleStartMod="5000" LoopStart="139336" LoopEnd="387613"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29241344"
@@ -592,7 +592,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_93_dynamic2.wav"/>
   </sample>
   <sample ID="59" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5615"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5029"
           SampleEnd="488722" SampleStartMod="5000" LoopStart="158480" LoopEnd="335361"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30248960"
@@ -612,7 +612,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_94_dynamic1.wav"/>
   </sample>
   <sample ID="61" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6568"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9044"
           SampleEnd="495595" SampleStartMod="5000" LoopStart="139800" LoopEnd="302453"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31285248"
@@ -622,7 +622,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_94_dynamic2.wav"/>
   </sample>
   <sample ID="62" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4496"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3950"
           SampleEnd="489429" SampleStartMod="5000" LoopStart="93705" LoopEnd="377446"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31817728"
@@ -642,7 +642,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_95_dynamic1.wav"/>
   </sample>
   <sample ID="64" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8483"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8859"
           SampleEnd="497667" SampleStartMod="5000" LoopStart="135389" LoopEnd="424960"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32841728"
@@ -652,7 +652,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_95_dynamic2.wav"/>
   </sample>
   <sample ID="65" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6057"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5466"
           SampleEnd="484294" SampleStartMod="5000" LoopStart="194202" LoopEnd="367958"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33382400"
@@ -672,7 +672,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_96_dynamic1.wav"/>
   </sample>
   <sample ID="67" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9243"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8884"
           SampleEnd="513935" SampleStartMod="5000" LoopStart="103821" LoopEnd="398151"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34381824"
@@ -682,7 +682,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_96_dynamic2.wav"/>
   </sample>
   <sample ID="68" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5679"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4857"
           SampleEnd="499354" SampleStartMod="5000" LoopStart="101731" LoopEnd="326892"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34930688"
@@ -712,7 +712,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_97_dynamic2.wav"/>
   </sample>
   <sample ID="71" Root="97" HiKey="97" LoKey="97" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4637"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4027"
           SampleEnd="468807" SampleStartMod="5000" LoopStart="107734" LoopEnd="319841"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="36483072"
@@ -742,7 +742,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_98_dynamic2.wav"/>
   </sample>
   <sample ID="74" Root="98" HiKey="98" LoKey="98" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5628"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5013"
           SampleEnd="487254" SampleStartMod="5000" LoopStart="42130" LoopEnd="354050"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38019072"
@@ -752,7 +752,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_98_dynamic3.wav"/>
   </sample>
   <sample ID="75" Root="99" HiKey="99" LoKey="99" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="214"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4118"
           SampleEnd="429363" SampleStartMod="10000" LoopStart="80838" LoopEnd="323787"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38531072"
@@ -772,7 +772,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_99_dynamic2.wav"/>
   </sample>
   <sample ID="77" Root="99" HiKey="99" LoKey="99" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6296"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5942"
           SampleEnd="420979" SampleStartMod="5000" LoopStart="185605" LoopEnd="301903"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="39542784"
@@ -802,7 +802,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_100_dynamic2.wav"/>
   </sample>
   <sample ID="80" Root="100" HiKey="100" LoKey="100" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5549"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5032"
           SampleEnd="431392" SampleStartMod="5000" LoopStart="157559" LoopEnd="336747"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41017344"
@@ -812,7 +812,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_100_dynamic3.wav"/>
   </sample>
   <sample ID="81" Root="101" HiKey="101" LoKey="101" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4802"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5525"
           SampleEnd="467350" SampleStartMod="8000" LoopStart="28685" LoopEnd="335358"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41492480"
@@ -832,7 +832,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_101_dynamic2.wav"/>
   </sample>
   <sample ID="83" Root="101" HiKey="101" LoKey="101" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7595"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7242"
           SampleEnd="431775" SampleStartMod="5000" LoopStart="54409" LoopEnd="258421"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="42532864"
@@ -852,7 +852,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_102_dynamic1.wav"/>
   </sample>
   <sample ID="85" Root="102" HiKey="102" LoKey="102" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14271"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14017"
           SampleEnd="493929" SampleStartMod="5000" LoopStart="68619" LoopEnd="378369"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="43503616"
@@ -862,7 +862,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_102_dynamic2.wav"/>
   </sample>
   <sample ID="86" Root="102" HiKey="102" LoKey="102" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5875"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7769"
           SampleEnd="421359" SampleStartMod="5000" LoopStart="176804" LoopEnd="252880"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44015616"
@@ -882,7 +882,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_103_dynamic1.wav"/>
   </sample>
   <sample ID="88" Root="103" HiKey="105" LoKey="103" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10277"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9886"
           SampleEnd="490425" SampleStartMod="5000" LoopStart="65982" LoopEnd="387465"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44990464"
@@ -892,7 +892,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/sustain/piccolo_sustain_hall_103_dynamic2.wav"/>
   </sample>
   <sample ID="89" Root="103" HiKey="105" LoKey="103" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7181"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6743"
           SampleEnd="395488" SampleStartMod="5000" LoopStart="79828" LoopEnd="278271"
           LoopXFade="5326" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="45490176"

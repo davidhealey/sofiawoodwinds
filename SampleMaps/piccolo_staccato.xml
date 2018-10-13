@@ -2,7 +2,7 @@
 
 <samplemap ID="piccolo_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="226"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="226"
           SampleEnd="37414" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
@@ -12,7 +12,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_74_dynamic1_rr1.wav"/>
   </sample>
   <sample ID="1" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="2" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="47141" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="57344"
@@ -22,7 +22,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_74_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="2" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="633"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="633"
           SampleEnd="47608" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="110592"
@@ -32,7 +32,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_74_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="3" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="529"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="529"
           SampleEnd="39473" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="167936"
@@ -52,7 +52,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_75_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="5" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="538"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="538"
           SampleEnd="53719" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="278528"
@@ -62,7 +62,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_75_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="6" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="528"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="528"
           SampleEnd="39398" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="335872"
@@ -82,7 +82,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_76_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="8" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="557"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="557"
           SampleEnd="47128" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="450560"
@@ -92,7 +92,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_76_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="9" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="432"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="432"
           SampleEnd="41452" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="507904"
@@ -112,7 +112,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_77_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="11" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="480"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="480"
           SampleEnd="52044" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="622592"
@@ -122,7 +122,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_77_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="12" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="574"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="550"
           SampleEnd="41367" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="675840"
@@ -142,7 +142,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_78_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="14" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="593"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="593"
           SampleEnd="51096" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="782336"
@@ -152,7 +152,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_78_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="15" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="485"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="485"
           SampleEnd="44069" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="835584"
@@ -172,7 +172,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_79_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="17" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="601"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="601"
           SampleEnd="54232" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="946176"
@@ -182,7 +182,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_79_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="18" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1459"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1459"
           SampleEnd="34815" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1003520"
@@ -202,7 +202,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_80_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="20" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="893"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="893"
           SampleEnd="52523" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1114112"
@@ -212,7 +212,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_80_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="21" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1481"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1481"
           SampleEnd="34332" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1167360"
@@ -232,7 +232,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_81_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="23" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="707"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="707"
           SampleEnd="54191" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1277952"
@@ -242,7 +242,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_81_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="24" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="49659" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1335296"
@@ -262,7 +262,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_82_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="26" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="52948" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1449984"
@@ -272,7 +272,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_82_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="27" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="44646" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1507328"
@@ -292,7 +292,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_83_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="29" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="53754" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1622016"
@@ -302,7 +302,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_83_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="30" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="48180" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1679360"
@@ -322,7 +322,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_84_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="32" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="894"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="894"
           SampleEnd="52460" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1794048"
@@ -332,7 +332,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_84_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="33" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="46028" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1847296"
@@ -352,7 +352,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_85_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="35" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="612"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="612"
           SampleEnd="54466" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1957888"
@@ -362,7 +362,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_85_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="36" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="549"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="549"
           SampleEnd="48130" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2015232"
@@ -382,7 +382,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_86_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="38" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="664"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="664"
           SampleEnd="51438" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2121728"
@@ -392,7 +392,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_86_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="39" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="747"
+          RRGroup="1" Volume="-5" Pan="0" Normalized="0" Pitch="0" SampleStart="747"
           SampleEnd="48057" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2174976"
@@ -412,7 +412,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_87_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="41" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="52822" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2281472"
@@ -422,7 +422,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_87_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="42" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="765"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="765"
           SampleEnd="47603" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2334720"
@@ -442,7 +442,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_88_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="44" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="882"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="882"
           SampleEnd="53404" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2445312"
@@ -452,7 +452,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_88_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="45" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="740"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="740"
           SampleEnd="51147" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2502656"
@@ -472,7 +472,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_89_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="47" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="872"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="872"
           SampleEnd="53839" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2613248"
@@ -482,7 +482,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_89_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="48" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1454"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1454"
           SampleEnd="42780" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2670592"
@@ -502,7 +502,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_90_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="50" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="53879" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2781184"
@@ -512,7 +512,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_90_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="51" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1410"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1410"
           SampleEnd="47093" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2838528"
@@ -532,7 +532,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_91_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="53" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="939"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="939"
           SampleEnd="54358" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2949120"
@@ -542,7 +542,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_91_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="54" Root="92" HiKey="92" LoKey="92" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1545"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1545"
           SampleEnd="43532" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3006464"
@@ -562,7 +562,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_92_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="56" Root="92" HiKey="92" LoKey="92" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="913"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="913"
           SampleEnd="53621" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3121152"
@@ -572,7 +572,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_92_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="57" Root="93" HiKey="93" LoKey="93" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="50184" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3178496"
@@ -592,7 +592,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_93_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="59" Root="93" HiKey="93" LoKey="93" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="913"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="913"
           SampleEnd="53047" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3289088"
@@ -602,7 +602,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_93_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="60" Root="94" HiKey="94" LoKey="94" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="749"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="749"
           SampleEnd="45114" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3342336"
@@ -622,7 +622,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_94_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="62" Root="94" HiKey="94" LoKey="94" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="52334" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3448832"
@@ -632,7 +632,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_94_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="63" Root="95" HiKey="95" LoKey="95" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="630"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="630"
           SampleEnd="50659" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3502080"
@@ -652,7 +652,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_95_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="65" Root="95" HiKey="95" LoKey="95" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="898"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="898"
           SampleEnd="53405" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3612672"
@@ -662,7 +662,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_95_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="66" Root="96" HiKey="96" LoKey="96" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="743"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="743"
           SampleEnd="48540" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3670016"
@@ -682,7 +682,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_96_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="68" Root="96" HiKey="96" LoKey="96" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="749"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="749"
           SampleEnd="51232" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3784704"
@@ -692,7 +692,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_96_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="69" Root="97" HiKey="97" LoKey="97" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="757"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="757"
           SampleEnd="52433" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3837952"
@@ -712,7 +712,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_97_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="71" Root="97" HiKey="97" LoKey="97" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="931"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="931"
           SampleEnd="51602" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3948544"
@@ -722,7 +722,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_97_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="72" Root="98" HiKey="98" LoKey="98" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="725"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="725"
           SampleEnd="53662" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4001792"
@@ -742,7 +742,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_98_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="74" Root="98" HiKey="98" LoKey="98" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="947"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="947"
           SampleEnd="52800" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4116480"
@@ -752,7 +752,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_98_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="75" Root="99" HiKey="99" LoKey="99" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="575"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="575"
           SampleEnd="51596" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4169728"
@@ -772,7 +772,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_99_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="77" Root="99" HiKey="99" LoKey="99" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="783"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="783"
           SampleEnd="53316" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4284416"
@@ -782,7 +782,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_99_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="78" Root="100" HiKey="100" LoKey="100" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="50709" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4341760"
@@ -802,7 +802,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_100_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="80" Root="100" HiKey="100" LoKey="100" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="970"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="970"
           SampleEnd="52639" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4448256"
@@ -812,7 +812,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_100_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="81" Root="101" HiKey="101" LoKey="101" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="51405" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4501504"
@@ -832,7 +832,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_101_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="83" Root="101" HiKey="101" LoKey="101" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="801"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="801"
           SampleEnd="52084" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4612096"
@@ -842,7 +842,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_101_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="84" Root="102" HiKey="102" LoKey="102" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="785"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="785"
           SampleEnd="51211" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4665344"
@@ -862,7 +862,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_102_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="86" Root="102" HiKey="102" LoKey="102" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="987"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="987"
           SampleEnd="55131" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4771840"
@@ -872,7 +872,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_102_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="87" Root="103" HiKey="105" LoKey="103" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="47458" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4829184"
@@ -892,7 +892,7 @@
     <file FileName="{PROJECT_FOLDER}piccolo/staccato/piccolo_staccato_hall_103_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="89" Root="103" HiKey="105" LoKey="103" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1000"
           SampleEnd="52575" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4939776"

@@ -2,7 +2,7 @@
 
 <samplemap ID="englishHorn_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3610"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3300"
           SampleEnd="340319" SampleStartMod="7000" LoopStart="82077" LoopEnd="236325"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
@@ -122,7 +122,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_55_dynamic3.wav"/>
   </sample>
   <sample ID="12" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2199"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6302"
           SampleEnd="285647" SampleStartMod="9006" LoopStart="30969" LoopEnd="175203"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4067328"
@@ -232,7 +232,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_59_dynamic2.wav"/>
   </sample>
   <sample ID="23" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5470"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5470"
           SampleEnd="358620" SampleStartMod="5000" LoopStart="24092" LoopEnd="243575"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7622656"
@@ -442,7 +442,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_66_dynamic2.wav"/>
   </sample>
   <sample ID="44" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4723"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5105"
           SampleEnd="331651" SampleStartMod="5000" LoopStart="48903" LoopEnd="199339"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14848000"
@@ -482,7 +482,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_67_dynamic3.wav"/>
   </sample>
   <sample ID="48" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4982"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4790"
           SampleEnd="312273" SampleStartMod="5000" LoopStart="53724" LoopEnd="173401"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16211968"
@@ -562,7 +562,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_70_dynamic2.wav"/>
   </sample>
   <sample ID="56" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5663"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="5663"
           SampleEnd="377977" SampleStartMod="5000" LoopStart="67241" LoopEnd="265812"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18980864"
@@ -572,7 +572,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_70_dynamic3.wav"/>
   </sample>
   <sample ID="57" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1846"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6365"
           SampleEnd="329317" SampleStartMod="10000" LoopStart="74444" LoopEnd="218773"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19361792"
@@ -602,7 +602,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_71_dynamic3.wav"/>
   </sample>
   <sample ID="60" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2157"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7047"
           SampleEnd="333214" SampleStartMod="10000" LoopStart="76905" LoopEnd="246359"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20447232"
@@ -632,7 +632,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_72_dynamic3.wav"/>
   </sample>
   <sample ID="63" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3759"
+          RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="4415"
           SampleEnd="355912" SampleStartMod="5000" LoopStart="93523" LoopEnd="250300"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21512192"
@@ -692,7 +692,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_74_dynamic3.wav"/>
   </sample>
   <sample ID="69" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5005"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4790"
           SampleEnd="311411" SampleStartMod="5000" LoopStart="24040" LoopEnd="201254"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23744512"
@@ -752,7 +752,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_76_dynamic3.wav"/>
   </sample>
   <sample ID="75" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5016"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4881"
           SampleEnd="288143" SampleStartMod="5000" LoopStart="28816" LoopEnd="173914"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25796608"
@@ -782,7 +782,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_77_dynamic3.wav"/>
   </sample>
   <sample ID="78" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3450"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3300"
           SampleEnd="293971" SampleStartMod="5000" LoopStart="49110" LoopEnd="199898"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26775552"
@@ -792,7 +792,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_78_dynamic1.wav"/>
   </sample>
   <sample ID="79" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3565"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3565"
           SampleEnd="345707" SampleStartMod="5000" LoopStart="62484" LoopEnd="225093"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27070464"
@@ -832,7 +832,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_79_dynamic2.wav"/>
   </sample>
   <sample ID="83" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4524"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5079"
           SampleEnd="345810" SampleStartMod="5000" LoopStart="89235" LoopEnd="233337"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28393472"
@@ -842,7 +842,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_79_dynamic3.wav"/>
   </sample>
   <sample ID="84" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4587"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6723"
           SampleEnd="299907" SampleStartMod="5000" LoopStart="29125" LoopEnd="184466"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28741632"
@@ -872,7 +872,7 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/sustain/corAnglais_sustain_hall_80_dynamic3.wav"/>
   </sample>
   <sample ID="87" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1589"
+          RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="1589"
           SampleEnd="334178" SampleStartMod="5000" LoopStart="60235" LoopEnd="223144"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29769728"

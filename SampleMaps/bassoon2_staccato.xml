@@ -2,7 +2,7 @@
 
 <samplemap ID="bassoon2_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="34" HiKey="34" LoKey="34" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2751"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2552"
           SampleEnd="78333" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
@@ -262,7 +262,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_42_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="26" Root="42" HiKey="42" LoKey="42" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="13"
           SampleEnd="69372" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1961984"
@@ -322,7 +322,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_44_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="32" Root="44" HiKey="44" LoKey="44" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1640"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1640"
           SampleEnd="71524" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2383872"
@@ -442,7 +442,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_48_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="44" Root="48" HiKey="48" LoKey="48" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1042"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1042"
           SampleEnd="71965" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3293184"
@@ -472,7 +472,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_49_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="47" Root="49" HiKey="49" LoKey="49" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="951"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="951"
           SampleEnd="68441" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3518464"
@@ -562,7 +562,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_52_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="56" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="918"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="918"
           SampleEnd="73132" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4194304"
@@ -592,7 +592,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_53_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="59" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="981"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="981"
           SampleEnd="69846" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4435968"
@@ -622,7 +622,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_54_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="62" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="968"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="968"
           SampleEnd="69051" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4665344"
@@ -712,7 +712,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_57_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="71" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1122"
+          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1122"
           SampleEnd="71894" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5332992"
@@ -732,7 +732,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_58_dynamic1_rr1.wav"/>
   </sample>
   <sample ID="73" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1676"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2946"
           SampleEnd="64270" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5492736"
@@ -772,7 +772,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_59_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="77" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="873"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="873"
           SampleEnd="69187" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5779456"
@@ -982,7 +982,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_66_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="98" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="979"
+          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="979"
           SampleEnd="72445" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7356416"
@@ -1022,7 +1022,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_67_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="102" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1611"
+          RRGroup="1" Volume="-1" Pan="0" Normalized="0" Pitch="0" SampleStart="2707"
           SampleEnd="83178" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7651328"
@@ -1042,7 +1042,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_68_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="104" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="926"
+          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="926"
           SampleEnd="66912" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7806976"
@@ -1172,7 +1172,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_72_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="117" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="96"
+          RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1296"
           SampleEnd="89295" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8765440"
@@ -1192,7 +1192,7 @@
     <file FileName="{PROJECT_FOLDER}bassoon2/staccato/bassoon2_staccato_hall_73_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="119" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="878"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="878"
           SampleEnd="74380" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8925184"

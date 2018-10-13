@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="flute2_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="60" HiKey="60" LoKey="59" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2340"
+  <sample ID="0" Root="60" HiKey="60" LoKey="59" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2340"
           SampleEnd="53784" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
           MonolithLength="57344" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_60_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="1" Root="60" HiKey="60" LoKey="59" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2774"
+  <sample ID="1" Root="60" HiKey="60" LoKey="59" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2774"
           SampleEnd="50083" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="57344"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_60_dynamic2_rr1.wav"/>
@@ -22,7 +22,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_60_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="2" Root="60" HiKey="60" LoKey="59" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1493"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="1493"
           SampleEnd="62509" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="118784"
@@ -31,20 +31,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_60_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="3" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1685"
+  <sample ID="3" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2099"
           SampleEnd="41966" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="188416"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_61_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="4" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2696"
+  <sample ID="4" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2696"
           SampleEnd="52602" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="249856"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_61_dynamic2_rr1.wav"/>
@@ -52,7 +52,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_61_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="5" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1070"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="1070"
           SampleEnd="60582" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="315392"
@@ -61,20 +61,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_61_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="6" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2042"
+  <sample ID="6" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2042"
           SampleEnd="48184" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="385024"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_62_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="7" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1215"
+  <sample ID="7" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1215"
           SampleEnd="60107" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="446464"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_62_dynamic2_rr1.wav"/>
@@ -82,7 +82,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_62_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="8" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3712"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3712"
           SampleEnd="65633" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="507904"
@@ -91,20 +91,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_62_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="9" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2823"
+  <sample ID="9" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2823"
           SampleEnd="46652" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="581632"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_63_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="10" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3136"
+  <sample ID="10" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3136"
           SampleEnd="57142" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="643072"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_63_dynamic2_rr1.wav"/>
@@ -112,7 +112,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_63_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="11" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2768"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="2768"
           SampleEnd="61098" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="704512"
@@ -121,20 +121,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_63_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="12" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2391"
+  <sample ID="12" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2391"
           SampleEnd="48114" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="778240"
           MonolithLength="53248" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_64_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="13" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1434"
+  <sample ID="13" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1434"
           SampleEnd="50429" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="831488"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_64_dynamic2_rr1.wav"/>
@@ -142,7 +142,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_64_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="14" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1869"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="1869"
           SampleEnd="62835" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="892928"
@@ -151,20 +151,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_64_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="15" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2059"
+  <sample ID="15" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2059"
           SampleEnd="52649" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="966656"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_65_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="16" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2133"
+  <sample ID="16" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2133"
           SampleEnd="50036" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1032192"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_65_dynamic2_rr1.wav"/>
@@ -172,7 +172,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_65_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="17" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1999"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="1999"
           SampleEnd="63225" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1093632"
@@ -181,20 +181,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_65_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="18" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2970"
+  <sample ID="18" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2970"
           SampleEnd="47140" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1163264"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_66_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="19" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2086"
+  <sample ID="19" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3121"
           SampleEnd="52650" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1224704"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_66_dynamic2_rr1.wav"/>
@@ -202,7 +202,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_66_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="20" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2348"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3646"
           SampleEnd="61190" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1286144"
@@ -211,20 +211,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_66_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="21" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2687"
+  <sample ID="21" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2687"
           SampleEnd="43122" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1359872"
           MonolithLength="57344" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_67_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="22" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2953"
+  <sample ID="22" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2953"
           SampleEnd="55104" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1417216"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_67_dynamic2_rr1.wav"/>
@@ -241,20 +241,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_67_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="24" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2057"
+  <sample ID="24" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2057"
           SampleEnd="48185" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1552384"
           MonolithLength="57344" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_68_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="25" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2914"
+  <sample ID="25" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2914"
           SampleEnd="54598" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1609728"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_68_dynamic2_rr1.wav"/>
@@ -262,7 +262,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_68_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="26" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5028"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="5028"
           SampleEnd="67029" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1671168"
@@ -271,20 +271,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_68_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="27" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2876"
+  <sample ID="27" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2876"
           SampleEnd="49117" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1744896"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_69_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="28" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3571"
+  <sample ID="28" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3571"
           SampleEnd="59019" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1806336"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_69_dynamic2_rr1.wav"/>
@@ -292,7 +292,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_69_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="29" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2991"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="2991"
           SampleEnd="66359" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1867776"
@@ -301,20 +301,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_69_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="30" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2460"
+  <sample ID="30" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2460"
           SampleEnd="42432" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1945600"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_70_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="31" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2153"
+  <sample ID="31" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2153"
           SampleEnd="51935" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2007040"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_70_dynamic2_rr1.wav"/>
@@ -322,7 +322,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_70_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="32" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3631"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3631"
           SampleEnd="68192" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2072576"
@@ -331,20 +331,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_70_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="33" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2292"
+  <sample ID="33" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2292"
           SampleEnd="41460" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2142208"
           MonolithLength="57344" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_71_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="34" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3456"
+  <sample ID="34" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3456"
           SampleEnd="57590" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2199552"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_71_dynamic2_rr1.wav"/>
@@ -352,7 +352,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_71_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="35" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1389"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="1389"
           SampleEnd="58334" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2260992"
@@ -361,20 +361,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_71_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="36" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2100"
+  <sample ID="36" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2100"
           SampleEnd="45001" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2330624"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_72_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="37" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3499"
+  <sample ID="37" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3499"
           SampleEnd="51873" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2392064"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_72_dynamic2_rr1.wav"/>
@@ -382,7 +382,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_72_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="38" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1543"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="1543"
           SampleEnd="62975" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2453504"
@@ -391,20 +391,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_72_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="39" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2976"
+  <sample ID="39" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2976"
           SampleEnd="45596" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2523136"
           MonolithLength="53248" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_73_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="40" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3091"
+  <sample ID="40" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3091"
           SampleEnd="54355" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2576384"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_73_dynamic2_rr1.wav"/>
@@ -412,7 +412,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_73_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="41" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="836"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="836"
           SampleEnd="56320" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2637824"
@@ -421,20 +421,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_73_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="42" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3429"
+  <sample ID="42" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3429"
           SampleEnd="54307" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2707456"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_74_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="43" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2883"
+  <sample ID="43" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4184"
           SampleEnd="55771" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2768896"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_74_dynamic2_rr1.wav"/>
@@ -442,7 +442,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_74_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="44" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3953"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3953"
           SampleEnd="66312" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2834432"
@@ -451,20 +451,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_74_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="45" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2991"
+  <sample ID="45" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3536"
           SampleEnd="55846" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2904064"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_75_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="46" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2573"
+  <sample ID="46" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2573"
           SampleEnd="58357" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2965504"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_75_dynamic2_rr1.wav"/>
@@ -472,7 +472,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_75_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="47" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3838"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3838"
           SampleEnd="69386" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3026944"
@@ -481,20 +481,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_75_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_75_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="48" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3422"
+  <sample ID="48" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3422"
           SampleEnd="49188" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3100672"
           MonolithLength="53248" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_76_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="49" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3788"
+  <sample ID="49" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3788"
           SampleEnd="59788" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3153920"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_76_dynamic2_rr1.wav"/>
@@ -502,7 +502,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_76_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="50" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3983"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3983"
           SampleEnd="69307" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3215360"
@@ -511,20 +511,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_76_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_76_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="51" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2914"
+  <sample ID="51" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2914"
           SampleEnd="50231" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3289088"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_77_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="52" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2733"
+  <sample ID="52" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2733"
           SampleEnd="53436" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3350528"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_77_dynamic2_rr1.wav"/>
@@ -532,7 +532,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_77_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="53" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2981"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3182"
           SampleEnd="61843" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3411968"
@@ -541,20 +541,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_77_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_77_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="54" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3490"
+  <sample ID="54" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3490"
           SampleEnd="49672" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3485696"
           MonolithLength="57344" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_78_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="55" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2660"
+  <sample ID="55" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2928"
           SampleEnd="59756" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3543040"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_78_dynamic2_rr1.wav"/>
@@ -562,7 +562,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_78_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="56" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1590"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="1590"
           SampleEnd="65629" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3604480"
@@ -571,20 +571,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_78_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_78_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="57" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1959"
+  <sample ID="57" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1959"
           SampleEnd="51189" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3678208"
           MonolithLength="57344" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_79_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="58" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2679"
+  <sample ID="58" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2679"
           SampleEnd="57016" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3735552"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_79_dynamic2_rr1.wav"/>
@@ -592,7 +592,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_79_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="59" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2592"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="2592"
           SampleEnd="65092" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3796992"
@@ -601,20 +601,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_79_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_79_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="60" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1821"
+  <sample ID="60" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1821"
           SampleEnd="52205" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3870720"
           MonolithLength="53248" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_80_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="61" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3291"
+  <sample ID="61" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3291"
           SampleEnd="60363" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3923968"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_80_dynamic2_rr1.wav"/>
@@ -622,7 +622,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_80_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="62" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2904"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="2904"
           SampleEnd="65953" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3989504"
@@ -631,20 +631,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_80_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_80_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="63" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2598"
+  <sample ID="63" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2598"
           SampleEnd="46183" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4059136"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_81_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="64" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1374"
+  <sample ID="64" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1374"
           SampleEnd="61158" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4120576"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_81_dynamic2_rr1.wav"/>
@@ -652,7 +652,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_81_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="65" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1293"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="1293"
           SampleEnd="67903" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4182016"
@@ -661,20 +661,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_81_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_81_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="66" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1265"
+  <sample ID="66" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1265"
           SampleEnd="50321" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4251648"
           MonolithLength="53248" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_82_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="67" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3359"
+  <sample ID="67" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3359"
           SampleEnd="59998" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4304896"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_82_dynamic2_rr1.wav"/>
@@ -682,7 +682,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_82_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="68" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3596"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3596"
           SampleEnd="67088" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4366336"
@@ -691,20 +691,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_82_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_82_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="69" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1387"
+  <sample ID="69" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1387"
           SampleEnd="51156" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4440064"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_83_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="70" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1063"
+  <sample ID="70" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1063"
           SampleEnd="54304" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4501504"
           MonolithLength="57344" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_83_dynamic2_rr1.wav"/>
@@ -712,7 +712,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_83_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="71" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3690"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3690"
           SampleEnd="62111" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4558848"
@@ -721,20 +721,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_83_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_83_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="72" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3501"
+  <sample ID="72" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3501"
           SampleEnd="40459" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4628480"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_84_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_84_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_84_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="73" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1489"
+  <sample ID="73" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1489"
           SampleEnd="47747" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4689920"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_84_dynamic2_rr1.wav"/>
@@ -742,7 +742,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_84_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="74" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3343"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3343"
           SampleEnd="63413" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4751360"
@@ -751,20 +751,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_84_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_84_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="75" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3631"
+  <sample ID="75" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3631"
           SampleEnd="48343" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4825088"
           MonolithLength="57344" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_85_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_85_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_85_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="76" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1583"
+  <sample ID="76" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1583"
           SampleEnd="54977" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4882432"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_85_dynamic2_rr1.wav"/>
@@ -772,7 +772,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_85_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="77" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3793"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3793"
           SampleEnd="68707" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4943872"
@@ -781,20 +781,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_85_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_85_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="78" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2376"
+  <sample ID="78" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2376"
           SampleEnd="57255" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5017600"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_86_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_86_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_86_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="79" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3537"
+  <sample ID="79" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3537"
           SampleEnd="59125" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5083136"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_86_dynamic2_rr1.wav"/>
@@ -802,7 +802,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_86_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="80" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4120"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="4120"
           SampleEnd="70746" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5144576"
@@ -811,20 +811,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_86_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_86_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="81" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3496"
+  <sample ID="81" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3496"
           SampleEnd="50751" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5218304"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_87_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_87_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_87_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="82" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4372"
+  <sample ID="82" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4372"
           SampleEnd="59004" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5279744"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_87_dynamic2_rr1.wav"/>
@@ -832,7 +832,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_87_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="83" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4041"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="4041"
           SampleEnd="63922" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5345280"
@@ -841,20 +841,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_87_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_87_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="84" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3434"
+  <sample ID="84" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3434"
           SampleEnd="57049" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5419008"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_88_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_88_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_88_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="85" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3934"
+  <sample ID="85" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3934"
           SampleEnd="58875" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5480448"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_88_dynamic2_rr1.wav"/>
@@ -862,7 +862,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_88_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="86" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4016"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="4016"
           SampleEnd="64289" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5541888"
@@ -871,20 +871,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_88_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_88_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="87" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3222"
+  <sample ID="87" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3222"
           SampleEnd="50471" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5611520"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_89_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_89_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_89_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="88" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3979"
+  <sample ID="88" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3979"
           SampleEnd="56003" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5672960"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_89_dynamic2_rr1.wav"/>
@@ -892,7 +892,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_89_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="89" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4067"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="4067"
           SampleEnd="64380" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5734400"
@@ -901,20 +901,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_89_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_89_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="90" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2567"
+  <sample ID="90" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3300"
           SampleEnd="51896" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5808128"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_90_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_90_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_90_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="91" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3990"
+  <sample ID="91" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3990"
           SampleEnd="56134" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5873664"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_90_dynamic2_rr1.wav"/>
@@ -922,7 +922,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_90_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="92" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3995"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3995"
           SampleEnd="67505" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5935104"
@@ -931,20 +931,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_90_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_90_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="93" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3867"
+  <sample ID="93" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3867"
           SampleEnd="46200" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6008832"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_91_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_91_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_91_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="94" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4433"
+  <sample ID="94" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4433"
           SampleEnd="59624" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6074368"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_91_dynamic2_rr1.wav"/>
@@ -952,7 +952,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_91_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="95" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4041"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="4041"
           SampleEnd="67416" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6135808"
@@ -961,20 +961,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_91_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_91_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="96" Root="92" HiKey="92" LoKey="92" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3225"
+  <sample ID="96" Root="92" HiKey="92" LoKey="92" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3225"
           SampleEnd="52119" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6209536"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_92_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_92_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_92_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="97" Root="92" HiKey="92" LoKey="92" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2239"
+  <sample ID="97" Root="92" HiKey="92" LoKey="92" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3204"
           SampleEnd="60320" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6275072"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_92_dynamic2_rr1.wav"/>
@@ -982,7 +982,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_92_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="98" Root="92" HiKey="92" LoKey="92" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4048"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="4048"
           SampleEnd="68268" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6336512"
@@ -991,20 +991,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_92_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_92_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="99" Root="93" HiKey="93" LoKey="93" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2115"
+  <sample ID="99" Root="93" HiKey="93" LoKey="93" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2044"
           SampleEnd="49066" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6406144"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_93_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_93_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_93_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="100" Root="93" HiKey="93" LoKey="93" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4002"
+  <sample ID="100" Root="93" HiKey="93" LoKey="93" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4002"
           SampleEnd="59424" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6467584"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_93_dynamic2_rr1.wav"/>
@@ -1012,7 +1012,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_93_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="101" Root="93" HiKey="93" LoKey="93" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3958"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3958"
           SampleEnd="63225" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6529024"
@@ -1021,20 +1021,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_93_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_93_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="102" Root="94" HiKey="94" LoKey="94" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3771"
+  <sample ID="102" Root="94" HiKey="94" LoKey="94" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4184"
           SampleEnd="47716" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6602752"
           MonolithLength="65536" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_94_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_94_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_94_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="103" Root="94" HiKey="94" LoKey="94" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3312"
+  <sample ID="103" Root="94" HiKey="94" LoKey="94" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3312"
           SampleEnd="59542" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6668288"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_94_dynamic2_rr1.wav"/>
@@ -1042,7 +1042,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_94_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="104" Root="94" HiKey="94" LoKey="94" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3949"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3949"
           SampleEnd="71013" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6729728"
@@ -1051,20 +1051,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_94_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_94_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="105" Root="95" HiKey="95" LoKey="95" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2675"
+  <sample ID="105" Root="95" HiKey="95" LoKey="95" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2675"
           SampleEnd="48062" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6803456"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_95_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_95_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_95_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="106" Root="95" HiKey="95" LoKey="95" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4421"
+  <sample ID="106" Root="95" HiKey="95" LoKey="95" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4421"
           SampleEnd="59027" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6864896"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_95_dynamic2_rr1.wav"/>
@@ -1072,7 +1072,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_95_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="107" Root="95" HiKey="95" LoKey="95" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3998"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3998"
           SampleEnd="69947" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6926336"
@@ -1081,20 +1081,20 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_95_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_95_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="108" Root="96" HiKey="96" LoKey="96" LoVel="75" HiVel="110"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2967"
+  <sample ID="108" Root="96" HiKey="96" LoKey="96" LoVel="75" HiVel="127"
+          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2967"
           SampleEnd="50094" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7000064"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_96_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_96_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_96_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="109" Root="96" HiKey="96" LoKey="96" LoVel="75" HiVel="110"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5488"
+  <sample ID="109" Root="96" HiKey="96" LoKey="96" LoVel="75" HiVel="127"
+          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5488"
           SampleEnd="60248" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7061504"
           MonolithLength="61440" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_close_96_dynamic2_rr1.wav"/>
@@ -1102,7 +1102,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_96_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="110" Root="96" HiKey="96" LoKey="96" LoVel="75" HiVel="110"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3960"
+          RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="3960"
           SampleEnd="67095" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7122944"
@@ -1111,748 +1111,8 @@
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_decca_96_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/staccato/flute2_staccato_hall_96_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="111" Root="60" HiKey="60" LoKey="59" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18"
-          SampleEnd="57756" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7192576"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_60.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_60.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_60.wav"/>
-  </sample>
-  <sample ID="112" Root="61" HiKey="61" LoKey="61" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13"
-          SampleEnd="42385" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7254016"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_61.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_61.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_61.wav"/>
-  </sample>
-  <sample ID="113" Root="62" HiKey="62" LoKey="62" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2000"
-          SampleEnd="43018" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7315456"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_62.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_62.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_62.wav"/>
-  </sample>
-  <sample ID="114" Root="63" HiKey="63" LoKey="63" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2175"
-          SampleEnd="51259" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7376896"
-          MonolithLength="53248" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_63.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_63.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_63.wav"/>
-  </sample>
-  <sample ID="115" Root="64" HiKey="64" LoKey="64" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1031"
-          SampleEnd="51737" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7430144"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_64.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_64.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_64.wav"/>
-  </sample>
-  <sample ID="116" Root="65" HiKey="65" LoKey="65" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1433"
-          SampleEnd="61021" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7491584"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_65.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_65.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_65.wav"/>
-  </sample>
-  <sample ID="117" Root="66" HiKey="66" LoKey="66" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2152"
-          SampleEnd="59089" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7553024"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_66.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_66.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_66.wav"/>
-  </sample>
-  <sample ID="118" Root="67" HiKey="67" LoKey="67" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2390"
-          SampleEnd="53177" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7614464"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_67.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_67.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_67.wav"/>
-  </sample>
-  <sample ID="119" Root="68" HiKey="68" LoKey="68" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2460"
-          SampleEnd="58540" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7675904"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_68.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_68.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_68.wav"/>
-  </sample>
-  <sample ID="120" Root="69" HiKey="69" LoKey="69" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2483"
-          SampleEnd="56056" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7737344"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_69.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_69.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_69.wav"/>
-  </sample>
-  <sample ID="121" Root="70" HiKey="70" LoKey="70" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2574"
-          SampleEnd="55787" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7802880"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_70.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_70.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_70.wav"/>
-  </sample>
-  <sample ID="122" Root="71" HiKey="71" LoKey="71" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2543"
-          SampleEnd="51605" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7864320"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_71.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_71.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_71.wav"/>
-  </sample>
-  <sample ID="123" Root="72" HiKey="72" LoKey="72" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2492"
-          SampleEnd="57948" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7925760"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_72.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_72.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_72.wav"/>
-  </sample>
-  <sample ID="124" Root="73" HiKey="73" LoKey="73" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2664"
-          SampleEnd="52937" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7987200"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_73.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_73.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_73.wav"/>
-  </sample>
-  <sample ID="125" Root="74" HiKey="74" LoKey="74" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1257"
-          SampleEnd="55940" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8048640"
-          MonolithLength="57344" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_74.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_74.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_74.wav"/>
-  </sample>
-  <sample ID="126" Root="75" HiKey="75" LoKey="75" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1973"
-          SampleEnd="58503" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8105984"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_75.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_75.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_75.wav"/>
-  </sample>
-  <sample ID="127" Root="76" HiKey="76" LoKey="76" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2360"
-          SampleEnd="61187" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8167424"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_76.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_76.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_76.wav"/>
-  </sample>
-  <sample ID="128" Root="77" HiKey="77" LoKey="77" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2171"
-          SampleEnd="63448" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8228864"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_77.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_77.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_77.wav"/>
-  </sample>
-  <sample ID="129" Root="78" HiKey="78" LoKey="78" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2122"
-          SampleEnd="57215" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8294400"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_78.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_78.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_78.wav"/>
-  </sample>
-  <sample ID="130" Root="79" HiKey="79" LoKey="79" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2057"
-          SampleEnd="54160" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8355840"
-          MonolithLength="57344" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_79.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_79.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_79.wav"/>
-  </sample>
-  <sample ID="131" Root="80" HiKey="80" LoKey="80" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1965"
-          SampleEnd="51120" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8413184"
-          MonolithLength="53248" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_80.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_80.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_80.wav"/>
-  </sample>
-  <sample ID="132" Root="81" HiKey="81" LoKey="81" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1746"
-          SampleEnd="48251" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8466432"
-          MonolithLength="49152" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_81.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_81.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_81.wav"/>
-  </sample>
-  <sample ID="133" Root="82" HiKey="82" LoKey="82" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="792"
-          SampleEnd="61038" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8515584"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_82.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_82.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_82.wav"/>
-  </sample>
-  <sample ID="134" Root="83" HiKey="83" LoKey="83" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="749"
-          SampleEnd="57779" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8581120"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_83.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_83.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_83.wav"/>
-  </sample>
-  <sample ID="135" Root="84" HiKey="84" LoKey="84" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="707"
-          SampleEnd="54536" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8642560"
-          MonolithLength="57344" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_84.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_84.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_84.wav"/>
-  </sample>
-  <sample ID="136" Root="85" HiKey="85" LoKey="85" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1217"
-          SampleEnd="57760" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8699904"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_85.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_85.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_85.wav"/>
-  </sample>
-  <sample ID="137" Root="86" HiKey="86" LoKey="86" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2606"
-          SampleEnd="55971" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8761344"
-          MonolithLength="57344" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_86.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_86.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_86.wav"/>
-  </sample>
-  <sample ID="138" Root="87" HiKey="87" LoKey="87" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2435"
-          SampleEnd="55381" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8818688"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_87.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_87.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_87.wav"/>
-  </sample>
-  <sample ID="139" Root="88" HiKey="88" LoKey="88" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2428"
-          SampleEnd="62976" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8880128"
-          MonolithLength="69632" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_88.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_88.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_88.wav"/>
-  </sample>
-  <sample ID="140" Root="89" HiKey="89" LoKey="89" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2292"
-          SampleEnd="59442" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8949760"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_89.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_89.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_89.wav"/>
-  </sample>
-  <sample ID="141" Root="90" HiKey="90" LoKey="90" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1968"
-          SampleEnd="55028" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9015296"
-          MonolithLength="69632" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_90.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_90.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_90.wav"/>
-  </sample>
-  <sample ID="142" Root="91" HiKey="91" LoKey="91" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1851"
-          SampleEnd="51789" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9084928"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_91.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_91.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_91.wav"/>
-  </sample>
-  <sample ID="143" Root="92" HiKey="92" LoKey="92" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2604"
-          SampleEnd="57813" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9150464"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_92.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_92.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_92.wav"/>
-  </sample>
-  <sample ID="144" Root="93" HiKey="93" LoKey="93" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2683"
-          SampleEnd="60091" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9211904"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_93.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_93.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_93.wav"/>
-  </sample>
-  <sample ID="145" Root="94" HiKey="94" LoKey="94" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2514"
-          SampleEnd="56838" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9273344"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_94.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_94.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_94.wav"/>
-  </sample>
-  <sample ID="146" Root="95" HiKey="95" LoKey="95" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2793"
-          SampleEnd="54331" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9334784"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_95.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_95.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_95.wav"/>
-  </sample>
-  <sample ID="147" Root="96" HiKey="96" LoKey="96" LoVel="100" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2733"
-          SampleEnd="59641" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9400320"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_96.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_96.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_96.wav"/>
-  </sample>
-  <sample ID="148" Root="60" HiKey="60" LoKey="59" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18"
-          SampleEnd="57756" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9461760"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_60.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_60.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_60.wav"/>
-  </sample>
-  <sample ID="149" Root="61" HiKey="61" LoKey="61" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13"
-          SampleEnd="42385" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9523200"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_61.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_61.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_61.wav"/>
-  </sample>
-  <sample ID="150" Root="62" HiKey="62" LoKey="62" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2000"
-          SampleEnd="43018" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9584640"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_62.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_62.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_62.wav"/>
-  </sample>
-  <sample ID="151" Root="63" HiKey="63" LoKey="63" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2175"
-          SampleEnd="51259" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9646080"
-          MonolithLength="53248" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_63.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_63.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_63.wav"/>
-  </sample>
-  <sample ID="152" Root="64" HiKey="64" LoKey="64" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1031"
-          SampleEnd="51737" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9699328"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_64.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_64.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_64.wav"/>
-  </sample>
-  <sample ID="153" Root="65" HiKey="65" LoKey="65" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1433"
-          SampleEnd="61021" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9760768"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_65.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_65.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_65.wav"/>
-  </sample>
-  <sample ID="154" Root="66" HiKey="66" LoKey="66" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2152"
-          SampleEnd="59089" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9822208"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_66.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_66.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_66.wav"/>
-  </sample>
-  <sample ID="155" Root="67" HiKey="67" LoKey="67" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2390"
-          SampleEnd="53177" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9883648"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_67.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_67.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_67.wav"/>
-  </sample>
-  <sample ID="156" Root="68" HiKey="68" LoKey="68" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2460"
-          SampleEnd="58540" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9945088"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_68.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_68.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_68.wav"/>
-  </sample>
-  <sample ID="157" Root="69" HiKey="69" LoKey="69" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2483"
-          SampleEnd="56056" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10006528"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_69.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_69.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_69.wav"/>
-  </sample>
-  <sample ID="158" Root="70" HiKey="70" LoKey="70" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2574"
-          SampleEnd="55787" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10072064"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_70.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_70.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_70.wav"/>
-  </sample>
-  <sample ID="159" Root="71" HiKey="71" LoKey="71" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2543"
-          SampleEnd="51605" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10133504"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_71.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_71.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_71.wav"/>
-  </sample>
-  <sample ID="160" Root="72" HiKey="72" LoKey="72" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2492"
-          SampleEnd="57948" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10194944"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_72.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_72.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_72.wav"/>
-  </sample>
-  <sample ID="161" Root="73" HiKey="73" LoKey="73" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2664"
-          SampleEnd="52937" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10256384"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_73.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_73.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_73.wav"/>
-  </sample>
-  <sample ID="162" Root="74" HiKey="74" LoKey="74" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1257"
-          SampleEnd="55940" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10317824"
-          MonolithLength="57344" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_74.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_74.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_74.wav"/>
-  </sample>
-  <sample ID="163" Root="75" HiKey="75" LoKey="75" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1973"
-          SampleEnd="58503" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10375168"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_75.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_75.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_75.wav"/>
-  </sample>
-  <sample ID="164" Root="76" HiKey="76" LoKey="76" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2360"
-          SampleEnd="61187" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10436608"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_76.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_76.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_76.wav"/>
-  </sample>
-  <sample ID="165" Root="77" HiKey="77" LoKey="77" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2171"
-          SampleEnd="63448" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10498048"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_77.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_77.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_77.wav"/>
-  </sample>
-  <sample ID="166" Root="78" HiKey="78" LoKey="78" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2122"
-          SampleEnd="57215" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10563584"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_78.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_78.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_78.wav"/>
-  </sample>
-  <sample ID="167" Root="79" HiKey="79" LoKey="79" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2057"
-          SampleEnd="54160" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10625024"
-          MonolithLength="57344" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_79.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_79.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_79.wav"/>
-  </sample>
-  <sample ID="168" Root="80" HiKey="80" LoKey="80" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1965"
-          SampleEnd="51120" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10682368"
-          MonolithLength="53248" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_80.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_80.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_80.wav"/>
-  </sample>
-  <sample ID="169" Root="81" HiKey="81" LoKey="81" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1746"
-          SampleEnd="48251" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10735616"
-          MonolithLength="49152" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_81.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_81.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_81.wav"/>
-  </sample>
-  <sample ID="170" Root="82" HiKey="82" LoKey="82" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="792"
-          SampleEnd="61038" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10784768"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_82.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_82.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_82.wav"/>
-  </sample>
-  <sample ID="171" Root="83" HiKey="83" LoKey="83" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="749"
-          SampleEnd="57779" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10850304"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_83.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_83.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_83.wav"/>
-  </sample>
-  <sample ID="172" Root="84" HiKey="84" LoKey="84" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="707"
-          SampleEnd="54536" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10911744"
-          MonolithLength="57344" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_84.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_84.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_84.wav"/>
-  </sample>
-  <sample ID="173" Root="85" HiKey="85" LoKey="85" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1217"
-          SampleEnd="57760" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="10969088"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_85.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_85.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_85.wav"/>
-  </sample>
-  <sample ID="174" Root="86" HiKey="86" LoKey="86" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2606"
-          SampleEnd="55971" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11030528"
-          MonolithLength="57344" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_86.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_86.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_86.wav"/>
-  </sample>
-  <sample ID="175" Root="87" HiKey="87" LoKey="87" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2435"
-          SampleEnd="55381" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11087872"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_87.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_87.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_87.wav"/>
-  </sample>
-  <sample ID="176" Root="88" HiKey="88" LoKey="88" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2428"
-          SampleEnd="62976" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11149312"
-          MonolithLength="69632" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_88.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_88.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_88.wav"/>
-  </sample>
-  <sample ID="177" Root="89" HiKey="89" LoKey="89" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2292"
-          SampleEnd="59442" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11218944"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_89.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_89.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_89.wav"/>
-  </sample>
-  <sample ID="178" Root="90" HiKey="90" LoKey="90" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1968"
-          SampleEnd="55028" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11284480"
-          MonolithLength="69632" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_90.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_90.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_90.wav"/>
-  </sample>
-  <sample ID="179" Root="91" HiKey="91" LoKey="91" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1851"
-          SampleEnd="51789" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11354112"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_91.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_91.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_91.wav"/>
-  </sample>
-  <sample ID="180" Root="92" HiKey="92" LoKey="92" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2604"
-          SampleEnd="57813" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11419648"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_92.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_92.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_92.wav"/>
-  </sample>
-  <sample ID="181" Root="93" HiKey="93" LoKey="93" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2683"
-          SampleEnd="60091" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11481088"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_93.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_93.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_93.wav"/>
-  </sample>
-  <sample ID="182" Root="94" HiKey="94" LoKey="94" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2514"
-          SampleEnd="56838" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11542528"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_94.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_94.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_94.wav"/>
-  </sample>
-  <sample ID="183" Root="95" HiKey="95" LoKey="95" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2793"
-          SampleEnd="54331" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11603968"
-          MonolithLength="65536" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_95.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_95.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_95.wav"/>
-  </sample>
-  <sample ID="184" Root="96" HiKey="96" LoKey="96" LoVel="100" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2733"
-          SampleEnd="59641" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11669504"
-          MonolithLength="61440" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_close_96.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_decca_96.wav"/>
-    <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_96.wav"/>
-  </sample>
   <sample ID="185" Root="60" HiKey="60" LoKey="59" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="18"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57756" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11730944"
@@ -1862,7 +1122,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_60.wav"/>
   </sample>
   <sample ID="186" Root="61" HiKey="61" LoKey="61" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="13"
           SampleEnd="42385" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11792384"
@@ -1872,7 +1132,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_61.wav"/>
   </sample>
   <sample ID="187" Root="62" HiKey="62" LoKey="62" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2000"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2000"
           SampleEnd="43018" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11853824"
@@ -1882,7 +1142,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_62.wav"/>
   </sample>
   <sample ID="188" Root="63" HiKey="63" LoKey="63" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2175"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2175"
           SampleEnd="51259" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11915264"
@@ -1892,7 +1152,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_63.wav"/>
   </sample>
   <sample ID="189" Root="64" HiKey="64" LoKey="64" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1031"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="1031"
           SampleEnd="51737" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11968512"
@@ -1902,7 +1162,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_64.wav"/>
   </sample>
   <sample ID="190" Root="65" HiKey="65" LoKey="65" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1433"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="1433"
           SampleEnd="61021" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12029952"
@@ -1912,7 +1172,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_65.wav"/>
   </sample>
   <sample ID="191" Root="66" HiKey="66" LoKey="66" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2152"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2152"
           SampleEnd="59089" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12091392"
@@ -1922,7 +1182,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_66.wav"/>
   </sample>
   <sample ID="192" Root="67" HiKey="67" LoKey="67" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2390"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2390"
           SampleEnd="53177" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12152832"
@@ -1932,7 +1192,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_67.wav"/>
   </sample>
   <sample ID="193" Root="68" HiKey="68" LoKey="68" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2460"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2460"
           SampleEnd="58540" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12214272"
@@ -1942,7 +1202,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_68.wav"/>
   </sample>
   <sample ID="194" Root="69" HiKey="69" LoKey="69" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2483"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2483"
           SampleEnd="56056" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12275712"
@@ -1952,7 +1212,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_69.wav"/>
   </sample>
   <sample ID="195" Root="70" HiKey="70" LoKey="70" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2574"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2574"
           SampleEnd="55787" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12341248"
@@ -1962,7 +1222,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_70.wav"/>
   </sample>
   <sample ID="196" Root="71" HiKey="71" LoKey="71" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2543"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2543"
           SampleEnd="51605" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12402688"
@@ -1972,7 +1232,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_71.wav"/>
   </sample>
   <sample ID="197" Root="72" HiKey="72" LoKey="72" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2492"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2492"
           SampleEnd="57948" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12464128"
@@ -1982,7 +1242,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_72.wav"/>
   </sample>
   <sample ID="198" Root="73" HiKey="73" LoKey="73" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2664"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2664"
           SampleEnd="52937" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12525568"
@@ -1992,7 +1252,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_73.wav"/>
   </sample>
   <sample ID="199" Root="74" HiKey="74" LoKey="74" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1257"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="1257"
           SampleEnd="55940" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12587008"
@@ -2002,7 +1262,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_74.wav"/>
   </sample>
   <sample ID="200" Root="75" HiKey="75" LoKey="75" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1973"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="1973"
           SampleEnd="58503" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12644352"
@@ -2012,7 +1272,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_75.wav"/>
   </sample>
   <sample ID="201" Root="76" HiKey="76" LoKey="76" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2360"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2360"
           SampleEnd="61187" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12705792"
@@ -2022,7 +1282,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_76.wav"/>
   </sample>
   <sample ID="202" Root="77" HiKey="77" LoKey="77" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2171"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2171"
           SampleEnd="63448" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12767232"
@@ -2032,7 +1292,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_77.wav"/>
   </sample>
   <sample ID="203" Root="78" HiKey="78" LoKey="78" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2122"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2122"
           SampleEnd="57215" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12832768"
@@ -2042,7 +1302,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_78.wav"/>
   </sample>
   <sample ID="204" Root="79" HiKey="79" LoKey="79" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2057"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2057"
           SampleEnd="54160" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12894208"
@@ -2052,7 +1312,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_79.wav"/>
   </sample>
   <sample ID="205" Root="80" HiKey="80" LoKey="80" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1965"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="1965"
           SampleEnd="51120" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12951552"
@@ -2062,7 +1322,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_80.wav"/>
   </sample>
   <sample ID="206" Root="81" HiKey="81" LoKey="81" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1746"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="1746"
           SampleEnd="48251" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13004800"
@@ -2072,7 +1332,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_81.wav"/>
   </sample>
   <sample ID="207" Root="82" HiKey="82" LoKey="82" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="792"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="792"
           SampleEnd="61038" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13053952"
@@ -2082,7 +1342,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_82.wav"/>
   </sample>
   <sample ID="208" Root="83" HiKey="83" LoKey="83" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="749"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="749"
           SampleEnd="57779" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13119488"
@@ -2092,7 +1352,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_83.wav"/>
   </sample>
   <sample ID="209" Root="84" HiKey="84" LoKey="84" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="707"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="707"
           SampleEnd="54536" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13180928"
@@ -2102,7 +1362,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_84.wav"/>
   </sample>
   <sample ID="210" Root="85" HiKey="85" LoKey="85" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1217"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="1217"
           SampleEnd="57760" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13238272"
@@ -2112,7 +1372,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_85.wav"/>
   </sample>
   <sample ID="211" Root="86" HiKey="86" LoKey="86" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2606"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2606"
           SampleEnd="55971" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13299712"
@@ -2122,7 +1382,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_86.wav"/>
   </sample>
   <sample ID="212" Root="87" HiKey="87" LoKey="87" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2435"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2435"
           SampleEnd="55381" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13357056"
@@ -2132,7 +1392,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_87.wav"/>
   </sample>
   <sample ID="213" Root="88" HiKey="88" LoKey="88" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2428"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2428"
           SampleEnd="62976" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13418496"
@@ -2142,7 +1402,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_88.wav"/>
   </sample>
   <sample ID="214" Root="89" HiKey="89" LoKey="89" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2292"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2292"
           SampleEnd="59442" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13488128"
@@ -2152,7 +1412,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_89.wav"/>
   </sample>
   <sample ID="215" Root="90" HiKey="90" LoKey="90" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1968"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="1968"
           SampleEnd="55028" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13553664"
@@ -2162,7 +1422,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_90.wav"/>
   </sample>
   <sample ID="216" Root="91" HiKey="91" LoKey="91" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1851"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="1851"
           SampleEnd="51789" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13623296"
@@ -2172,7 +1432,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_91.wav"/>
   </sample>
   <sample ID="217" Root="92" HiKey="92" LoKey="92" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2604"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2604"
           SampleEnd="57813" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13688832"
@@ -2182,7 +1442,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_92.wav"/>
   </sample>
   <sample ID="218" Root="93" HiKey="93" LoKey="93" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2683"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2683"
           SampleEnd="60091" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13750272"
@@ -2192,7 +1452,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_93.wav"/>
   </sample>
   <sample ID="219" Root="94" HiKey="94" LoKey="94" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2514"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2514"
           SampleEnd="56838" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13811712"
@@ -2202,7 +1462,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_94.wav"/>
   </sample>
   <sample ID="220" Root="95" HiKey="95" LoKey="95" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2793"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2793"
           SampleEnd="54331" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13873152"
@@ -2212,7 +1472,7 @@
     <file FileName="{PROJECT_FOLDER}flute2/sputato/flute2_sputato_hall_95.wav"/>
   </sample>
   <sample ID="221" Root="96" HiKey="96" LoKey="96" LoVel="100" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2733"
+          RRGroup="3" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2733"
           SampleEnd="59641" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13938688"

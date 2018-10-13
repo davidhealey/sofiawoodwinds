@@ -32,7 +32,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/staccato/oboe1_staccato_hall_58_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="3" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1982"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1924"
           SampleEnd="77317" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="245760"
@@ -112,7 +112,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/staccato/oboe1_staccato_hall_61_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="11" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2552"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2348"
           SampleEnd="102164" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="954368"
@@ -142,7 +142,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/staccato/oboe1_staccato_hall_62_dynamic2_rr1.wav"/>
   </sample>
   <sample ID="14" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1843"
+          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1843"
           SampleEnd="98961" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1224704"
@@ -392,7 +392,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/staccato/oboe1_staccato_hall_70_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="39" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2294"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3499"
           SampleEnd="80075" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3391488"

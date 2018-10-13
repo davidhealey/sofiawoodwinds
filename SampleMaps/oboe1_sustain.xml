@@ -52,7 +52,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_59_dynamic2.wav"/>
   </sample>
   <sample ID="5" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6938"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7653"
           SampleEnd="347980" SampleStartMod="5000" LoopStart="74453" LoopEnd="220334"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1654784"
@@ -72,7 +72,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_60_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2853"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3580"
           SampleEnd="330787" SampleStartMod="5000" LoopStart="50612" LoopEnd="194691"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2330624"
@@ -122,7 +122,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_61_dynamic3.wav"/>
   </sample>
   <sample ID="12" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1954"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2463"
           SampleEnd="350365" SampleStartMod="5000" LoopStart="26405" LoopEnd="243991"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4038656"
@@ -152,7 +152,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_62_dynamic3.wav"/>
   </sample>
   <sample ID="15" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1987"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2513"
           SampleEnd="339494" SampleStartMod="5000" LoopStart="55236" LoopEnd="216829"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5095424"
@@ -192,7 +192,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_64_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2080"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2619"
           SampleEnd="327572" SampleStartMod="5000" LoopStart="71175" LoopEnd="217547"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6479872"
@@ -362,7 +362,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_69_dynamic3.wav"/>
   </sample>
   <sample ID="36" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1776"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2785"
           SampleEnd="339415" SampleStartMod="5000" LoopStart="93721" LoopEnd="238620"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12308480"
@@ -392,7 +392,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_70_dynamic3.wav"/>
   </sample>
   <sample ID="39" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3071"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4675"
           SampleEnd="341489" SampleStartMod="5000" LoopStart="45615" LoopEnd="229874"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13328384"
@@ -542,7 +542,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_75_dynamic3.wav"/>
   </sample>
   <sample ID="54" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2034"
+          RRGroup="1" Volume="1" Pan="0" Normalized="0" Pitch="0" SampleStart="2034"
           SampleEnd="332933" SampleStartMod="5000" LoopStart="93698" LoopEnd="247862"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18472960"
@@ -692,7 +692,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_80_dynamic3.wav"/>
   </sample>
   <sample ID="69" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2072"
+          RRGroup="1" Volume="2" Pan="0" Normalized="0" Pitch="0" SampleStart="2072"
           SampleEnd="326227" SampleStartMod="5000" LoopStart="63837" LoopEnd="235160"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23547904"
@@ -722,7 +722,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_81_dynamic3.wav"/>
   </sample>
   <sample ID="72" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1957"
+          RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1957"
           SampleEnd="338180" SampleStartMod="5000" LoopStart="109729" LoopEnd="258241"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24518656"
@@ -782,7 +782,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_83_dynamic3.wav"/>
   </sample>
   <sample ID="78" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2102"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1723"
           SampleEnd="330336" SampleStartMod="5000" LoopStart="62621" LoopEnd="224959"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26537984"
@@ -812,7 +812,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_84_dynamic3.wav"/>
   </sample>
   <sample ID="81" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1956"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1739"
           SampleEnd="347647" SampleStartMod="5000" LoopStart="91342" LoopEnd="237911"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27545600"
@@ -872,7 +872,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_86_dynamic3.wav"/>
   </sample>
   <sample ID="87" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1870"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2784"
           SampleEnd="328299" SampleStartMod="5000" LoopStart="48063" LoopEnd="243888"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29609984"
@@ -902,7 +902,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_87_dynamic3.wav"/>
   </sample>
   <sample ID="90" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1892"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1591"
           SampleEnd="328493" SampleStartMod="5000" LoopStart="62437" LoopEnd="207520"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30617600"
@@ -992,7 +992,7 @@
     <file FileName="{PROJECT_FOLDER}oboe1/sustain/oboe1_sustain_hall_90_dynamic3.wav"/>
   </sample>
   <sample ID="99" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2147"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1790"
           SampleEnd="328811" SampleStartMod="5000" LoopStart="53469" LoopEnd="216166"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33628160"
