@@ -11,7 +11,7 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
-            <Control type="ScriptComboBox" id="cmbPreset" value="1"/>
+            <Control type="ScriptComboBox" id="cmbPreset" value="6"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
@@ -29,14 +29,14 @@
             <Control type="ScriptPanel" id="sliDelay1" value="0"/>
             <Control type="ScriptPanel" id="sliDelay2" value="0"/>
             <Control type="ScriptPanel" id="page1" value="0"/>
-            <Control type="ScriptComboBox" id="cmbParam" value="1"/>
+            <Control type="ScriptComboBox" id="cmbParam" value="6"/>
             <Control type="ScriptComboBox" id="cmbCc0" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc1" value="11"/>
             <Control type="ScriptComboBox" id="cmbCc2" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="66" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="24" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C..jwO"/>
@@ -223,7 +223,8 @@
                                  text="Parameters" max="6" height="32"/>
                       <Component type="ScriptComboBox" id="cmbCc0" x="200" y="69" itemColour2="4283585106"
                                  itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
-                                 width="100" enabled="0" items="Velocity" height="32" text="Velocity"/>
+                                 width="100" enabled="0" items="Velocity" height="32" text="Velocity"
+                                 visible="0"/>
                       <Component type="ScriptComboBox" id="cmbCc1" x="200" y="69" max="125" itemColour2="4283585106"
                                  itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
                                  width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
@@ -248,10 +249,10 @@
                                  itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
                                  width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
                                  defaultValue="3" height="32" processorId="flutterIntensityCC"
-                                 parameterId="ControllerNumber" visible="0"/>
+                                 parameterId="ControllerNumber"/>
                       <Component type="ScriptTable" id="tblCc0" x="20" y="119" width="280" height="180"
                                  parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
-                                 itemColour="4286216826" itemColour2="1879048192"/>
+                                 itemColour="4286216826" itemColour2="1879048192" visible="0"/>
                       <Component type="ScriptTable" id="tblCc1" x="20" y="119" width="280" height="180"
                                  parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
                                  itemColour2="1879048192" customColours="1" processorId="expressionCC"
@@ -270,8 +271,7 @@
                                  visible="0"/>
                       <Component type="ScriptTable" id="tblCc5" x="20" y="119" width="280" height="180"
                                  parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
-                                 itemColour2="1879048192" customColours="1" processorId="flutterIntensityCC"
-                                 visible="0"/>
+                                 itemColour2="1879048192" customColours="1" processorId="flutterIntensityCC"/>
                     </Component>
                     <Component type="ScriptPanel" id="pnlPerformance" x="340" y="0" width="320"
                                height="320" parentComponent="page1" borderSize="0" borderRadius="0"
@@ -553,8 +553,8 @@
               <Content>
                 <Control type="ScriptButton" id="Enable" value="1"/>
                 <Control type="ScriptButton" id="Random" value="1"/>
-                <Control type="ScriptSlider" id="Low Note" value="74"/>
-                <Control type="ScriptSlider" id="High Note" value="105"/>
+                <Control type="ScriptSlider" id="Low Note" value="58"/>
+                <Control type="ScriptSlider" id="High Note" value="91"/>
               </Content>
               <UIData>
                 <ContentProperties DeviceType="Desktop">
@@ -601,10 +601,10 @@
                     <Control type="ScriptButton" id="Legato" value="1"/>
                     <Control type="ScriptButton" id="Glide" value="0"/>
                     <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
-                    <Control type="ScriptSlider" id="Bend Time" value="-15"/>
-                    <Control type="ScriptSlider" id="Min Bend" value="5"/>
-                    <Control type="ScriptSlider" id="Max Bend" value="30"/>
-                    <Control type="ScriptSlider" id="Fade Time" value="50"/>
+                    <Control type="ScriptSlider" id="Bend Time" value="-20"/>
+                    <Control type="ScriptSlider" id="Min Bend" value="30"/>
+                    <Control type="ScriptSlider" id="Max Bend" value="70"/>
+                    <Control type="ScriptSlider" id="Fade Time" value="40"/>
                     <Control type="ScriptSlider" id="Fade Out Ratio" value="80"/>
                     <Control type="ScriptSlider" id="Offset" value="0.050000001"/>
                     <Control type="ScriptSlider" id="Glide Rate" value="19"/>
@@ -664,7 +664,7 @@
                        Group2Table="36...............vO.2o+9.........vO...f+....9C..fxO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_sustain">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="oboe2_sustain">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -687,7 +687,7 @@
                       </ChildProcessors>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="vibratoGain" Bypassed="0"
-                               Intensity="0.30000001" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Intensity="0.34999999" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
@@ -705,7 +705,7 @@
                       <ChildProcessors/>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="vibratoPitch" Bypassed="0"
-                               Intensity="-0.0125" UseTable="1" Inverted="0" TableData="24...............vO...f+....7C...vO"
+                               Intensity="-0.0058333334" UseTable="1" Inverted="0" TableData="24...............vO...f+....7C...vO"
                                Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
@@ -733,7 +733,7 @@
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
                 <channelData enabled="1" level="0" suffix="decca"/>
-                <channelData enabled="1" level="0" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
             </Processor>
             <Processor Type="StreamingSampler" ID="staccato" Bypassed="0" Gain="1" Balance="0"
@@ -745,7 +745,7 @@
                        Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_staccato">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="oboe2_staccato">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -798,7 +798,7 @@
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
                 <channelData enabled="1" level="0" suffix="decca"/>
-                <channelData enabled="1" level="0" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
             </Processor>
           </ChildProcessors>
@@ -806,7 +806,7 @@
                          Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                          Send4="-1" Channel5="5" Send5="-1"/>
         </Processor>
-        <Processor Type="StreamingSampler" ID="release" Bypassed="0" Gain="0.39810717"
+        <Processor Type="StreamingSampler" ID="release" Bypassed="0" Gain="0.56234133"
                    Balance="0" VoiceLimit="64" KillFadeTime="100" IconColour="0"
                    PreloadSize="8192" BufferSize="4096" VoiceAmount="96" SamplerRepeatMode="0"
                    RRGroupAmount="3" PitchTracking="1" OneShot="0" CrossfadeGroups="1"
@@ -815,7 +815,7 @@
                    Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="piccolo_release">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="oboe2_release">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -886,7 +886,7 @@
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
             <channelData enabled="1" level="0" suffix="decca"/>
-            <channelData enabled="1" level="0" suffix="hall"/>
+            <channelData enabled="1" level="-100" suffix="hall"/>
           </channels>
         </Processor>
       </ChildProcessors>
