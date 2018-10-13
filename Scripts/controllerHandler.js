@@ -52,7 +52,7 @@ namespace ControllerHandler
 	
 	inline function onNoteCB()
     {
-        Message.setVelocity(127 * tblCc[0].getTableValue(Message.getVelocity())); //Scale velocity using table        
+        Message.setVelocity(Math.max(1, 127 * tblCc[0].getTableValue(Message.getVelocity()))); //Scale velocity using table        
     }
 	
 	inline function cmbParamCB(control, value)
