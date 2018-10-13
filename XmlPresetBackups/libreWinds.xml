@@ -36,14 +36,14 @@
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="50" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="44" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc4" value="0" data="24......3FKC7C...vO...f+....9C..HyO"/>
             <Control type="ScriptTable" id="tblCc5" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptSlider" id="sliOffset" value="0.050000001"/>
-            <Control type="ScriptSlider" id="sliRelease" value="40"/>
+            <Control type="ScriptSlider" id="sliRelease" value="80"/>
             <Control type="ScriptPanel" id="sliGlide" value="19"/>
             <Control type="ScriptPanel" id="btnGlideMode" value="0"/>
             <Control type="ScriptPanel" id="btnPurgeReleases" value="0"/>
@@ -94,7 +94,7 @@
                   </Component>
                   <Component type="ScriptPanel" id="page0" x="20" y="60" width="660" height="320"
                              parentComponent="pnlMain" saveInPreset="1" borderSize="0" borderRadius="0"
-                             itemColour="10354558" itemColour2="10354558" textColour="0" visible="0">
+                             itemColour="10354558" itemColour2="10354558" textColour="0">
                     <Component type="ScriptPanel" id="pnlMixer" x="0" y="0" width="660" height="320"
                                parentComponent="page0" borderRadius="0" borderSize="0" bgColour="16777215"
                                textColour="16777215" itemColour2="4281545523" itemColour="4281545523">
@@ -205,7 +205,8 @@
                   </Component>
                   <Component type="ScriptPanel" id="page1" x="20" y="60" width="660" height="320"
                              parentComponent="pnlMain" borderSize="0" borderRadius="0" itemColour="10354558"
-                             itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215">
+                             itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215"
+                             visible="0">
                     <Component type="ScriptPanel" id="pnlControllers" x="0" y="0" width="320"
                                height="320" parentComponent="page1" bgColour="0" itemColour="4281545523"
                                itemColour2="4281545523" textColour="0" borderSize="0" borderRadius="0">
@@ -306,11 +307,10 @@
                                  isPluginParameter="1" pluginParameterName="Legato Offset" bgColour="4280690214"
                                  itemColour="4283532715" processorId="legato" parameterId="Offset"/>
                       <Component type="ScriptSlider" id="sliRelease" x="200" y="69" width="100"
-                                 height="32" parentComponent="pnlPerformance" mode="Time" suffix=" ms"
-                                 middlePosition="250" style="Horizontal" defaultValue="80" isPluginParameter="1"
-                                 pluginParameterName="Legato Release" max="500" stepSize="1" min="20"
-                                 bgColour="4280690214" itemColour="4283532715" processorId="DefaultEnvelope"
-                                 parameterId="Release"/>
+                                 height="32" parentComponent="pnlPerformance" suffix=" %" middlePosition="50"
+                                 style="Horizontal" defaultValue="80" isPluginParameter="1" pluginParameterName="Legato Release"
+                                 max="100" stepSize="1" min="10" bgColour="4280690214" itemColour="4283532715"
+                                 processorId="legato" parameterId="Fade Out Ratio"/>
                       <Component type="ScriptPanel" id="sliGlide" x="200" y="119" width="100"
                                  height="32" parentComponent="pnlPerformance" saveInPreset="1"
                                  borderSize="0" borderRadius="0" isPluginParameter="1" pluginParameterName="Glide Rate"
@@ -605,11 +605,11 @@
                     <Control type="ScriptSlider" id="Min Bend" value="5"/>
                     <Control type="ScriptSlider" id="Max Bend" value="30"/>
                     <Control type="ScriptSlider" id="Fade Time" value="50"/>
-                    <Control type="ScriptSlider" id="Fade Out Ratio" value="100"/>
+                    <Control type="ScriptSlider" id="Fade Out Ratio" value="80"/>
                     <Control type="ScriptSlider" id="Offset" value="0.050000001"/>
                     <Control type="ScriptSlider" id="Glide Rate" value="19"/>
                     <Control type="ScriptButton" id="Same Note Legato" value="0"/>
-                    <Control type="ScriptButton" id="Kill Old Notes" value="1"/>
+                    <Control type="ScriptButton" id="Kill Old Notes" value="0"/>
                   </Content>
                   <UIData>
                     <ContentProperties DeviceType="Desktop">
@@ -626,8 +626,7 @@
                       <Component type="ScriptSlider" id="Fade Time" x="450" y="50" stepSize="0.1"
                                  min="10" max="500" suffix="ms" tooltip="Maximum crossfade time in milliseconds, the actual time used will vary based on playing speed and velocity."/>
                       <Component type="ScriptSlider" id="Fade Out Ratio" x="600" y="50" stepSize="1"
-                                 max="100" suffix="%" defaultValue="100" tooltip="Shortens the fade out time to a percentage of the fade time. 100% = the same as fade in time."
-                                 visible="0"/>
+                                 max="100" suffix="%" defaultValue="100" tooltip="Shortens the fade out time to a percentage of the fade time. 100% = the same as fade in time."/>
                       <Component type="ScriptSlider" id="Offset" x="0" y="100" middlePosition="0.5"
                                  suffix="%" mode="NormalizedPercentage" tooltip="Sets the startMod constant modulator (required) for legato phrase and glide notes."/>
                       <Component type="ScriptSlider" id="Glide Rate" x="150" y="100" middlePosition="9"
@@ -673,13 +672,13 @@
                 <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="SimpleEnvelope" ID="DefaultEnvelope" Bypassed="0" Monophonic="0"
-                               Retrigger="1" Intensity="1" Attack="300" Release="40" LinearMode="1">
+                               Retrigger="1" Intensity="1" Attack="150" Release="300" LinearMode="1">
                       <ChildProcessors>
                         <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
                                    Intensity="1">
                           <ChildProcessors>
                             <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator"
-                                       Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="60..........9C...vOCkWS9.HhHvC..voOMTdE+........PkOrgxE+LyLy7C..PkO...f+LyLy7C...vO"
+                                       Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="60..........9C...vOCkWS9.HhHvC..voOCkWE+........PkO...F+....9C..PkO...f+....9C...vO"
                                        Connection="Global Modulator Container:Velocity Modulator">
                               <ChildProcessors/>
                             </Processor>
@@ -754,8 +753,8 @@
                 <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="TableEnvelope" ID="Table Envelope" Bypassed="0" Monophonic="0"
-                               Retrigger="1" Intensity="1" Attack="300" Release="300" AttackTableData="24..........9C...vO...f+........voO"
-                               ReleaseTableData="24..........9C...vO...f+........3rO">
+                               Retrigger="1" Intensity="1" Attack="500" Release="300" AttackTableData="24..........9C...vO...f+........voO"
+                               ReleaseTableData="24..........9C...vO...f+........jwO">
                       <ChildProcessors>
                         <Processor Type="ModulatorChain" ID="AttackTime Modulation" Bypassed="0"
                                    Intensity="1">
@@ -847,18 +846,13 @@
             <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
               <ChildProcessors>
                 <Processor Type="SimpleEnvelope" ID="DefaultEnvelope" Bypassed="0" Monophonic="0"
-                           Retrigger="1" Intensity="1" Attack="300" Release="10000" LinearMode="1">
+                           Retrigger="1" Intensity="1" Attack="250" Release="5000" LinearMode="1">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
                                Intensity="1">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
-                </Processor>
-                <Processor Type="KeyNumber" ID="Notenumber Modulator2" Bypassed="0" Intensity="1"
-                           Mode="1" MidiTableData="24...............vO...f+....9C...vO"
-                           KeyTableData="512....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C">
-                  <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
