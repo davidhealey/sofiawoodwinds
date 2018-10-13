@@ -16,9 +16,9 @@
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
             <Control type="ScriptPanel" id="btnPurge2" value="1"/>
-            <Control type="ScriptSlider" id="sliVol0" value="-5.9999986"/>
-            <Control type="ScriptSlider" id="sliVol1" value="-6"/>
-            <Control type="ScriptSlider" id="sliVol2" value="-6"/>
+            <Control type="ScriptSlider" id="sliVol0" value="-8.999999"/>
+            <Control type="ScriptSlider" id="sliVol1" value="-8.999999"/>
+            <Control type="ScriptSlider" id="sliVol2" value="-8.999999"/>
             <Control type="ScriptPanel" id="sliPan0" value="0"/>
             <Control type="ScriptPanel" id="sliPan1" value="0"/>
             <Control type="ScriptPanel" id="sliPan2" value="0"/>
@@ -36,11 +36,11 @@
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="46" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="50" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
-            <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C..3rO"/>
+            <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C...vO"/>
-            <Control type="ScriptTable" id="tblCc4" value="0" data="24..........7C...vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc4" value="0" data="24......3FKC7C...vO...f+....9C..HyO"/>
             <Control type="ScriptTable" id="tblCc5" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptSlider" id="sliOffset" value="0.050000001"/>
             <Control type="ScriptSlider" id="sliRelease" value="40"/>
@@ -127,19 +127,19 @@
                                    text="Hall" itemColour2="0" textColour="4294967295" tooltip="Hall Mic Purge"/>
                         <Component type="ScriptSlider" id="sliVol0" x="35" y="170" width="32" height="100"
                                    parentComponent="pnlMixerControls" mode="Decibel" min="-100"
-                                   max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
+                                   max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
                                    style="Vertical" showValuePopup="Right" textColour="0" bgColour="4280690214"
                                    itemColour="4283532715" isPluginParameter="1" pluginParameterName="Close Gain"
                                    processorId="channel1" parameterId="Gain" tooltip="Close Gain"/>
                         <Component type="ScriptSlider" id="sliVol1" x="139" y="170" width="32" height="100"
                                    parentComponent="pnlMixerControls" mode="Decibel" min="-100"
-                                   max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
+                                   max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
                                    style="Vertical" showValuePopup="Right" textColour="0" bgColour="4280690214"
                                    itemColour="4283532715" isPluginParameter="1" pluginParameterName="Decca Gain"
                                    processorId="channel2" parameterId="Gain" tooltip="Decca Gain"/>
                         <Component type="ScriptSlider" id="sliVol2" x="243" y="170" width="32" height="100"
                                    parentComponent="pnlMixerControls" mode="Decibel" min="-100"
-                                   max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
+                                   max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
                                    style="Vertical" showValuePopup="Right" textColour="0" bgColour="4280690214"
                                    itemColour="4283532715" isPluginParameter="1" pluginParameterName="Hall Gain"
                                    processorId="channel3" parameterId="Gain" tooltip="Hall Gain"/>
@@ -398,7 +398,7 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-5.9999986"
+        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-8.999999"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -418,8 +418,8 @@
                          Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="channel2" Bypassed="0" Gain="-6" Delay="0"
-                   Width="0" Balance="0">
+        <Processor Type="SimpleGain" ID="channel2" Bypassed="0" Gain="-8.999999"
+                   Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -438,8 +438,8 @@
                          Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="channel3" Bypassed="0" Gain="-6" Delay="0"
-                   Width="0" Balance="0">
+        <Processor Type="SimpleGain" ID="channel3" Bypassed="0" Gain="-8.999999"
+                   Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -470,13 +470,13 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="MidiController" ID="expressionCC" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" ControllerNumber="11" SmoothTime="200"
+                       UseTable="1" Inverted="0" ControllerNumber="11" SmoothTime="1000"
                        DefaultValue="80" ControllerTableData="24...............vO...f+....9C...vO">
               <ChildProcessors/>
             </Processor>
             <Processor Type="MidiController" ID="dynamicsCC" Bypassed="0" Intensity="1"
                        UseTable="1" Inverted="0" ControllerNumber="1" SmoothTime="1000"
-                       DefaultValue="64" ControllerTableData="24...............vO...f+....9C..3rO">
+                       DefaultValue="64" ControllerTableData="24...............vO...f+....9C...vO">
               <ChildProcessors/>
             </Processor>
             <Processor Type="LFO" ID="vibratoLFO" Bypassed="0" Intensity="1" Frequency="10"
@@ -497,7 +497,7 @@
                   <ChildProcessors>
                     <Processor Type="MidiController" ID="vibratoRateCC" Bypassed="0" Intensity="1"
                                UseTable="1" Inverted="0" ControllerNumber="20" SmoothTime="250"
-                               DefaultValue="127" ControllerTableData="24..........7C...vO...f+....9C...vO">
+                               DefaultValue="127" ControllerTableData="24......3FKC7C...vO...f+....9C..HyO">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -577,7 +577,7 @@
               <ChildProcessors/>
             </Processor>
             <Processor Type="GlobalTimeVariantModulator" ID="dynamicsGain" Bypassed="0"
-                       Intensity="1" UseTable="1" Inverted="0" TableData="24......vLyL6C...vO...f+....9C..XuO"
+                       Intensity="1" UseTable="1" Inverted="0" TableData="24......PhHh3C...vO...f+....9C..PwO"
                        Connection="Global Modulator Container:dynamicsCC">
               <ChildProcessors/>
             </Processor>
@@ -660,9 +660,9 @@
                        VoiceLimit="128" KillFadeTime="50" IconColour="0" PreloadSize="8192"
                        BufferSize="4096" VoiceAmount="128" SamplerRepeatMode="1" RRGroupAmount="3"
                        PitchTracking="1" OneShot="0" CrossfadeGroups="1" Purged="0"
-                       Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="36..........9C...vOf6z+9........HoO...f+.........vO"
-                       Group1Table="36...............vOfDK.+....9C..HyO...f+........voO"
-                       Group2Table="36...............vOgxd+9.........vO...f+....9C..HyO"
+                       Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="36..........9C...vOgxd+9........3rO...f+.........vO"
+                       Group1Table="36...............vOfDK.+....9C..HyO...f+........fnO"
+                       Group2Table="36...............vO.2o+9.........vO...f+....9C..fxO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
                        Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_sustain">
@@ -679,7 +679,7 @@
                                    Intensity="1">
                           <ChildProcessors>
                             <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator"
-                                       Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="48..........9C...vOCkWE+........PkOrgxE+LyLy7C...vO...f+LyLy7C...vO"
+                                       Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="60..........9C...vOCkWS9.HhHvC..voOMTdE+........PkOrgxE+LyLy7C..PkO...f+LyLy7C...vO"
                                        Connection="Global Modulator Container:Velocity Modulator">
                               <ChildProcessors/>
                             </Processor>
@@ -754,8 +754,8 @@
                 <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="TableEnvelope" ID="Table Envelope" Bypassed="0" Monophonic="0"
-                               Retrigger="1" Intensity="1" Attack="300" Release="50" AttackTableData="24..........9C...vO...f+.........vO"
-                               ReleaseTableData="24..........9C...vO...f+.........vO">
+                               Retrigger="1" Intensity="1" Attack="300" Release="300" AttackTableData="24..........9C...vO...f+........voO"
+                               ReleaseTableData="24..........9C...vO...f+........3rO">
                       <ChildProcessors>
                         <Processor Type="ModulatorChain" ID="AttackTime Modulation" Bypassed="0"
                                    Intensity="1">
