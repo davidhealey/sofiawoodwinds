@@ -36,7 +36,7 @@
             <Control type="ScriptComboBox" id="cmbCc3" value="11"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="11"/>
             <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="88" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="32" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C..HyO"/>
@@ -47,7 +47,7 @@
             <Control type="ScriptPanel" id="sliGlide" value="19"/>
             <Control type="ScriptPanel" id="btnGlideMode" value="0"/>
             <Control type="ScriptPanel" id="btnPurgeReleases" value="0"/>
-            <Control type="ScriptPanel" id="btnRR" value="0"/>
+            <Control type="ScriptPanel" id="btnRR" value="1"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
@@ -330,7 +330,7 @@
                                  bgColour="4286216826" popupOnRightClick="0" holdIsRightClick="0"
                                  opaque="1" processorId="release" parameterId="Purged"/>
                       <Component type="ScriptPanel" id="btnRR" x="200" y="268" width="100" parentComponent="pnlPerformance"
-                                 text="Off" height="32" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
+                                 text="On" height="32" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
                                  textColour="4294967295" itemColour2="4280690214" itemColour="4283585106"
                                  saveInPreset="1" bgColour="4286216826" popupOnRightClick="0"
                                  holdIsRightClick="0" opaque="1" isPluginParameter="1" pluginParameterName="Round Robin"
@@ -523,22 +523,30 @@
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="ScriptProcessor" ID="roundRobin" Bypassed="1" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
+            <Processor Type="ScriptProcessor" ID="roundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/humaniser.js">
               <ChildProcessors/>
               <Content>
-                <Control type="ScriptButton" id="Enable" value="1"/>
-                <Control type="ScriptButton" id="Random" value="1"/>
-                <Control type="ScriptSlider" id="Low Note" value="55"/>
-                <Control type="ScriptSlider" id="High Note" value="91"/>
+                <Control type="ScriptSlider" id="knbGain" value="3"/>
+                <Control type="ScriptSlider" id="knbPitch" value="5"/>
+                <Control type="ScriptSlider" id="knbVel" value="10"/>
+                <Control type="ScriptSlider" id="knbOffset" value="25"/>
+                <Control type="ScriptSlider" id="knbNoteOn" value="0"/>
+                <Control type="ScriptSlider" id="knbNoteOff" value="0"/>
               </Content>
               <UIData>
                 <ContentProperties DeviceType="Desktop">
-                  <Component type="ScriptButton" id="Enable" x="0" y="10"/>
-                  <Component type="ScriptButton" id="Random" x="150" y="10"/>
-                  <Component type="ScriptSlider" id="Low Note" x="300" y="0" stepSize="1"
-                             max="127"/>
-                  <Component type="ScriptSlider" id="High Note" x="450" y="0" stepSize="1"
-                             max="127" defaultValue="127"/>
+                  <Component type="ScriptSlider" id="knbGain" x="0" y="0" stepSize="1" max="6"
+                             suffix="dB" text="Gain"/>
+                  <Component type="ScriptSlider" id="knbPitch" x="150" y="0" stepSize="1"
+                             max="50" suffix="ct" text="Pitch"/>
+                  <Component type="ScriptSlider" id="knbVel" x="300" y="0" stepSize="1" max="25"
+                             text="Velocity"/>
+                  <Component type="ScriptSlider" id="knbOffset" x="450" y="0" stepSize="1"
+                             max="500" suffix="ms" text="Offset"/>
+                  <Component type="ScriptSlider" id="knbNoteOn" x="0" y="50" stepSize="1"
+                             max="100" suffix="ms" text="Note On"/>
+                  <Component type="ScriptSlider" id="knbNoteOff" x="150" y="50" stepSize="1"
+                             max="100" suffix="ms" text="Note Off"/>
                 </ContentProperties>
               </UIData>
             </Processor>
@@ -576,10 +584,10 @@
                     <Control type="ScriptButton" id="Legato" value="1"/>
                     <Control type="ScriptButton" id="Glide" value="0"/>
                     <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
-                    <Control type="ScriptSlider" id="Bend Time" value="-5"/>
+                    <Control type="ScriptSlider" id="Bend Time" value="0"/>
                     <Control type="ScriptSlider" id="Min Bend" value="10"/>
-                    <Control type="ScriptSlider" id="Max Bend" value="40"/>
-                    <Control type="ScriptSlider" id="Fade Time" value="60"/>
+                    <Control type="ScriptSlider" id="Max Bend" value="50"/>
+                    <Control type="ScriptSlider" id="Fade Time" value="80"/>
                     <Control type="ScriptSlider" id="Fade Out Ratio" value="100"/>
                     <Control type="ScriptSlider" id="Offset" value="0.050000001"/>
                     <Control type="ScriptSlider" id="Glide Rate" value="19"/>
@@ -603,7 +611,7 @@
                       <Component type="ScriptSlider" id="Fade Out Ratio" x="600" y="50" stepSize="1"
                                  max="100" suffix="%" defaultValue="100" tooltip="Shortens the fade out time to a percentage of the fade time. 100% = the same as fade in time."/>
                       <Component type="ScriptSlider" id="Offset" x="0" y="100" middlePosition="0.5"
-                                 suffix="%" mode="NormalizedPercentage" tooltip="Sets the startMod constant modulator (required) for legato phrase and glide notes."/>
+                                 suffix="%" mode="NormalizedPercentage" tooltip="Sets the sample start offset for legato phrase and glide notes."/>
                       <Component type="ScriptSlider" id="Glide Rate" x="150" y="100" middlePosition="9"
                                  stepSize="1" max="19" mode="TempoSync" tooltip="Rate for glide timer relative to current tempo. If velocity is selected then the glide time will be based on the played velocity."
                                  text="Velocity"/>

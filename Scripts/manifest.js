@@ -97,10 +97,10 @@ namespace Manifest
             },
 			legatoSettings:
 		    {
-                bendTime:-5,
+                bendTime:0,
                 minBend:10,
-                maxBend:40,
-                fadeTime:60
+                maxBend:50,
+                fadeTime:80
 		    },
 			vibratoSettings:
 		    {
