@@ -61,7 +61,7 @@ namespace Manifest
             vibratoSettings:
             {
                 gain:0.45,
-                pitch:0.08
+                pitch:0.05
             }
 		},
 		"Sofia Woodwinds: Concert Flute II":
@@ -83,7 +83,7 @@ namespace Manifest
             vibratoSettings:
             {
                 gain:0.45,
-                pitch:0.08
+                pitch:0.05
             }
 		},
 		"Sofia Woodwinds: Alto Flute":
