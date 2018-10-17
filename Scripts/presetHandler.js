@@ -76,6 +76,7 @@ namespace PresetHandler
         loadLegatoSettings(name);
         loadVibratoSettings(name);
         setRoundRobinRange(name); //Set the upper and lower note range of the RR scripts
+        Mixer.updatePatch(); //Apply mixer settings to patch (not needed if using user preset system)
     }
 
     inline function colourKeys(patchName)

@@ -33,6 +33,10 @@ namespace Mixer
 		Content.setPropertiesFromJSON("pnlMixer", {itemColour:Theme.C3, itemColour2:Theme.C3});
 			
 		//Knobs and sliders
+		const var vol = [];
+		const var pan = [];
+		const var width = [];
+		const var delay = [];
 		const var purge = [];
 
 		for (i = 0; i < 3; i++)
@@ -44,21 +48,34 @@ namespace Mixer
 			
 		    //Volume slider
 		    Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.C2, itemColour:Theme.F});
-		    //ui.sliderPanel("sliVol"+i, paintRoutines.verticalSlider, -50, 0.8);
+		    vol[i] = Content.getComponent("sliVol"+i);
 		    
 		    //Pan knob
 			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.C2, itemColour:Theme.F});
-			ui.sliderPanel("sliPan"+i, paintRoutines.knob, 0, 0.5);
+			pan[i] = ui.sliderPanel("sliPan"+i, paintRoutines.knob, 0, 0.5);
 
 			//Width knob
             Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.C2, itemColour:Theme.F});
-			ui.sliderPanel("sliWidth"+i, paintRoutines.knob, 0, 0.5);
+			width[i] = ui.sliderPanel("sliWidth"+i, paintRoutines.knob, 0, 0.5);
 			
 			//Delay knob
 			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.C2, itemColour:Theme.F});
-			ui.sliderPanel("sliDelay"+i, paintRoutines.knob, 0, 0.5);
+			delay[i] = ui.sliderPanel("sliDelay"+i, paintRoutines.knob, 0, 0.5);
 		}
 	}
+	
+	/*Only to be called from the presetHandler to apply mixer settings to newly loaded patch*/
+	inline function updatePatch()
+    {
+        for (i = 0; i < 3; i++)
+		{
+		    vol[i].changed();
+		    pan[i].changed();
+		    width[i].changed();
+		    delay[i].changed();
+		    purge[i].changed();
+		}
+    }
 	
 	inline function btnPurgeCB(control, value)
 	{

@@ -38,7 +38,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.30,
-                pitch:-0.15
+                pitch:0.15
 		    }
 	    },
 		"Sofia Woodwinds: Concert Flute I":
@@ -58,8 +58,8 @@ namespace Manifest
             },
             vibratoSettings:
             {
-                gain:0.25,
-                pitch:-0.10
+                gain:0.30,
+                pitch:0.08
             }
 		},
 		"Sofia Woodwinds: Concert Flute II":
@@ -79,8 +79,8 @@ namespace Manifest
             },
             vibratoSettings:
             {
-                gain:0.25,
-                pitch:-0.10
+                gain:0.30,
+                pitch:0.10
             }
 		},
 		"Sofia Woodwinds: Alto Flute":
@@ -100,8 +100,8 @@ namespace Manifest
 		    },
 			vibratoSettings:
 		    {
-                gain:0.25,
-                pitch:-0.10
+                gain:0.30,
+                pitch:0.10
 		    }
 		},
         "Sofia Woodwinds: Oboe I":
@@ -122,7 +122,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.35,
-                pitch:-0.07
+                pitch:0.07
 		    }
 	    },
         "Sofia Woodwinds: Oboe II":
@@ -143,7 +143,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.35,
-                pitch:-0.07
+                pitch:0.07
 		    }
 	    },
         "Sofia Woodwinds: Cor Anglais":
@@ -164,7 +164,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.35,
-                pitch:-0.07
+                pitch:0.07
 		    }
 	    },
         "Sofia Woodwinds: Clarinet I":
@@ -185,7 +185,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.30,
-                pitch:-0.07
+                pitch:0.07
 		    }
 	    },
         "Sofia Woodwinds: Clarinet II":
@@ -206,7 +206,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.30,
-                pitch:-0.07
+                pitch:0.07
 		    }
 	    },
         "Sofia Woodwinds: Bass Clarinet":
@@ -227,7 +227,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.30,
-                pitch:-0.07
+                pitch:0.07
 		    }
 	    },
         "Sofia Woodwinds: Bassoon I":
@@ -248,7 +248,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.35,
-                pitch:-0.08
+                pitch:0.08
 		    }
 	    },
         "Sofia Woodwinds: Bassoon II":
@@ -269,7 +269,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.35,
-                pitch:-0.08
+                pitch:0.08
 		    }
 	    },
         "Sofia Woodwinds: Contrabassoon":
@@ -290,7 +290,7 @@ namespace Manifest
 			vibratoSettings:
 		    {
                 gain:0.35,
-                pitch:-0.10
+                pitch:0.10
 		    }
 	    },
 	};
