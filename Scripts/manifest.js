@@ -26,19 +26,20 @@ namespace Manifest
 	        range: [74, 105],
 	        gain: 
             {
+                staccato:-3.0,
                 release:-8.0
             },
             legatoSettings:
 		    {
-                bendTime:-15,
-                minBend:5,
-                maxBend:30,
-                fadeTime:50
+                bendTime:0,
+                minBend:10,
+                maxBend:40,
+                fadeTime:30
 		    },
 			vibratoSettings:
 		    {
                 gain:0.30,
-                pitch:0.15
+                pitch:0.10
 		    }
 	    },
 		"Sofia Woodwinds: Concert Flute I":
@@ -47,18 +48,19 @@ namespace Manifest
             range:[59, 96],
             gain: 
             {
+                staccato:-1.0,
                 release:-8.0
             },
             legatoSettings:
             {
-                bendTime:-15,
-                minBend:5,
-                maxBend:30,
-                fadeTime:50
+                bendTime:-5,
+                minBend:10,
+                maxBend:40,
+                fadeTime:60
             },
             vibratoSettings:
             {
-                gain:0.30,
+                gain:0.45,
                 pitch:0.08
             }
 		},
@@ -68,19 +70,20 @@ namespace Manifest
             range:[59, 96],
 	        gain: 
             {
+                staccato:-3.0,
                 release:-8.0
             },
             legatoSettings:
             {
-                bendTime:-15,
-                minBend:5,
-                maxBend:30,
-                fadeTime:50
+                bendTime:-5,
+                minBend:10,
+                maxBend:40,
+                fadeTime:60
             },
             vibratoSettings:
             {
-                gain:0.30,
-                pitch:0.10
+                gain:0.45,
+                pitch:0.08
             }
 		},
 		"Sofia Woodwinds: Alto Flute":
@@ -89,19 +92,20 @@ namespace Manifest
 			range: [55, 91],
 			gain: 
             {
+                staccato:-3.0,
                 release:-11.0
             },
 			legatoSettings:
 		    {
-                bendTime:-15,
+                bendTime:-5,
                 minBend:10,
-                maxBend:30,
-                fadeTime:50
+                maxBend:40,
+                fadeTime:60
 		    },
 			vibratoSettings:
 		    {
-                gain:0.30,
-                pitch:0.10
+                gain:0.45,
+                pitch:0.08
 		    }
 		},
         "Sofia Woodwinds: Oboe I":
@@ -110,18 +114,19 @@ namespace Manifest
 	        range: [58, 91],
 	        gain: 
             {
+                staccato:-3.0,
                 release:-5.0
             },
             legatoSettings:
 		    {
-                bendTime:-20,
-                minBend:30,
-                maxBend:70,
-                fadeTime:40
+                bendTime:-15,
+                minBend:10,
+                maxBend:50,
+                fadeTime:50
 		    },
 			vibratoSettings:
 		    {
-                gain:0.35,
+                gain:0.40,
                 pitch:0.07
 		    }
 	    },
@@ -131,18 +136,19 @@ namespace Manifest
 	        range: [58, 91],
 	        gain: 
             {
+                staccato:-3.0,
                 release:-5.0
             },
             legatoSettings:
 		    {
-                bendTime:-20,
-                minBend:30,
-                maxBend:70,
-                fadeTime:40
+                bendTime:-15,
+                minBend:10,
+                maxBend:50,
+                fadeTime:50
 		    },
 			vibratoSettings:
 		    {
-                gain:0.35,
+                gain:0.40,
                 pitch:0.07
 		    }
 	    },
@@ -152,14 +158,15 @@ namespace Manifest
 	        range: [52, 83],
 	        gain: 
             {
+                staccato:-3.0,
                 release:-5.0
             },
             legatoSettings:
 		    {
-                bendTime:20,
-                minBend:30,
+                bendTime:-15,
+                minBend:20,
                 maxBend:60,
-                fadeTime:40
+                fadeTime:50
 		    },
 			vibratoSettings:
 		    {
@@ -173,18 +180,19 @@ namespace Manifest
 	        range: [50, 91],
 	        gain: 
             {
+                staccato:-3.0,
                 release:-8.0
             },
             legatoSettings:
 		    {
-                bendTime:15,
+                bendTime:-10,
                 minBend:20,
-                maxBend:40,
-                fadeTime:30
+                maxBend:50,
+                fadeTime:60
 		    },
 			vibratoSettings:
 		    {
-                gain:0.30,
+                gain:0.45,
                 pitch:0.07
 		    }
 	    },
@@ -194,18 +202,19 @@ namespace Manifest
 	        range: [50, 91],
 	        gain: 
             {
+                staccato:-6.0,
                 release:-8.0
             },
             legatoSettings:
 		    {
-                bendTime:-15,
+                bendTime:-10,
                 minBend:20,
-                maxBend:40,
-                fadeTime:30
+                maxBend:50,
+                fadeTime:60
 		    },
 			vibratoSettings:
 		    {
-                gain:0.30,
+                gain:0.45,
                 pitch:0.07
 		    }
 	    },
@@ -215,18 +224,19 @@ namespace Manifest
 	        range: [34, 75],
 	        gain: 
             {
+                staccato:-3.0,
                 release:-8.0
             },
             legatoSettings:
 		    {
-                bendTime:-15,
+                bendTime:-10,
                 minBend:20,
-                maxBend:40,
-                fadeTime:30
+                maxBend:50,
+                fadeTime:60
 		    },
 			vibratoSettings:
 		    {
-                gain:0.30,
+                gain:0.45,
                 pitch:0.07
 		    }
 	    },
@@ -240,14 +250,14 @@ namespace Manifest
             },
             legatoSettings:
 		    {
-                bendTime:-15,
-                minBend:25,
+                bendTime:0,
+                minBend:20,
                 maxBend:50,
-                fadeTime:50
+                fadeTime:60
 		    },
 			vibratoSettings:
 		    {
-                gain:0.35,
+                gain:0.40,
                 pitch:0.08
 		    }
 	    },
@@ -257,19 +267,20 @@ namespace Manifest
 	        range: [34, 74],
 	        gain: 
             {
+                staccato:-3.0,
                 release:-2.0
             },
             legatoSettings:
 		    {
-                bendTime:-15,
-                minBend:25,
+                bendTime:0,
+                minBend:20,
                 maxBend:50,
-                fadeTime:50
+                fadeTime:60
 		    },
 			vibratoSettings:
 		    {
                 gain:0.35,
-                pitch:0.08
+                pitch:0.09
 		    }
 	    },
         "Sofia Woodwinds: Contrabassoon":
@@ -278,19 +289,20 @@ namespace Manifest
 	        range: [22, 55],
 	        gain:
             {
+                staccato:-3.0,
                 release:-2.0
             },
             legatoSettings:
 		    {
-                bendTime:-15,
+                bendTime:-10,
                 minBend:25,
                 maxBend:50,
-                fadeTime:50
+                fadeTime:70
 		    },
 			vibratoSettings:
 		    {
-                gain:0.35,
-                pitch:0.10
+                gain:0.30,
+                pitch:0.07
 		    }
 	    },
 	};
