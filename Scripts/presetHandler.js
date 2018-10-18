@@ -22,8 +22,6 @@ namespace PresetHandler
         const var gainMod = Synth.getModulator("vibratoGain"); //Vibrato gain modulator
         const var pitchMod = Synth.getModulator("vibratoPitch"); //Vibrato pitch modulator
         const var legato = Synth.getMidiProcessor("legato"); //legato script
-        const var roundRobin = Synth.getMidiProcessor("roundRobin"); //Sustain/legato/glide round robin handler
-        //const var noise = Synth.getChildSynth("noise"); //Get noise generator
 
         //Get samplers as child synths
         const var samplerIds = Synth.getIdList("Sampler");
@@ -55,7 +53,6 @@ namespace PresetHandler
     inline function pnlPresetCB(control, value)
     {
         if (cmbPreset.getValue() < 1) cmbPreset.setValue(1); //Default
-        //loadPatch(patchNames[cmbPreset.getValue()-1]);
     }
 
     inline function cmbPresetCB(control, value)
@@ -75,7 +72,6 @@ namespace PresetHandler
         loadGainSettings(name);
         loadLegatoSettings(name);
         loadVibratoSettings(name);
-        setRoundRobinRange(name); //Set the upper and lower note range of the RR scripts
         Mixer.updatePatch(); //Apply mixer settings to patch (not needed if using user preset system)
     }
 
@@ -132,12 +128,6 @@ namespace PresetHandler
                 childSynths[id].setAttribute(0, Engine.getGainFactorForDecibels(0));
             }
         }
-
-        //Set noise generator gain, if present in the manifest
-        if (settings.noise)
-        {
-            //noise.setAttribute(0, Engine.getGainFactorForDecibels(settings.noise));
-        }
     }
 
     inline function loadLegatoSettings(patchName)
@@ -158,13 +148,4 @@ namespace PresetHandler
         gainMod.setIntensity(settings.gain);
         pitchMod.setIntensity(settings.pitch);
     }
-
-  //Set the range of the sustain/legato/glide round robin handler
-  inline function setRoundRobinRange(patchName)
-  {
-      local range = Manifest.patches[patchName].range;
-
-      roundRobin.setAttribute(2, range[0]);
-      roundRobin.setAttribute(3, range[1]);
-  }
 }
