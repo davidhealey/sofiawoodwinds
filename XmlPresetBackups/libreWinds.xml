@@ -11,7 +11,7 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
-            <Control type="ScriptComboBox" id="cmbPreset" value="2"/>
+            <Control type="ScriptComboBox" id="cmbPreset" value="10"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
@@ -29,14 +29,14 @@
             <Control type="ScriptPanel" id="sliDelay1" value="0"/>
             <Control type="ScriptPanel" id="sliDelay2" value="0"/>
             <Control type="ScriptPanel" id="page1" value="0"/>
-            <Control type="ScriptComboBox" id="cmbParam" value="6"/>
+            <Control type="ScriptComboBox" id="cmbParam" value="3"/>
             <Control type="ScriptComboBox" id="cmbCc0" value="1"/>
-            <Control type="ScriptComboBox" id="cmbCc1" value="10"/>
+            <Control type="ScriptComboBox" id="cmbCc1" value="11"/>
             <Control type="ScriptComboBox" id="cmbCc2" value="1"/>
-            <Control type="ScriptComboBox" id="cmbCc3" value="12"/>
-            <Control type="ScriptComboBox" id="cmbCc4" value="12"/>
-            <Control type="ScriptComboBox" id="cmbCc5" value="11"/>
-            <Control type="ScriptTable" id="tblCc0" value="42" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
+            <Control type="ScriptComboBox" id="cmbCc4" value="20"/>
+            <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
+            <Control type="ScriptTable" id="tblCc0" value="43" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C..HyO"/>
@@ -233,8 +233,7 @@
                       <Component type="ScriptComboBox" id="cmbCc2" x="200" y="69" max="125" itemColour2="4283585106"
                                  itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
                                  width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                                 height="32" processorId="dynamicsCC" parameterId="ControllerNumber"
-                                 visible="0"/>
+                                 height="32" processorId="dynamicsCC" parameterId="ControllerNumber"/>
                       <Component type="ScriptComboBox" id="cmbCc3" x="200" y="69" max="125" itemColour2="4283585106"
                                  itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
                                  width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
@@ -248,7 +247,8 @@
                       <Component type="ScriptComboBox" id="cmbCc5" x="200" y="69" max="125" itemColour2="4283585106"
                                  itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
                                  width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                                 defaultValue="3" height="32" processorId="flutterCC" parameterId="ControllerNumber"/>
+                                 defaultValue="3" height="32" processorId="flutterCC" parameterId="ControllerNumber"
+                                 visible="0"/>
                       <Component type="ScriptTable" id="tblCc0" x="20" y="119" width="280" height="180"
                                  parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
                                  itemColour="4286216826" itemColour2="1879048192" visible="0"/>
@@ -258,8 +258,7 @@
                                  visible="0"/>
                       <Component type="ScriptTable" id="tblCc2" x="20" y="119" width="280" height="180"
                                  parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
-                                 itemColour="4286216826" itemColour2="1879048192" processorId="dynamicsCC"
-                                 visible="0"/>
+                                 itemColour="4286216826" itemColour2="1879048192" processorId="dynamicsCC"/>
                       <Component type="ScriptTable" id="tblCc3" x="20" y="119" width="280" height="180"
                                  parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
                                  itemColour2="1879048192" customColours="1" processorId="vibratoIntensityCC"
@@ -270,7 +269,8 @@
                                  visible="0"/>
                       <Component type="ScriptTable" id="tblCc5" x="20" y="119" width="280" height="180"
                                  parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
-                                 itemColour2="1879048192" customColours="1" processorId="flutterCC"/>
+                                 itemColour2="1879048192" customColours="1" processorId="flutterCC"
+                                 visible="0"/>
                     </Component>
                     <Component type="ScriptPanel" id="pnlPerformance" x="340" y="0" width="320"
                                height="320" parentComponent="page1" borderSize="0" borderRadius="0"
@@ -476,7 +476,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="MidiController" ID="expressionCC" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" ControllerNumber="10" SmoothTime="1000"
+                       UseTable="1" Inverted="0" ControllerNumber="11" SmoothTime="1000"
                        DefaultValue="80" ControllerTableData="24...............vO...f+....9C...vO">
               <ChildProcessors/>
             </Processor>
@@ -493,7 +493,7 @@
                 <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="MidiController" ID="vibratoIntensityCC" Bypassed="0" Intensity="1"
-                               UseTable="1" Inverted="0" ControllerNumber="12" SmoothTime="250"
+                               UseTable="1" Inverted="0" ControllerNumber="20" SmoothTime="250"
                                DefaultValue="0" ControllerTableData="24...............vO...f+....9C..HyO">
                       <ChildProcessors/>
                     </Processor>
@@ -502,7 +502,7 @@
                 <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="MidiController" ID="vibratoRateCC" Bypassed="0" Intensity="1"
-                               UseTable="1" Inverted="0" ControllerNumber="12" SmoothTime="250"
+                               UseTable="1" Inverted="0" ControllerNumber="20" SmoothTime="250"
                                DefaultValue="0" ControllerTableData="24......nYlY5C...vO...f+....9C...0O">
                       <ChildProcessors/>
                     </Processor>
@@ -515,7 +515,7 @@
               <ChildProcessors/>
             </Processor>
             <Processor Type="MidiController" ID="flutterCC" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" ControllerNumber="11" SmoothTime="500"
+                       UseTable="1" Inverted="0" ControllerNumber="3" SmoothTime="500"
                        DefaultValue="0" ControllerTableData="24...............vO...f+....9C...vO">
               <ChildProcessors/>
             </Processor>
@@ -540,8 +540,8 @@
               <Content>
                 <Control type="ScriptSlider" id="knbGain" value="2"/>
                 <Control type="ScriptSlider" id="knbPitch" value="5"/>
-                <Control type="ScriptSlider" id="knbVel" value="59"/>
-                <Control type="ScriptSlider" id="knbOffset" value="96"/>
+                <Control type="ScriptSlider" id="knbVel" value="34"/>
+                <Control type="ScriptSlider" id="knbOffset" value="75"/>
                 <Control type="ScriptSlider" id="knbNoteOn" value="0"/>
                 <Control type="ScriptSlider" id="knbNoteOff" value="0"/>
               </Content>
@@ -596,9 +596,9 @@
                     <Control type="ScriptButton" id="Legato" value="1"/>
                     <Control type="ScriptButton" id="Glide" value="0"/>
                     <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
-                    <Control type="ScriptSlider" id="Bend Time" value="-5"/>
-                    <Control type="ScriptSlider" id="Min Bend" value="10"/>
-                    <Control type="ScriptSlider" id="Max Bend" value="40"/>
+                    <Control type="ScriptSlider" id="Bend Time" value="-10"/>
+                    <Control type="ScriptSlider" id="Min Bend" value="20"/>
+                    <Control type="ScriptSlider" id="Max Bend" value="50"/>
                     <Control type="ScriptSlider" id="Fade Time" value="60"/>
                     <Control type="ScriptSlider" id="Fade Out Ratio" value="100"/>
                     <Control type="ScriptSlider" id="Offset" value="0.050000001"/>
@@ -659,7 +659,7 @@
                        Group2Table="36...............vO.2o+9.........vO...f+....9C..fxO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_sustain">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="bassClarinet_sustain">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -673,7 +673,7 @@
                                    Intensity="1">
                           <ChildProcessors>
                             <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator"
-                                       Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="60..........9C...vOCkWS9.HhHvC..voOCkWE+........PkO...F+....9C..PkO...f+....9C...vO"
+                                       Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="60..........9C...vOTdMT9.MyL2C..voOhxqE+.LyLyC..PkO...F+....9C..PkO...f+....9C...vO"
                                        Connection="Global Modulator Container:Velocity Modulator">
                               <ChildProcessors/>
                             </Processor>
@@ -687,7 +687,7 @@
                       <ChildProcessors/>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator6"
-                               Bypassed="0" Intensity="1" UseTable="0" Inverted="1" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="36..........9C...vOFoL.+....9C...vO...f+.........vO"
                                Connection="Global Modulator Container:flutterCC">
                       <ChildProcessors/>
                     </Processor>
@@ -700,7 +700,7 @@
                       <ChildProcessors/>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="vibratoPitch" Bypassed="0"
-                               Intensity="0.0041666669" UseTable="0" Inverted="0" TableData="24...............vO...f+....7C...vO"
+                               Intensity="0.0058333334" UseTable="0" Inverted="0" TableData="24...............vO...f+....7C...vO"
                                Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
@@ -731,7 +731,7 @@
                 <channelData enabled="1" level="0" suffix="hall"/>
               </channels>
             </Processor>
-            <Processor Type="StreamingSampler" ID="staccato" Bypassed="0" Gain="0.89125091"
+            <Processor Type="StreamingSampler" ID="staccato" Bypassed="0" Gain="0.70794576"
                        Balance="0" VoiceLimit="64" KillFadeTime="50" IconColour="0"
                        PreloadSize="8192" BufferSize="4096" VoiceAmount="96" SamplerRepeatMode="1"
                        RRGroupAmount="3" PitchTracking="1" OneShot="0" CrossfadeGroups="1"
@@ -740,7 +740,7 @@
                        Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_staccato">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="bassClarinet_staccato">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -821,7 +821,7 @@
                 <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="SimpleEnvelope" ID="DefaultEnvelope" Bypassed="0" Monophonic="0"
-                               Retrigger="1" Intensity="1" Attack="25" Release="250" LinearMode="1">
+                               Retrigger="1" Intensity="1" Attack="100" Release="250" LinearMode="1">
                       <ChildProcessors>
                         <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
                                    Intensity="1">
@@ -830,12 +830,12 @@
                       </ChildProcessors>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator4"
-                               Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="24......HQDQ5C...vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="24......rppJ8C...vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
                       <ChildProcessors/>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator5"
-                               Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="36...............vOuDZ+9.........vO...f+....9C...vO"
                                Connection="Global Modulator Container:flutterCC">
                       <ChildProcessors/>
                     </Processor>
@@ -878,7 +878,7 @@
                    Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="flute1_release">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="bassClarinet_release">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
