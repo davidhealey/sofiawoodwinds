@@ -188,7 +188,7 @@ namespace Manifest
                 bendTime:-10,
                 minBend:20,
                 maxBend:50,
-                fadeTime:60
+                fadeTime:80
 		    },
 			vibratoSettings:
 		    {
@@ -210,7 +210,7 @@ namespace Manifest
                 bendTime:-10,
                 minBend:20,
                 maxBend:50,
-                fadeTime:60
+                fadeTime:80
 		    },
 			vibratoSettings:
 		    {
@@ -232,7 +232,7 @@ namespace Manifest
                 bendTime:-10,
                 minBend:20,
                 maxBend:50,
-                fadeTime:60
+                fadeTime:80
 		    },
 			vibratoSettings:
 		    {
