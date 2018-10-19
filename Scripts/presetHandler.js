@@ -72,7 +72,7 @@ namespace PresetHandler
         loadGainSettings(name);
         loadLegatoSettings(name);
         loadVibratoSettings(name);
-        Mixer.updatePatch(); //Apply mixer settings to patch (not needed if using user preset system)
+        Mixer.enablePurgeButtons(); //Set purge buttons to 1 (unpurged)
     }
 
     inline function colourKeys(patchName)
