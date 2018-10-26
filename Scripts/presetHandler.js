@@ -99,10 +99,19 @@ namespace PresetHandler
 
         for (id in samplerIds) //Each sampler
         {
-          if (sampleMaps.contains(sampleMapId + "_" + id)) //A sample map for this patch was found
+          //A sample map for this patch was found or sampler is transition sampler
+          if (sampleMaps.contains(sampleMapId + "_" + id) || id == "transitions")
           {
             childSynths[id].setBypassed(false); //Enable sampler
-            childSynths[id].asSampler().loadSampleMap(sampleMapId + "_" + id); //Load the sample map for this sampler
+            
+            if (id == "transitions")
+            {
+                childSynths[id].asSampler().loadSampleMap(sampleMapId + "_staccato"); //Load staccato sample map
+            }
+            else
+            {
+                childSynths[id].asSampler().loadSampleMap(sampleMapId + "_" + id); //Load the sample map
+            }
           }
           else
           {

@@ -27,7 +27,8 @@ namespace Manifest
 	        gain: 
             {
                 staccato:-3.0,
-                release:-8.0
+                release:-8.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
@@ -49,7 +50,8 @@ namespace Manifest
             gain: 
             {
                 staccato:-1.0,
-                release:-8.0
+                release:-8.0,
+                transitions:-6.0
             },
             legatoSettings:
             {
@@ -71,7 +73,8 @@ namespace Manifest
 	        gain: 
             {
                 staccato:-3.0,
-                release:-8.0
+                release:-8.0,
+                transitions:-6.0
             },
             legatoSettings:
             {
@@ -93,7 +96,8 @@ namespace Manifest
 			gain: 
             {
                 staccato:-3.0,
-                release:-11.0
+                release:-11.0,
+                transitions:-6.0
             },
 			legatoSettings:
 		    {
@@ -115,7 +119,8 @@ namespace Manifest
 	        gain: 
             {
                 staccato:-3.0,
-                release:-5.0
+                release:-5.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
@@ -137,7 +142,8 @@ namespace Manifest
 	        gain: 
             {
                 staccato:-3.0,
-                release:-5.0
+                release:-5.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
@@ -159,7 +165,8 @@ namespace Manifest
 	        gain: 
             {
                 staccato:-3.0,
-                release:-5.0
+                release:-5.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
@@ -181,11 +188,12 @@ namespace Manifest
 	        gain: 
             {
                 staccato:-3.0,
-                release:-8.0
+                release:-8.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
-                bendTime:-10,
+                bendTime:0,
                 minBend:20,
                 maxBend:50,
                 fadeTime:80
@@ -203,11 +211,12 @@ namespace Manifest
 	        gain: 
             {
                 staccato:-6.0,
-                release:-8.0
+                release:-8.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
-                bendTime:-10,
+                bendTime:0,
                 minBend:20,
                 maxBend:50,
                 fadeTime:80
@@ -225,7 +234,8 @@ namespace Manifest
 	        gain: 
             {
                 staccato:-3.0,
-                release:-8.0
+                release:-8.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
@@ -246,7 +256,8 @@ namespace Manifest
 	        range: [34, 74],
 	        gain: 
             {
-                release:-2.0
+                release:-2.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
@@ -268,7 +279,8 @@ namespace Manifest
 	        gain: 
             {
                 staccato:-3.0,
-                release:-2.0
+                release:-2.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
@@ -290,7 +302,8 @@ namespace Manifest
 	        gain:
             {
                 staccato:-3.0,
-                release:-2.0
+                release:-2.0,
+                transitions:-6.0
             },
             legatoSettings:
 		    {
