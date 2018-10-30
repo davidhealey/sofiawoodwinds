@@ -21,6 +21,7 @@ namespace PresetHandler
     {
         const var gainMod = Synth.getModulator("vibratoGain"); //Vibrato gain modulator
         const var pitchMod = Synth.getModulator("vibratoPitch"); //Vibrato pitch modulator
+        const var vibratoLFOHandler = Synth.getMidiProcessor("vibratoLFOHandler");
         const var legato = Synth.getMidiProcessor("legato"); //legato script
         const var roundRobin = Synth.getMidiProcessor("roundRobin"); //Sustain/legato/glide round robin handler
 
@@ -157,7 +158,8 @@ namespace PresetHandler
         local settings = Manifest.patches[patchName].vibratoSettings; //Get instrument's vibrato settings
 
         gainMod.setIntensity(settings.gain);
-        pitchMod.setIntensity(settings.pitch);
+        vibratoLFOHandler.setAttribute(0, settings.pitch);
+        //pitchMod.setIntensity(settings.pitch);
     }
     
     //Set the range of the sustain/legato/glide round robin handler

@@ -189,7 +189,7 @@ namespace Manifest
             {
                 staccato:-3.0,
                 release:-8.0,
-                transitions:-8.0
+                transitions:-10.0
             },
             legatoSettings:
 		    {
@@ -200,7 +200,7 @@ namespace Manifest
 		    },
 			vibratoSettings:
 		    {
-                gain:0.45,
+                gain:0.35,
                 pitch:0.07
 		    }
 	    },
@@ -223,7 +223,7 @@ namespace Manifest
 		    },
 			vibratoSettings:
 		    {
-                gain:0.45,
+                gain:0.35,
                 pitch:0.07
 		    }
 	    },
