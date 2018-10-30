@@ -16,9 +16,9 @@
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
             <Control type="ScriptPanel" id="btnPurge2" value="1"/>
-            <Control type="ScriptSlider" id="sliVol0" value="-7.6999989"/>
-            <Control type="ScriptSlider" id="sliVol1" value="-8.999999"/>
-            <Control type="ScriptSlider" id="sliVol2" value="-8.999999"/>
+            <Control type="ScriptSlider" id="sliVol0" value="-5.9999986"/>
+            <Control type="ScriptSlider" id="sliVol1" value="-5.9999986"/>
+            <Control type="ScriptSlider" id="sliVol2" value="-5.9999986"/>
             <Control type="ScriptPanel" id="sliPan0" value="0"/>
             <Control type="ScriptPanel" id="sliPan1" value="0"/>
             <Control type="ScriptPanel" id="sliPan2" value="0"/>
@@ -101,7 +101,7 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-7.6999998"
+        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-5.9999986"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -121,7 +121,7 @@
                          Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="channel2" Bypassed="0" Gain="-8.999999"
+        <Processor Type="SimpleGain" ID="channel2" Bypassed="0" Gain="-5.9999986"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -141,7 +141,7 @@
                          Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="channel3" Bypassed="0" Gain="-8.999999"
+        <Processor Type="SimpleGain" ID="channel3" Bypassed="0" Gain="-5.9999986"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
