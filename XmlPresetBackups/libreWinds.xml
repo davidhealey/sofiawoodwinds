@@ -11,7 +11,7 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
-            <Control type="ScriptComboBox" id="cmbPreset" value="13"/>
+            <Control type="ScriptComboBox" id="cmbPreset" value="8"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
@@ -36,7 +36,7 @@
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="68" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="2" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C..3rO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C..HyO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C..HyO"/>
@@ -232,30 +232,22 @@
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="ScriptProcessor" ID="roundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/humaniser.js">
+                <Processor Type="ScriptProcessor" ID="roundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
                   <ChildProcessors/>
                   <Content>
-                    <Control type="ScriptSlider" id="knbGain" value="0"/>
-                    <Control type="ScriptSlider" id="knbPitch" value="5"/>
-                    <Control type="ScriptSlider" id="knbVel" value="10"/>
-                    <Control type="ScriptSlider" id="knbOffset" value="0"/>
-                    <Control type="ScriptSlider" id="knbNoteOn" value="0"/>
-                    <Control type="ScriptSlider" id="knbNoteOff" value="0"/>
+                    <Control type="ScriptButton" id="Enable" value="1"/>
+                    <Control type="ScriptButton" id="Random" value="1"/>
+                    <Control type="ScriptSlider" id="Low Note" value="50"/>
+                    <Control type="ScriptSlider" id="High Note" value="91"/>
                   </Content>
                   <UIData>
                     <ContentProperties DeviceType="Desktop">
-                      <Component type="ScriptSlider" id="knbGain" x="0" y="0" stepSize="1" max="6"
-                                 suffix="dB" text="Gain"/>
-                      <Component type="ScriptSlider" id="knbPitch" x="150" y="0" stepSize="1"
-                                 max="50" suffix="ct" text="Pitch"/>
-                      <Component type="ScriptSlider" id="knbVel" x="300" y="0" stepSize="1" max="25"
-                                 text="Velocity"/>
-                      <Component type="ScriptSlider" id="knbOffset" x="450" y="0" stepSize="1"
-                                 max="500" suffix="ms" text="Offset"/>
-                      <Component type="ScriptSlider" id="knbNoteOn" x="0" y="50" stepSize="1"
-                                 max="100" suffix="ms" text="Note On"/>
-                      <Component type="ScriptSlider" id="knbNoteOff" x="150" y="50" stepSize="1"
-                                 max="100" suffix="ms" text="Note Off"/>
+                      <Component type="ScriptButton" id="Enable" x="0" y="10"/>
+                      <Component type="ScriptButton" id="Random" x="150" y="10"/>
+                      <Component type="ScriptSlider" id="Low Note" x="300" y="0" stepSize="1"
+                                 max="127"/>
+                      <Component type="ScriptSlider" id="High Note" x="450" y="0" stepSize="1"
+                                 max="127" defaultValue="127"/>
                     </ContentProperties>
                   </UIData>
                 </Processor>
@@ -266,10 +258,10 @@
                     <Control type="ScriptButton" id="Legato" value="1"/>
                     <Control type="ScriptButton" id="Glide" value="0"/>
                     <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
-                    <Control type="ScriptSlider" id="Bend Time" value="-10"/>
-                    <Control type="ScriptSlider" id="Min Bend" value="25"/>
+                    <Control type="ScriptSlider" id="Bend Time" value="0"/>
+                    <Control type="ScriptSlider" id="Min Bend" value="20"/>
                     <Control type="ScriptSlider" id="Max Bend" value="50"/>
-                    <Control type="ScriptSlider" id="Fade Time" value="70"/>
+                    <Control type="ScriptSlider" id="Fade Time" value="80"/>
                     <Control type="ScriptSlider" id="Fade Out Ratio" value="80"/>
                     <Control type="ScriptSlider" id="Offset" value="1"/>
                     <Control type="ScriptSlider" id="Glide Rate" value="19"/>
@@ -329,7 +321,7 @@
                        Group2Table="36...............vO....+.........vO...f+....9C..fxO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="contrabassoon_sustain">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="clarinet1_sustain">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -354,7 +346,7 @@
                       </ChildProcessors>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="vibratoGain" Bypassed="0"
-                               Intensity="0.30000001" Bipolar="1" UseTable="0" Inverted="0"
+                               Intensity="0.44999999" Bipolar="1" UseTable="0" Inverted="0"
                                TableData="24...............vO...f+....9C...vO" Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
@@ -417,7 +409,7 @@
                        Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="contrabassoon_staccato">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="clarinet1_staccato">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors/>
@@ -478,7 +470,7 @@
                          Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                          Send4="-1" Channel5="5" Send5="-1"/>
         </Processor>
-        <Processor Type="StreamingSampler" ID="release" Bypassed="0" Gain="0.79432821"
+        <Processor Type="StreamingSampler" ID="release" Bypassed="0" Gain="0.39810717"
                    Balance="0" VoiceLimit="64" KillFadeTime="100" IconColour="0"
                    PreloadSize="8192" BufferSize="4096" VoiceAmount="96" SamplerRepeatMode="0"
                    RRGroupAmount="3" PitchTracking="1" OneShot="0" CrossfadeGroups="1"
@@ -487,7 +479,7 @@
                    Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="contrabassoon_release">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="clarinet1_release">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -562,7 +554,7 @@
             <channelData enabled="1" level="0" suffix="hall"/>
           </channels>
         </Processor>
-        <Processor Type="StreamingSampler" ID="transitions" Bypassed="0" Gain="0.50118721"
+        <Processor Type="StreamingSampler" ID="transitions" Bypassed="0" Gain="0.39810717"
                    Balance="0" VoiceLimit="32" KillFadeTime="100" IconColour="0"
                    PreloadSize="8192" BufferSize="4096" VoiceAmount="64" SamplerRepeatMode="0"
                    RRGroupAmount="3" PitchTracking="1" OneShot="0" CrossfadeGroups="1"
@@ -571,7 +563,7 @@
                    Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="contrabassoon_staccato">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="clarinet1_staccato">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
