@@ -3,7 +3,7 @@
 <samplemap ID="englishHorn_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
   <sample ID="0" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1687"
-          SampleEnd="81843" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="81843" SampleStartMod="1340" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="0"
           MonolithLength="81920" SampleRate="48000">
@@ -13,7 +13,7 @@
   </sample>
   <sample ID="1" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1560"
-          SampleEnd="84873" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="84873" SampleStartMod="3483" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="81920"
           MonolithLength="86016" SampleRate="48000">
@@ -23,7 +23,7 @@
   </sample>
   <sample ID="2" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1722"
-          SampleEnd="86244" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="86244" SampleStartMod="707" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="167936"
           MonolithLength="90112" SampleRate="48000">
@@ -33,7 +33,7 @@
   </sample>
   <sample ID="3" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1971"
-          SampleEnd="74558" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="74558" SampleStartMod="2670" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="258048"
           MonolithLength="77824" SampleRate="48000">
@@ -43,7 +43,7 @@
   </sample>
   <sample ID="4" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1578"
-          SampleEnd="89526" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="89526" SampleStartMod="5589" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="335872"
           MonolithLength="90112" SampleRate="48000">
@@ -53,7 +53,7 @@
   </sample>
   <sample ID="5" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1451"
-          SampleEnd="85793" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85793" SampleStartMod="1834" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="425984"
           MonolithLength="86016" SampleRate="48000">
@@ -73,7 +73,7 @@
   </sample>
   <sample ID="7" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1696"
-          SampleEnd="84563" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="84563" SampleStartMod="1386" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="581632"
           MonolithLength="86016" SampleRate="48000">
@@ -83,7 +83,7 @@
   </sample>
   <sample ID="8" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1792"
-          SampleEnd="83814" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="83814" SampleStartMod="1234" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="667648"
           MonolithLength="86016" SampleRate="48000">
@@ -93,7 +93,7 @@
   </sample>
   <sample ID="9" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4444"
-          SampleEnd="76946" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="76946" SampleStartMod="1819" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="753664"
           MonolithLength="77824" SampleRate="48000">
@@ -103,7 +103,7 @@
   </sample>
   <sample ID="10" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1663"
-          SampleEnd="89706" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="89706" SampleStartMod="1325" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="831488"
           MonolithLength="90112" SampleRate="48000">
@@ -113,7 +113,7 @@
   </sample>
   <sample ID="11" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1580"
-          SampleEnd="87352" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="87352" SampleStartMod="1147" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="921600"
           MonolithLength="90112" SampleRate="48000">
@@ -133,7 +133,7 @@
   </sample>
   <sample ID="13" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1935"
-          SampleEnd="89603" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="89603" SampleStartMod="1026" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1089536"
           MonolithLength="90112" SampleRate="48000">
@@ -143,7 +143,7 @@
   </sample>
   <sample ID="14" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1823"
-          SampleEnd="84100" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="84100" SampleStartMod="826" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1179648"
           MonolithLength="86016" SampleRate="48000">
@@ -163,7 +163,7 @@
   </sample>
   <sample ID="16" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1710"
-          SampleEnd="86211" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="86211" SampleStartMod="1413" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1343488"
           MonolithLength="90112" SampleRate="48000">
@@ -173,7 +173,7 @@
   </sample>
   <sample ID="17" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1820"
-          SampleEnd="83966" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="83966" SampleStartMod="962" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1433600"
           MonolithLength="86016" SampleRate="48000">
@@ -193,7 +193,7 @@
   </sample>
   <sample ID="19" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1344"
-          SampleEnd="91320" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="91320" SampleStartMod="1505" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1597440"
           MonolithLength="94208" SampleRate="48000">
@@ -203,7 +203,7 @@
   </sample>
   <sample ID="20" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1652"
-          SampleEnd="85452" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85452" SampleStartMod="841" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1691648"
           MonolithLength="86016" SampleRate="48000">
@@ -213,7 +213,7 @@
   </sample>
   <sample ID="21" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4088"
-          SampleEnd="78288" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="78288" SampleStartMod="4591" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1777664"
           MonolithLength="81920" SampleRate="48000">
@@ -223,7 +223,7 @@
   </sample>
   <sample ID="22" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1612"
-          SampleEnd="88034" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="88034" SampleStartMod="1156" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1859584"
           MonolithLength="90112" SampleRate="48000">
@@ -233,7 +233,7 @@
   </sample>
   <sample ID="23" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
           RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1669"
-          SampleEnd="83057" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="83057" SampleStartMod="953" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1949696"
           MonolithLength="86016" SampleRate="48000">
@@ -253,7 +253,7 @@
   </sample>
   <sample ID="25" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1709"
-          SampleEnd="87057" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="87057" SampleStartMod="1142" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2117632"
           MonolithLength="90112" SampleRate="48000">
@@ -263,7 +263,7 @@
   </sample>
   <sample ID="26" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1629"
-          SampleEnd="90490" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="90490" SampleStartMod="892" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2207744"
           MonolithLength="94208" SampleRate="48000">
@@ -283,7 +283,7 @@
   </sample>
   <sample ID="28" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1658"
-          SampleEnd="88230" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="88230" SampleStartMod="1158" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2379776"
           MonolithLength="90112" SampleRate="48000">
@@ -293,7 +293,7 @@
   </sample>
   <sample ID="29" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1836"
-          SampleEnd="87077" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="87077" SampleStartMod="855" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2469888"
           MonolithLength="90112" SampleRate="48000">
@@ -303,7 +303,7 @@
   </sample>
   <sample ID="30" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4251"
-          SampleEnd="75067" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="75067" SampleStartMod="2724" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2560000"
           MonolithLength="77824" SampleRate="48000">
@@ -313,7 +313,7 @@
   </sample>
   <sample ID="31" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1583"
-          SampleEnd="88913" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="88913" SampleStartMod="1460" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2637824"
           MonolithLength="90112" SampleRate="48000">
@@ -323,7 +323,7 @@
   </sample>
   <sample ID="32" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1722"
-          SampleEnd="83510" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="83510" SampleStartMod="684" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2727936"
           MonolithLength="86016" SampleRate="48000">
@@ -333,7 +333,7 @@
   </sample>
   <sample ID="33" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1717"
-          SampleEnd="73575" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="73575" SampleStartMod="1081" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2813952"
           MonolithLength="73728" SampleRate="48000">
@@ -343,7 +343,7 @@
   </sample>
   <sample ID="34" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1612"
-          SampleEnd="91343" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="91343" SampleStartMod="900" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2887680"
           MonolithLength="94208" SampleRate="48000">
@@ -353,7 +353,7 @@
   </sample>
   <sample ID="35" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2054"
-          SampleEnd="83239" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="83239" SampleStartMod="543" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2981888"
           MonolithLength="86016" SampleRate="48000">
@@ -363,7 +363,7 @@
   </sample>
   <sample ID="36" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3649"
-          SampleEnd="76669" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="76669" SampleStartMod="5495" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3067904"
           MonolithLength="77824" SampleRate="48000">
@@ -373,7 +373,7 @@
   </sample>
   <sample ID="37" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1707"
-          SampleEnd="91126" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="91126" SampleStartMod="1047" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3145728"
           MonolithLength="94208" SampleRate="48000">
@@ -383,7 +383,7 @@
   </sample>
   <sample ID="38" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1790"
-          SampleEnd="85240" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85240" SampleStartMod="419" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3239936"
           MonolithLength="86016" SampleRate="48000">
@@ -393,7 +393,7 @@
   </sample>
   <sample ID="39" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3602"
-          SampleEnd="75295" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="75295" SampleStartMod="2997" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3325952"
           MonolithLength="77824" SampleRate="48000">
@@ -403,7 +403,7 @@
   </sample>
   <sample ID="40" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1451"
-          SampleEnd="85962" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85962" SampleStartMod="2120" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3403776"
           MonolithLength="86016" SampleRate="48000">
@@ -413,7 +413,7 @@
   </sample>
   <sample ID="41" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1698"
-          SampleEnd="85313" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85313" SampleStartMod="559" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3489792"
           MonolithLength="86016" SampleRate="48000">
@@ -423,7 +423,7 @@
   </sample>
   <sample ID="42" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4100"
-          SampleEnd="74982" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="74982" SampleStartMod="4267" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3575808"
           MonolithLength="77824" SampleRate="48000">
@@ -433,7 +433,7 @@
   </sample>
   <sample ID="43" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1588"
-          SampleEnd="86715" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="86715" SampleStartMod="1281" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3653632"
           MonolithLength="90112" SampleRate="48000">
@@ -443,7 +443,7 @@
   </sample>
   <sample ID="44" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1542"
-          SampleEnd="78064" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="78064" SampleStartMod="1536" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3743744"
           MonolithLength="81920" SampleRate="48000">
@@ -453,7 +453,7 @@
   </sample>
   <sample ID="45" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4310"
-          SampleEnd="76157" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="76157" SampleStartMod="3124" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3825664"
           MonolithLength="77824" SampleRate="48000">
@@ -463,7 +463,7 @@
   </sample>
   <sample ID="46" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1655"
-          SampleEnd="87090" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="87090" SampleStartMod="2572" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3903488"
           MonolithLength="90112" SampleRate="48000">
@@ -473,7 +473,7 @@
   </sample>
   <sample ID="47" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1723"
-          SampleEnd="84202" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="84202" SampleStartMod="965" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3993600"
           MonolithLength="86016" SampleRate="48000">
@@ -483,7 +483,7 @@
   </sample>
   <sample ID="48" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4240"
-          SampleEnd="76680" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="76680" SampleStartMod="3271" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4079616"
           MonolithLength="77824" SampleRate="48000">
@@ -493,7 +493,7 @@
   </sample>
   <sample ID="49" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1331"
-          SampleEnd="88809" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="88809" SampleStartMod="1317" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4157440"
           MonolithLength="90112" SampleRate="48000">
@@ -503,7 +503,7 @@
   </sample>
   <sample ID="50" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1608"
-          SampleEnd="83130" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="83130" SampleStartMod="818" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4247552"
           MonolithLength="86016" SampleRate="48000">
@@ -513,7 +513,7 @@
   </sample>
   <sample ID="51" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4479"
-          SampleEnd="73613" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="73613" SampleStartMod="1619" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4333568"
           MonolithLength="73728" SampleRate="48000">
@@ -533,7 +533,7 @@
   </sample>
   <sample ID="53" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1908"
-          SampleEnd="85602" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85602" SampleStartMod="980" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4497408"
           MonolithLength="86016" SampleRate="48000">
@@ -553,7 +553,7 @@
   </sample>
   <sample ID="55" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1918"
-          SampleEnd="89653" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="89653" SampleStartMod="880" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4665344"
           MonolithLength="90112" SampleRate="48000">
@@ -563,7 +563,7 @@
   </sample>
   <sample ID="56" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1915"
-          SampleEnd="86280" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="86280" SampleStartMod="705" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4755456"
           MonolithLength="90112" SampleRate="48000">
@@ -593,7 +593,7 @@
   </sample>
   <sample ID="59" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
           RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1754"
-          SampleEnd="85545" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85545" SampleStartMod="841" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5013504"
           MonolithLength="86016" SampleRate="48000">
@@ -613,7 +613,7 @@
   </sample>
   <sample ID="61" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1357"
-          SampleEnd="89536" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="89536" SampleStartMod="1475" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5173248"
           MonolithLength="90112" SampleRate="48000">
@@ -623,7 +623,7 @@
   </sample>
   <sample ID="62" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1672"
-          SampleEnd="83625" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="83625" SampleStartMod="959" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5263360"
           MonolithLength="86016" SampleRate="48000">
@@ -633,7 +633,7 @@
   </sample>
   <sample ID="63" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4249"
-          SampleEnd="73025" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="73025" SampleStartMod="1380" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5349376"
           MonolithLength="73728" SampleRate="48000">
@@ -643,7 +643,7 @@
   </sample>
   <sample ID="64" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1319"
-          SampleEnd="89400" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="89400" SampleStartMod="1326" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5423104"
           MonolithLength="90112" SampleRate="48000">
@@ -653,7 +653,7 @@
   </sample>
   <sample ID="65" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1548"
-          SampleEnd="86117" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="86117" SampleStartMod="1131" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5513216"
           MonolithLength="90112" SampleRate="48000">
@@ -663,7 +663,7 @@
   </sample>
   <sample ID="66" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1422"
-          SampleEnd="74141" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="74141" SampleStartMod="1702" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5603328"
           MonolithLength="77824" SampleRate="48000">
@@ -673,7 +673,7 @@
   </sample>
   <sample ID="67" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1622"
-          SampleEnd="90268" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="90268" SampleStartMod="593" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5681152"
           MonolithLength="94208" SampleRate="48000">
@@ -683,7 +683,7 @@
   </sample>
   <sample ID="68" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2013"
-          SampleEnd="79770" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="79770" SampleStartMod="1170" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5775360"
           MonolithLength="81920" SampleRate="48000">
@@ -692,8 +692,8 @@
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic3_rr1.wav"/>
   </sample>
   <sample ID="69" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3887"
-          SampleEnd="88622" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3887"
+          SampleEnd="88622" SampleStartMod="1984" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5857280"
           MonolithLength="90112" SampleRate="48000">
@@ -703,7 +703,7 @@
   </sample>
   <sample ID="70" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1680"
-          SampleEnd="86619" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="86619" SampleStartMod="1278" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5947392"
           MonolithLength="90112" SampleRate="48000">
@@ -713,7 +713,7 @@
   </sample>
   <sample ID="71" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1813"
-          SampleEnd="88835" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="88835" SampleStartMod="1164" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6037504"
           MonolithLength="90112" SampleRate="48000">
@@ -723,7 +723,7 @@
   </sample>
   <sample ID="72" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3704"
-          SampleEnd="84110" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="84110" SampleStartMod="1613" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6127616"
           MonolithLength="86016" SampleRate="48000">
@@ -733,7 +733,7 @@
   </sample>
   <sample ID="73" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1463"
-          SampleEnd="90242" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="90242" SampleStartMod="1039" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6213632"
           MonolithLength="94208" SampleRate="48000">
@@ -743,7 +743,7 @@
   </sample>
   <sample ID="74" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2021"
-          SampleEnd="90545" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="90545" SampleStartMod="740" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6307840"
           MonolithLength="94208" SampleRate="48000">
@@ -753,7 +753,7 @@
   </sample>
   <sample ID="75" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2071"
-          SampleEnd="71636" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="71636" SampleStartMod="1512" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6402048"
           MonolithLength="73728" SampleRate="48000">
@@ -763,7 +763,7 @@
   </sample>
   <sample ID="76" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1543"
-          SampleEnd="88729" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="88729" SampleStartMod="1312" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6475776"
           MonolithLength="90112" SampleRate="48000">
@@ -773,7 +773,7 @@
   </sample>
   <sample ID="77" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2037"
-          SampleEnd="85353" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85353" SampleStartMod="836" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6565888"
           MonolithLength="86016" SampleRate="48000">
@@ -783,7 +783,7 @@
   </sample>
   <sample ID="78" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1637"
-          SampleEnd="69553" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="69553" SampleStartMod="1363" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6651904"
           MonolithLength="69632" SampleRate="48000">
@@ -793,7 +793,7 @@
   </sample>
   <sample ID="79" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1664"
-          SampleEnd="82398" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="82398" SampleStartMod="1080" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6721536"
           MonolithLength="86016" SampleRate="48000">
@@ -803,7 +803,7 @@
   </sample>
   <sample ID="80" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1803"
-          SampleEnd="84815" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="84815" SampleStartMod="833" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6807552"
           MonolithLength="86016" SampleRate="48000">
@@ -813,7 +813,7 @@
   </sample>
   <sample ID="81" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1665"
-          SampleEnd="71894" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="71894" SampleStartMod="1292" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6893568"
           MonolithLength="73728" SampleRate="48000">
@@ -823,7 +823,7 @@
   </sample>
   <sample ID="82" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1646"
-          SampleEnd="86695" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="86695" SampleStartMod="1138" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6967296"
           MonolithLength="90112" SampleRate="48000">
@@ -833,7 +833,7 @@
   </sample>
   <sample ID="83" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1847"
-          SampleEnd="91464" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="91464" SampleStartMod="899" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7057408"
           MonolithLength="94208" SampleRate="48000">
@@ -843,7 +843,7 @@
   </sample>
   <sample ID="84" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2620"
-          SampleEnd="74465" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="74465" SampleStartMod="6247" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7151616"
           MonolithLength="77824" SampleRate="48000">
@@ -853,7 +853,7 @@
   </sample>
   <sample ID="85" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1568"
-          SampleEnd="91405" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="91405" SampleStartMod="1202" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7229440"
           MonolithLength="94208" SampleRate="48000">
@@ -863,7 +863,7 @@
   </sample>
   <sample ID="86" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1481"
-          SampleEnd="84795" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="84795" SampleStartMod="1672" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7323648"
           MonolithLength="86016" SampleRate="48000">
@@ -873,7 +873,7 @@
   </sample>
   <sample ID="87" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1926"
-          SampleEnd="80921" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="80921" SampleStartMod="2510" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7409664"
           MonolithLength="81920" SampleRate="48000">
@@ -883,7 +883,7 @@
   </sample>
   <sample ID="88" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1512"
-          SampleEnd="85534" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85534" SampleStartMod="1405" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7491584"
           MonolithLength="86016" SampleRate="48000">
@@ -893,7 +893,7 @@
   </sample>
   <sample ID="89" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1049"
-          SampleEnd="85121" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85121" SampleStartMod="1406" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7577600"
           MonolithLength="86016" SampleRate="48000">
@@ -913,7 +913,7 @@
   </sample>
   <sample ID="91" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1802"
-          SampleEnd="89944" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="89944" SampleStartMod="737" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7741440"
           MonolithLength="90112" SampleRate="48000">
@@ -923,7 +923,7 @@
   </sample>
   <sample ID="92" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1711"
-          SampleEnd="85545" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="85545" SampleStartMod="841" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7831552"
           MonolithLength="86016" SampleRate="48000">
@@ -933,7 +933,7 @@
   </sample>
   <sample ID="93" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1780"
-          SampleEnd="74285" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="74285" SampleStartMod="1697" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7917568"
           MonolithLength="77824" SampleRate="48000">
@@ -943,7 +943,7 @@
   </sample>
   <sample ID="94" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1427"
-          SampleEnd="84490" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="84490" SampleStartMod="1111" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7995392"
           MonolithLength="86016" SampleRate="48000">
@@ -953,7 +953,7 @@
   </sample>
   <sample ID="95" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1434"
-          SampleEnd="87054" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
+          SampleEnd="87054" SampleStartMod="1002" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8081408"
           MonolithLength="90112" SampleRate="48000">
