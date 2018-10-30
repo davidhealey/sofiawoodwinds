@@ -274,7 +274,7 @@
                      opaque="1" isPluginParameter="1" pluginParameterName="Whole Note Glide"
                      processorId="legato" parameterId="Whole Step Glide"/>
           <Component type="ScriptPanel" id="btnPurgeReleases" x="200" y="218" width="100"
-                     parentComponent="pnlPerformance" text="On" height="32" borderRadius="0"
+                     parentComponent="pnlPerformance" text="Off" height="32" borderRadius="0"
                      borderSize="0" allowCallbacks="Clicks Only" textColour="4294967295"
                      itemColour2="4280690214" itemColour="4283585106" saveInPreset="1"
                      bgColour="4286216826" popupOnRightClick="0" holdIsRightClick="0"

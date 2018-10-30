@@ -28,7 +28,7 @@ namespace Manifest
             {
                 staccato:-3.0,
                 release:-8.0,
-                transitions:-6.0
+                transitions:-8.0
             },
             legatoSettings:
 		    {
@@ -51,7 +51,7 @@ namespace Manifest
             {
                 staccato:-1.0,
                 release:-8.0,
-                transitions:-6.0
+                transitions:-8.0
             },
             legatoSettings:
             {
@@ -74,7 +74,7 @@ namespace Manifest
             {
                 staccato:-3.0,
                 release:-8.0,
-                transitions:-6.0
+                transitions:-8.0
             },
             legatoSettings:
             {
@@ -96,8 +96,8 @@ namespace Manifest
 			gain: 
             {
                 staccato:-3.0,
-                release:-11.0,
-                transitions:-6.0
+                release:-8.0,
+                transitions:-8.0
             },
 			legatoSettings:
 		    {
@@ -189,7 +189,7 @@ namespace Manifest
             {
                 staccato:-3.0,
                 release:-8.0,
-                transitions:-6.0
+                transitions:-8.0
             },
             legatoSettings:
 		    {
@@ -212,7 +212,7 @@ namespace Manifest
             {
                 staccato:-6.0,
                 release:-8.0,
-                transitions:-6.0
+                transitions:-8.0
             },
             legatoSettings:
 		    {
@@ -235,7 +235,7 @@ namespace Manifest
             {
                 staccato:-3.0,
                 release:-8.0,
-                transitions:-6.0
+                transitions:-10.0
             },
             legatoSettings:
 		    {
@@ -257,7 +257,7 @@ namespace Manifest
 	        gain: 
             {
                 release:-2.0,
-                transitions:-6.0
+                transitions:-3.0
             },
             legatoSettings:
 		    {
@@ -280,7 +280,7 @@ namespace Manifest
             {
                 staccato:-3.0,
                 release:-2.0,
-                transitions:-6.0
+                transitions:-4.0
             },
             legatoSettings:
 		    {
