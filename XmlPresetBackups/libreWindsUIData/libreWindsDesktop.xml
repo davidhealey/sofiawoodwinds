@@ -77,20 +77,20 @@
                        text="Hall" itemColour2="0" textColour="4294967295" tooltip="Hall Mic Purge"/>
             <Component type="ScriptSlider" id="sliVol0" x="35" y="170" width="32" height="100"
                        parentComponent="pnlMixerControls" mode="Decibel" min="-100"
-                       max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
-                       style="Vertical" showValuePopup="Right" textColour="0" bgColour="4280690214"
+                       max="0" stepSize="0.1" middlePosition="-18" defaultValue="-9"
+                       style="Vertical" showValuePopup="Right" bgColour="4280690214"
                        itemColour="4283532715" isPluginParameter="1" pluginParameterName="Close Gain"
                        processorId="channel1" parameterId="Gain" tooltip="Close Gain"/>
             <Component type="ScriptSlider" id="sliVol1" x="139" y="170" width="32" height="100"
                        parentComponent="pnlMixerControls" mode="Decibel" min="-100"
                        max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
-                       style="Vertical" showValuePopup="Right" textColour="0" bgColour="4280690214"
+                       style="Vertical" showValuePopup="Right" bgColour="4280690214"
                        itemColour="4283532715" isPluginParameter="1" pluginParameterName="Decca Gain"
                        processorId="channel2" parameterId="Gain" tooltip="Decca Gain"/>
             <Component type="ScriptSlider" id="sliVol2" x="243" y="170" width="32" height="100"
                        parentComponent="pnlMixerControls" mode="Decibel" min="-100"
                        max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
-                       style="Vertical" showValuePopup="Right" textColour="0" bgColour="4280690214"
+                       style="Vertical" showValuePopup="Right" bgColour="4280690214"
                        itemColour="4283532715" isPluginParameter="1" pluginParameterName="Hall Gain"
                        processorId="channel3" parameterId="Gain" tooltip="Hall Gain"/>
             <Component type="ScriptPanel" id="sliPan0" x="35" y="120" width="30" height="30"
@@ -316,7 +316,7 @@
                parentComponent="guiContainer">
       <Component type="ScriptFloatingTile" id="fltKeyboard" x="0" y="0" width="700"
                  height="75" itemColour="4294967295" itemColour2="263172" bgColour="4282335039"
-                 parentComponent="pnlKeyboard" textColour="4294951115" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 13,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 21,&#13;&#10;  &quot;HiKey&quot;: 125,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: false,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999999,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: true,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"
+                 parentComponent="pnlKeyboard" textColour="4294951115" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 13,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: true,&#13;&#10;  &quot;LowKey&quot;: 21,&#13;&#10;  &quot;HiKey&quot;: 125,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: false,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999999,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: true,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"
                  ContentType="Keyboard"/>
     </Component>
     <Component type="ScriptPanel" id="pnlAbout" x="150" y="94" width="400" height="250"
