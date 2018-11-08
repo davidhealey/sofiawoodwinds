@@ -44,7 +44,7 @@
       </Component>
       <Component type="ScriptPanel" id="page0" x="20" y="60" width="660" height="320"
                  parentComponent="pnlMain" saveInPreset="1" borderSize="0" borderRadius="0"
-                 itemColour="10354558" itemColour2="10354558" textColour="0" visible="0">
+                 itemColour="10354558" itemColour2="10354558" textColour="0">
         <Component type="ScriptPanel" id="pnlMixer" x="0" y="0" width="660" height="320"
                    parentComponent="page0" borderRadius="0" borderSize="0" bgColour="16777215"
                    textColour="16777215" itemColour2="4281545523" itemColour="4281545523">
@@ -155,7 +155,8 @@
       </Component>
       <Component type="ScriptPanel" id="page1" x="20" y="60" width="660" height="320"
                  parentComponent="pnlMain" borderSize="0" borderRadius="0" itemColour="10354558"
-                 itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215">
+                 itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215"
+                 visible="0">
         <Component type="ScriptPanel" id="pnlControllers" x="0" y="0" width="320"
                    height="320" parentComponent="page1" bgColour="0" itemColour="4281545523"
                    itemColour2="4281545523" textColour="0" borderSize="0" borderRadius="0">
@@ -169,12 +170,11 @@
                      textColour="4258057420"/>
           <Component type="ScriptComboBox" id="cmbParam" x="200" y="20" itemColour2="4283585106"
                      itemColour="4283585106" bgColour="11447982" parentComponent="pnlControllers"
-                     width="100" items="Velocity&#10;Expression&#10;Dynamics&#10;Vibrato&#10;Vibrato Speed&#10;Flutter"
-                     text="Parameters" max="6" height="32"/>
+                     width="100" items="Velocity&#10;Expression&#10;Dynamics&#10;Vibrato&#10;Vibrato Speed"
+                     text="Parameters" max="5" height="32"/>
           <Component type="ScriptComboBox" id="cmbCc0" x="200" y="69" itemColour2="4283585106"
                      itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
-                     width="100" enabled="0" items="Velocity" height="32" text="Velocity"
-                     visible="0"/>
+                     width="100" enabled="0" items="Velocity" height="32" text="Velocity"/>
           <Component type="ScriptComboBox" id="cmbCc1" x="200" y="69" max="125" itemColour2="4283585106"
                      itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
                      width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
@@ -183,7 +183,8 @@
           <Component type="ScriptComboBox" id="cmbCc2" x="200" y="69" max="125" itemColour2="4283585106"
                      itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
                      width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                     height="32" processorId="dynamicsCC" parameterId="ControllerNumber"/>
+                     height="32" processorId="dynamicsCC" parameterId="ControllerNumber"
+                     visible="0"/>
           <Component type="ScriptComboBox" id="cmbCc3" x="200" y="69" max="125" itemColour2="4283585106"
                      itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
                      width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
@@ -194,21 +195,17 @@
                      width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
                      defaultValue="20" height="32" processorId="vibratoRateCC" parameterId="ControllerNumber"
                      visible="0"/>
-          <Component type="ScriptComboBox" id="cmbCc5" x="200" y="69" max="125" itemColour2="4283585106"
-                     itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
-                     width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                     defaultValue="3" height="32" processorId="flutterLFOHandler"
-                     parameterId="knbCC" visible="0"/>
           <Component type="ScriptTable" id="tblCc0" x="20" y="119" width="280" height="180"
                      parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
-                     itemColour="4286216826" itemColour2="1879048192" visible="0"/>
+                     itemColour="4286216826" itemColour2="1879048192"/>
           <Component type="ScriptTable" id="tblCc1" x="20" y="119" width="280" height="180"
                      parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
                      itemColour2="1879048192" customColours="1" processorId="expressionCC"
                      visible="0"/>
           <Component type="ScriptTable" id="tblCc2" x="20" y="119" width="280" height="180"
                      parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
-                     itemColour="4286216826" itemColour2="1879048192" processorId="dynamicsCC"/>
+                     itemColour="4286216826" itemColour2="1879048192" processorId="dynamicsCC"
+                     visible="0"/>
           <Component type="ScriptTable" id="tblCc3" x="20" y="119" width="280" height="180"
                      parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
                      itemColour2="1879048192" customColours="1" processorId="vibratoPitch"
@@ -216,10 +213,6 @@
           <Component type="ScriptTable" id="tblCc4" x="20" y="119" width="280" height="180"
                      parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
                      itemColour="4286216826" itemColour2="1879048192" processorId="vibratoRateCC"
-                     visible="0"/>
-          <Component type="ScriptTable" id="tblCc5" x="20" y="119" width="280" height="180"
-                     parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
-                     itemColour2="1879048192" customColours="1" processorId="flutterPitch"
                      visible="0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlPerformance" x="340" y="0" width="320"
@@ -280,7 +273,7 @@
                      bgColour="4286216826" popupOnRightClick="0" holdIsRightClick="0"
                      opaque="1" processorId="release" parameterId="Purged"/>
           <Component type="ScriptPanel" id="btnRR" x="200" y="268" width="100" parentComponent="pnlPerformance"
-                     text="On" height="32" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
+                     text="Off" height="32" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
                      textColour="4294967295" itemColour2="4280690214" itemColour="4283585106"
                      saveInPreset="1" bgColour="4286216826" popupOnRightClick="0"
                      holdIsRightClick="0" opaque="1" isPluginParameter="1" pluginParameterName="Round Robin"

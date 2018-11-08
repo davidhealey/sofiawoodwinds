@@ -19,7 +19,7 @@ namespace ControllerHandler
 {
 	inline function onInitCB()
 	{
-		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato", "Vibrato Speed", "Flutter"];
+		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato", "Vibrato Speed"];
 		const var reservedCc = [32, 64]; //CCs used internally, not user selectable
 		       	
 		const var ccNums = [];

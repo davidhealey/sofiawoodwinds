@@ -16,9 +16,9 @@
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
             <Control type="ScriptPanel" id="btnPurge2" value="1"/>
-            <Control type="ScriptSlider" id="sliVol0" value="-5.9999986"/>
-            <Control type="ScriptSlider" id="sliVol1" value="-5.9999986"/>
-            <Control type="ScriptSlider" id="sliVol2" value="-5.9999986"/>
+            <Control type="ScriptSlider" id="sliVol0" value="-8.999999"/>
+            <Control type="ScriptSlider" id="sliVol1" value="-8.999999"/>
+            <Control type="ScriptSlider" id="sliVol2" value="-8.999999"/>
             <Control type="ScriptPanel" id="sliPan0" value="0"/>
             <Control type="ScriptPanel" id="sliPan1" value="0"/>
             <Control type="ScriptPanel" id="sliPan2" value="0"/>
@@ -29,25 +29,23 @@
             <Control type="ScriptPanel" id="sliDelay1" value="0"/>
             <Control type="ScriptPanel" id="sliDelay2" value="0"/>
             <Control type="ScriptPanel" id="page1" value="0"/>
-            <Control type="ScriptComboBox" id="cmbParam" value="3"/>
+            <Control type="ScriptComboBox" id="cmbParam" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc0" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc1" value="11"/>
             <Control type="ScriptComboBox" id="cmbCc2" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="20"/>
-            <Control type="ScriptComboBox" id="cmbCc5" value="3"/>
-            <Control type="ScriptTable" id="tblCc0" value="97" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="51" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C..3rO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C..HyO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc4" value="0" data="24......nYlY5C...vO...f+....9C...0O"/>
-            <Control type="ScriptTable" id="tblCc5" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptSlider" id="sliOffset" value="0.050000001"/>
             <Control type="ScriptSlider" id="sliRelease" value="100"/>
             <Control type="ScriptPanel" id="sliGlide" value="19"/>
             <Control type="ScriptPanel" id="btnGlideMode" value="0"/>
             <Control type="ScriptPanel" id="btnPurgeReleases" value="0"/>
-            <Control type="ScriptPanel" id="btnRR" value="1"/>
+            <Control type="ScriptPanel" id="btnRR" value="0"/>
           </Content>
           <UIData Source="libreWindsUIData"/>
         </Processor>
@@ -57,26 +55,6 @@
             <Control type="ScriptSlider" id="knbPitch" value="0.050000001"/>
             <Control type="ScriptSlider" id="knbIntensity" value="0"/>
             <Control type="ScriptSlider" id="knbCC" value="20"/>
-            <Control type="ScriptTable" id="tblCurve" value="0" data="24...............vO...f+....9C...vO"/>
-          </Content>
-          <UIData>
-            <ContentProperties DeviceType="Desktop">
-              <Component type="ScriptSlider" id="knbPitch" x="0" y="0" middlePosition="0"
-                         min="-12" max="12" text="Pitch"/>
-              <Component type="ScriptSlider" id="knbIntensity" x="150" y="0" stepSize="0.0099999998"
-                         text="Intensity"/>
-              <Component type="ScriptSlider" id="knbCC" x="300" y="0" stepSize="1" max="127"
-                         text="CC"/>
-              <Component type="ScriptTable" id="tblCurve" x="450" y="0"/>
-            </ContentProperties>
-          </UIData>
-        </Processor>
-        <Processor Type="ScriptProcessor" ID="flutterLFOHandler" Bypassed="0">
-          <ChildProcessors/>
-          <Content>
-            <Control type="ScriptSlider" id="knbPitch" value="0.15000001"/>
-            <Control type="ScriptSlider" id="knbIntensity" value="0"/>
-            <Control type="ScriptSlider" id="knbCC" value="3"/>
             <Control type="ScriptTable" id="tblCurve" value="0" data="24...............vO...f+....9C...vO"/>
           </Content>
           <UIData>
@@ -101,7 +79,7 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-5.9999986"
+        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-8.999999"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -121,7 +99,7 @@
                          Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="channel2" Bypassed="0" Gain="-5.9999986"
+        <Processor Type="SimpleGain" ID="channel2" Bypassed="0" Gain="-8.999999"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -141,7 +119,7 @@
                          Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="channel3" Bypassed="0" Gain="-5.9999986"
+        <Processor Type="SimpleGain" ID="channel3" Bypassed="0" Gain="-8.999999"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -205,19 +183,6 @@
                        Bipolar="1" UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24...............vO...f+....9C...vO">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="LFO" ID="flutterLFO" Bypassed="0" Intensity="0" Bipolar="1"
-                       Frequency="30.030001" FadeIn="500" WaveformType="2" Legato="1"
-                       TempoSync="0" SmoothingTime="50" LoopEnabled="1" CustomWaveform="24...............vO...f+....9C...vO"
-                       StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
-              <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1">
-                  <ChildProcessors/>
-                </Processor>
-                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1">
-                  <ChildProcessors/>
-                </Processor>
-              </ChildProcessors>
-            </Processor>
           </ChildProcessors>
         </Processor>
         <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
@@ -260,7 +225,7 @@
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="ScriptProcessor" ID="roundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
+                <Processor Type="ScriptProcessor" ID="roundRobin" Bypassed="1" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="Enable" value="1"/>
@@ -378,11 +343,6 @@
                                TableData="24...............vO...f+....9C...vO" Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
-                    <Processor Type="GlobalTimeVariantModulator" ID="flutterGain" Bypassed="0"
-                               Intensity="0.80000001" Bipolar="1" UseTable="0" Inverted="0"
-                               TableData="24...............vO...f+....9C...vO" Connection="Global Modulator Container:flutterLFO">
-                      <ChildProcessors/>
-                    </Processor>
                   </ChildProcessors>
                 </Processor>
                 <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
@@ -394,11 +354,6 @@
                     <Processor Type="GlobalTimeVariantModulator" ID="vibratoPitch" Bypassed="0"
                                Intensity="0" Bipolar="0" UseTable="1" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:vibratoLFO">
-                      <ChildProcessors/>
-                    </Processor>
-                    <Processor Type="GlobalTimeVariantModulator" ID="flutterPitch" Bypassed="0"
-                               Intensity="0" Bipolar="1" UseTable="1" Inverted="0" TableData="24...............vO...f+....9C...vO"
-                               Connection="Global Modulator Container:flutterLFO">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
