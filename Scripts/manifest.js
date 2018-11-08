@@ -235,7 +235,7 @@ namespace Manifest
             {
                 staccato:-3.0,
                 release:-8.0,
-                transitions:-10.0
+                transitions:-15.0
             },
             legatoSettings:
 		    {
