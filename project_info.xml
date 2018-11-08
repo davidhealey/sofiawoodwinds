@@ -2,7 +2,7 @@
 
 <ProjectSettings>
   <Name value="Sofia Woodwinds" type="TEXT" description="Project Name"/>
-  <Version value="1.0.5" type="TEXT" description="Project version"/>
+  <Version value="1.0.6" type="TEXT" description="Project version"/>
   <Description value="LibreWave Sofia Woodwinds" type="TEXT" description="Project description"/>
   <BundleIdentifier value="com.librewave.winds" type="TEXT" description="Bundle Identifier(eg.com.myCompany.bundle)"/>
   <PluginCode value="Liwp" type="TEXT" description="a 4 character ID code(eg. 'Abcd')"/>
