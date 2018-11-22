@@ -5,4 +5,6 @@ In order to build the project you will need [HISE](https://github.com/christophh
 
 All of scripts contained in this project are released under the GPL license, or a GPL compatible license (see individual files for details).
 
+Build instructions are available here - https://librewave.com/knowledge-base/how-to-build-librewave-software/
+
 If you wish to fork this project or reuse it in your own virtual instrument you must remove the Libre Wave name and trademark and make it clear that your project is separate so that it won't be confused with this project. This includes using different names/imagery for your project as approriate.
