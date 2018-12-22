@@ -2,7 +2,7 @@
 
 <ContentProperties DeviceType="Desktop">
   <Component type="ScriptPanel" id="guiContainer" x="0" y="0" width="700"
-             height="575" borderSize="0" borderRadius="0" itemColour2="0"
+             height="800" borderSize="0" borderRadius="0" itemColour2="0"
              bgColour="0" itemColour="0" textColour="0">
     <Component type="ScriptPanel" id="pnlMain" x="0" y="0" width="700" height="460"
                itemColour2="4280690214" itemColour="4280690214" textColour="0"
@@ -301,7 +301,7 @@
                    height="20" opaque="1" parentComponent="logoBar" visible="0"/>
       </Component>
     </Component>
-    <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="460" width="700"
+    <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="725" width="700"
                height="75" bgColour="16777215" textColour="16777215" itemColour="4283974210"
                itemColour2="4283974210" borderSize="0" borderRadius="0" text="*"
                parentComponent="guiContainer">
@@ -328,5 +328,10 @@
                width="222" height="24" ContentType="PerformanceLabel" bgColour="0"
                itemColour="4294951115" itemColour2="4294951115" Data="{&#13;&#10;}"
                parentComponent="guiContainer" textColour="4286479998"/>
+    <Component type="ScriptButton" id="btnDyamicsMode" x="83" y="533" width="100"
+               height="30" parentComponent="guiContainer"/>
+    <Component type="ScriptButton" id="btnOverlay" x="84" y="579" width="100"
+               height="30" parentComponent="guiContainer" processorId="overlayHandler"
+               parameterId="Overlay" defaultValue="1"/>
   </Component>
 </ContentProperties>
