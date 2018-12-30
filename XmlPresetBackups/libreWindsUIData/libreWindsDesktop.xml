@@ -333,5 +333,9 @@
     <Component type="ScriptButton" id="btnOverlay" x="84" y="579" width="100"
                height="30" parentComponent="guiContainer" processorId="overlayHandler"
                parameterId="Overlay" defaultValue="1"/>
+    <Component type="ScriptSlider" id="sliTransitionGain" x="285" y="556" width="134"
+               height="50" parentComponent="guiContainer" stepSize="0.1" suffix=" dB"
+               middlePosition="-18" mode="Decibel" min="-100" max="0" processorId="transitionHandler"
+               parameterId="knbGain"/>
   </Component>
 </ContentProperties>
