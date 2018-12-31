@@ -60,8 +60,8 @@
                      text="Pan" alignment="left" editable="0" parentComponent="pnlMixer"
                      fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
                      textColour="4258057420"/>
-          <Component type="ScriptPanel" id="pnlMixerControls" x="175" y="0" width="310"
-                     height="320" parentComponent="pnlMixer" bgColour="0" itemColour="0"
+          <Component type="ScriptPanel" id="pnlMixerControls" x="175" y="0" width="434"
+                     height="315" parentComponent="pnlMixer" bgColour="0" itemColour="0"
                      itemColour2="0" textColour="0" borderSize="0" borderRadius="0">
             <Component type="ScriptPanel" id="btnPurge0" x="0" y="277" width="100" height="30"
                        parentComponent="pnlMixerControls" bgColour="4283979864" itemColour="4286216826"
@@ -150,6 +150,15 @@
                        stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
                        processorId="channel3" parameterId="Delay" itemColour2="16711680"
                        isPluginParameter="1" pluginParameterName="Hall Delay" tooltip="Hall Delay"/>
+            <Component type="ScriptSlider" id="sliVolMaster" x="342" y="159" width="32"
+                       height="100" parentComponent="pnlMixerControls" middlePosition="0.5"
+                       style="Vertical" showValuePopup="Right" bgColour="4280690214"
+                       itemColour="4283532715" processorId="sofiaWoodwinds" parameterId="Gain"
+                       tooltip="Close Gain" isPluginParameter="1" pluginParameterName="Master Gain"/>
+            <Component type="ScriptSlider" id="sliPanMaster" x="330" y="25" width="131"
+                       height="47" parentComponent="pnlMixerControls" processorId="sofiaWoodwinds"
+                       parameterId="Balance" mode="Pan" middlePosition="0" min="-1"
+                       isPluginParameter="1" pluginParameterName="Master Pan"/>
           </Component>
         </Component>
       </Component>
@@ -337,5 +346,13 @@
                height="50" parentComponent="guiContainer" stepSize="0.1" suffix=" dB"
                middlePosition="-18" mode="Decibel" min="-100" max="0" processorId="transitionHandler"
                parameterId="knbGain"/>
+    <Component type="ScriptSlider" id="sliFineTune" x="121" y="652" width="132"
+               height="44" parentComponent="guiContainer" min="-100" max="100"
+               stepSize="1.0" middlePosition="0" isPluginParameter="1" pluginParameterName="Fine Tune"
+               processorId="Tuner" parameterId="knbFine" suffix="ct"/>
+    <Component type="ScriptSlider" id="sliCoarseTune" x="289" y="662" width="132"
+               height="44" parentComponent="guiContainer" isPluginParameter="1"
+               pluginParameterName="Coarse Tune" processorId="Tuner" parameterId="knbCoarse"
+               min="-12" max="12" middlePosition="0" stepSize="1.0" suffix="st"/>
   </Component>
 </ContentProperties>

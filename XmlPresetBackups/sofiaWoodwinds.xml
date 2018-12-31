@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Processor Type="SynthChain" ID="libreWinds" Bypassed="0" Gain="1" Balance="0"
-           VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
+<Processor Type="SynthChain" ID="sofiaWoodwinds" Bypassed="0" Gain="1" Balance="2.0816682e-17"
+           VoiceLimit="64" KillFadeTime="0" IconColour="0" packageName=""
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -14,11 +14,11 @@
             <Control type="ScriptComboBox" id="cmbPreset" value="5"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
-            <Control type="ScriptPanel" id="btnPurge1" value="1"/>
-            <Control type="ScriptPanel" id="btnPurge2" value="1"/>
-            <Control type="ScriptSlider" id="sliVol0" value="-8.999999"/>
-            <Control type="ScriptSlider" id="sliVol1" value="-8.999999"/>
-            <Control type="ScriptSlider" id="sliVol2" value="-8.999999"/>
+            <Control type="ScriptPanel" id="btnPurge1" value="0"/>
+            <Control type="ScriptPanel" id="btnPurge2" value="0"/>
+            <Control type="ScriptSlider" id="sliVol0" value="-16.599998"/>
+            <Control type="ScriptSlider" id="sliVol1" value="-20.499998"/>
+            <Control type="ScriptSlider" id="sliVol2" value="-19.499998"/>
             <Control type="ScriptPanel" id="sliPan0" value="0"/>
             <Control type="ScriptPanel" id="sliPan1" value="0"/>
             <Control type="ScriptPanel" id="sliPan2" value="0"/>
@@ -28,6 +28,8 @@
             <Control type="ScriptPanel" id="sliDelay0" value="0"/>
             <Control type="ScriptPanel" id="sliDelay1" value="0"/>
             <Control type="ScriptPanel" id="sliDelay2" value="0"/>
+            <Control type="ScriptSlider" id="sliVolMaster" value="1"/>
+            <Control type="ScriptSlider" id="sliPanMaster" value="2.0816682e-17"/>
             <Control type="ScriptPanel" id="page1" value="0"/>
             <Control type="ScriptComboBox" id="cmbParam" value="3"/>
             <Control type="ScriptComboBox" id="cmbCc0" value="1"/>
@@ -35,7 +37,7 @@
             <Control type="ScriptComboBox" id="cmbCc2" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="20"/>
-            <Control type="ScriptTable" id="tblCc0" value="70" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="49" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C..3rO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C..3rO"/>
@@ -46,11 +48,13 @@
             <Control type="ScriptPanel" id="btnGlideMode" value="0"/>
             <Control type="ScriptPanel" id="btnPurgeReleases" value="0"/>
             <Control type="ScriptPanel" id="btnRR" value="0"/>
-            <Control type="ScriptButton" id="btnDyamicsMode" value="0"/>
-            <Control type="ScriptButton" id="btnOverlay" value="0"/>
+            <Control type="ScriptButton" id="btnDyamicsMode" value="1"/>
+            <Control type="ScriptButton" id="btnOverlay" value="1"/>
             <Control type="ScriptSlider" id="sliTransitionGain" value="0"/>
+            <Control type="ScriptSlider" id="sliFineTune" value="0"/>
+            <Control type="ScriptSlider" id="sliCoarseTune" value="0"/>
           </Content>
-          <UIData Source="libreWindsUIData"/>
+          <UIData Source="sofiaWoodwindsUIData"/>
         </Processor>
         <Processor Type="ScriptProcessor" ID="vibratoLFOHandler" Bypassed="0">
           <ChildProcessors/>
@@ -82,7 +86,7 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-8.999999"
+        <Processor Type="SimpleGain" ID="channel1" Bypassed="0" Gain="-16.599998"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -102,8 +106,8 @@
                          Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="channel2" Bypassed="0" Gain="-8.999999"
-                   Delay="0" Width="0" Balance="0">
+        <Processor Type="SimpleGain" ID="channel2" Bypassed="0" Gain="-20.5" Delay="0"
+                   Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -122,7 +126,7 @@
                          Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="channel3" Bypassed="0" Gain="-8.999999"
+        <Processor Type="SimpleGain" ID="channel3" Bypassed="0" Gain="-19.499998"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
@@ -201,7 +205,25 @@
                VoiceLimit="256" KillFadeTime="20" IconColour="0">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
-          <ChildProcessors/>
+          <ChildProcessors>
+            <Processor Type="ScriptProcessor" ID="Tuner" Bypassed="0">
+              <ChildProcessors/>
+              <Content>
+                <Control type="ScriptSlider" id="knbFine" value="0"/>
+                <Control type="ScriptSlider" id="knbCoarse" value="0"/>
+              </Content>
+              <UIData>
+                <ContentProperties DeviceType="Desktop">
+                  <Component type="ScriptSlider" id="knbFine" x="0" y="0" style="Knob" middlePosition="-1"
+                             stepSize="1" min="-100" max="100" suffix="" filmstripImage="Use default skin"
+                             linkedTo="" text="Fine Tune"/>
+                  <Component type="ScriptSlider" id="knbCoarse" x="150" y="0" style="Knob"
+                             middlePosition="-1" stepSize="1" min="-12" max="12" suffix=""
+                             filmstripImage="Use default skin" linkedTo="" text="Coarse Tune"/>
+                </ContentProperties>
+              </UIData>
+            </Processor>
+          </ChildProcessors>
         </Processor>
         <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
           <ChildProcessors>
@@ -223,7 +245,7 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="SynthChain" ID="articulations" Bypassed="1" Gain="1" Balance="0"
+        <Processor Type="SynthChain" ID="articulations" Bypassed="0" Gain="1" Balance="0"
                    VoiceLimit="256" KillFadeTime="20" IconColour="0">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -247,7 +269,7 @@
                     </ContentProperties>
                   </UIData>
                 </Processor>
-                <Processor Type="ScriptProcessor" ID="legato" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/legato.js">
+                <Processor Type="ScriptProcessor" ID="legato" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="Sustain" value="0"/>
@@ -300,7 +322,7 @@
                 <Processor Type="ScriptProcessor" ID="overlayHandler" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
-                    <Control type="ScriptButton" id="Overlay" value="0"/>
+                    <Control type="ScriptButton" id="Overlay" value="1"/>
                   </Content>
                   <UIData>
                     <ContentProperties DeviceType="Desktop">
@@ -342,12 +364,12 @@
                                    Intensity="1">
                           <ChildProcessors>
                             <Processor Type="GlobalVoiceStartModulator" ID="sustainVelocityAttackMod0"
-                                       Bypassed="1" Intensity="1" UseTable="1" Inverted="0" TableData="60..........9C...vOTdMT9.MyL2C..voOhxqE+.LyLyC..vtO...F+....9C..PkO...f+....9C...vO"
+                                       Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="60..........9C...vOTdMT9.MyL2C..voOhxqE+.LyLyC..vtO...F+....9C..PkO...f+....9C...vO"
                                        Connection="Global Modulator Container:Velocity Modulator">
                               <ChildProcessors/>
                             </Processor>
                             <Processor Type="GlobalVoiceStartModulator" ID="sustainVelocityAttackMod1"
-                                       Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="36..........9C...vOTdMT9vLyL4C..voO...f+........HyO"
+                                       Bypassed="1" Intensity="1" UseTable="1" Inverted="0" TableData="36..........9C...vOTdMT9vLyL4C..voO...f+........HyO"
                                        Connection="Global Modulator Container:Velocity Modulator">
                               <ChildProcessors/>
                             </Processor>
@@ -396,11 +418,11 @@
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
-                <channelData enabled="1" level="0" suffix="decca"/>
-                <channelData enabled="1" level="0" suffix="hall"/>
+                <channelData enabled="0" level="-100" suffix="decca"/>
+                <channelData enabled="0" level="-100" suffix="hall"/>
               </channels>
             </Processor>
-            <Processor Type="StreamingSampler" ID="staccato" Bypassed="1" Gain="0.70794576"
+            <Processor Type="StreamingSampler" ID="staccato" Bypassed="0" Gain="0.70794576"
                        Balance="0" VoiceLimit="64" KillFadeTime="50" IconColour="0"
                        PreloadSize="4096" BufferSize="4096" VoiceAmount="96" SamplerRepeatMode="1"
                        RRGroupAmount="3" PitchTracking="1" OneShot="0" CrossfadeGroups="1"
@@ -461,8 +483,8 @@
                              Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
-                <channelData enabled="1" level="0" suffix="decca"/>
-                <channelData enabled="1" level="0" suffix="hall"/>
+                <channelData enabled="0" level="-100" suffix="decca"/>
+                <channelData enabled="0" level="-100" suffix="hall"/>
               </channels>
             </Processor>
           </ChildProcessors>
@@ -549,8 +571,8 @@
                          Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
-            <channelData enabled="1" level="0" suffix="decca"/>
-            <channelData enabled="1" level="0" suffix="hall"/>
+            <channelData enabled="0" level="-100" suffix="decca"/>
+            <channelData enabled="0" level="-100" suffix="hall"/>
           </channels>
         </Processor>
         <Processor Type="StreamingSampler" ID="transitions" Bypassed="0" Gain="0.50118721"
@@ -573,9 +595,8 @@
                   </Content>
                   <UIData>
                     <ContentProperties DeviceType="Desktop">
-                      <Component type="ScriptSlider" id="knbGain" x="0" y="0" style="Knob" middlePosition="-18"
-                                 stepSize="0.1" min="-100" max="0" suffix=" dB" filmstripImage="Use default skin"
-                                 linkedTo="" text="Gain" mode="Decibel"/>
+                      <Component type="ScriptSlider" id="knbGain" x="0" y="0" middlePosition="-18"
+                                 stepSize="0.1" min="-100" max="0" suffix=" dB" text="Gain" mode="Decibel"/>
                     </ContentProperties>
                   </UIData>
                 </Processor>
@@ -635,8 +656,8 @@
                          Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
-            <channelData enabled="1" level="0" suffix="decca"/>
-            <channelData enabled="1" level="0" suffix="hall"/>
+            <channelData enabled="0" level="-100" suffix="decca"/>
+            <channelData enabled="0" level="-100" suffix="hall"/>
           </channels>
         </Processor>
       </ChildProcessors>
