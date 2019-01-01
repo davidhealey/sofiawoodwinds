@@ -34,10 +34,10 @@
             <Control type="ScriptComboBox" id="cmbParam" value="3"/>
             <Control type="ScriptComboBox" id="cmbCc0" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc1" value="11"/>
-            <Control type="ScriptComboBox" id="cmbCc2" value="1"/>
+            <Control type="ScriptComboBox" id="cmbCc2" value="11"/>
             <Control type="ScriptComboBox" id="cmbCc3" value="20"/>
             <Control type="ScriptComboBox" id="cmbCc4" value="20"/>
-            <Control type="ScriptTable" id="tblCc0" value="49" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblCc0" value="2" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptTable" id="tblCc2" value="0" data="24...............vO...f+....9C..3rO"/>
             <Control type="ScriptTable" id="tblCc3" value="0" data="24...............vO...f+....9C..3rO"/>
@@ -56,23 +56,16 @@
           </Content>
           <UIData Source="sofiaWoodwindsUIData"/>
         </Processor>
-        <Processor Type="ScriptProcessor" ID="vibratoLFOHandler" Bypassed="0">
+        <Processor Type="ScriptProcessor" ID="vibratoIntensityCC" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptSlider" id="knbPitch" value="0.07"/>
-            <Control type="ScriptSlider" id="knbIntensity" value="0"/>
-            <Control type="ScriptSlider" id="knbCC" value="20"/>
-            <Control type="ScriptTable" id="tblCurve" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptSlider" id="knbCC" value="1"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
-              <Component type="ScriptSlider" id="knbPitch" x="0" y="0" middlePosition="0"
-                         min="-12" max="12" text="Pitch"/>
-              <Component type="ScriptSlider" id="knbIntensity" x="150" y="0" stepSize="0.0099999998"
-                         text="Intensity"/>
-              <Component type="ScriptSlider" id="knbCC" x="300" y="0" stepSize="1" max="127"
-                         text="CC"/>
-              <Component type="ScriptTable" id="tblCurve" x="450" y="0"/>
+              <Component type="ScriptSlider" id="knbCC" x="0" y="0" style="Knob" middlePosition="-1"
+                         stepSize="1" min="1" max="127" suffix="" filmstripImage="Use default skin"
+                         linkedTo="" text="Intensity CC"/>
             </ContentProperties>
           </UIData>
         </Processor>
@@ -163,23 +156,29 @@
               <ChildProcessors/>
             </Processor>
             <Processor Type="MidiController" ID="dynamicsCC" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" ControllerNumber="1" SmoothTime="1000"
+                       UseTable="1" Inverted="0" ControllerNumber="11" SmoothTime="1000"
                        DefaultValue="64" ControllerTableData="24...............vO...f+....9C..3rO">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="LFO" ID="vibratoLFO" Bypassed="0" Intensity="0" Frequency="4.5"
+            <Processor Type="LFO" ID="vibratoLFO" Bypassed="0" Intensity="1" Frequency="4.5"
                        FadeIn="0" WaveformType="2" Legato="1" TempoSync="0" SmoothingTime="5"
                        LoopEnabled="1" CustomWaveform="24...............vO...f+....9C...vO"
                        StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1">
-                  <ChildProcessors/>
+                  <ChildProcessors>
+                    <Processor Type="MidiController" ID="vibratoLFOIntensityCC" Bypassed="0"
+                               Intensity="1" UseTable="0" Inverted="0" ControllerNumber="1"
+                               SmoothTime="200" DefaultValue="0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
                 </Processor>
                 <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="MidiController" ID="vibratoRateCC" Bypassed="0" Intensity="1"
-                               UseTable="1" Inverted="0" ControllerNumber="20" SmoothTime="250"
-                               DefaultValue="127" ControllerTableData="24......nYlY5C...vO...f+....9C...0O">
+                               UseTable="1" Inverted="0" ControllerNumber="20" SmoothTime="200"
+                               DefaultValue="100" ControllerTableData="24......nYlY5C...vO...f+....9C...0O">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -214,12 +213,10 @@
               </Content>
               <UIData>
                 <ContentProperties DeviceType="Desktop">
-                  <Component type="ScriptSlider" id="knbFine" x="0" y="0" style="Knob" middlePosition="-1"
-                             stepSize="1" min="-100" max="100" suffix="" filmstripImage="Use default skin"
-                             linkedTo="" text="Fine Tune"/>
-                  <Component type="ScriptSlider" id="knbCoarse" x="150" y="0" style="Knob"
-                             middlePosition="-1" stepSize="1" min="-12" max="12" suffix=""
-                             filmstripImage="Use default skin" linkedTo="" text="Coarse Tune"/>
+                  <Component type="ScriptSlider" id="knbFine" x="0" y="0" stepSize="1" min="-100"
+                             max="100" text="Fine Tune"/>
+                  <Component type="ScriptSlider" id="knbCoarse" x="150" y="0" stepSize="1"
+                             min="-12" max="12" text="Coarse Tune"/>
                 </ContentProperties>
               </UIData>
             </Processor>
@@ -269,46 +266,65 @@
                     </ContentProperties>
                   </UIData>
                 </Processor>
-                <Processor Type="ScriptProcessor" ID="legato" Bypassed="0">
+                <Processor Type="ScriptProcessor" ID="legato" Bypassed="1" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/legato.js">
                   <ChildProcessors/>
                   <Content>
-                    <Control type="ScriptButton" id="Sustain" value="0"/>
-                    <Control type="ScriptButton" id="Legato" value="1"/>
-                    <Control type="ScriptButton" id="Glide" value="0"/>
-                    <Control type="ScriptButton" id="Whole Step Glide" value="0"/>
-                    <Control type="ScriptSlider" id="Bend Time" value="-15"/>
-                    <Control type="ScriptSlider" id="Min Bend" value="10"/>
-                    <Control type="ScriptSlider" id="Max Bend" value="50"/>
-                    <Control type="ScriptSlider" id="Fade Time" value="50"/>
-                    <Control type="ScriptSlider" id="Fade Out Ratio" value="100"/>
-                    <Control type="ScriptSlider" id="Offset" value="0.050000001"/>
-                    <Control type="ScriptSlider" id="Glide Rate" value="19"/>
-                    <Control type="ScriptButton" id="Same Note Legato" value="0"/>
-                    <Control type="ScriptButton" id="Kill Old Notes" value="0"/>
+                    <Control type="ScriptButton" id="btnMute" value="0"/>
+                    <Control type="ScriptButton" id="btnRetrigger" value="0"/>
+                    <Control type="ScriptSlider" id="knbOffset" value="0"/>
+                    <Control type="ScriptSlider" id="knbCC" value="0"/>
+                    <Control type="ScriptSlider" id="knbThreshold" value="-15"/>
+                    <Control type="ScriptSlider" id="knbFadeMin" value="10"/>
+                    <Control type="ScriptSlider" id="knbFadeMax" value="50"/>
+                    <Control type="ScriptSlider" id="knbFadeOut" value="50"/>
+                    <Control type="ScriptSlider" id="knbBendTm" value="0"/>
+                    <Control type="ScriptSlider" id="knbBendMin" value="0"/>
+                    <Control type="ScriptSlider" id="knbBendMax" value="0"/>
+                    <Control type="ScriptSlider" id="knbRate" value="0"/>
+                    <Control type="ScriptButton" id="btnGlideVel" value="0"/>
+                    <Control type="ScriptButton" id="btnWholeStep" value="0"/>
                   </Content>
                   <UIData>
                     <ContentProperties DeviceType="Desktop">
-                      <Component type="ScriptButton" id="Sustain" x="0" y="10" radioGroup="1"/>
-                      <Component type="ScriptButton" id="Legato" x="150" y="10" radioGroup="1"/>
-                      <Component type="ScriptButton" id="Glide" x="300" y="10" radioGroup="1"/>
-                      <Component type="ScriptButton" id="Whole Step Glide" x="450" y="10" tooltip="When active each step of a glide will be a whole tone rather than chromatic."/>
-                      <Component type="ScriptSlider" id="Bend Time" x="0" y="50" stepSize="0.1"
-                                 min="-50" max="50" suffix="ms" tooltip="The pitch bend lasts the same duration as the crossfade time by default but can be adjusted with this knob. If the bend time ends up being less than 0 it will automatically (behind the scenes) be set to 10ms."/>
-                      <Component type="ScriptSlider" id="Min Bend" x="150" y="50" stepSize="1"
-                                 max="100" suffix="ct" tooltip="The amount of pitch bend in cents (ct) for an interval of 1 semitone"/>
-                      <Component type="ScriptSlider" id="Max Bend" x="300" y="50" stepSize="1"
-                                 max="100" suffix="ct" tooltip="The amount of pitch bend in cents (ct) for an interval of 12 semitones"/>
-                      <Component type="ScriptSlider" id="Fade Time" x="450" y="50" stepSize="0.1"
-                                 min="10" max="500" suffix="ms" tooltip="Maximum crossfade time in milliseconds, the actual time used will vary based on playing speed and velocity."/>
-                      <Component type="ScriptSlider" id="Fade Out Ratio" x="600" y="50" stepSize="1"
-                                 max="100" suffix="%" defaultValue="100" tooltip="Shortens the fade out time to a percentage of the fade time. 100% = the same as fade in time."/>
-                      <Component type="ScriptSlider" id="Offset" x="0" y="100" middlePosition="0.5"
-                                 suffix="%" mode="NormalizedPercentage" tooltip="Sets the sample start offset for legato phrase and glide notes."/>
-                      <Component type="ScriptSlider" id="Glide Rate" x="150" y="100" middlePosition="9"
-                                 stepSize="1" max="19" mode="TempoSync" tooltip="Rate for glide timer relative to current tempo. If velocity is selected then the glide time will be based on the played velocity."
-                                 text="Velocity"/>
-                      <Component type="ScriptButton" id="Same Note Legato" x="300" y="110" tooltip="When active releasing a note in normal legato mode will retrigger the note that was released with a transition."/>
-                      <Component type="ScriptButton" id="Kill Old Notes" x="450" y="110" tooltip="If enabled old notes will be turned off, triggering releases, rather than faded out. Use an evelope to control the fade out time when enabled."/>
+                      <Component type="ScriptButton" id="btnMute" x="0" y="10" text="Mute" tooltip="Enable this to bypass the script. Still responds to hanging notes."/>
+                      <Component type="ScriptButton" id="btnRetrigger" x="0" y="160" text="CC64 Retrigger"
+                                 tooltip="When enabled sustain pedal is used to retrigger notes, when disabled sustain pedal will hold legato notes."/>
+                      <Component type="ScriptSlider" id="knbOffset" x="150" y="0" style="Knob"
+                                 middlePosition="-1" stepSize="1" max="1000" suffix="ms" filmstripImage="Use default skin"
+                                 linkedTo="" text="Offset" tooltip="Sample start offset time for legato and glide notes."/>
+                      <Component type="ScriptSlider" id="knbCC" x="150" y="150" style="Knob" middlePosition="-1"
+                                 stepSize="1" min="1" max="127" suffix="" filmstripImage="Use default skin"
+                                 linkedTo="" text="Retrigger CC" tooltip="Select the CC used to control the CC based retrigger (separate from CC64 retrigger - so don't select CC64 for this)."/>
+                      <Component type="ScriptSlider" id="knbThreshold" x="300" y="150" style="Knob"
+                                 middlePosition="-1" stepSize="1" max="127" suffix="" filmstripImage="Use default skin"
+                                 linkedTo="" text="Retrigger Level" tooltip="Select the Retrigger CC threshold point at which notes will be retriggered - this is for breath controller users."/>
+                      <Component type="ScriptSlider" id="knbFadeMin" x="0" y="50" style="Knob"
+                                 middlePosition="-1" stepSize="1" max="1000" suffix="ms" filmstripImage="Use default skin"
+                                 linkedTo="" text="Fade Tm Min" tooltip="Minimum legato fade time."/>
+                      <Component type="ScriptSlider" id="knbFadeMax" x="150" y="50" style="Knob"
+                                 middlePosition="-1" stepSize="1" max="1000" suffix="ms" filmstripImage="Use default skin"
+                                 linkedTo="" text="Fade Tm Max" tooltip="Maximum legato fade time."/>
+                      <Component type="ScriptSlider" id="knbFadeOut" x="300" y="50" style="Knob"
+                                 middlePosition="-1" stepSize="1" min="10" max="100" suffix="%"
+                                 filmstripImage="Use default skin" linkedTo="" text="Fade Out Ratio"
+                                 tooltip="Percentage of overall fade time to be used to fade out old notes."/>
+                      <Component type="ScriptSlider" id="knbBendTm" x="0" y="100" style="Knob"
+                                 middlePosition="-1" stepSize="1" min="-50" max="50" suffix="%"
+                                 filmstripImage="Use default skin" linkedTo="" text="Bend Tm"
+                                 tooltip="Use this knob to set +-50% of fade time that will be used for bend time."/>
+                      <Component type="ScriptSlider" id="knbBendMin" x="150" y="100" style="Knob"
+                                 middlePosition="-1" stepSize="1" max="100" suffix="ct" filmstripImage="Use default skin"
+                                 linkedTo="" text="Bend Min" tooltip="Pitch bend amount for 1 semi-tone."/>
+                      <Component type="ScriptSlider" id="knbBendMax" x="300" y="100" style="Knob"
+                                 middlePosition="-1" stepSize="1" max="100" suffix="ct" filmstripImage="Use default skin"
+                                 linkedTo="" text="Bend Max" tooltip="Pitch bend amount for 1 octave."/>
+                      <Component type="ScriptSlider" id="knbRate" x="300" y="0" style="Knob" middlePosition="9"
+                                 stepSize="1" max="18" filmstripImage="Use default skin" linkedTo=""
+                                 text="Glide Rate" mode="TempoSync" tooltip="Rate for glide timer relative to current tempo."/>
+                      <Component type="ScriptButton" id="btnGlideVel" x="450" y="10" text="Velocity = Rate"
+                                 tooltip="When enabled glide rate knob will be controlled by note on velocity."/>
+                      <Component type="ScriptButton" id="btnWholeStep" x="450" y="60" text="Whole Step Glide"
+                                 tooltip="When enabled glides will be per whole step rather than each semi-tone."/>
                     </ContentProperties>
                   </UIData>
                 </Processor>
@@ -391,8 +407,13 @@
                       <ChildProcessors/>
                     </Processor>
                     <Processor Type="GlobalTimeVariantModulator" ID="vibratoPitch" Bypassed="0"
-                               Intensity="0" Bipolar="0" UseTable="1" Inverted="0" TableData="24...............vO...f+....9C..3rO"
-                               Connection="Global Modulator Container:vibratoLFO">
+                               Intensity="0.0058333334" Bipolar="0" UseTable="1" Inverted="0"
+                               TableData="24...............vO...f+....9C..3rO" Connection="Global Modulator Container:vibratoLFO">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="MidiController" ID="vibratoIntensity" Bypassed="0" Intensity="-0.0058333334"
+                               Bipolar="0" UseTable="0" Inverted="1" ControllerNumber="1" SmoothTime="200"
+                               DefaultValue="0">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -408,6 +429,11 @@
                     <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator3"
                                Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
                                Connection="Global Modulator Container:dynamicsCC">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="GlobalTimeVariantModulator" ID="Global Time Variant Modulator2"
+                               Bypassed="0" Intensity="0.2" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                               Connection="Global Modulator Container:vibratoLFO">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>

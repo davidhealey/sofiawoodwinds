@@ -151,7 +151,7 @@
                        processorId="channel3" parameterId="Delay" itemColour2="16711680"
                        isPluginParameter="1" pluginParameterName="Hall Delay" tooltip="Hall Delay"/>
             <Component type="ScriptSlider" id="sliVolMaster" x="342" y="159" width="32"
-                       height="100" parentComponent="pnlMixerControls" middlePosition="0.5"
+                       height="100" parentComponent="pnlMixerControls" middlePosition="0.2"
                        style="Vertical" showValuePopup="Right" bgColour="4280690214"
                        itemColour="4283532715" processorId="sofiaWoodwinds" parameterId="Gain"
                        tooltip="Close Gain" isPluginParameter="1" pluginParameterName="Master Gain"/>
@@ -348,11 +348,11 @@
                parameterId="knbGain"/>
     <Component type="ScriptSlider" id="sliFineTune" x="121" y="652" width="132"
                height="44" parentComponent="guiContainer" min="-100" max="100"
-               stepSize="1.0" middlePosition="0" isPluginParameter="1" pluginParameterName="Fine Tune"
+               stepSize="1" middlePosition="0" isPluginParameter="1" pluginParameterName="Fine Tune"
                processorId="Tuner" parameterId="knbFine" suffix="ct"/>
     <Component type="ScriptSlider" id="sliCoarseTune" x="289" y="662" width="132"
                height="44" parentComponent="guiContainer" isPluginParameter="1"
                pluginParameterName="Coarse Tune" processorId="Tuner" parameterId="knbCoarse"
-               min="-12" max="12" middlePosition="0" stepSize="1.0" suffix="st"/>
+               min="-12" max="12" middlePosition="0" stepSize="1" suffix="st"/>
   </Component>
 </ContentProperties>
