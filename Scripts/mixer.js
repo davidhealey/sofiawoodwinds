@@ -20,7 +20,11 @@ namespace Mixer
 	inline function onInitCB()
 	{
 
-		//Retrieve samplers and store in samplers array
+	    //Multi-channel routing - Get a reference to its routing matrix
+        const var MasterChain = Synth.getChildSynth("sofiaWoodwinds");
+        const var matrix = MasterChain.getRoutingMatrix();
+
+	    //Retrieve samplers and store in samplers array
 		const var samplerIds = Synth.getIdList("Sampler"); //Get IDs of samplers
 		const var samplers = [];
 
@@ -34,6 +38,7 @@ namespace Mixer
 			
 		//Knobs and sliders
 		const var purge = [];
+		const var cmbOutput = [];
 
 		for (i = 0; i < 3; i++)
 		{
@@ -41,6 +46,11 @@ namespace Mixer
 		    Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.C6, itemColour:Theme.C5});
 			purge[i] = ui.buttonPanel("btnPurge"+i, purgeButtonPaintRoutine);
 			purge[i].setControlCallback(btnPurgeCB);
+			
+		    //Channel routing combo boxes
+            cmbOutput[i] = Content.getComponent("cmbOutput"+i);
+            cmbOutput[i].setControlCallback(cmbOutputCB);
+            Engine.isPlugin() ? cmbOutput[i].set("items", "1/2\n3/4\n5/6") : cmbOutput[i].set("items", "1/2");
 			
 		    //Volume slider
 		    Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.C2, itemColour:Theme.F});
@@ -57,6 +67,11 @@ namespace Mixer
 			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.C2, itemColour:Theme.F});
 			ui.sliderPanel("sliDelay"+i, paintRoutines.knob, 0, 0.5);
 		}
+		
+		//Output vu meter
+		const var pnlOutputMeter0 = VuMeter.createVuMeter("pnlOutputMeter0", [0, 1]);
+		const var pnlOutputMeter1 = VuMeter.createVuMeter("pnlOutputMeter1", [2, 3]);
+		const var pnlOutputMeter2 = VuMeter.createVuMeter("pnlOutputMeter2", [4, 5]);
 	}
 	
 	inline function enablePurgeButtons()
@@ -81,6 +96,36 @@ namespace Mixer
 			}
 		}
 	}
+	
+    inline function cmbOutputCB(control, value)
+    {   
+        // this variable checks if the output channel exists.
+        local success = true;
+        local idx = cmbOutput.indexOf(control); //Mic index
+
+        switch(value)
+        {
+            case 1:
+                matrix.addConnection(0 + (idx * 2), 0);
+                matrix.addConnection(1 + (idx * 2), 1);
+                break;
+            case 2:
+                matrix.addConnection(0 + (idx * 2), 2);
+                success = matrix.addConnection(1 + (idx * 2), 3);
+                break;
+            case 3:
+                matrix.addConnection(0 + (idx * 2), 4);
+                success = matrix.addConnection(1 + (idx * 2), 5);
+                break;
+        }
+
+        //Reset to Channel 1+2 in case of an error
+        if(!success)
+        {
+            matrix.addConnection(0 + (idx * 2), 0);
+            matrix.addConnection(1 + (idx * 2), 1);
+        }
+    };
 	
     function purgeButtonPaintRoutine(g)
 	{							

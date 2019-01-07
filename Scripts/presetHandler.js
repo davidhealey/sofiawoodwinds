@@ -19,11 +19,10 @@ namespace PresetHandler
 {
     inline function onInitCB()
     {
-        const var gainMod = Synth.getModulator("vibratoGain"); //Vibrato gain modulator
-        const var pitchMod = Synth.getModulator("vibratoPitch"); //Vibrato pitch modulator
-        const var vibratoLFOHandler = Synth.getMidiProcessor("vibratoLFOHandler");
-        const var legato = Synth.getMidiProcessor("legato"); //legato script
-        const var roundRobin = Synth.getMidiProcessor("roundRobin"); //Sustain/legato/glide round robin handler
+        const var legato = Synth.getMidiProcessor("legato"); //legato script       
+        const var roundRobin = [];
+        roundRobin[0] = Synth.getMidiProcessor("roundRobin"); //Sustain/staccato round robin handler
+        roundRobin[1] = Synth.getMidiProcessor("transitionRoundRobin"); //Transition round robin handler
 
         //Get samplers as child synths
         const var samplerIds = Synth.getIdList("Sampler");
@@ -73,7 +72,6 @@ namespace PresetHandler
         loadSampleMaps(name); //Load sample maps for current preset
         loadGainSettings(name);
         loadLegatoSettings(name);
-        loadVibratoSettings(name);
         setRoundRobinRange(name); //Set the upper and lower note range of the RR scripts
         Mixer.enablePurgeButtons(); //Set purge buttons to 1 (unpurged)
     }
@@ -144,29 +142,30 @@ namespace PresetHandler
 
     inline function loadLegatoSettings(patchName)
     {
-        local attributes = {BEND_TIME:4, MIN_BEND:5, MAX_BEND:6, FADE_TIME:7}; //Legato handler attributes
+        local attributes = {
+            BEND_TIME:8,
+            MIN_BEND:9,
+            MAX_BEND:10,
+            FADE_TIME_MIN:5,
+            FADE_TIME_MAX:6
+        };        
+        
         local settings = Manifest.patches[patchName].legatoSettings; //Get instrument's settings
 
         legato.setAttribute(attributes.BEND_TIME, settings.bendTime);
         legato.setAttribute(attributes.MIN_BEND, settings.minBend);
         legato.setAttribute(attributes.MAX_BEND, settings.maxBend);
-        legato.setAttribute(attributes.FADE_TIME, settings.fadeTime);
+        legato.setAttribute(attributes.FADE_TIME_MAX, settings.fadeTimeMax);
     }
-
-    inline function loadVibratoSettings(patchName)
-    {
-        local settings = Manifest.patches[patchName].vibratoSettings; //Get instrument's vibrato settings
-
-        gainMod.setIntensity(settings.gain);
-        vibratoLFOHandler.setAttribute(0, settings.pitch);
-        //pitchMod.setIntensity(settings.pitch);
-    }
-    
+   
     //Set the range of the sustain/legato/glide round robin handler
     inline function setRoundRobinRange(patchName)
     {
       local range = Manifest.patches[patchName].range;
-      roundRobin.setAttribute(2, range[0]);
-      roundRobin.setAttribute(3, range[1]);
+      for (i = 0; i < roundRobin.length; i++)
+        {
+          roundRobin[i].setAttribute(2, range[0]);
+          roundRobin[i].setAttribute(3, range[1]);   
+        }
     }
 }

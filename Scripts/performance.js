@@ -30,11 +30,7 @@ namespace Performance
         ui.sliderPanel("sliGlide", sliGlidePaintRoutine, 5, 5);
         
         Content.setPropertiesFromJSON("sliRelease", {bgColour:Theme.C2, itemColour:Theme.F});
-
-        //Glide mode
-	    Content.setPropertiesFromJSON("btnGlideMode", {bgColour:Theme.C5, itemColour:Theme.C4, itemColour2:Theme.C2, textColour:Theme.C6});
-	    ui.buttonPanel("btnGlideMode", paintRoutines.onOffButton);
-	    
+    
         //Release trigger purge button
 	    Content.setPropertiesFromJSON("btnPurgeReleases", {bgColour:Theme.C5, itemColour:Theme.C4, itemColour2:Theme.C2, textColour:Theme.C6});
 	    ui.buttonPanel("btnPurgeReleases", paintRoutines.onOffButton);
@@ -46,7 +42,7 @@ namespace Performance
 	   
     function sliGlidePaintRoutine(g)
     {   
-        reg rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"];
+        reg rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
         reg range = this.get("max") - this.get("min");
         reg newVal = (this.getWidth() / range) * (this.get("min") + this.getValue());
      

@@ -4,7 +4,7 @@ reg retriggerNote = -1;
 reg eventId;
 
 //Gain contant modulator
-const var transitionGain = Synth.getModulator("transitionGain");
+const var transitions = Synth.getChildSynth("transitions");
 
 const var knbGain = Content.addKnob("knbGain", 0, 0);
 knbGain.set("text", "Gain");
@@ -13,7 +13,7 @@ knbGain.setControlCallback(knbGainCB);
 
 inline function knbGainCB(control, value)
 {
-    transitionGain.setIntensity(1-Engine.getGainFactorForDecibels(value));
+    transitions.setAttribute(transitions.Gain, Engine.getGainFactorForDecibels(value));
 }function onNoteOn()
 {    
     currentNote = Message.getNoteNumber();
