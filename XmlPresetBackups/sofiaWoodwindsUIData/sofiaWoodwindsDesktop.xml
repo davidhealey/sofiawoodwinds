@@ -4,336 +4,303 @@
   <Component type="ScriptPanel" id="guiContainer" x="0" y="0" width="700"
              height="800" borderSize="0" borderRadius="0" itemColour2="0"
              bgColour="0" itemColour="0" textColour="0">
-    <Component type="ScriptPanel" id="pnlMain" x="0" y="0" width="700" height="460"
-               itemColour2="4280690214" itemColour="4280690214" textColour="0"
-               saveInPreset="1" borderSize="0" borderRadius="0" bgColour="0"
+    <Component type="ScriptPanel" id="pnlHeader" x="0" y="0" width="700" height="50"
+               borderRadius="0" borderSize="0" itemColour="4280690214" itemColour2="4280690214"
                parentComponent="guiContainer">
-      <Component type="ScriptPanel" id="pnlHeader" x="0" y="0" width="700" height="50"
-                 borderRadius="0" borderSize="0" itemColour="4280690214" itemColour2="4280690214"
-                 parentComponent="pnlMain">
-        <Component type="ScriptLabel" id="lblProjectName" x="20" y="0" width="300"
-                   height="50" parentComponent="pnlHeader" text="Sofia Woodwinds"
-                   fontName="Oxygen" fontSize="32" alignment="left" editable="0"
-                   saveInPreset="0"/>
+      <Component type="ScriptLabel" id="lblProjectName" x="20" y="0" width="300"
+                 height="50" parentComponent="pnlHeader" text="Sofia Woodwinds"
+                 fontName="Oxygen" fontSize="32" alignment="left" editable="0"
+                 saveInPreset="0"/>
+    </Component>
+    <Component type="ScriptPanel" id="pnlPreset" x="430" y="0" width="250" height="50"
+               borderRadius="0" borderSize="0" bgColour="12698049" itemColour="0"
+               itemColour2="0" saveInPreset="1" textColour="16777215" parentComponent="guiContainer">
+      <Component type="ScriptComboBox" id="cmbPreset" x="50" y="11" width="200"
+                 height="32" max="13" parentComponent="pnlPreset" text="Patch"
+                 bgColour="16777215" items="Sofia Woodwinds: Piccolo&#10;Sofia Woodwinds: Concert Flute I&#10;Sofia Woodwinds: Concert Flute II&#10;Sofia Woodwinds: Alto Flute&#10;Sofia Woodwinds: Oboe I&#10;Sofia Woodwinds: Oboe II&#10;Sofia Woodwinds: Cor Anglais&#10;Sofia Woodwinds: Clarinet I&#10;Sofia Woodwinds: Clarinet II&#10;Sofia Woodwinds: Bass Clarinet&#10;Sofia Woodwinds: Bassoon I&#10;Sofia Woodwinds: Bassoon II&#10;Sofia Woodwinds: Contrabassoon"
+                 itemColour="4283585106" itemColour2="4283585106"/>
+    </Component>
+    <Component type="ScriptPanel" id="pnlMixer" x="0" y="0" width="660" height="320"
+               parentComponent="guiContainer" borderRadius="0" borderSize="0"
+               bgColour="16777215" textColour="16777215" itemColour2="4281545523"
+               itemColour="4281545523">
+      <Component type="ScriptLabel" id="lblDelay" x="105" y="16" width="100" height="32"
+                 text="Delay" alignment="left" editable="0" parentComponent="pnlMixer"
+                 fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
+                 textColour="4258057420"/>
+      <Component type="ScriptLabel" id="lblWidth" x="105" y="54" width="100" height="32"
+                 text="Width" alignment="left" editable="0" parentComponent="pnlMixer"
+                 fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
+                 textColour="4258057420"/>
+      <Component type="ScriptLabel" id="lblPan" x="105" y="90" width="100" height="32"
+                 text="Pan" alignment="left" editable="0" parentComponent="pnlMixer"
+                 fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
+                 textColour="4258057420"/>
+      <Component type="ScriptPanel" id="pnlMixerControls" x="175" y="0" width="434"
+                 height="315" parentComponent="pnlMixer" bgColour="0" itemColour="0"
+                 itemColour2="0" textColour="0" borderSize="0" borderRadius="0">
+        <Component type="ScriptPanel" id="btnPurge0" x="0" y="237" width="100" height="30"
+                   parentComponent="pnlMixerControls" bgColour="4283979864" itemColour="4286216826"
+                   allowCallbacks="Clicks Only" saveInPreset="1" text="Close" itemColour2="0"
+                   textColour="4294967295" holdIsRightClick="0" tooltip="Close mic purge"/>
+        <Component type="ScriptPanel" id="btnPurge1" x="105" y="237" width="100"
+                   height="30" parentComponent="pnlMixerControls" bgColour="4283979864"
+                   itemColour="4286216826" allowCallbacks="Clicks Only" saveInPreset="1"
+                   text="Decca" itemColour2="0" textColour="4294967295" tooltip="Decca Mic Purge"/>
+        <Component type="ScriptPanel" id="btnPurge2" x="210" y="237" width="100"
+                   height="30" parentComponent="pnlMixerControls" bgColour="4283979864"
+                   itemColour="4286216826" allowCallbacks="Clicks Only" saveInPreset="1"
+                   text="Hall" itemColour2="0" textColour="4294967295" tooltip="Hall Mic Purge"/>
+        <Component type="ScriptSlider" id="sliVol0" x="35" y="130" width="32" height="100"
+                   parentComponent="pnlMixerControls" mode="Decibel" min="-100"
+                   max="0" stepSize="0.1" middlePosition="-18" defaultValue="-9"
+                   style="Vertical" showValuePopup="Right" bgColour="4280690214"
+                   itemColour="4283532715" isPluginParameter="1" pluginParameterName="Close Gain"
+                   processorId="channel1" parameterId="Gain" tooltip="Close Gain"/>
+        <Component type="ScriptSlider" id="sliVol1" x="139" y="130" width="32" height="100"
+                   parentComponent="pnlMixerControls" mode="Decibel" min="-100"
+                   max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
+                   style="Vertical" showValuePopup="Right" bgColour="4280690214"
+                   itemColour="4283532715" isPluginParameter="1" pluginParameterName="Decca Gain"
+                   processorId="channel2" parameterId="Gain" tooltip="Decca Gain"/>
+        <Component type="ScriptSlider" id="sliVol2" x="243" y="130" width="32" height="100"
+                   parentComponent="pnlMixerControls" mode="Decibel" min="-100"
+                   max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
+                   style="Vertical" showValuePopup="Right" bgColour="4280690214"
+                   itemColour="4283532715" isPluginParameter="1" pluginParameterName="Hall Gain"
+                   processorId="channel3" parameterId="Gain" tooltip="Hall Gain"/>
+        <Component type="ScriptPanel" id="sliPan0" x="35" y="93" width="30" height="30"
+                   borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
+                   stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
+                   itemColour="4283532715" processorId="channel1" parameterId="Balance"
+                   itemColour2="16711680" isPluginParameter="1" pluginParameterName="Close Pan"
+                   tooltip="Close Pan"/>
+        <Component type="ScriptPanel" id="sliPan1" x="139" y="93" width="30" height="30"
+                   borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
+                   stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
+                   itemColour="4283532715" processorId="channel2" parameterId="Balance"
+                   itemColour2="16711680" isPluginParameter="1" pluginParameterName="Decca Pan"
+                   tooltip="Decca Pan"/>
+        <Component type="ScriptPanel" id="sliPan2" x="243" y="93" width="30" height="30"
+                   borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
+                   stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
+                   itemColour="4283532715" processorId="channel3" parameterId="Balance"
+                   itemColour2="16711680" isPluginParameter="1" pluginParameterName="Hall Pan"
+                   tooltip="Hall Pan"/>
+        <Component type="ScriptPanel" id="sliWidth0" x="35" y="56" width="32" height="32"
+                   borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
+                   stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4283532715"
+                   processorId="channel1" parameterId="Width" itemColour2="16711680"
+                   isPluginParameter="1" pluginParameterName="Close Width" tooltip="Close Width"/>
+        <Component type="ScriptPanel" id="sliWidth1" x="139" y="56" width="32" height="32"
+                   borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
+                   stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4283532715"
+                   processorId="channel2" parameterId="Width" itemColour2="16711680"
+                   isPluginParameter="1" pluginParameterName="Decca Width" tooltip="Decca Width"/>
+        <Component type="ScriptPanel" id="sliWidth2" x="243" y="56" width="32" height="32"
+                   borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
+                   stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4283532715"
+                   processorId="channel3" parameterId="Width" itemColour2="16711680"
+                   isPluginParameter="1" pluginParameterName="Hall Width" tooltip="Hall Width"/>
+        <Component type="ScriptPanel" id="sliDelay0" x="35" y="20" width="32" height="32"
+                   borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
+                   stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
+                   processorId="channel1" parameterId="Delay" itemColour2="16711680"
+                   isPluginParameter="1" pluginParameterName="Close Delay" tooltip="Close Delay"/>
+        <Component type="ScriptPanel" id="sliDelay1" x="139" y="20" width="32" height="32"
+                   borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
+                   stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
+                   processorId="channel2" parameterId="Delay" itemColour2="16711680"
+                   isPluginParameter="1" pluginParameterName="Decca Delay" tooltip="Decca Delay"/>
+        <Component type="ScriptPanel" id="sliDelay2" x="243" y="20" width="32" height="32"
+                   borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
+                   stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
+                   processorId="channel3" parameterId="Delay" itemColour2="16711680"
+                   isPluginParameter="1" pluginParameterName="Hall Delay" tooltip="Hall Delay"/>
+        <Component type="ScriptSlider" id="sliVolMaster" x="342" y="159" width="32"
+                   height="100" parentComponent="pnlMixerControls" middlePosition="0.2"
+                   style="Vertical" showValuePopup="Right" bgColour="4280690214"
+                   itemColour="4283532715" processorId="sofiaWoodwinds" parameterId="Gain"
+                   tooltip="Close Gain" isPluginParameter="1" pluginParameterName="Master Gain"/>
+        <Component type="ScriptSlider" id="sliPanMaster" x="325" y="267" width="131"
+                   height="47" parentComponent="pnlMixerControls" processorId="sofiaWoodwinds"
+                   parameterId="Balance" mode="Pan" middlePosition="0" min="-1"
+                   isPluginParameter="1" pluginParameterName="Master Pan"/>
+        <Component type="ScriptComboBox" id="cmbOutput0" x="0" y="279" width="104"
+                   height="32" parentComponent="pnlMixerControls" items="1/2"/>
+        <Component type="ScriptComboBox" id="cmbOutput1" x="107" y="279" width="104"
+                   height="32" parentComponent="pnlMixerControls" items="1/2"/>
+        <Component type="ScriptComboBox" id="cmbOutput2" x="215" y="279" width="104"
+                   height="32" parentComponent="pnlMixerControls" items="1/2"/>
+        <Component type="ScriptPanel" id="pnlOutputMeter0" x="296" y="46" width="16"
+                   height="100" parentComponent="pnlMixerControls" borderSize="0"
+                   borderRadius="0" bgColour="4279505940" itemColour="4287692721"
+                   itemColour2="4279505940" textColour="4283782485" opaque="1"/>
       </Component>
-      <Component type="ScriptPanel" id="pnlPreset" x="430" y="0" width="250" height="50"
-                 borderRadius="0" borderSize="0" bgColour="12698049" itemColour="0"
-                 itemColour2="0" saveInPreset="1" textColour="16777215" parentComponent="pnlMain">
-        <Component type="ScriptComboBox" id="cmbPreset" x="50" y="11" width="200"
-                   height="32" max="13" parentComponent="pnlPreset" text="Patch"
-                   bgColour="16777215" items="Sofia Woodwinds: Piccolo&#10;Sofia Woodwinds: Concert Flute I&#10;Sofia Woodwinds: Concert Flute II&#10;Sofia Woodwinds: Alto Flute&#10;Sofia Woodwinds: Oboe I&#10;Sofia Woodwinds: Oboe II&#10;Sofia Woodwinds: Cor Anglais&#10;Sofia Woodwinds: Clarinet I&#10;Sofia Woodwinds: Clarinet II&#10;Sofia Woodwinds: Bass Clarinet&#10;Sofia Woodwinds: Bassoon I&#10;Sofia Woodwinds: Bassoon II&#10;Sofia Woodwinds: Contrabassoon"
-                   itemColour="4283585106" itemColour2="4283585106"/>
+      <Component type="ScriptSlider" id="knbStaccatoGain" x="14" y="160" parentComponent="pnlMixer"
+                 processorId="staccatoGainHandler" parameterId="knbGain" mode="Decibel"
+                 max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
+                 min="-100" text="Staccato Gain"/>
+      <Component type="ScriptSlider" id="knbTransitionGain" x="22" y="221" width="134"
+                 height="50" parentComponent="pnlMixer" stepSize="0.1" suffix=" dB"
+                 middlePosition="-18" mode="Decibel" min="-100" max="0" processorId="transitionHandler"
+                 parameterId="knbGain" text="Transition Gain"/>
+    </Component>
+    <Component type="ScriptPanel" id="pnlControllers" x="0" y="0" width="320"
+               height="320" parentComponent="guiContainer" bgColour="0" itemColour="4281545523"
+               itemColour2="4281545523" textColour="0" borderSize="0" borderRadius="0">
+      <Component type="ScriptLabel" id="lblParameter" x="20" y="20" width="100"
+                 height="32" text="Parameter" alignment="left" editable="0" parentComponent="pnlControllers"
+                 fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
+                 textColour="4258057420"/>
+      <Component type="ScriptLabel" id="lblController" x="20" y="69" width="100"
+                 height="32" text="Controller" alignment="left" editable="0" parentComponent="pnlControllers"
+                 fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
+                 textColour="4258057420"/>
+      <Component type="ScriptComboBox" id="cmbParam" x="200" y="20" itemColour2="4283585106"
+                 itemColour="4283585106" bgColour="11447982" parentComponent="pnlControllers"
+                 width="100" items="Velocity&#10;Expression&#10;Dynamics&#10;Vibrato&#10;Vibrato Speed&#10;Breath&#10;Flutter"
+                 text="Parameters" max="7" height="32"/>
+      <Component type="ScriptComboBox" id="cmbCc0" x="200" y="69" itemColour2="4283585106"
+                 itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
+                 width="100" enabled="0" items="Velocity" height="32" text="Velocity"
+                 visible="0"/>
+      <Component type="ScriptComboBox" id="cmbCc1" x="200" y="69" max="125" itemColour2="4283585106"
+                 itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
+                 width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                 defaultValue="11" height="32" processorId="expressionCC" parameterId="ControllerNumber"
+                 visible="0"/>
+      <Component type="ScriptComboBox" id="cmbCc2" x="200" y="69" max="125" itemColour2="4283585106"
+                 itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
+                 width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                 height="32" processorId="velocityShaper" parameterId="knbCC"/>
+      <Component type="ScriptComboBox" id="cmbCc3" x="200" y="69" max="125" itemColour2="4283585106"
+                 itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
+                 width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                 defaultValue="20" height="32" processorId="vibratoLFOHandler"
+                 parameterId="knbCC" visible="0"/>
+      <Component type="ScriptComboBox" id="cmbCc4" x="200" y="69" max="125" itemColour2="4283585106"
+                 itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
+                 width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                 defaultValue="20" height="32" processorId="vibratoRateCC" parameterId="ControllerNumber"
+                 visible="0"/>
+      <Component type="ScriptComboBox" id="cmbCc5" x="200" y="69" max="125" itemColour2="4283585106"
+                 itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
+                 width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                 height="32" processorId="legato" parameterId="knbCC" visible="0"/>
+      <Component type="ScriptComboBox" id="cmbCc6" x="200" y="69" max="125" itemColour2="4283585106"
+                 itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
+                 width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                 height="32" processorId="flutterCCSetter" parameterId="knbCC"
+                 defaultValue="5" visible="0"/>
+      <Component type="ScriptTable" id="tblCc0" x="20" y="119" width="280" height="180"
+                 parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
+                 itemColour="4286216826" itemColour2="1879048192" visible="0"/>
+      <Component type="ScriptTable" id="tblCc1" x="20" y="119" width="280" height="180"
+                 parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
+                 itemColour2="1879048192" customColours="1" processorId="expressionCC"
+                 visible="0"/>
+      <Component type="ScriptTable" id="tblCc2" x="20" y="119" width="280" height="180"
+                 parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
+                 itemColour="4286216826" itemColour2="1879048192" processorId="dynamicsCC"/>
+      <Component type="ScriptTable" id="tblCc3" x="20" y="119" width="280" height="180"
+                 parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
+                 itemColour2="1879048192" customColours="1" processorId="vibratoPitch"
+                 visible="0"/>
+      <Component type="ScriptTable" id="tblCc4" x="20" y="119" width="280" height="180"
+                 parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
+                 itemColour="4286216826" itemColour2="1879048192" processorId="vibratoRateCC"
+                 visible="0"/>
+      <Component type="ScriptTable" id="tblCc5" x="20" y="119" width="280" height="180"
+                 parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
+                 itemColour="4286216826" itemColour2="1879048192" visible="0"/>
+      <Component type="ScriptTable" id="tblCc6" x="20" y="119" width="280" height="180"
+                 parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
+                 itemColour="4286216826" itemColour2="1879048192" visible="0"/>
+    </Component>
+    <Component type="ScriptPanel" id="pnlPerformance" x="340" y="0" width="320"
+               height="320" parentComponent="guiContainer" borderSize="0" borderRadius="0"
+               textColour="0" itemColour2="4281545523" itemColour="4281545523"
+               bgColour="0">
+      <Component type="ScriptLabel" id="lblOffset" x="20" y="20" width="150" height="32"
+                 text="Legato Offset" alignment="left" editable="0" parentComponent="pnlPerformance"
+                 fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
+                 textColour="4258057420"/>
+      <Component type="ScriptLabel" id="lblRelease" x="20" y="69" width="150"
+                 height="32" text="Legato Release" alignment="left" editable="0"
+                 parentComponent="pnlPerformance" fontName="Oxygen-Bold" fontSize="20"
+                 itemColour2="1118481" saveInPreset="0" textColour="4258057420"/>
+      <Component type="ScriptLabel" id="lblGlideRate" x="20" y="119" width="100"
+                 height="32" text="Glide Rate" alignment="left" editable="0" parentComponent="pnlPerformance"
+                 fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
+                 textColour="4258057420"/>
+      <Component type="ScriptLabel" id="lblReleases" x="20" y="218" width="150"
+                 height="32" text="Purge Releases" alignment="left" editable="0"
+                 parentComponent="pnlPerformance" fontName="Oxygen-Bold" fontSize="20"
+                 itemColour2="1118481" saveInPreset="0" textColour="4258057420"/>
+      <Component type="ScriptLabel" id="lblRR" x="20" y="268" width="150" height="32"
+                 text="Round Robin" alignment="left" editable="0" parentComponent="pnlPerformance"
+                 fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
+                 textColour="4258057420"/>
+      <Component type="ScriptSlider" id="sliOffset" x="200" y="20" width="100"
+                 height="32" parentComponent="pnlPerformance" mode="NormalizedPercentage"
+                 suffix="%" middlePosition="0.5" style="Horizontal" defaultValue="0.050000001"
+                 isPluginParameter="1" pluginParameterName="Legato Offset" bgColour="4280690214"
+                 itemColour="4283532715" processorId="legato" parameterId="knbOffset"/>
+      <Component type="ScriptSlider" id="sliRelease" x="200" y="69" width="100"
+                 height="32" parentComponent="pnlPerformance" suffix=" %" middlePosition="50"
+                 style="Horizontal" defaultValue="100" isPluginParameter="1" pluginParameterName="Legato Release"
+                 max="100" stepSize="1" min="10" bgColour="4280690214" itemColour="4283532715"
+                 processorId="legato" parameterId="knbFadeOut"/>
+      <Component type="ScriptPanel" id="sliGlide" x="200" y="119" width="100"
+                 height="32" parentComponent="pnlPerformance" saveInPreset="1"
+                 borderSize="0" borderRadius="0" isPluginParameter="1" pluginParameterName="Glide Rate"
+                 bgColour="4280690214" itemColour="4283532715" allowCallbacks="Clicks, Hover &amp; Dragging"
+                 max="18" textColour="4294967295" defaultValue="8" processorId="legato"
+                 parameterId="knbRate"/>
+      <Component type="ScriptPanel" id="btnPurgeReleases" x="200" y="218" width="100"
+                 parentComponent="pnlPerformance" text="Off" height="32" borderRadius="0"
+                 borderSize="0" allowCallbacks="Clicks Only" textColour="4294967295"
+                 itemColour2="4280690214" itemColour="4283585106" saveInPreset="1"
+                 bgColour="4286216826" popupOnRightClick="0" holdIsRightClick="0"
+                 opaque="1" processorId="release" parameterId="Purged"/>
+      <Component type="ScriptPanel" id="btnRR" x="200" y="268" width="100" parentComponent="pnlPerformance"
+                 text="Off" height="32" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
+                 textColour="4294967295" itemColour2="4280690214" itemColour="4283585106"
+                 saveInPreset="1" bgColour="4286216826" popupOnRightClick="0"
+                 holdIsRightClick="0" opaque="1" isPluginParameter="1" pluginParameterName="Round Robin"
+                 processorId="roundRobin" parameterId="Enabled" defaultValue="1"/>
+    </Component>
+    <Component type="ScriptPanel" id="page2" x="20" y="60" width="660" height="320"
+               parentComponent="guiContainer" bgColour="16777215" itemColour="0"
+               itemColour2="0" borderSize="0" borderRadius="0" visible="0">
+      <Component type="ScriptPanel" id="pnlSettings" x="0" y="0" width="660" height="320"
+                 parentComponent="page2" borderSize="0" borderRadius="0" itemColour="4281545523"
+                 itemColour2="4281545523">
+        <Component type="ScriptFloatingTile" id="fltSettings" x="0" y="0" width="660"
+                   height="310" parentComponent="pnlSettings" Font="Oxygen-Regular"
+                   FontSize="22" bgColour="4283519313" itemColour2="4294951115"
+                   itemColour="4284900966" ContentType="Tabs" Data="{&#13;&#10;  &quot;Dynamic&quot;: false,&#13;&#10;  &quot;Content&quot;: [&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;CustomSettings&quot;,&#13;&#10;      &quot;Title&quot;: &quot;Engine&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Bold&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;&#13;&#10;      },&#13;&#10;      &quot;Driver&quot;: true,&#13;&#10;      &quot;Device&quot;: true,&#13;&#10;      &quot;Output&quot;: true,&#13;&#10;      &quot;BufferSize&quot;: true,&#13;&#10;      &quot;SampleRate&quot;: true,&#13;&#10;      &quot;GlobalBPM&quot;: false,&#13;&#10;      &quot;StreamingMode&quot;: true,&#13;&#10;      &quot;GraphicRendering&quot;: false,&#13;&#10;      &quot;ScaleFactor&quot;: true,&#13;&#10;      &quot;SustainCC&quot;: false,&#13;&#10;      &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;      &quot;ClearMidiCC&quot;: true,&#13;&#10;      &quot;SampleLocation&quot;: true,&#13;&#10;      &quot;DebugMode&quot;: false,&#13;&#10;      &quot;ScaleFactorList&quot;: [&#13;&#10;        1,&#13;&#10;        1.25,&#13;&#10;        1.5,&#13;&#10;        2&#13;&#10;      ]&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiSources&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Input&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Regular&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiChannelList&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Channel&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Regular&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiLearnPanel&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Automation&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Regular&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;,&#13;&#10;        &quot;textColour&quot;: &quot;ffffffff&quot;,&#13;&#10;        &quot;itemColour1&quot;: &quot;ff525252&quot;&#13;&#10;      }&#13;&#10;    }&#13;&#10;  ],&#13;&#10;  &quot;CurrentTab&quot;: 0&#13;&#10;}"/>
       </Component>
-      <Component type="ScriptPanel" id="pnlMenu" x="0" y="410" width="700" height="50"
-                 parentComponent="pnlMain" borderRadius="0" borderSize="0" bgColour="0"
-                 itemColour="4281545523" itemColour2="4281545523" textColour="0">
-        <Component type="ScriptLabel" id="lblMenu" x="100" y="0" text="Mixer | Performance | Settings"
-                   parentComponent="pnlMenu" width="500" fontName="Oxygen-Regular"
-                   fontSize="23" height="50" textColour="4286216826" enabled="0"
-                   saveInPreset="0" editable="0"/>
-        <Component type="ScriptPanel" id="btnPage0" x="217" y="0" width="60" parentComponent="pnlMenu"
-                   text="Mixer" height="50" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
-                   textColour="4294967295" itemColour2="2107744673" itemColour="2107744673"/>
-        <Component type="ScriptPanel" id="btnPage1" x="279" y="0" width="120" parentComponent="pnlMenu"
-                   text="Performance" height="50" borderRadius="0" borderSize="0"
-                   allowCallbacks="Clicks Only" textColour="4294967295" itemColour="2107744673"
-                   itemColour2="2107744673"/>
-        <Component type="ScriptPanel" id="btnPage2" x="401" y="0" width="80" parentComponent="pnlMenu"
-                   text="Settings" height="50" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
-                   textColour="4294967295" itemColour="2107744673" itemColour2="2107744673"/>
-      </Component>
-      <Component type="ScriptPanel" id="page0" x="20" y="60" width="660" height="320"
-                 parentComponent="pnlMain" saveInPreset="1" borderSize="0" borderRadius="0"
-                 itemColour="10354558" itemColour2="10354558" textColour="0" visible="0">
-        <Component type="ScriptPanel" id="pnlMixer" x="0" y="0" width="660" height="320"
-                   parentComponent="page0" borderRadius="0" borderSize="0" bgColour="16777215"
-                   textColour="16777215" itemColour2="4281545523" itemColour="4281545523">
-          <Component type="ScriptLabel" id="lblDelay" x="105" y="16" width="100" height="32"
-                     text="Delay" alignment="left" editable="0" parentComponent="pnlMixer"
-                     fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
-                     textColour="4258057420"/>
-          <Component type="ScriptLabel" id="lblWidth" x="105" y="54" width="100" height="32"
-                     text="Width" alignment="left" editable="0" parentComponent="pnlMixer"
-                     fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
-                     textColour="4258057420"/>
-          <Component type="ScriptLabel" id="lblPan" x="105" y="90" width="100" height="32"
-                     text="Pan" alignment="left" editable="0" parentComponent="pnlMixer"
-                     fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
-                     textColour="4258057420"/>
-          <Component type="ScriptPanel" id="pnlMixerControls" x="175" y="0" width="434"
-                     height="315" parentComponent="pnlMixer" bgColour="0" itemColour="0"
-                     itemColour2="0" textColour="0" borderSize="0" borderRadius="0">
-            <Component type="ScriptPanel" id="btnPurge0" x="0" y="237" width="100" height="30"
-                       parentComponent="pnlMixerControls" bgColour="4283979864" itemColour="4286216826"
-                       allowCallbacks="Clicks Only" saveInPreset="1" text="Close" itemColour2="0"
-                       textColour="4294967295" holdIsRightClick="0" tooltip="Close mic purge"/>
-            <Component type="ScriptPanel" id="btnPurge1" x="105" y="237" width="100"
-                       height="30" parentComponent="pnlMixerControls" bgColour="4283979864"
-                       itemColour="4286216826" allowCallbacks="Clicks Only" saveInPreset="1"
-                       text="Decca" itemColour2="0" textColour="4294967295" tooltip="Decca Mic Purge"/>
-            <Component type="ScriptPanel" id="btnPurge2" x="210" y="237" width="100"
-                       height="30" parentComponent="pnlMixerControls" bgColour="4283979864"
-                       itemColour="4286216826" allowCallbacks="Clicks Only" saveInPreset="1"
-                       text="Hall" itemColour2="0" textColour="4294967295" tooltip="Hall Mic Purge"/>
-            <Component type="ScriptSlider" id="sliVol0" x="35" y="130" width="32" height="100"
-                       parentComponent="pnlMixerControls" mode="Decibel" min="-100"
-                       max="0" stepSize="0.1" middlePosition="-18" defaultValue="-9"
-                       style="Vertical" showValuePopup="Right" bgColour="4280690214"
-                       itemColour="4283532715" isPluginParameter="1" pluginParameterName="Close Gain"
-                       processorId="channel1" parameterId="Gain" tooltip="Close Gain"/>
-            <Component type="ScriptSlider" id="sliVol1" x="139" y="130" width="32" height="100"
-                       parentComponent="pnlMixerControls" mode="Decibel" min="-100"
-                       max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
-                       style="Vertical" showValuePopup="Right" bgColour="4280690214"
-                       itemColour="4283532715" isPluginParameter="1" pluginParameterName="Decca Gain"
-                       processorId="channel2" parameterId="Gain" tooltip="Decca Gain"/>
-            <Component type="ScriptSlider" id="sliVol2" x="243" y="130" width="32" height="100"
-                       parentComponent="pnlMixerControls" mode="Decibel" min="-100"
-                       max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-9"
-                       style="Vertical" showValuePopup="Right" bgColour="4280690214"
-                       itemColour="4283532715" isPluginParameter="1" pluginParameterName="Hall Gain"
-                       processorId="channel3" parameterId="Gain" tooltip="Hall Gain"/>
-            <Component type="ScriptPanel" id="sliPan0" x="35" y="93" width="30" height="30"
-                       borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                       enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
-                       stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
-                       itemColour="4283532715" processorId="channel1" parameterId="Balance"
-                       itemColour2="16711680" isPluginParameter="1" pluginParameterName="Close Pan"
-                       tooltip="Close Pan"/>
-            <Component type="ScriptPanel" id="sliPan1" x="139" y="93" width="30" height="30"
-                       borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                       enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
-                       stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
-                       itemColour="4283532715" processorId="channel2" parameterId="Balance"
-                       itemColour2="16711680" isPluginParameter="1" pluginParameterName="Decca Pan"
-                       tooltip="Decca Pan"/>
-            <Component type="ScriptPanel" id="sliPan2" x="243" y="93" width="30" height="30"
-                       borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                       enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
-                       stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
-                       itemColour="4283532715" processorId="channel3" parameterId="Balance"
-                       itemColour2="16711680" isPluginParameter="1" pluginParameterName="Hall Pan"
-                       tooltip="Hall Pan"/>
-            <Component type="ScriptPanel" id="sliWidth0" x="35" y="56" width="32" height="32"
-                       borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                       enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
-                       stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4283532715"
-                       processorId="channel1" parameterId="Width" itemColour2="16711680"
-                       isPluginParameter="1" pluginParameterName="Close Width" tooltip="Close Width"/>
-            <Component type="ScriptPanel" id="sliWidth1" x="139" y="56" width="32" height="32"
-                       borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                       enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
-                       stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4283532715"
-                       processorId="channel2" parameterId="Width" itemColour2="16711680"
-                       isPluginParameter="1" pluginParameterName="Decca Width" tooltip="Decca Width"/>
-            <Component type="ScriptPanel" id="sliWidth2" x="243" y="56" width="32" height="32"
-                       borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                       enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
-                       stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4283532715"
-                       processorId="channel3" parameterId="Width" itemColour2="16711680"
-                       isPluginParameter="1" pluginParameterName="Hall Width" tooltip="Hall Width"/>
-            <Component type="ScriptPanel" id="sliDelay0" x="35" y="20" width="32" height="32"
-                       borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                       enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
-                       stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
-                       processorId="channel1" parameterId="Delay" itemColour2="16711680"
-                       isPluginParameter="1" pluginParameterName="Close Delay" tooltip="Close Delay"/>
-            <Component type="ScriptPanel" id="sliDelay1" x="139" y="20" width="32" height="32"
-                       borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                       enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
-                       stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
-                       processorId="channel2" parameterId="Delay" itemColour2="16711680"
-                       isPluginParameter="1" pluginParameterName="Decca Delay" tooltip="Decca Delay"/>
-            <Component type="ScriptPanel" id="sliDelay2" x="243" y="20" width="32" height="32"
-                       borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                       enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixerControls"
-                       stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4283532715"
-                       processorId="channel3" parameterId="Delay" itemColour2="16711680"
-                       isPluginParameter="1" pluginParameterName="Hall Delay" tooltip="Hall Delay"/>
-            <Component type="ScriptSlider" id="sliVolMaster" x="342" y="159" width="32"
-                       height="100" parentComponent="pnlMixerControls" middlePosition="0.2"
-                       style="Vertical" showValuePopup="Right" bgColour="4280690214"
-                       itemColour="4283532715" processorId="sofiaWoodwinds" parameterId="Gain"
-                       tooltip="Close Gain" isPluginParameter="1" pluginParameterName="Master Gain"/>
-            <Component type="ScriptSlider" id="sliPanMaster" x="325" y="267" width="131"
-                       height="47" parentComponent="pnlMixerControls" processorId="sofiaWoodwinds"
-                       parameterId="Balance" mode="Pan" middlePosition="0" min="-1"
-                       isPluginParameter="1" pluginParameterName="Master Pan"/>
-            <Component type="ScriptComboBox" id="cmbOutput0" x="0" y="279" width="104"
-                       height="32" parentComponent="pnlMixerControls" items="1/2"/>
-            <Component type="ScriptComboBox" id="cmbOutput1" x="107" y="279" width="104"
-                       height="32" parentComponent="pnlMixerControls" items="1/2"/>
-            <Component type="ScriptComboBox" id="cmbOutput2" x="215" y="279" width="104"
-                       height="32" parentComponent="pnlMixerControls" items="1/2"/>
-            <Component type="ScriptPanel" id="pnlOutputMeter0" x="296" y="46" width="16"
-                       height="100" parentComponent="pnlMixerControls" borderSize="0"
-                       borderRadius="0" bgColour="4279505940" itemColour="4287692721"
-                       itemColour2="4279505940" textColour="4283782485" opaque="1"/>
-            <Component type="ScriptPanel" id="pnlOutputMeter1" x="313" y="46" width="16"
-                       height="100" parentComponent="pnlMixerControls" borderSize="0"
-                       borderRadius="0" bgColour="4279505940" itemColour="4287692721"
-                       itemColour2="4279505940" textColour="4283782485" opaque="1"/>
-            <Component type="ScriptPanel" id="pnlOutputMeter2" x="330" y="46" width="16"
-                       height="100" parentComponent="pnlMixerControls" borderSize="0"
-                       borderRadius="0" bgColour="4279505940" itemColour="4287692721"
-                       itemColour2="4279505940" textColour="4283782485" opaque="1"/>
-          </Component>
-          <Component type="ScriptSlider" id="knbStaccatoGain" x="14" y="160" parentComponent="pnlMixer"
-                     processorId="staccatoGainHandler" parameterId="knbGain" mode="Decibel"
-                     max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
-                     min="-100" text="Staccato Gain"/>
-          <Component type="ScriptSlider" id="knbTransitionGain" x="22" y="221" width="134"
-                     height="50" parentComponent="pnlMixer" stepSize="0.1" suffix=" dB"
-                     middlePosition="-18" mode="Decibel" min="-100" max="0" processorId="transitionHandler"
-                     parameterId="knbGain" text="Transition Gain"/>
-        </Component>
-      </Component>
-      <Component type="ScriptPanel" id="page1" x="20" y="60" width="660" height="320"
-                 parentComponent="pnlMain" borderSize="0" borderRadius="0" itemColour="10354558"
-                 itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215">
-        <Component type="ScriptPanel" id="pnlControllers" x="0" y="0" width="320"
-                   height="320" parentComponent="page1" bgColour="0" itemColour="4281545523"
-                   itemColour2="4281545523" textColour="0" borderSize="0" borderRadius="0">
-          <Component type="ScriptLabel" id="lblParameter" x="20" y="20" width="100"
-                     height="32" text="Parameter" alignment="left" editable="0" parentComponent="pnlControllers"
-                     fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
-                     textColour="4258057420"/>
-          <Component type="ScriptLabel" id="lblController" x="20" y="69" width="100"
-                     height="32" text="Controller" alignment="left" editable="0" parentComponent="pnlControllers"
-                     fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
-                     textColour="4258057420"/>
-          <Component type="ScriptComboBox" id="cmbParam" x="200" y="20" itemColour2="4283585106"
-                     itemColour="4283585106" bgColour="11447982" parentComponent="pnlControllers"
-                     width="100" items="Velocity&#10;Expression&#10;Dynamics&#10;Vibrato&#10;Vibrato Speed&#10;Breath"
-                     text="Parameters" max="6" height="32"/>
-          <Component type="ScriptComboBox" id="cmbCc0" x="200" y="69" itemColour2="4283585106"
-                     itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
-                     width="100" enabled="0" items="Velocity" height="32" text="Velocity"
-                     visible="0"/>
-          <Component type="ScriptComboBox" id="cmbCc1" x="200" y="69" max="125" itemColour2="4283585106"
-                     itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
-                     width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                     defaultValue="11" height="32" processorId="expressionCC" parameterId="ControllerNumber"
-                     visible="0"/>
-          <Component type="ScriptComboBox" id="cmbCc2" x="200" y="69" max="125" itemColour2="4283585106"
-                     itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
-                     width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                     height="32" processorId="dynamicsCC" parameterId="ControllerNumber"
-                     visible="0"/>
-          <Component type="ScriptComboBox" id="cmbCc3" x="200" y="69" max="125" itemColour2="4283585106"
-                     itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
-                     width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                     defaultValue="20" height="32" processorId="vibratoLFOHandler"
-                     parameterId="knbCC" visible="0"/>
-          <Component type="ScriptComboBox" id="cmbCc4" x="200" y="69" max="125" itemColour2="4283585106"
-                     itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
-                     width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                     defaultValue="20" height="32" processorId="vibratoRateCC" parameterId="ControllerNumber"
-                     visible="0"/>
-          <Component type="ScriptComboBox" id="cmbCc5" x="200" y="69" max="125" itemColour2="4283585106"
-                     itemColour="4283585106" bgColour="0" parentComponent="pnlControllers"
-                     width="100" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                     defaultValue="20" height="32" processorId="breathModeHandler"
-                     parameterId="knbCC"/>
-          <Component type="ScriptTable" id="tblCc0" x="20" y="119" width="280" height="180"
-                     parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
-                     itemColour="4286216826" itemColour2="1879048192" visible="0"/>
-          <Component type="ScriptTable" id="tblCc1" x="20" y="119" width="280" height="180"
-                     parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
-                     itemColour2="1879048192" customColours="1" processorId="expressionCC"
-                     visible="0"/>
-          <Component type="ScriptTable" id="tblCc2" x="20" y="119" width="280" height="180"
-                     parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
-                     itemColour="4286216826" itemColour2="1879048192" processorId="dynamicsCC"
-                     visible="0"/>
-          <Component type="ScriptTable" id="tblCc3" x="20" y="119" width="280" height="180"
-                     parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
-                     itemColour2="1879048192" customColours="1" processorId="vibratoPitch"
-                     visible="0"/>
-          <Component type="ScriptTable" id="tblCc4" x="20" y="119" width="280" height="180"
-                     parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
-                     itemColour="4286216826" itemColour2="1879048192" processorId="vibratoRateCC"
-                     visible="0"/>
-          <Component type="ScriptTable" id="tblCc5" x="20" y="119" width="280" height="180"
-                     parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
-                     itemColour="4286216826" itemColour2="1879048192"/>
-        </Component>
-        <Component type="ScriptPanel" id="pnlPerformance" x="340" y="0" width="320"
-                   height="320" parentComponent="page1" borderSize="0" borderRadius="0"
-                   textColour="0" itemColour2="4281545523" itemColour="4281545523"
-                   bgColour="0">
-          <Component type="ScriptLabel" id="lblOffset" x="20" y="20" width="150" height="32"
-                     text="Legato Offset" alignment="left" editable="0" parentComponent="pnlPerformance"
-                     fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
-                     textColour="4258057420"/>
-          <Component type="ScriptLabel" id="lblRelease" x="20" y="69" width="150"
-                     height="32" text="Legato Release" alignment="left" editable="0"
-                     parentComponent="pnlPerformance" fontName="Oxygen-Bold" fontSize="20"
-                     itemColour2="1118481" saveInPreset="0" textColour="4258057420"/>
-          <Component type="ScriptLabel" id="lblGlideRate" x="20" y="119" width="100"
-                     height="32" text="Glide Rate" alignment="left" editable="0" parentComponent="pnlPerformance"
-                     fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
-                     textColour="4258057420"/>
-          <Component type="ScriptLabel" id="lblReleases" x="20" y="218" width="150"
-                     height="32" text="Purge Releases" alignment="left" editable="0"
-                     parentComponent="pnlPerformance" fontName="Oxygen-Bold" fontSize="20"
-                     itemColour2="1118481" saveInPreset="0" textColour="4258057420"/>
-          <Component type="ScriptLabel" id="lblRR" x="20" y="268" width="150" height="32"
-                     text="Round Robin" alignment="left" editable="0" parentComponent="pnlPerformance"
-                     fontName="Oxygen-Bold" fontSize="20" itemColour2="1118481" saveInPreset="0"
-                     textColour="4258057420"/>
-          <Component type="ScriptSlider" id="sliOffset" x="200" y="20" width="100"
-                     height="32" parentComponent="pnlPerformance" mode="NormalizedPercentage"
-                     suffix="%" middlePosition="0.5" style="Horizontal" defaultValue="0.050000001"
-                     isPluginParameter="1" pluginParameterName="Legato Offset" bgColour="4280690214"
-                     itemColour="4283532715" processorId="legato" parameterId="knbOffset"/>
-          <Component type="ScriptSlider" id="sliRelease" x="200" y="69" width="100"
-                     height="32" parentComponent="pnlPerformance" suffix=" %" middlePosition="50"
-                     style="Horizontal" defaultValue="100" isPluginParameter="1" pluginParameterName="Legato Release"
-                     max="100" stepSize="1" min="10" bgColour="4280690214" itemColour="4283532715"
-                     processorId="legato" parameterId="knbFadeOut"/>
-          <Component type="ScriptPanel" id="sliGlide" x="200" y="119" width="100"
-                     height="32" parentComponent="pnlPerformance" saveInPreset="1"
-                     borderSize="0" borderRadius="0" isPluginParameter="1" pluginParameterName="Glide Rate"
-                     bgColour="4280690214" itemColour="4283532715" allowCallbacks="Clicks, Hover &amp; Dragging"
-                     max="18" textColour="4294967295" defaultValue="8" processorId="legato"
-                     parameterId="knbRate"/>
-          <Component type="ScriptPanel" id="btnPurgeReleases" x="200" y="218" width="100"
-                     parentComponent="pnlPerformance" text="Off" height="32" borderRadius="0"
-                     borderSize="0" allowCallbacks="Clicks Only" textColour="4294967295"
-                     itemColour2="4280690214" itemColour="4283585106" saveInPreset="1"
-                     bgColour="4286216826" popupOnRightClick="0" holdIsRightClick="0"
-                     opaque="1" processorId="release" parameterId="Purged"/>
-          <Component type="ScriptPanel" id="btnRR" x="200" y="268" width="100" parentComponent="pnlPerformance"
-                     text="Off" height="32" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
-                     textColour="4294967295" itemColour2="4280690214" itemColour="4283585106"
-                     saveInPreset="1" bgColour="4286216826" popupOnRightClick="0"
-                     holdIsRightClick="0" opaque="1" isPluginParameter="1" pluginParameterName="Round Robin"
-                     processorId="roundRobin" parameterId="Enabled" defaultValue="1"/>
-        </Component>
-      </Component>
-      <Component type="ScriptPanel" id="page2" x="20" y="60" width="660" height="320"
-                 parentComponent="pnlMain" bgColour="16777215" itemColour="0"
-                 itemColour2="0" borderSize="0" borderRadius="0" visible="0">
-        <Component type="ScriptPanel" id="pnlSettings" x="0" y="0" width="660" height="320"
-                   parentComponent="page2" borderSize="0" borderRadius="0" itemColour="4281545523"
-                   itemColour2="4281545523">
-          <Component type="ScriptFloatingTile" id="fltSettings" x="0" y="0" width="660"
-                     height="310" parentComponent="pnlSettings" Font="Oxygen-Regular"
-                     FontSize="22" bgColour="4283519313" itemColour2="4294951115"
-                     itemColour="4284900966" ContentType="Tabs" Data="{&#13;&#10;  &quot;Dynamic&quot;: false,&#13;&#10;  &quot;Content&quot;: [&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;CustomSettings&quot;,&#13;&#10;      &quot;Title&quot;: &quot;Engine&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Bold&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;&#13;&#10;      },&#13;&#10;      &quot;Driver&quot;: true,&#13;&#10;      &quot;Device&quot;: true,&#13;&#10;      &quot;Output&quot;: true,&#13;&#10;      &quot;BufferSize&quot;: true,&#13;&#10;      &quot;SampleRate&quot;: true,&#13;&#10;      &quot;GlobalBPM&quot;: false,&#13;&#10;      &quot;StreamingMode&quot;: true,&#13;&#10;      &quot;GraphicRendering&quot;: false,&#13;&#10;      &quot;ScaleFactor&quot;: true,&#13;&#10;      &quot;SustainCC&quot;: false,&#13;&#10;      &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;      &quot;ClearMidiCC&quot;: true,&#13;&#10;      &quot;SampleLocation&quot;: true,&#13;&#10;      &quot;DebugMode&quot;: false,&#13;&#10;      &quot;ScaleFactorList&quot;: [&#13;&#10;        1,&#13;&#10;        1.25,&#13;&#10;        1.5,&#13;&#10;        2&#13;&#10;      ]&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiSources&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Input&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Regular&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiChannelList&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Channel&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Regular&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiLearnPanel&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Automation&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;Oxygen-Regular&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;ff333333&quot;,&#13;&#10;        &quot;textColour&quot;: &quot;ffffffff&quot;,&#13;&#10;        &quot;itemColour1&quot;: &quot;ff525252&quot;&#13;&#10;      }&#13;&#10;    }&#13;&#10;  ],&#13;&#10;  &quot;CurrentTab&quot;: 0&#13;&#10;}"/>
-        </Component>
-      </Component>
-      <Component type="ScriptPanel" id="logoBar" x="0" y="385" width="700" height="20"
-                 parentComponent="pnlMain" itemColour="0" itemColour2="0" bgColour="0"
-                 textColour="0" borderSize="0" borderRadius="0">
-        <Component type="ScriptPanel" id="pnlLogo" x="299" y="4" width="102" height="12"
-                   itemColour2="0" itemColour="0" textColour="2901339886" text="librewave"
-                   borderSize="0" borderRadius="0" popupOnRightClick="0" allowCallbacks="Clicks Only"
-                   holdIsRightClick="0" parentComponent="logoBar"/>
-        <Component type="ScriptPanel" id="preloadBar" x="480" y="0" width="200"
-                   height="20" opaque="1" parentComponent="logoBar" visible="0"/>
-      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="logoBar" x="0" y="385" width="700" height="20"
+               parentComponent="guiContainer" itemColour="0" itemColour2="0"
+               bgColour="0" textColour="0" borderSize="0" borderRadius="0">
+      <Component type="ScriptPanel" id="pnlLogo" x="299" y="4" width="102" height="12"
+                 itemColour2="0" itemColour="0" textColour="2901339886" text="librewave"
+                 borderSize="0" borderRadius="0" popupOnRightClick="0" allowCallbacks="Clicks Only"
+                 holdIsRightClick="0" parentComponent="logoBar"/>
+      <Component type="ScriptPanel" id="preloadBar" x="480" y="0" width="200"
+                 height="20" opaque="1" parentComponent="logoBar" visible="0"/>
     </Component>
     <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="725" width="700"
                height="75" bgColour="16777215" textColour="16777215" itemColour="4283974210"
@@ -404,7 +371,7 @@
     <Component type="ScriptButton" id="btnCC64Mode" x="24" y="684" parentComponent="guiContainer"
                text="CC64 Retrigger" processorId="legato" parameterId="btnRetrigger"/>
     <Component type="ScriptButton" id="btnBreathControl" x="514" y="572" parentComponent="guiContainer"
-               text="Breath Control" processorId="breathModeHandler" parameterId="btnEnable"/>
+               text="Breath Control" processorId="legato" parameterId="btnEnable"/>
     <Component type="ScriptSlider" id="knbBreathSkew" x="509" y="612" parentComponent="guiContainer"
                text="Breath Skew" processorId="legato" parameterId="knbBcSkew"
                defaultValue="0.2" middlePosition="0.5"/>
@@ -424,5 +391,7 @@
                processorId="sustainEnvelope" parameterId="Release" mode="Time"
                max="20000" stepSize="1" suffix=" ms" middlePosition="1000" defaultValue="150"
                min="50" text="Sus Release" isPluginParameter="1" pluginParameterName="Release Tm"/>
+    <Component type="ScriptButton" id="btnVelDynamics" x="192" y="495" text="Vel = Dynamics"
+               parentComponent="guiContainer" processorId="velocityShaper" parameterId="btnDynamics"/>
   </Component>
 </ContentProperties>
