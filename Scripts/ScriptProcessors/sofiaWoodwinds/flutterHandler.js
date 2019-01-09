@@ -1,10 +1,9 @@
 reg ccValue = 0;
-
 const var knbCC = Content.addKnob("knbCC", 0, 0);
-knbCC.set("text", "CC");
-knbCC.setRange(1, 127, 1);function onNoteOn()
+knbCC.setRange(1, 127, 1);
+function onNoteOn()
 {
-    if (ccValue < 2)
+	if (ccValue < 10)
     {
         Message.ignoreEvent(true);
     }

@@ -11,13 +11,12 @@ namespace VuMeter
 	*	It looks best using a width and height with multiple of 4.
 	*	Customize the colours using the scriptPanel colour Ids
 	*/
-	inline function createVuMeter(name, channels)
+	inline function createVuMeter(name)
 	{
 		local widget = Content.getComponent(name);
     
 		widget.set("saveInPreset", false);
 		widget.set("opaque", 1);
-		widget.data.channels = channels;
     	
 		widget.setPaintRoutine(function(g)
 		{

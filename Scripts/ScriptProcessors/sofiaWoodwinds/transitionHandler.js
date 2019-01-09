@@ -17,8 +17,8 @@ inline function knbGainCB(control, value)
 }function onNoteOn()
 {    
     currentNote = Message.getNoteNumber();
-    
-	if (Synth.isLegatoInterval() && !Synth.isSustainPedalDown())
+
+	if (Synth.isLegatoInterval() && !Synth.isSustainPedalDown() && Engine.getNumVoices() > 0)
     {
         Message.setNoteNumber(lastNote);
         Message.setVelocity(90);
@@ -39,7 +39,7 @@ function onNoteOff()
         retriggerNote = -1;
     }
     
-    if (Message.getNoteNumber() == lastNote && retriggerNote != -1)
+    if (Message.getNoteNumber() == lastNote && retriggerNote != -1 && Engine.getNumVoices() > 0)
     {
         eventId = Synth.playNote(lastNote, 90);
         Synth.addPitchFade(eventId, 0, Message.getCoarseDetune(), Message.getFineDetune());

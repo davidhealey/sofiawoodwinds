@@ -69,9 +69,7 @@ namespace Mixer
 		}
 		
 		//Output vu meter
-		const var pnlOutputMeter0 = VuMeter.createVuMeter("pnlOutputMeter0", [0, 1]);
-		const var pnlOutputMeter1 = VuMeter.createVuMeter("pnlOutputMeter1", [2, 3]);
-		const var pnlOutputMeter2 = VuMeter.createVuMeter("pnlOutputMeter2", [4, 5]);
+		const var pnlOutputMeter0 = VuMeter.createVuMeter("pnlOutputMeter0");
 	}
 	
 	inline function enablePurgeButtons()

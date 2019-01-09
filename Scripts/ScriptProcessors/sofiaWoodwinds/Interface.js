@@ -21,7 +21,6 @@ include("manifest.js");
 include("theme.js");
 include("paintRoutines.js");
 include("presetHandler.js");
-include("pageHandler.js");
 include("header.js");
 include("mixer.js");
 include("controllerHandler.js");
@@ -31,6 +30,7 @@ include("preloadBar.js");
 include("VuMeter.js");
 
 Content.makeFrontInterface(700, 800);
+Synth.deferCallbacks(true);
 
 reg patchName = "";
 
@@ -48,13 +48,12 @@ Content.setPropertiesFromJSON("pnlMenu", {itemColour:Theme.C3, itemColour2:Theme
 //Includes initialisation
 Header.onInitCB();
 PresetHandler.onInitCB();
-PageHandler.onInitCB();
 Mixer.onInitCB();
 ControllerHandler.onInitCB();
 Performance.onInitCB();
 Settings.onInitCB();function onNoteOn()
 {
-	ControllerHandler.onNoteCB();
+	
 }
 function onNoteOff()
 {
