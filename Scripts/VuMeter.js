@@ -54,8 +54,6 @@ namespace VuMeter
 				rvalue = getNormalizedPeakValue(Engine.getMasterPeakLevel(1));
 			}
 			
-			
-    	
 			this.data.lvalue = Math.max(lvalue, this.data.lvalue - 0.04);
 			this.data.rvalue = Math.max(rvalue, this.data.rvalue - 0.04);
     	

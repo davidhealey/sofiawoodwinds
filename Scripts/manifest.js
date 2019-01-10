@@ -20,302 +20,173 @@
 namespace Manifest
 {
     const var patches = {
-        "Sofia Woodwinds: Piccolo":
+        "piccolo": //Sample map identifier
         {
-            sampleMapId: "piccolo", //Identifier for finding sample maps
-	        range: [74, 105],
-	        gain: 
-            {
-                staccato:-3.0,
-                release:-8.0,
-                transitions:-8.0
-            },
+	        range: [74, 105], //Playable range
+	        hasFlutter: false, //Does this patch have a flutter sample map?
             legatoSettings:
 		    {
                 bendTime:0,
                 minBend:10,
                 maxBend:40,
-                fadeTimeMax:30
-		    },
-			vibratoSettings:
-		    {
-                gain:0.30,
-                pitch:0.10
+                minFade:10,
+                maxFade:30
 		    }
 	    },
-		"Sofia Woodwinds: Concert Flute I":
+		"flute1":
 		{
-            sampleMapId:"flute1",
             range:[59, 96],
-            gain: 
-            {
-                staccato:-1.0,
-                release:-8.0,
-                transitions:-8.0
-            },
+            hasFlutter: false,
             legatoSettings:
             {
                 bendTime:-5,
                 minBend:10,
                 maxBend:40,
-                fadeTimeMax:60
-            },
-            vibratoSettings:
-            {
-                gain:0.45,
-                pitch:0.05
+                minFade:30,
+                maxFade:60
             }
 		},
-		"Sofia Woodwinds: Concert Flute II":
+		"flute2":
 		{
-            sampleMapId:"flute2",
             range:[59, 96],
-	        gain: 
-            {
-                staccato:-3.0,
-                release:-8.0,
-                transitions:-8.0
-            },
+            hasFlutter: false,
             legatoSettings:
             {
                 bendTime:-5,
                 minBend:10,
                 maxBend:40,
-                fadeTimeMax:60
-            },
-            vibratoSettings:
-            {
-                gain:0.45,
-                pitch:0.05
+                minFade:30,
+                maxFade:60
             }
 		},
-		"Sofia Woodwinds: Alto Flute":
+		"altoFlute":
 		{
-            sampleMapId: "altoFlute",
 			range: [55, 91],
-			gain: 
-            {
-                staccato:-3.0,
-                release:-8.0,
-                transitions:-8.0
-            },
+			hasFlutter: false,
 			legatoSettings:
 		    {
                 bendTime:0,
                 minBend:10,
                 maxBend:50,
-                fadeTimeMax:80
-		    },
-			vibratoSettings:
-		    {
-                gain:0.45,
-                pitch:0.08
+                minFade:40,
+                maxFade:80
 		    }
 		},
-        "Sofia Woodwinds: Oboe I":
+        "oboe1":
         {
-            sampleMapId: "oboe1",
 	        range: [58, 91],
-	        gain: 
-            {
-                staccato:-3.0,
-                release:-5.0,
-                transitions:-6.0
-            },
+	        hasFlutter: false,
             legatoSettings:
 		    {
                 bendTime:-15,
                 minBend:10,
                 maxBend:50,
-                fadeTimeMax:50
-		    },
-			vibratoSettings:
-		    {
-                gain:0.40,
-                pitch:0.07
+                minFade:25,
+                maxFade:50
 		    }
 	    },
-        "Sofia Woodwinds: Oboe II":
+        "oboe2":
         {
-            sampleMapId: "oboe2",
 	        range: [58, 91],
-	        gain: 
-            {
-                staccato:-3.0,
-                release:-5.0,
-                transitions:-6.0
-            },
+	        hasFlutter: false,
             legatoSettings:
 		    {
                 bendTime:-15,
                 minBend:10,
                 maxBend:50,
-                fadeTimeMax:50
-		    },
-			vibratoSettings:
-		    {
-                gain:0.40,
-                pitch:0.07
+                minFade:25,
+                maxFade:50
 		    }
 	    },
-        "Sofia Woodwinds: Cor Anglais":
+        "englishHorn":
         {
-            sampleMapId: "englishHorn",
 	        range: [52, 83],
-	        gain: 
-            {
-                staccato:-3.0,
-                release:-5.0,
-                transitions:-6.0
-            },
+	        hasFlutter: false,
             legatoSettings:
 		    {
                 bendTime:-15,
                 minBend:20,
                 maxBend:60,
-                fadeTimeMax:50
-		    },
-			vibratoSettings:
-		    {
-                gain:0.35,
-                pitch:0.07
+                minFade:25,
+                maxFade:50
 		    }
 	    },
-        "Sofia Woodwinds: Clarinet I":
+        "clarinet1":
         {
-            sampleMapId: "clarinet1",
 	        range: [50, 91],
-	        gain: 
-            {
-                staccato:-3.0,
-                release:-8.0,
-                transitions:-10.0
-            },
+	        hasFlutter: false,
             legatoSettings:
 		    {
                 bendTime:0,
                 minBend:20,
                 maxBend:50,
-                fadeTimeMax:80
-		    },
-			vibratoSettings:
-		    {
-                gain:0.35,
-                pitch:0.07
+                minFade:40,
+                maxFade:80
 		    }
 	    },
-        "Sofia Woodwinds: Clarinet II":
+        "clarinet2":
         {
-            sampleMapId: "clarinet2",
 	        range: [50, 91],
-	        gain: 
-            {
-                staccato:-6.0,
-                release:-8.0,
-                transitions:-8.0
-            },
+	        hasFlutter: false,
             legatoSettings:
 		    {
                 bendTime:0,
                 minBend:20,
                 maxBend:50,
-                fadeTimeMax:80
-		    },
-			vibratoSettings:
-		    {
-                gain:0.35,
-                pitch:0.07
+                minFade:40,
+                maxFade:80
 		    }
 	    },
-        "Sofia Woodwinds: Bass Clarinet":
+        "bassClarinet":
         {
-            sampleMapId: "bassClarinet",
 	        range: [34, 75],
-	        gain: 
-            {
-                staccato:-3.0,
-                release:-8.0,
-                transitions:-15.0
-            },
+	        hasFlutter: false,
             legatoSettings:
 		    {
                 bendTime:-10,
                 minBend:20,
                 maxBend:50,
-                fadeTimeMax:80
-		    },
-			vibratoSettings:
-		    {
-                gain:0.45,
-                pitch:0.07
+                minFade:40,
+                maxFade:80
 		    }
 	    },
-        "Sofia Woodwinds: Bassoon I":
+        "bassoon1":
         {
-            sampleMapId: "bassoon1",
 	        range: [34, 74],
-	        gain: 
-            {
-                release:-2.0,
-                transitions:-3.0
-            },
+	        hasFlutter: false,
             legatoSettings:
 		    {
                 bendTime:0,
                 minBend:20,
                 maxBend:50,
-                fadeTimeMax:60
-		    },
-			vibratoSettings:
-		    {
-                gain:0.40,
-                pitch:0.08
+                minFade:30,
+                maxFade:60
 		    }
 	    },
-        "Sofia Woodwinds: Bassoon II":
+        "basoon2":
         {
-            sampleMapId: "bassoon2",
 	        range: [34, 74],
-	        gain: 
-            {
-                staccato:-3.0,
-                release:-2.0,
-                transitions:-4.0
-            },
+	        hasFlutter: false,
             legatoSettings:
 		    {
                 bendTime:0,
                 minBend:20,
                 maxBend:50,
-                fadeTimeMax:60
-		    },
-			vibratoSettings:
-		    {
-                gain:0.35,
-                pitch:0.09
+                minFade:30,
+                maxFade:60
 		    }
 	    },
-        "Sofia Woodwinds: Contrabassoon":
+        "contrabassoon":
         {
-            sampleMapId: "contrabassoon",
 	        range: [22, 55],
-	        gain:
-            {
-                staccato:-3.0,
-                release:-2.0,
-                transitions:-6.0
-            },
+	        hasFlutter: false,
             legatoSettings:
 		    {
                 bendTime:-10,
                 minBend:25,
                 maxBend:50,
-                fadeTimeMax:70
-		    },
-			vibratoSettings:
-		    {
-                gain:0.30,
-                pitch:0.07
+                minFade:35,
+                maxFade:70
 		    }
 	    },
 	};

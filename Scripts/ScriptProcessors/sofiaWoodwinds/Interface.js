@@ -16,7 +16,6 @@
 */
 
 include("HISE-Scripting-Framework/libraries/uiFactory.js");
-
 include("manifest.js");
 include("theme.js");
 include("paintRoutines.js");
@@ -29,10 +28,8 @@ include("settings.js");
 include("preloadBar.js");
 include("VuMeter.js");
 
-Content.makeFrontInterface(700, 800);
+Content.makeFrontInterface(768, 1024);
 Synth.deferCallbacks(true);
-
-reg patchName = "";
 
 //Loop iterators
 reg i;

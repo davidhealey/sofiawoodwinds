@@ -45,7 +45,7 @@ namespace Mixer
 		    //Purge button
 		    Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.C6, itemColour:Theme.C5});
 			purge[i] = ui.buttonPanel("btnPurge"+i, purgeButtonPaintRoutine);
-			purge[i].setControlCallback(btnPurgeCB);
+			purge[i].setControlCallback(btnPurgeCB);			
 			
 		    //Channel routing combo boxes
             cmbOutput[i] = Content.getComponent("cmbOutput"+i);
@@ -71,16 +71,7 @@ namespace Mixer
 		//Output vu meter
 		const var pnlOutputMeter0 = VuMeter.createVuMeter("pnlOutputMeter0");
 	}
-	
-	inline function enablePurgeButtons()
-    {
-        for (i = 0; i < 3; i++)
-		{
-		    purge[i].setValue(1);
-		    purge[i].changed();
-		}
-    }
-	
+		
 	inline function btnPurgeCB(control, value)
 	{
 		local idx = purge.indexOf(control);
@@ -91,6 +82,7 @@ namespace Mixer
 			if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(idx) != 1-value)
 			{
 				s.purgeMicPosition(s.getMicPositionName(idx), 1-value);
+                control.repaint();
 			}
 		}
 	}

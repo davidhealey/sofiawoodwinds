@@ -19,11 +19,19 @@ namespace PresetHandler
 {
     inline function onInitCB()
     {
-        const var legato = Synth.getMidiProcessor("legato"); //legato script       
+        const var legato = Synth.getMidiProcessor("legato"); //legato script
+        const var sustainFlutter = Synth.getModulator("sustainFlutter"); //Flutter CC gain mod
         const var roundRobin = [];
         roundRobin[0] = Synth.getMidiProcessor("roundRobin"); //Sustain/staccato round robin handler
         roundRobin[1] = Synth.getMidiProcessor("transitionRoundRobin"); //Transition round robin handler
 
+        //Previos/Next preset buttons
+        const var btnPreset = [];
+        btnPreset[0] = Content.getComponent("btnPreset0"); //Prev
+        btnPreset[1] = Content.getComponent("btnPreset1"); //Next
+        btnPreset[0].setControlCallback(loadAdjacentPreset);
+        btnPreset[1].setControlCallback(loadAdjacentPreset);
+        
         //Get samplers as child synths
         const var samplerIds = Synth.getIdList("Sampler");
         const var childSynths = {};
@@ -33,7 +41,7 @@ namespace PresetHandler
           childSynths[id] = Synth.getChildSynth(id);
         }
 
-        //Get array of preset names from manifest
+        //Get array of patch names from manifest
         const var patchNames = [];
         for (k in Manifest.patches)
         {
@@ -45,37 +53,38 @@ namespace PresetHandler
         pnlPreset.setControlCallback(pnlPresetCB);
 
         //Preset selection dropdown
-        const var cmbPreset = Content.getComponent("cmbPreset");
-        Content.setPropertiesFromJSON("cmbPreset", {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6, items:patchNames.join("\n")});
-        cmbPreset.setControlCallback(cmbPresetCB);
+        const var cmbPatch = Content.getComponent("cmbPatch");
+        Content.setPropertiesFromJSON("cmbPatch", {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6, items:patchNames.join("\n")});
+        cmbPatch.setControlCallback(cmbPatchCB);
     }
 
     //UI Callbacks
     inline function pnlPresetCB(control, value)
     {
-        if (cmbPreset.getValue() < 1) cmbPreset.setValue(1); //Default
+        if (cmbPatch.getValue() < 1) cmbPatch.setValue(1); //Default
     }
 
-    inline function cmbPresetCB(control, value)
+    inline function loadAdjacentPreset(control, value)
     {
-        loadPatch(patchNames[value-1]);
+        local idx = btnPreset.indexOf(control);
+        idx == 0 ? Engine.loadPreviousUserPreset(false) : Engine.loadNextUserPreset(false);
+        Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
+    }
+    
+    //Load patch and settings from manifest
+    inline function cmbPatchCB(control, value)
+    {
+        local patchName = patchNames[value-1];
+        
+        colourKeys(patchName);
+        loadSampleMaps(patchName);
+        loadLegatoSettings(patchName);
+        setRoundRobinRange(patchName);
+        sustainFlutter.setBypassed(1-Manifest.patches[patchName].hasFlutter);
+        Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
     }
 
     //Functions
-
-    /*Function wrapper*/
-    inline function loadPatch(name)
-    {
-        patchName = name; //Set global variable
-
-        colourKeys(name);
-        loadSampleMaps(name); //Load sample maps for current preset
-        loadGainSettings(name);
-        loadLegatoSettings(name);
-        setRoundRobinRange(name); //Set the upper and lower note range of the RR scripts
-        Mixer.enablePurgeButtons(); //Set purge buttons to 1 (unpurged)
-    }
-
     inline function colourKeys(patchName)
     {
         local range = Manifest.patches[patchName].range;
@@ -95,23 +104,22 @@ namespace PresetHandler
 
     inline function loadSampleMaps(patchName)
     {
-        local sampleMapId = Manifest.patches[patchName].sampleMapId; //Get patch's sample map id
         local sampleMaps = Sampler.getSampleMapList();
 
         for (id in samplerIds) //Each sampler
         {
           //A sample map for this patch was found or sampler is transition sampler
-          if (sampleMaps.contains(sampleMapId + "_" + id) || id == "transitions")
+          if (sampleMaps.contains(patchName + "_" + id) || id == "transitions")
           {
             childSynths[id].setBypassed(false); //Enable sampler
             
             if (id == "transitions")
             {
-                childSynths[id].asSampler().loadSampleMap(sampleMapId + "_staccato"); //Load staccato sample map
+                childSynths[id].asSampler().loadSampleMap(patchName + "_staccato"); //Load staccato sample map
             }
             else
             {
-                childSynths[id].asSampler().loadSampleMap(sampleMapId + "_" + id); //Load the sample map
+                childSynths[id].asSampler().loadSampleMap(patchName + "_" + id); //Load the sample map
             }
           }
           else
@@ -122,40 +130,16 @@ namespace PresetHandler
         }
     }
 
-    inline function loadGainSettings(patchName)
-    {
-        local settings = Manifest.patches[patchName].gain;
-
-        //Set gain of each sampler
-        for (id in samplerIds)
-        {
-            if (settings[id]) //A settings for this sampler is in the manifest
-            {
-                childSynths[id].setAttribute(0, Engine.getGainFactorForDecibels(settings[id]));
-            }
-            else //Default to 0dB if no value provided
-            {
-                childSynths[id].setAttribute(0, Engine.getGainFactorForDecibels(0));
-            }
-        }
-    }
-
     inline function loadLegatoSettings(patchName)
     {
-        local attributes = {
-            BEND_TIME:8,
-            MIN_BEND:9,
-            MAX_BEND:10,
-            FADE_TIME_MIN:5,
-            FADE_TIME_MAX:6
-        };        
-        
+        local attributes = {BEND_TIME:8, MIN_BEND:9, MAX_BEND:10, MIN_FADE:5, MAX_FADE:6};
         local settings = Manifest.patches[patchName].legatoSettings; //Get instrument's settings
 
         legato.setAttribute(attributes.BEND_TIME, settings.bendTime);
         legato.setAttribute(attributes.MIN_BEND, settings.minBend);
         legato.setAttribute(attributes.MAX_BEND, settings.maxBend);
-        legato.setAttribute(attributes.FADE_TIME_MAX, settings.fadeTimeMax);
+        legato.setAttribute(attributes.MIN_FADE, settings.minFade);
+        legato.setAttribute(attributes.MAX_FADE, settings.maxFade);
     }
    
     //Set the range of the sustain/legato/glide round robin handler
