@@ -1,1022 +1,1022 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="oboe2_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
+  <sample ID="0" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="6115"
           SampleEnd="86037" SampleStartMod="1470" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="0"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="0" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_58_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="1" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
+  <sample ID="1" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2463"
           SampleEnd="77842" SampleStartMod="1513" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="90112"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="90112" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_58_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_58_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_58_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="2" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
+  <sample ID="2" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2515"
           SampleEnd="72131" SampleStartMod="1630" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="172032"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="172032" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_58_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_58_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_58_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="3" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
+  <sample ID="3" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="3052"
           SampleEnd="88211" SampleStartMod="1424" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="245760"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="245760" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_59_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="4" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
+  <sample ID="4" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2340"
           SampleEnd="89904" SampleStartMod="1904" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="335872"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="335872" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_59_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_59_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_59_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="5" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
+  <sample ID="5" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1933"
           SampleEnd="70868" SampleStartMod="1630" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="425984"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="425984" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_59_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_59_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_59_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="6" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
+  <sample ID="6" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2873"
           SampleEnd="79684" SampleStartMod="1927" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="499712"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="499712" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_60_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="7" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
+  <sample ID="7" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1725"
           SampleEnd="86660" SampleStartMod="1420" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="581632"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="581632" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_60_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="8" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
+  <sample ID="8" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2393"
           SampleEnd="73381" SampleStartMod="2018" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="671744"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="671744" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_60_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="9" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+  <sample ID="9" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2952"
           SampleEnd="75353" SampleStartMod="1332" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="745472"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="745472" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_61_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="10" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+  <sample ID="10" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2315"
           SampleEnd="90011" SampleStartMod="1906" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="823296"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="823296" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_61_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_61_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_61_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="11" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+  <sample ID="11" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2141"
           SampleEnd="71292" SampleStartMod="1156" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="913408"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="913408" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_61_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="12" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+  <sample ID="12" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2936"
           SampleEnd="77143" SampleStartMod="2606" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="987136"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="987136" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_62_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="13" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+  <sample ID="13" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1804"
           SampleEnd="82871" SampleStartMod="1220" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1064960"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1064960" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_62_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_62_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_62_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="14" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+  <sample ID="14" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1996"
           SampleEnd="76660" SampleStartMod="1249" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1150976"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1150976" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_62_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="15" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+  <sample ID="15" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2978"
           SampleEnd="77018" SampleStartMod="1238" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1228800"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1228800" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_63_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="16" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+  <sample ID="16" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2028"
           SampleEnd="82509" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1306624"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1306624" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_63_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_63_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_63_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="17" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+  <sample ID="17" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2027"
           SampleEnd="74056" SampleStartMod="1084" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1392640"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1392640" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_63_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="18" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+  <sample ID="18" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3002"
           SampleEnd="94447" SampleStartMod="1376" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1470464"
-          MonolithLength="98304" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1470464" MonolithLength="98304"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_64_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="19" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+  <sample ID="19" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1781"
           SampleEnd="93310" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1568768"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1568768" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_64_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_64_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_64_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="20" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+  <sample ID="20" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1927"
           SampleEnd="70608" SampleStartMod="1149" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1662976"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1662976" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_64_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="21" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+  <sample ID="21" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2220"
           SampleEnd="81507" SampleStartMod="1326" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1736704"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1736704" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_65_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="22" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+  <sample ID="22" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1923"
           SampleEnd="90362" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1818624"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1818624" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_65_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_65_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_65_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="23" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+  <sample ID="23" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1831"
           SampleEnd="73780" SampleStartMod="1323" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1912832"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1912832" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_65_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="24" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+  <sample ID="24" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2900"
           SampleEnd="72883" SampleStartMod="1638" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1990656"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1990656" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_66_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="25" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+  <sample ID="25" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1973"
           SampleEnd="99983" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2064384"
-          MonolithLength="102400" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2064384" MonolithLength="102400"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_66_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_66_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_66_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="26" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+  <sample ID="26" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2240"
           SampleEnd="71593" SampleStartMod="1044" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2166784"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2166784" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_66_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="27" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+  <sample ID="27" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2659"
           SampleEnd="72536" SampleStartMod="1169" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2240512"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2240512" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_67_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="28" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+  <sample ID="28" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2090"
           SampleEnd="87684" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2314240"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2314240" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_67_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_67_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_67_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="29" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+  <sample ID="29" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2292"
           SampleEnd="76217" SampleStartMod="865" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2404352"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2404352" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_67_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="30" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+  <sample ID="30" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2416"
           SampleEnd="68575" SampleStartMod="996" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2482176"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2482176" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_68_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="31" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+  <sample ID="31" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2206"
           SampleEnd="89588" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2551808"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2551808" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_68_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_68_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_68_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="32" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+  <sample ID="32" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2156"
           SampleEnd="73694" SampleStartMod="957" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2641920"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2641920" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_68_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="33" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+  <sample ID="33" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2959"
           SampleEnd="78317" SampleStartMod="1260" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2715648"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2715648" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_69_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="34" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+  <sample ID="34" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2231"
           SampleEnd="82747" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2797568"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2797568" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_69_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_69_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_69_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="35" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+  <sample ID="35" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2431"
           SampleEnd="72433" SampleStartMod="468" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2883584"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2883584" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_69_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="36" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+  <sample ID="36" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2208"
           SampleEnd="82326" SampleStartMod="1206" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2957312"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2957312" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_70_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="37" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+  <sample ID="37" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1765"
           SampleEnd="92905" SampleStartMod="1219" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3043328"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3043328" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_70_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_70_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_70_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="38" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+  <sample ID="38" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2026"
           SampleEnd="73239" SampleStartMod="834" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3137536"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3137536" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_70_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="39" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+  <sample ID="39" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2560"
           SampleEnd="77452" SampleStartMod="1002" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3211264"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3211264" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_71_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="40" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+  <sample ID="40" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3041"
           SampleEnd="88630" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3289088"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3289088" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_71_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_71_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_71_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="41" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+  <sample ID="41" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2147"
           SampleEnd="70152" SampleStartMod="682" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3379200"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3379200" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_71_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="42" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+  <sample ID="42" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="2618"
           SampleEnd="72895" SampleStartMod="668" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3452928"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3452928" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_72_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="43" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+  <sample ID="43" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1868"
           SampleEnd="93214" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3526656"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3526656" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_72_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_72_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_72_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="44" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+  <sample ID="44" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2374"
           SampleEnd="73209" SampleStartMod="474" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3620864"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3620864" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_72_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="45" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+  <sample ID="45" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2973"
           SampleEnd="74517" SampleStartMod="1436" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3694592"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3694592" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_73_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="46" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+  <sample ID="46" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2149"
           SampleEnd="89324" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3772416"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3772416" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_73_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_73_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_73_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="47" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+  <sample ID="47" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2290"
           SampleEnd="71219" SampleStartMod="922" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3862528"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3862528" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_73_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="48" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+  <sample ID="48" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2890"
           SampleEnd="76614" SampleStartMod="1603" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3936256"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3936256" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_74_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="49" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+  <sample ID="49" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2365"
           SampleEnd="79517" SampleStartMod="2064" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4014080"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4014080" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_74_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_74_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_74_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="50" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+  <sample ID="50" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2273"
           SampleEnd="71613" SampleStartMod="928" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4096000"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4096000" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_74_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="51" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+  <sample ID="51" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2680"
           SampleEnd="83396" SampleStartMod="668" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4169728"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4169728" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_75_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="52" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+  <sample ID="52" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1692"
           SampleEnd="79368" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4255744"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4255744" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_75_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_75_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_75_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="53" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+  <sample ID="53" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2335"
           SampleEnd="72008" SampleStartMod="699" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4337664"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4337664" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_75_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_75_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_75_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="54" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+  <sample ID="54" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2574"
           SampleEnd="86488" SampleStartMod="668" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4411392"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4411392" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_76_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="55" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+  <sample ID="55" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2053"
           SampleEnd="102755" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4501504"
-          MonolithLength="106496" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4501504" MonolithLength="106496"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_76_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_76_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_76_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="56" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+  <sample ID="56" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2367"
           SampleEnd="71010" SampleStartMod="804" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4608000"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4608000" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_76_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_76_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_76_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="57" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+  <sample ID="57" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2583"
           SampleEnd="92246" SampleStartMod="668" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4681728"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4681728" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_77_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="58" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+  <sample ID="58" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2057"
           SampleEnd="93294" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4775936"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4775936" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_77_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_77_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_77_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="59" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+  <sample ID="59" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2407"
           SampleEnd="69403" SampleStartMod="560" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4870144"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4870144" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_77_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_77_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_77_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="60" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+  <sample ID="60" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2778"
           SampleEnd="78115" SampleStartMod="668" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4939776"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4939776" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_78_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="61" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+  <sample ID="61" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2260"
           SampleEnd="91105" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5021696"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5021696" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_78_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_78_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_78_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="62" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+  <sample ID="62" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2472"
           SampleEnd="72645" SampleStartMod="469" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5115904"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5115904" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_78_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_78_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_78_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="63" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+  <sample ID="63" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2565"
           SampleEnd="76566" SampleStartMod="866" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5189632"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5189632" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_79_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="64" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+  <sample ID="64" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2158"
           SampleEnd="90779" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5267456"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5267456" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_79_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_79_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_79_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="65" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+  <sample ID="65" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2359"
           SampleEnd="72974" SampleStartMod="590" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5361664"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5361664" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_79_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_79_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_79_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="66" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+  <sample ID="66" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2300"
           SampleEnd="80589" SampleStartMod="1178" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5435392"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5435392" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_80_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="67" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+  <sample ID="67" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2044"
           SampleEnd="84434" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5517312"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5517312" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_80_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_80_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_80_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="68" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+  <sample ID="68" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2403"
           SampleEnd="73937" SampleStartMod="598" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5607424"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5607424" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_80_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_80_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_80_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="69" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+  <sample ID="69" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2950"
           SampleEnd="75479" SampleStartMod="668" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5685248"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5685248" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_81_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="70" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+  <sample ID="70" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2124"
           SampleEnd="86890" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5763072"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5763072" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_81_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_81_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_81_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="71" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+  <sample ID="71" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2460"
           SampleEnd="72095" SampleStartMod="466" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5853184"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5853184" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_81_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_81_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_81_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="72" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+  <sample ID="72" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2616"
           SampleEnd="75471" SampleStartMod="668" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5926912"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5926912" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_82_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="73" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+  <sample ID="73" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2230"
           SampleEnd="90936" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6004736"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6004736" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_82_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_82_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_82_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="74" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+  <sample ID="74" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2311"
           SampleEnd="71533" SampleStartMod="579" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6098944"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6098944" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_82_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_82_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_82_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="75" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+  <sample ID="75" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2796"
           SampleEnd="77675" SampleStartMod="668" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6172672"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6172672" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_83_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="76" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+  <sample ID="76" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2369"
           SampleEnd="81051" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6250496"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6250496" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_83_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_83_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_83_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="77" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+  <sample ID="77" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2399"
           SampleEnd="73884" SampleStartMod="359" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6332416"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6332416" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_83_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_83_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_83_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="78" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+  <sample ID="78" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2608"
           SampleEnd="74374" SampleStartMod="1800" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6410240"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6410240" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_84_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_84_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_84_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="79" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+  <sample ID="79" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1986"
           SampleEnd="83552" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6488064"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6488064" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_84_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_84_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_84_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="80" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+  <sample ID="80" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2235"
           SampleEnd="70444" SampleStartMod="570" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6574080"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6574080" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_84_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_84_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_84_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="81" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+  <sample ID="81" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2227"
           SampleEnd="84476" SampleStartMod="1375" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6647808"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6647808" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_85_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_85_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_85_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="82" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+  <sample ID="82" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1965"
           SampleEnd="85603" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6733824"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6733824" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_85_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_85_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_85_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="83" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+  <sample ID="83" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1901"
           SampleEnd="73163" SampleStartMod="715" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6819840"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6819840" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_85_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_85_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_85_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="84" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+  <sample ID="84" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2128"
           SampleEnd="70999" SampleStartMod="1612" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6893568"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6893568" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_86_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_86_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_86_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="85" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+  <sample ID="85" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2250"
           SampleEnd="82949" SampleStartMod="540" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6967296"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6967296" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_86_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_86_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_86_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="86" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+  <sample ID="86" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2389"
           SampleEnd="74205" SampleStartMod="480" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7053312"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7053312" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_86_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_86_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_86_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="87" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+  <sample ID="87" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2202"
           SampleEnd="77442" SampleStartMod="1258" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7131136"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7131136" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_87_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_87_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_87_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="88" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+  <sample ID="88" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1843"
           SampleEnd="87530" SampleStartMod="882" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7208960"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7208960" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_87_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_87_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_87_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="89" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+  <sample ID="89" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2401"
           SampleEnd="71285" SampleStartMod="576" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7299072"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7299072" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_87_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_87_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_87_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="90" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+  <sample ID="90" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2430"
           SampleEnd="89088" SampleStartMod="869" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7372800"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7372800" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_88_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_88_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_88_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="91" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+  <sample ID="91" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2150"
           SampleEnd="88951" SampleStartMod="581" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7462912"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7462912" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_88_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_88_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_88_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="92" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+  <sample ID="92" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="2251"
           SampleEnd="74890" SampleStartMod="607" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7553024"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7553024" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_88_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_88_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_88_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="93" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+  <sample ID="93" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2815"
           SampleEnd="77980" SampleStartMod="668" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7630848"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7630848" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_89_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_89_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_89_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="94" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+  <sample ID="94" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2253"
           SampleEnd="89564" SampleStartMod="584" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7712768"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7712768" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_89_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_89_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_89_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="95" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+  <sample ID="95" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2385"
           SampleEnd="76019" SampleStartMod="369" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7802880"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7802880" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_89_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_89_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_89_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="96" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+  <sample ID="96" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2595"
           SampleEnd="76049" SampleStartMod="860" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7880704"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7880704" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_90_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_90_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_90_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="97" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+  <sample ID="97" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2457"
           SampleEnd="89432" SampleStartMod="582" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7958528"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7958528" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_90_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_90_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_90_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="98" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+  <sample ID="98" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2378"
           SampleEnd="74010" SampleStartMod="359" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8052736"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8052736" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_90_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_90_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_90_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="99" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+  <sample ID="99" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2442"
           SampleEnd="71573" SampleStartMod="809" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8130560"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8130560" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_91_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_91_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_91_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="100" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+  <sample ID="100" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2073"
           SampleEnd="89029" SampleStartMod="727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8204288"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8204288" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_91_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_91_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_91_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="101" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+  <sample ID="101" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2326"
           SampleEnd="71968" SampleStartMod="699" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8298496"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8298496" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_close_91_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_decca_91_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}oboe2/staccato/oboe2_staccato_hall_91_dynamic3_rr1.wav"/>

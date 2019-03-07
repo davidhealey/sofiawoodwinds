@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="empty" SaveMode="0" FileName="empty" MicPositions="close;decca;hall;"
+           RRGroupAmount="1">
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="18862" LoopEnd="124629"
+          SampleStart="3123" SampleEnd="158368" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_74_dynamic1.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="43257" LoopEnd="111828"
+          SampleStart="6003" SampleEnd="175631" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_75_dynamic1.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="24938" LoopEnd="130226"
+          SampleStart="7124" SampleEnd="174100" LoopXFade="5000" SampleStartMod="5000"
+          Volume="2">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_76_dynamic1.wav"/>
+  </sample>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="19497" LoopEnd="118093"
+          SampleStart="7579" SampleEnd="171044" LoopXFade="5000" SampleStartMod="5000"
+          Volume="1">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_77_dynamic1.wav"/>
+  </sample>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="41162" LoopEnd="129527"
+          SampleStart="7736" SampleEnd="173569" LoopXFade="5000" SampleStartMod="5000"
+          Volume="1">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_78_dynamic1.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="66958" LoopEnd="131024"
+          SampleStart="7585" SampleEnd="173025" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_79_dynamic1.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="26365" LoopEnd="124728"
+          SampleStart="7254" SampleEnd="162806" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_80_dynamic1.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="46111" LoopEnd="130791"
+          SampleStart="7966" SampleEnd="179486" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_81_dynamic1.wav"/>
+  </sample>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="15113" LoopEnd="129611"
+          SampleStart="3575" SampleEnd="169865" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_82_dynamic1.wav"/>
+  </sample>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="16858" LoopEnd="134819"
+          SampleStart="7666" SampleEnd="180052" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_83_dynamic1.wav"/>
+  </sample>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="59782" LoopEnd="128653"
+          SampleStart="8419" SampleEnd="184319" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_84_dynamic1.wav"/>
+  </sample>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="28710" LoopEnd="134368"
+          SampleStart="8460" SampleEnd="193883" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_85_dynamic1.wav"/>
+  </sample>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="68204" LoopEnd="137471"
+          SampleStart="6886" SampleEnd="190860" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_86_dynamic1.wav"/>
+  </sample>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="55107" LoopEnd="130292"
+          SampleStart="7614" SampleEnd="178668" LoopXFade="5000" SampleStartMod="5000"
+          Volume="-2">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_87_dynamic1.wav"/>
+  </sample>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="53534" LoopEnd="122696"
+          SampleStart="5762" SampleEnd="195525" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_88_dynamic1.wav"/>
+  </sample>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="39606" LoopEnd="97957"
+          SampleStart="7646" SampleEnd="182520" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_89_dynamic1.wav"/>
+  </sample>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="30761" LoopEnd="125855"
+          SampleStart="7524" SampleEnd="181540" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_90_dynamic1.wav"/>
+  </sample>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="75155" LoopEnd="126342"
+          SampleStart="7797" SampleEnd="169275" LoopXFade="5000" SampleStartMod="5000"
+          Volume="1">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_91_dynamic1.wav"/>
+  </sample>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="60357" LoopEnd="115994"
+          SampleStart="7379" SampleEnd="168718" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_92_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_92_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_92_dynamic1.wav"/>
+  </sample>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="36710" LoopEnd="102021"
+          SampleStart="8445" SampleEnd="184623" LoopXFade="5000" SampleStartMod="5000"
+          Pitch="0">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_93_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_93_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_93_dynamic1.wav"/>
+  </sample>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="60049" LoopEnd="128778"
+          SampleStart="8101" SampleEnd="194581" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_94_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_94_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_94_dynamic1.wav"/>
+  </sample>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="84776" LoopEnd="137411"
+          SampleStart="8480" SampleEnd="233114" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_95_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_95_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_95_dynamic1.wav"/>
+  </sample>
+  <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="75305" LoopEnd="134574"
+          SampleStart="8466" SampleEnd="217830" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_96_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_96_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_96_dynamic1.wav"/>
+  </sample>
+  <sample Root="97" LoKey="97" HiKey="97" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="53612" LoopEnd="123312"
+          SampleStart="8142" SampleEnd="218775" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_97_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_97_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_97_dynamic1.wav"/>
+  </sample>
+  <sample Root="98" LoKey="98" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="47476" LoopEnd="116286"
+          SampleStart="2845" SampleEnd="211401" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_98_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_98_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_98_dynamic1.wav"/>
+  </sample>
+  <sample Root="99" LoKey="99" HiKey="99" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="29745" LoopEnd="99177"
+          SampleStart="8476" SampleEnd="207740" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_99_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_99_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_99_dynamic1.wav"/>
+  </sample>
+  <sample Root="100" LoKey="100" HiKey="100" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="48996" LoopEnd="110363"
+          SampleStart="5570" SampleEnd="191384" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_100_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_100_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_100_dynamic1.wav"/>
+  </sample>
+  <sample Root="101" LoKey="101" HiKey="101" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="20776" LoopEnd="123744"
+          SampleStart="8955" SampleEnd="212608" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_101_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_101_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_101_dynamic1.wav"/>
+  </sample>
+  <sample Root="102" LoKey="102" HiKey="105" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="57655" LoopEnd="117277"
+          SampleStart="8498" SampleEnd="180294" LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_close_102_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_decca_102_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}piccolo/flutter/piccolo_flutter_hall_102_dynamic1.wav"/>
+  </sample>
+</samplemap>

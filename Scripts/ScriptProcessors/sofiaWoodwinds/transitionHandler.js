@@ -1,21 +1,8 @@
 reg currentNote; //The note that is currently pressed
 reg lastNote = -1; //The last note that was pressed
 reg retriggerNote = -1;
-reg eventId;
-
-//Gain contant modulator
-const var transitions = Synth.getChildSynth("transitions");
-
-const var knbGain = Content.addKnob("knbGain", 0, 0);
-knbGain.set("text", "Gain");
-knbGain.set("mode", "Decibel");
-knbGain.setControlCallback(knbGainCB);
-
-inline function knbGainCB(control, value)
+reg eventId;function onNoteOn()
 {
-    transitions.setAttribute(transitions.Gain, Engine.getGainFactorForDecibels(value));
-}function onNoteOn()
-{    
     currentNote = Message.getNoteNumber();
 
 	if (Synth.isLegatoInterval() && !Synth.isSustainPedalDown() && Engine.getNumVoices() > 0)
@@ -31,8 +18,7 @@ inline function knbGainCB(control, value)
     }
     
     lastNote = currentNote;
-}
-function onNoteOff()
+}function onNoteOff()
 {    
     if (Message.getNoteNumber() == retriggerNote)
     {

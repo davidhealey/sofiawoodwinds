@@ -19,7 +19,7 @@ namespace ControllerHandler
 {
 	inline function onInitCB()
 	{
-		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato", "Vibrato Speed", "Breath", "Flutter"];
+		const var parameters = ["Velocity", "Expression", "Dynamics", "Vibrato", "Vibrato Speed", "Flutter XF"];
 		const var reservedCc = [32, 64]; //CCs used internally, not user selectable
 		       	
 		const var ccNums = [];
@@ -30,7 +30,7 @@ namespace ControllerHandler
 		}
 
 		//Background panel
-		Content.setPropertiesFromJSON("pnlControllers", {itemColour:Theme.C3, itemColour2:Theme.C3});
+		//Content.setPropertiesFromJSON("pnlControllers", {itemColour:Theme.C3, itemColour2:Theme.C3});
 		
         //Parameter combo box
 		const var cmbParam = ui.setupControl("cmbParam", {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6, items:parameters.join("\n")});
@@ -43,7 +43,7 @@ namespace ControllerHandler
 		{
 			//Parameter menu
 			cmbCc[i] = ui.setupControl("cmbCc"+i, {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6});
-            i > 0 ? cmbCc[i].set("items", ccNums.join("\n")) : cmbCc[i].set("items", "Velocity");
+            i > 0 ? cmbCc[i].set("items", ccNums.join("\n")) : cmbCc[i].set("items", "--");
 
 			//Response tables
 			tblCc[i] = ui.setupControl("tblCc"+i, {customColours:true, bgColour:Theme.C2, itemColour:Theme.C5, itemColour2:0x70000000});

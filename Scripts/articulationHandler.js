@@ -1,5 +1,5 @@
 /*
-    Copyright 2018 David Healey
+    Copyright 2018, 2019 David Healey
 
     This file is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -18,47 +18,56 @@
 namespace ArticulationHandler
 {
     inline function onInitCB()
-    {
-        const var legato = Synth.getMidiProcessor("legato");
-       
-        //Glide rates
-        const var rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T", "Velocity"];
-
-        //Panel
-        ui.setupControl("pnlArticulations", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
-
-        //Title label
-        Content.setPropertiesFromJSON("lblArtTitle", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});
-
-        //Release
-        const var lblRel = ui.setupControl("lblRel", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
-        const var rel = ui.setupControl("sliRel", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
-
-        //Legato and glide controls
-        const var lblOffset = ui.setupControl("lblOffset", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
-        const var sliOffset = ui.setupControl("sliOffset", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});       
-        const var lblRate = ui.setupControl("lblRate", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
-        const var lblMode = ui.setupControl("lblGlideMode", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
-        const var sliRate = ui.setupControl("sliRate", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
-        const var lblRateVal = Content.getComponent("lblRateVal");
-        const var btnGlide = ui.buttonPanel("btnGlideMode", paintRoutines.pushButton);
+    {        
+        const var samplerIds = Synth.getIdList("Sampler");
+        const var childSynths = [];
         
-        Content.setPropertiesFromJSON("btnGlideMode", {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, textColour:Theme.CONTROL_TEXT});
-        sliRate.setControlCallback(sliGlideRateCB);
-        btnGlide.setControlCallback(btnGlideModeCB);
+        const var articulationNames = []; //All articulation names
+        const var longA = []; //Long articulations
+        const var shortA = []; //Short articulations
+        const var btnArt = []; //Articulation buttons
+        
+        for (k in Manifest.articulations)
+        {
+            articulationNames.push(k);
+            Manifest.articulations[k].short != true ? longA.push(k) : shortA.push(k);
+        }
+        
+        for (i = 0; i < articulationNames.length; i++)
+        {
+            btnArt[i] = Content.getComponent("btnArt"+i);
+            btnArt[i].setControlCallback(btnArtCB);
+        }
+        
+        for (id in samplerIds)
+        {
+            childSynths.push(Synth.getChildSynth(id));
+        }
+        
     }
-
-  //*** UI CALLBACKS ***
-  inline function sliGlideRateCB(control, value)
-  {
-    legato.setAttribute(10, value);
-    lblRateVal.set("text", rates[value]);
-  }
-
-  inline function btnGlideModeCB(control, value)
-  {
-    legato.setAttribute(3, value);
-    value == 1 ? btnGlide.set("text", "Whole Step") : btnGlide.set("text", "Half Step");
     
-  }
+    inline function btnArtCB(control, value)
+    {
+        local idx;
+        if (value == 1)
+        {
+            idx = btnArt.indexOf(control);
+            changeArticulation(idx);
+        }
+    }
+    
+    inline function changeArticulation(index)
+    {
+        for (i = 0; i < samplerIds.length; i++)
+        {
+            if (Manifest.articulations[articulationNames[index]].samplers.indexOf(samplerIds[i]) != -1)
+            {
+                childSynths[i].setBypassed(false);
+            }
+            else 
+            {
+                childSynths[i].setBypassed(true);
+            }
+        }
+    }
 }

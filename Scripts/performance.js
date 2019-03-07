@@ -20,43 +20,11 @@
 namespace Performance
 {
 	inline function onInitCB()
-	{
-        //Background panel
-		Content.setPropertiesFromJSON("pnlPerformance", {itemColour:Theme.C3, itemColour2:Theme.C3});
-	    		
-        //Sliders
-        Content.setPropertiesFromJSON("sliOffset", {bgColour:Theme.C2, itemColour:Theme.F});
-        Content.setPropertiesFromJSON("sliGlide", {bgColour:Theme.C2, itemColour:Theme.F, textColour:Theme.C6});
-        ui.sliderPanel("sliGlide", sliGlidePaintRoutine, 5, 5);
-        
-        Content.setPropertiesFromJSON("sliRelease", {bgColour:Theme.C2, itemColour:Theme.F});
-    
+	{	    		            
         //Release trigger purge button
 	    Content.setPropertiesFromJSON("btnPurgeReleases", {bgColour:Theme.C5, itemColour:Theme.C4, itemColour2:Theme.C2, textColour:Theme.C6});
 	    ui.buttonPanel("btnPurgeReleases", paintRoutines.onOffButton);
         
-        //Round robin button		
-	    Content.setPropertiesFromJSON("btnRR", {bgColour:Theme.C5, itemColour:Theme.C4, itemColour2:Theme.C2, textColour:Theme.C6});
-	    ui.buttonPanel("btnRR", paintRoutines.onOffButton);
 	}
 	   
-    function sliGlidePaintRoutine(g)
-    {   
-        reg rates = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
-        reg range = this.get("max") - this.get("min");
-        reg newVal = (this.getWidth() / range) * (this.get("min") + this.getValue());
-     
-        g.fillAll(this.get("bgColour"));
-        g.setColour(this.get("itemColour"));
-        
-        g.fillRect([0, 0, newVal, this.getHeight()]);
-        
-        //Border
-        g.setColour(0xFF000000);
-        g.drawRect([0, 0, this.getWidth(), this.getHeight()], 1);
-        
-        //Text
-        g.setColour(this.get("textColour"));
-        g.drawAlignedText(rates[this.getValue()], [0, 0, this.getWidth(), this.getHeight()], "centred");
-    }
 }

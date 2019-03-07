@@ -1,1262 +1,1262 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="clarinet1_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="50" HiKey="50" LoKey="50" LoVel="75" HiVel="127"
+  <sample ID="0" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3365"
           SampleEnd="55201" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="0"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="0" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_50_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_50_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_50_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="1" Root="50" HiKey="50" LoKey="50" LoVel="75" HiVel="127"
+  <sample ID="1" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="2" Volume="2" Pan="0" Normalized="0" Pitch="0" SampleStart="511"
           SampleEnd="66117" SampleStartMod="4059" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="57344"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="57344" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_50_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_50_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_50_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="2" Root="50" HiKey="50" LoKey="50" LoVel="75" HiVel="127"
+  <sample ID="2" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4487"
           SampleEnd="85851" SampleStartMod="1497" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="126976"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="126976" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_50_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_50_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_50_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="3" Root="51" HiKey="51" LoKey="51" LoVel="75" HiVel="127"
+  <sample ID="3" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2534"
           SampleEnd="62548" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="217088"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="217088" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_51_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_51_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_51_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="4" Root="51" HiKey="51" LoKey="51" LoVel="75" HiVel="127"
+  <sample ID="4" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1527"
           SampleEnd="62928" SampleStartMod="4312" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="282624"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="282624" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_51_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_51_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_51_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="5" Root="51" HiKey="51" LoKey="51" LoVel="75" HiVel="127"
+  <sample ID="5" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1127"
           SampleEnd="80662" SampleStartMod="1064" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="348160"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="348160" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_51_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_51_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_51_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="6" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
+  <sample ID="6" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4243"
           SampleEnd="61923" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="434176"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="434176" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_52_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="7" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
+  <sample ID="7" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="363"
           SampleEnd="56997" SampleStartMod="3883" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="499712"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="499712" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_52_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_52_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_52_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="8" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
+  <sample ID="8" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-4" Pan="0" Normalized="0" Pitch="0" SampleStart="4595"
           SampleEnd="83015" SampleStartMod="1180" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="557056"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="557056" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_52_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_52_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_52_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="9" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
+  <sample ID="9" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3455"
           SampleEnd="57166" SampleStartMod="2964" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="643072"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="643072" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_53_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="10" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
+  <sample ID="10" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2076"
           SampleEnd="71942" SampleStartMod="3855" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="700416"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="700416" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_53_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_53_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_53_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="11" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
+  <sample ID="11" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4628"
           SampleEnd="82786" SampleStartMod="1568" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="774144"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="774144" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_53_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_53_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_53_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="12" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
+  <sample ID="12" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3232"
           SampleEnd="60574" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="860160"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="860160" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_54_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="13" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
+  <sample ID="13" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="166"
           SampleEnd="64117" SampleStartMod="3208" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="921600"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="921600" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_54_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_54_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_54_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="14" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
+  <sample ID="14" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4839"
           SampleEnd="93808" SampleStartMod="1339" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="987136"
-          MonolithLength="98304" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="987136" MonolithLength="98304"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_54_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_54_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_54_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="15" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
+  <sample ID="15" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2348"
           SampleEnd="61092" SampleStartMod="3536" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1085440"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1085440" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_55_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="16" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
+  <sample ID="16" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2356"
           SampleEnd="59660" SampleStartMod="4504" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1146880"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1146880" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_55_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_55_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_55_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="17" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
+  <sample ID="17" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4823"
           SampleEnd="81338" SampleStartMod="1407" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1208320"
-          MonolithLength="102400" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1208320" MonolithLength="102400"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_55_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_55_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_55_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="18" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
+  <sample ID="18" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3171"
           SampleEnd="56646" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1310720"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1310720" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_56_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="19" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
+  <sample ID="19" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2268"
           SampleEnd="65990" SampleStartMod="2344" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1368064"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1368064" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_56_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_56_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_56_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="20" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
+  <sample ID="20" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5069"
           SampleEnd="81856" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1437696"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1437696" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_56_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_56_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_56_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="21" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
+  <sample ID="21" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="70"
           SampleEnd="60813" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1527808"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1527808" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_57_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="22" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
+  <sample ID="22" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="897"
           SampleEnd="63619" SampleStartMod="3461" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1589248"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1589248" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_57_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_57_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_57_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="23" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
+  <sample ID="23" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2718"
           SampleEnd="72541" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1654784"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1654784" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_57_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_57_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_57_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="24" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
+  <sample ID="24" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="3123"
           SampleEnd="60699" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1740800"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1740800" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_58_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="25" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
+  <sample ID="25" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="436"
           SampleEnd="60292" SampleStartMod="1601" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1802240"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1802240" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_58_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_58_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_58_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="26" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
+  <sample ID="26" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5150"
           SampleEnd="75299" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1863680"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1863680" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_58_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_58_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_58_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="27" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
+  <sample ID="27" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1660"
           SampleEnd="65047" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1953792"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1953792" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_59_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="28" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
+  <sample ID="28" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2056"
           SampleEnd="62142" SampleStartMod="1507" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2019328"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2019328" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_59_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_59_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_59_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="29" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
+  <sample ID="29" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5004"
           SampleEnd="78806" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2084864"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2084864" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_59_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_59_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_59_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="30" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
+  <sample ID="30" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3094"
           SampleEnd="62782" SampleStartMod="2895" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2174976"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2174976" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_60_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="31" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
+  <sample ID="31" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1714"
           SampleEnd="74715" SampleStartMod="3174" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2240512"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2240512" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_60_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="32" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
+  <sample ID="32" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5154"
           SampleEnd="87462" SampleStartMod="826" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2318336"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2318336" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_60_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="33" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+  <sample ID="33" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3074"
           SampleEnd="74416" SampleStartMod="2267" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2408448"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2408448" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_61_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="34" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+  <sample ID="34" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2146"
           SampleEnd="67397" SampleStartMod="3055" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2486272"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2486272" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_61_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_61_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_61_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="35" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+  <sample ID="35" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5106"
           SampleEnd="85694" SampleStartMod="943" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2555904"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2555904" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_61_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="36" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+  <sample ID="36" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2779"
           SampleEnd="60343" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2641920"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2641920" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_62_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="37" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+  <sample ID="37" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2016"
           SampleEnd="69537" SampleStartMod="3162" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2703360"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2703360" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_62_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_62_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_62_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="38" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+  <sample ID="38" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4779"
           SampleEnd="89971" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2777088"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2777088" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_62_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="39" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+  <sample ID="39" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3005"
           SampleEnd="62370" SampleStartMod="2184" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2867200"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2867200" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_63_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="40" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+  <sample ID="40" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3049"
           SampleEnd="71648" SampleStartMod="2524" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2932736"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2932736" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_63_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_63_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_63_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="41" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+  <sample ID="41" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5063"
           SampleEnd="90568" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3006464"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3006464" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_63_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="42" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+  <sample ID="42" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3302"
           SampleEnd="62780" SampleStartMod="2288" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3100672"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3100672" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_64_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="43" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+  <sample ID="43" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2879"
           SampleEnd="76839" SampleStartMod="2968" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3166208"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3166208" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_64_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_64_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_64_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="44" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+  <sample ID="44" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4901"
           SampleEnd="83906" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3244032"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3244032" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_64_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="45" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+  <sample ID="45" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3425"
           SampleEnd="78087" SampleStartMod="2247" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3330048"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3330048" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_65_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="46" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+  <sample ID="46" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4640"
           SampleEnd="73688" SampleStartMod="2771" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3411968"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3411968" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_65_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_65_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_65_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="47" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+  <sample ID="47" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4725"
           SampleEnd="85141" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3485696"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3485696" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_65_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="48" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+  <sample ID="48" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3315"
           SampleEnd="71785" SampleStartMod="2290" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3571712"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3571712" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_66_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="49" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+  <sample ID="49" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3225"
           SampleEnd="74035" SampleStartMod="2723" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3645440"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3645440" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_66_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_66_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_66_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="50" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+  <sample ID="50" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5058"
           SampleEnd="78045" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3723264"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3723264" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_66_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="51" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+  <sample ID="51" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3860"
           SampleEnd="63990" SampleStartMod="2313" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3813376"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3813376" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_67_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="52" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+  <sample ID="52" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3082"
           SampleEnd="66458" SampleStartMod="2755" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3878912"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3878912" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_67_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_67_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_67_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="53" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+  <sample ID="53" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4491"
           SampleEnd="86977" SampleStartMod="1379" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3948544"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3948544" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_67_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="54" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+  <sample ID="54" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3701"
           SampleEnd="60721" SampleStartMod="2002" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4038656"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4038656" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_68_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="55" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+  <sample ID="55" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2411"
           SampleEnd="72223" SampleStartMod="2335" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4100096"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4100096" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_68_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_68_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_68_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="56" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+  <sample ID="56" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4899"
           SampleEnd="84937" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4173824"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4173824" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_68_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="57" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+  <sample ID="57" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5385"
           SampleEnd="66484" SampleStartMod="2452" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4259840"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4259840" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_69_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="58" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+  <sample ID="58" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2177"
           SampleEnd="75763" SampleStartMod="2092" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4329472"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4329472" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_69_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_69_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_69_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="59" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+  <sample ID="59" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4867"
           SampleEnd="88202" SampleStartMod="1394" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4407296"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4407296" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_69_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="60" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+  <sample ID="60" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4035"
           SampleEnd="71762" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4497408"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4497408" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_70_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="61" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+  <sample ID="61" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2823"
           SampleEnd="74743" SampleStartMod="3367" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4571136"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4571136" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_70_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_70_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_70_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="62" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+  <sample ID="62" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4714"
           SampleEnd="88448" SampleStartMod="1260" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4648960"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4648960" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_70_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="63" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+  <sample ID="63" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2821"
           SampleEnd="59754" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4739072"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4739072" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_71_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="64" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+  <sample ID="64" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2981"
           SampleEnd="73320" SampleStartMod="3529" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4800512"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4800512" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_71_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_71_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_71_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="65" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+  <sample ID="65" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4601"
           SampleEnd="87437" SampleStartMod="1247" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4874240"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4874240" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_71_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="66" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+  <sample ID="66" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2969"
           SampleEnd="62468" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4964352"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4964352" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_72_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="67" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+  <sample ID="67" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1712"
           SampleEnd="64403" SampleStartMod="2306" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5029888"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5029888" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_72_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_72_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_72_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="68" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+  <sample ID="68" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5064"
           SampleEnd="82787" SampleStartMod="910" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5095424"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5095424" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_72_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="69" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+  <sample ID="69" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="63"
           SampleEnd="61751" SampleStartMod="1651" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5181440"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5181440" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_73_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="70" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+  <sample ID="70" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4089"
           SampleEnd="63598" SampleStartMod="1990" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5246976"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5246976" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_73_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_73_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_73_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="71" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+  <sample ID="71" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4711"
           SampleEnd="87300" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5312512"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5312512" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_73_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="72" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+  <sample ID="72" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2573"
           SampleEnd="59593" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5402624"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5402624" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_74_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="73" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+  <sample ID="73" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2363"
           SampleEnd="70444" SampleStartMod="2049" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5464064"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5464064" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_74_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_74_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_74_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="74" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+  <sample ID="74" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4766"
           SampleEnd="90911" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5537792"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5537792" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_74_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="75" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+  <sample ID="75" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3675"
           SampleEnd="63347" SampleStartMod="2594" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5632000"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5632000" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_75_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="76" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+  <sample ID="76" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2233"
           SampleEnd="69916" SampleStartMod="2490" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5697536"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5697536" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_75_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_75_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_75_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="77" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+  <sample ID="77" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5275"
           SampleEnd="92208" SampleStartMod="727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5771264"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5771264" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_75_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_75_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_75_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="78" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+  <sample ID="78" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3471"
           SampleEnd="63274" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5865472"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5865472" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_76_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="79" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+  <sample ID="79" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2219"
           SampleEnd="71535" SampleStartMod="1507" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5931008"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5931008" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_76_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_76_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_76_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="80" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+  <sample ID="80" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5243"
           SampleEnd="76134" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6004736"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6004736" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_76_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_76_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_76_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="81" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+  <sample ID="81" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4123"
           SampleEnd="63225" SampleStartMod="2471" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6090752"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6090752" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_77_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="82" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+  <sample ID="82" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2349"
           SampleEnd="69619" SampleStartMod="1462" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6156288"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6156288" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_77_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_77_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_77_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="83" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+  <sample ID="83" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5229"
           SampleEnd="89961" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6230016"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6230016" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_77_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_77_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_77_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="84" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+  <sample ID="84" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1651"
           SampleEnd="61281" SampleStartMod="2593" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6320128"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6320128" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_78_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="85" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+  <sample ID="85" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2478"
           SampleEnd="74460" SampleStartMod="2167" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6381568"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6381568" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_78_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_78_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_78_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="86" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+  <sample ID="86" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5421"
           SampleEnd="87295" SampleStartMod="548" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6459392"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6459392" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_78_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_78_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_78_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="87" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+  <sample ID="87" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="820"
           SampleEnd="58122" SampleStartMod="2108" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6549504"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6549504" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_79_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="88" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+  <sample ID="88" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3033"
           SampleEnd="70675" SampleStartMod="2602" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6610944"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6610944" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_79_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_79_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_79_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="89" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+  <sample ID="89" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5300"
           SampleEnd="84408" SampleStartMod="661" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6684672"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6684672" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_79_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_79_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_79_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="90" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+  <sample ID="90" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1268"
           SampleEnd="58001" SampleStartMod="1613" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6774784"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6774784" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_80_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="91" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+  <sample ID="91" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2561"
           SampleEnd="71560" SampleStartMod="1500" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6836224"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6836224" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_80_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_80_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_80_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="92" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+  <sample ID="92" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2463"
           SampleEnd="79931" SampleStartMod="518" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6909952"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6909952" MonolithLength="81920"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_80_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_80_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_80_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="93" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+  <sample ID="93" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1344"
           SampleEnd="60029" SampleStartMod="2453" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6991872"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6991872" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_81_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="94" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+  <sample ID="94" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2675"
           SampleEnd="62227" SampleStartMod="996" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7053312"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7053312" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_81_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_81_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_81_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="95" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+  <sample ID="95" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5446"
           SampleEnd="85147" SampleStartMod="933" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7118848"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7118848" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_81_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_81_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_81_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="96" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+  <sample ID="96" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1061"
           SampleEnd="58142" SampleStartMod="2864" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7208960"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7208960" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_82_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="97" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+  <sample ID="97" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2770"
           SampleEnd="73434" SampleStartMod="1182" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7270400"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7270400" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_82_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_82_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_82_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="98" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+  <sample ID="98" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5400"
           SampleEnd="82098" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7344128"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7344128" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_82_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_82_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_82_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="99" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+  <sample ID="99" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3497"
           SampleEnd="59894" SampleStartMod="3034" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7434240"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7434240" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_83_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="100" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+  <sample ID="100" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2778"
           SampleEnd="64908" SampleStartMod="3221" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7495680"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7495680" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_83_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_83_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_83_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="101" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+  <sample ID="101" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5533"
           SampleEnd="79500" SampleStartMod="742" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7561216"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7561216" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_83_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_83_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_83_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="102" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+  <sample ID="102" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="701"
           SampleEnd="55066" SampleStartMod="2636" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7651328"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7651328" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_84_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_84_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_84_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="103" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+  <sample ID="103" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3185"
           SampleEnd="69742" SampleStartMod="2226" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7708672"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7708672" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_84_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_84_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_84_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="104" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+  <sample ID="104" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5427"
           SampleEnd="82951" SampleStartMod="778" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7782400"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7782400" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_84_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_84_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_84_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="105" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+  <sample ID="105" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3803"
           SampleEnd="62654" SampleStartMod="1870" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7872512"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7872512" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_85_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_85_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_85_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="106" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+  <sample ID="106" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2785"
           SampleEnd="74601" SampleStartMod="1801" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7938048"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7938048" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_85_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_85_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_85_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="107" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+  <sample ID="107" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5450"
           SampleEnd="86617" SampleStartMod="679" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8015872"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8015872" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_85_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_85_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_85_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="108" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+  <sample ID="108" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="418"
           SampleEnd="52908" SampleStartMod="1053" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8105984"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8105984" MonolithLength="53248"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_86_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_86_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_86_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="109" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+  <sample ID="109" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2706"
           SampleEnd="63337" SampleStartMod="2028" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8159232"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8159232" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_86_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_86_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_86_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="110" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+  <sample ID="110" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5571"
           SampleEnd="89312" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8224768"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8224768" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_86_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_86_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_86_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="111" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+  <sample ID="111" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="781"
           SampleEnd="69947" SampleStartMod="2198" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8318976"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8318976" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_87_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_87_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_87_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="112" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+  <sample ID="112" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2685"
           SampleEnd="72527" SampleStartMod="2453" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8392704"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8392704" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_87_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_87_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_87_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="113" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+  <sample ID="113" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="5483"
           SampleEnd="85019" SampleStartMod="798" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8466432"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8466432" MonolithLength="90112"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_87_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_87_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_87_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="114" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+  <sample ID="114" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="845"
           SampleEnd="60794" SampleStartMod="1403" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8556544"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8556544" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_88_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_88_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_88_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="115" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+  <sample ID="115" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3015"
           SampleEnd="86012" SampleStartMod="2359" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8617984"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8617984" MonolithLength="94208"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_88_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_88_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_88_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="116" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+  <sample ID="116" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1953"
           SampleEnd="79489" SampleStartMod="519" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8712192"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8712192" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_88_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_88_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_88_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="117" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+  <sample ID="117" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2114"
           SampleEnd="72667" SampleStartMod="708" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8798208"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8798208" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_89_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_89_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_89_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="118" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+  <sample ID="118" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3016"
           SampleEnd="68604" SampleStartMod="1097" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8871936"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8871936" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_89_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_89_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_89_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="119" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+  <sample ID="119" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-5" Pan="0" Normalized="0" Pitch="0" SampleStart="2750"
           SampleEnd="84187" SampleStartMod="817" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="8941568"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="8941568" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_89_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_89_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_89_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="120" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+  <sample ID="120" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1279"
           SampleEnd="60689" SampleStartMod="695" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9027584"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="9027584" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_90_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_90_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_90_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="121" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+  <sample ID="121" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2722"
           SampleEnd="68781" SampleStartMod="1988" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9089024"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="9089024" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_90_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_90_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_90_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="122" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+  <sample ID="122" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-5" Pan="0" Normalized="0" Pitch="0" SampleStart="2219"
           SampleEnd="81753" SampleStartMod="1046" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9158656"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="9158656" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_90_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_90_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_90_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="123" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+  <sample ID="123" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1368"
           SampleEnd="53358" SampleStartMod="956" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9244672"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="9244672" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_91_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_91_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_91_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="124" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+  <sample ID="124" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3122"
           SampleEnd="72263" SampleStartMod="1387" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9302016"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="9302016" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_91_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_91_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_91_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="125" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+  <sample ID="125" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2264"
           SampleEnd="82340" SampleStartMod="402" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="9375744"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="9375744" MonolithLength="86016"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_close_91_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_decca_91_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/staccato/clarinet1_staccato_hall_91_dynamic3_rr1.wav"/>

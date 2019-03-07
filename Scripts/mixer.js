@@ -32,47 +32,25 @@ namespace Mixer
 		{
 		    samplers.push(Synth.getSampler(s));
 		}
-
-		//Background panel
-		Content.setPropertiesFromJSON("pnlMixer", {itemColour:Theme.C3, itemColour2:Theme.C3});
-			
-		//Knobs and sliders
+		
+        //Channel routing and purge buttons
 		const var purge = [];
 		const var cmbOutput = [];
 
 		for (i = 0; i < 3; i++)
 		{
 		    //Purge button
-		    Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.C6, itemColour:Theme.C5});
-			purge[i] = ui.buttonPanel("btnPurge"+i, purgeButtonPaintRoutine);
-			purge[i].setControlCallback(btnPurgeCB);			
+		    purge[i] = Content.getComponent("btnPurge"+i);
+			purge[i].setControlCallback(onbtnPurgeControl);
 			
 		    //Channel routing combo boxes
             cmbOutput[i] = Content.getComponent("cmbOutput"+i);
             cmbOutput[i].setControlCallback(cmbOutputCB);
             Engine.isPlugin() ? cmbOutput[i].set("items", "1/2\n3/4\n5/6") : cmbOutput[i].set("items", "1/2");
-			
-		    //Volume slider
-		    Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.C2, itemColour:Theme.F});
-		    
-		    //Pan knob
-			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.C2, itemColour:Theme.F});
-			ui.sliderPanel("sliPan"+i, paintRoutines.knob, 0, 0.5);
-
-			//Width knob
-            Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.C2, itemColour:Theme.F});
-			ui.sliderPanel("sliWidth"+i, paintRoutines.knob, 0, 0.5);
-			
-			//Delay knob
-			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.C2, itemColour:Theme.F});
-			ui.sliderPanel("sliDelay"+i, paintRoutines.knob, 0, 0.5);
 		}
-		
-		//Output vu meter
-		const var pnlOutputMeter0 = VuMeter.createVuMeter("pnlOutputMeter0");
 	}
 		
-	inline function btnPurgeCB(control, value)
+	inline function onbtnPurgeControl(control, value)
 	{
 		local idx = purge.indexOf(control);
 
@@ -82,7 +60,6 @@ namespace Mixer
 			if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(idx) != 1-value)
 			{
 				s.purgeMicPosition(s.getMicPositionName(idx), 1-value);
-                control.repaint();
 			}
 		}
 	}
@@ -116,12 +93,4 @@ namespace Mixer
             matrix.addConnection(1 + (idx * 2), 1);
         }
     };
-	
-    function purgeButtonPaintRoutine(g)
-	{							
-		this.getValue() == 1 ? g.setColour(this.get("textColour")) : g.setColour(this.get("itemColour"));
-
-		g.setFont(Theme.BOLD, 22);
-		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");
-	};
 }

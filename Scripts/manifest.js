@@ -18,12 +18,12 @@
 */
 
 namespace Manifest
-{
+{    
     const var patches = {
         "piccolo": //Sample map identifier
         {
 	        range: [74, 105], //Playable range
-	        hasFlutter: false, //Does this patch have a flutter sample map?
+	        hasFlutter: true, //Does this patch have a flutter sample map?
             legatoSettings:
 		    {
                 bendTime:0,
@@ -36,7 +36,7 @@ namespace Manifest
 		"flute1":
 		{
             range:[59, 96],
-            hasFlutter: false,
+            hasFlutter: true,
             legatoSettings:
             {
                 bendTime:-5,
@@ -49,7 +49,7 @@ namespace Manifest
 		"flute2":
 		{
             range:[59, 96],
-            hasFlutter: false,
+            hasFlutter: true,
             legatoSettings:
             {
                 bendTime:-5,
@@ -62,7 +62,7 @@ namespace Manifest
 		"altoFlute":
 		{
 			range: [55, 91],
-			hasFlutter: false,
+			hasFlutter: true,
 			legatoSettings:
 		    {
                 bendTime:0,
@@ -114,7 +114,7 @@ namespace Manifest
         "clarinet1":
         {
 	        range: [50, 91],
-	        hasFlutter: false,
+	        hasFlutter: true,
             legatoSettings:
 		    {
                 bendTime:0,
@@ -127,7 +127,7 @@ namespace Manifest
         "clarinet2":
         {
 	        range: [50, 91],
-	        hasFlutter: false,
+	        hasFlutter: true,
             legatoSettings:
 		    {
                 bendTime:0,
@@ -140,7 +140,7 @@ namespace Manifest
         "bassClarinet":
         {
 	        range: [34, 75],
-	        hasFlutter: false,
+	        hasFlutter: true,
             legatoSettings:
 		    {
                 bendTime:-10,
@@ -153,7 +153,7 @@ namespace Manifest
         "bassoon1":
         {
 	        range: [34, 74],
-	        hasFlutter: false,
+	        hasFlutter: true,
             legatoSettings:
 		    {
                 bendTime:0,
@@ -163,10 +163,10 @@ namespace Manifest
                 maxFade:60
 		    }
 	    },
-        "basoon2":
+        "bassoon2":
         {
 	        range: [34, 74],
-	        hasFlutter: false,
+	        hasFlutter: true,
             legatoSettings:
 		    {
                 bendTime:0,

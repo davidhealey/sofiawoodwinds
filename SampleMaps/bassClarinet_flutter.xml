@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="empty" SaveMode="0" FileName="empty" MicPositions="close;decca;hall;"
+           RRGroupAmount="1">
+  <sample Root="38" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="160837" LoopEnd="264439"
+          SampleStart="4893" LoopXFade="5000" Volume="3" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_38_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_38_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_38_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="158467" LoopEnd="262102"
+          LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_39_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_39_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_39_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="122476" LoopEnd="226630"
+          LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_40_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_40_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_40_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="120060" LoopEnd="232876"
+          LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_41_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_41_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_41_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="124932" LoopEnd="227878"
+          LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_42_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_42_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_42_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="136924" LoopEnd="240617"
+          LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_43_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_43_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_43_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="108141" LoopEnd="213775"
+          LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_44_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_44_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_44_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="98486" LoopEnd="267830"
+          LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_45_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_45_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_45_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="156208" LoopEnd="259470"
+          LoopXFade="5000" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_46_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_46_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_46_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="16814" LoopEnd="119917"
+          LoopXFade="5000" SampleStart="710" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_47_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_47_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_47_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="21604" LoopEnd="139152"
+          LoopXFade="5000" Volume="-3" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_48_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_48_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_48_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="24010" LoopEnd="130747"
+          LoopXFade="5000" Volume="-3" SampleStart="696" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_49_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_49_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_49_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="50426" LoopEnd="154513"
+          LoopXFade="5000" Volume="-3" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_50_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_50_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_50_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="51" LoKey="51" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="0" LoopEnabled="1" LoopStart="19201" LoopEnd="123590"
+          LoopXFade="5000" Volume="2" SampleStartMod="5000">
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_close_51_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_decca_51_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}bassClarinet/flutter/bassClarinet_flutter_hall_51_dynamic1_rr1.wav"/>
+  </sample>
+</samplemap>

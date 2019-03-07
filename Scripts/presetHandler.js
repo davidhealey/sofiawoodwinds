@@ -1,5 +1,5 @@
 /*
-    Copyright 2018 David Healey
+    Copyright 2018, 2019 David Healey
 
     This file is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,11 +19,17 @@ namespace PresetHandler
 {
     inline function onInitCB()
     {
-        const var legato = Synth.getMidiProcessor("legato"); //legato script
-        const var sustainFlutter = Synth.getModulator("sustainFlutter"); //Flutter CC gain mod
+        //legato script
+        const var legato = Synth.getMidiProcessor("legato");
+        
+        //Vibrato modulators
+        const var vibratoPitch = Synth.getModulator("vibratoPitch");
+        const var vibratoGain = Synth.getModulator("vibratoGain");
+        const var vibratoTimbre = Synth.getModulator("vibratoTimbre");
+                
         const var roundRobin = [];
-        roundRobin[0] = Synth.getMidiProcessor("roundRobin"); //Sustain/staccato round robin handler
-        roundRobin[1] = Synth.getMidiProcessor("transitionRoundRobin"); //Transition round robin handler
+        roundRobin[0] = Synth.getMidiProcessor("roundRobin"); //Sustain RR
+        roundRobin[1] = Synth.getMidiProcessor("staccatoRoundRobin"); 
 
         //Previos/Next preset buttons
         const var btnPreset = [];
@@ -54,7 +60,7 @@ namespace PresetHandler
 
         //Preset selection dropdown
         const var cmbPatch = Content.getComponent("cmbPatch");
-        Content.setPropertiesFromJSON("cmbPatch", {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6, items:patchNames.join("\n")});
+        cmbPatch.set("items", patchNames.join("\n"));
         cmbPatch.setControlCallback(cmbPatchCB);
     }
 
@@ -80,7 +86,6 @@ namespace PresetHandler
         loadSampleMaps(patchName);
         loadLegatoSettings(patchName);
         setRoundRobinRange(patchName);
-        sustainFlutter.setBypassed(1-Manifest.patches[patchName].hasFlutter);
         Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
     }
 
@@ -108,48 +113,47 @@ namespace PresetHandler
 
         for (id in samplerIds) //Each sampler
         {
-          //A sample map for this patch was found or sampler is transition sampler
-          if (sampleMaps.contains(patchName + "_" + id) || id == "transitions")
-          {
             childSynths[id].setBypassed(false); //Enable sampler
             
-            if (id == "transitions")
+            if (id == "transitions") //Transitions sampler
             {
                 childSynths[id].asSampler().loadSampleMap(patchName + "_staccato"); //Load staccato sample map
             }
-            else
+            else if (sampleMaps.contains(patchName + "_" + id)) //Valid sample map for sampler ID
             {
                 childSynths[id].asSampler().loadSampleMap(patchName + "_" + id); //Load the sample map
             }
-          }
-          else
-          {
-            childSynths[id].setBypassed(true); //Bypass sampler
-            childSynths[id].asSampler().loadSampleMap("empty"); //Load empty sample map for this sampler
-          }
+            else //No sample map found
+            {
+                childSynths[id].setBypassed(true); //Bypass sampler
+                childSynths[id].asSampler().loadSampleMap("empty"); //Load empty sample map for this sampler
+            }
         }
     }
 
     inline function loadLegatoSettings(patchName)
     {
-        local attributes = {BEND_TIME:8, MIN_BEND:9, MAX_BEND:10, MIN_FADE:5, MAX_FADE:6};
         local settings = Manifest.patches[patchName].legatoSettings; //Get instrument's settings
 
-        legato.setAttribute(attributes.BEND_TIME, settings.bendTime);
-        legato.setAttribute(attributes.MIN_BEND, settings.minBend);
-        legato.setAttribute(attributes.MAX_BEND, settings.maxBend);
-        legato.setAttribute(attributes.MIN_FADE, settings.minFade);
-        legato.setAttribute(attributes.MAX_FADE, settings.maxFade);
+        if (settings)
+        {
+            legato.setAttribute(legato.knbBendTm, settings.bendTime);
+            legato.setAttribute(legato.knbBendMin, settings.minBend);
+            legato.setAttribute(legato.knbBendMax, settings.maxBend);
+            legato.setAttribute(legato.knbFadeMin, settings.minFade);
+            legato.setAttribute(legato.knbFadeMax, settings.maxFade);   
+        }
     }
-   
+      
     //Set the range of the sustain/legato/glide round robin handler
     inline function setRoundRobinRange(patchName)
     {
-      local range = Manifest.patches[patchName].range;
-      for (i = 0; i < roundRobin.length; i++)
+        local range = Manifest.patches[patchName].range;
+      
+        for (i = 0; i < roundRobin.length; i++)
         {
-          roundRobin[i].setAttribute(2, range[0]);
-          roundRobin[i].setAttribute(3, range[1]);   
+          roundRobin[i].setAttribute(roundRobin[i].knbLowNote, range[0]);
+          roundRobin[i].setAttribute(roundRobin[i].knbHighNote, range[1]);   
         }
     }
 }

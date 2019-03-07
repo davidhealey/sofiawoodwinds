@@ -1,1112 +1,1112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="altoFlute_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
+  <sample ID="0" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="718"
           SampleEnd="52791" SampleStartMod="5051" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="0"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="0" MonolithLength="53248"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_55_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="1" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
+  <sample ID="1" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1070"
           SampleEnd="57866" SampleStartMod="4844" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="53248"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="53248" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_55_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_55_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_55_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="2" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="110"
+  <sample ID="2" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="110"
           RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="2963"
           SampleEnd="70904" SampleStartMod="6703" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="114688"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="114688" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_55_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_55_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_55_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="3" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
+  <sample ID="3" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="983"
           SampleEnd="56436" SampleStartMod="6491" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="188416"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="188416" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_56_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="4" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
+  <sample ID="4" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1620"
           SampleEnd="59500" SampleStartMod="6291" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="245760"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="245760" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_56_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_56_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_56_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="5" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="110"
+  <sample ID="5" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="110"
           RRGroup="3" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="2529"
           SampleEnd="69746" SampleStartMod="5508" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="307200"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="307200" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_56_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_56_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_56_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="6" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
+  <sample ID="6" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2047"
           SampleEnd="50721" SampleStartMod="4558" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="380928"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="380928" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_57_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="7" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
+  <sample ID="7" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-4" Pan="0" Normalized="0" Pitch="0" SampleStart="3164"
           SampleEnd="57617" SampleStartMod="4917" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="442368"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="442368" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_57_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_57_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_57_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="8" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="110"
+  <sample ID="8" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1239"
           SampleEnd="68611" SampleStartMod="6985" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="503808"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="503808" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_57_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_57_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_57_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="9" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
+  <sample ID="9" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3210"
           SampleEnd="60493" SampleStartMod="4119" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="573440"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="573440" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_58_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="10" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
+  <sample ID="10" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2778"
           SampleEnd="58775" SampleStartMod="5150" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="638976"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="638976" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_58_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_58_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_58_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="11" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="110"
+  <sample ID="11" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="110"
           RRGroup="3" Volume="6" Pan="0" Normalized="0" Pitch="0" SampleStart="1690"
           SampleEnd="70040" SampleStartMod="7086" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="700416"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="700416" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_58_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_58_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_58_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="12" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
+  <sample ID="12" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="540"
           SampleEnd="57649" SampleStartMod="7067" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="778240"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="778240" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_59_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="13" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
+  <sample ID="13" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3704"
           SampleEnd="60073" SampleStartMod="4336" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="839680"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="839680" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_59_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_59_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_59_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="14" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="110"
+  <sample ID="14" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2909"
           SampleEnd="71342" SampleStartMod="5035" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="901120"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="901120" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_59_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_59_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_59_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="15" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
+  <sample ID="15" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1728"
           SampleEnd="56717" SampleStartMod="4874" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="974848"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="974848" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_60_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="16" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
+  <sample ID="16" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2624"
           SampleEnd="58986" SampleStartMod="3959" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1032192"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1032192" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_60_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="17" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="110"
+  <sample ID="17" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1764"
           SampleEnd="68708" SampleStartMod="4590" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1093632"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1093632" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_60_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="18" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+  <sample ID="18" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1008"
           SampleEnd="53057" SampleStartMod="4787" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1171456"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1171456" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_61_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="19" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
+  <sample ID="19" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
           RRGroup="2" Volume="2" Pan="0" Normalized="0" Pitch="0" SampleStart="2006"
           SampleEnd="59428" SampleStartMod="4801" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1228800"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1228800" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_61_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_61_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_61_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="20" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="110"
+  <sample ID="20" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1090"
           SampleEnd="64838" SampleStartMod="4904" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1290240"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1290240" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_61_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="21" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+  <sample ID="21" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="808"
           SampleEnd="54053" SampleStartMod="4719" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1363968"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1363968" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_62_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="22" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
+  <sample ID="22" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1560"
           SampleEnd="56628" SampleStartMod="5341" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1425408"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1425408" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_62_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_62_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_62_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="23" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="110"
+  <sample ID="23" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1101"
           SampleEnd="63882" SampleStartMod="6194" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1482752"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1482752" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_62_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="24" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+  <sample ID="24" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="823"
           SampleEnd="53068" SampleStartMod="5242" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1556480"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1556480" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_63_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="25" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
+  <sample ID="25" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1518"
           SampleEnd="63005" SampleStartMod="4730" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1617920"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1617920" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_63_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_63_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_63_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="26" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="110"
+  <sample ID="26" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1734"
           SampleEnd="69272" SampleStartMod="4518" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1683456"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1683456" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_63_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="27" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+  <sample ID="27" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1738"
           SampleEnd="54770" SampleStartMod="5321" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1753088"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1753088" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_64_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="28" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
+  <sample ID="28" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2701"
           SampleEnd="57992" SampleStartMod="4068" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1814528"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1814528" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_64_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_64_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_64_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="29" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="110"
+  <sample ID="29" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="110"
           RRGroup="3" Volume="2" Pan="0" Normalized="0" Pitch="0" SampleStart="2017"
           SampleEnd="67163" SampleStartMod="5120" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1875968"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1875968" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_64_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="30" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+  <sample ID="30" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2650"
           SampleEnd="62145" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="1949696"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="1949696" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_65_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="31" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
+  <sample ID="31" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3147"
           SampleEnd="60509" SampleStartMod="3514" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2015232"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2015232" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_65_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_65_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_65_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="32" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="110"
+  <sample ID="32" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1380"
           SampleEnd="70279" SampleStartMod="3456" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2076672"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2076672" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_65_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="33" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+  <sample ID="33" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2822"
           SampleEnd="59016" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2150400"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2150400" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_66_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="34" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
+  <sample ID="34" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2240"
           SampleEnd="60014" SampleStartMod="3514" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2211840"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2211840" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_66_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_66_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_66_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="35" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="110"
+  <sample ID="35" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1891"
           SampleEnd="68128" SampleStartMod="4209" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2273280"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2273280" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_66_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="36" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+  <sample ID="36" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2365"
           SampleEnd="52867" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2347008"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2347008" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_67_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="37" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
+  <sample ID="37" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2844"
           SampleEnd="59703" SampleStartMod="3514" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2404352"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2404352" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_67_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_67_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_67_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="38" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="110"
+  <sample ID="38" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1874"
           SampleEnd="71454" SampleStartMod="4189" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2465792"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2465792" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_67_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="39" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+  <sample ID="39" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2124"
           SampleEnd="56711" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2539520"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2539520" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_68_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="40" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
+  <sample ID="40" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="894"
           SampleEnd="55345" SampleStartMod="2276" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2596864"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2596864" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_68_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_68_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_68_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="41" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="110"
+  <sample ID="41" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1382"
           SampleEnd="69874" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2654208"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2654208" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_68_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="42" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+  <sample ID="42" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2679"
           SampleEnd="60511" SampleStartMod="3675" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2727936"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2727936" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_69_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="43" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
+  <sample ID="43" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2624"
           SampleEnd="58360" SampleStartMod="4101" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2789376"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2789376" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_69_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_69_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_69_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="44" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="110"
+  <sample ID="44" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2451"
           SampleEnd="72672" SampleStartMod="4345" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2850816"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2850816" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_69_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="45" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+  <sample ID="45" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1280"
           SampleEnd="54999" SampleStartMod="4671" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2924544"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2924544" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_70_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="46" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
+  <sample ID="46" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2407"
           SampleEnd="62985" SampleStartMod="4052" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="2985984"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="2985984" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_70_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_70_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_70_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="47" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="110"
+  <sample ID="47" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4168"
           SampleEnd="72594" SampleStartMod="4005" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3051520"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3051520" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_70_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="48" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+  <sample ID="48" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2778"
           SampleEnd="57628" SampleStartMod="4036" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3125248"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3125248" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_71_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="49" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
+  <sample ID="49" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2305"
           SampleEnd="59622" SampleStartMod="3514" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3186688"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3186688" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_71_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_71_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_71_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="50" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="110"
+  <sample ID="50" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2980"
           SampleEnd="71239" SampleStartMod="4338" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3248128"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3248128" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_71_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="51" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+  <sample ID="51" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2207"
           SampleEnd="58720" SampleStartMod="5009" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3321856"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3321856" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_72_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="52" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
+  <sample ID="52" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2488"
           SampleEnd="57857" SampleStartMod="3981" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3383296"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3383296" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_72_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_72_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_72_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="53" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="110"
+  <sample ID="53" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3642"
           SampleEnd="75041" SampleStartMod="6806" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3444736"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3444736" MonolithLength="77824"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_72_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="54" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+  <sample ID="54" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2701"
           SampleEnd="57319" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3522560"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3522560" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_73_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="55" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
+  <sample ID="55" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1409"
           SampleEnd="56648" SampleStartMod="2771" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3584000"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3584000" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_73_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_73_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_73_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="56" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="110"
+  <sample ID="56" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2356"
           SampleEnd="71011" SampleStartMod="3215" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3641344"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3641344" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_73_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="57" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+  <sample ID="57" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3010"
           SampleEnd="59490" SampleStartMod="2645" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3715072"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3715072" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_74_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="58" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
+  <sample ID="58" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1752"
           SampleEnd="56602" SampleStartMod="3210" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3776512"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3776512" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_74_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_74_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_74_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="59" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="110"
+  <sample ID="59" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2113"
           SampleEnd="71468" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3833856"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3833856" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_74_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="60" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+  <sample ID="60" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1316"
           SampleEnd="60279" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3907584"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3907584" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_75_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="61" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
+  <sample ID="61" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2183"
           SampleEnd="58196" SampleStartMod="2248" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="3969024"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="3969024" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_75_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_75_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_75_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="62" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="110"
+  <sample ID="62" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1768"
           SampleEnd="66230" SampleStartMod="3557" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4030464"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4030464" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_75_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_75_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_75_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="63" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+  <sample ID="63" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1003"
           SampleEnd="57998" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4104192"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4104192" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_76_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="64" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
+  <sample ID="64" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1294"
           SampleEnd="56776" SampleStartMod="3514" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4165632"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4165632" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_76_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_76_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_76_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="65" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="110"
+  <sample ID="65" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1986"
           SampleEnd="68472" SampleStartMod="2224" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4222976"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4222976" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_76_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_76_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_76_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="66" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+  <sample ID="66" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1316"
           SampleEnd="54003" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4292608"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4292608" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_77_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="67" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
+  <sample ID="67" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="598"
           SampleEnd="57548" SampleStartMod="2381" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4354048"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4354048" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_77_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_77_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_77_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="68" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="110"
+  <sample ID="68" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1164"
           SampleEnd="69358" SampleStartMod="2281" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4415488"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4415488" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_77_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_77_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_77_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="69" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+  <sample ID="69" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="970"
           SampleEnd="58581" SampleStartMod="4624" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4485120"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4485120" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_78_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="70" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
+  <sample ID="70" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="685"
           SampleEnd="57352" SampleStartMod="2274" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4546560"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4546560" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_78_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_78_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_78_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="71" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="110"
+  <sample ID="71" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1587"
           SampleEnd="68888" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4608000"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4608000" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_78_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_78_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_78_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="72" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+  <sample ID="72" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1698"
           SampleEnd="55513" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4677632"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4677632" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_79_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="73" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
+  <sample ID="73" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1220"
           SampleEnd="56469" SampleStartMod="2217" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4734976"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4734976" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_79_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_79_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_79_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="74" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="110"
+  <sample ID="74" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2084"
           SampleEnd="69945" SampleStartMod="2043" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4792320"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4792320" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_79_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_79_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_79_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="75" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+  <sample ID="75" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1124"
           SampleEnd="60752" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4866048"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4866048" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_80_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="76" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
+  <sample ID="76" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1808"
           SampleEnd="60355" SampleStartMod="2546" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4927488"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4927488" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_80_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_80_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_80_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="77" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="110"
+  <sample ID="77" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1583"
           SampleEnd="68227" SampleStartMod="1895" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="4988928"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="4988928" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_80_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_80_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_80_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="78" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+  <sample ID="78" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1044"
           SampleEnd="58495" SampleStartMod="3843" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5058560"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5058560" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_81_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="79" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
+  <sample ID="79" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1103"
           SampleEnd="55441" SampleStartMod="2817" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5120000"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5120000" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_81_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_81_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_81_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="80" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="110"
+  <sample ID="80" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1982"
           SampleEnd="71297" SampleStartMod="2318" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5177344"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5177344" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_81_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_81_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_81_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="81" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+  <sample ID="81" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2073"
           SampleEnd="59116" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5251072"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5251072" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_82_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="82" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
+  <sample ID="82" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1486"
           SampleEnd="59031" SampleStartMod="3464" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5312512"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5312512" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_82_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_82_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_82_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="83" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="110"
+  <sample ID="83" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="573"
           SampleEnd="68718" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5373952"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5373952" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_82_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_82_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_82_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="84" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+  <sample ID="84" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1531"
           SampleEnd="57025" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5447680"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5447680" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_83_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="85" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
+  <sample ID="85" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1328"
           SampleEnd="56513" SampleStartMod="3045" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5505024"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5505024" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_83_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_83_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_83_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="86" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="110"
+  <sample ID="86" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1315"
           SampleEnd="70648" SampleStartMod="2551" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5562368"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5562368" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_83_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_83_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_83_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="87" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+  <sample ID="87" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5114"
           SampleEnd="57223" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5636096"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5636096" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_84_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_84_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_84_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="88" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
+  <sample ID="88" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1074"
           SampleEnd="59301" SampleStartMod="3514" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5693440"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5693440" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_84_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_84_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_84_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="89" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="110"
+  <sample ID="89" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="928"
           SampleEnd="69630" SampleStartMod="3561" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5754880"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5754880" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_84_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_84_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_84_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="90" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+  <sample ID="90" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="978"
           SampleEnd="59156" SampleStartMod="4864" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5828608"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5828608" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_85_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_85_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_85_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="91" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
+  <sample ID="91" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1576"
           SampleEnd="60131" SampleStartMod="2350" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5890048"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5890048" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_85_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_85_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_85_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="92" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="110"
+  <sample ID="92" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="745"
           SampleEnd="65958" SampleStartMod="3817" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="5951488"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="5951488" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_85_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_85_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_85_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="93" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+  <sample ID="93" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="881"
           SampleEnd="57907" SampleStartMod="4005" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6021120"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6021120" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_86_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_86_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_86_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="94" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
+  <sample ID="94" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1111"
           SampleEnd="56852" SampleStartMod="2703" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6082560"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6082560" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_86_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_86_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_86_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="95" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="110"
+  <sample ID="95" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1981"
           SampleEnd="68398" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6139904"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6139904" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_86_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_86_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_86_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="96" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+  <sample ID="96" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2944"
           SampleEnd="61725" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6209536"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6209536" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_87_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_87_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_87_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="97" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
+  <sample ID="97" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1317"
           SampleEnd="59199" SampleStartMod="2807" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6275072"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6275072" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_87_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_87_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_87_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="98" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="110"
+  <sample ID="98" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="932"
           SampleEnd="68853" SampleStartMod="2044" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6336512"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6336512" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_87_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_87_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_87_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="99" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+  <sample ID="99" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1407"
           SampleEnd="59742" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6406144"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6406144" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_88_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_88_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_88_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="100" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
+  <sample ID="100" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="703"
           SampleEnd="56716" SampleStartMod="2623" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6467584"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6467584" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_88_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_88_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_88_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="101" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="110"
+  <sample ID="101" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2046"
           SampleEnd="69593" SampleStartMod="2146" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6524928"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6524928" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_88_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_88_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_88_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="102" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+  <sample ID="102" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1291"
           SampleEnd="54820" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6594560"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6594560" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_89_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_89_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_89_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="103" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
+  <sample ID="103" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1338"
           SampleEnd="57349" SampleStartMod="3091" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6651904"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6651904" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_89_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_89_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_89_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="104" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="110"
+  <sample ID="104" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1375"
           SampleEnd="67668" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6713344"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6713344" MonolithLength="69632"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_89_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_89_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_89_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="105" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+  <sample ID="105" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1110"
           SampleEnd="56745" SampleStartMod="3802" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6782976"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6782976" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_90_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_90_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_90_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="106" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
+  <sample ID="106" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1791"
           SampleEnd="59717" SampleStartMod="3875" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6840320"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6840320" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_90_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_90_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_90_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="107" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="110"
+  <sample ID="107" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1715"
           SampleEnd="70487" SampleStartMod="3105" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6901760"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6901760" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_90_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_90_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_90_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="108" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+  <sample ID="108" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="226"
           SampleEnd="54130" SampleStartMod="4958" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="6975488"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="6975488" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_91_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_91_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_91_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="109" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
+  <sample ID="109" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="736"
           SampleEnd="61013" SampleStartMod="3931" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7032832"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7032832" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_91_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_91_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_91_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="110" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="110"
+  <sample ID="110" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="110"
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1971"
           SampleEnd="69768" SampleStartMod="4081" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="10"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="7094272"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="7094272" MonolithLength="73728"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_close_91_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_decca_91_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/staccato/altoFlute_staccato_hall_91_dynamic3_rr1.wav"/>
@@ -1115,8 +1115,8 @@
           RRGroup="3" Volume="-5" Pan="0" Normalized="0" Pitch="0" SampleStart="1721"
           SampleEnd="58960" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11567104"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="11567104" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_55.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_55.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_55.wav"/>
@@ -1125,8 +1125,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1224"
           SampleEnd="48564" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11628544"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="11628544" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_56.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_56.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_56.wav"/>
@@ -1135,8 +1135,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="669"
           SampleEnd="47234" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11689984"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="11689984" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_57.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_57.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_57.wav"/>
@@ -1145,8 +1145,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="948"
           SampleEnd="48763" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11747328"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="11747328" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_58.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_58.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_58.wav"/>
@@ -1155,8 +1155,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1761"
           SampleEnd="48014" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11804672"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="11804672" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_59.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_59.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_59.wav"/>
@@ -1165,8 +1165,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2032"
           SampleEnd="50171" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11866112"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="11866112" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_60.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_60.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_60.wav"/>
@@ -1175,8 +1175,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3636"
           SampleEnd="53758" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11927552"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="11927552" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_61.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_61.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_61.wav"/>
@@ -1185,8 +1185,8 @@
           RRGroup="3" Volume="-4" Pan="0" Normalized="0" Pitch="0" SampleStart="1336"
           SampleEnd="46557" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="11988992"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="11988992" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_62.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_62.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_62.wav"/>
@@ -1195,8 +1195,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1597"
           SampleEnd="53541" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12103680"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12103680" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_64.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_64.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_64.wav"/>
@@ -1205,8 +1205,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1127"
           SampleEnd="52805" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12161024"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12161024" MonolithLength="53248"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_65.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_65.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_65.wav"/>
@@ -1215,8 +1215,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2205"
           SampleEnd="55280" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12214272"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12214272" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_66.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_66.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_66.wav"/>
@@ -1225,8 +1225,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1653"
           SampleEnd="58803" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12279808"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12279808" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_67.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_67.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_67.wav"/>
@@ -1235,8 +1235,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2115"
           SampleEnd="58469" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12341248"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12341248" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_68.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_68.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_68.wav"/>
@@ -1245,8 +1245,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2030"
           SampleEnd="58382" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12402688"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12402688" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_69.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_69.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_69.wav"/>
@@ -1255,8 +1255,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2192"
           SampleEnd="52242" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12464128"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12464128" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_70.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_70.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_70.wav"/>
@@ -1265,8 +1265,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3555"
           SampleEnd="57545" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12521472"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12521472" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_71.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_71.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_71.wav"/>
@@ -1275,8 +1275,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2004"
           SampleEnd="59446" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12582912"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12582912" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_72.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_72.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_72.wav"/>
@@ -1285,8 +1285,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1658"
           SampleEnd="57379" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12644352"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12644352" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_73.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_73.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_73.wav"/>
@@ -1295,8 +1295,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1416"
           SampleEnd="53846" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12705792"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12705792" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_74.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_74.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_74.wav"/>
@@ -1305,8 +1305,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1061"
           SampleEnd="54343" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12763136"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12763136" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_75.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_75.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_75.wav"/>
@@ -1315,8 +1315,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1465"
           SampleEnd="55657" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12820480"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12820480" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_76.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_76.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_76.wav"/>
@@ -1325,8 +1325,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1108"
           SampleEnd="53475" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12877824"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12877824" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_77.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_77.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_77.wav"/>
@@ -1335,8 +1335,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1780"
           SampleEnd="59810" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="12939264"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="12939264" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_78.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_78.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_78.wav"/>
@@ -1345,8 +1345,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="688"
           SampleEnd="55917" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13000704"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13000704" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_79.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_79.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_79.wav"/>
@@ -1355,8 +1355,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="810"
           SampleEnd="55082" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13058048"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13058048" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_80.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_80.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_80.wav"/>
@@ -1365,8 +1365,8 @@
           RRGroup="3" Volume="-5" Pan="0" Normalized="0" Pitch="0" SampleStart="792"
           SampleEnd="54623" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13115392"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13115392" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_81.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_81.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_81.wav"/>
@@ -1375,8 +1375,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="626"
           SampleEnd="51021" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13172736"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13172736" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_82.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_82.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_82.wav"/>
@@ -1385,8 +1385,8 @@
           RRGroup="3" Volume="-5" Pan="0" Normalized="0" Pitch="0" SampleStart="1801"
           SampleEnd="54471" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13234176"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13234176" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_83.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_83.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_83.wav"/>
@@ -1395,8 +1395,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="725"
           SampleEnd="54611" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13291520"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13291520" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_84.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_84.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_84.wav"/>
@@ -1405,8 +1405,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1751"
           SampleEnd="57090" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13348864"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13348864" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_85.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_85.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_85.wav"/>
@@ -1415,8 +1415,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="579"
           SampleEnd="56082" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13406208"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13406208" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_86.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_86.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_86.wav"/>
@@ -1425,8 +1425,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="543"
           SampleEnd="54006" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13463552"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13463552" MonolithLength="57344"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_87.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_87.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_87.wav"/>
@@ -1435,8 +1435,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1775"
           SampleEnd="57643" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13520896"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13520896" MonolithLength="61440"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_88.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_88.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_88.wav"/>
@@ -1445,8 +1445,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1739"
           SampleEnd="51629" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13582336"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13582336" MonolithLength="53248"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_89.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_89.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_89.wav"/>
@@ -1455,8 +1455,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2222"
           SampleEnd="61522" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13635584"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13635584" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_90.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_90.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_90.wav"/>
@@ -1465,8 +1465,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2799"
           SampleEnd="61598" SampleStartMod="2727" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="10" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="1" MonolithOffset="13701120"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" MonolithOffset="13701120" MonolithLength="65536"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_close_91.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_decca_91.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sputato/altoFlute_sputato_hall_91.wav"/>
