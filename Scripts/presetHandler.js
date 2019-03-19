@@ -55,8 +55,8 @@ namespace PresetHandler
         }
 
         //Persistent panel for loading preset data
-        const var pnlPreset = Content.getComponent("pnlPreset");
-        pnlPreset.setControlCallback(pnlPresetCB);
+        //const var pnlPreset = Content.getComponent("pnlPreset");
+        //pnlPreset.setControlCallback(pnlPresetCB);
 
         //Preset selection dropdown
         const var cmbPatch = Content.getComponent("cmbPatch");
@@ -74,7 +74,7 @@ namespace PresetHandler
     {
         local idx = btnPreset.indexOf(control);
         idx == 0 ? Engine.loadPreviousUserPreset(false) : Engine.loadNextUserPreset(false);
-        Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
+        //Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
     }
     
     //Load patch and settings from manifest
@@ -86,7 +86,7 @@ namespace PresetHandler
         loadSampleMaps(patchName);
         loadLegatoSettings(patchName);
         setRoundRobinRange(patchName);
-        Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
+        //Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
     }
 
     //Functions
@@ -157,3 +157,14 @@ namespace PresetHandler
         }
     }
 }
+
+
+inline function onbtnPresetBrowserControl(component, value)
+{
+    //Content.getComponent("pnlPage0").showControl(1-value); //Toggle instrument page
+    Content.getComponent("pnlPage0").set("enabled", 1-value); //Toggle instrument page
+    Content.getComponent("pnlPage1").showControl(0); //Hide settings page
+	Content.getComponent("pnlPage2").showControl(value);
+};
+
+Content.getComponent("btnPresetBrowser").setControlCallback(onbtnPresetBrowserControl);

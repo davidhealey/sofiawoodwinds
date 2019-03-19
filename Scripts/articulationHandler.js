@@ -15,36 +15,10 @@
     along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
-namespace ArticulationHandler
-{
-    inline function onInitCB()
-    {        
-        const var samplerIds = Synth.getIdList("Sampler");
-        const var childSynths = [];
-        
-        const var articulationNames = []; //All articulation names
-        const var longA = []; //Long articulations
-        const var shortA = []; //Short articulations
-        const var btnArt = []; //Articulation buttons
-        
-        for (k in Manifest.articulations)
-        {
-            articulationNames.push(k);
-            Manifest.articulations[k].short != true ? longA.push(k) : shortA.push(k);
-        }
-        
-        for (i = 0; i < articulationNames.length; i++)
-        {
-            btnArt[i] = Content.getComponent("btnArt"+i);
-            btnArt[i].setControlCallback(btnArtCB);
-        }
-        
-        for (id in samplerIds)
-        {
-            childSynths.push(Synth.getChildSynth(id));
-        }
-        
-    }
+namespace Articulations
+{    
+    reg current = 0; //Currently selected articulation
+    const var articulations = ["legato", "sustain", "staccato", "flutter"];
     
     inline function btnArtCB(control, value)
     {
@@ -58,7 +32,7 @@ namespace ArticulationHandler
     
     inline function changeArticulation(index)
     {
-        for (i = 0; i < samplerIds.length; i++)
+        /*for (i = 0; i < samplerIds.length; i++)
         {
             if (Manifest.articulations[articulationNames[index]].samplers.indexOf(samplerIds[i]) != -1)
             {
@@ -68,6 +42,38 @@ namespace ArticulationHandler
             {
                 childSynths[i].setBypassed(true);
             }
-        }
+        }*/
     }
 }
+
+
+
+/*
+const var samplerIds = Synth.getIdList("Sampler");
+const var childSynths = [];
+        
+const var articulationNames = []; //All articulation names
+const var longA = []; //Long articulations
+const var shortA = []; //Short articulations
+const var btnArt = []; //Articulation buttons
+        
+for (k in Manifest.articulations)
+{
+    articulationNames.push(k);
+    Manifest.articulations[k].short != true ? longA.push(k) : shortA.push(k);
+}
+        
+for (i = 0; i < articulationNames.length; i++)
+{
+    btnArt[i] = Content.getComponent("btnArt"+i);
+    btnArt[i].setControlCallback(btnArtCB);
+}
+        
+for (id in samplerIds)
+{
+    childSynths.push(Synth.getChildSynth(id));
+}*/
+
+//GUI;
+
+//Container panel inside viewport
