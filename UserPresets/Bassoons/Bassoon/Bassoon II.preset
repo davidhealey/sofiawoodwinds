@@ -63,7 +63,7 @@
     <Control type="ScriptButton" id="btnRelPurge" value="0"/>
     <Control type="ScriptPanel" id="pnlHeader" value="0"/>
     <Control type="ScriptLabel" id="lblPreset" value=""/>
-    <Control type="ScriptComboBox" id="cmbPatch" value="2"/>
+    <Control type="ScriptComboBox" id="cmbPatch" value="12"/>
     <Control type="ScriptSlider" id="knbSusAtk" value="150"/>
   </Content>
   <MidiAutomation/>
