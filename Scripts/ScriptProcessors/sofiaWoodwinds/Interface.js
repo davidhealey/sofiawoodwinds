@@ -17,6 +17,7 @@
 
 include("manifest.js");
 include("presetHandler.js");
+include("articulationHandler.js");
 include("mixer.js");
 include("settings.js");
 include("preloadBar.js");
@@ -28,8 +29,21 @@ Synth.deferCallbacks(true);
 reg i;
 reg j;
 
-//Legato handler - referenced in a few places
-const var legato = Synth.getMidiProcessor("legato");
+//Midi Processors
+const var legatoHandler = Synth.getMidiProcessor("legato"); //Legato handler
+const var overlayVelocityFilter = Synth.getMidiProcessor("overlayVelocityFilter");
+
+//Muters
+const var transitionMuter = Synth.getMidiProcessor("transitionMuter");
+const var staccatoMuter = Synth.getMidiProcessor("staccatoMuter");
+const var sustainMuter = Synth.getMidiProcessor("sustainMuter");
+const var overlayMuter = Synth.getMidiProcessor("overlayMuter");
+
+//Envelopes
+const var liveEnvelope = Synth.getModulator("liveEnvelope");
+const var sustainEnvelope = Synth.getModulator("sustainEnvelope");
+const var overlayEnvelope = Synth.getModulator("overlayEnvelope");
+const var staccatoEnvelope = Synth.getModulator("staccatoEnvelope");
 
 //Glide rate knob and velocity > glide rate button
 const var knbGlideRate = Content.getComponent("knbGlideRate");
@@ -38,7 +52,7 @@ Content.getComponent("btnVelocityRate").setControlCallback(onbtnVelocityRateCont
 inline function onbtnVelocityRateControl(component, value)
 {
     knbGlideRate.set("enabled", 1-value);
-    legato.setAttribute(legato.btnGlideVel, value); //Link to legato script
+    legatoHandler.setAttribute(legatoHandler.btnGlideVel, value); //Link to legato script
 };
 
 //Dynamics\breath control
@@ -49,7 +63,7 @@ knbDynamics.setControlCallback(onknbDynamicsControl);
 inline function onknbDynamicsControl(control, value)
 {
     dynamicsCC.setAttribute(dynamicsCC.DefaultValue, value);
-    legato.setAttribute(legato.knbBreath, value);
+    legatoHandler.setAttribute(legatoHandler.knbBreath, value);
 }
 
 //Curve editors
@@ -66,7 +80,7 @@ for (i = 0; i < 5; i++)
 inline function onbtnCCControl(control, value)
 {
     local idx = btnCC.indexOf(control);
-    local params = ["Expression", "Dynamics", "Flutter", "Vibrato Intensity", "Vibrato Rate"];
+    local params = ["Expression", "Dynamics", "Flutter X-Fade", "Vibrato Intensity", "Vibrato Rate"];
     
     for (i = 0; i < tblCC.length; i++)
     {
@@ -90,7 +104,6 @@ inline function onbtnCCControl(control, value)
     
     //Dynamics
     Content.getComponent("btnVelDynamics").showControl(value && idx == 1);
-    Content.getComponent("btnBreathControl").showControl(value && idx == 1);
     
     //Vibrato
     Content.getComponent("knbVibratoPitch").showControl(value && (idx == 3 || idx == 4));
@@ -103,29 +116,6 @@ PresetHandler.onInitCB();
 Mixer.onInitCB();
 Settings.onInitCB();
 
-//Articulation controls
-const var pnlArticulations = Content.getComponent("pnlArticulations");
-pnlArticulations.setPaintRoutine(function(g)
-{
-    reg text = ["Sustain", "Staccato", "Flutter", "Overlay", "Transitions", "Releases"];
-          
-    for (i = 0; i < text.length; i++) 
-    {
-        //Paint background
-        g.setColour(0xFFCEC9BD);
-            
-        g.fillRoundedRectangle([0, i*57, 316, 52], 5.0);
-        
-        //Draw text
-        g.setColour(0xFF000000);
-        g.setFont("Arial", 18);
-        g.drawAlignedText(text[i], [10, i*56, 316, 52], "left");
-    }
-    
-    //Set panel height
-    this.set("height", i*56);
-});
-
 //Settings button
 inline function onbtnSettingsControl(component, value)
 {
@@ -136,7 +126,10 @@ inline function onbtnSettingsControl(component, value)
 
 Content.getComponent("btnSettings").setControlCallback(onbtnSettingsControl);function onNoteOn()
 {
+	local idx = Articulations.getKSIndex(PresetHandler.patch, Message.getNoteNumber());
 	
+	if (idx != -1)
+	    Articulations.changeArticulation(idx);
 }
 function onNoteOff()
 {
@@ -144,7 +137,23 @@ function onNoteOff()
 }
 function onController()
 {
-	
+    //UACC or program change
+	if (Message.getControllerNumber() == 11 || Message.isProgramChange())
+    {
+        local n;
+        
+        //if (Message.getProgramChangeNumber() != -1)
+           // n = Message.getProgramChangeNumber();
+        //else
+            n = Message.getControllerValue();
+        
+        //Get articulation index of program/uacc number
+        local idx = Manifest.programs.indexOf(n);
+        
+        //Change articulation
+        if (idx != -1)
+            Articulations.changeArticulation(idx);
+    }
 }
 function onTimer()
 {

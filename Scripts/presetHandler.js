@@ -17,6 +17,8 @@
 
 namespace PresetHandler
 {
+    reg patch = "";
+    
     inline function onInitCB()
     {
         //legato script
@@ -74,31 +76,39 @@ namespace PresetHandler
     {
         local idx = btnPreset.indexOf(control);
         idx == 0 ? Engine.loadPreviousUserPreset(false) : Engine.loadNextUserPreset(false);
-        //Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
+        Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
     }
     
     //Load patch and settings from manifest
     inline function cmbPatchCB(control, value)
     {
-        local patchName = patchNames[value-1];
+        PresetHandler.patch = patchNames[value-1];
         
-        colourKeys(patchName);
-        loadSampleMaps(patchName);
-        loadLegatoSettings(patchName);
-        setRoundRobinRange(patchName);
-        //Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
+        colourKeys(PresetHandler.patch);
+        loadSampleMaps(PresetHandler.patch);
+        loadLegatoSettings(PresetHandler.patch);
+        setRoundRobinRange(PresetHandler.patch);
+        Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
+        
+        //Flutter controls
+        Content.getComponent("btnCC2").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter);
+        Content.getComponent("knbFlutter").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter);
     }
 
     //Functions
     inline function colourKeys(patchName)
     {
         local range = Manifest.patches[patchName].range;
+        local ks = Manifest.patches[patchName].ks;
 
         for (i = 0; i < 128; i++) //Every MIDI note
         {
             if (i < range[0] || i > range[1]) //i is outside max playable range
             {
-                Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.5)); //Reset current KS colour
+                if (ks.indexOf(i) != -1)
+                    Engine.setKeyColour(i, Colours.withAlpha(Colours.red, 0.3)); //Key switch
+                else
+                    Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.5)); //Reset current KS colour
             }
             else
             {

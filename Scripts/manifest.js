@@ -19,11 +19,16 @@
 
 namespace Manifest
 {    
+    //Articulation program change/UACC numbers
+    const var programs = [1, 2, 40];
+
+    //Patch data
     const var patches = {
         "piccolo": //Sample map identifier
         {
 	        range: [74, 105], //Playable range
 	        hasFlutter: true, //Does this patch have a flutter sample map?
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:0,
@@ -37,6 +42,7 @@ namespace Manifest
 		{
             range:[59, 96],
             hasFlutter: true,
+            ks:[24, 25, 26],
             legatoSettings:
             {
                 bendTime:-5,
@@ -50,6 +56,7 @@ namespace Manifest
 		{
             range:[59, 96],
             hasFlutter: true,
+            ks:[24, 25, 26],
             legatoSettings:
             {
                 bendTime:-5,
@@ -63,6 +70,7 @@ namespace Manifest
 		{
 			range: [55, 91],
 			hasFlutter: true,
+			ks:[24, 25, 26],
 			legatoSettings:
 		    {
                 bendTime:0,
@@ -76,6 +84,7 @@ namespace Manifest
         {
 	        range: [58, 91],
 	        hasFlutter: false,
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:-15,
@@ -89,6 +98,7 @@ namespace Manifest
         {
 	        range: [58, 91],
 	        hasFlutter: false,
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:-15,
@@ -102,6 +112,7 @@ namespace Manifest
         {
 	        range: [52, 83],
 	        hasFlutter: false,
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:-15,
@@ -115,6 +126,7 @@ namespace Manifest
         {
 	        range: [50, 91],
 	        hasFlutter: true,
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:0,
@@ -128,6 +140,7 @@ namespace Manifest
         {
 	        range: [50, 91],
 	        hasFlutter: true,
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:0,
@@ -141,6 +154,7 @@ namespace Manifest
         {
 	        range: [34, 75],
 	        hasFlutter: true,
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:-10,
@@ -154,6 +168,7 @@ namespace Manifest
         {
 	        range: [34, 74],
 	        hasFlutter: true,
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:0,
@@ -167,6 +182,7 @@ namespace Manifest
         {
 	        range: [34, 74],
 	        hasFlutter: true,
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:0,
@@ -180,6 +196,7 @@ namespace Manifest
         {
 	        range: [22, 55],
 	        hasFlutter: false,
+	        ks:[24, 25, 26],
             legatoSettings:
 		    {
                 bendTime:-10,
