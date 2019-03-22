@@ -196,7 +196,7 @@ namespace Manifest
         {
 	        range: [22, 55],
 	        hasFlutter: false,
-	        ks:[24, 25, 26],
+	        ks:[96, 97, 98],
             legatoSettings:
 		    {
                 bendTime:-10,

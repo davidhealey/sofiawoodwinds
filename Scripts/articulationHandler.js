@@ -30,21 +30,40 @@ namespace Articulations
         {
             //Paint background
             if (i == Articulations.current)
-                g.setColour(0xFFeee6d6);
+                g.setColour(0xFFDED7CA);
             else
                 g.setColour(0xFFCEC9BD);
             
-            g.fillRoundedRectangle([0, i*57, 316, 52], 5.0);
+            g.fillRoundedRectangle([0, i*55, 316, 50], 5.0);
         
             //Draw text
             g.setColour(0xFF000000);
             g.setFont("Arial", 18);
-            g.drawAlignedText(text[i], [10, i*56, 316, 52], "left");
+            g.drawAlignedText(text[i], [10, i*54, 316, 50], "left");
         }
     
         //Set panel height
-        this.set("height", i*56);
+        this.set("height", i*55);
+        this.data.numRows = i;
     });
+    
+    pnlArticulations.setMouseCallback(function(event)
+    {
+        if (event.clicked)
+        {
+            var value = parseInt(event.y / this.getHeight() * this.data.numRows);
+            Articulations.changeArticulation(value);
+        }
+    });
+    
+    //Release sampler purge button
+    inline function onbtnRelPurgeControl(component, value)
+    {
+        release.setAttribute(release.Purged, 1-value);
+    };
+
+    Content.getComponent("btnRelPurge").setControlCallback(onbtnRelPurgeControl);
+    
     
     //Functions
     inline function getKSIndex(patchName, note)
@@ -55,7 +74,7 @@ namespace Articulations
     
     inline function changeArticulation(index)
     {
-        if (index !== Articulations.current)
+        if (index !== Articulations.current && index < 3)
         {
             switch (index)
             {

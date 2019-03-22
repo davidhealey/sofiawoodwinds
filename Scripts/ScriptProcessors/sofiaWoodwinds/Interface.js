@@ -29,6 +29,9 @@ Synth.deferCallbacks(true);
 reg i;
 reg j;
 
+//Synths/Samplers
+const var release = Synth.getChildSynth("release");
+
 //Midi Processors
 const var legatoHandler = Synth.getMidiProcessor("legato"); //Legato handler
 const var overlayVelocityFilter = Synth.getMidiProcessor("overlayVelocityFilter");
@@ -81,7 +84,7 @@ inline function onbtnCCControl(control, value)
 {
     local idx = btnCC.indexOf(control);
     local params = ["Expression", "Dynamics", "Flutter X-Fade", "Vibrato Intensity", "Vibrato Rate"];
-    
+
     for (i = 0; i < tblCC.length; i++)
     {
         tblCC[i].showControl(false);
@@ -90,25 +93,29 @@ inline function onbtnCCControl(control, value)
 
     tblCC[idx].showControl(value);
     btnCC[idx].setValue(value);
-    
+
     //Set parameter label
     if (value == 1)
         Content.getComponent("lblParam").set("text", params[idx]);
     else
         Content.getComponent("lblParam").set("text", "Velocity");
-    
+
     //Show velocity table if value is false
     Content.getComponent("tblVelocity").showControl(1-value);
-    
+
     //Show parameter specific controls
-    
+
     //Dynamics
     Content.getComponent("btnVelDynamics").showControl(value && idx == 1);
-    
+    Content.getComponent("lblVelDynamics").showControl(value && idx == 1);
+
     //Vibrato
-    Content.getComponent("knbVibratoPitch").showControl(value && (idx == 3 || idx == 4));
-    Content.getComponent("knbVibratoGain").showControl(value && (idx == 3 || idx == 4));
-    Content.getComponent("knbVibratoTimbre").showControl(value && (idx == 3 || idx == 4));
+    Content.getComponent("knbVibratoPitch").showControl(value && idx == 3);
+    Content.getComponent("knbVibratoGain").showControl(value && idx == 3);
+    Content.getComponent("knbVibratoTimbre").showControl(value && idx == 3);
+    Content.getComponent("lblVibratoPitch").showControl(value && idx == 3);
+    Content.getComponent("lblVibratoGain").showControl(value && idx == 3);
+    Content.getComponent("lblVibratoTimbre").showControl(value && idx == 3);   
 }
 
 //Includes initialisation
@@ -127,7 +134,7 @@ inline function onbtnSettingsControl(component, value)
 Content.getComponent("btnSettings").setControlCallback(onbtnSettingsControl);function onNoteOn()
 {
 	local idx = Articulations.getKSIndex(PresetHandler.patch, Message.getNoteNumber());
-	
+
 	if (idx != -1)
 	    Articulations.changeArticulation(idx);
 }
@@ -141,15 +148,15 @@ function onController()
 	if (Message.getControllerNumber() == 11 || Message.isProgramChange())
     {
         local n;
-        
+
         //if (Message.getProgramChangeNumber() != -1)
            // n = Message.getProgramChangeNumber();
         //else
             n = Message.getControllerValue();
-        
+
         //Get articulation index of program/uacc number
         local idx = Manifest.programs.indexOf(n);
-        
+
         //Change articulation
         if (idx != -1)
             Articulations.changeArticulation(idx);

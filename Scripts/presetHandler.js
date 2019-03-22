@@ -18,20 +18,19 @@
 namespace PresetHandler
 {
     reg patch = "";
-    
+
     inline function onInitCB()
     {
         //legato script
         const var legato = Synth.getMidiProcessor("legato");
-        
+
         //Vibrato modulators
         const var vibratoPitch = Synth.getModulator("vibratoPitch");
         const var vibratoGain = Synth.getModulator("vibratoGain");
         const var vibratoTimbre = Synth.getModulator("vibratoTimbre");
-                
-        const var roundRobin = [];
-        roundRobin[0] = Synth.getMidiProcessor("roundRobin"); //Sustain RR
-        roundRobin[1] = Synth.getMidiProcessor("staccatoRoundRobin"); 
+
+        //Round robin controller
+        const var roundRobinController = Synth.getMidiProcessor("roundRobinController");
 
         //Previos/Next preset buttons
         const var btnPreset = [];
@@ -39,7 +38,7 @@ namespace PresetHandler
         btnPreset[1] = Content.getComponent("btnPreset1"); //Next
         btnPreset[0].setControlCallback(loadAdjacentPreset);
         btnPreset[1].setControlCallback(loadAdjacentPreset);
-        
+
         //Get samplers as child synths
         const var samplerIds = Synth.getIdList("Sampler");
         const var childSynths = {};
@@ -56,10 +55,6 @@ namespace PresetHandler
             patchNames.push(k);
         }
 
-        //Persistent panel for loading preset data
-        //const var pnlPreset = Content.getComponent("pnlPreset");
-        //pnlPreset.setControlCallback(pnlPresetCB);
-
         //Preset selection dropdown
         const var cmbPatch = Content.getComponent("cmbPatch");
         cmbPatch.set("items", patchNames.join("\n"));
@@ -67,29 +62,31 @@ namespace PresetHandler
     }
 
     //UI Callbacks
-    inline function pnlPresetCB(control, value)
-    {
-        if (cmbPatch.getValue() < 1) cmbPatch.setValue(1); //Default
-    }
-
     inline function loadAdjacentPreset(control, value)
     {
-        local idx = btnPreset.indexOf(control);
-        idx == 0 ? Engine.loadPreviousUserPreset(false) : Engine.loadNextUserPreset(false);
-        Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
+        if (value == 1)
+        {
+            local idx = btnPreset.indexOf(control);
+            idx == 0 ? Engine.loadPreviousUserPreset(false) : Engine.loadNextUserPreset(false);
+            Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
+        }
     }
-    
+
     //Load patch and settings from manifest
     inline function cmbPatchCB(control, value)
     {
         PresetHandler.patch = patchNames[value-1];
-        
+
         colourKeys(PresetHandler.patch);
         loadSampleMaps(PresetHandler.patch);
         loadLegatoSettings(PresetHandler.patch);
         setRoundRobinRange(PresetHandler.patch);
-        Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
-        
+
+        if(Engine.getCurrentUserPresetName() == "")
+            Content.getComponent("lblPreset").set("text", "Concert Flute I");
+        else
+            Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
+
         //Flutter controls
         Content.getComponent("btnCC2").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter);
         Content.getComponent("knbFlutter").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter);
@@ -124,7 +121,7 @@ namespace PresetHandler
         for (id in samplerIds) //Each sampler
         {
             childSynths[id].setBypassed(false); //Enable sampler
-            
+
             if (id == "transitions") //Transitions sampler
             {
                 childSynths[id].asSampler().loadSampleMap(patchName + "_staccato"); //Load staccato sample map
@@ -151,30 +148,26 @@ namespace PresetHandler
             legato.setAttribute(legato.knbBendMin, settings.minBend);
             legato.setAttribute(legato.knbBendMax, settings.maxBend);
             legato.setAttribute(legato.knbFadeMin, settings.minFade);
-            legato.setAttribute(legato.knbFadeMax, settings.maxFade);   
+            legato.setAttribute(legato.knbFadeMax, settings.maxFade);
         }
     }
-      
+
     //Set the range of the sustain/legato/glide round robin handler
     inline function setRoundRobinRange(patchName)
     {
         local range = Manifest.patches[patchName].range;
-      
-        for (i = 0; i < roundRobin.length; i++)
-        {
-          roundRobin[i].setAttribute(roundRobin[i].knbLowNote, range[0]);
-          roundRobin[i].setAttribute(roundRobin[i].knbHighNote, range[1]);   
-        }
+
+        roundRobinController.setAttribute(roundRobinController.knbLow, range[0]);
+        roundRobinController.setAttribute(roundRobinController.knbHigh, range[1]);
     }
+
+    inline function onbtnPresetBrowserControl(component, value)
+    {
+        //Content.getComponent("pnlPage0").showControl(1-value); //Toggle instrument page
+        Content.getComponent("pnlPage0").set("enabled", 1-value); //Toggle instrument page
+        Content.getComponent("pnlPage1").showControl(0); //Hide settings page
+        Content.getComponent("pnlPage2").showControl(value);
+    };
+
+    Content.getComponent("btnPresetBrowser").setControlCallback(onbtnPresetBrowserControl);
 }
-
-
-inline function onbtnPresetBrowserControl(component, value)
-{
-    //Content.getComponent("pnlPage0").showControl(1-value); //Toggle instrument page
-    Content.getComponent("pnlPage0").set("enabled", 1-value); //Toggle instrument page
-    Content.getComponent("pnlPage1").showControl(0); //Hide settings page
-	Content.getComponent("pnlPage2").showControl(value);
-};
-
-Content.getComponent("btnPresetBrowser").setControlCallback(onbtnPresetBrowserControl);

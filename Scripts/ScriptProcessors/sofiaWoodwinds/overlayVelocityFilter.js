@@ -8,7 +8,10 @@ knbThreshold.setRange(1, 127, 1);function onNoteOn()
 }
 function onNoteOff()
 {
-	
+	if (Message.getVelocity() < knbThreshold.getValue())
+    {
+        Message.ignoreEvent(true);
+    }
 }
 function onController()
 {

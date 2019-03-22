@@ -33,7 +33,7 @@
                height="39" filmstripImage="{PROJECT_FOLDER}leg_square_btn.png"
                parentComponent="pnlPage0"/>
     <Component type="ScriptButton" id="btnRR" x="349" y="318" width="30" height="39"
-               text="Round Robin" processorId="roundRobin" parameterId="Enabled"
+               text="Round Robin" processorId="roundRobinController" parameterId="btnBypass"
                parentComponent="pnlPage0" filmstripImage="{PROJECT_FOLDER}leg_square_btn.png"/>
     <Component type="ScriptPanel" id="CONTROLLERS" x="0" y="0" width="1" height="1"
                bgColour="0" itemColour="0" itemColour2="0" textColour="0" borderSize="0"
@@ -69,48 +69,64 @@
                filmstripImage="{PROJECT_FOLDER}round_btn.png" parentComponent="pnlPage0"/>
     <Component type="ScriptButton" id="btnCC4" x="709" y="290" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}round_btn.png" parentComponent="pnlPage0"/>
-    <Component type="ScriptTable" id="tblCC0" x="434" y="385" width="286" height="165"
+    <Component type="ScriptTable" id="tblCC0" x="434" y="385" width="286" height="190"
                bgColour="4280690214" itemColour="4289504651" itemColour2="3135299288"
                customColours="1" processorId="expressionCC" parentComponent="pnlPage0"
                visible="0"/>
-    <Component type="ScriptTable" id="tblCC1" x="434" y="385" width="286" height="165"
+    <Component type="ScriptTable" id="tblCC1" x="434" y="385" width="286" height="160"
                bgColour="4280690214" customColours="1" itemColour="4289504651"
                itemColour2="3135299288" processorId="dynamicsCC" parentComponent="pnlPage0"
                visible="0"/>
-    <Component type="ScriptTable" id="tblCC2" x="434" y="385" width="286" height="165"
+    <Component type="ScriptTable" id="tblCC2" x="434" y="385" width="286" height="190"
                bgColour="4280690214" itemColour="4289504651" itemColour2="3135299288"
                customColours="1" processorId="flutterCC" parentComponent="pnlPage0"
                visible="0"/>
-    <Component type="ScriptTable" id="tblCC3" x="434" y="385" width="286" height="165"
+    <Component type="ScriptTable" id="tblCC3" x="434" y="385" width="286" height="160"
                bgColour="4280690214" customColours="1" itemColour="4289504651"
                itemColour2="3135299288" processorId="vibratoLFOIntensityCC"
-               parentComponent="pnlPage0" visible="0"/>
-    <Component type="ScriptTable" id="tblCC4" x="434" y="385" width="286" height="165"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptTable" id="tblCC4" x="434" y="385" width="286" height="190"
                bgColour="4280690214" customColours="1" itemColour="4289504651"
                itemColour2="3135299288" processorId="vibratoRateCC" parentComponent="pnlPage0"
                visible="0"/>
     <Component type="ScriptTable" id="tblVelocity" x="434" y="385" width="286"
-               height="165" bgColour="4280690214" customColours="1" itemColour="4289504651"
-               itemColour2="3135299288" processorId="Velocity Modulator" parentComponent="pnlPage0"/>
+               height="190" bgColour="4280690214" customColours="1" itemColour="4289504651"
+               itemColour2="3135299288" processorId="Velocity Modulator" parentComponent="pnlPage0"
+               visible="0"/>
     <Component type="ScriptLabel" id="lblParam" x="425" y="349" parentComponent="pnlPage0"
-               text="Velocity" alignment="left" fontName="Oxygen" fontSize="18"
+               text="Vibrato Intensity" alignment="left" fontName="Oxygen" fontSize="18"
                editable="0"/>
-    <Component type="ScriptButton" id="btnVelDynamics" x="586" y="558" text="Vel = Dynamics"
+    <Component type="ScriptLabel" id="lblVelDynamics" x="434" y="551" parentComponent="pnlPage0"
+               alignment="left" editable="0" text="Velocity Dynamics" width="100"
+               fontName="Nimbus Sans L" height="40" visible="0"/>
+    <Component type="ScriptButton" id="btnVelDynamics" x="534" y="560" text="Vel = Dynamics"
                processorId="velocityShaper" parameterId="btnDynamics" parentComponent="pnlPage0"
-               filmstripImage="{PROJECT_FOLDER}circle-button.png" scaleFactor="0.5"
-               width="18" height="18" visible="0"/>
-    <Component type="ScriptSlider" id="knbVibratoPitch" x="434" y="548" width="128"
-               height="48" min="-0.5" max="0.5" middlePosition="0" processorId="vibratoPitchHandler"
+               filmstripImage="{PROJECT_FOLDER}env_button.png" width="24" height="24"
+               visible="0"/>
+    <Component type="ScriptLabel" id="lblVibratoPitch" x="474" y="551" parentComponent="pnlPage0"
+               alignment="left" editable="0" text="Pitch" width="50" fontName="Nimbus Sans L"
+               height="40"/>
+    <Component type="ScriptLabel" id="lblVibratoGain" x="572" y="551" parentComponent="pnlPage0"
+               alignment="left" editable="0" text="Gain" width="50" fontName="Nimbus Sans L"
+               height="40"/>
+    <Component type="ScriptLabel" id="lblVibratoTimbre" x="670" y="551" parentComponent="pnlPage0"
+               alignment="left" editable="0" text="Timbre" width="50" fontName="Nimbus Sans L"
+               height="40"/>
+    <Component type="ScriptSlider" id="knbVibratoPitch" x="434" y="551" width="40"
+               height="40" min="-0.5" max="0.5" middlePosition="0" processorId="vibratoPitchHandler"
                parameterId="knbPitch" text="Vibrato Pitch" suffix=" st" parentComponent="pnlPage0"
-               visible="0"/>
-    <Component type="ScriptSlider" id="knbVibratoGain" x="508" y="551" width="128"
-               height="48" middlePosition="0.5" processorId="vibratoGain" parameterId="Intensity"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}env_knob.png"
+               showValuePopup="Right"/>
+    <Component type="ScriptSlider" id="knbVibratoGain" x="532" y="551" width="40"
+               height="40" middlePosition="0.5" processorId="vibratoGain" parameterId="Intensity"
                text="Vibrato Gain" mode="NormalizedPercentage" suffix="%" parentComponent="pnlPage0"
-               visible="0"/>
-    <Component type="ScriptSlider" id="knbVibratoTimbre" x="588" y="548" width="128"
-               height="48" middlePosition="0.5" processorId="vibratoTimbre"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}env_knob.png"
+               showValuePopup="Right"/>
+    <Component type="ScriptSlider" id="knbVibratoTimbre" x="630" y="551" width="40"
+               height="40" middlePosition="0.5" processorId="vibratoTimbre"
                parameterId="Intensity" text="Vibrato Timbre" mode="NormalizedPercentage"
-               suffix="%" parentComponent="pnlPage0" visible="0"/>
+               suffix="%" parentComponent="pnlPage0" numStrips="101" filmstripImage="{PROJECT_FOLDER}env_knob.png"
+               showValuePopup="Right"/>
     <Component type="ScriptPanel" id="MIXER" x="0" y="0" width="1" height="1"
                borderRadius="0" borderSize="0" bgColour="0" textColour="0" itemColour2="0"
                itemColour="0" visible="0" parentComponent="pnlPage0"/>
@@ -119,7 +135,7 @@
                processorId="masterGain" parameterId="knbGain" tooltip="Close Gain"
                isPluginParameter="1" pluginParameterName="Master Gain" parentComponent="pnlPage0"
                min="-100" mode="Decibel" stepSize="0.1" max="3" suffix=" dB"
-               defaultValue="-6"/>
+               defaultValue="-3"/>
     <Component type="ScriptSlider" id="sliPanMaster" x="1105" y="294" width="64"
                height="38" processorId="sofiaWoodwinds" parameterId="Balance"
                mode="Pan" middlePosition="0" min="-1" isPluginParameter="1"
@@ -138,18 +154,18 @@
                parentComponent="pnlPage0"/>
     <Component type="ScriptSlider" id="sliVol0" x="790" y="346" width="34" height="186"
                mode="Decibel" min="-100" max="0" stepSize="0.1" middlePosition="-18"
-               defaultValue="-9" showValuePopup="Right" isPluginParameter="1"
+               defaultValue="-6" showValuePopup="Right" isPluginParameter="1"
                pluginParameterName="Close Gain" processorId="channel1" parameterId="Gain"
                tooltip="Close Gain" filmstripImage="{PROJECT_FOLDER}empty.png"
                numStrips="2" style="Vertical" parentComponent="pnlPage0"/>
     <Component type="ScriptSlider" id="sliVol1" x="895" y="346" width="34" height="186"
                mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
-               middlePosition="-18" defaultValue="-9" showValuePopup="Right"
+               middlePosition="-18" defaultValue="-6" showValuePopup="Right"
                isPluginParameter="1" pluginParameterName="Decca Gain" processorId="channel2"
                parameterId="Gain" tooltip="Decca Gain" style="Vertical" parentComponent="pnlPage0"/>
     <Component type="ScriptSlider" id="sliVol2" x="1000" y="346" width="34"
                height="186" mode="Decibel" min="-100" max="0" stepSize="0.1"
-               suffix=" dB" middlePosition="-18" defaultValue="-9" showValuePopup="Right"
+               suffix=" dB" middlePosition="-18" defaultValue="-6" showValuePopup="Right"
                isPluginParameter="1" pluginParameterName="Hall Gain" processorId="channel3"
                parameterId="Gain" tooltip="Hall Gain" style="Vertical" parentComponent="pnlPage0"/>
     <Component type="ScriptSlider" id="knbPan0" x="775" y="294" width="64" height="38"
@@ -234,54 +250,79 @@
                itemColour="4291742141" itemColour2="4227792896" textColour="16777215"
                parentComponent="pnlPage0">
       <Component type="ScriptPanel" id="pnlArticulations" x="162" y="109" parentComponent="vptArticulations"
-                 width="318" height="224" itemColour="0" bgColour="0" itemColour2="0"
-                 textColour="0">
-        <Component type="ScriptButton" id="btnBreathControl" x="98" y="10" text="Breath Control"
+                 width="318" height="220" itemColour="0" bgColour="0" itemColour2="0"
+                 textColour="0" allowCallbacks="Clicks Only">
+        <Component type="ScriptLabel" id="lblSusAttack" x="120" y="60" parentComponent="pnlArticulations"
+                   alignment="left" editable="0" textColour="4278190080" text="Attack"
+                   width="50" fontName="Nimbus Sans L" height="40"/>
+        <Component type="ScriptLabel" id="lblBreath" x="121" y="5" parentComponent="pnlArticulations"
+                   alignment="left" editable="0" textColour="4278190080" text="Breath"
+                   width="50" height="40" fontName="Nimbus Sans L"/>
+        <Component type="ScriptLabel" id="lblLiveRelease" x="220" y="5" parentComponent="pnlArticulations"
+                   alignment="left" editable="0" textColour="4278190080" text="Release"
+                   width="50" fontName="Nimbus Sans L" height="40"/>
+        <Component type="ScriptLabel" id="lblSusRelease" x="220" y="60" parentComponent="pnlArticulations"
+                   alignment="left" editable="0" textColour="4278190080" text="Release"
+                   width="50" fontName="Nimbus Sans L" height="40"/>
+        <Component type="ScriptLabel" id="lblStaccRelease" x="220" y="115" parentComponent="pnlArticulations"
+                   alignment="left" editable="0" textColour="4278190080" text="Release"
+                   width="50" fontName="Nimbus Sans L" height="40"/>
+        <Component type="ScriptLabel" id="lblStaccGain" x="120" y="115" parentComponent="pnlArticulations"
+                   alignment="left" editable="0" textColour="4278190080" text="Gain"
+                   width="50" fontName="Nimbus Sans L" height="40"/>
+        <Component type="ScriptLabel" id="lblReleaseDecay" x="220" y="171" parentComponent="pnlArticulations"
+                   alignment="left" editable="0" textColour="4278190080" text="Decay"
+                   width="50" fontName="Nimbus Sans L" height="40"/>
+        <Component type="ScriptLabel" id="lblReleaseGain" x="120" y="171" parentComponent="pnlArticulations"
+                   alignment="left" editable="0" textColour="4278190080" text="Gain"
+                   width="50" fontName="Nimbus Sans L" height="40"/>
+        <Component type="ScriptButton" id="btnBreathControl" x="86" y="11" text="Breath Control"
                    processorId="legato" parameterId="btnBc" parentComponent="pnlArticulations"
-                   width="30" height="39" filmstripImage="{PROJECT_FOLDER}leg_square_btn.png"/>
-        <Component type="ScriptSlider" id="knbLiveRelease1" x="217" y="10" processorId="liveEnvelope"
+                   width="28" height="28" filmstripImage="{PROJECT_FOLDER}artic_button.png"/>
+        <Component type="ScriptSlider" id="knbLiveRelease1" x="180" y="5" processorId="liveEnvelope"
                    parameterId="Release" mode="Time" max="800" stepSize="1" suffix=" ms"
                    middlePosition="400" defaultValue="250" min="150" text="Release"
                    isPluginParameter="1" pluginParameterName="Release Tm" parentComponent="pnlArticulations"
-                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"/>
-        <Component type="ScriptSlider" id="knbSusAttack" x="142" y="64" processorId="sustainEnvelope"
+                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"
+                   showValuePopup="Right"/>
+        <Component type="ScriptSlider" id="knbSusAttack" x="80" y="60" processorId="sustainEnvelope"
                    parameterId="Attack" mode="Time" max="5000" stepSize="1" suffix=" ms"
                    middlePosition="2000" defaultValue="5" min="1" text="Attack"
                    isPluginParameter="1" pluginParameterName="Release Tm" parentComponent="pnlArticulations"
-                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"/>
-        <Component type="ScriptSlider" id="knbSusRelease" x="219" y="64" processorId="sustainEnvelope"
+                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"
+                   showValuePopup="Right"/>
+        <Component type="ScriptSlider" id="knbSusRelease" x="180" y="60" processorId="sustainEnvelope"
                    parameterId="Release" mode="Time" max="20000" stepSize="1" suffix=" ms"
                    middlePosition="1000" defaultValue="350" min="50" text="Release"
                    isPluginParameter="1" pluginParameterName="Release Tm" parentComponent="pnlArticulations"
-                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"/>
-        <Component type="ScriptSlider" id="knbStaccatoGain" x="91" y="120" processorId="staccatoGain"
+                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"
+                   showValuePopup="Right"/>
+        <Component type="ScriptSlider" id="knbStaccatoGain" x="80" y="115" processorId="staccatoGain"
                    parameterId="knbGain" mode="Decibel" max="3" stepSize="0.1" suffix=" dB"
                    middlePosition="-18" defaultValue="-6" min="-100" text="Staccato Gain"
                    parentComponent="pnlArticulations" width="40" height="40" numStrips="101"
-                   filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"/>
-        <Component type="ScriptSlider" id="knbStaccAttack" x="152" y="118" processorId="staccatoEnvelope"
-                   parameterId="Attack" mode="Time" max="5000" stepSize="1" suffix=" ms"
-                   middlePosition="2000" defaultValue="2" min="1" text="Attack"
-                   isPluginParameter="1" pluginParameterName="Release Tm" parentComponent="pnlArticulations"
-                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"/>
-        <Component type="ScriptSlider" id="knbStaccRelease" x="221" y="118" processorId="staccatoEnvelope"
+                   filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png" showValuePopup="Right"/>
+        <Component type="ScriptSlider" id="knbStaccRelease" x="180" y="115" processorId="staccatoEnvelope"
                    parameterId="Release" mode="Time" max="20000" stepSize="1" suffix=" ms"
                    middlePosition="1000" defaultValue="1000" min="50" text="Release"
                    isPluginParameter="1" pluginParameterName="Release Tm" parentComponent="pnlArticulations"
-                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"/>
-        <Component type="ScriptSlider" id="knbRelDecay" x="104" y="178" parentComponent="pnlArticulations"
-                   processorId="releaseEnvelope" parameterId="Release" mode="Time"
-                   max="20000" stepSize="1" suffix=" ms" middlePosition="1000" defaultValue="5000"
-                   min="50" text="Release Decay" isPluginParameter="1" pluginParameterName="Release Release Tm"
-                   numStrips="101" width="40" height="40" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"/>
-        <Component type="ScriptSlider" id="knbReleaseGain" x="188" y="179" width="40"
+                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"
+                   showValuePopup="Right"/>
+        <Component type="ScriptSlider" id="knbReleaseGain" x="80" y="170" width="40"
                    height="40" text="Release Gain" mode="Decibel" max="3" stepSize="1"
                    suffix=" dB" middlePosition="-18" min="-100" defaultValue="-6"
                    processorId="releaseGain" parameterId="knbGain" parentComponent="pnlArticulations"
-                   numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"/>
-        <Component type="ScriptButton" id="btnRelPurge" x="282" y="194" width="22"
+                   numStrips="101" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"
+                   showValuePopup="Right"/>
+        <Component type="ScriptSlider" id="knbRelDecay" x="180" y="170" parentComponent="pnlArticulations"
+                   processorId="releaseEnvelope" parameterId="Release" mode="Time"
+                   max="20000" stepSize="1" suffix=" ms" middlePosition="1000" defaultValue="5000"
+                   min="50" text="Release Decay" isPluginParameter="1" pluginParameterName="Release Release Tm"
+                   numStrips="101" width="40" height="40" filmstripImage="{PROJECT_FOLDER}artic_knob_101f.png"
+                   showValuePopup="Right"/>
+        <Component type="ScriptButton" id="btnRelPurge" x="279" y="178" width="22"
                    height="22" parentComponent="pnlArticulations" text="Purge Releases"
-                   processorId="release" parameterId="Purged" filmstripImage="{PROJECT_FOLDER}purge.png"/>
+                   filmstripImage="{PROJECT_FOLDER}purge.png"/>
       </Component>
     </Component>
   </Component>
@@ -328,9 +369,9 @@
     <Component type="ScriptButton" id="btnPresetBrowser" x="1156" y="20" text="&lt; Preset"
                saveInPreset="0" parentComponent="pnlHeader" width="24" height="24"
                filmstripImage="{PROJECT_FOLDER}preset_menu.png"/>
-    <Component type="ScriptLabel" id="lblPreset" x="950" y="17" text="Concert Flute II"
+    <Component type="ScriptLabel" id="lblPreset" x="950" y="17" text="Concert Flute I"
                width="186" editable="0" parentComponent="pnlHeader" height="24"
-               fontSize="16"/>
+               fontSize="16" saveInPreset="0"/>
   </Component>
   <Component type="ScriptPanel" id="pnlAdmin" x="3" y="0" width="225" height="121"
              itemColour="4278190080" itemColour2="4278190080" visible="0">
