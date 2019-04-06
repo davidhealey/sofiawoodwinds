@@ -207,4 +207,71 @@ namespace Manifest
 		    }
 	    },
 	};
+	
+    const var articulations = {
+        "names":["legato", "sustain", "staccato", "flutter"],
+        "legato":{
+            "muter":
+            {
+                "sustain":false,
+                "transition":false,
+                "overlay":false,
+                "staccato":false,
+                "flutter":false,
+                "release":false
+            },
+            "envelope":
+            {
+                "live":true,
+                "overlay":true
+            },
+            "processors":{
+                "legatoBypass":false,
+                "overlayFilterBypass":false,
+                "releaseLegato":true
+            }
+        },
+        "sustain":{
+            "muter":
+            {
+                "sustain":false,
+                "transition":true,
+                "overlay":true,
+                "staccato":true,
+                "flutter":false,
+                "release":false
+            },
+            "envelope":
+            {
+                "live":false,
+                "overlay":false
+            },
+            "processors":{
+                "legatoBypass":true,
+                "overlayFilterBypass":true,
+                "releaseLegato":false
+            }
+        },
+        "staccato":{
+            "muter":
+            {
+                "sustain":true,
+                "transition":true,
+                "overlay":false,
+                "staccato":false,
+                "flutter":false,
+                "release":true
+            },
+            "envelope":
+            {
+                "live":false,
+                "overlay":false
+            },
+            "processors":{
+                "legatoBypass":true,
+                "overlayFilterBypass":true,
+                "releaseLegato":false
+            }
+        }
+    };
 }

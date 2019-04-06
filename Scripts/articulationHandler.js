@@ -19,7 +19,27 @@ namespace Articulations
 {    
     reg current = 0; //Currently selected articulation
     reg last = 0; //The previous articulation
-            
+    
+    //Midi Processors
+    const var legatoHandler = Synth.getMidiProcessor("legato"); //Legato handler
+    const var overlayVelocityFilter = Synth.getMidiProcessor("overlayVelocityFilter");
+    const var releaseHandler = Synth.getMidiProcessor("releaseHandler");
+
+    //Muters
+    const var muter = {};
+    muter.transition = Synth.getMidiProcessor("transitionMuter");
+    muter.staccato = Synth.getMidiProcessor("staccatoMuter");
+    muter.sustain = Synth.getMidiProcessor("sustainMuter");
+    muter.overlay = Synth.getMidiProcessor("overlayMuter");
+    muter.flutter = Synth.getMidiProcessor("flutterMidiMuter");
+    muter.release = Synth.getMidiProcessor("releaseMidiMuter");
+
+    //Envelopes
+    const var envelope = {}
+    envelope.sustain = Synth.getModulator("sustainEnvelope");
+    envelope.staccato = Synth.getModulator("staccatoEnvelope");
+    const var liveEnvelopeVelocity = Synth.getModulator("liveEnvelopeVelocity");
+    
     //GUI
     const var pnlArticulations = Content.getComponent("pnlArticulations");
     pnlArticulations.setPaintRoutine(function(g)
@@ -74,43 +94,53 @@ namespace Articulations
     
     inline function changeArticulation(index)
     {
-        if (index !== Articulations.current && index < 3)
+        if (index !== Articulations.current && index < Manifest.articulations.names.length)
         {
-            switch (index)
-            {
-                case 0: //Legato
-                    sustainMuter.setAttribute(sustainMuter.ignoreButton, 0);
-                    staccatoMuter.setAttribute(sustainMuter.ignoreButton, 0);
-                    legatoHandler.setAttribute(legatoHandler.btnMute, 0);
-                    overlayMuter.setAttribute(overlayMuter.ignoreButton, 0);
-                    staccatoMuter.setAttribute(staccatoMuter.ignoreButton, 0);
-                    overlayVelocityFilter.setBypassed(false);
-                    transitionMuter.setAttribute(transitionMuter.ignoreButton, 0);
-                    liveEnvelope.setBypassed(false);
-                    sustainEnvelope.setBypassed(true);
-                    overlayEnvelope.setBypassed(false);
-                    staccatoEnvelope.setBypassed(true);
-                break;
-        
-                case 1: //Sustain
-                    sustainMuter.setAttribute(sustainMuter.ignoreButton, 0);
-                    overlayMuter.setAttribute(overlayMuter.ignoreButton, 1);
-                    legatoHandler.setAttribute(legatoHandler.btnMute, 1);
-                    transitionMuter.setAttribute(transitionMuter.ignoreButton, 1);
-                    liveEnvelope.setBypassed(true);
-                    sustainEnvelope.setBypassed(false);
-                break;
-        
-                case 2: //Staccato
-                    sustainMuter.setAttribute(sustainMuter.ignoreButton, 1);
-                    overlayMuter.setAttribute(overlayMuter.ignoreButton, 0);
-                    staccatoMuter.setAttribute(sustainMuter.ignoreButton, 0);
-                    overlayVelocityFilter.setBypassed(true);
-                    overlayEnvelope.setBypassed(true);
-                    staccatoEnvelope.setBypassed(false);
-                break;
+            local name = Manifest.articulations.names[index];
+            local values = Manifest.articulations[name];           
+            
+            muter.sustain.setAttribute(muter.sustain.ignoreButton, values.muter.sustain);
+            muter.transition.setAttribute(muter.transition.ignoreButton, values.muter.transition);
+            muter.overlay.setAttribute(muter.overlay.ignoreButton, values.muter.overlay);
+            muter.staccato.setAttribute(muter.staccato.ignoreButton, values.muter.staccato);
+            muter.flutter.setAttribute(muter.flutter.ignoreButton, values.muter.flutter);
+            muter.release.setAttribute(muter.release.ignoreButton, values.muter.release);
+            legatoHandler.setAttribute(legatoHandler.btnMute, values.processors.legatoBypass);
+            overlayVelocityFilter.setBypassed(values.processors.overlayFilterBypass);
+            
+            //Specific articulation settings
+            if (name == "legato")
+            {                
+                //Live/Sustain envelope
+                envelope.sustain.setAttribute(envelope.sustain.Attack, 150);
+                envelope.sustain.setAttribute(envelope.sustain.Release, Content.getComponent("knbLiveRelease").getValue());
+                Content.getComponent("knbLiveRelease").set("enabled", true);
+                Content.getComponent("knbSusRelease").set("enabled", false);
+                Content.getComponent("knbSusAttack").set("enabled", false);
+                liveEnvelopeVelocity.setBypassed(false);
+                
+                //Overlay/staccato envelope
+                envelope.staccato.asTableProcessor().reset(0);
+                envelope.staccato.setAttribute(envelope.staccato.Attack, 200);            
+                envelope.staccato.asTableProcessor().setTablePoint(0, 0, 0, 0, 0.5);
+                envelope.staccato.asTableProcessor().setTablePoint(0, 1, 1, 0, 0.4);
+                envelope.staccato.asTableProcessor().addTablePoint(0, 0.03, 1);
             }
-        
+            else
+            {
+                //Live/Sustain envelope
+                liveEnvelopeVelocity.setBypassed(true);
+                envelope.sustain.setAttribute(envelope.sustain.Attack, Content.getComponent("knbSusAttack").getValue());
+                envelope.sustain.setAttribute(envelope.sustain.Release, Content.getComponent("knbSusRelease").getValue());
+                Content.getComponent("knbLiveRelease").set("enabled", false);
+                Content.getComponent("knbSusRelease").set("enabled", true);
+                Content.getComponent("knbSusAttack").set("enabled", true);
+                
+                //Overlay/staccato envelope
+                envelope.staccato.asTableProcessor().reset(0);
+                envelope.staccato.setAttribute(envelope.staccato.Attack, 2);
+            }
+                   
             Articulations.last = Articulations.current;
             Articulations.current = index;
             pnlArticulations.repaint();

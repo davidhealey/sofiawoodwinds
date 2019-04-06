@@ -36,18 +36,6 @@ const var release = Synth.getChildSynth("release");
 const var legatoHandler = Synth.getMidiProcessor("legato"); //Legato handler
 const var overlayVelocityFilter = Synth.getMidiProcessor("overlayVelocityFilter");
 
-//Muters
-const var transitionMuter = Synth.getMidiProcessor("transitionMuter");
-const var staccatoMuter = Synth.getMidiProcessor("staccatoMuter");
-const var sustainMuter = Synth.getMidiProcessor("sustainMuter");
-const var overlayMuter = Synth.getMidiProcessor("overlayMuter");
-
-//Envelopes
-const var liveEnvelope = Synth.getModulator("liveEnvelope");
-const var sustainEnvelope = Synth.getModulator("sustainEnvelope");
-const var overlayEnvelope = Synth.getModulator("overlayEnvelope");
-const var staccatoEnvelope = Synth.getModulator("staccatoEnvelope");
-
 //Glide rate knob and velocity > glide rate button
 const var knbGlideRate = Content.getComponent("knbGlideRate");
 Content.getComponent("btnVelocityRate").setControlCallback(onbtnVelocityRateControl);
@@ -115,18 +103,18 @@ inline function onbtnCCControl(control, value)
     Content.getComponent("knbVibratoTimbre").showControl(value && idx == 3);
     Content.getComponent("lblVibratoPitch").showControl(value && idx == 3);
     Content.getComponent("lblVibratoGain").showControl(value && idx == 3);
-    Content.getComponent("lblVibratoTimbre").showControl(value && idx == 3);   
+    Content.getComponent("lblVibratoTimbre").showControl(value && idx == 3);
 }
 
 //Includes initialisation
 PresetHandler.onInitCB();
 Mixer.onInitCB();
-Settings.onInitCB();
 
 //Settings button
 inline function onbtnSettingsControl(component, value)
 {
-    Content.getComponent("pnlPage0").showControl(1-value); //Toggle instrument page
+    Content.getComponent("btnPresetBrowser").setValue(0);
+    Content.getComponent("pnlPage0").set("enabled", 1-value); //Toggle instrument page enabled
     Content.getComponent("pnlPage1").showControl(value);
 	Content.getComponent("pnlPage2").showControl(0); //Hide preset browser
 };
@@ -145,7 +133,7 @@ function onNoteOff()
 function onController()
 {
     //UACC or program change
-	if (Message.getControllerNumber() == 11 || Message.isProgramChange())
+	if (Message.getControllerNumber() == 32 || Message.isProgramChange())
     {
         local n;
 

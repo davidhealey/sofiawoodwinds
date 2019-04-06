@@ -19,23 +19,16 @@ namespace Settings
 {
     const var isPlugin = Engine.isPlugin();
 
-    // Use this function to get the Height for the popup
-    inline function getHeight()
-    {
-        return isPlugin ? 360 : 520;
-    };
-
     // Pass this object to the floating tile
     const var tileData = {
     "Type": "Tabs",
-    "Font": Theme.REGULAR,
-    "FontSize": 22,
+    "Font": "",
+    "FontSize": 16,
     "Dynamic": false,
     "ColourData":
         {
-            "bgColour": Theme.C3,
-            "itemColour1": Theme.C5,
-            "textColour":Theme.C6
+            "bgColour": 0x00000000,
+            "textColour": 0xFFFFFFFF
         },
     "Content": [],
     "CurrentTab": 0
@@ -48,11 +41,11 @@ namespace Settings
         },
         "ColourData":
             {
-                "bgColour": Theme.C3,
-                "textColour": Theme.C6,
+                "bgColour": 0x00000000,
+                "textColour": 0xFFFFFFFF
             },
-        "Font": Theme.BOLD,
-        "FontSize": 18,
+        "Font": "",
+        "FontSize": 16,
         "Driver": !isPlugin,
         "Device": !isPlugin,
         "Output": !isPlugin,
@@ -82,11 +75,11 @@ namespace Settings
             "Title": "MIDI Input",
             "StyleData": {
             },
-            "Font": Theme.REGULAR,
-            "FontSize": 18,
+            "Font": "",
+            "FontSize": 16,
             "ColourData": {
-                "bgColour": Theme.C3,
-                "textColour": Theme.C6
+                "bgColour": 0x00000000,
+                "textColour": 0xFFFFFFFF
             }
         });
     }
@@ -96,33 +89,42 @@ namespace Settings
         "Title": "MIDI Channel",
         "StyleData": {
         },
-        "Font": Theme.REGULAR,
-        "FontSize": 18,
+        "Font": "",
+        "FontSize": 16,
         "ColourData": {
-            "bgColour": Theme.C3,
-            "textColour": Theme.C6
+            "bgColour": 0x00000000,
+            "textColour": 0xFFFFFFFF
         }
     });
 
     tileData["Content"].push({
         "Type": "MidiLearnPanel",
         "Title": "MIDI Automation",
-        "Font": Theme.REGULAR,
-        "FontSize": 18,
+        "Font": "",
+        "FontSize": 16,
         "ColourData":
         {
-            "bgColour": Theme.C3,
-            "textColour": Theme.C6,
-            "itemColour1": Theme.C4
+            "bgColour": 0x00000000,
+            "textColour": 0xFFFFFFFF,
+            "itemColour1": 0xFF735948
         }
     });
     
-	inline function onInitCB()
-	{
-        //Background panel
-		Content.setPropertiesFromJSON("pnlSettings", {itemColour:Theme.C3, itemColour2:Theme.C3});
-		
-        local fltSettings = Content.getComponent("fltSettings");
-        fltSettings.setContentData(Settings.tileData);
-	}
+    tileData["Content"].push({
+        "Type": "AboutPagePanel",
+        "Title": "About",
+        "Font": "",
+        "FontSize": 16,
+        "ColourData":
+        {
+            "bgColour": 0x00000000,
+            "textColour": 0xFFFFFFFF,
+            "itemColour1": 0xFFFFFFFF
+        },
+        "CopyrightNotice": "\u00a9 2019, David Healey",
+        "ShowLicensedEmail": false,
+        "WebsiteURL": "https://librewave.com"
+    });
+    
+    Content.getComponent("fltSettings").setContentData(Settings.tileData);
 };

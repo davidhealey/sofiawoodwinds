@@ -32,6 +32,9 @@ namespace PresetHandler
         //Round robin controller
         const var roundRobinController = Synth.getMidiProcessor("roundRobinController");
 
+        //Playable range filter
+        const var rangeFilter = Synth.getMidiProcessor("rangeFilter");
+        
         //Previos/Next preset buttons
         const var btnPreset = [];
         btnPreset[0] = Content.getComponent("btnPreset0"); //Prev
@@ -80,7 +83,7 @@ namespace PresetHandler
         colourKeys(PresetHandler.patch);
         loadSampleMaps(PresetHandler.patch);
         loadLegatoSettings(PresetHandler.patch);
-        setRoundRobinRange(PresetHandler.patch);
+        setRange(PresetHandler.patch);
 
         if(Engine.getCurrentUserPresetName() == "")
             Content.getComponent("lblPreset").set("text", "Concert Flute I");
@@ -92,6 +95,16 @@ namespace PresetHandler
         Content.getComponent("knbFlutter").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter);
     }
 
+    inline function onbtnPresetBrowserControl(component, value)
+    {
+        Content.getComponent("btnSettings").setValue(0);
+        Content.getComponent("pnlPage0").set("enabled", 1-value); //Toggle instrument page enabled
+        Content.getComponent("pnlPage1").showControl(0); //Hide settings page
+        Content.getComponent("pnlPage2").showControl(value);
+    };
+
+    Content.getComponent("btnPresetBrowser").setControlCallback(onbtnPresetBrowserControl);
+    
     //Functions
     inline function colourKeys(patchName)
     {
@@ -152,22 +165,16 @@ namespace PresetHandler
         }
     }
 
-    //Set the range of the sustain/legato/glide round robin handler
-    inline function setRoundRobinRange(patchName)
+    //Set the playable range
+    inline function setRange(patchName)
     {
         local range = Manifest.patches[patchName].range;
 
+        rangeFilter.setAttribute(rangeFilter.knbLow, range[0]);
+        rangeFilter.setAttribute(rangeFilter.knbHigh, range[1]);
+        
+        //Set RR range
         roundRobinController.setAttribute(roundRobinController.knbLow, range[0]);
         roundRobinController.setAttribute(roundRobinController.knbHigh, range[1]);
     }
-
-    inline function onbtnPresetBrowserControl(component, value)
-    {
-        //Content.getComponent("pnlPage0").showControl(1-value); //Toggle instrument page
-        Content.getComponent("pnlPage0").set("enabled", 1-value); //Toggle instrument page
-        Content.getComponent("pnlPage1").showControl(0); //Hide settings page
-        Content.getComponent("pnlPage2").showControl(value);
-    };
-
-    Content.getComponent("btnPresetBrowser").setControlCallback(onbtnPresetBrowserControl);
 }
