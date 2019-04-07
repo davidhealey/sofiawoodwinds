@@ -27,7 +27,8 @@ namespace Settings
     "Dynamic": false,
     "ColourData":
         {
-            "bgColour": 0x00000000,
+            "bgColour": 0x82382D27,
+            "itemColour": 0xFFBD9379,
             "textColour": 0xFFFFFFFF
         },
     "Content": [],
@@ -119,7 +120,6 @@ namespace Settings
         {
             "bgColour": 0x00000000,
             "textColour": 0xFFFFFFFF,
-            "itemColour1": 0xFFFFFFFF
         },
         "CopyrightNotice": "\u00a9 2019, David Healey",
         "ShowLicensedEmail": false,

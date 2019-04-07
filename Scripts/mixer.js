@@ -17,38 +17,34 @@
 
 namespace Mixer
 {
-	inline function onInitCB()
-	{
+    //Multi-channel routing - Get a reference to its routing matrix
+    const var MasterChain = Synth.getChildSynth("sofiaWoodwinds");
+    const var matrix = MasterChain.getRoutingMatrix();
 
-	    //Multi-channel routing - Get a reference to its routing matrix
-        const var MasterChain = Synth.getChildSynth("sofiaWoodwinds");
-        const var matrix = MasterChain.getRoutingMatrix();
+    //Retrieve samplers and store in samplers array
+    const var samplerIds = Synth.getIdList("Sampler"); //Get IDs of samplers
+    const var samplers = [];
 
-	    //Retrieve samplers and store in samplers array
-		const var samplerIds = Synth.getIdList("Sampler"); //Get IDs of samplers
-		const var samplers = [];
-
-		for (s in samplerIds)
-		{
-		    samplers.push(Synth.getSampler(s));
-		}
+    for (s in samplerIds)
+    {
+        samplers.push(Synth.getSampler(s));
+    }
 		
-        //Channel routing and purge buttons
-		const var purge = [];
-		const var cmbOutput = [];
+    //Channel routing and purge buttons
+    const var purge = [];
+    const var cmbOutput = [];
 
-		for (i = 0; i < 3; i++)
-		{
-		    //Purge button
-		    purge[i] = Content.getComponent("btnPurge"+i);
-			purge[i].setControlCallback(onbtnPurgeControl);
+    for (i = 0; i < 3; i++)
+    {
+        //Purge button
+        purge[i] = Content.getComponent("btnPurge"+i);
+        purge[i].setControlCallback(onbtnPurgeControl);
 			
-		    //Channel routing combo boxes
-            cmbOutput[i] = Content.getComponent("cmbOutput"+i);
-            cmbOutput[i].setControlCallback(cmbOutputCB);
-            Engine.isPlugin() ? cmbOutput[i].set("items", "1/2\n3/4\n5/6") : cmbOutput[i].set("items", "1/2");
-		}
-	}
+        //Channel routing combo boxes
+        cmbOutput[i] = Content.getComponent("cmbOutput"+i);
+        cmbOutput[i].setControlCallback(cmbOutputCB);
+        Engine.isPlugin() ? cmbOutput[i].set("items", "1/2\n3/4\n5/6") : cmbOutput[i].set("items", "1/2");
+    }
 		
 	inline function onbtnPurgeControl(control, value)
 	{

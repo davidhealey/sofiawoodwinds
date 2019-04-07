@@ -209,7 +209,7 @@ namespace Manifest
 	};
 	
     const var articulations = {
-        "names":["legato", "sustain", "staccato", "flutter"],
+        "names":["legato", "sustain", "staccato"],
         "legato":{
             "muter":
             {

@@ -19,50 +19,47 @@ namespace PresetHandler
 {
     reg patch = "";
 
-    inline function onInitCB()
-    {
-        //legato script
-        const var legato = Synth.getMidiProcessor("legato");
+    //legato script
+    const var legato = Synth.getMidiProcessor("legato");
 
-        //Vibrato modulators
-        const var vibratoPitch = Synth.getModulator("vibratoPitch");
-        const var vibratoGain = Synth.getModulator("vibratoGain");
-        const var vibratoTimbre = Synth.getModulator("vibratoTimbre");
+    //Vibrato modulators
+    const var vibratoPitch = Synth.getModulator("vibratoPitch");
+    const var vibratoGain = Synth.getModulator("vibratoGain");
+    const var vibratoTimbre = Synth.getModulator("vibratoTimbre");
 
-        //Round robin controller
-        const var roundRobinController = Synth.getMidiProcessor("roundRobinController");
+    //Round robin controller
+    const var roundRobinController = Synth.getMidiProcessor("roundRobinController");
 
-        //Playable range filter
-        const var rangeFilter = Synth.getMidiProcessor("rangeFilter");
+    //Playable range filter
+    const var rangeFilter = Synth.getMidiProcessor("rangeFilter");
         
-        //Previos/Next preset buttons
-        const var btnPreset = [];
-        btnPreset[0] = Content.getComponent("btnPreset0"); //Prev
-        btnPreset[1] = Content.getComponent("btnPreset1"); //Next
-        btnPreset[0].setControlCallback(loadAdjacentPreset);
-        btnPreset[1].setControlCallback(loadAdjacentPreset);
+    //Previos/Next preset buttons
+    const var btnPreset = [];
+    btnPreset[0] = Content.getComponent("btnPreset0"); //Prev
+    btnPreset[1] = Content.getComponent("btnPreset1"); //Next
+    btnPreset[0].setControlCallback(loadAdjacentPreset);
+    btnPreset[1].setControlCallback(loadAdjacentPreset);
 
-        //Get samplers as child synths
-        const var samplerIds = Synth.getIdList("Sampler");
-        const var childSynths = {};
+    //Get samplers as child synths
+    const var samplerIds = Synth.getIdList("Sampler");
+    const var childSynths = {};
 
-        for (id in samplerIds)
-        {
-          childSynths[id] = Synth.getChildSynth(id);
-        }
-
-        //Get array of patch names from manifest
-        const var patchNames = [];
-        for (k in Manifest.patches)
-        {
-            patchNames.push(k);
-        }
-
-        //Preset selection dropdown
-        const var cmbPatch = Content.getComponent("cmbPatch");
-        cmbPatch.set("items", patchNames.join("\n"));
-        cmbPatch.setControlCallback(cmbPatchCB);
+    for (id in samplerIds)
+    {
+      childSynths[id] = Synth.getChildSynth(id);
     }
+
+    //Get array of patch names from manifest
+    const var patchNames = [];
+    for (k in Manifest.patches)
+    {
+        patchNames.push(k);
+    }
+
+    //Preset selection dropdown
+    const var cmbPatch = Content.getComponent("cmbPatch");
+    cmbPatch.set("items", patchNames.join("\n"));
+    cmbPatch.setControlCallback(cmbPatchCB);
 
     //UI Callbacks
     inline function loadAdjacentPreset(control, value)

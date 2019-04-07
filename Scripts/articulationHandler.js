@@ -38,7 +38,13 @@ namespace Articulations
     const var envelope = {}
     envelope.sustain = Synth.getModulator("sustainEnvelope");
     envelope.staccato = Synth.getModulator("staccatoEnvelope");
+    
+    //Modulators
     const var liveEnvelopeVelocity = Synth.getModulator("liveEnvelopeVelocity");
+    
+    
+    //Synths/Samplers
+    const var release = Synth.getChildSynth("release");
     
     //GUI
     const var pnlArticulations = Content.getComponent("pnlArticulations");

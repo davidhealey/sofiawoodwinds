@@ -29,33 +29,29 @@ Synth.deferCallbacks(true);
 reg i;
 reg j;
 
-//Synths/Samplers
-const var release = Synth.getChildSynth("release");
-
 //Midi Processors
 const var legatoHandler = Synth.getMidiProcessor("legato"); //Legato handler
-const var overlayVelocityFilter = Synth.getMidiProcessor("overlayVelocityFilter");
+
 
 //Glide rate knob and velocity > glide rate button
-const var knbGlideRate = Content.getComponent("knbGlideRate");
-Content.getComponent("btnVelocityRate").setControlCallback(onbtnVelocityRateControl);
-
 inline function onbtnVelocityRateControl(component, value)
 {
-    knbGlideRate.set("enabled", 1-value);
+    Content.getComponent("knbGlideRate").set("enabled", 1-value);
     legatoHandler.setAttribute(legatoHandler.btnGlideVel, value); //Link to legato script
 };
 
+Content.getComponent("btnVelocityRate").setControlCallback(onbtnVelocityRateControl);
+
 //Dynamics\breath control
 const var dynamicsCC = Synth.getModulator("dynamicsCC");
-const var knbDynamics = Content.getComponent("knbDynamics");
-knbDynamics.setControlCallback(onknbDynamicsControl);
 
 inline function onknbDynamicsControl(control, value)
 {
     dynamicsCC.setAttribute(dynamicsCC.DefaultValue, value);
     legatoHandler.setAttribute(legatoHandler.knbBreath, value);
 }
+
+Content.getComponent("knbDynamics").setControlCallback(onknbDynamicsControl);
 
 //Curve editors
 const var btnCC = [];
@@ -98,17 +94,13 @@ inline function onbtnCCControl(control, value)
     Content.getComponent("lblVelDynamics").showControl(value && idx == 1);
 
     //Vibrato
-    Content.getComponent("knbVibratoPitch").showControl(value && idx == 3);
-    Content.getComponent("knbVibratoGain").showControl(value && idx == 3);
-    Content.getComponent("knbVibratoTimbre").showControl(value && idx == 3);
-    Content.getComponent("lblVibratoPitch").showControl(value && idx == 3);
-    Content.getComponent("lblVibratoGain").showControl(value && idx == 3);
-    Content.getComponent("lblVibratoTimbre").showControl(value && idx == 3);
+    Content.getComponent("knbVibratoPitch").showControl(value && (idx == 3 || idx ==4));
+    Content.getComponent("knbVibratoGain").showControl(value && (idx == 3 || idx == 4));
+    Content.getComponent("knbVibratoTimbre").showControl(value && (idx == 3 || idx == 4));
+    Content.getComponent("lblVibratoPitch").showControl(value && (idx == 3 || idx == 4));
+    Content.getComponent("lblVibratoGain").showControl(value && (idx == 3 || idx == 4));
+    Content.getComponent("lblVibratoTimbre").showControl(value && (idx == 3 || idx == 4));
 }
-
-//Includes initialisation
-PresetHandler.onInitCB();
-Mixer.onInitCB();
 
 //Settings button
 inline function onbtnSettingsControl(component, value)
