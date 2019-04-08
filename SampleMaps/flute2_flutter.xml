@@ -1,262 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="empty" SaveMode="0" FileName="empty" MicPositions="close;decca;hall;"
+<samplemap ID="flute2_flutter" SaveMode="2" FileName="empty" MicPositions="close;decca;hall;"
            RRGroupAmount="1">
   <sample Root="60" LoKey="59" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="24010" LoopEnd="112491"
-          LoopXFade="5000" SampleStartMod="5000" Volume="2">
+          LoopXFade="5000" SampleStartMod="5000" Volume="2" MonolithOffset="0"
+          MonolithLength="212992" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_60_dynamic1.wav"/>
   </sample>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="98920" LoopEnd="172163"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="212992"
+          MonolithLength="217088" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_61_dynamic1.wav"/>
   </sample>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="57236" LoopEnd="129507"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="4459" Volume="2">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="4459" Volume="2"
+          MonolithOffset="430080" MonolithLength="221184" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_62_dynamic1.wav"/>
   </sample>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="68216" LoopEnd="172601"
-          LoopXFade="5000" SampleStartMod="5000" Volume="2">
+          LoopXFade="5000" SampleStartMod="5000" Volume="2" MonolithOffset="651264"
+          MonolithLength="221184" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_63_dynamic1.wav"/>
   </sample>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="68222" LoopEnd="143817"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="872448"
+          MonolithLength="229376" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_64_dynamic1.wav"/>
   </sample>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="79286" LoopEnd="156960"
-          LoopXFade="5000" SampleStartMod="5000" Volume="2">
+          LoopXFade="5000" SampleStartMod="5000" Volume="2" MonolithOffset="1101824"
+          MonolithLength="229376" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_65_dynamic1.wav"/>
   </sample>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="79310" LoopEnd="158414"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="759">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="759" MonolithOffset="1331200"
+          MonolithLength="241664" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_66_dynamic1.wav"/>
   </sample>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="54805" LoopEnd="176102"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="1572864"
+          MonolithLength="237568" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_67_dynamic1.wav"/>
   </sample>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="54764" LoopEnd="172419"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="1029">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="1029" MonolithOffset="1810432"
+          MonolithLength="241664" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_68_dynamic1.wav"/>
   </sample>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="65829" LoopEnd="146692"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="2052096"
+          MonolithLength="245760" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_69_dynamic1.wav"/>
   </sample>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="76880" LoopEnd="175929"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="1160">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="1160" MonolithOffset="2297856"
+          MonolithLength="241664" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_70_dynamic1.wav"/>
   </sample>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="96620" LoopEnd="173014"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="981">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="981" MonolithOffset="2539520"
+          MonolithLength="241664" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_71_dynamic1.wav"/>
   </sample>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="85594" LoopEnd="157601"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="1179">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="1179" MonolithOffset="2781184"
+          MonolithLength="241664" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_72_dynamic1.wav"/>
   </sample>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="85520" LoopEnd="166706"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="632">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="632" MonolithOffset="3022848"
+          MonolithLength="262144" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_73_dynamic1.wav"/>
   </sample>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="99050" LoopEnd="172664"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="3284992"
+          MonolithLength="253952" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_74_dynamic1.wav"/>
   </sample>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="90467" LoopEnd="167037"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="3538944"
+          MonolithLength="245760" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_75_dynamic1.wav"/>
   </sample>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="99711" LoopEnd="176142"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="3784704"
+          MonolithLength="249856" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_76_dynamic1.wav"/>
   </sample>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="99750" LoopEnd="172404"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="4034560"
+          MonolithLength="258048" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_77_dynamic1.wav"/>
   </sample>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="63563" LoopEnd="176557"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="4292608"
+          MonolithLength="253952" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_78_dynamic1.wav"/>
   </sample>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="52411" LoopEnd="152413"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="4546560"
+          MonolithLength="253952" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_79_dynamic1.wav"/>
   </sample>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="96677" LoopEnd="172023"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="1623">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="1623" MonolithOffset="4800512"
+          MonolithLength="258048" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_80_dynamic1.wav"/>
   </sample>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="85532" LoopEnd="158054"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="1293">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="1293" MonolithOffset="5058560"
+          MonolithLength="258048" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_81_dynamic1.wav"/>
   </sample>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="120288" LoopEnd="192944"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="1174">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="1174" MonolithOffset="5316608"
+          MonolithLength="258048" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_82_dynamic1.wav"/>
   </sample>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="64172" LoopEnd="186180"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="5574656"
+          MonolithLength="253952" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_83_dynamic1.wav"/>
   </sample>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="55093" LoopEnd="177901"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="5828608"
+          MonolithLength="258048" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_84_dynamic1.wav"/>
   </sample>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="96923" LoopEnd="189101"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="6086656"
+          MonolithLength="266240" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_85_dynamic1.wav"/>
   </sample>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="74754" LoopEnd="149335"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="6352896"
+          MonolithLength="266240" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_86_dynamic1.wav"/>
   </sample>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="74586" LoopEnd="154589"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="1016">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="1016" MonolithOffset="6619136"
+          MonolithLength="262144" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_87_dynamic1.wav"/>
   </sample>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="107826" LoopEnd="181029"
-          LoopXFade="5000" SampleStartMod="5000" Volume="-2">
+          LoopXFade="5000" SampleStartMod="5000" Volume="-2" MonolithOffset="6881280"
+          MonolithLength="258048" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_88_dynamic1.wav"/>
   </sample>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="97502" LoopEnd="182463"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="7139328"
+          MonolithLength="262144" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_89_dynamic1.wav"/>
   </sample>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="85631" LoopEnd="165858"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="7401472"
+          MonolithLength="253952" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_90_dynamic1.wav"/>
   </sample>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="99506" LoopEnd="182614"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="7655424"
+          MonolithLength="266240" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_91_dynamic1.wav"/>
   </sample>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="37502" LoopEnd="160497"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="857">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="857" MonolithOffset="7921664"
+          MonolithLength="262144" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_92_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_92_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_92_dynamic1.wav"/>
   </sample>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="65981" LoopEnd="186929"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="8183808"
+          MonolithLength="249856" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_93_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_93_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_93_dynamic1.wav"/>
   </sample>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="63798" LoopEnd="168049"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="1193">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="1193" MonolithOffset="8433664"
+          MonolithLength="266240" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_94_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_94_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_94_dynamic1.wav"/>
   </sample>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="41961" LoopEnd="157628"
-          LoopXFade="5000" SampleStartMod="5000">
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="8699904"
+          MonolithLength="241664" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_95_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_95_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_95_dynamic1.wav"/>
   </sample>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="30409" LoopEnd="168602"
-          LoopXFade="5000" SampleStartMod="5000" SampleStart="2128">
+          LoopXFade="5000" SampleStartMod="5000" SampleStart="2128" MonolithOffset="8941568"
+          MonolithLength="237568" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_close_96_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_decca_96_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute2/flutter/flute2_flutter_hall_96_dynamic1.wav"/>

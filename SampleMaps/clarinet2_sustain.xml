@@ -5,8 +5,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11105"
           SampleEnd="366457" SampleStartMod="10230" LoopStart="127252"
           LoopEnd="245742" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="0" MonolithLength="368640" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="0" MonolithLength="368640">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_50_dynamic1.wav"/>
@@ -15,8 +15,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13931"
           SampleEnd="375139" SampleStartMod="12795" LoopStart="132178"
           LoopEnd="259944" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="368640" MonolithLength="376832" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="368640" MonolithLength="376832">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_50_dynamic2.wav"/>
@@ -25,8 +25,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5832"
           SampleEnd="385488" SampleStartMod="7000" LoopStart="132199" LoopEnd="291415"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="745472"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="745472"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_50_dynamic3.wav"/>
@@ -35,8 +35,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14070"
           SampleEnd="365260" SampleStartMod="10230" LoopStart="163583"
           LoopEnd="274180" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="1134592" MonolithLength="368640" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="1134592" MonolithLength="368640">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_51_dynamic1.wav"/>
@@ -45,8 +45,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14542"
           SampleEnd="381985" SampleStartMod="11188" LoopStart="132141"
           LoopEnd="242553" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="1503232" MonolithLength="385024" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="1503232" MonolithLength="385024">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_51_dynamic2.wav"/>
@@ -55,8 +55,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6687"
           SampleEnd="387773" SampleStartMod="7000" LoopStart="187383" LoopEnd="298096"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1888256"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1888256"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_51_dynamic3.wav"/>
@@ -65,8 +65,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12783"
           SampleEnd="394270" SampleStartMod="10230" LoopStart="204442"
           LoopEnd="315049" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="2277376" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="2277376" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_52_dynamic1.wav"/>
@@ -75,8 +75,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9875"
           SampleEnd="387592" SampleStartMod="10184" LoopStart="177720"
           LoopEnd="288304" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="2674688" MonolithLength="389120" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="2674688" MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_52_dynamic2.wav"/>
@@ -85,8 +85,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="7622"
           SampleEnd="391636" SampleStartMod="7000" LoopStart="187533" LoopEnd="302316"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3063808"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3063808"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_52_dynamic3.wav"/>
@@ -95,8 +95,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10264"
           SampleEnd="387780" SampleStartMod="10230" LoopStart="175528"
           LoopEnd="290352" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="3457024" MonolithLength="389120" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="3457024" MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_53_dynamic1.wav"/>
@@ -105,8 +105,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10844"
           SampleEnd="392691" SampleStartMod="9016" LoopStart="175446" LoopEnd="292802"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3846144"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3846144"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_53_dynamic2.wav"/>
@@ -115,8 +115,8 @@
           RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="11406"
           SampleEnd="402656" SampleStartMod="7000" LoopStart="160916" LoopEnd="295966"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4239360"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4239360"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_53_dynamic3.wav"/>
@@ -125,8 +125,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15319"
           SampleEnd="386895" SampleStartMod="10230" LoopStart="65538" LoopEnd="268701"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4644864"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4644864"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_54_dynamic1.wav"/>
@@ -135,8 +135,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11975"
           SampleEnd="385845" SampleStartMod="9456" LoopStart="173061" LoopEnd="286092"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5033984"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5033984"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_54_dynamic2.wav"/>
@@ -145,8 +145,8 @@
           RRGroup="3" Volume="-1" Pan="0" Normalized="0" Pitch="0" SampleStart="8103"
           SampleEnd="405677" SampleStartMod="7000" LoopStart="146721" LoopEnd="266747"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5423104"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5423104"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_54_dynamic3.wav"/>
@@ -155,8 +155,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10200"
           SampleEnd="378117" SampleStartMod="10230" LoopStart="161356"
           LoopEnd="272377" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="5832704" MonolithLength="380928" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="5832704" MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_55_dynamic1.wav"/>
@@ -165,8 +165,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15401"
           SampleEnd="401101" SampleStartMod="11058" LoopStart="137206"
           LoopEnd="311948" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="6213632" MonolithLength="401408" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="6213632" MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_55_dynamic2.wav"/>
@@ -175,8 +175,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11195"
           SampleEnd="395193" SampleStartMod="7000" LoopStart="74456" LoopEnd="268233"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6615040"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6615040"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_55_dynamic3.wav"/>
@@ -185,8 +185,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21755"
           SampleEnd="396414" SampleStartMod="10230" LoopStart="174841"
           LoopEnd="289532" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="7012352" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="7012352" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_56_dynamic1.wav"/>
@@ -195,8 +195,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8476"
           SampleEnd="386009" SampleStartMod="10795" LoopStart="158725"
           LoopEnd="269179" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="7409664" MonolithLength="389120" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="7409664" MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_56_dynamic2.wav"/>
@@ -205,8 +205,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11354"
           SampleEnd="394683" SampleStartMod="7000" LoopStart="88892" LoopEnd="274048"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7798784"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7798784"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_56_dynamic3.wav"/>
@@ -215,8 +215,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10540"
           SampleEnd="393381" SampleStartMod="10230" LoopStart="67530" LoopEnd="298517"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8196096"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="8196096"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_57_dynamic1.wav"/>
@@ -225,8 +225,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7698"
           SampleEnd="388983" SampleStartMod="10795" LoopStart="187567"
           LoopEnd="298344" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="8593408" MonolithLength="389120" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="8593408" MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_57_dynamic2.wav"/>
@@ -235,8 +235,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7066"
           SampleEnd="394961" SampleStartMod="7000" LoopStart="175321" LoopEnd="287282"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8982528"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="8982528"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_57_dynamic3.wav"/>
@@ -245,8 +245,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12068"
           SampleEnd="396374" SampleStartMod="10230" LoopStart="162897"
           LoopEnd="274486" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="9379840" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="9379840" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_58_dynamic1.wav"/>
@@ -255,8 +255,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9079"
           SampleEnd="383725" SampleStartMod="10795" LoopStart="88996" LoopEnd="268413"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9777152"
-          MonolithLength="385024" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="9777152"
+          MonolithLength="385024">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_58_dynamic2.wav"/>
@@ -265,8 +265,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11254"
           SampleEnd="396504" SampleStartMod="7000" LoopStart="177871" LoopEnd="296358"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10162176"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="10162176"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_58_dynamic3.wav"/>
@@ -275,8 +275,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="19532"
           SampleEnd="393809" SampleStartMod="10230" LoopStart="146014"
           LoopEnd="256791" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="10559488" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="10559488" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_59_dynamic1.wav"/>
@@ -285,8 +285,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14991"
           SampleEnd="405331" SampleStartMod="10795" LoopStart="84114" LoopEnd="282700"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10956800"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="10956800"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_59_dynamic2.wav"/>
@@ -295,8 +295,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5685"
           SampleEnd="395105" SampleStartMod="7000" LoopStart="161057" LoopEnd="274622"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11362304"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="11362304"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_59_dynamic3.wav"/>
@@ -305,8 +305,8 @@
           RRGroup="1" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="18182"
           SampleEnd="396550" SampleStartMod="12186" LoopStart="182504"
           LoopEnd="293021" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="11759616" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="11759616" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_60_dynamic1.wav"/>
@@ -315,8 +315,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8262"
           SampleEnd="397410" SampleStartMod="10795" LoopStart="192249"
           LoopEnd="303746" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="12156928" MonolithLength="401408" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="12156928" MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_60_dynamic2.wav"/>
@@ -325,8 +325,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11799"
           SampleEnd="406715" SampleStartMod="7000" LoopStart="105857" LoopEnd="268275"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12558336"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="12558336"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_60_dynamic3.wav"/>
@@ -335,8 +335,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14599"
           SampleEnd="401289" SampleStartMod="13095" LoopStart="106473"
           LoopEnd="279137" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="12967936" MonolithLength="401408" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="12967936" MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_61_dynamic1.wav"/>
@@ -345,8 +345,8 @@
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="10560"
           SampleEnd="396545" SampleStartMod="10795" LoopStart="192124"
           LoopEnd="302620" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="13369344" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="13369344" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_61_dynamic2.wav"/>
@@ -355,8 +355,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10909"
           SampleEnd="404592" SampleStartMod="7000" LoopStart="160994" LoopEnd="283821"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13766656"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="13766656"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_61_dynamic3.wav"/>
@@ -365,8 +365,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9822"
           SampleEnd="405683" SampleStartMod="10230" LoopStart="171071"
           LoopEnd="285825" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="14172160" MonolithLength="409600" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="14172160" MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_62_dynamic1.wav"/>
@@ -375,8 +375,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10453"
           SampleEnd="402516" SampleStartMod="10795" LoopStart="163495"
           LoopEnd="277248" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="14581760" MonolithLength="405504" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="14581760" MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_62_dynamic2.wav"/>
@@ -385,8 +385,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11283"
           SampleEnd="408626" SampleStartMod="7000" LoopStart="177866" LoopEnd="290086"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14987264"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="14987264"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_62_dynamic3.wav"/>
@@ -395,8 +395,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8015"
           SampleEnd="391994" SampleStartMod="10230" LoopStart="138242"
           LoopEnd="269031" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="15396864" MonolithLength="393216" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="15396864" MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_63_dynamic1.wav"/>
@@ -405,8 +405,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12337"
           SampleEnd="389349" SampleStartMod="10795" LoopStart="146777"
           LoopEnd="259224" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="15790080" MonolithLength="393216" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="15790080" MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_63_dynamic2.wav"/>
@@ -415,8 +415,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11504"
           SampleEnd="402598" SampleStartMod="7000" LoopStart="176312" LoopEnd="291256"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16183296"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="16183296"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_63_dynamic3.wav"/>
@@ -425,8 +425,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10733"
           SampleEnd="380225" SampleStartMod="11842" LoopStart="155606"
           LoopEnd="266051" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="16588800" MonolithLength="380928" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="16588800" MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_64_dynamic1.wav"/>
@@ -435,8 +435,8 @@
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="13672"
           SampleEnd="390222" SampleStartMod="10795" LoopStart="180347"
           LoopEnd="290866" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="16969728" MonolithLength="393216" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="16969728" MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_64_dynamic2.wav"/>
@@ -445,8 +445,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11545"
           SampleEnd="404859" SampleStartMod="7000" LoopStart="134657" LoopEnd="290786"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17362944"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="17362944"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_64_dynamic3.wav"/>
@@ -455,8 +455,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13044"
           SampleEnd="392172" SampleStartMod="10230" LoopStart="146194"
           LoopEnd="261539" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="17768448" MonolithLength="393216" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="17768448" MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_65_dynamic1.wav"/>
@@ -465,8 +465,8 @@
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="7622"
           SampleEnd="391630" SampleStartMod="10795" LoopStart="132193"
           LoopEnd="243190" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="18161664" MonolithLength="393216" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="18161664" MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_65_dynamic2.wav"/>
@@ -475,8 +475,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11214"
           SampleEnd="406630" SampleStartMod="7000" LoopStart="182616" LoopEnd="295465"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18554880"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="18554880"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_65_dynamic3.wav"/>
@@ -485,8 +485,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9024"
           SampleEnd="399009" SampleStartMod="13855" LoopStart="151737"
           LoopEnd="273560" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="18964480" MonolithLength="401408" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="18964480" MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_66_dynamic1.wav"/>
@@ -495,8 +495,8 @@
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="11438"
           SampleEnd="413922" SampleStartMod="10795" LoopStart="153810"
           LoopEnd="301485" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="19365888" MonolithLength="417792" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="19365888" MonolithLength="417792">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_66_dynamic2.wav"/>
@@ -505,8 +505,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11631"
           SampleEnd="400796" SampleStartMod="7000" LoopStart="132238" LoopEnd="275829"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19783680"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="19783680"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_66_dynamic3.wav"/>
@@ -515,8 +515,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8589"
           SampleEnd="402345" SampleStartMod="10230" LoopStart="117662"
           LoopEnd="291238" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="20185088" MonolithLength="405504" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="20185088" MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_67_dynamic1.wav"/>
@@ -525,8 +525,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12465"
           SampleEnd="396203" SampleStartMod="10795" LoopStart="180645"
           LoopEnd="295411" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="20590592" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="20590592" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_67_dynamic2.wav"/>
@@ -535,8 +535,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11872"
           SampleEnd="401340" SampleStartMod="7000" LoopStart="125114" LoopEnd="287425"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20987904"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="20987904"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_67_dynamic3.wav"/>
@@ -545,8 +545,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6188"
           SampleEnd="385140" SampleStartMod="7604" LoopStart="115735" LoopEnd="232567"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21389312"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="21389312"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_68_dynamic1.wav"/>
@@ -555,8 +555,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8852"
           SampleEnd="400593" SampleStartMod="10795" LoopStart="197814"
           LoopEnd="308252" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="21778432" MonolithLength="401408" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="21778432" MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_68_dynamic2.wav"/>
@@ -565,8 +565,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12173"
           SampleEnd="404262" SampleStartMod="7000" LoopStart="149284" LoopEnd="261798"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22179840"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="22179840"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_68_dynamic3.wav"/>
@@ -575,8 +575,8 @@
           RRGroup="1" Volume="5" Pan="0" Normalized="0" Pitch="0" SampleStart="11989"
           SampleEnd="395675" SampleStartMod="14179" LoopStart="137134"
           LoopEnd="309919" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="22585344" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="22585344" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_69_dynamic1.wav"/>
@@ -585,8 +585,8 @@
           RRGroup="2" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="16433"
           SampleEnd="413945" SampleStartMod="10795" LoopStart="194109"
           LoopEnd="317686" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="22982656" MonolithLength="417792" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="22982656" MonolithLength="417792">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_69_dynamic2.wav"/>
@@ -595,8 +595,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12207"
           SampleEnd="405072" SampleStartMod="7000" LoopStart="161065" LoopEnd="273628"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23400448"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="23400448"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_69_dynamic3.wav"/>
@@ -605,8 +605,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="25090"
           SampleEnd="397086" SampleStartMod="15084" LoopStart="146641"
           LoopEnd="283280" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="23805952" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="23805952" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_70_dynamic1.wav"/>
@@ -615,8 +615,8 @@
           RRGroup="2" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="10884"
           SampleEnd="390418" SampleStartMod="10795" LoopStart="157613"
           LoopEnd="268363" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="24203264" MonolithLength="393216" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="24203264" MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_70_dynamic2.wav"/>
@@ -625,8 +625,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8756"
           SampleEnd="395855" SampleStartMod="7000" LoopStart="173133" LoopEnd="293174"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24596480"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="24596480"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_70_dynamic3.wav"/>
@@ -635,8 +635,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="16123"
           SampleEnd="398814" SampleStartMod="14829" LoopStart="32692" LoopEnd="305099"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24993792"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="24993792"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_71_dynamic1.wav"/>
@@ -645,8 +645,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15542"
           SampleEnd="412674" SampleStartMod="10795" LoopStart="192770"
           LoopEnd="308968" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="25395200" MonolithLength="413696" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="25395200" MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_71_dynamic2.wav"/>
@@ -655,8 +655,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9076"
           SampleEnd="403029" SampleStartMod="7000" LoopStart="174701" LoopEnd="290360"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25808896"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="25808896"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_71_dynamic3.wav"/>
@@ -665,8 +665,8 @@
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="13437"
           SampleEnd="389886" SampleStartMod="12024" LoopStart="50453" LoopEnd="247815"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26214400"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="26214400"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_72_dynamic1.wav"/>
@@ -675,8 +675,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9065"
           SampleEnd="401987" SampleStartMod="10795" LoopStart="67215" LoopEnd="282800"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26607616"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="26607616"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_72_dynamic2.wav"/>
@@ -685,8 +685,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7366"
           SampleEnd="405002" SampleStartMod="7000" LoopStart="187894" LoopEnd="299405"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27013120"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="27013120"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_72_dynamic3.wav"/>
@@ -695,8 +695,8 @@
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="20294"
           SampleEnd="400769" SampleStartMod="10230" LoopStart="145560"
           LoopEnd="262827" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="27422720" MonolithLength="401408" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="27422720" MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_73_dynamic1.wav"/>
@@ -705,8 +705,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13208"
           SampleEnd="405106" SampleStartMod="10795" LoopStart="148445"
           LoopEnd="261475" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="27824128" MonolithLength="405504" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="27824128" MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_73_dynamic2.wav"/>
@@ -715,8 +715,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8497"
           SampleEnd="410909" SampleStartMod="7000" LoopStart="153650" LoopEnd="265083"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28229632"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="28229632"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_73_dynamic3.wav"/>
@@ -725,8 +725,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11"
           SampleEnd="319576" SampleStartMod="10230" LoopStart="110535"
           LoopEnd="221177" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="28643328" MonolithLength="323584" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="28643328" MonolithLength="323584">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_74_dynamic1.wav"/>
@@ -735,8 +735,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9465"
           SampleEnd="399168" SampleStartMod="10795" LoopStart="163408"
           LoopEnd="273848" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="28966912" MonolithLength="401408" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="28966912" MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_74_dynamic2.wav"/>
@@ -745,8 +745,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7334"
           SampleEnd="420393" SampleStartMod="7000" LoopStart="184441" LoopEnd="297379"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29368320"
-          MonolithLength="421888" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="29368320"
+          MonolithLength="421888">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_74_dynamic3.wav"/>
@@ -755,8 +755,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15321"
           SampleEnd="398435" SampleStartMod="10230" LoopStart="73876" LoopEnd="269680"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29790208"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="29790208"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_75_dynamic1.wav"/>
@@ -765,8 +765,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12479"
           SampleEnd="404144" SampleStartMod="10795" LoopStart="108048"
           LoopEnd="283763" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="30191616" MonolithLength="405504" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="30191616" MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_75_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_75_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_75_dynamic2.wav"/>
@@ -775,8 +775,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9127"
           SampleEnd="410397" SampleStartMod="7000" LoopStart="155983" LoopEnd="270722"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30597120"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="30597120"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_75_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_75_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_75_dynamic3.wav"/>
@@ -785,8 +785,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12247"
           SampleEnd="386488" SampleStartMod="12641" LoopStart="178257"
           LoopEnd="289487" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="31010816" MonolithLength="389120" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="31010816" MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_76_dynamic1.wav"/>
@@ -795,8 +795,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11822"
           SampleEnd="412524" SampleStartMod="10795" LoopStart="115331"
           LoopEnd="310560" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="31399936" MonolithLength="413696" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="31399936" MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_76_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_76_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_76_dynamic2.wav"/>
@@ -805,8 +805,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6162"
           SampleEnd="400541" SampleStartMod="7000" LoopStart="132580" LoopEnd="245479"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31813632"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="31813632"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_76_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_76_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_76_dynamic3.wav"/>
@@ -815,8 +815,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9527"
           SampleEnd="395332" SampleStartMod="10230" LoopStart="164913"
           LoopEnd="280321" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="32215040" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="32215040" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_77_dynamic1.wav"/>
@@ -825,8 +825,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12148"
           SampleEnd="397076" SampleStartMod="10795" LoopStart="154260"
           LoopEnd="268918" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="32612352" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="32612352" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_77_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_77_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_77_dynamic2.wav"/>
@@ -835,8 +835,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6139"
           SampleEnd="406729" SampleStartMod="7000" LoopStart="67557" LoopEnd="258309"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33009664"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="33009664"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_77_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_77_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_77_dynamic3.wav"/>
@@ -845,8 +845,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11133"
           SampleEnd="377897" SampleStartMod="10230" LoopStart="103294"
           LoopEnd="273240" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="33419264" MonolithLength="380928" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="33419264" MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_78_dynamic1.wav"/>
@@ -855,8 +855,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9400"
           SampleEnd="402138" SampleStartMod="10795" LoopStart="171440"
           LoopEnd="291227" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="33800192" MonolithLength="405504" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="33800192" MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_78_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_78_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_78_dynamic2.wav"/>
@@ -865,8 +865,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7162"
           SampleEnd="407663" SampleStartMod="7000" LoopStart="108606" LoopEnd="295183"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34205696"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="34205696"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_78_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_78_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_78_dynamic3.wav"/>
@@ -875,8 +875,8 @@
           RRGroup="1" Volume="-4" Pan="0" Normalized="0" Pitch="0" SampleStart="27"
           SampleEnd="385507" SampleStartMod="10230" LoopStart="156196"
           LoopEnd="276440" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="34615296" MonolithLength="389120" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="34615296" MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_79_dynamic1.wav"/>
@@ -885,8 +885,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11326"
           SampleEnd="412856" SampleStartMod="10795" LoopStart="147257"
           LoopEnd="320409" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="35004416" MonolithLength="413696" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="35004416" MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_79_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_79_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_79_dynamic2.wav"/>
@@ -895,8 +895,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7605"
           SampleEnd="410373" SampleStartMod="7000" LoopStart="182901" LoopEnd="306389"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="35418112"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="35418112"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_79_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_79_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_79_dynamic3.wav"/>
@@ -905,8 +905,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8709"
           SampleEnd="388734" SampleStartMod="10230" LoopStart="151295"
           LoopEnd="278025" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="35831808" MonolithLength="389120" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="35831808" MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_80_dynamic1.wav"/>
@@ -915,8 +915,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="23975"
           SampleEnd="411758" SampleStartMod="14406" LoopStart="141522"
           LoopEnd="293931" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="36220928" MonolithLength="413696" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="36220928" MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_80_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_80_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_80_dynamic2.wav"/>
@@ -925,8 +925,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6272"
           SampleEnd="396857" SampleStartMod="7000" LoopStart="147819" LoopEnd="260868"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="36634624"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="36634624"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_80_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_80_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_80_dynamic3.wav"/>
@@ -935,8 +935,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10957"
           SampleEnd="394595" SampleStartMod="10230" LoopStart="143954"
           LoopEnd="264578" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="37031936" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="37031936" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_81_dynamic1.wav"/>
@@ -945,8 +945,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6129"
           SampleEnd="423408" SampleStartMod="10795" LoopStart="84225" LoopEnd="316977"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="37429248"
-          MonolithLength="425984" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="37429248"
+          MonolithLength="425984">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_81_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_81_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_81_dynamic2.wav"/>
@@ -955,8 +955,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5522"
           SampleEnd="422942" SampleStartMod="7000" LoopStart="156319" LoopEnd="269467"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="37855232"
-          MonolithLength="425984" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="37855232"
+          MonolithLength="425984">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_81_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_81_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_81_dynamic3.wav"/>
@@ -965,8 +965,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11042"
           SampleEnd="385530" SampleStartMod="10230" LoopStart="47547" LoopEnd="292967"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38281216"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="38281216"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_82_dynamic1.wav"/>
@@ -975,8 +975,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13191"
           SampleEnd="416008" SampleStartMod="10795" LoopStart="198450"
           LoopEnd="324137" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="38670336" MonolithLength="417792" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="38670336" MonolithLength="417792">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_82_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_82_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_82_dynamic2.wav"/>
@@ -985,8 +985,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5593"
           SampleEnd="409525" SampleStartMod="7000" LoopStart="24954" LoopEnd="254610"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="39088128"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="39088128"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_82_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_82_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_82_dynamic3.wav"/>
@@ -995,8 +995,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11671"
           SampleEnd="394075" SampleStartMod="10230" LoopStart="162817"
           LoopEnd="295400" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="39501824" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="39501824" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_83_dynamic1.wav"/>
@@ -1005,8 +1005,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7146"
           SampleEnd="409710" SampleStartMod="10795" LoopStart="155798"
           LoopEnd="313211" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="39899136" MonolithLength="413696" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="39899136" MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_83_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_83_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_83_dynamic2.wav"/>
@@ -1015,8 +1015,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7131"
           SampleEnd="404281" SampleStartMod="7000" LoopStart="80816" LoopEnd="266021"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="40312832"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="40312832"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_83_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_83_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_83_dynamic3.wav"/>
@@ -1025,8 +1025,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="41"
           SampleEnd="373015" SampleStartMod="10230" LoopStart="175571"
           LoopEnd="260557" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="40718336" MonolithLength="376832" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="40718336" MonolithLength="376832">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_84_dynamic1.wav"/>
@@ -1035,8 +1035,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="15046"
           SampleEnd="413033" SampleStartMod="10795" LoopStart="137247"
           LoopEnd="300723" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="41095168" MonolithLength="413696" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="41095168" MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_84_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_84_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_84_dynamic2.wav"/>
@@ -1045,8 +1045,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9674"
           SampleEnd="418993" SampleStartMod="7000" LoopStart="180184" LoopEnd="308362"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41508864"
-          MonolithLength="421888" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="41508864"
+          MonolithLength="421888">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_84_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_84_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_84_dynamic3.wav"/>
@@ -1055,8 +1055,8 @@
           RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="6036"
           SampleEnd="394848" SampleStartMod="5852" LoopStart="156923" LoopEnd="281009"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41930752"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="41930752"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_85_dynamic1.wav"/>
@@ -1065,8 +1065,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12562"
           SampleEnd="420314" SampleStartMod="10795" LoopStart="173149"
           LoopEnd="291584" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="42328064" MonolithLength="421888" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="42328064" MonolithLength="421888">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_85_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_85_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_85_dynamic2.wav"/>
@@ -1075,8 +1075,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7789"
           SampleEnd="412350" SampleStartMod="7000" LoopStart="143233" LoopEnd="294849"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="42749952"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="42749952"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_85_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_85_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_85_dynamic3.wav"/>
@@ -1085,8 +1085,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9238"
           SampleEnd="404046" SampleStartMod="10230" LoopStart="156922"
           LoopEnd="272885" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="43163648" MonolithLength="405504" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="43163648" MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_86_dynamic1.wav"/>
@@ -1095,8 +1095,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10830"
           SampleEnd="411792" SampleStartMod="10795" LoopStart="95525" LoopEnd="290605"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="43569152"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="43569152"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_86_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_86_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_86_dynamic2.wav"/>
@@ -1105,8 +1105,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6239"
           SampleEnd="402317" SampleStartMod="7000" LoopStart="73885" LoopEnd="246368"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="43982848"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="43982848"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_86_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_86_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_86_dynamic3.wav"/>
@@ -1115,8 +1115,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="26894"
           SampleEnd="419686" SampleStartMod="12603" LoopStart="89470" LoopEnd="288295"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44388352"
-          MonolithLength="421888" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="44388352"
+          MonolithLength="421888">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_87_dynamic1.wav"/>
@@ -1125,8 +1125,8 @@
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="7523"
           SampleEnd="410884" SampleStartMod="10795" LoopStart="159260"
           LoopEnd="278115" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="44810240" MonolithLength="413696" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="44810240" MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_87_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_87_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_87_dynamic2.wav"/>
@@ -1135,8 +1135,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4877"
           SampleEnd="409850" SampleStartMod="7000" LoopStart="142910" LoopEnd="310810"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="45223936"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="45223936"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_87_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_87_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_87_dynamic3.wav"/>
@@ -1145,8 +1145,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9672"
           SampleEnd="410775" SampleStartMod="11457" LoopStart="107572"
           LoopEnd="218621" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="45637632" MonolithLength="413696" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="45637632" MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_88_dynamic1.wav"/>
@@ -1155,8 +1155,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6100"
           SampleEnd="408393" SampleStartMod="10795" LoopStart="98056" LoopEnd="274052"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="46051328"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="46051328"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_88_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_88_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_88_dynamic2.wav"/>
@@ -1165,8 +1165,8 @@
           RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="7263"
           SampleEnd="416660" SampleStartMod="7000" LoopStart="107653" LoopEnd="288583"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="46460928"
-          MonolithLength="417792" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="46460928"
+          MonolithLength="417792">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_88_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_88_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_88_dynamic3.wav"/>
@@ -1175,8 +1175,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5775"
           SampleEnd="398448" SampleStartMod="10230" LoopStart="129176"
           LoopEnd="268841" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="46878720" MonolithLength="401408" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="46878720" MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_89_dynamic1.wav"/>
@@ -1185,8 +1185,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8182"
           SampleEnd="414080" SampleStartMod="10795" LoopStart="124180"
           LoopEnd="272641" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="47280128" MonolithLength="417792" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="47280128" MonolithLength="417792">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_89_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_89_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_89_dynamic2.wav"/>
@@ -1195,8 +1195,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5267"
           SampleEnd="405128" SampleStartMod="7000" LoopStart="131775" LoopEnd="305951"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="47697920"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="47697920"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_89_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_89_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_89_dynamic3.wav"/>
@@ -1205,8 +1205,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7429"
           SampleEnd="402957" SampleStartMod="10230" LoopStart="158818"
           LoopEnd="278094" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="48103424" MonolithLength="405504" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="48103424" MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_90_dynamic1.wav"/>
@@ -1215,8 +1215,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11295"
           SampleEnd="405831" SampleStartMod="10795" LoopStart="164372"
           LoopEnd="294981" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="48508928" MonolithLength="409600" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="48508928" MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_90_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_90_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_90_dynamic2.wav"/>
@@ -1225,8 +1225,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6139"
           SampleEnd="406826" SampleStartMod="7000" LoopStart="164387" LoopEnd="281799"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="48918528"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="48918528"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_90_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_90_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_90_dynamic3.wav"/>
@@ -1235,8 +1235,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8346"
           SampleEnd="405012" SampleStartMod="10230" LoopStart="117662"
           LoopEnd="271622" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="49328128" MonolithLength="405504" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="49328128" MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_91_dynamic1.wav"/>
@@ -1245,8 +1245,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5320"
           SampleEnd="405672" SampleStartMod="8694" LoopStart="151346" LoopEnd="264534"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="49733632"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="49733632"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_91_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_91_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_91_dynamic2.wav"/>
@@ -1255,8 +1255,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7419"
           SampleEnd="420511" SampleStartMod="7000" LoopStart="178782" LoopEnd="303395"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="50143232"
-          MonolithLength="421888" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="50143232"
+          MonolithLength="421888">
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_close_91_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_decca_91_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet2/sustain/clarinet2_sustain_hall_91_dynamic3.wav"/>

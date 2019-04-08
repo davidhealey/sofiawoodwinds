@@ -1,964 +1,2019 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="englishHorn_staccato" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1687"
-          SampleEnd="81843" SampleStartMod="1340" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="0" MonolithLength="81920"
-          SampleRate="48000">
+<samplemap ID="englishHorn_staccato" SaveMode="2" MicPositions="close;decca;hall;"
+           RRGroupAmount="3">
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="0" MonolithLength="86016" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_52_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="1" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1560"
-          SampleEnd="84873" SampleStartMod="3483" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="81920" MonolithLength="86016"
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="86016" MonolithLength="86016" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_52_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_52_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_52_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="172032" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_52_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_52_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_52_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="258048" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_52_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_52_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_52_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="2" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1722"
-          SampleEnd="86244" SampleStartMod="707" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="167936" MonolithLength="90112"
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="344064" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_52_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_52_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_52_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="438272" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_52_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_52_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_52_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="528384" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_52_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_52_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_52_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="3" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1971"
-          SampleEnd="74558" SampleStartMod="2670" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="258048" MonolithLength="77824"
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="622592" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_52_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_52_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_52_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="712704" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_52_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_52_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_52_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="811008" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_53_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="4" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1578"
-          SampleEnd="89526" SampleStartMod="5589" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="335872" MonolithLength="90112"
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="897024" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_53_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_53_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_53_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="983040" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_53_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_53_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_53_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="1073152" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_53_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_53_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_53_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="5" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1451"
-          SampleEnd="85793" SampleStartMod="1834" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="425984" MonolithLength="86016"
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="1171456" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_53_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_53_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_53_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="1269760" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_53_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_53_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_53_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="1363968" MonolithLength="102400"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_53_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_53_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_53_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="6" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2110"
-          SampleEnd="66480" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="512000" MonolithLength="69632"
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="1466368" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_53_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_53_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_53_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="1564672" MonolithLength="102400"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_53_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_53_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_53_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="1667072" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_54_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="7" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1696"
-          SampleEnd="84563" SampleStartMod="1386" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="581632" MonolithLength="86016"
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="1753088" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_54_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_54_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_54_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="1839104" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_54_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_54_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_54_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="1929216" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_54_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_54_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_54_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="8" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1792"
-          SampleEnd="83814" SampleStartMod="1234" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="667648" MonolithLength="86016"
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="2015232" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_54_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_54_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_54_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="2105344" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_54_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_54_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_54_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="2195456" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_54_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_54_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_54_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="9" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4444"
-          SampleEnd="76946" SampleStartMod="1819" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="753664" MonolithLength="77824"
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="2293760" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_54_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_54_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_54_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="2392064" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_54_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_54_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_54_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="2490368" MonolithLength="77824"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_55_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="10" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1663"
-          SampleEnd="89706" SampleStartMod="1325" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="831488" MonolithLength="90112"
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="2568192" MonolithLength="65536"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_55_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_55_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_55_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="2633728" MonolithLength="73728"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_55_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_55_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_55_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="2707456" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_55_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_55_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_55_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="11" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1580"
-          SampleEnd="87352" SampleStartMod="1147" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="921600" MonolithLength="90112"
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="2801664" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_55_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_55_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_55_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="2891776" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_55_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_55_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_55_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="2981888" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_55_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_55_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_55_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="12" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4572"
-          SampleEnd="74645" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1011712" MonolithLength="77824"
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="3080192" MonolithLength="102400"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_55_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_55_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_55_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="3182592" MonolithLength="102400"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_55_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_55_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_55_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="3284992" MonolithLength="73728"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_56_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="13" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1935"
-          SampleEnd="89603" SampleStartMod="1026" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1089536" MonolithLength="90112"
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="3358720" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_56_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_56_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_56_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="3440640" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_56_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_56_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_56_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="3522560" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_56_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_56_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_56_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="14" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1823"
-          SampleEnd="84100" SampleStartMod="826" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1179648" MonolithLength="86016"
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="3616768" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_56_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_56_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_56_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="3710976" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_56_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_56_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_56_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="3805184" MonolithLength="106496"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_56_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_56_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_56_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="15" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4309"
-          SampleEnd="74339" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1265664" MonolithLength="77824"
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="3911680" MonolithLength="102400"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_56_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_56_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_56_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="4014080" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_56_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_56_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_56_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="4112384" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_57_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="16" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1710"
-          SampleEnd="86211" SampleStartMod="1413" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1343488" MonolithLength="90112"
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="4198400" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_57_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_57_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_57_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="4280320" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_57_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_57_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_57_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="4366336" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_57_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_57_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_57_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="17" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1820"
-          SampleEnd="83966" SampleStartMod="962" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1433600" MonolithLength="86016"
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="4460544" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_57_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_57_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_57_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="4550656" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_57_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_57_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_57_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="4648960" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_57_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_57_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_57_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="18" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4549"
-          SampleEnd="77301" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1519616" MonolithLength="77824"
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="4747264" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_57_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_57_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_57_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="4845568" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_57_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_57_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_57_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="4943872" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_58_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="19" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1344"
-          SampleEnd="91320" SampleStartMod="1505" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1597440" MonolithLength="94208"
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="5038080" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_58_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_58_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_58_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="5115904" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_58_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_58_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_58_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="5193728" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_58_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_58_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_58_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="20" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1652"
-          SampleEnd="85452" SampleStartMod="841" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1691648" MonolithLength="86016"
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="5292032" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_58_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_58_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_58_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="5386240" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_58_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_58_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_58_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="5480448" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_58_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_58_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_58_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="21" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4088"
-          SampleEnd="78288" SampleStartMod="4591" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1777664" MonolithLength="81920"
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="5574656" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_58_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_58_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_58_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="5672960" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_58_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_58_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_58_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="5771264" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_59_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="22" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1612"
-          SampleEnd="88034" SampleStartMod="1156" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1859584" MonolithLength="90112"
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="5853184" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_59_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_59_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_59_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="5931008" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_59_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_59_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_59_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="6012928" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_59_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_59_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_59_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="23" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1669"
-          SampleEnd="83057" SampleStartMod="953" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="1949696" MonolithLength="86016"
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="6103040" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_59_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_59_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_59_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="6189056" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_59_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_59_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_59_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="6283264" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_59_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_59_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_59_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="24" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4153"
-          SampleEnd="77939" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2035712" MonolithLength="81920"
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="6377472" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_59_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_59_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_59_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="6471680" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_59_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_59_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_59_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="6565888" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_60_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="25" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1709"
-          SampleEnd="87057" SampleStartMod="1142" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2117632" MonolithLength="90112"
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="6647808" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_60_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_60_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_60_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="6729728" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_60_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_60_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_60_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="6807552" MonolithLength="73728"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_60_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="26" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1629"
-          SampleEnd="90490" SampleStartMod="892" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2207744" MonolithLength="94208"
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="6881280" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_60_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_60_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_60_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="6971392" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_60_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_60_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_60_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="7049216" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_60_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_60_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="27" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3947"
-          SampleEnd="74549" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2301952" MonolithLength="77824"
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="7147520" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_60_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_60_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_60_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="7241728" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_60_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_60_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_60_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="7335936" MonolithLength="77824"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_61_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="28" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1658"
-          SampleEnd="88230" SampleStartMod="1158" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2379776" MonolithLength="90112"
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="7413760" MonolithLength="73728"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_61_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_61_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_61_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="7487488" MonolithLength="73728"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_61_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_61_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_61_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="7561216" MonolithLength="73728"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_61_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_61_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_61_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="29" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1836"
-          SampleEnd="87077" SampleStartMod="855" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2469888" MonolithLength="90112"
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="7634944" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_61_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_61_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_61_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="7716864" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_61_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_61_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_61_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="7794688" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_61_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_61_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="30" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4251"
-          SampleEnd="75067" SampleStartMod="2724" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2560000" MonolithLength="77824"
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="7892992" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_61_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_61_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_61_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="7987200" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_61_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_61_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_61_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="8073216" MonolithLength="69632"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_62_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="31" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1583"
-          SampleEnd="88913" SampleStartMod="1460" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2637824" MonolithLength="90112"
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="8142848" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_62_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_62_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_62_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="8220672" MonolithLength="61440"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_62_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_62_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_62_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="8282112" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_62_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_62_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_62_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="32" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1722"
-          SampleEnd="83510" SampleStartMod="684" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2727936" MonolithLength="86016"
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="8368128" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_62_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_62_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_62_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="8450048" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_62_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_62_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_62_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="8536064" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_62_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_62_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="33" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1717"
-          SampleEnd="73575" SampleStartMod="1081" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2813952" MonolithLength="73728"
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="8622080" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_62_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_62_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_62_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="8712192" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_62_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_62_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_62_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="8798208" MonolithLength="69632"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_63_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="34" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1612"
-          SampleEnd="91343" SampleStartMod="900" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2887680" MonolithLength="94208"
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="8867840" MonolithLength="65536"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_63_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_63_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_63_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="8933376" MonolithLength="69632"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_63_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_63_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_63_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="9003008" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_63_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_63_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_63_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="35" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2054"
-          SampleEnd="83239" SampleStartMod="543" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="2981888" MonolithLength="86016"
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="9097216" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_63_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_63_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_63_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="9183232" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_63_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_63_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_63_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="9277440" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_63_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_63_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="36" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3649"
-          SampleEnd="76669" SampleStartMod="5495" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3067904" MonolithLength="77824"
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="9367552" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_63_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_63_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_63_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="9461760" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_63_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_63_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_63_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="9551872" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_64_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="37" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1707"
-          SampleEnd="91126" SampleStartMod="1047" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3145728" MonolithLength="94208"
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="9633792" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_64_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_64_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_64_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="9719808" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_64_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_64_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_64_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="9797632" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_64_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_64_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_64_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="38" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1790"
-          SampleEnd="85240" SampleStartMod="419" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3239936" MonolithLength="86016"
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="9883648" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_64_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_64_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_64_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="9969664" MonolithLength="73728"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_64_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_64_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_64_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="10043392" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_64_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_64_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="39" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3602"
-          SampleEnd="75295" SampleStartMod="2997" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3325952" MonolithLength="77824"
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="10133504" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_64_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_64_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_64_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="10223616" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_64_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_64_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_64_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="10317824" MonolithLength="77824"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_65_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="40" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1451"
-          SampleEnd="85962" SampleStartMod="2120" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3403776" MonolithLength="86016"
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="10395648" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_65_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_65_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_65_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="10477568" MonolithLength="73728"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_65_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_65_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_65_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="10551296" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_65_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_65_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_65_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="41" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1698"
-          SampleEnd="85313" SampleStartMod="559" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3489792" MonolithLength="86016"
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="10633216" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_65_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_65_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_65_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="10719232" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_65_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_65_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_65_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="10801152" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_65_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_65_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="42" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4100"
-          SampleEnd="74982" SampleStartMod="4267" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3575808" MonolithLength="77824"
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="10887168" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_65_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_65_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_65_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="10964992" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_65_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_65_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_65_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="11055104" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_66_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="43" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1588"
-          SampleEnd="86715" SampleStartMod="1281" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3653632" MonolithLength="90112"
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="11137024" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_66_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_66_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_66_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="11214848" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_66_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_66_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_66_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="11292672" MonolithLength="73728"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_66_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_66_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_66_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="44" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1542"
-          SampleEnd="78064" SampleStartMod="1536" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3743744" MonolithLength="81920"
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="11366400" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_66_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_66_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_66_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="11452416" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_66_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_66_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_66_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="11542528" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_66_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_66_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="45" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4310"
-          SampleEnd="76157" SampleStartMod="3124" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3825664" MonolithLength="77824"
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="11632640" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_66_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_66_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_66_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="11726848" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_66_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_66_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_66_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="11812864" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_67_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="46" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1655"
-          SampleEnd="87090" SampleStartMod="2572" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3903488" MonolithLength="90112"
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="11894784" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_67_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_67_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_67_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="11980800" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_67_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_67_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_67_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="12062720" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_67_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_67_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_67_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="47" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1723"
-          SampleEnd="84202" SampleStartMod="965" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="3993600" MonolithLength="86016"
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="12156928" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_67_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_67_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_67_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="12247040" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_67_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_67_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_67_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="12337152" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_67_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_67_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="48" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4240"
-          SampleEnd="76680" SampleStartMod="3271" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4079616" MonolithLength="77824"
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="12427264" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_67_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_67_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_67_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="12517376" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_67_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_67_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_67_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="12611584" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_68_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="49" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1331"
-          SampleEnd="88809" SampleStartMod="1317" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4157440" MonolithLength="90112"
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="12697600" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_68_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_68_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_68_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="12779520" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_68_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_68_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_68_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="12865536" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_68_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_68_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_68_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="50" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1608"
-          SampleEnd="83130" SampleStartMod="818" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4247552" MonolithLength="86016"
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="12963840" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_68_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_68_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_68_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="13058048" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_68_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_68_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_68_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="13156352" MonolithLength="106496"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_68_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_68_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="51" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4479"
-          SampleEnd="73613" SampleStartMod="1619" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4333568" MonolithLength="73728"
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="13262848" MonolithLength="102400"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_68_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_68_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_68_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="13365248" MonolithLength="106496"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_68_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_68_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_68_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="13471744" MonolithLength="77824"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_69_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="52" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1554"
-          SampleEnd="88081" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4407296" MonolithLength="90112"
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="13549568" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_69_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_69_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_69_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="13627392" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_69_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_69_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_69_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="13713408" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_69_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_69_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_69_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="53" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1908"
-          SampleEnd="85602" SampleStartMod="980" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4497408" MonolithLength="86016"
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="13811712" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_69_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_69_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_69_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="13905920" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_69_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_69_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_69_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="13991936" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_69_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_69_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="54" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3573"
-          SampleEnd="79920" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4583424" MonolithLength="81920"
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="14086144" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_69_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_69_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_69_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="14180352" MonolithLength="110592"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_69_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_69_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_69_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="14290944" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_70_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="55" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1918"
-          SampleEnd="89653" SampleStartMod="880" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4665344" MonolithLength="90112"
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="14381056" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_70_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_70_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_70_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="14471168" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_70_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_70_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_70_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="14561280" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_70_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_70_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_70_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="56" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1915"
-          SampleEnd="86280" SampleStartMod="705" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4755456" MonolithLength="90112"
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="14651392" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_70_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_70_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_70_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="14745600" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_70_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_70_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_70_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="14839808" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_70_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_70_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="57" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3917"
-          SampleEnd="77248" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4845568" MonolithLength="77824"
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="14934016" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_70_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_70_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_70_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="15028224" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_70_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_70_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_70_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="15122432" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_71_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="58" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1281"
-          SampleEnd="89724" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="4923392" MonolithLength="90112"
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="15208448" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_71_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_71_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_71_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="15298560" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_71_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_71_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_71_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="15380480" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_71_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_71_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_71_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="59" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="1754"
-          SampleEnd="85545" SampleStartMod="841" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5013504" MonolithLength="86016"
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="15470592" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_71_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_71_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_71_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="15560704" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_71_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_71_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_71_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="15650816" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_71_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_71_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="60" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4260"
-          SampleEnd="73165" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5099520" MonolithLength="73728"
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="15749120" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_71_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_71_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_71_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="15847424" MonolithLength="102400"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_71_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_71_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_71_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="15949824" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_72_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="61" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1357"
-          SampleEnd="89536" SampleStartMod="1475" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5173248" MonolithLength="90112"
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="16031744" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_72_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_72_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_72_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="16113664" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_72_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_72_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_72_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="16191488" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_72_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_72_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_72_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="62" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1672"
-          SampleEnd="83625" SampleStartMod="959" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5263360" MonolithLength="86016"
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="16285696" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_72_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_72_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_72_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="16371712" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_72_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_72_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_72_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="16461824" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_72_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_72_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="63" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4249"
-          SampleEnd="73025" SampleStartMod="1380" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5349376" MonolithLength="73728"
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="16547840" MonolithLength="106496"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_72_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_72_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_72_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="16654336" MonolithLength="102400"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_72_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_72_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_72_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="16756736" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_73_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="64" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1319"
-          SampleEnd="89400" SampleStartMod="1326" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5423104" MonolithLength="90112"
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="16838656" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_73_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_73_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_73_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="16916480" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_73_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_73_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_73_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="16994304" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_73_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_73_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_73_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="65" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1548"
-          SampleEnd="86117" SampleStartMod="1131" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5513216" MonolithLength="90112"
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="17084416" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_73_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_73_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_73_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="17178624" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_73_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_73_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_73_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="17272832" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_73_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_73_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="66" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1422"
-          SampleEnd="74141" SampleStartMod="1702" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5603328" MonolithLength="77824"
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="17371136" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_73_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_73_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_73_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="17465344" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_73_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_73_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_73_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="17559552" MonolithLength="77824"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="67" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1622"
-          SampleEnd="90268" SampleStartMod="593" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5681152" MonolithLength="94208"
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="17637376" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_74_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_74_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="17719296" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_74_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_74_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="17805312" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_74_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_74_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="68" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2013"
-          SampleEnd="79770" SampleStartMod="1170" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5775360" MonolithLength="81920"
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="17891328" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_74_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_74_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="17981440" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_74_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_74_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="18063360" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_74_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="69" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3887"
-          SampleEnd="88622" SampleStartMod="1984" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5857280" MonolithLength="90112"
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="18161664" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_74_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_74_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="18255872" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_74_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_74_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_74_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="18345984" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_75_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="70" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1680"
-          SampleEnd="86619" SampleStartMod="1278" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="5947392" MonolithLength="90112"
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="18440192" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_75_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_75_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_75_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="18530304" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_75_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_75_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_75_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="18616320" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_75_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_75_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_75_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="71" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1813"
-          SampleEnd="88835" SampleStartMod="1164" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6037504" MonolithLength="90112"
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="18706432" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_75_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_75_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_75_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="18800640" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_75_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_75_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_75_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="18890752" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_75_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_75_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_75_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="72" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3704"
-          SampleEnd="84110" SampleStartMod="1613" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6127616" MonolithLength="86016"
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="18980864" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_75_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_75_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_75_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="19075072" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_75_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_75_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_75_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="19169280" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_76_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="73" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1463"
-          SampleEnd="90242" SampleStartMod="1039" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6213632" MonolithLength="94208"
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="19255296" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_76_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_76_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_76_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="19333120" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_76_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_76_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_76_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="19419136" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_76_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_76_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_76_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="74" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2021"
-          SampleEnd="90545" SampleStartMod="740" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6307840" MonolithLength="94208"
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="19509248" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_76_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_76_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_76_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="19599360" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_76_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_76_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_76_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="19685376" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_76_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_76_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_76_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="75" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2071"
-          SampleEnd="71636" SampleStartMod="1512" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6402048" MonolithLength="73728"
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="19779584" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_76_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_76_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_76_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="19873792" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_76_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_76_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_76_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="19968000" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_77_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="76" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1543"
-          SampleEnd="88729" SampleStartMod="1312" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6475776" MonolithLength="90112"
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="20054016" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_77_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_77_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_77_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="20135936" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_77_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_77_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_77_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="20213760" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_77_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_77_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_77_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="77" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2037"
-          SampleEnd="85353" SampleStartMod="836" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6565888" MonolithLength="86016"
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="20299776" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_77_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_77_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_77_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="20381696" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_77_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_77_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_77_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="20467712" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_77_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_77_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_77_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="78" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1637"
-          SampleEnd="69553" SampleStartMod="1363" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6651904" MonolithLength="69632"
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="20566016" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_77_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_77_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_77_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="20656128" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_77_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_77_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_77_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="20746240" MonolithLength="73728"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_78_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_78_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="79" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1664"
-          SampleEnd="82398" SampleStartMod="1080" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6721536" MonolithLength="86016"
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="20819968" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_78_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_78_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_78_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="20897792" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_78_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_78_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_78_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="20979712" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_78_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_78_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_78_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="80" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1803"
-          SampleEnd="84815" SampleStartMod="833" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6807552" MonolithLength="86016"
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="21061632" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_78_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_78_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_78_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="21139456" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_78_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_78_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_78_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="21225472" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_78_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_78_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_78_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="81" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1665"
-          SampleEnd="71894" SampleStartMod="1292" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6893568" MonolithLength="73728"
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="21315584" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_78_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_78_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_78_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="21405696" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_78_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_78_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_78_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="21495808" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_79_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_79_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="82" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1646"
-          SampleEnd="86695" SampleStartMod="1138" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="6967296" MonolithLength="90112"
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="21577728" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_79_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_79_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_79_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="21663744" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_79_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_79_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_79_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="21749760" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_79_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_79_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_79_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="83" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1847"
-          SampleEnd="91464" SampleStartMod="899" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7057408" MonolithLength="94208"
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="21843968" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_79_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_79_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_79_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="21938176" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_79_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_79_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_79_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="22028288" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_79_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_79_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_79_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="84" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2620"
-          SampleEnd="74465" SampleStartMod="6247" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7151616" MonolithLength="77824"
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="22114304" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_79_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_79_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_79_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="22200320" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_79_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_79_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_79_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="22294528" MonolithLength="81920"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_80_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_80_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="85" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1568"
-          SampleEnd="91405" SampleStartMod="1202" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7229440" MonolithLength="94208"
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="22376448" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_80_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_80_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_80_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="22462464" MonolithLength="81920"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_80_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_80_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_80_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="22544384" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_80_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_80_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_80_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="86" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1481"
-          SampleEnd="84795" SampleStartMod="1672" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7323648" MonolithLength="86016"
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="22642688" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_80_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_80_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_80_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="22740992" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_80_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_80_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_80_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="22835200" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_80_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_80_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_80_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="87" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1926"
-          SampleEnd="80921" SampleStartMod="2510" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7409664" MonolithLength="81920"
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="22929408" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_80_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_80_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_80_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="23023616" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_80_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_80_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_80_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="23113728" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_81_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_81_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="88" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1512"
-          SampleEnd="85534" SampleStartMod="1405" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7491584" MonolithLength="86016"
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="23207936" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_81_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_81_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_81_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="23302144" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_81_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_81_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_81_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="23396352" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_81_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_81_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_81_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="89" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1049"
-          SampleEnd="85121" SampleStartMod="1406" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7577600" MonolithLength="86016"
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="23490560" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_81_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_81_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_81_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="23588864" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_81_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_81_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_81_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="23683072" MonolithLength="98304"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_81_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_81_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_81_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="90" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="3775"
-          SampleEnd="77196" SampleStartMod="2145" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7663616" MonolithLength="77824"
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="23781376" MonolithLength="98304"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_81_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_81_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_81_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="23879680" MonolithLength="102400"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_81_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_81_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_81_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="23982080" MonolithLength="86016"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_82_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_82_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="91" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1802"
-          SampleEnd="89944" SampleStartMod="737" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7741440" MonolithLength="90112"
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="24068096" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_82_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_82_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_82_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="24154112" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_82_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_82_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_82_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="24244224" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_82_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_82_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_82_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="92" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1711"
-          SampleEnd="85545" SampleStartMod="841" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7831552" MonolithLength="86016"
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="24334336" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_82_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_82_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_82_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="24420352" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_82_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_82_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_82_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="24510464" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_82_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_82_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_82_dynamic3_rr1.wav"/>
   </sample>
-  <sample ID="93" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1780"
-          SampleEnd="74285" SampleStartMod="1697" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7917568" MonolithLength="77824"
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="24600576" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_82_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_82_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_82_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="24690688" MonolithLength="86016"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_82_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_82_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_82_dynamic3_rr3.wav"/>
+  </sample>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="1" RRGroup="1"
+          Duplicate="1" MonolithOffset="24776704" MonolithLength="90112"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_83_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_83_dynamic1_rr1.wav"/>
   </sample>
-  <sample ID="94" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1427"
-          SampleEnd="84490" SampleStartMod="1111" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="7995392" MonolithLength="86016"
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="2" HiVel="3" RRGroup="1"
+          Duplicate="1" MonolithOffset="24866816" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_83_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_83_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_83_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="4" HiVel="5" RRGroup="1"
+          Duplicate="1" MonolithOffset="24944640" MonolithLength="77824"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_83_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_83_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_83_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="1" RRGroup="2"
+          Duplicate="1" MonolithOffset="25022464" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_83_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_83_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_83_dynamic2_rr1.wav"/>
   </sample>
-  <sample ID="95" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="1434"
-          SampleEnd="87054" SampleStartMod="1002" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" Duplicate="0" MonolithOffset="8081408" MonolithLength="90112"
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="2" HiVel="3" RRGroup="2"
+          Duplicate="1" MonolithOffset="25116672" MonolithLength="90112"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_83_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_83_dynamic2_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_83_dynamic2_rr2.wav"/>
+  </sample>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="4" HiVel="5" RRGroup="2"
+          Duplicate="1" MonolithOffset="25206784" MonolithLength="73728"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_83_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_83_dynamic2_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_83_dynamic2_rr3.wav"/>
+  </sample>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="1" RRGroup="3"
+          Duplicate="1" MonolithOffset="25280512" MonolithLength="94208"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_83_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_83_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_83_dynamic3_rr1.wav"/>
+  </sample>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="2" HiVel="3" RRGroup="3"
+          Duplicate="1" MonolithOffset="25374720" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_83_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_83_dynamic3_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_83_dynamic3_rr2.wav"/>
+  </sample>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="4" HiVel="5" RRGroup="3"
+          Duplicate="1" MonolithOffset="25468928" MonolithLength="94208"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_close_83_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_decca_83_dynamic3_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}englishHorn/staccato/corAnglais_staccato_hall_83_dynamic3_rr3.wav"/>
   </sample>
 </samplemap>

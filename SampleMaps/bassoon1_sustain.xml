@@ -5,8 +5,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3404"
           SampleEnd="370181" SampleStartMod="6747" LoopStart="108161" LoopEnd="229306"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
-          MonolithLength="372736" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="0"
+          MonolithLength="372736">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_34_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_34_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_34_dynamic1.wav"/>
@@ -15,8 +15,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2648"
           SampleEnd="372844" SampleStartMod="4952" LoopStart="134478" LoopEnd="260426"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="372736"
-          MonolithLength="376832" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="372736"
+          MonolithLength="376832">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_34_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_34_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_34_dynamic2.wav"/>
@@ -25,8 +25,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2848"
           SampleEnd="380804" SampleStartMod="6320" LoopStart="149178" LoopEnd="294244"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="749568"
-          MonolithLength="380928" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="749568"
+          MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_34_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_34_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_34_dynamic3.wav"/>
@@ -35,8 +35,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3156"
           SampleEnd="363897" SampleStartMod="4824" LoopStart="136871" LoopEnd="259825"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1130496"
-          MonolithLength="364544" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1130496"
+          MonolithLength="364544">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_35_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_35_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_35_dynamic1.wav"/>
@@ -45,8 +45,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2378"
           SampleEnd="374171" SampleStartMod="4352" LoopStart="163274" LoopEnd="283823"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1495040"
-          MonolithLength="376832" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1495040"
+          MonolithLength="376832">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_35_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_35_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_35_dynamic2.wav"/>
@@ -55,8 +55,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3390"
           SampleEnd="387759" SampleStartMod="6320" LoopStart="136880" LoopEnd="266297"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1871872"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1871872"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_35_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_35_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_35_dynamic3.wav"/>
@@ -65,8 +65,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2909"
           SampleEnd="350324" SampleStartMod="6747" LoopStart="134544" LoopEnd="262875"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2260992"
-          MonolithLength="352256" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2260992"
+          MonolithLength="352256">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_36_dynamic1.wav"/>
@@ -75,8 +75,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4010"
           SampleEnd="399443" SampleStartMod="5287" LoopStart="67355" LoopEnd="247810"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2613248"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2613248"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_36_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_36_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_36_dynamic2.wav"/>
@@ -85,8 +85,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5516"
           SampleEnd="404333" SampleStartMod="6320" LoopStart="132126" LoopEnd="253124"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3014656"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3014656"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_36_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_36_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_36_dynamic3.wav"/>
@@ -95,8 +95,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7448"
           SampleEnd="371821" SampleStartMod="6747" LoopStart="98532" LoopEnd="254438"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3420160"
-          MonolithLength="372736" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3420160"
+          MonolithLength="372736">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_37_dynamic1.wav"/>
@@ -105,8 +105,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8015"
           SampleEnd="392654" SampleStartMod="5801" LoopStart="117740" LoopEnd="266136"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3792896"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3792896"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_37_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_37_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_37_dynamic2.wav"/>
@@ -115,8 +115,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5766"
           SampleEnd="406357" SampleStartMod="6320" LoopStart="168382" LoopEnd="289052"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4186112"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4186112"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_37_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_37_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_37_dynamic3.wav"/>
@@ -125,8 +125,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2897"
           SampleEnd="365462" SampleStartMod="6747" LoopStart="148974" LoopEnd="280974"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4595712"
-          MonolithLength="368640" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4595712"
+          MonolithLength="368640">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_38_dynamic1.wav"/>
@@ -135,8 +135,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8361"
           SampleEnd="406253" SampleStartMod="7429" LoopStart="161053" LoopEnd="298419"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4964352"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4964352"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_38_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_38_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_38_dynamic2.wav"/>
@@ -145,8 +145,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5107"
           SampleEnd="404859" SampleStartMod="6320" LoopStart="170592" LoopEnd="292106"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5373952"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5373952"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_38_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_38_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_38_dynamic3.wav"/>
@@ -155,8 +155,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2880"
           SampleEnd="370629" SampleStartMod="6747" LoopStart="21619" LoopEnd="195202"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5779456"
-          MonolithLength="372736" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5779456"
+          MonolithLength="372736">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_39_dynamic1.wav"/>
@@ -165,8 +165,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5460"
           SampleEnd="384835" SampleStartMod="7429" LoopStart="67347" LoopEnd="258937"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6152192"
-          MonolithLength="385024" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6152192"
+          MonolithLength="385024">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_39_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_39_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_39_dynamic2.wav"/>
@@ -175,8 +175,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5695"
           SampleEnd="406734" SampleStartMod="6320" LoopStart="117702" LoopEnd="263232"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6537216"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6537216"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_39_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_39_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_39_dynamic3.wav"/>
@@ -185,8 +185,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4415"
           SampleEnd="352925" SampleStartMod="6747" LoopStart="122438" LoopEnd="242979"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6946816"
-          MonolithLength="356352" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6946816"
+          MonolithLength="356352">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_40_dynamic1.wav"/>
@@ -195,8 +195,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5235"
           SampleEnd="386757" SampleStartMod="7429" LoopStart="182840" LoopEnd="303082"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7303168"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7303168"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_40_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_40_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_40_dynamic2.wav"/>
@@ -205,8 +205,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5293"
           SampleEnd="407391" SampleStartMod="6320" LoopStart="168244" LoopEnd="291190"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7692288"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7692288"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_40_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_40_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_40_dynamic3.wav"/>
@@ -215,8 +215,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2865"
           SampleEnd="364495" SampleStartMod="6747" LoopStart="137103" LoopEnd="257726"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8101888"
-          MonolithLength="364544" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="8101888"
+          MonolithLength="364544">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_41_dynamic1.wav"/>
@@ -225,8 +225,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8294"
           SampleEnd="406573" SampleStartMod="6006" LoopStart="170666" LoopEnd="291630"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8466432"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="8466432"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_41_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_41_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_41_dynamic2.wav"/>
@@ -235,8 +235,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5948"
           SampleEnd="408586" SampleStartMod="6320" LoopStart="168242" LoopEnd="290040"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8876032"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="8876032"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_41_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_41_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_41_dynamic3.wav"/>
@@ -245,8 +245,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2064"
           SampleEnd="357935" SampleStartMod="6747" LoopStart="79266" LoopEnd="227547"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9285632"
-          MonolithLength="360448" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="9285632"
+          MonolithLength="360448">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_42_dynamic1.wav"/>
@@ -255,8 +255,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7694"
           SampleEnd="383815" SampleStartMod="6006" LoopStart="141957" LoopEnd="264055"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9646080"
-          MonolithLength="385024" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="9646080"
+          MonolithLength="385024">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_42_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_42_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_42_dynamic2.wav"/>
@@ -265,8 +265,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5745"
           SampleEnd="402197" SampleStartMod="6320" LoopStart="180468" LoopEnd="303057"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10031104"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="10031104"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_42_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_42_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_42_dynamic3.wav"/>
@@ -275,8 +275,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3873"
           SampleEnd="371821" SampleStartMod="6747" LoopStart="156185" LoopEnd="277122"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10436608"
-          MonolithLength="372736" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="10436608"
+          MonolithLength="372736">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_43_dynamic1.wav"/>
@@ -285,8 +285,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5710"
           SampleEnd="391918" SampleStartMod="6006" LoopStart="166165" LoopEnd="287057"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10809344"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="10809344"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_43_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_43_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_43_dynamic2.wav"/>
@@ -295,8 +295,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5750"
           SampleEnd="408624" SampleStartMod="6320" LoopStart="136983" LoopEnd="306809"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11202560"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="11202560"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_43_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_43_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_43_dynamic3.wav"/>
@@ -305,8 +305,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2553"
           SampleEnd="365136" SampleStartMod="6747" LoopStart="129745" LoopEnd="266605"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11612160"
-          MonolithLength="368640" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="11612160"
+          MonolithLength="368640">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_44_dynamic1.wav"/>
@@ -315,8 +315,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6881"
           SampleEnd="394665" SampleStartMod="6006" LoopStart="153764" LoopEnd="274015"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11980800"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="11980800"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_44_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_44_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_44_dynamic2.wav"/>
@@ -325,8 +325,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5456"
           SampleEnd="404138" SampleStartMod="6320" LoopStart="168310" LoopEnd="288649"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12378112"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="12378112"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_44_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_44_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_44_dynamic3.wav"/>
@@ -335,8 +335,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1964"
           SampleEnd="367013" SampleStartMod="6747" LoopStart="168472" LoopEnd="288984"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12783616"
-          MonolithLength="368640" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="12783616"
+          MonolithLength="368640">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_45_dynamic1.wav"/>
@@ -345,8 +345,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7361"
           SampleEnd="386178" SampleStartMod="6006" LoopStart="110487" LoopEnd="235244"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13152256"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="13152256"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_45_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_45_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_45_dynamic2.wav"/>
@@ -355,8 +355,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6108"
           SampleEnd="384510" SampleStartMod="6320" LoopStart="146716" LoopEnd="281042"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13541376"
-          MonolithLength="385024" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="13541376"
+          MonolithLength="385024">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_45_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_45_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_45_dynamic3.wav"/>
@@ -365,8 +365,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3845"
           SampleEnd="355590" SampleStartMod="6747" LoopStart="151463" LoopEnd="272198"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13926400"
-          MonolithLength="356352" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="13926400"
+          MonolithLength="356352">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_46_dynamic1.wav"/>
@@ -375,8 +375,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7273"
           SampleEnd="387194" SampleStartMod="6006" LoopStart="168158" LoopEnd="289273"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14282752"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="14282752"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_46_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_46_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_46_dynamic2.wav"/>
@@ -385,8 +385,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5882"
           SampleEnd="398389" SampleStartMod="6320" LoopStart="161111" LoopEnd="288877"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14671872"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="14671872"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_46_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_46_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_46_dynamic3.wav"/>
@@ -395,8 +395,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1845"
           SampleEnd="364046" SampleStartMod="6747" LoopStart="60080" LoopEnd="270123"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15073280"
-          MonolithLength="364544" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="15073280"
+          MonolithLength="364544">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_47_dynamic1.wav"/>
@@ -405,8 +405,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7460"
           SampleEnd="392963" SampleStartMod="6006" LoopStart="161088" LoopEnd="281235"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15437824"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="15437824"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_47_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_47_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_47_dynamic2.wav"/>
@@ -415,8 +415,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5456"
           SampleEnd="406097" SampleStartMod="6320" LoopStart="165881" LoopEnd="286707"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15831040"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="15831040"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_47_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_47_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_47_dynamic3.wav"/>
@@ -425,8 +425,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1408"
           SampleEnd="362921" SampleStartMod="6747" LoopStart="139366" LoopEnd="275700"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16240640"
-          MonolithLength="364544" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="16240640"
+          MonolithLength="364544">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_48_dynamic1.wav"/>
@@ -435,8 +435,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8202"
           SampleEnd="387215" SampleStartMod="6006" LoopStart="141776" LoopEnd="266609"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16605184"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="16605184"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_48_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_48_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_48_dynamic2.wav"/>
@@ -445,8 +445,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5822"
           SampleEnd="394217" SampleStartMod="6320" LoopStart="125151" LoopEnd="252389"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16994304"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="16994304"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_48_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_48_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_48_dynamic3.wav"/>
@@ -455,8 +455,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="664"
           SampleEnd="353821" SampleStartMod="6747" LoopStart="156502" LoopEnd="280643"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17391616"
-          MonolithLength="356352" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="17391616"
+          MonolithLength="356352">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_49_dynamic1.wav"/>
@@ -465,8 +465,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4974"
           SampleEnd="376789" SampleStartMod="6006" LoopStart="108108" LoopEnd="266007"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17747968"
-          MonolithLength="376832" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="17747968"
+          MonolithLength="376832">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_49_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_49_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_49_dynamic2.wav"/>
@@ -475,8 +475,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5739"
           SampleEnd="406351" SampleStartMod="6320" LoopStart="165839" LoopEnd="287218"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18124800"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="18124800"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_49_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_49_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_49_dynamic3.wav"/>
@@ -485,8 +485,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4605"
           SampleEnd="355362" SampleStartMod="6747" LoopStart="151316" LoopEnd="277475"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18534400"
-          MonolithLength="356352" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="18534400"
+          MonolithLength="356352">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_50_dynamic1.wav"/>
@@ -495,8 +495,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4131"
           SampleEnd="390634" SampleStartMod="6006" LoopStart="165984" LoopEnd="286014"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18890752"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="18890752"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_50_dynamic2.wav"/>
@@ -505,8 +505,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6079"
           SampleEnd="400934" SampleStartMod="6320" LoopStart="153918" LoopEnd="279538"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19283968"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="19283968"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_50_dynamic3.wav"/>
@@ -515,8 +515,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1946"
           SampleEnd="355765" SampleStartMod="6747" LoopStart="122498" LoopEnd="243622"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19685376"
-          MonolithLength="356352" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="19685376"
+          MonolithLength="356352">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_51_dynamic1.wav"/>
@@ -525,8 +525,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8188"
           SampleEnd="401423" SampleStartMod="6006" LoopStart="161088" LoopEnd="287637"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20041728"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="20041728"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_51_dynamic2.wav"/>
@@ -535,8 +535,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5643"
           SampleEnd="406023" SampleStartMod="6320" LoopStart="139787" LoopEnd="281018"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20447232"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="20447232"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_51_dynamic3.wav"/>
@@ -545,8 +545,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4605"
           SampleEnd="353169" SampleStartMod="6747" LoopStart="93704" LoopEnd="264823"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20856832"
-          MonolithLength="356352" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="20856832"
+          MonolithLength="356352">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_52_dynamic1.wav"/>
@@ -555,8 +555,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6614"
           SampleEnd="402162" SampleStartMod="6006" LoopStart="81958" LoopEnd="277772"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21213184"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="21213184"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_52_dynamic2.wav"/>
@@ -565,8 +565,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6058"
           SampleEnd="404785" SampleStartMod="6320" LoopStart="120250" LoopEnd="281746"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21618688"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="21618688"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_52_dynamic3.wav"/>
@@ -575,8 +575,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3399"
           SampleEnd="361590" SampleStartMod="6747" LoopStart="93739" LoopEnd="217919"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22024192"
-          MonolithLength="364544" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="22024192"
+          MonolithLength="364544">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_53_dynamic1.wav"/>
@@ -585,8 +585,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8607"
           SampleEnd="393407" SampleStartMod="6006" LoopStart="132194" LoopEnd="302093"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22388736"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="22388736"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_53_dynamic2.wav"/>
@@ -595,8 +595,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5346"
           SampleEnd="394921" SampleStartMod="6320" LoopStart="139357" LoopEnd="275388"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22786048"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="22786048"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_53_dynamic3.wav"/>
@@ -605,8 +605,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3982"
           SampleEnd="360483" SampleStartMod="6747" LoopStart="115353" LoopEnd="237298"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23183360"
-          MonolithLength="364544" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="23183360"
+          MonolithLength="364544">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_54_dynamic1.wav"/>
@@ -615,8 +615,8 @@
           RRGroup="2" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="8311"
           SampleEnd="384814" SampleStartMod="6006" LoopStart="161232" LoopEnd="294034"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23547904"
-          MonolithLength="385024" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="23547904"
+          MonolithLength="385024">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_54_dynamic2.wav"/>
@@ -625,8 +625,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4524"
           SampleEnd="407329" SampleStartMod="6320" LoopStart="98511" LoopEnd="286885"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23932928"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="23932928"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_54_dynamic3.wav"/>
@@ -635,8 +635,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3315"
           SampleEnd="397846" SampleStartMod="6747" LoopStart="139537" LoopEnd="263838"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24342528"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="24342528"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_55_dynamic1.wav"/>
@@ -645,8 +645,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7936"
           SampleEnd="409652" SampleStartMod="6006" LoopStart="112877" LoopEnd="304880"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24743936"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="24743936"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_55_dynamic2.wav"/>
@@ -655,8 +655,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5348"
           SampleEnd="403664" SampleStartMod="6320" LoopStart="110493" LoopEnd="237110"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25157632"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="25157632"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_55_dynamic3.wav"/>
@@ -665,8 +665,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5214"
           SampleEnd="372499" SampleStartMod="6747" LoopStart="45675" LoopEnd="269242"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25563136"
-          MonolithLength="372736" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="25563136"
+          MonolithLength="372736">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_56_dynamic1.wav"/>
@@ -675,8 +675,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7229"
           SampleEnd="390239" SampleStartMod="6006" LoopStart="153829" LoopEnd="275242"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25935872"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="25935872"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_56_dynamic2.wav"/>
@@ -685,8 +685,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5566"
           SampleEnd="406817" SampleStartMod="6320" LoopStart="139314" LoopEnd="294521"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26329088"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="26329088"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_56_dynamic3.wav"/>
@@ -695,8 +695,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8242"
           SampleEnd="386200" SampleStartMod="6747" LoopStart="156332" LoopEnd="276984"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26738688"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="26738688"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_57_dynamic1.wav"/>
@@ -705,8 +705,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9953"
           SampleEnd="386856" SampleStartMod="6006" LoopStart="171002" LoopEnd="294282"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27127808"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="27127808"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_57_dynamic2.wav"/>
@@ -715,8 +715,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5478"
           SampleEnd="411598" SampleStartMod="6320" LoopStart="139647" LoopEnd="286030"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27516928"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="27516928"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_57_dynamic3.wav"/>
@@ -725,8 +725,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6852"
           SampleEnd="369516" SampleStartMod="6747" LoopStart="168199" LoopEnd="289160"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27930624"
-          MonolithLength="372736" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="27930624"
+          MonolithLength="372736">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_58_dynamic1.wav"/>
@@ -735,8 +735,8 @@
           RRGroup="2" Volume="3" Pan="0" Normalized="0" Pitch="0" SampleStart="13830"
           SampleEnd="405223" SampleStartMod="6006" LoopStart="108322" LoopEnd="248045"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28303360"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="28303360"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_58_dynamic2.wav"/>
@@ -745,8 +745,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5944"
           SampleEnd="406392" SampleStartMod="6320" LoopStart="139373" LoopEnd="267092"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28708864"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="28708864"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_58_dynamic3.wav"/>
@@ -755,8 +755,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5386"
           SampleEnd="381636" SampleStartMod="6747" LoopStart="140070" LoopEnd="261163"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29118464"
-          MonolithLength="385024" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="29118464"
+          MonolithLength="385024">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_59_dynamic1.wav"/>
@@ -765,8 +765,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9781"
           SampleEnd="414788" SampleStartMod="6006" LoopStart="156174" LoopEnd="279777"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29503488"
-          MonolithLength="417792" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="29503488"
+          MonolithLength="417792">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_59_dynamic2.wav"/>
@@ -775,8 +775,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5510"
           SampleEnd="415183" SampleStartMod="6320" LoopStart="153859" LoopEnd="289352"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29921280"
-          MonolithLength="417792" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="29921280"
+          MonolithLength="417792">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_59_dynamic3.wav"/>
@@ -785,8 +785,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1964"
           SampleEnd="367568" SampleStartMod="6747" LoopStart="134954" LoopEnd="276491"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30339072"
-          MonolithLength="368640" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="30339072"
+          MonolithLength="368640">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_60_dynamic1.wav"/>
@@ -795,8 +795,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7137"
           SampleEnd="425582" SampleStartMod="6006" LoopStart="110473" LoopEnd="255677"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30707712"
-          MonolithLength="425984" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="30707712"
+          MonolithLength="425984">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_60_dynamic2.wav"/>
@@ -805,8 +805,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5664"
           SampleEnd="403400" SampleStartMod="6320" LoopStart="31231" LoopEnd="279394"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31133696"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="31133696"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_60_dynamic3.wav"/>
@@ -815,8 +815,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3680"
           SampleEnd="369275" SampleStartMod="6747" LoopStart="153908" LoopEnd="279150"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31539200"
-          MonolithLength="372736" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="31539200"
+          MonolithLength="372736">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_61_dynamic1.wav"/>
@@ -825,8 +825,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14553"
           SampleEnd="427738" SampleStartMod="6006" LoopStart="103829" LoopEnd="288227"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31911936"
-          MonolithLength="430080" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="31911936"
+          MonolithLength="430080">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_61_dynamic2.wav"/>
@@ -835,8 +835,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6021"
           SampleEnd="408805" SampleStartMod="6320" LoopStart="159174" LoopEnd="281943"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32342016"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="32342016"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_61_dynamic3.wav"/>
@@ -845,8 +845,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2351"
           SampleEnd="373526" SampleStartMod="6747" LoopStart="151479" LoopEnd="273723"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32751616"
-          MonolithLength="376832" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="32751616"
+          MonolithLength="376832">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_62_dynamic1.wav"/>
@@ -855,8 +855,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="14201"
           SampleEnd="433284" SampleStartMod="6006" LoopStart="177776" LoopEnd="298570"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33128448"
-          MonolithLength="434176" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="33128448"
+          MonolithLength="434176">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_62_dynamic2.wav"/>
@@ -865,8 +865,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5294"
           SampleEnd="402568" SampleStartMod="6320" LoopStart="153942" LoopEnd="275802"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33562624"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="33562624"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_62_dynamic3.wav"/>
@@ -875,8 +875,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5723"
           SampleEnd="375035" SampleStartMod="6747" LoopStart="146612" LoopEnd="272200"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33968128"
-          MonolithLength="376832" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="33968128"
+          MonolithLength="376832">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_63_dynamic1.wav"/>
@@ -885,8 +885,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7312"
           SampleEnd="402078" SampleStartMod="6006" LoopStart="112963" LoopEnd="251065"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34344960"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="34344960"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_63_dynamic2.wav"/>
@@ -895,8 +895,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5378"
           SampleEnd="407500" SampleStartMod="4707" LoopStart="38480" LoopEnd="294741"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34750464"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="34750464"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_63_dynamic3.wav"/>
@@ -905,8 +905,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4668"
           SampleEnd="378495" SampleStartMod="6747" LoopStart="158917" LoopEnd="285611"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="35160064"
-          MonolithLength="380928" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="35160064"
+          MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_64_dynamic1.wav"/>
@@ -915,8 +915,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7433"
           SampleEnd="397530" SampleStartMod="6006" LoopStart="170778" LoopEnd="293745"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="35540992"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="35540992"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_64_dynamic2.wav"/>
@@ -925,8 +925,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5590"
           SampleEnd="398076" SampleStartMod="6320" LoopStart="175484" LoopEnd="296887"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="35942400"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="35942400"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_64_dynamic3.wav"/>
@@ -935,8 +935,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10846"
           SampleEnd="389081" SampleStartMod="5060" LoopStart="16817" LoopEnd="254527"
           LoopXFade="1000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="36343808"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="36343808"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_65_dynamic1.wav"/>
@@ -945,8 +945,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9385"
           SampleEnd="407146" SampleStartMod="6006" LoopStart="173365" LoopEnd="298295"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="36732928"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="36732928"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_65_dynamic2.wav"/>
@@ -955,8 +955,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5093"
           SampleEnd="401730" SampleStartMod="6320" LoopStart="129907" LoopEnd="266853"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="37142528"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="37142528"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_65_dynamic3.wav"/>
@@ -965,8 +965,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8628"
           SampleEnd="396231" SampleStartMod="11841" LoopStart="136998"
           LoopEnd="280521" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="37548032" MonolithLength="397312" SampleRate="48000">
+          UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+          MonolithOffset="37548032" MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_66_dynamic1.wav"/>
@@ -975,8 +975,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8539"
           SampleEnd="389839" SampleStartMod="6006" LoopStart="161393" LoopEnd="281954"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="37945344"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="37945344"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_66_dynamic2.wav"/>
@@ -985,8 +985,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5223"
           SampleEnd="407071" SampleStartMod="6320" LoopStart="88894" LoopEnd="275631"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38338560"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="38338560"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_66_dynamic3.wav"/>
@@ -995,8 +995,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11244"
           SampleEnd="402985" SampleStartMod="6747" LoopStart="105725" LoopEnd="276816"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38748160"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="38748160"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_67_dynamic1.wav"/>
@@ -1005,8 +1005,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8170"
           SampleEnd="386642" SampleStartMod="6006" LoopStart="148971" LoopEnd="276196"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="39153664"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="39153664"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_67_dynamic2.wav"/>
@@ -1015,8 +1015,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5729"
           SampleEnd="406001" SampleStartMod="6320" LoopStart="154788" LoopEnd="276528"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="39542784"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="39542784"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_67_dynamic3.wav"/>
@@ -1025,8 +1025,8 @@
           RRGroup="1" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="6807"
           SampleEnd="403611" SampleStartMod="6747" LoopStart="154052" LoopEnd="277007"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="39952384"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="39952384"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_68_dynamic1.wav"/>
@@ -1035,8 +1035,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6851"
           SampleEnd="380254" SampleStartMod="6006" LoopStart="146870" LoopEnd="267559"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="40357888"
-          MonolithLength="380928" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="40357888"
+          MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_68_dynamic2.wav"/>
@@ -1045,8 +1045,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5547"
           SampleEnd="385540" SampleStartMod="6320" LoopStart="31336" LoopEnd="165289"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="40738816"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="40738816"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_68_dynamic3.wav"/>
@@ -1055,8 +1055,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7647"
           SampleEnd="401019" SampleStartMod="6747" LoopStart="146545" LoopEnd="269052"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41127936"
-          MonolithLength="401408" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="41127936"
+          MonolithLength="401408">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_69_dynamic1.wav"/>
@@ -1065,8 +1065,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13285"
           SampleEnd="384870" SampleStartMod="6006" LoopStart="125003" LoopEnd="285221"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41529344"
-          MonolithLength="385024" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="41529344"
+          MonolithLength="385024">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_69_dynamic2.wav"/>
@@ -1075,8 +1075,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5244"
           SampleEnd="404205" SampleStartMod="6320" LoopStart="153874" LoopEnd="275032"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41914368"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="41914368"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_69_dynamic3.wav"/>
@@ -1085,8 +1085,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2428"
           SampleEnd="364297" SampleStartMod="6747" LoopStart="91342" LoopEnd="231277"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="42319872"
-          MonolithLength="364544" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="42319872"
+          MonolithLength="364544">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_70_dynamic1.wav"/>
@@ -1095,8 +1095,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7983"
           SampleEnd="388856" SampleStartMod="6006" LoopStart="83477" LoopEnd="243543"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="42684416"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="42684416"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_70_dynamic2.wav"/>
@@ -1105,8 +1105,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5612"
           SampleEnd="406251" SampleStartMod="6320" LoopStart="72147" LoopEnd="278177"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="43073536"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="43073536"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_70_dynamic3.wav"/>
@@ -1115,8 +1115,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9691"
           SampleEnd="390175" SampleStartMod="6747" LoopStart="163514" LoopEnd="304394"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="43483136"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="43483136"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_71_dynamic1.wav"/>
@@ -1125,8 +1125,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="21"
           SampleEnd="373613" SampleStartMod="6006" LoopStart="138226" LoopEnd="262938"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="43876352"
-          MonolithLength="376832" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="43876352"
+          MonolithLength="376832">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_71_dynamic2.wav"/>
@@ -1135,8 +1135,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5636"
           SampleEnd="407993" SampleStartMod="6320" LoopStart="125074" LoopEnd="246580"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44253184"
-          MonolithLength="409600" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="44253184"
+          MonolithLength="409600">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_71_dynamic3.wav"/>
@@ -1145,8 +1145,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11399"
           SampleEnd="402725" SampleStartMod="6747" LoopStart="117654" LoopEnd="254452"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44662784"
-          MonolithLength="405504" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="44662784"
+          MonolithLength="405504">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_72_dynamic1.wav"/>
@@ -1155,8 +1155,8 @@
           RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="7440"
           SampleEnd="411198" SampleStartMod="6006" LoopStart="102188" LoopEnd="235111"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="45068288"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="45068288"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_72_dynamic2.wav"/>
@@ -1165,8 +1165,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5339"
           SampleEnd="387811" SampleStartMod="6320" LoopStart="108762" LoopEnd="269734"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="45481984"
-          MonolithLength="389120" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="45481984"
+          MonolithLength="389120">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_72_dynamic3.wav"/>
@@ -1175,8 +1175,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4393"
           SampleEnd="393589" SampleStartMod="6747" LoopStart="163400" LoopEnd="295310"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="45871104"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="45871104"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_73_dynamic1.wav"/>
@@ -1185,8 +1185,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6828"
           SampleEnd="395993" SampleStartMod="6006" LoopStart="170354" LoopEnd="295813"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="46268416"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="46268416"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_73_dynamic2.wav"/>
@@ -1195,8 +1195,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5346"
           SampleEnd="410621" SampleStartMod="6320" LoopStart="146628" LoopEnd="275623"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="46665728"
-          MonolithLength="413696" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="46665728"
+          MonolithLength="413696">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_73_dynamic3.wav"/>
@@ -1205,8 +1205,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="42"
           SampleEnd="377684" SampleStartMod="6747" LoopStart="52815" LoopEnd="257241"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="47079424"
-          MonolithLength="380928" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="47079424"
+          MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_74_dynamic1.wav"/>
@@ -1215,8 +1215,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10268"
           SampleEnd="397269" SampleStartMod="6006" LoopStart="91612" LoopEnd="257928"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="47460352"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="47460352"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_74_dynamic2.wav"/>
@@ -1225,8 +1225,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4731"
           SampleEnd="413735" SampleStartMod="6320" LoopStart="137433" LoopEnd="298029"
           LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="47857664"
-          MonolithLength="417792" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="47857664"
+          MonolithLength="417792">
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_close_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_decca_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon1/sustain/bassoon1_sustain_hall_74_dynamic3.wav"/>

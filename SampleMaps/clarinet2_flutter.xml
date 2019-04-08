@@ -1,199 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="empty" SaveMode="0" FileName="empty" MicPositions="close;decca;hall;"
+<samplemap ID="clarinet2_flutter" SaveMode="2" FileName="empty" MicPositions="close;decca;hall;"
            RRGroupAmount="1">
   <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="151425" LoopEnd="265393"
-          SampleStartMod="5000" LoopXFade="5000" Volume="2">
+          SampleStartMod="5000" LoopXFade="5000" Volume="2" MonolithOffset="0"
+          MonolithLength="352256" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_50_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_50_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_50_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="125181" LoopEnd="249002"
-          SampleStartMod="5000" LoopXFade="5000" Volume="2">
+          SampleStartMod="5000" LoopXFade="5000" Volume="2" MonolithOffset="352256"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_51_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_51_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_51_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="134544" LoopEnd="248884"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="696320"
+          MonolithLength="352256" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_52_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="117925" LoopEnd="249442"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="1048576"
+          MonolithLength="352256" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_53_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="108148" LoopEnd="231035"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="1400832"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_54_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="105776" LoopEnd="247711"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="1744896"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_55_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="134975" LoopEnd="250501"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="2088960"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_56_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="134697" LoopEnd="256570"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="2445312"
+          MonolithLength="352256" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_57_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="33621" LoopEnd="245335"
-          SampleStartMod="5000" LoopXFade="5000" Volume="0">
+          SampleStartMod="5000" LoopXFade="5000" Volume="0" MonolithOffset="2797568"
+          MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_58_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="137018" LoopEnd="256496"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="3145728"
+          MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_59_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="76949" LoopEnd="246894"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="3485696"
+          MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_60_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="121219" LoopEnd="234942"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="3825664"
+          MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_61_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_61_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="62525" LoopEnd="235058"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="4165632"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_62_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_62_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="33638" LoopEnd="244916"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="4521984"
+          MonolithLength="364544" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_63_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_63_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="110850" LoopEnd="231930"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="4886528"
+          MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_64_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_64_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="91441" LoopEnd="239182"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="5234688"
+          MonolithLength="352256" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_65_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_65_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="91341" LoopEnd="204530"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="5586944"
+          MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_66_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_66_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="127839" LoopEnd="248637"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="5931008"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_67_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_67_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="86706" LoopEnd="219735"
-          SampleStartMod="5000" LoopXFade="5000" Volume="-3">
+          SampleStartMod="5000" LoopXFade="5000" Volume="-3" MonolithOffset="6291456"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_68_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_68_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="19258" LoopEnd="207771"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="6647808"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_69_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_69_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="69693" LoopEnd="247388"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="7004160"
+          MonolithLength="352256" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_70_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_70_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="142571" LoopEnd="253178"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="7356416"
+          MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_71_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_71_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="115459" LoopEnd="234996"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="7704576"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_72_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_72_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="149372" LoopEnd="271710"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="8060928"
+          MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_73_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_73_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="93869" LoopEnd="226527"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="8417280"
+          MonolithLength="372736" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_74_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_74_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="125497" LoopEnd="242603"
-          SampleStartMod="5000" LoopXFade="5000">
+          SampleStartMod="5000" LoopXFade="5000" MonolithOffset="8790016"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_75_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_75_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="62424" LoopEnd="257953"
-          SampleStartMod="5000" LoopXFade="5000" Volume="2">
+          SampleStartMod="5000" LoopXFade="5000" Volume="2" MonolithOffset="9150464"
+          MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_76_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_76_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="77" LoKey="77" HiKey="91" LoVel="0" HiVel="127" RRGroup="1"
           Duplicate="1" LoopEnabled="1" LoopStart="52706" LoopEnd="258071"
-          SampleStartMod="5000" LoopXFade="5000" SampleStart="423">
+          SampleStartMod="5000" LoopXFade="5000" SampleStart="423" MonolithOffset="9498624"
+          MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_close_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_decca_77_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}clarinet1/flutter/clarinet1_flutter_hall_77_dynamic1_rr1.wav"/>

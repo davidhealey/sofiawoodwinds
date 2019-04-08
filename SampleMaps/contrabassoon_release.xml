@@ -5,8 +5,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="50307" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="0"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_22_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_22_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_22_dynamic1.wav"/>
@@ -15,8 +15,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62596" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="53248"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="53248"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_22_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_22_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_22_dynamic2.wav"/>
@@ -25,8 +25,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71974" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="118784"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="118784"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_22_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_22_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_22_dynamic3.wav"/>
@@ -35,8 +35,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71181" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="192512"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="192512"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_23_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_23_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_23_dynamic1.wav"/>
@@ -45,8 +45,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67024" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="266240"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="266240"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_23_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_23_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_23_dynamic2.wav"/>
@@ -55,8 +55,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="86224" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="335872"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="335872"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_23_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_23_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_23_dynamic3.wav"/>
@@ -65,8 +65,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64984" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="425984"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="425984"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_24_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_24_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_24_dynamic1.wav"/>
@@ -75,8 +75,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="54142" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="491520"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="491520"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_24_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_24_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_24_dynamic2.wav"/>
@@ -85,8 +85,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="84552" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="548864"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="548864"
+          MonolithLength="86016">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_24_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_24_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_24_dynamic3.wav"/>
@@ -95,8 +95,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="79956" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="634880"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="634880"
+          MonolithLength="81920">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_25_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_25_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_25_dynamic1.wav"/>
@@ -105,8 +105,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="92792" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="716800"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="716800"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_25_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_25_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_25_dynamic2.wav"/>
@@ -115,8 +115,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="108608" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="811008"
-          MonolithLength="110592" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="811008"
+          MonolithLength="110592">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_25_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_25_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_25_dynamic3.wav"/>
@@ -125,8 +125,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62943" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="921600"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="921600"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_26_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_26_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_26_dynamic1.wav"/>
@@ -135,8 +135,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75458" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="987136"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="987136"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_26_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_26_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_26_dynamic2.wav"/>
@@ -145,8 +145,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="90188" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1064960"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1064960"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_26_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_26_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_26_dynamic3.wav"/>
@@ -155,8 +155,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="49294" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1159168"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1159168"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_27_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_27_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_27_dynamic1.wav"/>
@@ -165,8 +165,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="76267" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1212416"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1212416"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_27_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_27_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_27_dynamic2.wav"/>
@@ -175,8 +175,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="76280" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1290240"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1290240"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_27_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_27_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_27_dynamic3.wav"/>
@@ -185,8 +185,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56230" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1368064"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1368064"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_28_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_28_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_28_dynamic1.wav"/>
@@ -195,8 +195,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="73689" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1425408"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1425408"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_28_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_28_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_28_dynamic2.wav"/>
@@ -205,8 +205,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="72518" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1499136"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1499136"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_28_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_28_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_28_dynamic3.wav"/>
@@ -215,8 +215,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48728" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1572864"
-          MonolithLength="49152" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1572864"
+          MonolithLength="49152">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_29_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_29_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_29_dynamic1.wav"/>
@@ -225,8 +225,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="74826" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1622016"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1622016"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_29_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_29_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_29_dynamic2.wav"/>
@@ -235,8 +235,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75115" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1699840"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1699840"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_29_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_29_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_29_dynamic3.wav"/>
@@ -245,8 +245,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="54110" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1777664"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1777664"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_30_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_30_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_30_dynamic1.wav"/>
@@ -255,8 +255,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="91208" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1835008"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1835008"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_30_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_30_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_30_dynamic2.wav"/>
@@ -265,8 +265,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="89002" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1929216"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="1929216"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_30_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_30_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_30_dynamic3.wav"/>
@@ -275,8 +275,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56837" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2019328"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2019328"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_31_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_31_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_31_dynamic1.wav"/>
@@ -285,8 +285,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="97144" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2076672"
-          MonolithLength="98304" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2076672"
+          MonolithLength="98304">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_31_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_31_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_31_dynamic2.wav"/>
@@ -295,8 +295,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75203" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2174976"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2174976"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_31_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_31_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_31_dynamic3.wav"/>
@@ -305,8 +305,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48728" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2252800"
-          MonolithLength="49152" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2252800"
+          MonolithLength="49152">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_32_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_32_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_32_dynamic1.wav"/>
@@ -315,8 +315,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77336" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2301952"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2301952"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_32_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_32_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_32_dynamic2.wav"/>
@@ -325,8 +325,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="72071" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2379776"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2379776"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_32_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_32_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_32_dynamic3.wav"/>
@@ -335,8 +335,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67578" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2453504"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2453504"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_33_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_33_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_33_dynamic1.wav"/>
@@ -345,8 +345,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68976" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2523136"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2523136"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_33_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_33_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_33_dynamic2.wav"/>
@@ -355,8 +355,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="86080" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2592768"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2592768"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_33_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_33_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_33_dynamic3.wav"/>
@@ -365,8 +365,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="72084" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2682880"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2682880"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_34_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_34_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_34_dynamic1.wav"/>
@@ -375,8 +375,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="79295" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2756608"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2756608"
+          MonolithLength="81920">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_34_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_34_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_34_dynamic2.wav"/>
@@ -385,8 +385,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="84244" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2838528"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2838528"
+          MonolithLength="86016">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_34_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_34_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_34_dynamic3.wav"/>
@@ -395,8 +395,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="44514" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2924544"
-          MonolithLength="45056" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2924544"
+          MonolithLength="45056">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_35_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_35_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_35_dynamic1.wav"/>
@@ -405,8 +405,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57638" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2969600"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="2969600"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_35_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_35_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_35_dynamic2.wav"/>
@@ -415,8 +415,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="80459" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3031040"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3031040"
+          MonolithLength="81920">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_35_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_35_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_35_dynamic3.wav"/>
@@ -425,8 +425,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57865" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3112960"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3112960"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_36_dynamic1.wav"/>
@@ -435,8 +435,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75735" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3174400"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3174400"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_36_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_36_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_36_dynamic2.wav"/>
@@ -445,8 +445,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61388" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3252224"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3252224"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_36_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_36_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_36_dynamic3.wav"/>
@@ -455,8 +455,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61476" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3313664"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3313664"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_37_dynamic1.wav"/>
@@ -465,8 +465,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="49315" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3379200"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3379200"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_37_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_37_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_37_dynamic2.wav"/>
@@ -475,8 +475,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77087" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3432448"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3432448"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_37_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_37_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_37_dynamic3.wav"/>
@@ -485,8 +485,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65066" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3510272"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3510272"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_38_dynamic1.wav"/>
@@ -495,8 +495,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64991" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3575808"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3575808"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_38_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_38_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_38_dynamic2.wav"/>
@@ -505,8 +505,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="87352" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3641344"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3641344"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_38_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_38_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_38_dynamic3.wav"/>
@@ -515,8 +515,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="58763" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3731456"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3731456"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_39_dynamic1.wav"/>
@@ -525,8 +525,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77087" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3792896"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3792896"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_39_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_39_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_39_dynamic2.wav"/>
@@ -535,8 +535,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="138839" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3870720"
-          MonolithLength="139264" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3870720"
+          MonolithLength="139264">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_39_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_39_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_39_dynamic3.wav"/>
@@ -545,8 +545,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64593" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4009984"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4009984"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_40_dynamic1.wav"/>
@@ -555,8 +555,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="49282" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4075520"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4075520"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_40_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_40_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_40_dynamic2.wav"/>
@@ -565,8 +565,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="98949" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4128768"
-          MonolithLength="102400" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4128768"
+          MonolithLength="102400">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_40_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_40_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_40_dynamic3.wav"/>
@@ -575,8 +575,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63991" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4231168"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4231168"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_41_dynamic1.wav"/>
@@ -585,8 +585,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63199" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4296704"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4296704"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_41_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_41_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_41_dynamic2.wav"/>
@@ -595,8 +595,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="98688" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4362240"
-          MonolithLength="102400" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4362240"
+          MonolithLength="102400">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_41_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_41_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_41_dynamic3.wav"/>
@@ -605,8 +605,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67343" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4464640"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4464640"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_42_dynamic1.wav"/>
@@ -615,8 +615,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="92184" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4534272"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4534272"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_42_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_42_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_42_dynamic2.wav"/>
@@ -625,8 +625,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="98623" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4628480"
-          MonolithLength="102400" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4628480"
+          MonolithLength="102400">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_42_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_42_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_42_dynamic3.wav"/>
@@ -635,8 +635,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65688" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4730880"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4730880"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_43_dynamic1.wav"/>
@@ -645,8 +645,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69487" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4800512"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4800512"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_43_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_43_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_43_dynamic2.wav"/>
@@ -655,8 +655,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="131686" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4870144"
-          MonolithLength="135168" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4870144"
+          MonolithLength="135168">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_43_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_43_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_43_dynamic3.wav"/>
@@ -665,8 +665,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61394" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5005312"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5005312"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_44_dynamic1.wav"/>
@@ -675,8 +675,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64982" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5066752"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5066752"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_44_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_44_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_44_dynamic2.wav"/>
@@ -685,8 +685,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="90289" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5132288"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5132288"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_44_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_44_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_44_dynamic3.wav"/>
@@ -695,8 +695,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="59493" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5226496"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5226496"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_45_dynamic1.wav"/>
@@ -705,8 +705,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="73673" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5287936"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5287936"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_45_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_45_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_45_dynamic2.wav"/>
@@ -715,8 +715,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="103214" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5361664"
-          MonolithLength="106496" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5361664"
+          MonolithLength="106496">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_45_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_45_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_45_dynamic3.wav"/>
@@ -725,8 +725,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62265" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5468160"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5468160"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_46_dynamic1.wav"/>
@@ -735,8 +735,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75010" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5533696"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5533696"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_46_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_46_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_46_dynamic2.wav"/>
@@ -745,8 +745,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="91377" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5611520"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5611520"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_46_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_46_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_46_dynamic3.wav"/>
@@ -755,8 +755,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="52977" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5705728"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5705728"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_47_dynamic1.wav"/>
@@ -765,8 +765,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="90530" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5758976"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5758976"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_47_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_47_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_47_dynamic2.wav"/>
@@ -775,8 +775,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="126915" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5853184"
-          MonolithLength="126976" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5853184"
+          MonolithLength="126976">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_47_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_47_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_47_dynamic3.wav"/>
@@ -785,8 +785,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65197" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5980160"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="5980160"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_48_dynamic1.wav"/>
@@ -795,8 +795,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="76482" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6045696"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6045696"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_48_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_48_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_48_dynamic2.wav"/>
@@ -805,8 +805,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="72954" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6123520"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6123520"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_48_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_48_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_48_dynamic3.wav"/>
@@ -815,8 +815,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61618" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6197248"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6197248"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_49_dynamic1.wav"/>
@@ -825,8 +825,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="90004" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6262784"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6262784"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_49_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_49_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_49_dynamic2.wav"/>
@@ -835,8 +835,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="73248" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6352896"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6352896"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_49_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_49_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_49_dynamic3.wav"/>
@@ -845,8 +845,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63811" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6426624"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6426624"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_50_dynamic1.wav"/>
@@ -855,8 +855,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77042" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6492160"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6492160"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_50_dynamic2.wav"/>
@@ -865,8 +865,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="89947" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6569984"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6569984"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_50_dynamic3.wav"/>
@@ -875,8 +875,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70175" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6660096"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6660096"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_51_dynamic1.wav"/>
@@ -885,8 +885,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="81012" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6733824"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6733824"
+          MonolithLength="81920">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_51_dynamic2.wav"/>
@@ -895,8 +895,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="76676" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6815744"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6815744"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_51_dynamic3.wav"/>
@@ -905,8 +905,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62708" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6893568"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6893568"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_52_dynamic1.wav"/>
@@ -915,8 +915,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="76661" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6959104"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="6959104"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_52_dynamic2.wav"/>
@@ -925,8 +925,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="92170" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7036928"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7036928"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_52_dynamic3.wav"/>
@@ -935,8 +935,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62068" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7131136"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7131136"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_53_dynamic1.wav"/>
@@ -945,8 +945,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57735" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7196672"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7196672"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_53_dynamic2.wav"/>
@@ -955,8 +955,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61373" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7258112"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7258112"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_53_dynamic3.wav"/>
@@ -965,8 +965,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="74538" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7319552"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7319552"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_54_dynamic1.wav"/>
@@ -975,8 +975,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69965" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7397376"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7397376"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_54_dynamic2.wav"/>
@@ -985,8 +985,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="89567" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7471104"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7471104"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_54_dynamic3.wav"/>
@@ -995,8 +995,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57310" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7561216"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7561216"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_55_dynamic1.wav"/>
@@ -1005,8 +1005,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69953" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7618560"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7618560"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_55_dynamic2.wav"/>
@@ -1015,8 +1015,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70848" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7692288"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="7692288"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_close_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_decca_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/releases/contrabassoon_release_hall_55_dynamic3.wav"/>

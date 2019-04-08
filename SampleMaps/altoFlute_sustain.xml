@@ -1,1112 +1,906 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="altoFlute_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7681"
-          SampleEnd="275507" SampleStartMod="6803" LoopStart="86659" LoopEnd="233567"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
-          MonolithLength="278528" SampleRate="48000">
+<samplemap ID="altoFlute_sustain" SaveMode="2" FileName="" MicPositions="close;decca;hall;"
+           RRGroupAmount="3">
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="86659" LoopEnd="233567"
+          SampleStart="4359" SampleEnd="278122" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="0" MonolithLength="278528" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_55_dynamic1.wav"/>
   </sample>
-  <sample ID="1" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2786"
-          SampleEnd="300886" SampleStartMod="10062" LoopStart="60299" LoopEnd="209143"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="278528"
-          MonolithLength="303104" SampleRate="48000">
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="60299" LoopEnd="209143"
+          SampleStart="2841" SampleEnd="300917" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="278528" MonolithLength="303104" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_55_dynamic2.wav"/>
   </sample>
-  <sample ID="2" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4765"
-          SampleEnd="314245" SampleStartMod="8846" LoopStart="88841" LoopEnd="242057"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="581632"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="88841" LoopEnd="242057"
+          SampleStart="5558" SampleEnd="315984" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="581632" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_55_dynamic3.wav"/>
   </sample>
-  <sample ID="3" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8661"
-          SampleEnd="287230" SampleStartMod="14409" LoopStart="89069" LoopEnd="236160"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="917504"
-          MonolithLength="303104" SampleRate="48000">
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="99398" LoopEnd="246489"
+          SampleStart="5871" SampleEnd="307274" SampleStartMod="18649"
+          LoopXFade="5000" MonolithOffset="917504" MonolithLength="311296"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_56_dynamic1.wav"/>
   </sample>
-  <sample ID="4" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="2" Pan="0" Normalized="0" Pitch="0" SampleStart="6762"
-          SampleEnd="328440" SampleStartMod="10062" LoopStart="100993"
-          LoopEnd="251426" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="1220608" MonolithLength="331776" SampleRate="48000">
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="100993" LoopEnd="251426"
+          SampleStart="7236" SampleEnd="328440" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="1228800" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_56_dynamic2.wav"/>
   </sample>
-  <sample ID="5" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2598"
-          SampleEnd="280027" SampleStartMod="8846" LoopStart="40945" LoopEnd="191665"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1552384"
-          MonolithLength="282624" SampleRate="48000">
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="40945" LoopEnd="191665"
+          SampleStart="1141" SampleEnd="282174" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="1560576" MonolithLength="282624" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_56_dynamic3.wav"/>
   </sample>
-  <sample ID="6" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8584"
-          SampleEnd="308865" SampleStartMod="10166" LoopStart="86469" LoopEnd="235785"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1835008"
-          MonolithLength="311296" SampleRate="48000">
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="86469" LoopEnd="235785"
+          SampleStart="5031" SampleEnd="308901" SampleStartMod="9000" LoopXFade="5000"
+          MonolithOffset="1843200" MonolithLength="311296" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_57_dynamic1.wav"/>
   </sample>
-  <sample ID="7" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3929"
-          SampleEnd="305164" SampleStartMod="6574" LoopStart="72005" LoopEnd="219109"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2146304"
-          MonolithLength="307200" SampleRate="48000">
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="72005" LoopEnd="219109"
+          SampleStart="3567" SampleEnd="305174" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="2154496" MonolithLength="307200" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_57_dynamic2.wav"/>
   </sample>
-  <sample ID="8" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3766"
-          SampleEnd="319258" SampleStartMod="8846" LoopStart="100833" LoopEnd="247781"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2453504"
-          MonolithLength="319488" SampleRate="48000">
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="100833" LoopEnd="247781"
+          SampleStart="3067" SampleEnd="319264" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="2461696" MonolithLength="319488" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_57_dynamic3.wav"/>
   </sample>
-  <sample ID="9" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5437"
-          SampleEnd="297661" SampleStartMod="6803" LoopStart="43338" LoopEnd="190246"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2772992"
-          MonolithLength="299008" SampleRate="48000">
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="43338" LoopEnd="190246"
+          SampleStart="4429" SampleEnd="297675" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="2781184" MonolithLength="299008" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_58_dynamic1.wav"/>
   </sample>
-  <sample ID="10" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3182"
-          SampleEnd="317430" SampleStartMod="10062" LoopStart="100894"
-          LoopEnd="247862" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="3072000" MonolithLength="331776" SampleRate="48000">
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="100894" LoopEnd="247862"
+          SampleStart="3267" SampleEnd="330308" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="3080192" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_58_dynamic2.wav"/>
   </sample>
-  <sample ID="11" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3529"
-          SampleEnd="314618" SampleStartMod="8846" LoopStart="72057" LoopEnd="236554"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3403776"
-          MonolithLength="315392" SampleRate="48000">
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="72057" LoopEnd="236554"
+          SampleStart="2916" SampleEnd="314640" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="3411968" MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_58_dynamic3.wav"/>
   </sample>
-  <sample ID="12" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2701"
-          SampleEnd="304013" SampleStartMod="6803" LoopStart="38457" LoopEnd="118969"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3719168"
-          MonolithLength="307200" SampleRate="48000">
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="38457" LoopEnd="118969"
+          SampleStart="17" SampleEnd="304021" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="3727360" MonolithLength="307200" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_59_dynamic1.wav"/>
   </sample>
-  <sample ID="13" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4574"
-          SampleEnd="330485" SampleStartMod="10062" LoopStart="115336"
-          LoopEnd="262230" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="4026368" MonolithLength="331776" SampleRate="48000">
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="115336" LoopEnd="262230"
+          SampleStart="4457" SampleEnd="330485" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="4034560" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_59_dynamic2.wav"/>
   </sample>
-  <sample ID="14" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3248"
-          SampleEnd="328390" SampleStartMod="8846" LoopStart="103238" LoopEnd="251419"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4358144"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="103238" LoopEnd="251419"
+          SampleStart="1476" SampleEnd="328397" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="4366336" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_59_dynamic3.wav"/>
   </sample>
-  <sample ID="15" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="2" Pan="0" Normalized="0" Pitch="0" SampleStart="2509"
-          SampleEnd="297015" SampleStartMod="6803" LoopStart="98479" LoopEnd="245509"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4689920"
-          MonolithLength="299008" SampleRate="48000">
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="98479" LoopEnd="245509"
+          SampleStart="1564" SampleEnd="297015" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="4698112" MonolithLength="299008" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_60_dynamic1.wav"/>
   </sample>
-  <sample ID="16" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4916"
-          SampleEnd="311930" SampleStartMod="10062" LoopStart="72149" LoopEnd="227475"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4988928"
-          MonolithLength="315392" SampleRate="48000">
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="72149" LoopEnd="227475"
+          SampleStart="3112" SampleEnd="311936" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="4997120" MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_60_dynamic2.wav"/>
   </sample>
-  <sample ID="17" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2521"
-          SampleEnd="312149" SampleStartMod="8846" LoopStart="84165" LoopEnd="232996"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5304320"
-          MonolithLength="315392" SampleRate="48000">
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="84165" LoopEnd="232996"
+          SampleStart="982" SampleEnd="312157" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="5312512" MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_60_dynamic3.wav"/>
   </sample>
-  <sample ID="18" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3421"
-          SampleEnd="307558" SampleStartMod="6803" LoopStart="81637" LoopEnd="228670"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5619712"
-          MonolithLength="311296" SampleRate="48000">
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="81637" LoopEnd="228670"
+          SampleStart="102" SampleEnd="307569" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="5627904" MonolithLength="311296" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_61_dynamic1.wav"/>
   </sample>
-  <sample ID="19" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7180"
-          SampleEnd="277209" SampleStartMod="10062" LoopStart="60074" LoopEnd="209695"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5931008"
-          MonolithLength="278528" SampleRate="48000">
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="60074" LoopEnd="209695"
+          SampleStart="5983" SampleEnd="277217" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="5939200" MonolithLength="278528" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_61_dynamic2.wav"/>
   </sample>
-  <sample ID="20" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3143"
-          SampleEnd="326461" SampleStartMod="15262" LoopStart="81700" LoopEnd="230238"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6209536"
-          MonolithLength="327680" SampleRate="48000">
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="81700" LoopEnd="230238"
+          SampleStart="3688" SampleEnd="326466" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="6217728" MonolithLength="327680" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_61_dynamic3.wav"/>
   </sample>
-  <sample ID="21" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2938"
-          SampleEnd="337073" SampleStartMod="6803" LoopStart="110510" LoopEnd="257562"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6537216"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="110510" LoopEnd="257562"
+          SampleStart="1970" SampleEnd="337080" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="6545408" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_62_dynamic1.wav"/>
   </sample>
-  <sample ID="22" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2028"
-          SampleEnd="320806" SampleStartMod="10062" LoopStart="84066" LoopEnd="231132"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6877184"
-          MonolithLength="323584" SampleRate="48000">
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="84066" LoopEnd="231132"
+          SampleStart="2840" SampleEnd="320807" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="6885376" MonolithLength="323584" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_62_dynamic2.wav"/>
   </sample>
-  <sample ID="23" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3320"
-          SampleEnd="315775" SampleStartMod="8846" LoopStart="69761" LoopEnd="227780"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7200768"
-          MonolithLength="319488" SampleRate="48000">
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="69761" LoopEnd="227780"
+          SampleStart="4111" SampleEnd="315792" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="7208960" MonolithLength="319488" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_62_dynamic3.wav"/>
   </sample>
-  <sample ID="24" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2392"
-          SampleEnd="307159" SampleStartMod="6803" LoopStart="112972" LoopEnd="259851"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7520256"
-          MonolithLength="323584" SampleRate="48000">
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="112972" LoopEnd="259851"
+          SampleStart="720" SampleEnd="313441" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="7528448" MonolithLength="323584" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_63_dynamic1.wav"/>
   </sample>
-  <sample ID="25" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5569"
-          SampleEnd="329864" SampleStartMod="10062" LoopStart="100942"
-          LoopEnd="248151" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
-          UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
-          MonolithOffset="7843840" MonolithLength="344064" SampleRate="48000">
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="100942" LoopEnd="248151"
+          SampleStart="4943" SampleEnd="331441" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="7852032" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_63_dynamic2.wav"/>
   </sample>
-  <sample ID="26" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2983"
-          SampleEnd="328660" SampleStartMod="8846" LoopStart="69627" LoopEnd="234045"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8187904"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="69627" LoopEnd="234045"
+          SampleStart="4004" SampleEnd="328667" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="8196096" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_63_dynamic3.wav"/>
   </sample>
-  <sample ID="27" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3970"
-          SampleEnd="294362" SampleStartMod="10829" LoopStart="86886" LoopEnd="233851"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8519680"
-          MonolithLength="315392" SampleRate="48000">
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="86886" LoopEnd="233851"
+          SampleStart="4289" SampleEnd="312962" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="8527872" MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_64_dynamic1.wav"/>
   </sample>
-  <sample ID="28" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3600"
-          SampleEnd="336071" SampleStartMod="12252" LoopStart="96099" LoopEnd="250154"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8835072"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="96099" LoopEnd="250154"
+          SampleStart="4230" SampleEnd="338365" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="8843264" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_64_dynamic2.wav"/>
   </sample>
-  <sample ID="29" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3600"
-          SampleEnd="327547" SampleStartMod="8846" LoopStart="55263" LoopEnd="245096"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9175040"
-          MonolithLength="327680" SampleRate="48000">
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="55263" LoopEnd="245096"
+          SampleStart="4348" SampleEnd="327558" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="9183232" MonolithLength="327680" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_64_dynamic3.wav"/>
   </sample>
-  <sample ID="30" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="-1" Pan="0" Normalized="0" Pitch="0" SampleStart="5834"
-          SampleEnd="291362" SampleStartMod="13155" LoopStart="72186" LoopEnd="219083"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9502720"
-          MonolithLength="294912" SampleRate="48000">
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="77417" LoopEnd="224314"
+          SampleStart="4000" SampleEnd="296601" SampleStartMod="13700"
+          LoopXFade="5000" MonolithOffset="9510912" MonolithLength="299008"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_65_dynamic1.wav"/>
   </sample>
-  <sample ID="31" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9414"
-          SampleEnd="329691" SampleStartMod="6443" LoopStart="100936" LoopEnd="250582"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9797632"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="100936" LoopEnd="250582"
+          SampleStart="9895" SampleEnd="329692" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="9809920" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_65_dynamic2.wav"/>
   </sample>
-  <sample ID="32" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-4" Pan="0" Normalized="0" Pitch="0" SampleStart="3545"
-          SampleEnd="318571" SampleStartMod="8846" LoopStart="81792" LoopEnd="232969"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10129408"
-          MonolithLength="319488" SampleRate="48000">
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="81792" LoopEnd="232969"
+          SampleStart="4327" SampleEnd="318579" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="10141696" MonolithLength="319488" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_65_dynamic3.wav"/>
   </sample>
-  <sample ID="33" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
-          SampleEnd="301605" SampleStartMod="6803" LoopStart="53225" LoopEnd="208979"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10448896"
-          MonolithLength="307200" SampleRate="48000">
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="53225" LoopEnd="208979"
+          SampleStart="999" SampleEnd="303288" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="10461184" MonolithLength="307200" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_66_dynamic1.wav"/>
   </sample>
-  <sample ID="34" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9511"
-          SampleEnd="320645" SampleStartMod="5198" LoopStart="100902" LoopEnd="251574"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10756096"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="100902" LoopEnd="251574"
+          SampleStart="9948" SampleEnd="325109" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="10768384" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_66_dynamic2.wav"/>
   </sample>
-  <sample ID="35" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2053"
-          SampleEnd="330848" SampleStartMod="8846" LoopStart="96087" LoopEnd="250954"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11096064"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="96087" LoopEnd="250954"
+          SampleStart="2329" SampleEnd="330866" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="11108352" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_66_dynamic3.wav"/>
   </sample>
-  <sample ID="36" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9866"
-          SampleEnd="312211" SampleStartMod="12869" LoopStart="86462" LoopEnd="233520"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11427840"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="86462" LoopEnd="233520"
+          SampleStart="6393" SampleEnd="313817" SampleStartMod="9000" LoopXFade="5000"
+          MonolithOffset="11440128" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_67_dynamic1.wav"/>
   </sample>
-  <sample ID="37" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5174"
-          SampleEnd="328774" SampleStartMod="4329" LoopStart="72065" LoopEnd="220226"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11763712"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="72065" LoopEnd="220226"
+          SampleStart="5872" SampleEnd="328781" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="11776000" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_67_dynamic2.wav"/>
   </sample>
-  <sample ID="38" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3108"
-          SampleEnd="346777" SampleStartMod="8846" LoopStart="86542" LoopEnd="249125"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12095488"
-          MonolithLength="348160" SampleRate="48000">
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="86542" LoopEnd="249125"
+          SampleStart="3372" SampleEnd="346802" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="12107776" MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_67_dynamic3.wav"/>
   </sample>
-  <sample ID="39" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7278"
-          SampleEnd="318717" SampleStartMod="13758" LoopStart="48003" LoopEnd="209285"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12443648"
-          MonolithLength="319488" SampleRate="48000">
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="48003" LoopEnd="209285"
+          SampleStart="5302" SampleEnd="318734" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="12455936" MonolithLength="319488" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_68_dynamic1.wav"/>
   </sample>
-  <sample ID="40" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3154"
-          SampleEnd="332366" SampleStartMod="7695" LoopStart="38435" LoopEnd="229179"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12763136"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="38435" LoopEnd="229179"
+          SampleStart="4761" SampleEnd="332385" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="12775424" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_68_dynamic2.wav"/>
   </sample>
-  <sample ID="41" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="5088"
-          SampleEnd="341641" SampleStartMod="8846" LoopStart="103303" LoopEnd="250470"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13099008"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="103303" LoopEnd="250470"
+          SampleStart="3994" SampleEnd="341643" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="13111296" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_68_dynamic3.wav"/>
   </sample>
-  <sample ID="42" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12651"
-          SampleEnd="328098" SampleStartMod="21944" LoopStart="60164" LoopEnd="207114"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13443072"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="60164" LoopEnd="207114"
+          SampleStart="9979" SampleEnd="332640" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="13455360" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_69_dynamic1.wav"/>
   </sample>
-  <sample ID="43" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5569"
-          SampleEnd="312800" SampleStartMod="11998" LoopStart="86450" LoopEnd="239473"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13787136"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="86450" LoopEnd="239473"
+          SampleStart="4909" SampleEnd="314642" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="13799424" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_69_dynamic2.wav"/>
   </sample>
-  <sample ID="44" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6933"
-          SampleEnd="291675" SampleStartMod="8846" LoopStart="86438" LoopEnd="196882"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14118912"
-          MonolithLength="315392" SampleRate="48000">
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="86438" LoopEnd="196882"
+          SampleStart="6920" SampleEnd="293294" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="14131200" MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_69_dynamic3.wav"/>
   </sample>
-  <sample ID="45" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="16045"
-          SampleEnd="327608" SampleStartMod="25520" LoopStart="76963" LoopEnd="224355"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14434304"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="76963" LoopEnd="224355"
+          SampleStart="12803" SampleEnd="329270" SampleStartMod="8000"
+          LoopXFade="5000" MonolithOffset="14446592" MonolithLength="331776"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_70_dynamic1.wav"/>
   </sample>
-  <sample ID="46" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3048"
-          SampleEnd="310223" SampleStartMod="10062" LoopStart="43347" LoopEnd="213380"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14766080"
-          MonolithLength="311296" SampleRate="48000">
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="43347" LoopEnd="213380"
+          SampleStart="3307" SampleEnd="310235" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="14778368" MonolithLength="311296" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_70_dynamic2.wav"/>
   </sample>
-  <sample ID="47" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3556"
-          SampleEnd="322621" SampleStartMod="8846" LoopStart="100915" LoopEnd="252349"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15077376"
-          MonolithLength="323584" SampleRate="48000">
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="100915" LoopEnd="252349"
+          SampleStart="3902" SampleEnd="322643" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="15089664" MonolithLength="323584" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_70_dynamic3.wav"/>
   </sample>
-  <sample ID="48" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="51"
-          SampleEnd="313394" SampleStartMod="15720" LoopStart="81660" LoopEnd="251058"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15400960"
-          MonolithLength="315392" SampleRate="48000">
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="81660" LoopEnd="251058"
+          SampleStart="160" SampleEnd="313409" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="15413248" MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_71_dynamic1.wav"/>
   </sample>
-  <sample ID="49" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3053"
-          SampleEnd="326109" SampleStartMod="7563" LoopStart="57666" LoopEnd="204620"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15716352"
-          MonolithLength="327680" SampleRate="48000">
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="57666" LoopEnd="204620"
+          SampleStart="3256" SampleEnd="326126" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="15728640" MonolithLength="327680" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_71_dynamic2.wav"/>
   </sample>
-  <sample ID="50" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3315"
-          SampleEnd="330962" SampleStartMod="8846" LoopStart="45622" LoopEnd="207900"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16044032"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="45622" LoopEnd="207900"
+          SampleStart="2678" SampleEnd="330976" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="16056320" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_71_dynamic3.wav"/>
   </sample>
-  <sample ID="51" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1"
-          SampleEnd="331827" SampleStartMod="6803" LoopStart="84889" LoopEnd="244774"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16375808"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="84889" LoopEnd="244774"
+          SampleStart="35" SampleEnd="331846" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="16388096" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_72_dynamic1.wav"/>
   </sample>
-  <sample ID="52" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4852"
-          SampleEnd="316806" SampleStartMod="13677" LoopStart="93826" LoopEnd="240768"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16711680"
-          MonolithLength="319488" SampleRate="48000">
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="93826" LoopEnd="240768"
+          SampleStart="6980" SampleEnd="316833" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="16723968" MonolithLength="319488" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_72_dynamic2.wav"/>
   </sample>
-  <sample ID="53" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3781"
-          SampleEnd="335250" SampleStartMod="8846" LoopStart="100836" LoopEnd="248072"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17031168"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="100836" LoopEnd="248072"
+          SampleStart="2604" SampleEnd="337070" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="17043456" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_72_dynamic3.wav"/>
   </sample>
-  <sample ID="54" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5569"
-          SampleEnd="333771" SampleStartMod="16102" LoopStart="95266" LoopEnd="242200"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17375232"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="95266" LoopEnd="242200"
+          SampleStart="4894" SampleEnd="334919" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="17387520" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_73_dynamic1.wav"/>
   </sample>
-  <sample ID="55" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="2" Pan="0" Normalized="0" Pitch="0" SampleStart="7334"
-          SampleEnd="327144" SampleStartMod="10062" LoopStart="77057" LoopEnd="225136"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17719296"
-          MonolithLength="327680" SampleRate="48000">
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="77057" LoopEnd="225136"
+          SampleStart="5694" SampleEnd="327150" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="17731584" MonolithLength="327680" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_73_dynamic2.wav"/>
   </sample>
-  <sample ID="56" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3020"
-          SampleEnd="335190" SampleStartMod="8846" LoopStart="69713" LoopEnd="216632"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18046976"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="69713" LoopEnd="216632"
+          SampleStart="2562" SampleEnd="335207" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="18059264" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_73_dynamic3.wav"/>
   </sample>
-  <sample ID="57" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="34"
-          SampleEnd="281333" SampleStartMod="6803" LoopStart="69258" LoopEnd="216155"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18382848"
-          MonolithLength="290816" SampleRate="48000">
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="69258" LoopEnd="216155"
+          SampleStart="69" SampleEnd="283066" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="18395136" MonolithLength="290816" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_74_dynamic1.wav"/>
   </sample>
-  <sample ID="58" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3094"
-          SampleEnd="341231" SampleStartMod="7373" LoopStart="98710" LoopEnd="249927"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18673664"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="98710" LoopEnd="249927"
+          SampleStart="2450" SampleEnd="341236" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="18685952" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_74_dynamic2.wav"/>
   </sample>
-  <sample ID="59" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3163"
-          SampleEnd="328513" SampleStartMod="8846" LoopStart="86468" LoopEnd="247894"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19017728"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="86468" LoopEnd="247894"
+          SampleStart="3471" SampleEnd="328519" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="19030016" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_74_dynamic3.wav"/>
   </sample>
-  <sample ID="60" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1138"
-          SampleEnd="325981" SampleStartMod="6803" LoopStart="100952" LoopEnd="247835"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19349504"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="100952" LoopEnd="247835"
+          SampleStart="1458" SampleEnd="339012" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="19361792" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_75_dynamic1.wav"/>
   </sample>
-  <sample ID="61" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2828"
-          SampleEnd="322733" SampleStartMod="6419" LoopStart="70315" LoopEnd="228213"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19689472"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="70315" LoopEnd="228213"
+          SampleStart="3231" SampleEnd="324431" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="19701760" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_75_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_75_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_75_dynamic2.wav"/>
   </sample>
-  <sample ID="62" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3182"
-          SampleEnd="330214" SampleStartMod="8846" LoopStart="38417" LoopEnd="231066"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20025344"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="38417" LoopEnd="231066"
+          SampleStart="3590" SampleEnd="330233" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="20037632" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_75_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_75_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_75_dynamic3.wav"/>
   </sample>
-  <sample ID="63" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3154"
-          SampleEnd="333827" SampleStartMod="11164" LoopStart="98464" LoopEnd="253744"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20357120"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="98464" LoopEnd="253744"
+          SampleStart="4570" SampleEnd="333830" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="20369408" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_76_dynamic1.wav"/>
   </sample>
-  <sample ID="64" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8044"
-          SampleEnd="340563" SampleStartMod="10062" LoopStart="45259" LoopEnd="192466"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20692992"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="45259" LoopEnd="192466"
+          SampleStart="7441" SampleEnd="340580" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="20705280" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_76_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_76_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_76_dynamic2.wav"/>
   </sample>
-  <sample ID="65" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1533"
-          SampleEnd="347941" SampleStartMod="8846" LoopStart="79272" LoopEnd="231565"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21037056"
-          MonolithLength="348160" SampleRate="48000">
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="79272" LoopEnd="231565"
+          SampleStart="1640" SampleEnd="347948" Volume="-3" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="21049344" MonolithLength="348160"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_76_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_76_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_76_dynamic3.wav"/>
   </sample>
-  <sample ID="66" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1562"
-          SampleEnd="334032" SampleStartMod="6803" LoopStart="79366" LoopEnd="226401"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21385216"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="79366" LoopEnd="226401"
+          SampleStart="1849" SampleEnd="335494" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="21397504" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_77_dynamic1.wav"/>
   </sample>
-  <sample ID="67" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3221"
-          SampleEnd="334965" SampleStartMod="7234" LoopStart="52815" LoopEnd="224636"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21725184"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="52815" LoopEnd="224636"
+          SampleStart="3614" SampleEnd="334969" Volume="-5" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="21737472" MonolithLength="335872"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_77_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_77_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_77_dynamic2.wav"/>
   </sample>
-  <sample ID="68" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3845"
-          SampleEnd="330032" SampleStartMod="6590" LoopStart="93718" LoopEnd="244866"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22061056"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="93718" LoopEnd="244866"
+          SampleStart="4389" SampleEnd="330047" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="22073344" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_77_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_77_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_77_dynamic3.wav"/>
   </sample>
-  <sample ID="69" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2762"
-          SampleEnd="302069" SampleStartMod="6803" LoopStart="64274" LoopEnd="211351"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22392832"
-          MonolithLength="307200" SampleRate="48000">
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="64274" LoopEnd="211351"
+          SampleStart="2828" SampleEnd="303227" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="22405120" MonolithLength="307200" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_78_dynamic1.wav"/>
   </sample>
-  <sample ID="70" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4452"
-          SampleEnd="345392" SampleStartMod="5714" LoopStart="110457" LoopEnd="257434"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22700032"
-          MonolithLength="348160" SampleRate="48000">
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="110457" LoopEnd="257434"
+          SampleStart="3935" SampleEnd="345396" Volume="-2" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="22712320" MonolithLength="348160"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_78_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_78_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_78_dynamic2.wav"/>
   </sample>
-  <sample ID="71" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4044"
-          SampleEnd="328799" SampleStartMod="6590" LoopStart="93687" LoopEnd="249418"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23048192"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="93687" LoopEnd="249418"
+          SampleStart="3936" SampleEnd="328815" Volume="-3" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="23060480" MonolithLength="331776"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_78_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_78_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_78_dynamic3.wav"/>
   </sample>
-  <sample ID="72" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5435"
-          SampleEnd="322949" SampleStartMod="6803" LoopStart="99157" LoopEnd="246751"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23379968"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="99157" LoopEnd="246751"
+          SampleStart="4562" SampleEnd="338229" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="23392256" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_79_dynamic1.wav"/>
   </sample>
-  <sample ID="73" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3960"
-          SampleEnd="334191" SampleStartMod="10062" LoopStart="83824" LoopEnd="230862"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23719936"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="83824" LoopEnd="230862"
+          SampleStart="4635" SampleEnd="334206" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="23732224" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_79_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_79_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_79_dynamic2.wav"/>
   </sample>
-  <sample ID="74" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2337"
-          SampleEnd="343066" SampleStartMod="5120" LoopStart="77119" LoopEnd="260710"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24055808"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="77119" LoopEnd="260710"
+          SampleStart="3009" SampleEnd="343066" Volume="-2" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="24068096" MonolithLength="344064"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_79_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_79_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_79_dynamic3.wav"/>
   </sample>
-  <sample ID="75" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5569"
-          SampleEnd="341053" SampleStartMod="6803" LoopStart="73552" LoopEnd="220702"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24399872"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="73552" LoopEnd="220702"
+          SampleStart="6253" SampleEnd="341060" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="24412160" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_80_dynamic1.wav"/>
   </sample>
-  <sample ID="76" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3802"
-          SampleEnd="334558" SampleStartMod="4978" LoopStart="97942" LoopEnd="246425"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24743936"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="97942" LoopEnd="246425"
+          SampleStart="5116" SampleEnd="336469" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="24756224" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_80_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_80_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_80_dynamic2.wav"/>
   </sample>
-  <sample ID="77" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4857"
-          SampleEnd="351335" SampleStartMod="6590" LoopStart="68672" LoopEnd="216685"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25083904"
-          MonolithLength="352256" SampleRate="48000">
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="68672" LoopEnd="216685"
+          SampleStart="5533" SampleEnd="351347" Volume="-1" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="25096192" MonolithLength="352256"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_80_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_80_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_80_dynamic3.wav"/>
   </sample>
-  <sample ID="78" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6644"
-          SampleEnd="324901" SampleStartMod="9164" LoopStart="79146" LoopEnd="230097"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25436160"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="79146" LoopEnd="230097"
+          SampleStart="7480" SampleEnd="334581" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="25448448" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_81_dynamic1.wav"/>
   </sample>
-  <sample ID="79" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="4773"
-          SampleEnd="331631" SampleStartMod="6579" LoopStart="86453" LoopEnd="233518"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25772032"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="86453" LoopEnd="233518"
+          SampleStart="3914" SampleEnd="331639" Volume="-6" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="25784320" MonolithLength="331776"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_81_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_81_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_81_dynamic2.wav"/>
   </sample>
-  <sample ID="80" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-3" Pan="0" Normalized="0" Pitch="0" SampleStart="2953"
-          SampleEnd="332670" SampleStartMod="6590" LoopStart="122534" LoopEnd="237058"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26103808"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="122534" LoopEnd="237058"
+          SampleStart="2361" SampleEnd="332684" Volume="-4" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="26116096" MonolithLength="335872"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_81_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_81_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_81_dynamic3.wav"/>
   </sample>
-  <sample ID="81" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2309"
-          SampleEnd="330244" SampleStartMod="6803" LoopStart="106007" LoopEnd="256524"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26439680"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="106007" LoopEnd="256524"
+          SampleStart="1740" SampleEnd="331814" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="26451968" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_82_dynamic1.wav"/>
   </sample>
-  <sample ID="82" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2806"
-          SampleEnd="354285" SampleStartMod="6465" LoopStart="88339" LoopEnd="235283"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26779648"
-          MonolithLength="356352" SampleRate="48000">
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="88339" LoopEnd="235283"
+          SampleStart="2857" SampleEnd="354294" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="26791936" MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_82_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_82_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_82_dynamic2.wav"/>
   </sample>
-  <sample ID="83" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3911"
-          SampleEnd="328102" SampleStartMod="6590" LoopStart="81650" LoopEnd="232722"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27136000"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="81650" LoopEnd="232722"
+          SampleStart="3983" SampleEnd="328133" Volume="-2" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="27148288" MonolithLength="331776"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_82_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_82_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_82_dynamic3.wav"/>
   </sample>
-  <sample ID="84" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3646"
-          SampleEnd="328885" SampleStartMod="10999" LoopStart="88369" LoopEnd="236252"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27467776"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="88369" LoopEnd="236252"
+          SampleStart="3576" SampleEnd="331418" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="27480064" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_83_dynamic1.wav"/>
   </sample>
-  <sample ID="85" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="-1" Pan="0" Normalized="0" Pitch="0" SampleStart="4263"
-          SampleEnd="343822" SampleStartMod="10062" LoopStart="98264" LoopEnd="248915"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27799552"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="98264" LoopEnd="248915"
+          SampleStart="4311" SampleEnd="343835" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="27811840" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_83_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_83_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_83_dynamic2.wav"/>
   </sample>
-  <sample ID="86" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4015"
-          SampleEnd="332467" SampleStartMod="6590" LoopStart="72152" LoopEnd="221867"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28143616"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="72152" LoopEnd="221867"
+          SampleStart="4228" SampleEnd="332503" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="28155904" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_83_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_83_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_83_dynamic3.wav"/>
   </sample>
-  <sample ID="87" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6463"
-          SampleEnd="340689" SampleStartMod="13657" LoopStart="98534" LoopEnd="249199"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28479488"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="98534" LoopEnd="249199"
+          SampleStart="5055" SampleEnd="340689" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="28491776" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_84_dynamic1.wav"/>
   </sample>
-  <sample ID="88" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4571"
-          SampleEnd="327955" SampleStartMod="5949" LoopStart="74438" LoopEnd="230529"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28823552"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="74438" LoopEnd="230529"
+          SampleStart="5746" SampleEnd="327959" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="28835840" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_84_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_84_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_84_dynamic2.wav"/>
   </sample>
-  <sample ID="89" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5638"
-          SampleEnd="343112" SampleStartMod="6590" LoopStart="31128" LoopEnd="244064"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29155328"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="31128" LoopEnd="244064"
+          SampleStart="4698" SampleEnd="343123" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="29167616" MonolithLength="344064" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_84_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_84_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_84_dynamic3.wav"/>
   </sample>
-  <sample ID="90" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5635"
-          SampleEnd="347773" SampleStartMod="14538" LoopStart="60006" LoopEnd="217657"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29499392"
-          MonolithLength="348160" SampleRate="48000">
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="60006" LoopEnd="217657"
+          SampleStart="4378" SampleEnd="347797" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="29511680" MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_85_dynamic1.wav"/>
   </sample>
-  <sample ID="91" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4125"
-          SampleEnd="325740" SampleStartMod="10062" LoopStart="72174" LoopEnd="226360"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29847552"
-          MonolithLength="327680" SampleRate="48000">
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="72174" LoopEnd="226360"
+          SampleStart="3515" SampleEnd="325740" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="29859840" MonolithLength="327680" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_85_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_85_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_85_dynamic2.wav"/>
   </sample>
-  <sample ID="92" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="4950"
-          SampleEnd="341191" SampleStartMod="6590" LoopStart="67211" LoopEnd="235751"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30175232"
-          MonolithLength="344064" SampleRate="48000">
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="67211" LoopEnd="235751"
+          SampleStart="6443" SampleEnd="341215" Volume="-2" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="30187520" MonolithLength="344064"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_85_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_85_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_85_dynamic3.wav"/>
   </sample>
-  <sample ID="93" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6338"
-          SampleEnd="357245" SampleStartMod="16129" LoopStart="92317" LoopEnd="239215"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30519296"
-          MonolithLength="360448" SampleRate="48000">
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="92317" LoopEnd="239215"
+          SampleStart="4177" SampleEnd="357325" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="30531584" MonolithLength="360448" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_86_dynamic1.wav"/>
   </sample>
-  <sample ID="94" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1860"
-          SampleEnd="335883" SampleStartMod="6144" LoopStart="79556" LoopEnd="262083"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30879744"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="79556" LoopEnd="262083"
+          SampleStart="2400" SampleEnd="335888" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="30892032" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_86_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_86_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_86_dynamic2.wav"/>
   </sample>
-  <sample ID="95" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="4418"
-          SampleEnd="338746" SampleStartMod="6590" LoopStart="72225" LoopEnd="222175"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31219712"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="72225" LoopEnd="222175"
+          SampleStart="4444" SampleEnd="338760" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="31232000" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_86_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_86_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_86_dynamic3.wav"/>
   </sample>
-  <sample ID="96" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2156"
-          SampleEnd="344584" SampleStartMod="12095" LoopStart="68255" LoopEnd="233464"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31559680"
-          MonolithLength="348160" SampleRate="48000">
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="68255" LoopEnd="233464"
+          SampleStart="2943" SampleEnd="344584" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="31571968" MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_87_dynamic1.wav"/>
   </sample>
-  <sample ID="97" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1874"
-          SampleEnd="345473" SampleStartMod="7470" LoopStart="96143" LoopEnd="249281"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31907840"
-          MonolithLength="348160" SampleRate="48000">
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="96143" LoopEnd="249281"
+          SampleStart="2045" SampleEnd="345477" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="31920128" MonolithLength="348160" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_87_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_87_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_87_dynamic2.wav"/>
   </sample>
-  <sample ID="98" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="2062"
-          SampleEnd="320053" SampleStartMod="6590" LoopStart="91956" LoopEnd="258817"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32256000"
-          MonolithLength="323584" SampleRate="48000">
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="91956" LoopEnd="258817"
+          SampleStart="2820" SampleEnd="320055" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="32268288" MonolithLength="323584" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_87_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_87_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_87_dynamic3.wav"/>
   </sample>
-  <sample ID="99" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12600"
-          SampleEnd="350160" SampleStartMod="19858" LoopStart="96664" LoopEnd="243599"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32579584"
-          MonolithLength="352256" SampleRate="48000">
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="96664" LoopEnd="243599"
+          SampleStart="10717" SampleEnd="350531" SampleStartMod="8000"
+          LoopXFade="5000" MonolithOffset="32591872" MonolithLength="352256"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_88_dynamic1.wav"/>
   </sample>
-  <sample ID="100" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="2" Pan="0" Normalized="0" Pitch="0" SampleStart="5237"
-          SampleEnd="331233" SampleStartMod="10062" LoopStart="28853" LoopEnd="178282"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32931840"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="28853" LoopEnd="178282"
+          SampleStart="3086" SampleEnd="331245" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="32944128" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_88_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_88_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_88_dynamic2.wav"/>
   </sample>
-  <sample ID="101" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2674"
-          SampleEnd="335339" SampleStartMod="6590" LoopStart="94194" LoopEnd="260304"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33263616"
-          MonolithLength="335872" SampleRate="48000">
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="94194" LoopEnd="260304"
+          SampleStart="2845" SampleEnd="335377" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="33275904" MonolithLength="335872" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_88_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_88_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_88_dynamic3.wav"/>
   </sample>
-  <sample ID="102" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9511"
-          SampleEnd="336418" SampleStartMod="19556" LoopStart="73624" LoopEnd="234538"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33599488"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="73624" LoopEnd="234538"
+          SampleStart="8925" SampleEnd="336427" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="33611776" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_89_dynamic1.wav"/>
   </sample>
-  <sample ID="103" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6182"
-          SampleEnd="338077" SampleStartMod="10062" LoopStart="89259" LoopEnd="245986"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33939456"
-          MonolithLength="339968" SampleRate="48000">
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="89259" LoopEnd="245986"
+          SampleStart="5624" SampleEnd="338092" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="33951744" MonolithLength="339968" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_89_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_89_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_89_dynamic2.wav"/>
   </sample>
-  <sample ID="104" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2849"
-          SampleEnd="334164" SampleStartMod="6590" LoopStart="36922" LoopEnd="251728"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34279424"
-          MonolithLength="356352" SampleRate="48000">
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="36922" LoopEnd="251728"
+          SampleStart="2894" SampleEnd="336738" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="34291712" MonolithLength="356352" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_89_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_89_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_89_dynamic3.wav"/>
   </sample>
-  <sample ID="105" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2062"
-          SampleEnd="285527" SampleStartMod="12891" LoopStart="69671" LoopEnd="185754"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34635776"
-          MonolithLength="286720" SampleRate="48000">
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="69671" LoopEnd="185754"
+          SampleStart="1925" SampleEnd="285541" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="34648064" MonolithLength="286720" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_90_dynamic1.wav"/>
   </sample>
-  <sample ID="106" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3103"
-          SampleEnd="309906" SampleStartMod="10062" LoopStart="64839" LoopEnd="215123"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34922496"
-          MonolithLength="323584" SampleRate="48000">
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="64839" LoopEnd="215123"
+          SampleStart="2748" SampleEnd="315244" Volume="2" SampleStartMod="5000"
+          LoopXFade="5000" MonolithOffset="34934784" MonolithLength="323584"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_90_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_90_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_90_dynamic2.wav"/>
   </sample>
-  <sample ID="107" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="4435"
-          SampleEnd="319704" SampleStartMod="6590" LoopStart="39305" LoopEnd="245579"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="35246080"
-          MonolithLength="323584" SampleRate="48000">
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="39305" LoopEnd="245579"
+          SampleStart="4563" SampleEnd="319720" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="35258368" MonolithLength="323584" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_90_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_90_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_90_dynamic3.wav"/>
   </sample>
-  <sample ID="108" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
-          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3151"
-          SampleEnd="314856" SampleStartMod="13162" LoopStart="66818" LoopEnd="213824"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="35569664"
-          MonolithLength="315392" SampleRate="48000">
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" LoopEnabled="1" LoopStart="66818" LoopEnd="213824"
+          SampleStart="2406" SampleEnd="314880" SampleStartMod="8000" LoopXFade="5000"
+          MonolithOffset="35581952" MonolithLength="315392" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_91_dynamic1.wav"/>
   </sample>
-  <sample ID="109" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
-          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5171"
-          SampleEnd="329774" SampleStartMod="10062" LoopStart="43278" LoopEnd="192494"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="35885056"
-          MonolithLength="331776" SampleRate="48000">
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" LoopEnabled="1" LoopStart="43278" LoopEnd="192494"
+          SampleStart="3855" SampleEnd="329794" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="35897344" MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_91_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_91_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_91_dynamic2.wav"/>
   </sample>
-  <sample ID="110" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
-          RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="6448"
-          SampleEnd="317416" SampleStartMod="6590" LoopStart="49931" LoopEnd="167739"
-          LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="36216832"
-          MonolithLength="319488" SampleRate="48000">
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" LoopEnabled="1" LoopStart="49931" LoopEnd="167739"
+          SampleStart="5454" SampleEnd="317416" SampleStartMod="5000" LoopXFade="5000"
+          MonolithOffset="36229120" MonolithLength="319488" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_close_91_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_decca_91_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}altoFlute/sustain/altoFlute_sustain_hall_91_dynamic3.wav"/>

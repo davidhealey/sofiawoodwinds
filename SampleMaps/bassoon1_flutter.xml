@@ -1,94 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="empty" SaveMode="0" FileName="empty" MicPositions="close;decca;hall;"
+<samplemap ID="bassoon1_flutter" SaveMode="2" FileName="empty" MicPositions="close;decca;hall;"
            RRGroupAmount="1">
   <sample Root="47" LoKey="34" HiKey="47" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="74794" LoopEnd="204622"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="74794" LoopEnd="204622"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="0" MonolithLength="294912"
+          SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_47_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_47_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_47_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="62727" LoopEnd="184713"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="62727" LoopEnd="184713"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="294912"
+          MonolithLength="327680" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_48_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_48_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_48_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="48178" LoopEnd="182542"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="48178" LoopEnd="182542"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="622592"
+          MonolithLength="299008" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_49_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_49_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_49_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="16835" LoopEnd="180208"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="16835" LoopEnd="180208"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="921600"
+          MonolithLength="303104" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_50_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_50_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_50_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="106305" LoopEnd="218417"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="106305" LoopEnd="218417"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="1224704"
+          MonolithLength="303104" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_51_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_51_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_51_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="106430" LoopEnd="223572"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="106430" LoopEnd="223572"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="1527808"
+          MonolithLength="307200" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_52_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="91499" LoopEnd="208389"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="91499" LoopEnd="208389"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="1835008"
+          MonolithLength="311296" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_53_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="81779" LoopEnd="194461"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="81779" LoopEnd="194461"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="2146304"
+          MonolithLength="311296" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_54_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="74747" LoopEnd="211823"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="74747" LoopEnd="211823"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="2457600"
+          MonolithLength="323584" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_55_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="19290" LoopEnd="159358"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="19290" LoopEnd="159358"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="2781184"
+          MonolithLength="331776" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_56_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_56_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="31339" LoopEnd="196012"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="31339" LoopEnd="196012"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="3112960"
+          MonolithLength="278528" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_57_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_57_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="77637" LoopEnd="207478"
-          LoopXFade="5000" SampleStartMod="5000">
+          Duplicate="0" LoopEnabled="1" LoopStart="77637" LoopEnd="207478"
+          LoopXFade="5000" SampleStartMod="5000" MonolithOffset="3391488"
+          MonolithLength="319488" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_58_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_58_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="59" LoKey="59" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
-          Duplicate="1" LoopEnabled="1" LoopStart="31201" LoopEnd="174926"
-          LoopXFade="5000" SampleStartMod="5000" Volume="2">
+          Duplicate="0" LoopEnabled="1" LoopStart="31201" LoopEnd="174926"
+          LoopXFade="5000" SampleStartMod="5000" Volume="2" MonolithOffset="3710976"
+          MonolithLength="258048" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_close_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_decca_59_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/flutter/bassoon2_flutter_hall_59_dynamic1_rr1.wav"/>

@@ -5,8 +5,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="54092" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="0"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_34_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_34_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_34_dynamic1.wav"/>
@@ -15,8 +15,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75304" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="57344"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="57344"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_34_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_34_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_34_dynamic2.wav"/>
@@ -25,8 +25,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="80721" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="135168"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="135168"
+          MonolithLength="81920">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_34_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_34_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_34_dynamic3.wav"/>
@@ -35,8 +35,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64221" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="217088"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="217088"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_35_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_35_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_35_dynamic1.wav"/>
@@ -45,8 +45,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69690" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="282624"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="282624"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_35_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_35_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_35_dynamic2.wav"/>
@@ -55,8 +55,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77646" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="356352"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="356352"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_35_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_35_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_35_dynamic3.wav"/>
@@ -65,8 +65,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57330" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="434176"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="434176"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_36_dynamic1.wav"/>
@@ -75,8 +75,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71239" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="491520"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="491520"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_36_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_36_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_36_dynamic2.wav"/>
@@ -85,8 +85,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69638" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="565248"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="565248"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_36_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_36_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_36_dynamic3.wav"/>
@@ -95,8 +95,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60063" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="638976"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="638976"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_37_dynamic1.wav"/>
@@ -105,8 +105,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65235" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="700416"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="700416"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_37_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_37_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_37_dynamic2.wav"/>
@@ -115,8 +115,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61271" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="765952"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="765952"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_37_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_37_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_37_dynamic3.wav"/>
@@ -125,8 +125,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="51094" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="827392"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="827392"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_38_dynamic1.wav"/>
@@ -135,8 +135,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63436" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="880640"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="880640"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_38_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_38_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_38_dynamic2.wav"/>
@@ -145,8 +145,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67064" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="946176"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="946176"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_38_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_38_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_38_dynamic3.wav"/>
@@ -155,8 +155,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60786" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1015808"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1015808"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_39_dynamic1.wav"/>
@@ -165,8 +165,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69641" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1077248"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1077248"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_39_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_39_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_39_dynamic2.wav"/>
@@ -175,8 +175,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67746" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1150976"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1150976"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_39_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_39_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_39_dynamic3.wav"/>
@@ -185,8 +185,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60938" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1220608"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1220608"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_40_dynamic1.wav"/>
@@ -195,8 +195,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69577" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1282048"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1282048"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_40_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_40_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_40_dynamic2.wav"/>
@@ -205,8 +205,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="79831" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1351680"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1351680"
+          MonolithLength="81920">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_40_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_40_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_40_dynamic3.wav"/>
@@ -215,8 +215,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57735" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1433600"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1433600"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_41_dynamic1.wav"/>
@@ -225,8 +225,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68323" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1495040"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1495040"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_41_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_41_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_41_dynamic2.wav"/>
@@ -235,8 +235,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="55339" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1564672"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1564672"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_41_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_41_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_41_dynamic3.wav"/>
@@ -245,8 +245,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="53640" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1622016"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1622016"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_42_dynamic1.wav"/>
@@ -255,8 +255,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68247" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1679360"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1679360"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_42_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_42_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_42_dynamic2.wav"/>
@@ -265,8 +265,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71154" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1748992"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1748992"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_42_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_42_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_42_dynamic3.wav"/>
@@ -275,8 +275,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="54958" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1822720"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1822720"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_43_dynamic1.wav"/>
@@ -285,8 +285,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75907" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1880064"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1880064"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_43_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_43_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_43_dynamic2.wav"/>
@@ -295,8 +295,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62059" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1957888"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1957888"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_43_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_43_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_43_dynamic3.wav"/>
@@ -305,8 +305,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="40851" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2023424"
-          MonolithLength="40960" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2023424"
+          MonolithLength="40960">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_44_dynamic1.wav"/>
@@ -315,8 +315,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="56045" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2064384"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2064384"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_44_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_44_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_44_dynamic2.wav"/>
@@ -325,8 +325,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="82201" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2121728"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2121728"
+          MonolithLength="86016">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_44_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_44_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_44_dynamic3.wav"/>
@@ -335,8 +335,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60546" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2207744"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2207744"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_45_dynamic1.wav"/>
@@ -345,8 +345,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="64088" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2269184"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2269184"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_45_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_45_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_45_dynamic2.wav"/>
@@ -355,8 +355,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="72389" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2334720"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2334720"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_45_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_45_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_45_dynamic3.wav"/>
@@ -365,8 +365,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="54493" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2408448"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2408448"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_46_dynamic1.wav"/>
@@ -375,8 +375,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="57341" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2465792"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2465792"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_46_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_46_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_46_dynamic2.wav"/>
@@ -385,8 +385,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75644" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2523136"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2523136"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_46_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_46_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_46_dynamic3.wav"/>
@@ -395,8 +395,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="55204" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2600960"
-          MonolithLength="57344" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2600960"
+          MonolithLength="57344">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_47_dynamic1.wav"/>
@@ -405,8 +405,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="50620" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2658304"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2658304"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_47_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_47_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_47_dynamic2.wav"/>
@@ -415,8 +415,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="74214" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2711552"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2711552"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_47_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_47_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_47_dynamic3.wav"/>
@@ -425,8 +425,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="33263" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2789376"
-          MonolithLength="36864" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2789376"
+          MonolithLength="36864">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_48_dynamic1.wav"/>
@@ -435,8 +435,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70177" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2826240"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2826240"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_48_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_48_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_48_dynamic2.wav"/>
@@ -445,8 +445,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="73155" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2899968"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2899968"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_48_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_48_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_48_dynamic3.wav"/>
@@ -455,8 +455,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="50741" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2973696"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2973696"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_49_dynamic1.wav"/>
@@ -465,8 +465,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="83080" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3026944"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3026944"
+          MonolithLength="86016">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_49_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_49_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_49_dynamic2.wav"/>
@@ -475,8 +475,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="76132" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3112960"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3112960"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_49_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_49_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_49_dynamic3.wav"/>
@@ -485,8 +485,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="48253" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3190784"
-          MonolithLength="49152" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3190784"
+          MonolithLength="49152">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_50_dynamic1.wav"/>
@@ -495,8 +495,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77651" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3239936"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3239936"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_50_dynamic2.wav"/>
@@ -505,8 +505,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="69638" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3317760"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3317760"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_50_dynamic3.wav"/>
@@ -515,8 +515,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61582" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3391488"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3391488"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_51_dynamic1.wav"/>
@@ -525,8 +525,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65348" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3457024"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3457024"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_51_dynamic2.wav"/>
@@ -535,8 +535,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="72212" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3522560"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3522560"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_51_dynamic3.wav"/>
@@ -545,8 +545,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="58859" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3596288"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3596288"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_52_dynamic1.wav"/>
@@ -555,8 +555,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65062" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3657728"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3657728"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_52_dynamic2.wav"/>
@@ -565,8 +565,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75644" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3723264"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3723264"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_52_dynamic3.wav"/>
@@ -575,8 +575,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67410" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3801088"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3801088"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_53_dynamic1.wav"/>
@@ -585,8 +585,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67064" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3870720"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3870720"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_53_dynamic2.wav"/>
@@ -595,8 +595,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="73174" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3940352"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3940352"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_53_dynamic3.wav"/>
@@ -605,8 +605,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62378" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4014080"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4014080"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_54_dynamic1.wav"/>
@@ -615,8 +615,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67223" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4079616"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4079616"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_54_dynamic2.wav"/>
@@ -625,8 +625,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68351" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4149248"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4149248"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_54_dynamic3.wav"/>
@@ -635,8 +635,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70460" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4218880"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4218880"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_55_dynamic1.wav"/>
@@ -645,8 +645,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="58056" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4292608"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4292608"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_55_dynamic2.wav"/>
@@ -655,8 +655,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="84740" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4354048"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4354048"
+          MonolithLength="86016">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_55_dynamic3.wav"/>
@@ -665,8 +665,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60707" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4440064"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4440064"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_56_dynamic1.wav"/>
@@ -675,8 +675,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="74354" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4501504"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4501504"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_56_dynamic2.wav"/>
@@ -685,8 +685,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75981" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4579328"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4579328"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_56_dynamic3.wav"/>
@@ -695,8 +695,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77691" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4657152"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4657152"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_57_dynamic1.wav"/>
@@ -705,8 +705,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65262" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4734976"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4734976"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_57_dynamic2.wav"/>
@@ -715,8 +715,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="80506" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4800512"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4800512"
+          MonolithLength="81920">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_57_dynamic3.wav"/>
@@ -725,8 +725,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="63661" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4882432"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4882432"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_58_dynamic1.wav"/>
@@ -735,8 +735,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="74071" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4947968"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4947968"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_58_dynamic2.wav"/>
@@ -745,8 +745,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="87369" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5025792"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5025792"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_58_dynamic3.wav"/>
@@ -755,8 +755,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62933" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5115904"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5115904"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_59_dynamic1.wav"/>
@@ -765,8 +765,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="62490" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5181440"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5181440"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_59_dynamic2.wav"/>
@@ -775,8 +775,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75728" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5246976"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5246976"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_59_dynamic3.wav"/>
@@ -785,8 +785,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60099" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5324800"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5324800"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_60_dynamic1.wav"/>
@@ -795,8 +795,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71826" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5386240"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5386240"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_60_dynamic2.wav"/>
@@ -805,8 +805,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="73132" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5459968"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5459968"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_60_dynamic3.wav"/>
@@ -815,8 +815,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71052" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5533696"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5533696"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_61_dynamic1.wav"/>
@@ -825,8 +825,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70112" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5607424"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5607424"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_61_dynamic2.wav"/>
@@ -835,8 +835,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="89693" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5681152"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5681152"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_61_dynamic3.wav"/>
@@ -845,8 +845,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61744" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5771264"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5771264"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_62_dynamic1.wav"/>
@@ -855,8 +855,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71926" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5836800"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5836800"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_62_dynamic2.wav"/>
@@ -865,8 +865,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="83509" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5910528"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5910528"
+          MonolithLength="86016">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_62_dynamic3.wav"/>
@@ -875,8 +875,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="51913" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5996544"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5996544"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_63_dynamic1.wav"/>
@@ -885,8 +885,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70997" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6049792"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6049792"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_63_dynamic2.wav"/>
@@ -895,8 +895,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77005" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6123520"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6123520"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_63_dynamic3.wav"/>
@@ -905,8 +905,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="61161" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6201344"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6201344"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_64_dynamic1.wav"/>
@@ -915,8 +915,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="44757" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6262784"
-          MonolithLength="45056" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6262784"
+          MonolithLength="45056">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_64_dynamic2.wav"/>
@@ -925,8 +925,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="50763" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6307840"
-          MonolithLength="53248" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6307840"
+          MonolithLength="53248">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_64_dynamic3.wav"/>
@@ -935,8 +935,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66596" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6361088"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6361088"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_65_dynamic1.wav"/>
@@ -945,8 +945,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="73364" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6430720"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6430720"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_65_dynamic2.wav"/>
@@ -955,8 +955,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="91333" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6504448"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6504448"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_65_dynamic3.wav"/>
@@ -965,8 +965,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65018" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6598656"
-          MonolithLength="65536" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6598656"
+          MonolithLength="65536">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_66_dynamic1.wav"/>
@@ -975,8 +975,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75035" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6664192"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6664192"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_66_dynamic2.wav"/>
@@ -985,8 +985,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="87526" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6742016"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6742016"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_66_dynamic3.wav"/>
@@ -995,8 +995,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66237" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6832128"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6832128"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_67_dynamic1.wav"/>
@@ -1005,8 +1005,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="79394" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6901760"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6901760"
+          MonolithLength="81920">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_67_dynamic2.wav"/>
@@ -1015,8 +1015,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="87742" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6983680"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6983680"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_67_dynamic3.wav"/>
@@ -1025,8 +1025,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="73044" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7073792"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7073792"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_68_dynamic1.wav"/>
@@ -1035,8 +1035,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="71231" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7147520"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7147520"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_68_dynamic2.wav"/>
@@ -1045,8 +1045,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="83659" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7221248"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7221248"
+          MonolithLength="86016">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_68_dynamic3.wav"/>
@@ -1055,8 +1055,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="58692" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7307264"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7307264"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_69_dynamic1.wav"/>
@@ -1065,8 +1065,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="84295" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7368704"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7368704"
+          MonolithLength="86016">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_69_dynamic2.wav"/>
@@ -1075,8 +1075,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="97475" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7454720"
-          MonolithLength="98304" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7454720"
+          MonolithLength="98304">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_69_dynamic3.wav"/>
@@ -1085,8 +1085,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66440" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7553024"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7553024"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_70_dynamic1.wav"/>
@@ -1095,8 +1095,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="75156" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7622656"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7622656"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_70_dynamic2.wav"/>
@@ -1105,8 +1105,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70210" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7700480"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7700480"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_70_dynamic3.wav"/>
@@ -1115,8 +1115,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66440" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7774208"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7774208"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_71_dynamic1.wav"/>
@@ -1125,8 +1125,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="73068" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7843840"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7843840"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_71_dynamic2.wav"/>
@@ -1135,8 +1135,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="77074" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7917568"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7917568"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_71_dynamic3.wav"/>
@@ -1145,8 +1145,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="65639" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7995392"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7995392"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_72_dynamic1.wav"/>
@@ -1155,8 +1155,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68842" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8065024"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="8065024"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_72_dynamic2.wav"/>
@@ -1165,8 +1165,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="84939" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8134656"
-          MonolithLength="86016" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="8134656"
+          MonolithLength="86016">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_72_dynamic3.wav"/>
@@ -1175,8 +1175,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="66233" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8220672"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="8220672"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_73_dynamic1.wav"/>
@@ -1185,8 +1185,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="60506" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8290304"
-          MonolithLength="61440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="8290304"
+          MonolithLength="61440">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_73_dynamic2.wav"/>
@@ -1195,8 +1195,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="68637" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8351744"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="8351744"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_73_dynamic3.wav"/>
@@ -1205,8 +1205,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="70050" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8421376"
-          MonolithLength="73728" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="8421376"
+          MonolithLength="73728">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_74_dynamic1.wav"/>
@@ -1215,8 +1215,8 @@
           RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="87050" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8495104"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="8495104"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_74_dynamic2.wav"/>
@@ -1225,8 +1225,8 @@
           RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="67779" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8585216"
-          MonolithLength="69632" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="8585216"
+          MonolithLength="69632">
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_close_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_decca_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}bassoon2/releases/bassoon2_release_hall_74_dynamic3.wav"/>
