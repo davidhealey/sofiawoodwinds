@@ -27,8 +27,9 @@ namespace PresetHandler
     const var vibratoGain = Synth.getModulator("vibratoGain");
     const var vibratoTimbre = Synth.getModulator("vibratoTimbre");
 
-    //Round robin controller
+    //Round robin controllers
     const var roundRobinController = Synth.getMidiProcessor("roundRobinController");
+    const var overlayRoundRobin = Synth.getMidiProcessor("overlayRoundRobin");
 
     //Playable range filter
     const var rangeFilter = Synth.getMidiProcessor("rangeFilter");
@@ -88,8 +89,11 @@ namespace PresetHandler
             Content.getComponent("lblPreset").set("text", Engine.getCurrentUserPresetName());
 
         //Flutter controls
-        Content.getComponent("btnCC2").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter);
-        Content.getComponent("knbFlutter").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter);
+        Content.getComponent("btnCC2").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter || false);
+        Content.getComponent("knbFlutter").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter || false);
+        
+        //Enable/Disable sputato
+        overlayRoundRobin.setAttribute(overlayRoundRobin.btnSputato, Manifest.patches[PresetHandler.patch].hasSputato || false);
     }
 
     inline function onbtnPresetBrowserControl(component, value)

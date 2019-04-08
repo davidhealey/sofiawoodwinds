@@ -56,6 +56,7 @@ namespace Manifest
 		{
             range:[59, 96],
             hasFlutter: true,
+            hasSputato: true,
             ks:[24, 25, 26],
             legatoSettings:
             {
@@ -70,6 +71,7 @@ namespace Manifest
 		{
 			range: [55, 91],
 			hasFlutter: true,
+			hasSputato: true,
 			ks:[24, 25, 26],
 			legatoSettings:
 		    {

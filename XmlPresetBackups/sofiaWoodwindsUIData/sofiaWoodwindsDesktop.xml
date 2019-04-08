@@ -58,7 +58,7 @@
                height="54" text="Flutter" max="127" stepSize="1" middlePosition="64"
                processorId="flutterHandler" parameterId="knbFlutter" numStrips="101"
                filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png" parentComponent="pnlPage0"
-               scaleFactor="0.5" enabled="0"/>
+               scaleFactor="0.5"/>
     <Component type="ScriptSlider" id="knbVibratoIntensity" x="551" y="253"
                width="54" height="54" text="Vibrato Intensity" processorId="vibratoLFOIntensityCC"
                parameterId="DefaultValue" max="127" middlePosition="64" stepSize="1"
@@ -76,7 +76,7 @@
                scaleFactor="0.5"/>
     <Component type="ScriptButton" id="btnCC2" x="709" y="162" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" parentComponent="pnlPage0"
-               scaleFactor="0.5" enabled="0"/>
+               scaleFactor="0.5"/>
     <Component type="ScriptButton" id="btnCC3" x="607" y="290" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" parentComponent="pnlPage0"
                scaleFactor="0.5"/>
@@ -89,8 +89,7 @@
                visible="0"/>
     <Component type="ScriptTable" id="tblCC1" x="434" y="385" width="286" height="190"
                bgColour="4282729797" customColours="1" itemColour="4289504651"
-               itemColour2="3135299288" processorId="dynamicsCC" parentComponent="pnlPage0"
-               visible="0"/>
+               itemColour2="3135299288" processorId="dynamicsCC" parentComponent="pnlPage0"/>
     <Component type="ScriptTable" id="tblCC2" x="434" y="385" width="286" height="190"
                bgColour="4282729797" itemColour="4289504651" itemColour2="3135299288"
                customColours="1" processorId="flutterCC" parentComponent="pnlPage0"
@@ -105,17 +104,18 @@
                visible="0"/>
     <Component type="ScriptTable" id="tblVelocity" x="434" y="385" width="286"
                height="190" bgColour="4282729797" customColours="1" itemColour="4289504651"
-               itemColour2="3135299288" processorId="Velocity Modulator" parentComponent="pnlPage0"/>
+               itemColour2="3135299288" processorId="Velocity Modulator" parentComponent="pnlPage0"
+               visible="0"/>
     <Component type="ScriptLabel" id="lblParam" x="425" y="349" parentComponent="pnlPage0"
-               text="Velocity" alignment="left" fontName="Oxygen" fontSize="18"
+               text="Dynamics" alignment="left" fontName="Oxygen" fontSize="18"
                editable="0"/>
     <Component type="ScriptLabel" id="lblVelDynamics" x="596" y="345" parentComponent="pnlPage0"
                alignment="left" editable="0" text="Velocity Control" width="100"
-               fontName="Nimbus Sans L" height="40" saveInPreset="0" visible="0"/>
+               fontName="Nimbus Sans L" height="40" saveInPreset="0"/>
     <Component type="ScriptButton" id="btnVelDynamics" x="696" y="354" text="Vel = Dynamics"
                processorId="velocityShaper" parameterId="btnDynamics" parentComponent="pnlPage0"
                filmstripImage="{PROJECT_FOLDER}2X-env_button-rev.png" width="24"
-               height="24" saveInPreset="0" scaleFactor="0.5" visible="0"/>
+               height="24" saveInPreset="0" scaleFactor="0.5"/>
     <Component type="ScriptLabel" id="lblVibratoPitch" x="474" y="546" parentComponent="pnlPage0"
                alignment="left" editable="0" text="Pitch" width="50" fontName="Nimbus Sans L"
                height="40" saveInPreset="0" visible="0"/>
@@ -325,10 +325,9 @@
                    showValuePopup="Right" scaleFactor="0.5" enabled="0"/>
         <Component type="ScriptSlider" id="knbStaccatoGain" x="80" y="115" processorId="staccatoGain"
                    parameterId="knbGain" mode="Decibel" max="3" stepSize="0.1" suffix=" dB"
-                   middlePosition="-18" defaultValue="-6" min="-100" text="Staccato Gain"
-                   parentComponent="pnlArticulations" width="40" height="40" numStrips="101"
-                   filmstripImage="{PROJECT_FOLDER}2X-artic_knob_101f.png" showValuePopup="Right"
-                   scaleFactor="0.5"/>
+                   middlePosition="-18" min="-100" text="Staccato Gain" parentComponent="pnlArticulations"
+                   width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-artic_knob_101f.png"
+                   showValuePopup="Right" scaleFactor="0.5"/>
         <Component type="ScriptSlider" id="knbStaccRelease" x="180" y="115" mode="Time"
                    max="20000" stepSize="1" suffix=" ms" middlePosition="1000" defaultValue="800"
                    min="50" text="Release" isPluginParameter="1" pluginParameterName="Release Tm"
@@ -362,7 +361,7 @@
     <Component type="ScriptFloatingTile" id="fltSettings" x="6" y="6" width="853"
                height="346" parentComponent="pnlPage1" Font="Oxygen-Regular"
                FontSize="18" bgColour="4283519313" itemColour2="4294951115"
-               itemColour="4284900966" ContentType="Tabs" Data="{&#13;&#10;  &quot;Dynamic&quot;: false,&#13;&#10;  &quot;Content&quot;: [&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;CustomSettings&quot;,&#13;&#10;      &quot;Title&quot;: &quot;Engine&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;0&quot;&#13;&#10;      },&#13;&#10;      &quot;Driver&quot;: true,&#13;&#10;      &quot;Device&quot;: true,&#13;&#10;      &quot;Output&quot;: true,&#13;&#10;      &quot;BufferSize&quot;: true,&#13;&#10;      &quot;SampleRate&quot;: true,&#13;&#10;      &quot;GlobalBPM&quot;: false,&#13;&#10;      &quot;StreamingMode&quot;: true,&#13;&#10;      &quot;GraphicRendering&quot;: false,&#13;&#10;      &quot;ScaleFactor&quot;: true,&#13;&#10;      &quot;SustainCC&quot;: false,&#13;&#10;      &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;      &quot;ClearMidiCC&quot;: true,&#13;&#10;      &quot;SampleLocation&quot;: true,&#13;&#10;      &quot;DebugMode&quot;: false,&#13;&#10;      &quot;ScaleFactorList&quot;: [&#13;&#10;        1,&#13;&#10;        1.25,&#13;&#10;        1.5,&#13;&#10;        2&#13;&#10;      ]&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiSources&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Input&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;0&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiChannelList&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Channel&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;0&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiLearnPanel&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Automation&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;textColour&quot;: &quot;ffffffff&quot;,&#13;&#10;        &quot;itemColour1&quot;: &quot;ff735948&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;AboutPagePanel&quot;,&#13;&#10;      &quot;Title&quot;: &quot;About&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;0&quot;&#13;&#10;      },&#13;&#10;      &quot;CopyrightNotice&quot;: &quot;\u00a9 2019, David Healey&quot;,&#13;&#10;      &quot;ShowLicensedEmail&quot;: false,&#13;&#10;      &quot;ShowVersion&quot;: true,&#13;&#10;      &quot;BuildDate&quot;: true,&#13;&#10;      &quot;WebsiteURL&quot;: &quot;https://librewave.com&quot;,&#13;&#10;      &quot;ShowProductName&quot;: true,&#13;&#10;      &quot;UseCustomImage&quot;: false&#13;&#10;    }&#13;&#10;  ],&#13;&#10;  &quot;CurrentTab&quot;: 0&#13;&#10;}"
+               itemColour="4284900966" ContentType="Tabs" Data="{&#13;&#10;  &quot;Dynamic&quot;: false,&#13;&#10;  &quot;Content&quot;: [&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;CustomSettings&quot;,&#13;&#10;      &quot;Title&quot;: &quot;Engine&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;0&quot;&#13;&#10;      },&#13;&#10;      &quot;Driver&quot;: true,&#13;&#10;      &quot;Device&quot;: true,&#13;&#10;      &quot;Output&quot;: true,&#13;&#10;      &quot;BufferSize&quot;: true,&#13;&#10;      &quot;SampleRate&quot;: true,&#13;&#10;      &quot;GlobalBPM&quot;: false,&#13;&#10;      &quot;StreamingMode&quot;: true,&#13;&#10;      &quot;GraphicRendering&quot;: false,&#13;&#10;      &quot;ScaleFactor&quot;: true,&#13;&#10;      &quot;SustainCC&quot;: false,&#13;&#10;      &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;      &quot;ClearMidiCC&quot;: true,&#13;&#10;      &quot;SampleLocation&quot;: true,&#13;&#10;      &quot;DebugMode&quot;: false,&#13;&#10;      &quot;ScaleFactorList&quot;: [&#13;&#10;        0.5,&#13;&#10;        0.75,&#13;&#10;        1,&#13;&#10;        1.25,&#13;&#10;        1.5,&#13;&#10;        2&#13;&#10;      ]&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiSources&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Input&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;0&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiChannelList&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Channel&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;0&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiLearnPanel&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Automation&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;textColour&quot;: &quot;ffffffff&quot;,&#13;&#10;        &quot;itemColour1&quot;: &quot;ff735948&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;AboutPagePanel&quot;,&#13;&#10;      &quot;Title&quot;: &quot;About&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;&quot;,&#13;&#10;      &quot;FontSize&quot;: 16,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;0&quot;&#13;&#10;      },&#13;&#10;      &quot;CopyrightNotice&quot;: &quot;\u00a9 2019, David Healey&quot;,&#13;&#10;      &quot;ShowLicensedEmail&quot;: false,&#13;&#10;      &quot;ShowVersion&quot;: true,&#13;&#10;      &quot;BuildDate&quot;: true,&#13;&#10;      &quot;WebsiteURL&quot;: &quot;https://librewave.com&quot;,&#13;&#10;      &quot;ShowProductName&quot;: true,&#13;&#10;      &quot;UseCustomImage&quot;: false&#13;&#10;    }&#13;&#10;  ],&#13;&#10;  &quot;CurrentTab&quot;: 0&#13;&#10;}"
                itemColour3="4294901760"/>
   </Component>
   <Component type="ScriptPanel" id="pnlPage2" x="167" y="152" width="866"
@@ -404,7 +403,7 @@
     <Component type="ScriptButton" id="btnPresetBrowser" x="1156" y="20" text="&lt; Preset"
                saveInPreset="0" parentComponent="pnlHeader" width="24" height="24"
                filmstripImage="{PROJECT_FOLDER}2X-preset_menu.png" scaleFactor="0.5"/>
-    <Component type="ScriptLabel" id="lblPreset" x="950" y="17" text="Concert Flute I"
+    <Component type="ScriptLabel" id="lblPreset" x="950" y="17" text="Concert Flute II"
                width="186" editable="0" parentComponent="pnlHeader" height="24"
                fontSize="16" saveInPreset="0"/>
   </Component>

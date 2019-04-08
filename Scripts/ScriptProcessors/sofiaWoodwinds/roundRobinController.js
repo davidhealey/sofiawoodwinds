@@ -8,7 +8,8 @@ btnBypass.setControlCallback(onbtnBypassControl);
 inline function onbtnBypassControl(control, value)
 {
     sustainRoundRobin.setBypassed(1-value);
-    overlayRoundRobin.setBypassed(1-value);
+    overlayRoundRobin.setAttribute(overlayRoundRobin.btnEnabled, value);
+    
 }
 
 const var knbLow = Content.addKnob("knbLow", 150, 0);
@@ -19,7 +20,6 @@ knbLow.setControlCallback(onknbLowControl);
 inline function onknbLowControl(control, value)
 {
     sustainRoundRobin.setAttribute(sustainRoundRobin.knbLowNote, value);
-    overlayRoundRobin.setAttribute(overlayRoundRobin.knbLowNote, value);
 }
 
 const var knbHigh = Content.addKnob("knbHigh", 300, 0);
@@ -30,7 +30,6 @@ knbHigh.setControlCallback(onknbHighControl);
 inline function onknbHighControl(control, value)
 {
     sustainRoundRobin.setAttribute(sustainRoundRobin.knbHighNote, value);
-    overlayRoundRobin.setAttribute(overlayRoundRobin.knbHighNote, value);
 }function onNoteOn()
 {
 	

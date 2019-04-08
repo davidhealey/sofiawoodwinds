@@ -8,7 +8,7 @@ reg eventId;function onNoteOn()
 	if (Synth.isLegatoInterval() && !Synth.isSustainPedalDown() && Engine.getNumVoices() > 0)
     {
         Message.setNoteNumber(lastNote);
-        Message.setVelocity(90);
+        Message.setVelocity(Math.randInt(1, 3));
         retriggerNote = lastNote;
     }
     else
