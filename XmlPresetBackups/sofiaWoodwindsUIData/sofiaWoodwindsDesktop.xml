@@ -403,7 +403,7 @@
     <Component type="ScriptButton" id="btnPresetBrowser" x="1156" y="20" text="&lt; Preset"
                saveInPreset="0" parentComponent="pnlHeader" width="24" height="24"
                filmstripImage="{PROJECT_FOLDER}2X-preset_menu.png" scaleFactor="0.5"/>
-    <Component type="ScriptLabel" id="lblPreset" x="950" y="17" text="Concert Flute II"
+    <Component type="ScriptLabel" id="lblPreset" x="950" y="17" text="Alto Flute"
                width="186" editable="0" parentComponent="pnlHeader" height="24"
                fontSize="16" saveInPreset="0"/>
   </Component>
