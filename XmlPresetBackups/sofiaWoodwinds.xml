@@ -67,7 +67,7 @@
             <Control type="ScriptSlider" id="knbRelDecay" value="5000"/>
             <Control type="ScriptButton" id="btnRelPurge" value="1"/>
             <Control type="ScriptPanel" id="pnlHeader" value="0"/>
-            <Control type="ScriptComboBox" id="cmbPatch" value="13"/>
+            <Control type="ScriptComboBox" id="cmbPatch" value="11"/>
             <Control type="ScriptSlider" id="knbLegAtk" value="150"/>
           </Content>
           <UIData Source="sofiaWoodwindsUIData"/>
@@ -75,7 +75,7 @@
         <Processor Type="ScriptProcessor" ID="velocityShaper" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptTable" id="tblVel" value="59" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblVel" value="45" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptButton" id="btnDynamics" value="0"/>
           </Content>
           <UIData>
@@ -139,8 +139,8 @@
           <ChildProcessors/>
           <Content>
             <Control type="ScriptButton" id="btnBypass" value="0"/>
-            <Control type="ScriptSlider" id="knbLow" value="22"/>
-            <Control type="ScriptSlider" id="knbHigh" value="55"/>
+            <Control type="ScriptSlider" id="knbLow" value="34"/>
+            <Control type="ScriptSlider" id="knbHigh" value="74"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
@@ -155,8 +155,8 @@
         <Processor Type="ScriptProcessor" ID="rangeFilter" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptSlider" id="knbLow" value="22"/>
-            <Control type="ScriptSlider" id="knbHigh" value="55"/>
+            <Control type="ScriptSlider" id="knbLow" value="34"/>
+            <Control type="ScriptSlider" id="knbHigh" value="74"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
@@ -387,15 +387,15 @@
                        Group2Table="36...............vOcL7B+.........vO...f+....9C..fxO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="contrabassoon_sustain">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="bassoon1_sustain">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors>
                     <Processor Type="ScriptProcessor" ID="sustainRoundRobin" Bypassed="1" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptSlider" id="knbLowNote" value="22"/>
-                        <Control type="ScriptSlider" id="knbHighNote" value="55"/>
+                        <Control type="ScriptSlider" id="knbLowNote" value="34"/>
+                        <Control type="ScriptSlider" id="knbHighNote" value="74"/>
                         <Control type="ScriptSlider" id="knbResetTime" value="2"/>
                         <Control type="ScriptSlider" id="knbFineTune" value="0"/>
                         <Control type="ScriptSlider" id="knbGain" value="2"/>
@@ -421,11 +421,11 @@
                         <Control type="ScriptButton" id="btnMute" value="0"/>
                         <Control type="ScriptSlider" id="knbOffset" value="150"/>
                         <Control type="ScriptButton" id="btnRetrigger" value="1"/>
-                        <Control type="ScriptSlider" id="knbFadeMin" value="35"/>
-                        <Control type="ScriptSlider" id="knbFadeMax" value="70"/>
+                        <Control type="ScriptSlider" id="knbFadeMin" value="30"/>
+                        <Control type="ScriptSlider" id="knbFadeMax" value="60"/>
                         <Control type="ScriptSlider" id="knbFadeOut" value="80"/>
-                        <Control type="ScriptSlider" id="knbBendTm" value="-10"/>
-                        <Control type="ScriptSlider" id="knbBendMin" value="25"/>
+                        <Control type="ScriptSlider" id="knbBendTm" value="0"/>
+                        <Control type="ScriptSlider" id="knbBendMin" value="20"/>
                         <Control type="ScriptSlider" id="knbBendMax" value="50"/>
                         <Control type="ScriptSlider" id="knbRate" value="9"/>
                         <Control type="ScriptButton" id="btnGlideVel" value="0"/>
@@ -558,7 +558,7 @@
                        Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="contrabassoon_staccato">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="bassoon1_staccato">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors>
@@ -723,7 +723,7 @@
                        Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="contrabassoon_staccato">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="bassoon1_staccato">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors>
@@ -828,22 +828,22 @@
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="StreamingSampler" ID="flutter" Bypassed="1" Gain="1" Balance="0"
+            <Processor Type="StreamingSampler" ID="flutter" Bypassed="0" Gain="1" Balance="0"
                        VoiceLimit="256" KillFadeTime="20" IconColour="0" PreloadSize="8192"
                        BufferSize="4096" VoiceAmount="256" SamplerRepeatMode="3" RRGroupAmount="1"
                        PitchTracking="1" OneShot="0" CrossfadeGroups="0" Purged="0"
-                       Reversed="0" NumChannels="1" UseStaticMatrix="0" Group0Table="24...............vO...f+....9C...vO"
+                       Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="24...............vO...f+....9C...vO"
                        Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
                        Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                        Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="empty">
+                       Group7Table="24...............vO...f+....9C...vO" SampleMapID="bassoon1_flutter">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors>
                     <Processor Type="MidiMuter" ID="flutterMidiMuter" Bypassed="0">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="ignoreButton" value="0"/>
+                        <Control type="ScriptButton" id="ignoreButton" value="1"/>
                         <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                       </Content>
                     </Processor>
@@ -880,9 +880,13 @@
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
-              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+              <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                             Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
+                             Send4="-1" Channel5="5" Send5="-1"/>
               <channels>
-                <channelData enabled="1" level="0" suffix=""/>
+                <channelData enabled="1" level="0" suffix="close"/>
+                <channelData enabled="1" level="0" suffix="decca"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
             </Processor>
           </ChildProcessors>
@@ -899,7 +903,7 @@
                    Group2Table="36...............vOIN0+9.........vO...f+....9C..HyO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="contrabassoon_release">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="bassoon1_release">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -916,8 +920,8 @@
                     <Control type="ScriptButton" id="btnMute" value="0"/>
                     <Control type="ScriptButton" id="btnLegato" value="1"/>
                     <Control type="ScriptButton" id="Attenuate" value="0"/>
-                    <Control type="ScriptSlider" id="Time" value="0"/>
-                    <Control type="ScriptTable" id="tblTime" value="0" data="24...............vO...f+....9C...vO"/>
+                    <Control type="ScriptSlider" id="Time" value="2.5"/>
+                    <Control type="ScriptTable" id="tblTime" value="64" data="24...............vO...f+....9C...vO"/>
                   </Content>
                   <UIData>
                     <ContentProperties DeviceType="Desktop">

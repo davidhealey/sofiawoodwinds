@@ -273,7 +273,8 @@ namespace Manifest
                 "legatoBypass":true,
                 "overlayFilterBypass":true,
                 "releaseLegato":false
-            }
+            },
+            "releaseAttenuation":true
         }
     };
 }

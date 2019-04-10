@@ -60,7 +60,7 @@
                height="54" text="Flutter" max="127" stepSize="1" middlePosition="64"
                processorId="flutterHandler" parameterId="knbFlutter" numStrips="101"
                filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png" parentComponent="pnlPage0"
-               scaleFactor="0.5" showValuePopup="Above" enabled="0"/>
+               scaleFactor="0.5" showValuePopup="Above"/>
     <Component type="ScriptSlider" id="knbVibratoIntensity" x="551" y="253"
                width="54" height="54" text="Vibrato Intensity" processorId="vibratoLFOIntensityCC"
                parameterId="DefaultValue" max="127" middlePosition="64" stepSize="1"
@@ -79,7 +79,7 @@
                scaleFactor="0.5"/>
     <Component type="ScriptButton" id="btnCC2" x="709" y="162" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" parentComponent="pnlPage0"
-               scaleFactor="0.5" enabled="0"/>
+               scaleFactor="0.5"/>
     <Component type="ScriptButton" id="btnCC3" x="607" y="290" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" parentComponent="pnlPage0"
                scaleFactor="0.5"/>
@@ -415,7 +415,7 @@
     <Component type="ScriptButton" id="btnPresetBrowser" x="1156" y="20" text="&lt; Preset"
                saveInPreset="0" parentComponent="pnlHeader" width="24" height="24"
                filmstripImage="{PROJECT_FOLDER}2X-preset_menu.png" scaleFactor="0.5"/>
-    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Contrabassoon I"
+    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Bassoon I"
                width="190" editable="0" parentComponent="pnlHeader" height="27"
                fontSize="18" saveInPreset="0" fontName="Asap-Regular"/>
   </Component>

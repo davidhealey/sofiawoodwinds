@@ -110,9 +110,9 @@ namespace Articulations
             muter.overlay.setAttribute(muter.overlay.ignoreButton, values.muter.overlay);
             muter.staccato.setAttribute(muter.staccato.ignoreButton, values.muter.staccato);
             muter.flutter.setAttribute(muter.flutter.ignoreButton, values.muter.flutter);
-            muter.release.setAttribute(muter.release.ignoreButton, values.muter.release);
             legatoHandler.setAttribute(legatoHandler.btnMute, values.processors.legatoBypass);
             overlayVelocityFilter.setBypassed(values.processors.overlayFilterBypass);
+            releaseHandler.setAttribute(releaseHandler.Attenuate, values.releaseAttenuation || false);
             
             //Specific articulation settings
             if (name == "legato")
@@ -131,6 +131,9 @@ namespace Articulations
                 envelope.staccato.asTableProcessor().setTablePoint(0, 0, 0, 0, 0.5);
                 envelope.staccato.asTableProcessor().setTablePoint(0, 1, 1, 0, 0.4);
                 envelope.staccato.asTableProcessor().addTablePoint(0, 0.03, 1);
+                
+                //Release trigger
+                releaseHandler.setAttribute(releaseHandler.btnLegato, true);
             }
             else
             {
@@ -145,6 +148,9 @@ namespace Articulations
                 //Overlay/staccato envelope
                 envelope.staccato.asTableProcessor().reset(0);
                 envelope.staccato.setAttribute(envelope.staccato.Attack, 2);
+                
+                //Release trigger
+                releaseHandler.setAttribute(releaseHandler.btnLegato, false);                
             }
                    
             Articulations.last = Articulations.current;
