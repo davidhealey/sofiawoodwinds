@@ -75,7 +75,7 @@
         <Processor Type="ScriptProcessor" ID="velocityShaper" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptTable" id="tblVel" value="45" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblVel" value="78" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptButton" id="btnDynamics" value="0"/>
           </Content>
           <UIData>
@@ -323,7 +323,7 @@
       </ChildProcessors>
       <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
     </Processor>
-    <Processor Type="SynthChain" ID="Main" Bypassed="0" Gain="0.19952624" Balance="0"
+    <Processor Type="SynthChain" ID="Main" Bypassed="0" Gain="0.25118864" Balance="0"
                VoiceLimit="256" KillFadeTime="20" IconColour="0">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -380,7 +380,7 @@
             </Processor>
             <Processor Type="StreamingSampler" ID="sustain" Bypassed="0" Gain="1" Balance="0"
                        VoiceLimit="128" KillFadeTime="50" IconColour="0" PreloadSize="4096"
-                       BufferSize="4096" VoiceAmount="128" SamplerRepeatMode="1" RRGroupAmount="3"
+                       BufferSize="2048" VoiceAmount="128" SamplerRepeatMode="1" RRGroupAmount="3"
                        PitchTracking="1" OneShot="0" CrossfadeGroups="1" Purged="0"
                        Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="36..........9C...vOgxd+9........3rO...f+.........vO"
                        Group1Table="36.......TRRvC...vOPhE.+....9C..HyO...f+........voO"
@@ -551,7 +551,7 @@
             </Processor>
             <Processor Type="StreamingSampler" ID="transitions" Bypassed="0" Gain="1"
                        Balance="0" VoiceLimit="64" KillFadeTime="100" IconColour="0"
-                       PreloadSize="4096" BufferSize="4096" VoiceAmount="96" SamplerRepeatMode="0"
+                       PreloadSize="4096" BufferSize="2048" VoiceAmount="96" SamplerRepeatMode="0"
                        RRGroupAmount="3" PitchTracking="1" OneShot="0" CrossfadeGroups="1"
                        Purged="0" Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="36..........9C...vOSbp+9........3rO...f+.........vO"
                        Group1Table="36...............vOIN0+9....9C..HyO...f+........voO"
@@ -716,7 +716,7 @@
             </Processor>
             <Processor Type="StreamingSampler" ID="staccato" Bypassed="0" Gain="1" Balance="0"
                        VoiceLimit="64" KillFadeTime="50" IconColour="0" PreloadSize="4096"
-                       BufferSize="4096" VoiceAmount="96" SamplerRepeatMode="1" RRGroupAmount="3"
+                       BufferSize="2048" VoiceAmount="96" SamplerRepeatMode="1" RRGroupAmount="3"
                        PitchTracking="1" OneShot="0" CrossfadeGroups="1" Purged="0"
                        Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="36..........9C...vOf6z+9........3rO...f+.........vO"
                        Group1Table="36...............vOSbp+9....9C..HyO...f+........voO"
@@ -829,8 +829,8 @@
               <ChildProcessors/>
             </Processor>
             <Processor Type="StreamingSampler" ID="flutter" Bypassed="0" Gain="1" Balance="0"
-                       VoiceLimit="256" KillFadeTime="20" IconColour="0" PreloadSize="8192"
-                       BufferSize="4096" VoiceAmount="256" SamplerRepeatMode="3" RRGroupAmount="1"
+                       VoiceLimit="256" KillFadeTime="20" IconColour="0" PreloadSize="4096"
+                       BufferSize="2048" VoiceAmount="256" SamplerRepeatMode="3" RRGroupAmount="1"
                        PitchTracking="1" OneShot="0" CrossfadeGroups="0" Purged="0"
                        Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="24...............vO...f+....9C...vO"
                        Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
@@ -896,7 +896,7 @@
         </Processor>
         <Processor Type="StreamingSampler" ID="release" Bypassed="0" Gain="1" Balance="0"
                    VoiceLimit="64" KillFadeTime="100" IconColour="0" PreloadSize="4096"
-                   BufferSize="4096" VoiceAmount="96" SamplerRepeatMode="0" RRGroupAmount="3"
+                   BufferSize="2048" VoiceAmount="96" SamplerRepeatMode="0" RRGroupAmount="3"
                    PitchTracking="1" OneShot="0" CrossfadeGroups="1" Purged="0"
                    Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="36..........9C...vOSbp+9........3rO...f+.........vO"
                    Group1Table="36...............vOIN0+9....9C..HyO...f+........voO"
