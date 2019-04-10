@@ -25,13 +25,17 @@ include("preloadBar.js");
 Content.makeFrontInterface(1200, 740);
 Synth.deferCallbacks(true);
 
+//Fonts
+Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Asap-Regular.ttf", "Asap-Regular");
+Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Asap-Medium.ttf", "Asap-Medium");
+Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Asap-SemiBold.ttf", "Asap-SemiBold");
+
 //Loop iterators
 reg i;
 reg j;
 
 //Midi Processors
 const var legatoHandler = Synth.getMidiProcessor("legato"); //Legato handler
-
 
 //Glide rate knob and velocity > glide rate button
 inline function onbtnVelocityRateControl(component, value)

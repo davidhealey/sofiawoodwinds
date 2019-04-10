@@ -64,8 +64,8 @@ namespace Articulations
         
             //Draw text
             g.setColour(0xFF000000);
-            g.setFont("Arial", 18);
-            g.drawAlignedText(text[i], [10, i*54, 316, 50], "left");
+            g.setFont("Asap-SemiBold", 18);
+            g.drawAlignedText(text[i], [10, i*55, 316, 50], "left");
         }
     
         //Set panel height
