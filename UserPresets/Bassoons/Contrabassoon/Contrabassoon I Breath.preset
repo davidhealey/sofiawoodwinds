@@ -4,10 +4,10 @@
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="knbOffset" value="150"/>
     <Control type="ScriptSlider" id="knbLegatoDecay" value="90"/>
-    <Control type="ScriptSlider" id="knbTransitionGain" value="-12"/>
+    <Control type="ScriptSlider" id="knbTransitionGain" value="-5.9999986"/>
     <Control type="ScriptSlider" id="knbGlideRate" value="9"/>
     <Control type="ScriptButton" id="btnVelocityRate" value="0"/>
-    <Control type="ScriptButton" id="btnRR" value="0"/>
+    <Control type="ScriptButton" id="btnRR" value="1"/>
     <Control type="ScriptSlider" id="knbExpression" value="127"/>
     <Control type="ScriptSlider" id="knbDynamics" value="64"/>
     <Control type="ScriptSlider" id="knbFlutter" value="0"/>
@@ -25,9 +25,9 @@
     <Control type="ScriptTable" id="tblCC4" value="0" data="24...............vO...f+....9C..HtO"/>
     <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C...vO"/>
     <Control type="ScriptButton" id="btnVelDynamics" value="0"/>
-    <Control type="ScriptSlider" id="knbVibratoPitch" value="0.2"/>
-    <Control type="ScriptSlider" id="knbVibratoGain" value="0.30000001"/>
-    <Control type="ScriptSlider" id="knbVibratoTimbre" value="0.2"/>
+    <Control type="ScriptSlider" id="knbVibratoPitch" value="0.12"/>
+    <Control type="ScriptSlider" id="knbVibratoGain" value="0.5"/>
+    <Control type="ScriptSlider" id="knbVibratoTimbre" value="0.25"/>
     <Control type="ScriptSlider" id="sliVolMaster" value="-2.9999986"/>
     <Control type="ScriptSlider" id="sliPanMaster" value="2.0816682e-17"/>
     <Control type="ScriptSlider" id="sliCoarseTune" value="0"/>
@@ -35,7 +35,7 @@
     <Control type="ScriptSlider" id="sliVol0" value="-5.9999986"/>
     <Control type="ScriptSlider" id="sliVol1" value="-5.9999986"/>
     <Control type="ScriptSlider" id="sliVol2" value="-5.9999986"/>
-    <Control type="ScriptSlider" id="knbPan0" value="40"/>
+    <Control type="ScriptSlider" id="knbPan0" value="70"/>
     <Control type="ScriptSlider" id="knbPan1" value="0"/>
     <Control type="ScriptSlider" id="knbPan2" value="0"/>
     <Control type="ScriptSlider" id="knbDelay0" value="0"/>
@@ -50,7 +50,7 @@
     <Control type="ScriptButton" id="btnPurge0" value="1"/>
     <Control type="ScriptButton" id="btnPurge1" value="1"/>
     <Control type="ScriptButton" id="btnPurge2" value="1"/>
-    <Control type="ScriptButton" id="btnBreathControl" value="0"/>
+    <Control type="ScriptButton" id="btnBreathControl" value="1"/>
     <Control type="ScriptSlider" id="knbSusAttack" value="5"/>
     <Control type="ScriptSlider" id="knbSusRelease" value="350"/>
     <Control type="ScriptSlider" id="knbLiveRelease" value="350"/>
@@ -60,22 +60,19 @@
     <Control type="ScriptSlider" id="knbRelDecay" value="5000"/>
     <Control type="ScriptButton" id="btnRelPurge" value="1"/>
     <Control type="ScriptPanel" id="pnlHeader" value="0"/>
-    <Control type="ScriptComboBox" id="cmbPatch" value="10"/>
+    <Control type="ScriptComboBox" id="cmbPatch" value="13"/>
     <Control type="ScriptSlider" id="knbLegAtk" value="150"/>
   </Content>
   <MidiAutomation>
     <Controller Controller="1" Processor="Interface" MacroIndex="-1" Start="0"
                 End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
-                Attribute="knbDynamics" Inverted="0"/>
-    <Controller Controller="5" Processor="Interface" MacroIndex="-1" Start="0"
-                End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
-                Attribute="knbFlutter" Inverted="0"/>
-    <Controller Controller="11" Processor="Interface" MacroIndex="-1" Start="0"
+                Attribute="knbVibratoIntensity" Inverted="0"/>
+    <Controller Controller="2" Processor="Interface" MacroIndex="-1" Start="20"
                 End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
                 Attribute="knbExpression" Inverted="0"/>
-    <Controller Controller="20" Processor="Interface" MacroIndex="-1" Start="0"
+    <Controller Controller="2" Processor="Interface" MacroIndex="-1" Start="0"
                 End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
-                Attribute="knbVibratoIntensity" Inverted="0"/>
+                Attribute="knbDynamics" Inverted="0"/>
     <Controller Controller="21" Processor="Interface" MacroIndex="-1" Start="0"
                 End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
                 Attribute="knbVibratoRate" Inverted="0"/>

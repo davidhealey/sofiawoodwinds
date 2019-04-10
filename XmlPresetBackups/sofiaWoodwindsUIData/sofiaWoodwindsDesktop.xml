@@ -113,7 +113,7 @@
                itemColour2="3135299288" processorId="Velocity Modulator" parentComponent="pnlPage0"/>
     <Component type="ScriptLabel" id="lblParam" x="427" y="349" parentComponent="pnlPage0"
                text="Velocity" alignment="left" fontName="Asap-SemiBold" fontSize="18"
-               editable="0" width="140"/>
+               editable="0" width="140" saveInPreset="0"/>
     <Component type="ScriptLabel" id="lblVelDynamics" x="580" y="344" parentComponent="pnlPage0"
                alignment="left" editable="0" text="Velocity Control" width="115"
                fontName="Asap-Regular" height="39" saveInPreset="0" fontSize="16"
@@ -426,7 +426,7 @@
     <Component type="ScriptButton" id="btnPresetBrowser" x="1156" y="20" text="&lt; Preset"
                saveInPreset="0" parentComponent="pnlHeader" width="24" height="24"
                filmstripImage="{PROJECT_FOLDER}2X-preset_menu.png" scaleFactor="0.5"/>
-    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Bb Clarinet I"
+    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Concert Flute I"
                width="190" editable="0" parentComponent="pnlHeader" height="27"
                fontSize="18" saveInPreset="0" fontName="Asap-Regular"/>
   </Component>
