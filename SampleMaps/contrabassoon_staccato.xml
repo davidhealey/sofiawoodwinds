@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="contrabassoon_staccato" SaveMode="2" FileName="contrabassoon_staccato"
-           MicPositions="close;decca;hall;" RRGroupAmount="3">
+<samplemap ID="contrabassoon_staccato" SaveMode="2" FileName="contrabassoon_staccato" MicPositions="close;decca;hall;" RRGroupAmount="3">
   <sample Root="22" LoKey="22" HiKey="22" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="0" MonolithLength="81920" SampleRate="48000"
           SampleStartMod="2500">

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="flute1_staccato" SaveMode="2" MicPositions="close;decca;hall;"
-           RRGroupAmount="3">
+<samplemap ID="flute1_staccato" SaveMode="2" MicPositions="close;decca;hall;" RRGroupAmount="3">
   <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="0" MonolithLength="61440" SampleRate="48000"
           SampleStartMod="3500">

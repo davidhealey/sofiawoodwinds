@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="englishHorn_staccato" SaveMode="2" MicPositions="close;decca;hall;"
-           RRGroupAmount="3">
+<samplemap ID="englishHorn_staccato" SaveMode="2" MicPositions="close;decca;hall;" RRGroupAmount="3">
   <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="0" MonolithLength="86016" SampleRate="48000"
           SampleStartMod="2500">
