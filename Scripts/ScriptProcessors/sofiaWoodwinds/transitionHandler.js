@@ -8,7 +8,7 @@ reg eventId;function onNoteOn()
 	if (Synth.isLegatoInterval() && !Synth.isSustainPedalDown() && Engine.getNumVoices() > 0)
     {
         Message.setNoteNumber(lastNote);
-        Message.setVelocity(Math.randInt(1, 4));
+        Message.setVelocity(Math.randInt(1, 6));
         retriggerNote = lastNote;
     }
     else
@@ -27,7 +27,7 @@ reg eventId;function onNoteOn()
     
     if (Message.getNoteNumber() == lastNote && retriggerNote != -1 && Engine.getNumVoices() > 0)
     {
-        eventId = Synth.playNote(lastNote, 90);
+        eventId = Synth.playNote(lastNote, Math.randInt(1, 6));
         Synth.addPitchFade(eventId, 0, Message.getCoarseDetune(), Message.getFineDetune());
         
         lastNote = retriggerNote;

@@ -9,7 +9,7 @@ btnSputato.set("text", "Sputato");function onNoteOn()
 	else
     {
         if (btnEnabled.getValue())
-            Message.setVelocity(Math.randInt(1, 4));
+            Message.setVelocity(Math.randInt(1, 6));
         else
             Message.setVelocity(1);       
     }
