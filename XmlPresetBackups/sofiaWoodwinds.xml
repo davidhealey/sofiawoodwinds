@@ -32,6 +32,7 @@
             <Control type="ScriptTable" id="tblCC4" value="0" data="24...............vO...f+....9C..HtO"/>
             <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptLabel" id="lblParam" value="Velocity"/>
+            <Control type="ScriptButton" id="btnVelDynamics" value="0"/>
             <Control type="ScriptSlider" id="knbVibratoPitch" value="0.12"/>
             <Control type="ScriptSlider" id="knbVibratoGain" value="0.5"/>
             <Control type="ScriptSlider" id="knbVibratoTimbre" value="0.25"/>
@@ -75,7 +76,7 @@
         <Processor Type="ScriptProcessor" ID="velocityShaper" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptTable" id="tblVel" value="78" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblVel" value="60" data="24...............vO...f+....9C...vO"/>
             <Control type="ScriptButton" id="btnDynamics" value="0"/>
           </Content>
           <UIData>
@@ -843,7 +844,7 @@
                     <Processor Type="MidiMuter" ID="flutterMidiMuter" Bypassed="0">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="ignoreButton" value="1"/>
+                        <Control type="ScriptButton" id="ignoreButton" value="0"/>
                         <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                       </Content>
                     </Processor>

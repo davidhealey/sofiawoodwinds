@@ -119,7 +119,8 @@
     <Component type="ScriptButton" id="btnVelDynamics" x="696" y="353" text="Vel = Dynamics"
                processorId="velocityShaper" parameterId="btnDynamics" parentComponent="pnlPage0"
                filmstripImage="{PROJECT_FOLDER}2X-env_button-rev.png" width="24"
-               height="24" saveInPreset="0" scaleFactor="0.5" visible="0"/>
+               height="24" scaleFactor="0.5" visible="0" isPluginParameter="1"
+               pluginParameterName="Velocity Dynamics"/>
     <Component type="ScriptLabel" id="lblVibratoPitch" x="474" y="546" parentComponent="pnlPage0"
                alignment="left" editable="0" text="Pitch" width="51" fontName="Asap-Regular"
                height="40" saveInPreset="0" fontSize="16" visible="0"/>
