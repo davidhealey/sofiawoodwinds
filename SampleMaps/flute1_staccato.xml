@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="flute1_staccato" SaveMode="2" MicPositions="close;decca;hall;" RRGroupAmount="3">
+<samplemap ID="flute1_staccato" SaveMode="2" MicPositions="close;decca;hall;"
+           RRGroupAmount="3">
   <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="0" MonolithLength="61440" SampleRate="48000"
-          SampleStartMod="3500">
+          SampleStartMod="8219">
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_close_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_decca_60_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_hall_60_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="61440" MonolithLength="53248" SampleRate="48000"
-          SampleStartMod="3500">
+          SampleStartMod="11932">
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_close_60_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_decca_60_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_hall_60_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="114688" MonolithLength="61440"
-          SampleRate="48000" SampleStartMod="6781">
+          SampleRate="48000" SampleStartMod="10274">
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_close_60_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_decca_60_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_hall_60_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="176128" MonolithLength="77824"
-          SampleRate="48000" SampleStartMod="5986">
+          SampleRate="48000" SampleStartMod="7808">
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_close_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_decca_60_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_hall_60_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="253952" MonolithLength="86016"
-          SampleRate="48000" SampleStartMod="4747">
+          SampleRate="48000" SampleStartMod="4891">
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_close_60_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_decca_60_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_hall_60_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="339968" MonolithLength="73728"
-          SampleRate="48000" SampleStartMod="3500">
+          SampleRate="48000" SampleStartMod="4438">
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_close_60_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_decca_60_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_hall_60_dynamic2_rr3.wav"/>
@@ -52,7 +53,7 @@
   </sample>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="491520" MonolithLength="90112"
-          SampleRate="48000" SampleStartMod="3500">
+          SampleRate="48000" SampleStartMod="753">
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_close_60_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_decca_60_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}flute1/staccato/flute1_staccato_hall_60_dynamic3_rr2.wav"/>
