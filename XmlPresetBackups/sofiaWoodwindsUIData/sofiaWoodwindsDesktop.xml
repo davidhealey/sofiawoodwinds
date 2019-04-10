@@ -317,12 +317,6 @@
                    processorId="legato" parameterId="btnBc" parentComponent="pnlArticulations"
                    width="28" height="28" filmstripImage="{PROJECT_FOLDER}2X-artic_button.png"
                    scaleFactor="0.5"/>
-        <Component type="ScriptSlider" id="knbLiveRelease" x="180" y="5" mode="Time"
-                   max="800" stepSize="1" suffix=" ms" middlePosition="400" defaultValue="350"
-                   min="150" text="Release" isPluginParameter="1" pluginParameterName="Release Tm"
-                   parentComponent="pnlArticulations" width="40" height="40" numStrips="101"
-                   filmstripImage="{PROJECT_FOLDER}2X-artic_knob_101f.png" showValuePopup="Right"
-                   processorId="sustainEnvelope" parameterId="Release" scaleFactor="0.5"/>
         <Component type="ScriptSlider" id="knbSusAttack" x="80" y="60" processorId="sustainEnvelope"
                    parameterId="Attack" mode="Time" max="5000" stepSize="1" suffix=" ms"
                    middlePosition="2000" defaultValue="5" min="1" text="Attack"
@@ -335,6 +329,12 @@
                    isPluginParameter="1" pluginParameterName="Release Tm" parentComponent="pnlArticulations"
                    width="40" height="40" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-artic_knob_101f.png"
                    showValuePopup="Right" scaleFactor="0.5" enabled="0"/>
+        <Component type="ScriptSlider" id="knbLiveRelease" x="180" y="5" mode="Time"
+                   max="800" stepSize="1" suffix=" ms" middlePosition="400" defaultValue="350"
+                   min="150" text="Release" isPluginParameter="1" pluginParameterName="Release Tm"
+                   parentComponent="pnlArticulations" width="40" height="40" numStrips="101"
+                   filmstripImage="{PROJECT_FOLDER}2X-artic_knob_101f.png" showValuePopup="Right"
+                   processorId="sustainEnvelope" parameterId="Release" scaleFactor="0.5"/>
         <Component type="ScriptSlider" id="knbStaccatoGain" x="80" y="115" processorId="staccatoGain"
                    parameterId="knbGain" mode="Decibel" max="3" stepSize="0.1" suffix=" dB"
                    middlePosition="-18" min="-100" text="Staccato Gain" parentComponent="pnlArticulations"
@@ -415,7 +415,7 @@
     <Component type="ScriptButton" id="btnPresetBrowser" x="1156" y="20" text="&lt; Preset"
                saveInPreset="0" parentComponent="pnlHeader" width="24" height="24"
                filmstripImage="{PROJECT_FOLDER}2X-preset_menu.png" scaleFactor="0.5"/>
-    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Concert Flute I"
+    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Bassoon I"
                width="190" editable="0" parentComponent="pnlHeader" height="27"
                fontSize="18" saveInPreset="0" fontName="Asap-Regular"/>
   </Component>
@@ -426,8 +426,9 @@
                bgColour="16777215" items="piccolo&#10;flute1&#10;flute2&#10;altoFlute&#10;oboe1&#10;oboe2&#10;englishHorn&#10;clarinet1&#10;clarinet2&#10;bassClarinet&#10;bassoon1&#10;bassoon2&#10;contrabassoon"
                itemColour="4281545523" itemColour2="4281545523"/>
     <Component type="ScriptSlider" id="knbSusAtk" x="15" y="64" parentComponent="pnlAdmin"
-               processorId="liveEnvelope" parameterId="Attack" mode="Time" max="20000"
-               stepSize="1" suffix=" ms" middlePosition="1000" defaultValue="100"
-               min="50" text="Sus Attack" isPluginParameter="1" pluginParameterName="Attack Tm"/>
+               mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="1000"
+               defaultValue="150" min="50" text="LegAttack" isPluginParameter="1"
+               pluginParameterName="Attack Tm" processorId="sustainEnvelope"
+               parameterId="Attack"/>
   </Component>
 </ContentProperties>
