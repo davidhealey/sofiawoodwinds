@@ -3,2141 +3,2143 @@
 <samplemap ID="contrabassoon_staccato" SaveMode="2" FileName="contrabassoon_staccato"
            MicPositions="close;decca;hall;" RRGroupAmount="3">
   <sample Root="22" LoKey="22" HiKey="22" LoVel="0" HiVel="1" RRGroup="1"
-          Duplicate="0" MonolithOffset="0" MonolithLength="81920" SampleRate="48000">
+          Duplicate="0" MonolithOffset="0" MonolithLength="81920" SampleRate="48000"
+          SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_22_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_22_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="22" LoKey="22" HiKey="22" LoVel="2" HiVel="3" RRGroup="1"
-          Duplicate="0" MonolithOffset="81920" MonolithLength="81920" SampleRate="48000">
+          Duplicate="0" MonolithOffset="81920" MonolithLength="81920" SampleRate="48000"
+          SampleStartMod="3699">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_22_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_22_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="22" LoKey="22" HiKey="22" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="163840" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3288">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_22_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_22_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="22" LoKey="22" HiKey="22" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="245760" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3904">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_22_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_22_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="22" LoKey="22" HiKey="22" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="323584" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4295">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_22_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_22_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="22" LoKey="22" HiKey="22" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="401408" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4110">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_22_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_22_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="22" LoKey="22" HiKey="22" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="483328" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2849">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_22_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_22_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="22" LoKey="22" HiKey="22" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="548864" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3904">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_22_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_22_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="22" LoKey="22" HiKey="22" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="626688" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3617">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_22_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_22_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_22_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="23" LoKey="23" HiKey="23" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="692224" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3021">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_23_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_23_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="23" LoKey="23" HiKey="23" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="778240" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3014">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_23_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_23_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="23" LoKey="23" HiKey="23" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="860160" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2877">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_23_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_23_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="23" LoKey="23" HiKey="23" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="942080" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3315">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_23_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_23_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="23" LoKey="23" HiKey="23" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="1032192" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3315">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_23_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_23_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="23" LoKey="23" HiKey="23" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="1122304" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2959">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_23_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_23_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="23" LoKey="23" HiKey="23" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="1196032" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3452">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_23_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_23_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="23" LoKey="23" HiKey="23" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="1269760" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3699">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_23_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_23_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="23" LoKey="23" HiKey="23" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="1351680" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3206">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_23_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_23_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_23_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="1425408" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4384">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_24_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_24_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="1507328" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4425">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_24_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_24_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="1585152" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4425">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_24_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_24_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="1662976" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3822">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_24_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_24_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="1736704" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3884">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_24_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_24_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="1822720" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4164">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_24_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_24_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="1900544" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3562">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_24_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_24_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="1982464" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3151">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_24_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_24_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="2064384" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3151">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_24_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_24_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_24_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="2146304" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2836">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_25_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_25_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="2220032" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4034">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_25_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_25_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="2297856" MonolithLength="61440"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3288">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_25_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_25_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="2359296" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2733">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_25_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_25_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="2437120" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2343">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_25_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_25_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="2510848" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3014">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_25_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_25_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="2592768" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2733">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_25_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_25_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="2670592" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3014">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_25_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_25_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="2752512" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="1500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_25_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_25_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_25_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="2826240" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2836">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_26_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_26_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="2899968" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4110">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_26_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_26_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="2981888" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4028">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_26_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_26_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="3067904" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2329">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_26_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_26_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="3149824" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2863">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_26_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_26_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="3239936" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2603">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_26_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_26_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="3317760" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="1500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_26_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_26_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="3391488" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="1500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_26_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_26_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="3469312" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2082">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_26_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_26_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_26_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="3547136" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_27_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_27_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="3629056" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_27_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_27_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="3706880" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_27_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_27_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="3784704" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_27_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_27_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="3866624" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3000" SampleStart="1178">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_27_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_27_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="3948544" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="979">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_27_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_27_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="4026368" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_27_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_27_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="4108288" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_27_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_27_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="4198400" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_27_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_27_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_27_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="4288512" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4370">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_28_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_28_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="4378624" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_28_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_28_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="4452352" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_28_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_28_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="4521984" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_28_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_28_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="4612096" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_28_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_28_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="4702208" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_28_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_28_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="4792320" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_28_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_28_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="4882432" MonolithLength="106496"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_28_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_28_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="4988928" MonolithLength="98304"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_28_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_28_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_28_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="5087232" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_29_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_29_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="5160960" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_29_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_29_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="5234688" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_29_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_29_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="5308416" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1259">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_29_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_29_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="5386240" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="734">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_29_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_29_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="5472256" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3000">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_29_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_29_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="5554176" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_29_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_29_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="5640192" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_29_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_29_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="5718016" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_29_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_29_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_29_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="5799936" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_30_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_30_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="5873664" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_30_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_30_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="5951488" MonolithLength="61440"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_30_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_30_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="6012928" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4384">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_30_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_30_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="6094848" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1252">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_30_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_30_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="6176768" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_30_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_30_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="6262784" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_30_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_30_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="6348800" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_30_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_30_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="6430720" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_30_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_30_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_30_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="6516736" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_31_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_31_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="6586368" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_31_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_31_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="6651904" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_31_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_31_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="6721536" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_31_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_31_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="6807552" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_31_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_31_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="6897664" MonolithLength="94208"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_31_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_31_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="6991872" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_31_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_31_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="7069696" MonolithLength="94208"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_31_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_31_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="7163904" MonolithLength="98304"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_31_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_31_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_31_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="7262208" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_32_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_32_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="7331840" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_32_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_32_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="7405568" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_32_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_32_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="7491584" MonolithLength="98304"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_32_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_32_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="7589888" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_32_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_32_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="7671808" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1160">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_32_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_32_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="7757824" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_32_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_32_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="7839744" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_32_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_32_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="7917568" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_32_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_32_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_32_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="7999488" MonolithLength="98304"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_33_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_33_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="8097792" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_33_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_33_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="8187904" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_33_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_33_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="8278016" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3000">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_33_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_33_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="8355840" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3000">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_33_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_33_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="8433664" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_33_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_33_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="8519680" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_33_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_33_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="8601600" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_33_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_33_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="8687616" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_33_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_33_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_33_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="8773632" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_34_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_34_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="8839168" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_34_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_34_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="8904704" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_34_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_34_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="8970240" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_34_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_34_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="9052160" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_34_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_34_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="9134080" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_34_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_34_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="9216000" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_34_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_34_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="9306112" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_34_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_34_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="9388032" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_34_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_34_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_34_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="9469952" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_35_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_35_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="9539584" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_35_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_35_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="9609216" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_35_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_35_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="9674752" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_35_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_35_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="9752576" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_35_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_35_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="9822208" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_35_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_35_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="9904128" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_35_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_35_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="9977856" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_35_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_35_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="10063872" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_35_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_35_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_35_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="10141696" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_36_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_36_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="10219520" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_36_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_36_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="10297344" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_36_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_36_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="10371072" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="854">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_36_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_36_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="10436608" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_36_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_36_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="10522624" MonolithLength="61440"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1326">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_36_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_36_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="10584064" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_36_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_36_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="10661888" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_36_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_36_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="10743808" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_36_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_36_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_36_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="10821632" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_37_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_37_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="10891264" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_37_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_37_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="10960896" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_37_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_37_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="11034624" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_37_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_37_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="11108352" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_37_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_37_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="11190272" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_37_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_37_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="11264000" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_37_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_37_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="11345920" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_37_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_37_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="11423744" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_37_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_37_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_37_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="11501568" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_38_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_38_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="11575296" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_38_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_38_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="11644928" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_38_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_38_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="11714560" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1044">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_38_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_38_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="11800576" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1215">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_38_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_38_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="11882496" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1178">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_38_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_38_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="11964416" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_38_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_38_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="12050432" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_38_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_38_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="12132352" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_38_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_38_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_38_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="12214272" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_39_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_39_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="12279808" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_39_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_39_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="12349440" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_39_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_39_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="12423168" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1189">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_39_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_39_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="12492800" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="1931" SampleStart="1384">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_39_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_39_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="12558336" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1158">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_39_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_39_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="12627968" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_39_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_39_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="12713984" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_39_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_39_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="12800000" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_39_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_39_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_39_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="12877824" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_40_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_40_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="12943360" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_40_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_40_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="13012992" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_40_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_40_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="13082624" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="1847" SampleStart="594">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_40_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_40_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="13152256" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500" SampleStart="1193">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_40_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_40_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="13225984" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_40_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_40_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="13299712" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_40_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_40_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="13373440" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_40_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_40_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="13447168" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_40_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_40_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_40_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="13520896" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_41_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_41_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="13590528" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_41_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_41_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="13660160" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_41_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_41_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="13733888" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_41_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_41_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="13803520" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_41_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_41_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="13873152" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_41_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_41_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="13942784" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_41_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_41_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="14032896" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_41_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_41_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="14106624" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_41_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_41_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_41_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="14180352" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_42_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_42_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="14245888" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_42_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_42_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="14311424" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_42_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_42_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="14397440" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_42_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_42_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="14462976" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_42_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_42_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="14528512" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_42_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_42_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="14594048" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_42_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_42_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="14671872" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_42_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_42_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="14753792" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_42_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_42_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_42_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="14831616" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_43_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_43_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="14909440" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_43_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_43_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="14974976" MonolithLength="57344"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_43_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_43_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="15032320" MonolithLength="61440"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_43_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_43_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="15093760" MonolithLength="61440"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_43_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_43_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="15155200" MonolithLength="61440"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_43_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_43_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="15216640" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_43_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_43_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="15290368" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_43_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_43_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="15372288" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_43_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_43_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_43_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="15446016" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4110">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_44_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_44_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="15527936" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="4247">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_44_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_44_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="15609856" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3562">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_44_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_44_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="15691776" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3562">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_44_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_44_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="15781888" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3562">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_44_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_44_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="15872000" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3562">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_44_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_44_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="15962112" MonolithLength="102400"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3562">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_44_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_44_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="16064512" MonolithLength="102400"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="3562">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_44_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_44_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="16166912" MonolithLength="102400"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_44_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_44_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_44_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="16269312" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_45_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_45_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="16347136" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_45_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_45_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="16424960" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_45_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_45_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="16502784" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_45_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_45_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="16588800" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_45_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_45_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="16670720" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_45_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_45_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="16744448" MonolithLength="98304"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_45_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_45_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="16842752" MonolithLength="94208"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_45_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_45_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="16936960" MonolithLength="98304"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_45_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_45_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_45_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="17035264" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_46_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_46_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="17113088" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_46_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_46_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="17195008" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_46_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_46_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="17276928" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_46_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_46_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="17358848" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_46_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_46_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="17432576" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_46_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_46_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="17510400" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_46_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_46_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="17592320" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_46_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_46_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="17674240" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_46_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_46_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_46_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="17764352" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_47_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_47_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="17842176" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_47_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_47_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="17920000" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_47_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_47_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="18001920" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_47_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_47_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="18075648" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_47_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_47_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="18165760" MonolithLength="98304"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_47_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_47_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="18264064" MonolithLength="94208"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_47_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_47_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="18358272" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_47_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_47_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="18448384" MonolithLength="94208"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_47_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_47_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_47_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="18542592" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_48_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_48_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="18628608" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_48_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_48_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="18714624" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_48_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_48_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="18800640" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_48_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_48_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="18878464" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_48_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_48_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="18952192" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_48_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_48_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="19030016" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_48_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_48_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="19111936" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_48_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_48_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="19193856" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_48_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_48_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_48_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="19271680" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_49_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_49_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="19349504" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_49_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_49_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="19431424" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_49_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_49_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="19513344" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_49_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_49_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="19603456" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_49_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_49_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="19689472" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_49_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_49_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="19771392" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_49_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_49_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="19853312" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_49_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_49_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="19943424" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_49_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_49_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_49_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="20025344" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_50_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_50_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="20107264" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_50_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_50_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="20185088" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_50_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_50_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="20258816" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_50_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_50_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="20332544" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_50_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_50_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="20410368" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_50_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_50_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="20488192" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_50_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_50_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="20561920" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_50_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_50_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="20652032" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_50_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_50_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_50_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="20725760" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_51_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_51_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="20799488" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_51_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_51_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="20873216" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_51_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_51_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="20946944" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_51_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_51_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="21024768" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_51_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_51_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="21102592" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_51_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_51_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="21176320" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_51_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_51_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="21250048" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_51_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_51_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="21327872" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_51_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_51_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_51_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="21401600" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_52_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="21479424" MonolithLength="106496"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_52_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_52_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="21585920" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_52_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_52_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="21671936" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_52_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_52_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="21753856" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_52_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_52_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="21843968" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_52_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_52_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="21925888" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_52_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_52_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="22011904" MonolithLength="94208"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_52_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_52_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="22106112" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_52_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_52_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_52_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="22196224" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_53_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="22278144" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_53_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_53_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="22360064" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_53_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_53_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="22429696" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_53_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_53_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="22511616" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_53_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_53_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="22593536" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_53_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_53_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="22675456" MonolithLength="86016"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_53_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_53_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="22761472" MonolithLength="94208"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_53_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_53_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="22855680" MonolithLength="90112"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_53_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_53_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_53_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="22945792" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_54_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="23015424" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_54_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_54_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="23093248" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_54_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_54_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="23162880" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_54_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_54_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="23232512" MonolithLength="65536"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_54_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_54_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="23298048" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_54_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_54_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="23375872" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_54_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_54_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="23445504" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_54_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_54_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="23519232" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_54_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_54_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_54_dynamic3_rr3.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="1" RRGroup="1"
           Duplicate="0" MonolithOffset="23592960" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_55_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_55_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="2" HiVel="3" RRGroup="1"
           Duplicate="0" MonolithOffset="23666688" MonolithLength="73728"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_55_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_55_dynamic1_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_55_dynamic1_rr2.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="4" HiVel="5" RRGroup="1"
           Duplicate="0" MonolithOffset="23740416" MonolithLength="69632"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_55_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_55_dynamic1_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_55_dynamic1_rr3.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="1" RRGroup="2"
           Duplicate="0" MonolithOffset="23810048" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_55_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_55_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_55_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="2" HiVel="3" RRGroup="2"
           Duplicate="0" MonolithOffset="23887872" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_55_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_55_dynamic2_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_55_dynamic2_rr2.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="4" HiVel="5" RRGroup="2"
           Duplicate="0" MonolithOffset="23969792" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_55_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_55_dynamic2_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_55_dynamic2_rr3.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="1" RRGroup="3"
           Duplicate="0" MonolithOffset="24051712" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_55_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_55_dynamic3_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_55_dynamic3_rr1.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="2" HiVel="3" RRGroup="3"
           Duplicate="0" MonolithOffset="24133632" MonolithLength="81920"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_55_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_55_dynamic3_rr2.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_55_dynamic3_rr2.wav"/>
   </sample>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="4" HiVel="5" RRGroup="3"
           Duplicate="0" MonolithOffset="24215552" MonolithLength="77824"
-          SampleRate="48000">
+          SampleRate="48000" SampleStartMod="2500">
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_close_55_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_decca_55_dynamic3_rr3.wav"/>
     <file FileName="{PROJECT_FOLDER}contrabassoon/staccato/contrabassoon_staccato_hall_55_dynamic3_rr3.wav"/>
