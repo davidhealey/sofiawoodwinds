@@ -60,7 +60,7 @@
                height="54" text="Flutter" max="127" stepSize="1" middlePosition="64"
                processorId="flutterHandler" parameterId="knbFlutter" numStrips="101"
                filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png" parentComponent="pnlPage0"
-               scaleFactor="0.5" showValuePopup="Above"/>
+               scaleFactor="0.5" showValuePopup="Above" enabled="0"/>
     <Component type="ScriptSlider" id="knbVibratoIntensity" x="551" y="253"
                width="54" height="54" text="Vibrato Intensity" processorId="vibratoLFOIntensityCC"
                parameterId="DefaultValue" max="127" middlePosition="64" stepSize="1"
@@ -79,7 +79,7 @@
                scaleFactor="0.5"/>
     <Component type="ScriptButton" id="btnCC2" x="709" y="162" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" parentComponent="pnlPage0"
-               scaleFactor="0.5"/>
+               scaleFactor="0.5" enabled="0"/>
     <Component type="ScriptButton" id="btnCC3" x="607" y="290" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" parentComponent="pnlPage0"
                scaleFactor="0.5"/>
@@ -109,7 +109,7 @@
     <Component type="ScriptTable" id="tblVelocity" x="434" y="390" width="286"
                height="185" bgColour="4282729797" customColours="1" itemColour="4289504651"
                itemColour2="3135299288" processorId="Velocity Modulator" parentComponent="pnlPage0"/>
-    <Component type="ScriptLabel" id="lblParam" x="425" y="349" parentComponent="pnlPage0"
+    <Component type="ScriptLabel" id="lblParam" x="427" y="349" parentComponent="pnlPage0"
                text="Velocity" alignment="left" fontName="Asap-SemiBold" fontSize="18"
                editable="0" width="140"/>
     <Component type="ScriptLabel" id="lblVelDynamics" x="580" y="344" parentComponent="pnlPage0"
@@ -415,17 +415,17 @@
     <Component type="ScriptButton" id="btnPresetBrowser" x="1156" y="20" text="&lt; Preset"
                saveInPreset="0" parentComponent="pnlHeader" width="24" height="24"
                filmstripImage="{PROJECT_FOLDER}2X-preset_menu.png" scaleFactor="0.5"/>
-    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Bassoon I"
+    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Contrabassoon I"
                width="190" editable="0" parentComponent="pnlHeader" height="27"
                fontSize="18" saveInPreset="0" fontName="Asap-Regular"/>
   </Component>
-  <Component type="ScriptPanel" id="pnlAdmin" x="5" y="3" width="225" height="121"
+  <Component type="ScriptPanel" id="pnlAdmin" x="5" y="0" width="225" height="121"
              itemColour="4278190080" itemColour2="4278190080" visible="0">
     <Component type="ScriptComboBox" id="cmbPatch" x="14" y="18" width="200"
                height="32" max="13" parentComponent="pnlAdmin" text="Patch"
                bgColour="16777215" items="piccolo&#10;flute1&#10;flute2&#10;altoFlute&#10;oboe1&#10;oboe2&#10;englishHorn&#10;clarinet1&#10;clarinet2&#10;bassClarinet&#10;bassoon1&#10;bassoon2&#10;contrabassoon"
                itemColour="4281545523" itemColour2="4281545523"/>
-    <Component type="ScriptSlider" id="knbSusAtk" x="15" y="64" parentComponent="pnlAdmin"
+    <Component type="ScriptSlider" id="knbLegAtk" x="15" y="64" parentComponent="pnlAdmin"
                mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="1000"
                defaultValue="150" min="50" text="LegAttack" isPluginParameter="1"
                pluginParameterName="Attack Tm" processorId="sustainEnvelope"

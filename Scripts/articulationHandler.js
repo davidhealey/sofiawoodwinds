@@ -17,8 +17,8 @@
 
 namespace Articulations
 {    
-    reg current = 0; //Currently selected articulation
-    reg last = 0; //The previous articulation
+    reg current = -1; //Currently selected articulation
+    reg last = -1; //The previous articulation
     
     //Midi Processors
     const var legatoHandler = Synth.getMidiProcessor("legato"); //Legato handler
@@ -118,7 +118,7 @@ namespace Articulations
             if (name == "legato")
             {                
                 //Live/Sustain envelope
-                envelope.sustain.setAttribute(envelope.sustain.Attack, 150);
+                envelope.sustain.setAttribute(envelope.sustain.Attack, Content.getComponent("knbLegAtk").getValue());
                 envelope.sustain.setAttribute(envelope.sustain.Release, Content.getComponent("knbLiveRelease").getValue());
                 Content.getComponent("knbLiveRelease").set("enabled", true);
                 Content.getComponent("knbSusRelease").set("enabled", false);
@@ -152,4 +152,6 @@ namespace Articulations
             pnlArticulations.repaint();
         }
     }
+
+    Articulations.changeArticulation(0);
 }
