@@ -26,7 +26,7 @@
                height="50" middlePosition="-18" mode="Decibel" processorId="transitionGain"
                parameterId="knbGain" text="Transition Gain" parentComponent="pnlPage0"
                isPluginParameter="1" pluginParameterName="Transition Gain" defaultValue="-6"
-               suffix=" dB" min="-100" max="0" stepSize="0.1" numStrips="101"
+               suffix=" dB" min="-100" max="-3" stepSize="0.1" numStrips="101"
                filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png" mouseSensitivity="0.69999999"
                showValuePopup="Right" scaleFactor="0.5"/>
     <Component type="ScriptSlider" id="knbGlideRate" x="145" y="259" width="192"
@@ -49,25 +49,28 @@
     <Component type="ScriptSlider" id="knbExpression" x="448" y="124" width="54"
                height="54" text="Expression" processorId="expressionCC" parameterId="DefaultValue"
                max="127" middlePosition="64" stepSize="1" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
-               defaultValue="127" parentComponent="pnlPage0" scaleFactor="0.5"/>
+               defaultValue="127" parentComponent="pnlPage0" scaleFactor="0.5"
+               showValuePopup="Above"/>
     <Component type="ScriptSlider" id="knbDynamics" x="551" y="124" width="54"
                height="54" text="Dynamics" max="127" middlePosition="64" stepSize="1"
                numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
-               defaultValue="64" parentComponent="pnlPage0" scaleFactor="0.5"/>
+               defaultValue="64" parentComponent="pnlPage0" scaleFactor="0.5"
+               showValuePopup="Above"/>
     <Component type="ScriptSlider" id="knbFlutter" x="653" y="124" width="54"
                height="54" text="Flutter" max="127" stepSize="1" middlePosition="64"
                processorId="flutterHandler" parameterId="knbFlutter" numStrips="101"
                filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png" parentComponent="pnlPage0"
-               scaleFactor="0.5" enabled="0"/>
+               scaleFactor="0.5" showValuePopup="Above"/>
     <Component type="ScriptSlider" id="knbVibratoIntensity" x="551" y="253"
                width="54" height="54" text="Vibrato Intensity" processorId="vibratoLFOIntensityCC"
                parameterId="DefaultValue" max="127" middlePosition="64" stepSize="1"
                numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
-               parentComponent="pnlPage0" scaleFactor="0.5"/>
+               parentComponent="pnlPage0" scaleFactor="0.5" showValuePopup="Above"/>
     <Component type="ScriptSlider" id="knbVibratoRate" x="653" y="253" width="54"
                height="54" text="Vibrato Rate" processorId="vibratoRateCC" parameterId="DefaultValue"
                max="127" middlePosition="64" stepSize="1" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
-               defaultValue="80" parentComponent="pnlPage0" scaleFactor="0.5"/>
+               defaultValue="80" parentComponent="pnlPage0" scaleFactor="0.5"
+               showValuePopup="Above"/>
     <Component type="ScriptButton" id="btnCC0" x="504" y="162" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" parentComponent="pnlPage0"
                scaleFactor="0.5"/>
@@ -76,7 +79,7 @@
                scaleFactor="0.5"/>
     <Component type="ScriptButton" id="btnCC2" x="709" y="162" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" parentComponent="pnlPage0"
-               scaleFactor="0.5" enabled="0"/>
+               scaleFactor="0.5"/>
     <Component type="ScriptButton" id="btnCC3" x="607" y="290" width="24" height="30"
                filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" parentComponent="pnlPage0"
                scaleFactor="0.5"/>
@@ -412,7 +415,7 @@
     <Component type="ScriptButton" id="btnPresetBrowser" x="1156" y="20" text="&lt; Preset"
                saveInPreset="0" parentComponent="pnlHeader" width="24" height="24"
                filmstripImage="{PROJECT_FOLDER}2X-preset_menu.png" scaleFactor="0.5"/>
-    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="English Horn"
+    <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Concert Flute I"
                width="190" editable="0" parentComponent="pnlHeader" height="27"
                fontSize="18" saveInPreset="0" fontName="Asap-Regular"/>
   </Component>
