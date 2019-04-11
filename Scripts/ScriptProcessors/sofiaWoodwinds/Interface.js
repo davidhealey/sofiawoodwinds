@@ -37,6 +37,16 @@ reg j;
 //Midi Processors
 const var legatoHandler = Synth.getMidiProcessor("legato"); //Legato handler
 
+//Value popup styling
+Content.setValuePopupData(
+{
+    "fontName": "Asap-Medium",
+    "fontSize": 18,
+    "itemColour": 0xFF303030,
+    "itemColour2": 0xFF303030,
+    "borderSize": 0
+});
+
 //Glide rate knob and velocity > glide rate button
 inline function onbtnVelocityRateControl(component, value)
 {
