@@ -29,7 +29,7 @@ set buildInstaller=1
 set buildAAX=0
 
 set plugin_name=Sofia Woodwinds
-set plugin_project_path=XmlPresetBackups/libreWinds.xml
+set plugin_project_path=XmlPresetBackups/sofiaWoodwinds.xml
 
 set installer_command="C:\Program Files (x86)\Inno Setup 5\ISCC.exe"
 
