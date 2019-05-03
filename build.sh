@@ -1,7 +1,7 @@
 # MACOS BUILD SCRIPT
 
 project=Sofia\ Woodwinds
-xmlFile=libreWinds
+xmlFile=sofiaWoodwinds
 build_aax=0
 build_installer=1
 
