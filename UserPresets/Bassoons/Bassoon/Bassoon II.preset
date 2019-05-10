@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.6">
+<Preset Version="1.1.0">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="knbOffset" value="150"/>
     <Control type="ScriptSlider" id="knbLegatoDecay" value="80"/>
@@ -60,7 +60,7 @@
     <Control type="ScriptSlider" id="knbRelDecay" value="5000"/>
     <Control type="ScriptButton" id="btnRelPurge" value="1"/>
     <Control type="ScriptPanel" id="pnlHeader" value="0"/>
-    <Control type="ScriptComboBox" id="cmbPatch" value="11"/>
+    <Control type="ScriptComboBox" id="cmbPatch" value="12"/>
     <Control type="ScriptSlider" id="knbLegAtk" value="150"/>
   </Content>
   <MidiAutomation>

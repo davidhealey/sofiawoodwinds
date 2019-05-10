@@ -886,7 +886,7 @@
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
                 <channelData enabled="1" level="0" suffix="decca"/>
-                <channelData enabled="1" level="0" suffix="hall"/>
+                <channelData enabled="1" level="-100" suffix="hall"/>
               </channels>
             </Processor>
           </ChildProcessors>
