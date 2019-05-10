@@ -5,245 +5,257 @@
              fileName="{PROJECT_FOLDER}2X-BG.png" scale="0.5"/>
   <Component type="ScriptPanel" id="pnlPage0" x="0" y="0" width="1200" height="615"
              bgColour="0" itemColour="0" itemColour2="0" textColour="0" borderSize="0"
-             borderRadius="0" text="Instrument"/>
-  <Component type="ScriptPanel" id="LEGATO" x="0" y="0" width="1" height="1"
-             borderSize="0" borderRadius="0" bgColour="0" itemColour="4284572001"
-             itemColour2="4284572001" textColour="0" visible="0"/>
-  <Component type="ScriptSlider" id="knbOffset" x="145" y="94" width="192"
-             height="50" mode="Time" suffix=" ms" middlePosition="250" defaultValue="150"
-             isPluginParameter="1" pluginParameterName="Legato Offset" processorId="legato"
-             parameterId="knbOffset" text="Legato Offset" max="500" stepSize="1"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png"
-             mouseSensitivity="0.69999999" showValuePopup="Right" scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="knbLegatoDecay" x="145" y="149" width="192"
-             height="50" suffix=" %" middlePosition="50" defaultValue="90"
-             isPluginParameter="1" pluginParameterName="Legato Decay" max="100"
-             stepSize="1" min="10" processorId="legato" parameterId="knbFadeOut"
-             text="Legato Release" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png"
-             mouseSensitivity="0.69999999" showValuePopup="Right" scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="knbTransitionGain" x="145" y="204" width="192"
-             height="50" middlePosition="-18" mode="Decibel" processorId="transitionGain"
-             parameterId="knbGain" text="Transition Gain" isPluginParameter="1"
-             pluginParameterName="Transition Gain" defaultValue="-6" suffix=" dB"
-             min="-100" max="-3" stepSize="0.1" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png"
-             mouseSensitivity="0.69999999" showValuePopup="Right" scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="knbGlideRate" x="145" y="259" width="192"
-             height="50" mode="TempoSync" max="18" stepSize="1" middlePosition="9"
-             processorId="legato" parameterId="knbRate" defaultValue="9" text="Glide Rate"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png"
-             isPluginParameter="1" pluginParameterName="Glide Rate" mouseSensitivity="0.69999999"
-             showValuePopup="Right" scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnVelocityRate" x="349" y="264" text="Velocity = rate"
-             isPluginParameter="1" pluginParameterName="Velocity Rate" width="30"
-             height="39" filmstripImage="{PROJECT_FOLDER}2X-leg_square_btn.png"
-             scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnRR" x="349" y="318" width="30" height="39"
-             text="Round Robin" processorId="roundRobinController" parameterId="btnBypass"
-             filmstripImage="{PROJECT_FOLDER}2X-leg_square_btn.png" scaleFactor="0.5"
-             isPluginParameter="1" pluginParameterName="Round Robin"/>
-  <Component type="ScriptPanel" id="CONTROLLERS" x="0" y="0" width="1" height="1"
-             bgColour="0" itemColour="0" itemColour2="0" textColour="0" borderSize="0"
-             borderRadius="0" visible="0"/>
-  <Component type="ScriptSlider" id="knbExpression" x="448" y="124" width="54"
-             height="54" text="Expression" processorId="expressionCC" parameterId="DefaultValue"
-             max="127" middlePosition="64" stepSize="1" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
-             defaultValue="127" scaleFactor="0.5" showValuePopup="Above" isPluginParameter="1"
-             pluginParameterName="Expression"/>
-  <Component type="ScriptSlider" id="knbDynamics" x="551" y="124" width="54"
-             height="54" text="Dynamics" max="127" middlePosition="64" stepSize="1"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
-             defaultValue="64" scaleFactor="0.5" showValuePopup="Above" isPluginParameter="1"
-             pluginParameterName="Dynamics"/>
-  <Component type="ScriptSlider" id="knbFlutter" x="653" y="124" width="54"
-             height="54" text="Flutter" max="127" stepSize="1" middlePosition="64"
-             processorId="flutterHandler" parameterId="knbFlutter" numStrips="101"
-             filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png" scaleFactor="0.5"
-             showValuePopup="Above" isPluginParameter="1" pluginParameterName="Flutter X-Fade"/>
-  <Component type="ScriptSlider" id="knbVibratoIntensity" x="551" y="253"
-             width="54" height="54" text="Vibrato Intensity" processorId="vibratoLFOIntensityCC"
-             parameterId="DefaultValue" max="127" middlePosition="64" stepSize="1"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
-             scaleFactor="0.5" showValuePopup="Above" isPluginParameter="1"
-             pluginParameterName="Vibrato Intensity"/>
-  <Component type="ScriptSlider" id="knbVibratoRate" x="653" y="253" width="54"
-             height="54" text="Vibrato Rate" processorId="vibratoRateCC" parameterId="DefaultValue"
-             max="127" middlePosition="64" stepSize="1" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
-             defaultValue="90" scaleFactor="0.5" showValuePopup="Above" isPluginParameter="1"
-             pluginParameterName="Vibrato Rate"/>
-  <Component type="ScriptButton" id="btnCC0" x="504" y="162" width="24" height="30"
-             filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnCC1" x="607" y="162" width="24" height="30"
-             filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnCC2" x="709" y="162" width="24" height="30"
-             filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnCC3" x="607" y="290" width="24" height="30"
-             filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnCC4" x="709" y="290" width="24" height="30"
-             filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"/>
-  <Component type="ScriptTable" id="tblCC0" x="434" y="390" width="286" height="185"
-             bgColour="4282729797" itemColour="4289504651" itemColour2="3135299288"
-             customColours="1" processorId="expressionCC" visible="0"/>
-  <Component type="ScriptTable" id="tblCC1" x="434" y="390" width="286" height="185"
-             bgColour="4282729797" customColours="1" itemColour="4289504651"
-             itemColour2="3135299288" processorId="dynamicsCC" visible="0"/>
-  <Component type="ScriptTable" id="tblCC2" x="434" y="390" width="286" height="185"
-             bgColour="4282729797" itemColour="4289504651" itemColour2="3135299288"
-             customColours="1" processorId="flutterCC" visible="0"/>
-  <Component type="ScriptTable" id="tblCC3" x="434" y="390" width="286" height="145"
-             bgColour="4282729797" customColours="1" itemColour="4289504651"
-             itemColour2="3135299288" processorId="vibratoLFOIntensityCC"
-             visible="0"/>
-  <Component type="ScriptTable" id="tblCC4" x="434" y="390" width="286" height="145"
-             bgColour="4282729797" customColours="1" itemColour="4289504651"
-             itemColour2="3135299288" processorId="vibratoRateCC" visible="0"/>
-  <Component type="ScriptTable" id="tblVelocity" x="434" y="390" width="286"
-             height="185" bgColour="4282729797" customColours="1" itemColour="4289504651"
-             itemColour2="3135299288" processorId="Velocity Modulator"/>
-  <Component type="ScriptLabel" id="lblParam" x="427" y="349" text="Velocity"
-             alignment="left" fontName="Asap-SemiBold" fontSize="18" editable="0"
-             width="140" saveInPreset="0"/>
-  <Component type="ScriptLabel" id="lblVelDynamics" x="580" y="344" alignment="left"
-             editable="0" text="Velocity Control" width="115" fontName="Asap-Regular"
-             height="39" saveInPreset="0" fontSize="16" visible="0"/>
-  <Component type="ScriptButton" id="btnVelDynamics" x="696" y="353" text="Vel = Dynamics"
-             processorId="velocityShaper" parameterId="btnDynamics" filmstripImage="{PROJECT_FOLDER}2X-env_button-rev.png"
-             width="24" height="24" scaleFactor="0.5" isPluginParameter="1"
-             pluginParameterName="Velocity Dynamics" visible="0"/>
-  <Component type="ScriptLabel" id="lblVibratoPitch" x="474" y="546" alignment="left"
-             editable="0" text="Pitch" width="51" fontName="Asap-Regular"
-             height="40" saveInPreset="0" fontSize="16" visible="0"/>
-  <Component type="ScriptLabel" id="lblVibratoGain" x="572" y="546" alignment="left"
-             editable="0" text="Gain" width="51" fontName="Asap-Regular" height="40"
-             saveInPreset="0" fontSize="16" visible="0"/>
-  <Component type="ScriptLabel" id="lblVibratoTimbre" x="670" y="546" alignment="left"
-             editable="0" text="Timbre" width="51" fontName="Asap-Regular"
-             height="40" saveInPreset="0" fontSize="16" visible="0"/>
-  <Component type="ScriptSlider" id="knbVibratoPitch" x="434" y="546" width="40"
-             height="40" min="-0.5" max="0.5" middlePosition="0" processorId="vibratoPitchHandler"
-             parameterId="knbPitch" text="Vibrato Pitch" suffix=" st" numStrips="101"
-             filmstripImage="{PROJECT_FOLDER}2X-env_knob.png" showValuePopup="Right"
-             scaleFactor="0.5" visible="0"/>
-  <Component type="ScriptSlider" id="knbVibratoGain" x="532" y="546" width="40"
-             height="40" middlePosition="0.5" processorId="vibratoGain" parameterId="Intensity"
-             text="Vibrato Gain" mode="NormalizedPercentage" suffix="%" numStrips="101"
-             filmstripImage="{PROJECT_FOLDER}2X-env_knob.png" showValuePopup="Right"
-             scaleFactor="0.5" visible="0"/>
-  <Component type="ScriptSlider" id="knbVibratoTimbre" x="630" y="546" width="40"
-             height="40" middlePosition="0.5" processorId="vibratoTimbre"
-             parameterId="Intensity" text="Vibrato Timbre" mode="NormalizedPercentage"
-             suffix="%" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-env_knob.png"
-             showValuePopup="Right" scaleFactor="0.5" visible="0"/>
-  <Component type="ScriptPanel" id="MIXER" x="0" y="0" width="1" height="1"
-             borderRadius="0" borderSize="0" bgColour="0" textColour="0" itemColour2="0"
-             itemColour="0" visible="0"/>
-  <Component type="ScriptSlider" id="sliVolMaster" x="1120" y="339" width="34"
-             height="241" middlePosition="-18" showValuePopup="Above" processorId="masterGain"
-             parameterId="knbGain" tooltip="Close Gain" isPluginParameter="1"
-             pluginParameterName="Master Gain" min="-100" mode="Decibel" stepSize="0.1"
-             max="3" suffix=" dB" defaultValue="-3" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-volmas_anim_reverse.png"
-             dragDirection="Vertical" scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="sliPanMaster" x="1105" y="294" width="65"
-             height="38" processorId="sofiaWoodwinds" parameterId="Balance"
-             mode="Pan" middlePosition="0" min="-1" isPluginParameter="1"
-             pluginParameterName="Master Pan" text="Master Pan" numStrips="101"
-             filmstripImage="{PROJECT_FOLDER}2X-pan_anim.png" mouseSensitivity="0.5"
-             scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="sliCoarseTune" x="1110" y="124" width="54"
-             height="54" isPluginParameter="1" pluginParameterName="Coarse Tune"
-             processorId="Tuner" parameterId="knbCoarse" min="-12" max="12"
-             middlePosition="0" stepSize="1" suffix=" st" text="Coarse Tune"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
-             showValuePopup="Above" scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="sliFineTune" x="1110" y="219" width="54"
-             height="54" min="-100" max="100" stepSize="1" middlePosition="0"
-             isPluginParameter="1" pluginParameterName="Fine Tune" processorId="Tuner"
-             parameterId="knbFine" suffix=" ct" text="Fine Tune" numStrips="101"
-             filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png" showValuePopup="Above"
-             scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="sliVol0" x="790" y="345" width="34" height="181"
-             mode="Decibel" min="-100" max="0" stepSize="0.1" middlePosition="-18"
-             defaultValue="-6" showValuePopup="Above" isPluginParameter="1"
-             pluginParameterName="Close Gain" processorId="channel1" parameterId="Gain"
-             tooltip="Close Gain" filmstripImage="{PROJECT_FOLDER}2X-vol_anim_reverse.png"
-             numStrips="101" scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="sliVol1" x="895" y="345" width="34" height="181"
-             mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
-             middlePosition="-18" defaultValue="-6" showValuePopup="Above"
-             isPluginParameter="1" pluginParameterName="Decca Gain" processorId="channel2"
-             parameterId="Gain" tooltip="Decca Gain" filmstripImage="{PROJECT_FOLDER}2X-vol_anim_reverse.png"
-             numStrips="101" scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="sliVol2" x="1000" y="345" width="34"
-             height="181" mode="Decibel" min="-100" max="0" stepSize="0.1"
-             suffix=" dB" middlePosition="-18" defaultValue="-6" showValuePopup="Above"
-             isPluginParameter="1" pluginParameterName="Hall Gain" processorId="channel3"
-             parameterId="Gain" tooltip="Hall Gain" filmstripImage="{PROJECT_FOLDER}2X-vol_anim_reverse.png"
-             numStrips="101" scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="knbPan0" x="775" y="294" width="65" height="38"
-             text="Close Pan" mode="Pan" min="-100" max="100" stepSize="1"
-             suffix="L" middlePosition="0" processorId="channel1" parameterId="Balance"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-pan_anim.png"
-             mouseSensitivity="0.5" scaleFactor="0.5" isPluginParameter="1"
-             pluginParameterName="Close Pan"/>
-  <Component type="ScriptSlider" id="knbPan1" x="880" y="294" width="65" height="38"
-             text="Room Pan" mode="Pan" min="-100" max="100" stepSize="1"
-             suffix="L" middlePosition="0" processorId="channel2" parameterId="Balance"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-pan_anim.png"
-             mouseSensitivity="0.5" scaleFactor="0.5" isPluginParameter="1"
-             pluginParameterName="Decca Pan"/>
-  <Component type="ScriptSlider" id="knbPan2" x="985" y="294" width="65" height="38"
-             text="Hall Pan" mode="Pan" min="-100" max="100" stepSize="1"
-             suffix="L" middlePosition="0" processorId="channel3" parameterId="Balance"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-pan_anim.png"
-             mouseSensitivity="0.5" scaleFactor="0.5" isPluginParameter="1"
-             pluginParameterName="Hall Pan"/>
-  <Component type="ScriptSlider" id="knbDelay0" x="780" y="124" width="54"
-             height="54" text="Close Delay" mode="Time" max="500" stepSize="1"
-             suffix=" ms" middlePosition="250" processorId="channel1" parameterId="Delay"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
-             showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
-             pluginParameterName="Close Delay"/>
-  <Component type="ScriptSlider" id="knbDelay1" x="885" y="124" width="54"
-             height="54" text="Room Delay" mode="Time" max="500" stepSize="1"
-             suffix=" ms" middlePosition="250" processorId="channel2" parameterId="Delay"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
-             showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
-             pluginParameterName="Decca Delay"/>
-  <Component type="ScriptSlider" id="knbDelay2" x="990" y="124" width="54"
-             height="54" text="Hall Delay" mode="Time" max="500" stepSize="1"
-             suffix=" ms" middlePosition="250" processorId="channel3" parameterId="Delay"
-             numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
-             showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
-             pluginParameterName="Hall Delay"/>
-  <Component type="ScriptSlider" id="knbWidth0" x="780" y="219" width="54"
-             height="54" text="Close Width" enabled="0" max="200" stepSize="0.1"
-             suffix=" %" processorId="channel1" parameterId="Width" numStrips="101"
-             filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png" defaultValue="100"
-             showValuePopup="Above" scaleFactor="0.5"/>
-  <Component type="ScriptSlider" id="knbWidth1" x="885" y="219" width="54"
-             height="54" text="Room Width" max="200" stepSize="0.1" suffix=" %"
-             processorId="channel2" parameterId="Width" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
-             defaultValue="100" showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
-             pluginParameterName="Decca Width"/>
-  <Component type="ScriptSlider" id="knbWidth2" x="990" y="219" width="54"
-             height="54" text="Hall Width" max="200" stepSize="0.1" suffix=" %"
-             processorId="channel3" parameterId="Width" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
-             defaultValue="100" showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
-             pluginParameterName="Hall Width"/>
-  <Component type="ScriptComboBox" id="cmbOutput0" x="776" y="566" width="61"
-             height="19" items="1/2" itemColour="0" bgColour="0"/>
-  <Component type="ScriptComboBox" id="cmbOutput1" x="881" y="566" width="61"
-             height="19" items="1/2" itemColour="0" bgColour="0"/>
-  <Component type="ScriptComboBox" id="cmbOutput2" x="986" y="566" width="61"
-             height="19" items="1/2" itemColour="0" bgColour="0"/>
-  <Component type="ScriptButton" id="btnPurge0" x="766" y="508" width="22"
-             height="22" text="Close Purge" filmstripImage="{PROJECT_FOLDER}2X-purge.png"
-             scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnPurge1" x="871" y="508" width="22"
-             height="22" text="Room Purge" filmstripImage="{PROJECT_FOLDER}2X-purge.png"
-             scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnPurge2" x="976" y="508" width="22"
-             height="22" text="Hall Purge" filmstripImage="{PROJECT_FOLDER}2X-purge.png"
-             scaleFactor="0.5"/>
+             borderRadius="0" text="Instrument">
+    <Component type="ScriptPanel" id="LEGATO" x="0" y="0" width="1" height="1"
+               borderSize="0" borderRadius="0" bgColour="0" itemColour="4284572001"
+               itemColour2="4284572001" textColour="0" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbOffset" x="145" y="94" width="192"
+               height="50" mode="Time" suffix=" ms" middlePosition="250" defaultValue="150"
+               isPluginParameter="1" pluginParameterName="Legato Offset" processorId="legato"
+               parameterId="knbOffset" text="Legato Offset" max="500" stepSize="1"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png"
+               mouseSensitivity="0.69999999" showValuePopup="Right" scaleFactor="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbLegatoDecay" x="145" y="149" width="192"
+               height="50" suffix=" %" middlePosition="50" defaultValue="90"
+               isPluginParameter="1" pluginParameterName="Legato Decay" max="100"
+               stepSize="1" min="10" processorId="legato" parameterId="knbFadeOut"
+               text="Legato Release" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png"
+               mouseSensitivity="0.69999999" showValuePopup="Right" scaleFactor="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbTransitionGain" x="145" y="204" width="192"
+               height="50" middlePosition="-18" mode="Decibel" processorId="transitionGain"
+               parameterId="knbGain" text="Transition Gain" isPluginParameter="1"
+               pluginParameterName="Transition Gain" defaultValue="-6" suffix=" dB"
+               min="-100" max="-3" stepSize="0.1" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png"
+               mouseSensitivity="0.69999999" showValuePopup="Right" scaleFactor="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbGlideRate" x="145" y="259" width="192"
+               height="50" mode="TempoSync" max="18" stepSize="1" middlePosition="9"
+               processorId="legato" parameterId="knbRate" defaultValue="9" text="Glide Rate"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png"
+               isPluginParameter="1" pluginParameterName="Glide Rate" mouseSensitivity="0.69999999"
+               showValuePopup="Right" scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnVelocityRate" x="349" y="264" text="Velocity = rate"
+               isPluginParameter="1" pluginParameterName="Velocity Rate" width="30"
+               height="39" filmstripImage="{PROJECT_FOLDER}2X-leg_square_btn.png"
+               scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnRR" x="349" y="318" width="30" height="39"
+               text="Round Robin" processorId="roundRobinController" parameterId="btnBypass"
+               filmstripImage="{PROJECT_FOLDER}2X-leg_square_btn.png" scaleFactor="0.5"
+               isPluginParameter="1" pluginParameterName="Round Robin" parentComponent="pnlPage0"/>
+    <Component type="ScriptPanel" id="CONTROLLERS" x="0" y="0" width="1" height="1"
+               bgColour="0" itemColour="0" itemColour2="0" textColour="0" borderSize="0"
+               borderRadius="0" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbExpression" x="448" y="124" width="54"
+               height="54" text="Expression" processorId="expressionCC" parameterId="DefaultValue"
+               max="127" middlePosition="64" stepSize="1" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
+               defaultValue="127" scaleFactor="0.5" showValuePopup="Above" isPluginParameter="1"
+               pluginParameterName="Expression" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbDynamics" x="551" y="124" width="54"
+               height="54" text="Dynamics" max="127" middlePosition="64" stepSize="1"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
+               defaultValue="64" scaleFactor="0.5" showValuePopup="Above" isPluginParameter="1"
+               pluginParameterName="Dynamics" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbFlutter" x="653" y="124" width="54"
+               height="54" text="Flutter" max="127" stepSize="1" middlePosition="64"
+               processorId="flutterHandler" parameterId="knbFlutter" numStrips="101"
+               filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png" scaleFactor="0.5"
+               showValuePopup="Above" isPluginParameter="1" pluginParameterName="Flutter X-Fade"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbVibratoIntensity" x="551" y="253"
+               width="54" height="54" text="Vibrato Intensity" processorId="vibratoLFOIntensityCC"
+               parameterId="DefaultValue" max="127" middlePosition="64" stepSize="1"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
+               scaleFactor="0.5" showValuePopup="Above" isPluginParameter="1"
+               pluginParameterName="Vibrato Intensity" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbVibratoRate" x="653" y="253" width="54"
+               height="54" text="Vibrato Rate" processorId="vibratoRateCC" parameterId="DefaultValue"
+               max="127" middlePosition="64" stepSize="1" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-black_button_101f.png"
+               defaultValue="90" scaleFactor="0.5" showValuePopup="Above" isPluginParameter="1"
+               pluginParameterName="Vibrato Rate" parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnCC0" x="504" y="162" width="24" height="30"
+               filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnCC1" x="607" y="162" width="24" height="30"
+               filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnCC2" x="709" y="162" width="24" height="30"
+               filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnCC3" x="607" y="290" width="24" height="30"
+               filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnCC4" x="709" y="290" width="24" height="30"
+               filmstripImage="{PROJECT_FOLDER}2X-round_btn.png" scaleFactor="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptTable" id="tblCC0" x="434" y="390" width="286" height="185"
+               bgColour="4282729797" itemColour="4289504651" itemColour2="3135299288"
+               customColours="1" processorId="expressionCC" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptTable" id="tblCC1" x="434" y="390" width="286" height="185"
+               bgColour="4282729797" customColours="1" itemColour="4289504651"
+               itemColour2="3135299288" processorId="dynamicsCC" visible="0"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptTable" id="tblCC2" x="434" y="390" width="286" height="185"
+               bgColour="4282729797" itemColour="4289504651" itemColour2="3135299288"
+               customColours="1" processorId="flutterCC" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptTable" id="tblCC3" x="434" y="390" width="286" height="145"
+               bgColour="4282729797" customColours="1" itemColour="4289504651"
+               itemColour2="3135299288" processorId="vibratoLFOIntensityCC"
+               visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptTable" id="tblCC4" x="434" y="390" width="286" height="145"
+               bgColour="4282729797" customColours="1" itemColour="4289504651"
+               itemColour2="3135299288" processorId="vibratoRateCC" visible="0"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptTable" id="tblVelocity" x="434" y="390" width="286"
+               height="185" bgColour="4282729797" customColours="1" itemColour="4289504651"
+               itemColour2="3135299288" processorId="Velocity Modulator" parentComponent="pnlPage0"/>
+    <Component type="ScriptLabel" id="lblParam" x="427" y="349" text="Velocity"
+               alignment="left" fontName="Asap-SemiBold" fontSize="18" editable="0"
+               width="140" saveInPreset="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptLabel" id="lblVelDynamics" x="580" y="344" alignment="left"
+               editable="0" text="Velocity Control" width="115" fontName="Asap-Regular"
+               height="39" saveInPreset="0" fontSize="16" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnVelDynamics" x="696" y="353" text="Vel = Dynamics"
+               processorId="velocityShaper" parameterId="btnDynamics" filmstripImage="{PROJECT_FOLDER}2X-env_button-rev.png"
+               width="24" height="24" scaleFactor="0.5" isPluginParameter="1"
+               pluginParameterName="Velocity Dynamics" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptLabel" id="lblVibratoPitch" x="474" y="546" alignment="left"
+               editable="0" text="Pitch" width="51" fontName="Asap-Regular"
+               height="40" saveInPreset="0" fontSize="16" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptLabel" id="lblVibratoGain" x="572" y="546" alignment="left"
+               editable="0" text="Gain" width="51" fontName="Asap-Regular" height="40"
+               saveInPreset="0" fontSize="16" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptLabel" id="lblVibratoTimbre" x="670" y="546" alignment="left"
+               editable="0" text="Timbre" width="51" fontName="Asap-Regular"
+               height="40" saveInPreset="0" fontSize="16" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbVibratoPitch" x="434" y="546" width="40"
+               height="40" min="-0.5" max="0.5" middlePosition="0" processorId="vibratoPitchHandler"
+               parameterId="knbPitch" text="Vibrato Pitch" suffix=" st" numStrips="101"
+               filmstripImage="{PROJECT_FOLDER}2X-env_knob.png" showValuePopup="Right"
+               scaleFactor="0.5" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbVibratoGain" x="532" y="546" width="40"
+               height="40" middlePosition="0.5" processorId="vibratoGain" parameterId="Intensity"
+               text="Vibrato Gain" mode="NormalizedPercentage" suffix="%" numStrips="101"
+               filmstripImage="{PROJECT_FOLDER}2X-env_knob.png" showValuePopup="Right"
+               scaleFactor="0.5" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbVibratoTimbre" x="630" y="546" width="40"
+               height="40" middlePosition="0.5" processorId="vibratoTimbre"
+               parameterId="Intensity" text="Vibrato Timbre" mode="NormalizedPercentage"
+               suffix="%" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-env_knob.png"
+               showValuePopup="Right" scaleFactor="0.5" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptPanel" id="MIXER" x="0" y="0" width="1" height="1"
+               borderRadius="0" borderSize="0" bgColour="0" textColour="0" itemColour2="0"
+               itemColour="0" visible="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliVolMaster" x="1120" y="339" width="34"
+               height="241" middlePosition="-18" showValuePopup="Above" processorId="masterGain"
+               parameterId="knbGain" tooltip="Close Gain" isPluginParameter="1"
+               pluginParameterName="Master Gain" min="-100" mode="Decibel" stepSize="0.1"
+               max="3" suffix=" dB" defaultValue="-3" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-volmas_anim_reverse.png"
+               dragDirection="Vertical" scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliPanMaster" x="1105" y="294" width="65"
+               height="38" processorId="sofiaWoodwinds" parameterId="Balance"
+               mode="Pan" middlePosition="0" min="-1" isPluginParameter="1"
+               pluginParameterName="Master Pan" text="Master Pan" numStrips="101"
+               filmstripImage="{PROJECT_FOLDER}2X-pan_anim.png" mouseSensitivity="0.5"
+               scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliCoarseTune" x="1110" y="124" width="54"
+               height="54" isPluginParameter="1" pluginParameterName="Coarse Tune"
+               processorId="Tuner" parameterId="knbCoarse" min="-12" max="12"
+               middlePosition="0" stepSize="1" suffix=" st" text="Coarse Tune"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
+               showValuePopup="Above" scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliFineTune" x="1110" y="219" width="54"
+               height="54" min="-100" max="100" stepSize="1" middlePosition="0"
+               isPluginParameter="1" pluginParameterName="Fine Tune" processorId="Tuner"
+               parameterId="knbFine" suffix=" ct" text="Fine Tune" numStrips="101"
+               filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png" showValuePopup="Above"
+               scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliVol0" x="790" y="345" width="34" height="181"
+               mode="Decibel" min="-100" max="0" stepSize="0.1" middlePosition="-18"
+               defaultValue="-6" showValuePopup="Above" isPluginParameter="1"
+               pluginParameterName="Close Gain" processorId="channel1" parameterId="Gain"
+               tooltip="Close Gain" filmstripImage="{PROJECT_FOLDER}2X-vol_anim_reverse.png"
+               numStrips="101" scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliVol1" x="895" y="345" width="34" height="181"
+               mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
+               middlePosition="-18" defaultValue="-6" showValuePopup="Above"
+               isPluginParameter="1" pluginParameterName="Decca Gain" processorId="channel2"
+               parameterId="Gain" tooltip="Decca Gain" filmstripImage="{PROJECT_FOLDER}2X-vol_anim_reverse.png"
+               numStrips="101" scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliVol2" x="1000" y="345" width="34"
+               height="181" mode="Decibel" min="-100" max="0" stepSize="0.1"
+               suffix=" dB" middlePosition="-18" defaultValue="-6" showValuePopup="Above"
+               isPluginParameter="1" pluginParameterName="Hall Gain" processorId="channel3"
+               parameterId="Gain" tooltip="Hall Gain" filmstripImage="{PROJECT_FOLDER}2X-vol_anim_reverse.png"
+               numStrips="101" scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbPan0" x="775" y="294" width="65" height="38"
+               text="Close Pan" mode="Pan" min="-100" max="100" stepSize="1"
+               suffix="L" middlePosition="0" processorId="channel1" parameterId="Balance"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-pan_anim.png"
+               mouseSensitivity="0.5" scaleFactor="0.5" isPluginParameter="1"
+               pluginParameterName="Close Pan" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbPan1" x="880" y="294" width="65" height="38"
+               text="Room Pan" mode="Pan" min="-100" max="100" stepSize="1"
+               suffix="L" middlePosition="0" processorId="channel2" parameterId="Balance"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-pan_anim.png"
+               mouseSensitivity="0.5" scaleFactor="0.5" isPluginParameter="1"
+               pluginParameterName="Decca Pan" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbPan2" x="985" y="294" width="65" height="38"
+               text="Hall Pan" mode="Pan" min="-100" max="100" stepSize="1"
+               suffix="L" middlePosition="0" processorId="channel3" parameterId="Balance"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-pan_anim.png"
+               mouseSensitivity="0.5" scaleFactor="0.5" isPluginParameter="1"
+               pluginParameterName="Hall Pan" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbDelay0" x="780" y="124" width="54"
+               height="54" text="Close Delay" mode="Time" max="500" stepSize="1"
+               suffix=" ms" middlePosition="250" processorId="channel1" parameterId="Delay"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
+               showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
+               pluginParameterName="Close Delay" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbDelay1" x="885" y="124" width="54"
+               height="54" text="Room Delay" mode="Time" max="500" stepSize="1"
+               suffix=" ms" middlePosition="250" processorId="channel2" parameterId="Delay"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
+               showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
+               pluginParameterName="Decca Delay" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbDelay2" x="990" y="124" width="54"
+               height="54" text="Hall Delay" mode="Time" max="500" stepSize="1"
+               suffix=" ms" middlePosition="250" processorId="channel3" parameterId="Delay"
+               numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
+               showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
+               pluginParameterName="Hall Delay" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbWidth0" x="780" y="219" width="54"
+               height="54" text="Close Width" enabled="0" max="200" stepSize="0.1"
+               suffix=" %" processorId="channel1" parameterId="Width" numStrips="101"
+               filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png" defaultValue="100"
+               showValuePopup="Above" scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbWidth1" x="885" y="219" width="54"
+               height="54" text="Room Width" max="200" stepSize="0.1" suffix=" %"
+               processorId="channel2" parameterId="Width" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
+               defaultValue="100" showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
+               pluginParameterName="Decca Width" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbWidth2" x="990" y="219" width="54"
+               height="54" text="Hall Width" max="200" stepSize="0.1" suffix=" %"
+               processorId="channel3" parameterId="Width" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
+               defaultValue="100" showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
+               pluginParameterName="Hall Width" parentComponent="pnlPage0"/>
+    <Component type="ScriptComboBox" id="cmbOutput0" x="776" y="566" width="61"
+               height="19" items="1/2" itemColour="0" bgColour="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptComboBox" id="cmbOutput1" x="881" y="566" width="61"
+               height="19" items="1/2" itemColour="0" bgColour="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptComboBox" id="cmbOutput2" x="986" y="566" width="61"
+               height="19" items="1/2" itemColour="0" bgColour="0" parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnPurge0" x="766" y="508" width="22"
+               height="22" text="Close Purge" filmstripImage="{PROJECT_FOLDER}2X-purge.png"
+               scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnPurge1" x="871" y="508" width="22"
+               height="22" text="Room Purge" filmstripImage="{PROJECT_FOLDER}2X-purge.png"
+               scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnPurge2" x="976" y="508" width="22"
+               height="22" text="Hall Purge" filmstripImage="{PROJECT_FOLDER}2X-purge.png"
+               scaleFactor="0.5" parentComponent="pnlPage0"/>
+  </Component>
   <Component type="ScriptPanel" id="logoBar" x="50" y="550" width="700" height="50"
              itemColour="0" itemColour2="0" bgColour="0" textColour="0" borderSize="0"
              borderRadius="0" visible="0">
