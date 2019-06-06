@@ -1,7 +1,7 @@
 # MACOS BUILD SCRIPT
 
-project=Sofia\ Woodwinds
-xmlFile=sofiaWoodwinds
+project=Michaelas\ Harp
+xmlFile=michaelasHarp
 build_aax=0
 build_installer=1
 
@@ -11,14 +11,6 @@ build_server=1
 code_sign=1
 
 # ENVIRONMENT VARIABLES (ALREADY SET ON BUILD SERVER)
-if (($build_server==0))
-then
-version=1.0.2
-hise_path_macos=/Volumes/Shared/Development/HISE\ modules/projects/standalone/Builds/MacOSX/build/Release/HISE.app/Contents/MacOS/HISE
-projucer_macos=/Volumes/Shared/Development/HISE\ modules/tools/projucer/Projucer.app/Contents/MacOS/Projucer
-WORKSPACE=/Volumes/Shared/Development/Projekte/dhealey_woodwinds
-PACKAGES_BUILD=/usr/local/bin/packagesbuild
-fi
 
 # STEP 1: BUILDING THE BINARIES
 # ====================================================================

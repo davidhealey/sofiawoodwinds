@@ -31,10 +31,10 @@ set buildAAX=0
 set plugin_name=Sofia Woodwinds
 set plugin_project_path=XmlPresetBackups/sofiaWoodwinds.xml
 
-set installer_command="C:\Program Files (x86)\Inno Setup 5\ISCC.exe"
+set installer_command="C:\Users\John\AppData\Local\Programs\Inno Setup 6\ISCC.exe"
 
 REM Environment variables, comment for build server usage
-REM set hise_path="D:\Development\HISE modules\projects\standalone\Builds\VisualStudio2017\x64\Release\App\HISE.exe"
+set hise_path="C:\Users\John\Documents\HISE\projects\standalone\Builds\VisualStudio2017\x64\Release\App\HISE.exe"
 
 if "%1%"=="--noaax" set buildAAX=0
 
@@ -87,18 +87,18 @@ echo Setting project folder
 if %buildAAX%==1 (
   echo Exporting %plugin_name% AAX Plugins
   %hise_path% clean 
-  %hise_path% export_ci %plugin_project_path% -ipp -t:instrument -p:AAX -a:x86x64
+  %hise_path% export_ci %plugin_project_path% -t:instrument -p:AAX -a:x86x64
   call Binaries/batchCompile.bat
 )
 
 echo Exporting %plugin_name% Standalone
 %hise_path% clean 
-%hise_path% export_ci %plugin_project_path% -ipp -t:standalone -a:x86x64
+%hise_path% export_ci %plugin_project_path% -t:standalone -a:x86x64
 call Binaries/batchCompile.bat
 
 echo Exporting %plugin_name% Plugins
 %hise_path% clean
-%hise_path% export_ci %plugin_project_path% -ipp -t:instrument -p:VST -a:x86x64
+%hise_path% export_ci %plugin_project_path% -t:instrument -p:VST -a:x86x64
 call Binaries/batchCompile.bat
 
 :CopyFiles
