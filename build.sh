@@ -1,20 +1,27 @@
 # MACOS BUILD SCRIPT
 
-project=Michaelas\ Harp
-xmlFile=michaelasHarp
+project=Sofia\ Woodwinds
+xmlFile=sofiaWoodwinds
 build_aax=0
 build_installer=1
 
 # SET THIS TO 1 WHEN USING BUILD SERVER
 skip_build=0
-build_server=1
+build_server=0
 code_sign=1
 
 # ENVIRONMENT VARIABLES (ALREADY SET ON BUILD SERVER)
+if (($build_server==0))
+then
+version=1.0.2
+hise_path_macos=/Volumes/SHARED/HISE/projects/standalone/Builds/MacOSX/build/Release/HISE.app/Contents/MacOS/HISE
+projucer_macos=/Volumes/SHARED/HISE/tools/projucer/Projucer.app/Contents/MacOS/Projucer
+WORKSPACE=/Volumes/SHARED/HISEProjects/sofiawoodwinds
+PACKAGES_BUILD=/usr/local/bin/packagesbuild
+fi
 
 # STEP 1: BUILDING THE BINARIES
 # ====================================================================
-
 if (($skip_build==0))
 then
 echo $version
@@ -25,12 +32,12 @@ echo Making the Projucer accessible for this project
 chmod +x "$projucer_macos"
 
 echo Building the standalone app
-"$hise_path_macos" export_ci XmlPresetBackups/$xmlFile.xml -t:standalone -a:x64x86
+"$hise_path_macos" export_ci XmlPresetBackups/$xmlFile.xml -t:standalone -a:x64
 chmod +x "Binaries/batchCompileOSX"
 sh "Binaries/batchCompileOSX"
 
 echo Building the plugins
-"$hise_path_macos" export_ci XmlPresetBackups/$xmlFile.xml -t:instrument -p:VST_AU -a:x64x86
+"$hise_path_macos" export_ci XmlPresetBackups/$xmlFile.xml -t:instrument -p:VST_AU -a:x64
 chmod +x "Binaries/batchCompileOSX"
 sh "Binaries/batchCompileOSX"
 
@@ -42,11 +49,11 @@ vst_project=./Binaries/Builds/MacOSX/build/Release/$project.vst
 au_project=./Binaries/Builds/MacOSX/build/Release/$project.component
 standalone_project=./Binaries/Compiled/$project.app
 
-if (($code_sign==1))
+if (($code_sign==0))
 then
 echo "Signing"
 security list-keychains
-security unlock-keychain -p $keychain_password /Users/Shared/Jenkins/Library/Keychains/login.keychain
+security unlock-keychain -p $keychain_password /Users/laboratoryaudio/Library/Keychains/login.keychain
 
 echo "Signing VST & AU"
 codesign -s "$APPLE_CERTIFICATE_ID" "$au_project"
