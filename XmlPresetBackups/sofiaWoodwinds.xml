@@ -541,7 +541,7 @@
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
                 <channelData enabled="1" level="0" suffix="decca"/>
-                <channelData enabled="1" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="0" suffix="hall"/>
               </channels>
             </Processor>
             <Processor Type="StreamingSampler" ID="transitions" Bypassed="0" Gain="1"
@@ -876,7 +876,7 @@
               <channels>
                 <channelData enabled="1" level="0" suffix="close"/>
                 <channelData enabled="1" level="0" suffix="decca"/>
-                <channelData enabled="1" level="-100" suffix="hall"/>
+                <channelData enabled="1" level="0" suffix="hall"/>
               </channels>
             </Processor>
           </ChildProcessors>

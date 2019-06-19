@@ -127,7 +127,7 @@ inline function onbtnSettingsControl(component, value)
 
 Content.getComponent("btnSettings").setControlCallback(onbtnSettingsControl);
 
-Engine.loadNextUserPreset(true);function onNoteOn()
+Engine.loadNextUserPreset(false);function onNoteOn()
 {
 	local idx = Articulations.getKSIndex(PresetHandler.patch, Message.getNoteNumber());
 
