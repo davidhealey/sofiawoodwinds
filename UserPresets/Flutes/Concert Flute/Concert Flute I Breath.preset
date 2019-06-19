@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.6">
+<Preset Version="1.1.0">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="knbOffset" value="150"/>
     <Control type="ScriptSlider" id="knbLegatoDecay" value="90"/>
-    <Control type="ScriptSlider" id="knbTransitionGain" value="-12"/>
+    <Control type="ScriptSlider" id="knbTransitionGain" value="-6"/>
     <Control type="ScriptSlider" id="knbGlideRate" value="9"/>
     <Control type="ScriptButton" id="btnVelocityRate" value="0"/>
     <Control type="ScriptButton" id="btnRR" value="1"/>
@@ -18,12 +18,12 @@
     <Control type="ScriptButton" id="btnCC2" value="0"/>
     <Control type="ScriptButton" id="btnCC3" value="0"/>
     <Control type="ScriptButton" id="btnCC4" value="0"/>
-    <Control type="ScriptTable" id="tblCC0" value="0" data="24...............vO...f+....9C...vO"/>
+    <Control type="ScriptTable" id="tblCC0" value="0" data=""/>
     <Control type="ScriptTable" id="tblCC1" value="0" data="36...............vOKob.+HT166C..3rO...f+....9C..jwO"/>
     <Control type="ScriptTable" id="tblCC2" value="0" data="24...............vO...f+....9C..3rO"/>
     <Control type="ScriptTable" id="tblCC3" value="0" data="24...............vO...f+....9C..HyO"/>
     <Control type="ScriptTable" id="tblCC4" value="0" data="24...............vO...f+....9C..HtO"/>
-    <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C...vO"/>
+    <Control type="ScriptTable" id="tblVelocity" value="0" data=""/>
     <Control type="ScriptButton" id="btnVelDynamics" value="0"/>
     <Control type="ScriptSlider" id="knbVibratoPitch" value="0.050000001"/>
     <Control type="ScriptSlider" id="knbVibratoGain" value="0.44999999"/>
@@ -54,7 +54,7 @@
     <Control type="ScriptSlider" id="knbSusAttack" value="5"/>
     <Control type="ScriptSlider" id="knbSusRelease" value="350"/>
     <Control type="ScriptSlider" id="knbLiveRelease" value="350"/>
-    <Control type="ScriptSlider" id="knbStaccatoGain" value="1.4901161e-06"/>
+    <Control type="ScriptSlider" id="knbStaccatoGain" value="-6"/>
     <Control type="ScriptSlider" id="knbStaccRelease" value="800"/>
     <Control type="ScriptSlider" id="knbReleaseGain" value="-6"/>
     <Control type="ScriptSlider" id="knbRelDecay" value="5000"/>
