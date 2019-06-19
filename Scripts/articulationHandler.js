@@ -42,11 +42,18 @@ namespace Articulations
     //Modulators
     const var liveEnvelopeVelocity = Synth.getModulator("liveEnvelopeVelocity");
     
-    
     //Synths/Samplers
     const var release = Synth.getChildSynth("release");
     
     //GUI
+    
+    //Articulation envelope controls
+    const var knbLiveRelease = Content.getComponent("knbLiveRelease");
+    const var knbSusRelease = Content.getComponent("knbSusRelease");
+    const var knbSusAttack = Content.getComponent("knbSusAttack");
+    const var knbLegAtk = Content.getComponent("knbLegAtk");
+    
+    //Articulations panel
     const var pnlArticulations = Content.getComponent("pnlArticulations");
     pnlArticulations.setPaintRoutine(function(g)
     {
@@ -115,14 +122,14 @@ namespace Articulations
             releaseHandler.setAttribute(releaseHandler.Attenuate, values.releaseAttenuation || false);
             
             //Specific articulation settings
-            if (name == "legato")
+            /*if (name == "legato")
             {                
                 //Live/Sustain envelope
-                envelope.sustain.setAttribute(envelope.sustain.Attack, Content.getComponent("knbLegAtk").getValue());
-                envelope.sustain.setAttribute(envelope.sustain.Release, Content.getComponent("knbLiveRelease").getValue());
-                Content.getComponent("knbLiveRelease").set("enabled", true);
-                Content.getComponent("knbSusRelease").set("enabled", false);
-                Content.getComponent("knbSusAttack").set("enabled", false);
+                envelope.sustain.setAttribute(envelope.sustain.Attack, knbLegAtk.getValue());
+                envelope.sustain.setAttribute(envelope.sustain.Release, knbLiveRelease.getValue());
+                knbLiveRelease.set("enabled", true);
+                knbSusRelease.set("enabled", false);
+                knbSusAttack.set("enabled", false);
                 liveEnvelopeVelocity.setBypassed(false);
                 
                 //Overlay/staccato envelope
@@ -139,11 +146,11 @@ namespace Articulations
             {
                 //Live/Sustain envelope
                 liveEnvelopeVelocity.setBypassed(true);
-                envelope.sustain.setAttribute(envelope.sustain.Attack, Content.getComponent("knbSusAttack").getValue());
-                envelope.sustain.setAttribute(envelope.sustain.Release, Content.getComponent("knbSusRelease").getValue());
-                Content.getComponent("knbLiveRelease").set("enabled", false);
-                Content.getComponent("knbSusRelease").set("enabled", true);
-                Content.getComponent("knbSusAttack").set("enabled", true);
+                envelope.sustain.setAttribute(envelope.sustain.Attack, knbSusAttack.getValue());
+                envelope.sustain.setAttribute(envelope.sustain.Release, knbSusRelease.getValue());
+                knbLiveRelease.set("enabled", false);
+                knbSusRelease.set("enabled", true);
+                knbSusAttack.set("enabled", true);
                 
                 //Overlay/staccato envelope
                 envelope.staccato.asTableProcessor().reset(0);
@@ -151,7 +158,7 @@ namespace Articulations
                 
                 //Release trigger
                 releaseHandler.setAttribute(releaseHandler.btnLegato, false);                
-            }
+            }*/
                    
             Articulations.last = Articulations.current;
             Articulations.current = index;

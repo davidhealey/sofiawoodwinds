@@ -6,19 +6,19 @@ knbPitch.setRange(-0.5, 0.5, 0.01);function onNoteOn()
 {
 	
 }
-function onNoteOff()
+ function onNoteOff()
 {
 	
 }
-function onController()
+ function onController()
 {
 	
 }
-function onTimer()
+ function onTimer()
 {
 	
 }
-function onControl(number, value)
+ function onControl(number, value)
 {
     vibratoPitch.setIntensity(value);
     vibratoPitchOffset.setIntensity(-value);
