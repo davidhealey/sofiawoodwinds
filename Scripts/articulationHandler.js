@@ -122,7 +122,7 @@ namespace Articulations
             releaseHandler.setAttribute(releaseHandler.Attenuate, values.releaseAttenuation || false);
             
             //Specific articulation settings
-            /*if (name == "legato")
+            if (name == "legato")
             {                
                 //Live/Sustain envelope
                 envelope.sustain.setAttribute(envelope.sustain.Attack, knbLegAtk.getValue());
@@ -158,7 +158,7 @@ namespace Articulations
                 
                 //Release trigger
                 releaseHandler.setAttribute(releaseHandler.btnLegato, false);                
-            }*/
+            }
                    
             Articulations.last = Articulations.current;
             Articulations.current = index;

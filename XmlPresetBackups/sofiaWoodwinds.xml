@@ -11,10 +11,10 @@
           <Content>
             <Control type="ScriptSlider" id="knbOffset" value="150"/>
             <Control type="ScriptSlider" id="knbLegatoDecay" value="90"/>
-            <Control type="ScriptSlider" id="knbTransitionGain" value="-12"/>
+            <Control type="ScriptSlider" id="knbTransitionGain" value="-6"/>
             <Control type="ScriptSlider" id="knbGlideRate" value="9"/>
             <Control type="ScriptButton" id="btnVelocityRate" value="0"/>
-            <Control type="ScriptButton" id="btnRR" value="0"/>
+            <Control type="ScriptButton" id="btnRR" value="1"/>
             <Control type="ScriptSlider" id="knbExpression" value="127"/>
             <Control type="ScriptSlider" id="knbDynamics" value="64"/>
             <Control type="ScriptSlider" id="knbFlutter" value="0"/>
@@ -57,11 +57,11 @@
             <Control type="ScriptButton" id="btnPurge0" value="1"/>
             <Control type="ScriptButton" id="btnPurge1" value="1"/>
             <Control type="ScriptButton" id="btnPurge2" value="1"/>
-            <Control type="ScriptButton" id="btnBreathControl" value="0"/>
+            <Control type="ScriptButton" id="btnBreathControl" value="1"/>
             <Control type="ScriptSlider" id="knbSusAttack" value="5"/>
             <Control type="ScriptSlider" id="knbSusRelease" value="350"/>
             <Control type="ScriptSlider" id="knbLiveRelease" value="350"/>
-            <Control type="ScriptSlider" id="knbStaccatoGain" value="1.4901161e-06"/>
+            <Control type="ScriptSlider" id="knbStaccatoGain" value="-6"/>
             <Control type="ScriptSlider" id="knbStaccRelease" value="800"/>
             <Control type="ScriptSlider" id="knbReleaseGain" value="-6"/>
             <Control type="ScriptSlider" id="knbRelDecay" value="5000"/>
@@ -75,7 +75,7 @@
         <Processor Type="ScriptProcessor" ID="velocityShaper" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptTable" id="tblVel" value="77" data=""/>
+            <Control type="ScriptTable" id="tblVel" value="64" data=""/>
             <Control type="ScriptButton" id="btnDynamics" value="0"/>
           </Content>
           <UIData>
@@ -138,7 +138,7 @@
         <Processor Type="ScriptProcessor" ID="roundRobinController" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptButton" id="btnBypass" value="0"/>
+            <Control type="ScriptButton" id="btnBypass" value="1"/>
             <Control type="ScriptSlider" id="knbLow" value="59"/>
             <Control type="ScriptSlider" id="knbHigh" value="96"/>
           </Content>
@@ -355,7 +355,7 @@
                 <Processor Type="MidiMuter" ID="sustainMuter" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
-                    <Control type="ScriptButton" id="ignoreButton" value="1"/>
+                    <Control type="ScriptButton" id="ignoreButton" value="0"/>
                     <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                   </Content>
                 </Processor>
@@ -387,7 +387,7 @@
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors>
-                    <Processor Type="ScriptProcessor" ID="sustainRoundRobin" Bypassed="1" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
+                    <Processor Type="ScriptProcessor" ID="sustainRoundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
                       <ChildProcessors/>
                       <Content>
                         <Control type="ScriptSlider" id="knbLowNote" value="59"/>
@@ -414,7 +414,7 @@
                     <Processor Type="ScriptProcessor" ID="legato" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/legato.js">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="btnMute" value="1"/>
+                        <Control type="ScriptButton" id="btnMute" value="0"/>
                         <Control type="ScriptSlider" id="knbOffset" value="150"/>
                         <Control type="ScriptButton" id="btnRetrigger" value="1"/>
                         <Control type="ScriptSlider" id="knbFadeMin" value="30"/>
@@ -427,7 +427,7 @@
                         <Control type="ScriptButton" id="btnGlideVel" value="0"/>
                         <Control type="ScriptButton" id="btnWholeStep" value="0"/>
                         <Control type="ScriptSlider" id="knbMaxGlide" value="0"/>
-                        <Control type="ScriptButton" id="btnBc" value="0"/>
+                        <Control type="ScriptButton" id="btnBc" value="1"/>
                         <Control type="ScriptSlider" id="knbBreath" value="64"/>
                         <Control type="ScriptSlider" id="knbThreshold" value="10"/>
                       </Content>
@@ -478,7 +478,7 @@
                         <Processor Type="ModulatorChain" ID="AttackTime Modulation" Bypassed="0"
                                    Intensity="1">
                           <ChildProcessors>
-                            <Processor Type="GlobalVoiceStartModulator" ID="liveEnvelopeVelocity" Bypassed="1"
+                            <Processor Type="GlobalVoiceStartModulator" ID="liveEnvelopeVelocity" Bypassed="0"
                                        Intensity="1" UseTable="1" Inverted="0" TableData="60..........9C...vOGJuF9.LyLyC..3qOrXwB+nv0ivC.....znQC+....9C........f+....9C....."
                                        Connection="Global Modulator Container:Velocity Modulator">
                               <ChildProcessors/>
@@ -559,7 +559,7 @@
                     <Processor Type="MidiMuter" ID="transitionMuter" Bypassed="0">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="ignoreButton" value="1"/>
+                        <Control type="ScriptButton" id="ignoreButton" value="0"/>
                         <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                       </Content>
                     </Processor>
@@ -606,7 +606,7 @@
                                      Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                                      Send4="-1" Channel5="5" Send5="-1"/>
                       <Content>
-                        <Control type="ScriptSlider" id="knbGain" value="-12"/>
+                        <Control type="ScriptSlider" id="knbGain" value="-6"/>
                         <Control type="ScriptSlider" id="knbSmooth" value="500"/>
                       </Content>
                       <UIData>
@@ -665,7 +665,7 @@
                     <Control type="ScriptButton" id="fixStuckNotes" value="0"/>
                   </Content>
                 </Processor>
-                <Processor Type="ScriptProcessor" ID="overlayVelocityFilter" Bypassed="1">
+                <Processor Type="ScriptProcessor" ID="overlayVelocityFilter" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptSlider" id="knbTheshold" value="70"/>
@@ -687,7 +687,7 @@
                 <Processor Type="ScriptProcessor" ID="overlayRoundRobin" Bypassed="0">
                   <ChildProcessors/>
                   <Content>
-                    <Control type="ScriptButton" id="btnEnabled" value="0"/>
+                    <Control type="ScriptButton" id="btnEnabled" value="1"/>
                     <Control type="ScriptButton" id="btnSputato" value="0"/>
                   </Content>
                   <UIData>
@@ -732,7 +732,7 @@
                 <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="TableEnvelope" ID="staccatoEnvelope" Bypassed="0" Monophonic="0"
-                               Retrigger="1" Intensity="1" Attack="2" Release="800" AttackTableData=""
+                               Retrigger="1" Intensity="1" Attack="200" Release="800" AttackTableData="36...............vOOJb87....9C...vO...f+.....PyLyrO"
                                ReleaseTableData="24..........9C...vO...f+........jwO">
                       <ChildProcessors>
                         <Processor Type="ModulatorChain" ID="AttackTime Modulation" Bypassed="0"
@@ -763,7 +763,7 @@
                                      Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                                      Send4="-1" Channel5="5" Send5="-1"/>
                       <Content>
-                        <Control type="ScriptSlider" id="knbGain" value="1.4901161e-06"/>
+                        <Control type="ScriptSlider" id="knbGain" value="-6"/>
                         <Control type="ScriptSlider" id="knbSmooth" value="500"/>
                       </Content>
                       <UIData>
@@ -834,7 +834,7 @@
                     <Processor Type="MidiMuter" ID="flutterMidiMuter" Bypassed="0">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="ignoreButton" value="1"/>
+                        <Control type="ScriptButton" id="ignoreButton" value="0"/>
                         <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                       </Content>
                     </Processor>
@@ -907,10 +907,10 @@
                   <ChildProcessors/>
                   <Content>
                     <Control type="ScriptButton" id="btnMute" value="0"/>
-                    <Control type="ScriptButton" id="btnLegato" value="0"/>
-                    <Control type="ScriptButton" id="Attenuate" value="1"/>
+                    <Control type="ScriptButton" id="btnLegato" value="1"/>
+                    <Control type="ScriptButton" id="Attenuate" value="0"/>
                     <Control type="ScriptSlider" id="Time" value="2.5"/>
-                    <Control type="ScriptTable" id="tblTime" value="41" data=""/>
+                    <Control type="ScriptTable" id="tblTime" value="42" data=""/>
                   </Content>
                   <UIData>
                     <ContentProperties DeviceType="Desktop">
@@ -918,8 +918,10 @@
                       <Component type="ScriptButton" id="btnLegato" x="150" y="10" text="Legato"
                                  tooltip="When enabled release samples will only be triggered when no other keys are held."/>
                       <Component type="ScriptButton" id="Attenuate" x="300" y="10"/>
-                      <Component type="ScriptSlider" id="Time" x="450" y="0" stepSize="0.1" max="60"/>
-                      <Component type="ScriptTable" id="tblTime" x="0" y="60" width="575" height="100"/>
+                      <Component type="ScriptSlider" id="Time" x="450" y="0" stepSize="0.1" max="60"
+                                 visible="0"/>
+                      <Component type="ScriptTable" id="tblTime" x="0" y="60" width="575" height="100"
+                                 visible="0"/>
                     </ContentProperties>
                   </UIData>
                 </Processor>
@@ -1014,19 +1016,19 @@
   <MidiAutomation>
     <Controller Controller="1" Processor="Interface" MacroIndex="-1" Start="0"
                 End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
-                Attribute="imgBG" Inverted="0"/>
+                Attribute="knbVibratoIntensity" Inverted="0"/>
+    <Controller Controller="2" Processor="Interface" MacroIndex="-1" Start="20"
+                End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
+                Attribute="knbExpression" Inverted="0"/>
+    <Controller Controller="2" Processor="Interface" MacroIndex="-1" Start="0"
+                End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
+                Attribute="knbDynamics" Inverted="0"/>
     <Controller Controller="5" Processor="Interface" MacroIndex="-1" Start="0"
                 End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
-                Attribute="imgBG" Inverted="0"/>
-    <Controller Controller="11" Processor="Interface" MacroIndex="-1" Start="0"
-                End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
-                Attribute="imgBG" Inverted="0"/>
-    <Controller Controller="20" Processor="Interface" MacroIndex="-1" Start="0"
-                End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
-                Attribute="imgBG" Inverted="0"/>
+                Attribute="knbFlutter" Inverted="0"/>
     <Controller Controller="21" Processor="Interface" MacroIndex="-1" Start="0"
                 End="127" FullStart="0" FullEnd="127" Skew="1.0114448" Interval="0.01"
-                Attribute="imgBG" Inverted="0"/>
+                Attribute="knbVibratoRate" Inverted="0"/>
   </MidiAutomation>
   <MPEData Enabled="0"/>
 </Processor>

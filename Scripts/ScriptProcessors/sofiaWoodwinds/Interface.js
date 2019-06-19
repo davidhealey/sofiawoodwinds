@@ -125,7 +125,9 @@ inline function onbtnSettingsControl(component, value)
 	Content.getComponent("pnlPage2").showControl(0); //Hide preset browser
 };
 
-Content.getComponent("btnSettings").setControlCallback(onbtnSettingsControl);function onNoteOn()
+Content.getComponent("btnSettings").setControlCallback(onbtnSettingsControl);
+
+Engine.loadNextUserPreset(true);function onNoteOn()
 {
 	local idx = Articulations.getKSIndex(PresetHandler.patch, Message.getNoteNumber());
 
