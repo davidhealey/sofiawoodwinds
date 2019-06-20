@@ -53,7 +53,7 @@ namespace Mixer
 		for (s in samplers) //Each sampler
 		{
 			//Only purge or load if it's state has changed
-			if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(idx) != 1-value)
+            if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(idx) != 1-value)
 			{
 				s.purgeMicPosition(s.getMicPositionName(idx), 1-value);
 			}

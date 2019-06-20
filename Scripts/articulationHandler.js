@@ -15,36 +15,12 @@
     along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
+//Handles the GUI side of articulation changing.
 namespace Articulations
 {    
     reg current = -1; //Currently selected articulation
     reg last = -1; //The previous articulation
-    
-    //Midi Processors
-    const var legatoHandler = Synth.getMidiProcessor("legato"); //Legato handler
-    const var overlayVelocityFilter = Synth.getMidiProcessor("overlayVelocityFilter");
-    const var releaseHandler = Synth.getMidiProcessor("releaseHandler");
-
-    //Muters
-    const var muter = {};
-    muter.transition = Synth.getMidiProcessor("transitionMuter");
-    muter.staccato = Synth.getMidiProcessor("staccatoMuter");
-    muter.sustain = Synth.getMidiProcessor("sustainMuter");
-    muter.overlay = Synth.getMidiProcessor("overlayMuter");
-    muter.flutter = Synth.getMidiProcessor("flutterMidiMuter");
-    muter.release = Synth.getMidiProcessor("releaseMidiMuter");
-
-    //Envelopes
-    const var envelope = {}
-    envelope.sustain = Synth.getModulator("sustainEnvelope");
-    envelope.staccato = Synth.getModulator("staccatoEnvelope");
-    
-    //Modulators
-    const var liveEnvelopeVelocity = Synth.getModulator("liveEnvelopeVelocity");
-    
-    //Synths/Samplers
-    const var release = Synth.getChildSynth("release");
-    
+        
     //GUI
     
     //Articulation envelope controls
@@ -90,75 +66,27 @@ namespace Articulations
     });
     
     //Release sampler purge button
+    const var release = Synth.getChildSynth("release");
+    
     inline function onbtnRelPurgeControl(component, value)
     {
-        release.setAttribute(release.Purged, 1-value);
+        if (release.getAttribute(release.Purged) != 1-value)
+            release.setAttribute(release.Purged, 1-value);
     };
 
     Content.getComponent("btnRelPurge").setControlCallback(onbtnRelPurgeControl);
     
-    
-    //Functions
-    inline function getKSIndex(patchName, note)
-    {
-        local ks = Manifest.patches[patchName].ks;
-        return ks.indexOf(note);
-    }
-    
+    //Functions    
     inline function changeArticulation(index)
     {
         if (index !== Articulations.current && index < Manifest.articulations.names.length)
         {
             local name = Manifest.articulations.names[index];
-            local values = Manifest.articulations[name];           
             
-            muter.sustain.setAttribute(muter.sustain.ignoreButton, values.muter.sustain);
-            muter.transition.setAttribute(muter.transition.ignoreButton, values.muter.transition);
-            muter.overlay.setAttribute(muter.overlay.ignoreButton, values.muter.overlay);
-            muter.staccato.setAttribute(muter.staccato.ignoreButton, values.muter.staccato);
-            muter.flutter.setAttribute(muter.flutter.ignoreButton, values.muter.flutter);
-            legatoHandler.setAttribute(legatoHandler.btnMute, values.processors.legatoBypass);
-            overlayVelocityFilter.setBypassed(values.processors.overlayFilterBypass);
-            releaseHandler.setAttribute(releaseHandler.Attenuate, values.releaseAttenuation || false);
-            
-            //Specific articulation settings
-            if (name == "legato")
-            {                
-                //Live/Sustain envelope
-                envelope.sustain.setAttribute(envelope.sustain.Attack, knbLegAtk.getValue());
-                envelope.sustain.setAttribute(envelope.sustain.Release, knbLiveRelease.getValue());
-                knbLiveRelease.set("enabled", true);
-                knbSusRelease.set("enabled", false);
-                knbSusAttack.set("enabled", false);
-                liveEnvelopeVelocity.setBypassed(false);
-                
-                //Overlay/staccato envelope
-                envelope.staccato.asTableProcessor().reset(0);
-                envelope.staccato.setAttribute(envelope.staccato.Attack, 200);            
-                envelope.staccato.asTableProcessor().setTablePoint(0, 0, 0, 0, 0.5);
-                envelope.staccato.asTableProcessor().setTablePoint(0, 1, 1, 0, 0.4);
-                envelope.staccato.asTableProcessor().addTablePoint(0, 0.03, 1);
-                
-                //Release trigger
-                releaseHandler.setAttribute(releaseHandler.btnLegato, true);
-            }
-            else
-            {
-                //Live/Sustain envelope
-                liveEnvelopeVelocity.setBypassed(true);
-                envelope.sustain.setAttribute(envelope.sustain.Attack, knbSusAttack.getValue());
-                envelope.sustain.setAttribute(envelope.sustain.Release, knbSusRelease.getValue());
-                knbLiveRelease.set("enabled", false);
-                knbSusRelease.set("enabled", true);
-                knbSusAttack.set("enabled", true);
-                
-                //Overlay/staccato envelope
-                envelope.staccato.asTableProcessor().reset(0);
-                envelope.staccato.setAttribute(envelope.staccato.Attack, 2);
-                
-                //Release trigger
-                releaseHandler.setAttribute(releaseHandler.btnLegato, false);                
-            }
+            //Enable envelope controls
+            knbLiveRelease.set("enabled", name == "legato");
+            knbSusRelease.set("enabled", name != "legato");
+            knbSusAttack.set("enabled", name != "legato");
                    
             Articulations.last = Articulations.current;
             Articulations.current = index;
@@ -166,5 +94,6 @@ namespace Articulations
         }
     }
 
+    //Set initial articulation
     Articulations.changeArticulation(0);
 }

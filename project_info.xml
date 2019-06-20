@@ -19,6 +19,6 @@
   <RedirectSampleFolder value=""/>
   <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
   <SupportMonoFX value="No"/>
-  <SupportFullDynamicsHLAC value="No"/>
+  <SupportFullDynamicsHLAC value="1"/>
   <UseRawFrontend value="No"/>
 </ProjectSettings>

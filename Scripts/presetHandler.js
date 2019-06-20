@@ -34,7 +34,7 @@ namespace PresetHandler
     //Playable range filter
     const var rangeFilter = Synth.getMidiProcessor("rangeFilter");
         
-    //Previos/Next preset buttons
+    //Previous/Next preset buttons
     const var btnPreset = [];
     btnPreset[0] = Content.getComponent("btnPreset0"); //Prev
     btnPreset[1] = Content.getComponent("btnPreset1"); //Next
@@ -48,7 +48,7 @@ namespace PresetHandler
     for (id in samplerIds)
     {
       childSynths[id] = Synth.getChildSynth(id);
-    }
+    }   
 
     //Get array of patch names from manifest
     const var patchNames = [];
@@ -146,7 +146,7 @@ namespace PresetHandler
             }
             else //No sample map found
             {
-                childSynths[id].setBypassed(true); //Bypass sampler
+               // childSynths[id].setBypassed(true); //Bypass sampler
                 childSynths[id].asSampler().loadSampleMap("empty"); //Load empty sample map for this sampler
             }
         }

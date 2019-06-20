@@ -16,8 +16,8 @@
 */
 
 include("manifest.js");
-include("presetHandler.js");
 include("articulationHandler.js");
+include("presetHandler.js");
 include("mixer.js");
 include("settings.js");
 include("preloadBar.js");
@@ -125,14 +125,12 @@ inline function onbtnSettingsControl(component, value)
 	Content.getComponent("pnlPage2").showControl(0); //Hide preset browser
 };
 
-Content.getComponent("btnSettings").setControlCallback(onbtnSettingsControl);
-
-Engine.loadNextUserPreset(false);function onNoteOn()
+Content.getComponent("btnSettings").setControlCallback(onbtnSettingsControl);function onNoteOn()
 {
-	local idx = Articulations.getKSIndex(PresetHandler.patch, Message.getNoteNumber());
-
-	if (idx != -1)
-	    Articulations.changeArticulation(idx);
+    //Updates GUI but doesn't actually change the articulation
+    local idx = Manifest.patches[PresetHandler.patch].ks.indexOf(Message.getNoteNumber());
+    if (idx != -1)
+	   Articulations.changeArticulation(idx);
 }
 function onNoteOff()
 {
@@ -141,7 +139,7 @@ function onNoteOff()
  function onController()
 {
     //UACC or program change
-	if (Message.getControllerNumber() == 32 || Message.isProgramChange())
+/*	if (Message.getControllerNumber() == 32 || Message.isProgramChange())
     {
         local n;
 
@@ -156,7 +154,7 @@ function onNoteOff()
         //Change articulation
         if (idx != -1)
             Articulations.changeArticulation(idx);
-    }
+    }*/
 }
 function onTimer()
 {

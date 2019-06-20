@@ -59,7 +59,7 @@ namespace Settings
         "SustainCC": false,
         "ClearMidiCC": true,
         "SampleLocation": true,
-        "DebugMode": false,
+        "DebugMode": true,
         "ScaleFactorList": [
             0.5,
             0.75,

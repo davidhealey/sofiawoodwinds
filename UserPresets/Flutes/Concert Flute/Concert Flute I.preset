@@ -4,7 +4,7 @@
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="knbOffset" value="150"/>
     <Control type="ScriptSlider" id="knbLegatoDecay" value="90"/>
-    <Control type="ScriptSlider" id="knbTransitionGain" value="-6"/>
+    <Control type="ScriptSlider" id="knbTransitionGain" value="-9"/>
     <Control type="ScriptSlider" id="knbGlideRate" value="9"/>
     <Control type="ScriptButton" id="btnVelocityRate" value="0"/>
     <Control type="ScriptButton" id="btnRR" value="0"/>
@@ -14,7 +14,7 @@
     <Control type="ScriptSlider" id="knbVibratoIntensity" value="0"/>
     <Control type="ScriptSlider" id="knbVibratoRate" value="90"/>
     <Control type="ScriptButton" id="btnCC0" value="0"/>
-    <Control type="ScriptButton" id="btnCC1" value="1"/>
+    <Control type="ScriptButton" id="btnCC1" value="0"/>
     <Control type="ScriptButton" id="btnCC2" value="0"/>
     <Control type="ScriptButton" id="btnCC3" value="0"/>
     <Control type="ScriptButton" id="btnCC4" value="0"/>
