@@ -34,8 +34,9 @@
                processorId="legato" parameterId="knbRate" defaultValue="9" text=""
                numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-leg_anim.png"
                isPluginParameter="1" pluginParameterName="Glide Rate" mouseSensitivity="0.69999999"
-               showValuePopup="Right" scaleFactor="0.5" parentComponent="pnlPage0"/>
-    <Component type="ScriptButton" id="btnVelocityRate" x="349" y="264" text=""
+               showValuePopup="Right" scaleFactor="0.5" parentComponent="pnlPage0"
+               enabled="0"/>
+    <Component type="ScriptButton" id="btnVelocityRate" x="349" y="265" text=""
                isPluginParameter="1" pluginParameterName="Velocity Rate" width="30"
                height="39" filmstripImage="{PROJECT_FOLDER}2X-leg_square_btn.png"
                scaleFactor="0.5" parentComponent="pnlPage0" tooltip="Control rate with velocity"/>

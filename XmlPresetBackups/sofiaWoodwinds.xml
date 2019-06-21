@@ -60,7 +60,7 @@
             <Control type="ScriptButton" id="btnBreathControl" value="0"/>
             <Control type="ScriptSlider" id="knbSusAttack" value="5"/>
             <Control type="ScriptSlider" id="knbSusRelease" value="350"/>
-            <Control type="ScriptSlider" id="knbLiveRelease" value="350"/>
+            <Control type="ScriptSlider" id="knbLiveRelease" value="150"/>
             <Control type="ScriptSlider" id="knbStaccatoGain" value="-6"/>
             <Control type="ScriptSlider" id="knbStaccRelease" value="800"/>
             <Control type="ScriptSlider" id="knbReleaseGain" value="-8"/>
@@ -82,7 +82,7 @@
         <Processor Type="ScriptProcessor" ID="velocityShaper" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptTable" id="tblVel" value="47" data=""/>
+            <Control type="ScriptTable" id="tblVel" value="49" data=""/>
             <Control type="ScriptButton" id="btnDynamics" value="0"/>
           </Content>
           <UIData>
@@ -389,8 +389,7 @@
                        Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="36..........9C...vOgxd+9........3rO...f+.........vO"
                        Group1Table="36.......TRRvC...vOPhE.+....9C..HyO...f+........voO"
                        Group2Table="36...............vOcL7B+.........vO...f+....9C..fxO"
-                       Group3Table="" Group4Table="" Group5Table="" Group6Table="" Group7Table=""
-                       SampleMapID="flute1_sustain">
+                       Group3Table="" Group4Table="" Group5Table="" Group6Table="" Group7Table="">
               <ChildProcessors>
                 <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
                   <ChildProcessors>
@@ -431,12 +430,13 @@
                         <Control type="ScriptSlider" id="knbBendMin" value="10"/>
                         <Control type="ScriptSlider" id="knbBendMax" value="40"/>
                         <Control type="ScriptSlider" id="knbRate" value="9"/>
-                        <Control type="ScriptButton" id="btnGlideVel" value="0"/>
+                        <Control type="ScriptButton" id="btnGlideVel" value="1"/>
                         <Control type="ScriptButton" id="btnWholeStep" value="0"/>
                         <Control type="ScriptSlider" id="knbMaxGlide" value="0"/>
                         <Control type="ScriptButton" id="btnBc" value="0"/>
                         <Control type="ScriptSlider" id="knbBreath" value="64"/>
                         <Control type="ScriptSlider" id="knbThreshold" value="10"/>
+                        <Control type="ScriptButton" id="btnNoteOff" value="0"/>
                       </Content>
                       <UIData>
                         <ContentProperties DeviceType="Desktop">
@@ -471,6 +471,8 @@
                                      max="127" text="Breath" tooltip="Breath controller knob, value should be set by CC."/>
                           <Component type="ScriptSlider" id="knbThreshold" x="600" y="100" stepSize="1"
                                      min="10" max="127" text="Trigger Level" tooltip="Breath controller trigger threshold."/>
+                          <Component type="ScriptButton" id="btnNoteOff" x="150" y="160" text="Note Off"
+                                     tooltip="When enabled legato phrase notes will be turned off instead of faded out."/>
                         </ContentProperties>
                       </UIData>
                     </Processor>
@@ -479,7 +481,7 @@
                 <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="TableEnvelope" ID="sustainEnvelope" Bypassed="0" Monophonic="0"
-                               Retrigger="1" Intensity="1" Attack="150" Release="350" AttackTableData="24...............vO...f+....9C..fsO"
+                               Retrigger="1" Intensity="1" Attack="150" Release="150" AttackTableData="24...............vO...f+....9C..fsO"
                                ReleaseTableData="24..........9C...vO...f+........zxO">
                       <ChildProcessors>
                         <Processor Type="ModulatorChain" ID="AttackTime Modulation" Bypassed="0"
@@ -550,6 +552,1118 @@
                 <channelData enabled="1" level="0" suffix="decca"/>
                 <channelData enabled="1" level="0" suffix="hall"/>
               </channels>
+              <samplemap ID="flute1_sustain" SaveMode="2" RRGroupAmount="3" MicPositions="close;decca;hall;">
+                <sample ID="0" Root="60" HiKey="60" LoKey="59" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="906"
+                        SampleEnd="488081" SampleStartMod="10000" LoopStart="218120"
+                        LoopEnd="395936" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="0" MonolithLength="503808">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_60_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_60_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_60_dynamic1.wav"/>
+                </sample>
+                <sample ID="1" Root="60" HiKey="60" LoKey="59" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7720"
+                        SampleEnd="507637" SampleStartMod="10000" LoopStart="207382"
+                        LoopEnd="401803" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="503808" MonolithLength="536576">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_60_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_60_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_60_dynamic2.wav"/>
+                </sample>
+                <sample ID="2" Root="60" HiKey="60" LoKey="59" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6035"
+                        SampleEnd="557861" SampleStartMod="10000" LoopStart="191347"
+                        LoopEnd="430094" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="1040384" MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_60_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_60_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_60_dynamic3.wav"/>
+                </sample>
+                <sample ID="3" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7434"
+                        SampleEnd="507974" SampleStartMod="10000" LoopStart="178250"
+                        LoopEnd="437159" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="1613824" MonolithLength="536576">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_61_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_61_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_61_dynamic1.wav"/>
+                </sample>
+                <sample ID="4" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4829"
+                        SampleEnd="535056" SampleStartMod="10000" LoopStart="106272"
+                        LoopEnd="466243" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="2150400" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_61_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_61_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_61_dynamic2.wav"/>
+                </sample>
+                <sample ID="5" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6001"
+                        SampleEnd="553108" SampleStartMod="10000" LoopStart="115882"
+                        LoopEnd="413309" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="2715648" MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_61_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_61_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_61_dynamic3.wav"/>
+                </sample>
+                <sample ID="6" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="-4" Pan="0" Normalized="0" Pitch="0" SampleStart="7203"
+                        SampleEnd="508466" SampleStartMod="15000" LoopStart="94944" LoopEnd="462141"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="3293184"
+                        MonolithLength="540672">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_62_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_62_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_62_dynamic1.wav"/>
+                </sample>
+                <sample ID="7" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2674"
+                        SampleEnd="526289" SampleStartMod="10000" LoopStart="224017"
+                        LoopEnd="424027" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="3833856" MonolithLength="540672">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_62_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_62_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_62_dynamic2.wav"/>
+                </sample>
+                <sample ID="8" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6924"
+                        SampleEnd="561422" SampleStartMod="10000" LoopStart="72489" LoopEnd="290803"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="4374528"
+                        MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_62_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_62_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_62_dynamic3.wav"/>
+                </sample>
+                <sample ID="9" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6749"
+                        SampleEnd="521282" SampleStartMod="10000" LoopStart="101095"
+                        LoopEnd="423045" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="4952064" MonolithLength="544768">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_63_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_63_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_63_dynamic1.wav"/>
+                </sample>
+                <sample ID="10" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="244"
+                        SampleEnd="522109" SampleStartMod="10000" LoopStart="190640"
+                        LoopEnd="421439" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="5496832" MonolithLength="544768">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_63_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_63_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_63_dynamic2.wav"/>
+                </sample>
+                <sample ID="11" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6355"
+                        SampleEnd="542174" SampleStartMod="10000" LoopStart="187787"
+                        LoopEnd="461485" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="6041600" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_63_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_63_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_63_dynamic3.wav"/>
+                </sample>
+                <sample ID="12" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5718"
+                        SampleEnd="532465" SampleStartMod="10000" LoopStart="173774"
+                        LoopEnd="446055" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="6606848" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_64_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_64_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_64_dynamic1.wav"/>
+                </sample>
+                <sample ID="13" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1890"
+                        SampleEnd="526538" SampleStartMod="10000" LoopStart="293433"
+                        LoopEnd="461983" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="7159808" MonolithLength="544768">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_64_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_64_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_64_dynamic2.wav"/>
+                </sample>
+                <sample ID="14" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6777"
+                        SampleEnd="564517" SampleStartMod="10000" LoopStart="293789"
+                        LoopEnd="452117" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="7704576" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_64_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_64_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_64_dynamic3.wav"/>
+                </sample>
+                <sample ID="15" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4935"
+                        SampleEnd="522767" SampleStartMod="10000" LoopStart="261590"
+                        LoopEnd="460329" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="8269824" MonolithLength="544768">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_65_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_65_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_65_dynamic1.wav"/>
+                </sample>
+                <sample ID="16" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1885"
+                        SampleEnd="528893" SampleStartMod="10000" LoopStart="293312"
+                        LoopEnd="454661" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="8814592" MonolithLength="540672">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_65_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_65_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_65_dynamic2.wav"/>
+                </sample>
+                <sample ID="17" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6985"
+                        SampleEnd="544708" SampleStartMod="10000" LoopStart="248796"
+                        LoopEnd="401407" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="9355264" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_65_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_65_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_65_dynamic3.wav"/>
+                </sample>
+                <sample ID="18" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5384"
+                        SampleEnd="514665" SampleStartMod="10000" LoopStart="57656" LoopEnd="358002"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="9920512"
+                        MonolithLength="544768">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_66_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_66_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_66_dynamic1.wav"/>
+                </sample>
+                <sample ID="19" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1801"
+                        SampleEnd="537881" SampleStartMod="10000" LoopStart="228344"
+                        LoopEnd="425525" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="10465280" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_66_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_66_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_66_dynamic2.wav"/>
+                </sample>
+                <sample ID="20" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8895"
+                        SampleEnd="549736" SampleStartMod="10000" LoopStart="218568"
+                        LoopEnd="429198" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="11018240" MonolithLength="585728">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_66_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_66_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_66_dynamic3.wav"/>
+                </sample>
+                <sample ID="21" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7815"
+                        SampleEnd="527896" SampleStartMod="10000" LoopStart="187986"
+                        LoopEnd="464513" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="11603968" MonolithLength="540672">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_67_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_67_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_67_dynamic1.wav"/>
+                </sample>
+                <sample ID="22" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2221"
+                        SampleEnd="539109" SampleStartMod="10000" LoopStart="166522"
+                        LoopEnd="370205" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="12144640" MonolithLength="548864">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_67_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_67_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_67_dynamic2.wav"/>
+                </sample>
+                <sample ID="23" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7971"
+                        SampleEnd="570605" SampleStartMod="10000" LoopStart="72335" LoopEnd="377435"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="12693504"
+                        MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_67_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_67_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_67_dynamic3.wav"/>
+                </sample>
+                <sample ID="24" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7088"
+                        SampleEnd="518632" SampleStartMod="10000" LoopStart="260262"
+                        LoopEnd="463980" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="13266944" MonolithLength="548864">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_68_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_68_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_68_dynamic1.wav"/>
+                </sample>
+                <sample ID="25" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3506"
+                        SampleEnd="530322" SampleStartMod="10000" LoopStart="87065" LoopEnd="428864"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="13815808"
+                        MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_68_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_68_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_68_dynamic2.wav"/>
+                </sample>
+                <sample ID="26" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4125"
+                        SampleEnd="568580" SampleStartMod="10000" LoopStart="145502"
+                        LoopEnd="418555" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="14372864" MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_68_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_68_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_68_dynamic3.wav"/>
+                </sample>
+                <sample ID="27" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8111"
+                        SampleEnd="526843" SampleStartMod="10000" LoopStart="295379"
+                        LoopEnd="447150" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="14946304" MonolithLength="561152">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_69_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_69_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_69_dynamic1.wav"/>
+                </sample>
+                <sample ID="28" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2237"
+                        SampleEnd="539091" SampleStartMod="10000" LoopStart="296449"
+                        LoopEnd="450893" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="15507456" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_69_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_69_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_69_dynamic2.wav"/>
+                </sample>
+                <sample ID="29" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8408"
+                        SampleEnd="555384" SampleStartMod="10000" LoopStart="247884"
+                        LoopEnd="447569" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="16060416" MonolithLength="589824">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_69_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_69_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_69_dynamic3.wav"/>
+                </sample>
+                <sample ID="30" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9345"
+                        SampleEnd="539627" SampleStartMod="10000" LoopStart="260699"
+                        LoopEnd="461757" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="16650240" MonolithLength="561152">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_70_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_70_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_70_dynamic1.wav"/>
+                </sample>
+                <sample ID="31" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1480"
+                        SampleEnd="529179" SampleStartMod="10000" LoopStart="228171"
+                        LoopEnd="391394" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="17211392" MonolithLength="548864">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_70_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_70_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_70_dynamic2.wav"/>
+                </sample>
+                <sample ID="32" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8601"
+                        SampleEnd="559011" SampleStartMod="10000" LoopStart="260541"
+                        LoopEnd="427698" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="17760256" MonolithLength="581632">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_70_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_70_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_70_dynamic3.wav"/>
+                </sample>
+                <sample ID="33" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8810"
+                        SampleEnd="534517" SampleStartMod="10000" LoopStart="159147"
+                        LoopEnd="454538" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="18341888" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_71_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_71_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_71_dynamic1.wav"/>
+                </sample>
+                <sample ID="34" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3889"
+                        SampleEnd="527348" SampleStartMod="10000" LoopStart="132674"
+                        LoopEnd="315225" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="18907136" MonolithLength="540672">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_71_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_71_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_71_dynamic2.wav"/>
+                </sample>
+                <sample ID="35" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8800"
+                        SampleEnd="572609" SampleStartMod="10000" LoopStart="246269"
+                        LoopEnd="399824" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="19447808" MonolithLength="589824">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_71_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_71_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_71_dynamic3.wav"/>
+                </sample>
+                <sample ID="36" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7970"
+                        SampleEnd="530295" SampleStartMod="10000" LoopStart="289965"
+                        LoopEnd="449799" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="20037632" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_72_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_72_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_72_dynamic1.wav"/>
+                </sample>
+                <sample ID="37" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4410"
+                        SampleEnd="543229" SampleStartMod="10000" LoopStart="166812"
+                        LoopEnd="446453" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="20590592" MonolithLength="561152">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_72_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_72_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_72_dynamic2.wav"/>
+                </sample>
+                <sample ID="38" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8902"
+                        SampleEnd="560350" SampleStartMod="10000" LoopStart="175144"
+                        LoopEnd="401705" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="21151744" MonolithLength="581632">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_72_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_72_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_72_dynamic3.wav"/>
+                </sample>
+                <sample ID="39" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5156"
+                        SampleEnd="516129" SampleStartMod="10000" LoopStart="22319" LoopEnd="422421"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="21733376"
+                        MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_73_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_73_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_73_dynamic1.wav"/>
+                </sample>
+                <sample ID="40" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4199"
+                        SampleEnd="532891" SampleStartMod="10000" LoopStart="179476"
+                        LoopEnd="398480" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="22286336" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_73_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_73_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_73_dynamic2.wav"/>
+                </sample>
+                <sample ID="41" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3690"
+                        SampleEnd="548281" SampleStartMod="10000" LoopStart="241205"
+                        LoopEnd="407396" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="22839296" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_73_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_73_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_73_dynamic3.wav"/>
+                </sample>
+                <sample ID="42" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="-1" Pan="0" Normalized="0" Pitch="0" SampleStart="8029"
+                        SampleEnd="537599" SampleStartMod="10000" LoopStart="193548"
+                        LoopEnd="360022" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="23404544" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_74_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_74_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_74_dynamic1.wav"/>
+                </sample>
+                <sample ID="43" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2992"
+                        SampleEnd="541636" SampleStartMod="10000" LoopStart="263641"
+                        LoopEnd="415663" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="23957504" MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_74_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_74_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_74_dynamic2.wav"/>
+                </sample>
+                <sample ID="44" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8040"
+                        SampleEnd="555216" SampleStartMod="10000" LoopStart="199798"
+                        LoopEnd="352008" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="24535040" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_74_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_74_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_74_dynamic3.wav"/>
+                </sample>
+                <sample ID="45" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8619"
+                        SampleEnd="528959" SampleStartMod="5000" LoopStart="15491" LoopEnd="426159"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="25104384"
+                        MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_75_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_75_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_75_dynamic1.wav"/>
+                </sample>
+                <sample ID="46" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3034"
+                        SampleEnd="535048" SampleStartMod="10000" LoopStart="102847"
+                        LoopEnd="271683" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="25657344" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_75_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_75_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_75_dynamic2.wav"/>
+                </sample>
+                <sample ID="47" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7941"
+                        SampleEnd="592896" SampleStartMod="10000" LoopStart="213043"
+                        LoopEnd="403343" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="26226688" MonolithLength="602112">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_75_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_75_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_75_dynamic3.wav"/>
+                </sample>
+                <sample ID="48" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6121"
+                        SampleEnd="545984" SampleStartMod="10000" LoopStart="290311"
+                        LoopEnd="443663" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="26828800" MonolithLength="581632">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_76_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_76_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_76_dynamic1.wav"/>
+                </sample>
+                <sample ID="49" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2867"
+                        SampleEnd="551688" SampleStartMod="10000" LoopStart="307942"
+                        LoopEnd="464186" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="27410432" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_76_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_76_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_76_dynamic2.wav"/>
+                </sample>
+                <sample ID="50" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1773"
+                        SampleEnd="522533" SampleStartMod="10000" LoopStart="53947" LoopEnd="366771"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="27975680"
+                        MonolithLength="532480">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_76_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_76_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_76_dynamic3.wav"/>
+                </sample>
+                <sample ID="51" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6894"
+                        SampleEnd="536570" SampleStartMod="10000" LoopStart="142119"
+                        LoopEnd="397617" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="28508160" MonolithLength="544768">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_77_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_77_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_77_dynamic1.wav"/>
+                </sample>
+                <sample ID="52" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3448"
+                        SampleEnd="546796" SampleStartMod="10000" LoopStart="252579"
+                        LoopEnd="445378" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="29052928" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_77_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_77_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_77_dynamic2.wav"/>
+                </sample>
+                <sample ID="53" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7516"
+                        SampleEnd="559981" SampleStartMod="10000" LoopStart="93529" LoopEnd="308844"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="29605888"
+                        MonolithLength="581632">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_77_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_77_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_77_dynamic3.wav"/>
+                </sample>
+                <sample ID="54" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7293"
+                        SampleEnd="527930" SampleStartMod="10000" LoopStart="222953"
+                        LoopEnd="397836" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="30187520" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_78_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_78_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_78_dynamic1.wav"/>
+                </sample>
+                <sample ID="55" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4452"
+                        SampleEnd="548017" SampleStartMod="10000" LoopStart="201935"
+                        LoopEnd="391343" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="30740480" MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_78_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_78_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_78_dynamic2.wav"/>
+                </sample>
+                <sample ID="56" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8136"
+                        SampleEnd="561174" SampleStartMod="10000" LoopStart="281158"
+                        LoopEnd="466207" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="31297536" MonolithLength="581632">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_78_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_78_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_78_dynamic3.wav"/>
+                </sample>
+                <sample ID="57" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6699"
+                        SampleEnd="551531" SampleStartMod="10000" LoopStart="60808" LoopEnd="431770"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="31879168"
+                        MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_79_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_79_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_79_dynamic1.wav"/>
+                </sample>
+                <sample ID="58" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3868"
+                        SampleEnd="552972" SampleStartMod="10000" LoopStart="262899"
+                        LoopEnd="434842" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="32432128" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_79_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_79_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_79_dynamic2.wav"/>
+                </sample>
+                <sample ID="59" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5693"
+                        SampleEnd="572120" SampleStartMod="10000" LoopStart="161434"
+                        LoopEnd="393455" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="33001472" MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_79_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_79_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_79_dynamic3.wav"/>
+                </sample>
+                <sample ID="60" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6959"
+                        SampleEnd="537612" SampleStartMod="10000" LoopStart="144746"
+                        LoopEnd="361156" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="33579008" MonolithLength="544768">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_80_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_80_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_80_dynamic1.wav"/>
+                </sample>
+                <sample ID="61" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3636"
+                        SampleEnd="531896" SampleStartMod="10000" LoopStart="189580"
+                        LoopEnd="388425" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="34123776" MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_80_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_80_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_80_dynamic2.wav"/>
+                </sample>
+                <sample ID="62" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4583"
+                        SampleEnd="552831" SampleStartMod="10000" LoopStart="232169"
+                        LoopEnd="384244" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="34680832" MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_80_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_80_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_80_dynamic3.wav"/>
+                </sample>
+                <sample ID="63" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9351"
+                        SampleEnd="535037" SampleStartMod="10000" LoopStart="283967"
+                        LoopEnd="442275" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="35254272" MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_81_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_81_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_81_dynamic1.wav"/>
+                </sample>
+                <sample ID="64" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3716"
+                        SampleEnd="532768" SampleStartMod="10000" LoopStart="171862"
+                        LoopEnd="398074" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="35811328" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_81_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_81_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_81_dynamic2.wav"/>
+                </sample>
+                <sample ID="65" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5806"
+                        SampleEnd="555812" SampleStartMod="10000" LoopStart="246655"
+                        LoopEnd="448915" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="36380672" MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_81_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_81_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_81_dynamic3.wav"/>
+                </sample>
+                <sample ID="66" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5862"
+                        SampleEnd="547425" SampleStartMod="10000" LoopStart="196551"
+                        LoopEnd="420188" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="36954112" MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_82_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_82_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_82_dynamic1.wav"/>
+                </sample>
+                <sample ID="67" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4378"
+                        SampleEnd="525391" SampleStartMod="10000" LoopStart="91808" LoopEnd="412611"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="37511168"
+                        MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_82_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_82_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_82_dynamic2.wav"/>
+                </sample>
+                <sample ID="68" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3099"
+                        SampleEnd="553351" SampleStartMod="10000" LoopStart="245620"
+                        LoopEnd="459406" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="38068224" MonolithLength="581632">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_82_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_82_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_82_dynamic3.wav"/>
+                </sample>
+                <sample ID="69" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8250"
+                        SampleEnd="513980" SampleStartMod="10000" LoopStart="159024"
+                        LoopEnd="455601" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="38649856" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_83_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_83_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_83_dynamic1.wav"/>
+                </sample>
+                <sample ID="70" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2730"
+                        SampleEnd="543171" SampleStartMod="10000" LoopStart="230237"
+                        LoopEnd="441060" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="39202816" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_83_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_83_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_83_dynamic2.wav"/>
+                </sample>
+                <sample ID="71" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5001"
+                        SampleEnd="551049" SampleStartMod="10000" LoopStart="181539"
+                        LoopEnd="449392" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="39772160" MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_83_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_83_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_83_dynamic3.wav"/>
+                </sample>
+                <sample ID="72" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9573"
+                        SampleEnd="525747" SampleStartMod="10000" LoopStart="192426"
+                        LoopEnd="456233" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="40349696" MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_84_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_84_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_84_dynamic1.wav"/>
+                </sample>
+                <sample ID="73" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4336"
+                        SampleEnd="530067" SampleStartMod="10000" LoopStart="101143"
+                        LoopEnd="470069" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="40906752" MonolithLength="561152">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_84_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_84_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_84_dynamic2.wav"/>
+                </sample>
+                <sample ID="74" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3770"
+                        SampleEnd="546187" SampleStartMod="10000" LoopStart="252128"
+                        LoopEnd="406255" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="41467904" MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_84_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_84_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_84_dynamic3.wav"/>
+                </sample>
+                <sample ID="75" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9413"
+                        SampleEnd="518356" SampleStartMod="10000" LoopStart="224996"
+                        LoopEnd="416393" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="42045440" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_85_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_85_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_85_dynamic1.wav"/>
+                </sample>
+                <sample ID="76" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4186"
+                        SampleEnd="526759" SampleStartMod="10000" LoopStart="64910" LoopEnd="434854"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="42610688"
+                        MonolithLength="561152">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_85_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_85_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_85_dynamic2.wav"/>
+                </sample>
+                <sample ID="77" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5233"
+                        SampleEnd="523712" SampleStartMod="10000" LoopStart="168607"
+                        LoopEnd="334535" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="43171840" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_85_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_85_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_85_dynamic3.wav"/>
+                </sample>
+                <sample ID="78" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9778"
+                        SampleEnd="571019" SampleStartMod="10000" LoopStart="252382"
+                        LoopEnd="445653" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="43741184" MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_86_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_86_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_86_dynamic1.wav"/>
+                </sample>
+                <sample ID="79" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4261"
+                        SampleEnd="538040" SampleStartMod="10000" LoopStart="292626"
+                        LoopEnd="457378" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="44314624" MonolithLength="561152">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_86_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_86_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_86_dynamic2.wav"/>
+                </sample>
+                <sample ID="80" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2903"
+                        SampleEnd="544139" SampleStartMod="10000" LoopStart="206920"
+                        LoopEnd="376342" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="44875776" MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_86_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_86_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_86_dynamic3.wav"/>
+                </sample>
+                <sample ID="81" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7102"
+                        SampleEnd="553489" SampleStartMod="10000" LoopStart="221238"
+                        LoopEnd="441357" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="45449216" MonolithLength="561152">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_87_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_87_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_87_dynamic1.wav"/>
+                </sample>
+                <sample ID="82" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3991"
+                        SampleEnd="510946" SampleStartMod="10000" LoopStart="147878"
+                        LoopEnd="464392" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="46010368" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_87_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_87_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_87_dynamic2.wav"/>
+                </sample>
+                <sample ID="83" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8661"
+                        SampleEnd="559286" SampleStartMod="10000" LoopStart="206266"
+                        LoopEnd="441470" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="46575616" MonolithLength="585728">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_87_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_87_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_87_dynamic3.wav"/>
+                </sample>
+                <sample ID="84" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6523"
+                        SampleEnd="526341" SampleStartMod="10000" LoopStart="181847"
+                        LoopEnd="398361" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="47161344" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_88_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_88_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_88_dynamic1.wav"/>
+                </sample>
+                <sample ID="85" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4096"
+                        SampleEnd="537582" SampleStartMod="10000" LoopStart="266810"
+                        LoopEnd="430106" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="47730688" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_88_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_88_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_88_dynamic2.wav"/>
+                </sample>
+                <sample ID="86" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="-2" Pan="0" Normalized="0" Pitch="0" SampleStart="4339"
+                        SampleEnd="553459" SampleStartMod="10000" LoopStart="199837"
+                        LoopEnd="418610" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="48300032" MonolithLength="581632">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_88_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_88_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_88_dynamic3.wav"/>
+                </sample>
+                <sample ID="87" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7661"
+                        SampleEnd="534525" SampleStartMod="10000" LoopStart="228449"
+                        LoopEnd="426246" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="48881664" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_89_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_89_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_89_dynamic1.wav"/>
+                </sample>
+                <sample ID="88" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4378"
+                        SampleEnd="518286" SampleStartMod="10000" LoopStart="117275"
+                        LoopEnd="382829" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="49451008" MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_89_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_89_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_89_dynamic2.wav"/>
+                </sample>
+                <sample ID="89" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8771"
+                        SampleEnd="548278" SampleStartMod="10000" LoopStart="199604"
+                        LoopEnd="440631" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="50008064" MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_89_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_89_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_89_dynamic3.wav"/>
+                </sample>
+                <sample ID="90" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8848"
+                        SampleEnd="505369" SampleStartMod="10000" LoopStart="73670" LoopEnd="413769"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="50585600"
+                        MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_90_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_90_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_90_dynamic1.wav"/>
+                </sample>
+                <sample ID="91" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4551"
+                        SampleEnd="547761" SampleStartMod="10000" LoopStart="218328"
+                        LoopEnd="419983" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="51163136" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_90_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_90_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_90_dynamic2.wav"/>
+                </sample>
+                <sample ID="92" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5889"
+                        SampleEnd="546375" SampleStartMod="10000" LoopStart="31516" LoopEnd="393264"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="51732480"
+                        MonolithLength="581632">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_90_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_90_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_90_dynamic3.wav"/>
+                </sample>
+                <sample ID="93" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5855"
+                        SampleEnd="504894" SampleStartMod="10000" LoopStart="210954"
+                        LoopEnd="417540" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="52314112" MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_91_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_91_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_91_dynamic1.wav"/>
+                </sample>
+                <sample ID="94" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4292"
+                        SampleEnd="530902" SampleStartMod="10000" LoopStart="226743"
+                        LoopEnd="443913" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="52891648" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_91_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_91_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_91_dynamic2.wav"/>
+                </sample>
+                <sample ID="95" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5462"
+                        SampleEnd="553639" SampleStartMod="10000" LoopStart="267058"
+                        LoopEnd="444352" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="53456896" MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_91_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_91_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_91_dynamic3.wav"/>
+                </sample>
+                <sample ID="96" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5377"
+                        SampleEnd="515000" SampleStartMod="10000" LoopStart="233248"
+                        LoopEnd="426569" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="54034432" MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_92_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_92_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_92_dynamic1.wav"/>
+                </sample>
+                <sample ID="97" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4292"
+                        SampleEnd="531788" SampleStartMod="10000" LoopStart="271029"
+                        LoopEnd="441197" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="54587392" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_92_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_92_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_92_dynamic2.wav"/>
+                </sample>
+                <sample ID="98" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8098"
+                        SampleEnd="541275" SampleStartMod="10000" LoopStart="268204"
+                        LoopEnd="454461" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="55152640" MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_92_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_92_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_92_dynamic3.wav"/>
+                </sample>
+                <sample ID="99" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8555"
+                        SampleEnd="514068" SampleStartMod="10000" LoopStart="113715"
+                        LoopEnd="321630" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="55726080" MonolithLength="548864">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_93_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_93_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_93_dynamic1.wav"/>
+                </sample>
+                <sample ID="100" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3208"
+                        SampleEnd="539597" SampleStartMod="10000" LoopStart="98043" LoopEnd="297719"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="56274944"
+                        MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_93_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_93_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_93_dynamic2.wav"/>
+                </sample>
+                <sample ID="101" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4247"
+                        SampleEnd="551194" SampleStartMod="10000" LoopStart="227224"
+                        LoopEnd="439895" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="56848384" MonolithLength="569344">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_93_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_93_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_93_dynamic3.wav"/>
+                </sample>
+                <sample ID="102" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8298"
+                        SampleEnd="521215" SampleStartMod="10000" LoopStart="174775"
+                        LoopEnd="422311" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="57417728" MonolithLength="561152">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_94_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_94_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_94_dynamic1.wav"/>
+                </sample>
+                <sample ID="103" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3590"
+                        SampleEnd="544293" SampleStartMod="10000" LoopStart="193942"
+                        LoopEnd="372356" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="57978880" MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_94_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_94_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_94_dynamic2.wav"/>
+                </sample>
+                <sample ID="104" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9014"
+                        SampleEnd="557019" SampleStartMod="10000" LoopStart="127978"
+                        LoopEnd="406735" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="58552320" MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_94_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_94_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_94_dynamic3.wav"/>
+                </sample>
+                <sample ID="105" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2291"
+                        SampleEnd="545794" SampleStartMod="10000" LoopStart="99744" LoopEnd="365418"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="59125760"
+                        MonolithLength="573440">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_95_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_95_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_95_dynamic1.wav"/>
+                </sample>
+                <sample ID="106" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5788"
+                        SampleEnd="531897" SampleStartMod="10000" LoopStart="301600"
+                        LoopEnd="454695" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="59699200" MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_95_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_95_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_95_dynamic2.wav"/>
+                </sample>
+                <sample ID="107" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5346"
+                        SampleEnd="548539" SampleStartMod="10000" LoopStart="256080"
+                        LoopEnd="443154" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="60256256" MonolithLength="565248">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_95_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_95_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_95_dynamic3.wav"/>
+                </sample>
+                <sample ID="108" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
+                        RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5566"
+                        SampleEnd="546774" SampleStartMod="10000" LoopStart="65472" LoopEnd="339928"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="60821504"
+                        MonolithLength="557056">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_96_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_96_dynamic1.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_96_dynamic1.wav"/>
+                </sample>
+                <sample ID="109" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
+                        RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9"
+                        SampleEnd="519917" SampleStartMod="10000" LoopStart="67129" LoopEnd="419252"
+                        LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0" UpperVelocityXFade="0"
+                        SampleState="0" Duplicate="0" SampleRate="48000" MonolithOffset="61378560"
+                        MonolithLength="552960">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_96_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_96_dynamic2.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_96_dynamic2.wav"/>
+                </sample>
+                <sample ID="110" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
+                        RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3924"
+                        SampleEnd="566018" SampleStartMod="10000" LoopStart="208204"
+                        LoopEnd="366649" LoopXFade="5000" LoopEnabled="1" LowerVelocityXFade="0"
+                        UpperVelocityXFade="0" SampleState="0" Duplicate="0" SampleRate="48000"
+                        MonolithOffset="61931520" MonolithLength="577536">
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_close_96_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_decca_96_dynamic3.wav"/>
+                  <file FileName="{PROJECT_FOLDER}flute1/sustain/flute1_sustains_hall_96_dynamic3.wav"/>
+                </sample>
+              </samplemap>
             </Processor>
             <Processor Type="StreamingSampler" ID="transitions" Bypassed="0" Gain="1"
                        Balance="0" VoiceLimit="64" KillFadeTime="100" IconColour="0"
@@ -841,7 +1955,7 @@
                     <Processor Type="MidiMuter" ID="flutterMidiMuter" Bypassed="0">
                       <ChildProcessors/>
                       <Content>
-                        <Control type="ScriptButton" id="ignoreButton" value="0"/>
+                        <Control type="ScriptButton" id="ignoreButton" value="1"/>
                         <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
                       </Content>
                     </Processor>

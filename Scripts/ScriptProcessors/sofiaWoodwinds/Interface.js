@@ -50,8 +50,8 @@ Content.setValuePopupData(
 //Glide rate knob and velocity > glide rate button
 inline function onbtnVelocityRateControl(component, value)
 {
-    Content.getComponent("knbGlideRate").set("enabled", 1-value);
-    legatoHandler.setAttribute(legatoHandler.btnGlideVel, value); //Link to legato script
+    Content.getComponent("knbGlideRate").set("enabled", value);
+    legatoHandler.setAttribute(legatoHandler.btnGlideVel, 1-value); //Link to legato script
 };
 
 Content.getComponent("btnVelocityRate").setControlCallback(onbtnVelocityRateControl);
