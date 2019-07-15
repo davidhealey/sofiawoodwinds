@@ -105,8 +105,8 @@
                parentComponent="pnlPage0" visible="0"/>
     <Component type="ScriptTable" id="tblCC4" x="434" y="390" width="286" height="145"
                bgColour="4282729797" customColours="1" itemColour="4289504651"
-               itemColour2="3135299288" processorId="vibratoRateCC" visible="0"
-               parentComponent="pnlPage0"/>
+               itemColour2="3135299288" processorId="vibratoRateCC" parentComponent="pnlPage0"
+               visible="0"/>
     <Component type="ScriptTable" id="tblVelocity" x="434" y="390" width="286"
                height="185" bgColour="4282729797" customColours="1" itemColour="4289504651"
                itemColour2="3135299288" processorId="Velocity Modulator" parentComponent="pnlPage0"/>

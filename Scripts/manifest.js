@@ -1,5 +1,5 @@
 /*
-    Copyright 2018 David Healey
+    Copyright 2018, 2019 David Healey
 
     This file is part of Libre Winds.
 
@@ -19,19 +19,14 @@
 
 namespace Manifest
 {    
-    //Articulation program change/UACC numbers
-    const var programs = [1, 2, 40];
-
     //Patch data
     const var patches = {
         "piccolo": //Sample map identifier
         {
 	        range: [74, 105], //Playable range
 	        hasFlutter: true, //Does this patch have a flutter sample map?
-	        ks:[24, 25, 26],
             legatoSettings:
 		    {
-                bendTime:0,
                 minBend:10,
                 maxBend:40,
                 minFade:10,
@@ -42,10 +37,8 @@ namespace Manifest
 		{
             range:[59, 96],
             hasFlutter: true,
-            ks:[24, 25, 26],
             legatoSettings:
             {
-                bendTime:-5,
                 minBend:10,
                 maxBend:40,
                 minFade:30,
@@ -57,10 +50,8 @@ namespace Manifest
             range:[59, 96],
             hasFlutter: true,
             hasSputato: true,
-            ks:[24, 25, 26],
             legatoSettings:
             {
-                bendTime:-5,
                 minBend:10,
                 maxBend:40,
                 minFade:30,
@@ -72,10 +63,8 @@ namespace Manifest
 			range: [55, 91],
 			hasFlutter: true,
 			hasSputato: true,
-			ks:[24, 25, 26],
 			legatoSettings:
 		    {
-                bendTime:0,
                 minBend:10,
                 maxBend:50,
                 minFade:40,
@@ -86,10 +75,8 @@ namespace Manifest
         {
 	        range: [58, 91],
 	        hasFlutter: false,
-	        ks:[24, 25, 26],
             legatoSettings:
 		    {
-                bendTime:-15,
                 minBend:10,
                 maxBend:50,
                 minFade:25,
@@ -100,10 +87,8 @@ namespace Manifest
         {
 	        range: [58, 91],
 	        hasFlutter: false,
-	        ks:[24, 25, 26],
             legatoSettings:
 		    {
-                bendTime:-15,
                 minBend:10,
                 maxBend:50,
                 minFade:25,
@@ -114,10 +99,8 @@ namespace Manifest
         {
 	        range: [52, 83],
 	        hasFlutter: false,
-	        ks:[24, 25, 26],
             legatoSettings:
 		    {
-                bendTime:-15,
                 minBend:20,
                 maxBend:60,
                 minFade:25,
@@ -128,10 +111,8 @@ namespace Manifest
         {
 	        range: [50, 91],
 	        hasFlutter: true,
-	        ks:[24, 25, 26],
             legatoSettings:
 		    {
-                bendTime:0,
                 minBend:20,
                 maxBend:50,
                 minFade:40,
@@ -142,10 +123,8 @@ namespace Manifest
         {
 	        range: [50, 91],
 	        hasFlutter: true,
-	        ks:[24, 25, 26],
             legatoSettings:
 		    {
-                bendTime:0,
                 minBend:20,
                 maxBend:50,
                 minFade:40,
@@ -156,10 +135,8 @@ namespace Manifest
         {
 	        range: [34, 75],
 	        hasFlutter: true,
-	        ks:[24, 25, 26],
             legatoSettings:
 		    {
-                bendTime:-10,
                 minBend:20,
                 maxBend:50,
                 minFade:40,
@@ -170,10 +147,8 @@ namespace Manifest
         {
 	        range: [34, 74],
 	        hasFlutter: true,
-	        ks:[24, 25, 26],
             legatoSettings:
 		    {
-                bendTime:0,
                 minBend:20,
                 maxBend:50,
                 minFade:30,
@@ -184,10 +159,8 @@ namespace Manifest
         {
 	        range: [34, 74],
 	        hasFlutter: true,
-	        ks:[24, 25, 26],
             legatoSettings:
 		    {
-                bendTime:0,
                 minBend:20,
                 maxBend:50,
                 minFade:30,
@@ -198,10 +171,8 @@ namespace Manifest
         {
 	        range: [22, 55],
 	        hasFlutter: false,
-	        ks:[96, 97, 98],
             legatoSettings:
 		    {
-                bendTime:-10,
                 minBend:25,
                 maxBend:50,
                 minFade:35,
@@ -209,72 +180,4 @@ namespace Manifest
 		    }
 	    },
 	};
-	
-    const var articulations = {
-        "names":["legato", "sustain", "staccato"],
-        "legato":{
-            "muter":
-            {
-                "sustain":false,
-                "transition":false,
-                "overlay":false,
-                "staccato":false,
-                "flutter":false,
-                "release":false
-            },
-            "envelope":
-            {
-                "live":true,
-                "overlay":true
-            },
-            "processors":{
-                "legatoBypass":false,
-                "overlayFilterBypass":false,
-                "releaseLegato":true
-            }
-        },
-        "sustain":{
-            "muter":
-            {
-                "sustain":false,
-                "transition":true,
-                "overlay":true,
-                "staccato":true,
-                "flutter":false,
-                "release":false
-            },
-            "envelope":
-            {
-                "live":false,
-                "overlay":false
-            },
-            "processors":{
-                "legatoBypass":true,
-                "overlayFilterBypass":true,
-                "releaseLegato":false
-            }
-        },
-        "staccato":{
-            "muter":
-            {
-                "sustain":true,
-                "transition":true,
-                "overlay":false,
-                "staccato":false,
-                "flutter":false,
-                "release":true
-            },
-            "envelope":
-            {
-                "live":false,
-                "overlay":false
-            },
-            "processors":{
-                "legatoBypass":true,
-                "overlayFilterBypass":true,
-                "releaseLegato":false
-            },
-            "releaseAttenuation":true
-        }
-    };
 }

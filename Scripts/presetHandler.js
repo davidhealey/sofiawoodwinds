@@ -28,7 +28,6 @@ namespace PresetHandler
     const var vibratoTimbre = Synth.getModulator("vibratoTimbre");
 
     //Round robin controllers
-    const var roundRobinController = Synth.getMidiProcessor("roundRobinController");
     const var overlayRoundRobin = Synth.getMidiProcessor("overlayRoundRobin");
 
     //Playable range filter
@@ -110,21 +109,13 @@ namespace PresetHandler
     inline function colourKeys(patchName)
     {
         local range = Manifest.patches[patchName].range;
-        local ks = Manifest.patches[patchName].ks;
 
         for (i = 0; i < 128; i++) //Every MIDI note
         {
             if (i < range[0] || i > range[1]) //i is outside max playable range
-            {
-                if (ks.indexOf(i) != -1)
-                    Engine.setKeyColour(i, Colours.withAlpha(Colours.red, 0.3)); //Key switch
-                else
-                    Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.5)); //Reset current KS colour
-            }
+                Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.5));
             else
-            {
                 Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Set key colour
-            }
         }
     }
 
@@ -158,7 +149,6 @@ namespace PresetHandler
 
         if (settings)
         {
-            legato.setAttribute(legato.knbBendTm, settings.bendTime);
             legato.setAttribute(legato.knbBendMin, settings.minBend);
             legato.setAttribute(legato.knbBendMax, settings.maxBend);
             legato.setAttribute(legato.knbFadeMin, settings.minFade);
@@ -173,9 +163,5 @@ namespace PresetHandler
 
         rangeFilter.setAttribute(rangeFilter.knbLow, range[0]);
         rangeFilter.setAttribute(rangeFilter.knbHigh, range[1]);
-        
-        //Set RR range
-        roundRobinController.setAttribute(roundRobinController.knbLow, range[0]);
-        roundRobinController.setAttribute(roundRobinController.knbHigh, range[1]);
     }
 }
