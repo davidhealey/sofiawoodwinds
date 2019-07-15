@@ -13,7 +13,7 @@ code_sign=1
 # ENVIRONMENT VARIABLES (ALREADY SET ON BUILD SERVER)
 if (($build_server==0))
 then
-version=1.0.2
+version=1.1.0
 hise_path_macos=/Volumes/SHARED/HISE/projects/standalone/Builds/MacOSX/build/Release/HISE.app/Contents/MacOS/HISE
 projucer_macos=/Volumes/SHARED/HISE/tools/projucer/Projucer.app/Contents/MacOS/Projucer
 WORKSPACE=/Volumes/SHARED/HISEProjects/sofiawoodwinds
