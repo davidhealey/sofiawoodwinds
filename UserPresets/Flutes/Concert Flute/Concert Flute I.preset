@@ -2,7 +2,7 @@
 
 <Preset Version="1.1.0">
   <Content Processor="Interface">
-    <Control type="ScriptSlider" id="knbOffset" value="150"/>
+    <Control type="ScriptSlider" id="knbOffset" value="50"/>
     <Control type="ScriptSlider" id="knbLegatoDecay" value="90"/>
     <Control type="ScriptSlider" id="knbTransitionGain" value="-9"/>
     <Control type="ScriptSlider" id="knbGlideRate" value="9"/>
@@ -51,14 +51,12 @@
     <Control type="ScriptButton" id="btnPurge1" value="1"/>
     <Control type="ScriptButton" id="btnPurge2" value="1"/>
     <Control type="ScriptButton" id="btnBreathControl" value="0"/>
-    <Control type="ScriptSlider" id="knbSusAttack" value="5"/>
     <Control type="ScriptSlider" id="knbSusRelease" value="350"/>
-    <Control type="ScriptSlider" id="knbLiveRelease" value="350"/>
     <Control type="ScriptSlider" id="knbStaccatoGain" value="-6"/>
     <Control type="ScriptSlider" id="knbStaccRelease" value="800"/>
     <Control type="ScriptSlider" id="knbReleaseGain" value="-8"/>
     <Control type="ScriptSlider" id="knbRelDecay" value="5000"/>
-    <Control type="ScriptButton" id="btnRelPurge" value="1"/>
+    <Control type="ScriptButton" id="btnRelPurge" value="0"/>
     <Control type="ScriptPanel" id="pnlHeader" value="0"/>
     <Control type="ScriptComboBox" id="cmbPatch" value="2"/>
     <Control type="ScriptSlider" id="knbLegAtk" value="150"/>
