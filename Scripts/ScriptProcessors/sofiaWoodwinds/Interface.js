@@ -105,6 +105,8 @@ inline function onbtnCCControl(control, value)
     //Dynamics
     Content.getComponent("btnVelDynamics").showControl(value && idx == 1);
     Content.getComponent("lblVelDynamics").showControl(value && idx == 1);
+    Content.getComponent("btnBreathControl").showControl(value && idx == 1);
+    Content.getComponent("lblBreathControl").showControl(value && idx == 1);
 
     //Vibrato
     Content.getComponent("knbVibratoPitch").showControl(value && (idx == 3 || idx ==4));
