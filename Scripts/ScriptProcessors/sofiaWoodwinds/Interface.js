@@ -16,7 +16,6 @@
 */
 
 include("manifest.js");
-include("articulationHandler.js");
 include("presetHandler.js");
 include("mixer.js");
 include("settings.js");
@@ -125,38 +124,33 @@ inline function onbtnSettingsControl(component, value)
 	Content.getComponent("pnlPage2").showControl(0); //Hide preset browser
 };
 
-Content.getComponent("btnSettings").setControlCallback(onbtnSettingsControl);function onNoteOn()
+Content.getComponent("btnSettings").setControlCallback(onbtnSettingsControl);
+
+//Release sampler purge button
+const var release = Synth.getChildSynth("release");
+    
+inline function onbtnRelPurgeControl(component, value)
 {
-    //Updates GUI but doesn't actually change the articulation
-    local idx = Manifest.patches[PresetHandler.patch].ks.indexOf(Message.getNoteNumber());
-    if (idx != -1)
-	   Articulations.changeArticulation(idx);
+    if (release.getAttribute(release.Purged) != value)
+        release.setAttribute(release.Purged, value);
+        
+    Content.getComponent("knbReleaseGain").set("enabled", 1-value);
+    Content.getComponent("knbRelDecay").set("enabled", 1-value);
+};
+
+Content.getComponent("btnRelPurge").setControlCallback(onbtnRelPurgeControl);function onNoteOn()
+{
+	
 }
-function onNoteOff()
+ function onNoteOff()
 {
 	
 }
  function onController()
 {
-    //UACC or program change
-/*	if (Message.getControllerNumber() == 32 || Message.isProgramChange())
-    {
-        local n;
-
-        //if (Message.getProgramChangeNumber() != -1)
-           // n = Message.getProgramChangeNumber();
-        //else
-            n = Message.getControllerValue();
-
-        //Get articulation index of program/uacc number
-        local idx = Manifest.programs.indexOf(n);
-
-        //Change articulation
-        if (idx != -1)
-            Articulations.changeArticulation(idx);
-    }*/
+	
 }
-function onTimer()
+ function onTimer()
 {
 	
 }
