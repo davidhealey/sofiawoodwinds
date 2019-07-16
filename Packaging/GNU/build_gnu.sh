@@ -4,6 +4,7 @@ project=Sofia\ Woodwinds
 version=1.1.1
 xmlFile=sofiaWoodwinds
 workspace=/media/john/SHARED/HISEProjects/sofiawoodwinds
+
 build_standalone=0
 build_plugin=0
 build_installer=1
@@ -60,7 +61,7 @@ then
   cp "$workspace"/Binaries/Builds/LinuxMakefile/build/"$project" "$workspace"/Installer/GNULinux
   cp "$workspace"/Binaries/Builds/LinuxMakefile/build/"$project".so "$workspace"/Installer/GNULinux
   cp "$workspace"/License.txt "$workspace"/Installer/GNULinux
-  cp "$workspace"/GNUInstaller.sh "$workspace"/Installer/GNULinux
+  cp "$workspace"/Packaging/GNU/GNUInstaller.sh "$workspace"/Installer/GNULinux
   
   cd "$workspace"/Installer/GNULinux
   
@@ -74,5 +75,5 @@ then
   rm "$workspace"/Installer/GNULinux/GNUInstaller.sh
     
 else
-echo "Skip Building Installer"
+  echo "Skip Building Installer"
 fi
