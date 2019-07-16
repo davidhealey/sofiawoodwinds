@@ -57,22 +57,20 @@ then
   echo "Build Installer"
   
   #Create installer directory and copy temp files into it
-  mkdir -p "$workspace"/Installer/GNULinux
-  cp "$workspace"/Binaries/Builds/LinuxMakefile/build/"$project" "$workspace"/Installer/GNULinux
-  cp "$workspace"/Binaries/Builds/LinuxMakefile/build/"$project".so "$workspace"/Installer/GNULinux
-  cp "$workspace"/License.txt "$workspace"/Installer/GNULinux
-  cp "$workspace"/Packaging/GNU/GNUInstaller.sh "$workspace"/Installer/GNULinux
+  mkdir -p "$workspace"/Installer/temp
+  cp "$workspace"/Binaries/Builds/LinuxMakefile/build/"$project" "$workspace"/Installer/temp
+  cp "$workspace"/Binaries/Builds/LinuxMakefile/build/"$project".so "$workspace"/Installer/temp
+  cp "$workspace"/License.txt "$workspace"/Installer/temp
+  cp "$workspace"/Packaging/GNU/GNUInstaller.sh "$workspace"/Installer/temp
   
-  cd "$workspace"/Installer/GNULinux
+  cd "$workspace"/Installer/
   
   #Run makeself
-  sh "$makeself_path"/makeself.sh --license License.txt "$workspace"/Installer/GNULinux "$project".$version.installer.sh "$project" ./GNUInstaller.sh
+  sh "$makeself_path"/makeself.sh --license License.txt "$workspace"/Installer/temp "$workspace"/Installer/"$project".$version.installer.sh "$project" ./GNUInstaller.sh
   
-  #Remove temp files
-  rm "$workspace"/Installer/GNULinux/"$project"
-  rm "$workspace"/Installer/GNULinux/"$project".so
-  rm "$workspace"/Installer/GNULinux/License.txt
-  rm "$workspace"/Installer/GNULinux/GNUInstaller.sh
+  echo Cleanup
+  cd "$workspace"
+  rm -rf "$workspace"/Installer/temp
     
 else
   echo "Skip Building Installer"

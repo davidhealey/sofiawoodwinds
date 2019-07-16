@@ -55,7 +55,7 @@ then
   echo "Build Installer"
   $PACKAGES_BUILD "Packaging/OSX/$project.pkgproj"
   installer_name=./$project\ $version.pkg
-  productsign --sign "$APPLE_CERTIFICATE_ID_INSTALLER" "./Installer/OSX/build/$project.pkg" "$installer_name"
+  productsign --sign "$APPLE_CERTIFICATE_ID_INSTALLER" "./Installer/$project.pkg" "$installer_name"
   else
   echo "Skip Building Installer"
 fi
