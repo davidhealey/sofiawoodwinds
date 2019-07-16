@@ -1,12 +1,13 @@
-# MACOS BUILD SCRIPT
+# GNU BUILD SCRIPT
 
 project=Sofia\ Woodwinds
-version=1.1.0
+version=1.1.1
 xmlFile=sofiaWoodwinds
 workspace=/media/john/SHARED/HISEProjects/sofiawoodwinds
 build_standalone=0
 build_plugin=0
 build_installer=1
+clean_project=0
 
 hise_path=/media/john/SHARED/HISE/projects/standalone/Builds/LinuxMakefile/build/HISE\ Standalone
 projucer_path=/media/john/SHARED/HISE/tools/projucer/Projucer
@@ -18,13 +19,17 @@ cd "$workspace"/Binaries
 # ====================================================================
 if (($build_standalone == 1 || $build_plugin == 1))
 then
-  "$hise_path" clean --all
+
   "$hise_path" set_project_folder -p:$workspace
   "$hise_path" set_version -v:$version
 
+  if (($clean_project == 1))
+  then
+     "$hise_path" clean -p:$workspace --all
+  fi
+
   echo Making the Projucer accessible for this project
   chmod +x "$projucer_path"
-
 
   if (($build_standalone==1))
   then
