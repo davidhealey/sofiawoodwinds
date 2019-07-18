@@ -5,8 +5,8 @@ version=1.1.1
 xmlFile=sofiaWoodwinds
 workspace=/Volumes/SHARED/HISEProjects/sofiawoodwinds
 
-build_standalone=1
-build_plugin=1
+build_standalone=0
+build_plugin=0
 build_installer=1
 clean_project=0
 
@@ -53,15 +53,12 @@ fi
 if (($build_installer==1))
 then
   echo "Build Installer"
+  mkdir -p "$workspace"/Installer
   $PACKAGES_BUILD "Packaging/OSX/$project.pkgproj"
-  installer_name=./$project\ "$version".pkg
-  productsign --sign "$APPLE_CERTIFICATE_ID_INSTALLER" "./Installer/$project.pkg" "$installer_name"
+  cp "$workspace"/Packaging/OSX/build/"$project".pkg "$workspace"/Installer/"$project"\ "$version".pkg  
   
   echo "Cleanup"
-  mkdir -p "$workspace"/Installer
-  cp "$workspace"/Packaging/OSX/build/"$project".pkg "$workspace"/Installer
   rm -rf "$workspace"/Packaging/OSX/build
-  
-  else
+else
   echo "Skip Building Installer"
 fi
