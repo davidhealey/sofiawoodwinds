@@ -5,8 +5,8 @@ version=1.1.1
 xmlFile=sofiaWoodwinds
 workspace=/Volumes/SHARED/HISEProjects/sofiawoodwinds
 
-build_standalone=1
-build_plugin=1
+build_standalone=0
+build_plugin=0
 build_installer=1
 clean_project=0
 
@@ -14,7 +14,7 @@ hise_path=/Volumes/SHARED/HISE/projects/standalone/Builds/MacOSX/build/Release/H
 projucer_path=/Volumes/SHARED/HISE/tools/projucer/Projucer.app/Contents/MacOS/Projucer
 PACKAGES_BUILD=/usr/local/bin/packagesbuild
 
-cd "$workspace"
+cd "$workspace"/Binaries
 
 # STEP 1: BUILDING THE BINARIES
 # ====================================================================
@@ -33,7 +33,7 @@ then
   if (($build_standalone==1))
   then
     echo Building the standalone app
-    "$hise_path" export_ci XmlPresetBackups/$xmlFile.xml -t:standalone -a:x64
+    "$hise_path_macos" export_ci XmlPresetBackups/$xmlFile.xml -t:standalone -a:x64
     chmod +x "Binaries/batchCompileOSX"
     sh "Binaries/batchCompileOSX"
   fi
@@ -41,7 +41,7 @@ then
   if (($build_plugin==1))
   then
     echo Building the plugins
-    "$hise_path" export_ci XmlPresetBackups/$xmlFile.xml -t:instrument -p:VST_AU -a:x64
+    "$hise_path_macos" export_ci XmlPresetBackups/$xmlFile.xml -t:instrument -p:VST_AU -a:x64
     chmod +x "Binaries/batchCompileOSX"
     sh "Binaries/batchCompileOSX"
   fi
@@ -54,14 +54,8 @@ if (($build_installer==1))
 then
   echo "Build Installer"
   $PACKAGES_BUILD "Packaging/OSX/$project.pkgproj"
-  installer_name=./$project\ "$version".pkg
+  installer_name=./$project\ $version.pkg
   productsign --sign "$APPLE_CERTIFICATE_ID_INSTALLER" "./Installer/$project.pkg" "$installer_name"
-  
-  echo "Cleanup"
-  mkdir -p "$workspace"/Installer
-  cp "$workspace"/Packaging/OSX/build/"$project".pkg "$workspace"/Installer
-  rm -rf "$workspace"/Packaging/OSX/build
-  
   else
   echo "Skip Building Installer"
 fi
