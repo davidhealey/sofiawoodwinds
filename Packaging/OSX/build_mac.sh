@@ -3,7 +3,7 @@
 project=Sofia\ Woodwinds
 version=1.1.1
 xmlFile=sofiaWoodwinds
-workspace=/Volumes/SHARED/HISEProjects/sofiawoodwinds
+workspace=/Volumes/SHARED/HISEProjects/Sofia\ Woodwinds
 
 build_standalone=0
 build_plugin=0
@@ -55,8 +55,8 @@ then
   echo "Build Installer"
   mkdir -p "$workspace"/Installer
   $PACKAGES_BUILD "Packaging/OSX/$project.pkgproj"
-  cp "$workspace"/Packaging/OSX/build/"$project".pkg "$workspace"/Installer/"$project"\ "$version".pkg  
-  
+  cp "$workspace"/Packaging/OSX/build/"$project".pkg "$workspace"/Installer/"$project"\ "$version".pkg
+
   echo "Cleanup"
   rm -rf "$workspace"/Packaging/OSX/build
 else

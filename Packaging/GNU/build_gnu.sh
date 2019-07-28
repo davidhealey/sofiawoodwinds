@@ -3,7 +3,7 @@
 project=Sofia\ Woodwinds
 version=1.1.1
 xmlFile=sofiaWoodwinds
-workspace=/media/john/SHARED/HISEProjects/sofiawoodwinds
+workspace=/media/john/SHARED/HISEProjects/Sofia\ Woodwinds
 
 build_standalone=0
 build_plugin=0
@@ -29,7 +29,7 @@ then
 
   echo Making the Projucer accessible for this project
   chmod +x "$projucer_path"
- 
+
   if (($build_standalone==1))
   then
     echo Building the standalone app
@@ -39,7 +39,7 @@ then
     sh "$workspace"/Binaries/batchCompileLinux.sh
     cp "$workspace"/Binaries/Builds/LinuxMakefile/build/"$project" "$package"
   fi
-  
+
   if (($build_plugin==1))
   then
     echo Building the plugins
@@ -57,13 +57,13 @@ fi
 if (($build_installer==1))
 then
   echo "Build Installer"
-    
+
   cp "$workspace"/License.txt "$package"
   cp "$workspace"/Packaging/GNU/GNUInstaller.sh "$package"
-  
+
   #Run makeself
   sh "$makeself"/makeself.sh --license "$workspace"/License.txt "$workspace"/Packaging/GNU/temp "$workspace"/Installer/"$project"\ $version.sh "$project" ./GNUInstaller.sh
-    
+
 else
   echo "Skip Building Installer"
 fi

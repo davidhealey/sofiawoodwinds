@@ -2,7 +2,7 @@
 
 set project=Sofia Woodwinds
 set xmlFile=sofiaWoodwinds
-set workspace=D:\HISEProjects\sofiawoodwinds
+set workspace="D:\HISEProjects\Sofia Woodwinds"
 
 set build_standalone=1
 set build_plugin=1
@@ -32,7 +32,7 @@ if %build_standalone%==1 (
 	%hise_path% export_ci XmlPresetBackups/%xmlFile%.xml -t:standalone -a:x86x64
 	call %workspace%/Binaries/batchCompile.bat
 )
-	
+
 if %build_plugin%==1 (
 	echo Exporting %plugin_name% Plugins
 	%hise_path% export_ci XmlPresetBackups/%xmlFile%.xml -t:instrument -p:VST -a:x86x64
