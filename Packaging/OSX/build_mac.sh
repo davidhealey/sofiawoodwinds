@@ -3,7 +3,7 @@
 project=Sofia\ Woodwinds
 version=1.1.1
 xmlFile=sofiaWoodwinds
-workspace=/Volumes/SHARED/HISEProjects/Sofia\ Woodwinds
+workspace=/Volumes/SHARED/HISEProjects/Sofia_Woodwinds
 
 build_standalone=0
 build_plugin=0

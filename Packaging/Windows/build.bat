@@ -2,7 +2,7 @@
 
 set project=Sofia Woodwinds
 set xmlFile=sofiaWoodwinds
-set workspace="D:\HISEProjects\Sofia Woodwinds"
+set workspace=D:\HISEProjects\Sofia_Woodwinds
 
 set build_standalone=1
 set build_plugin=1
