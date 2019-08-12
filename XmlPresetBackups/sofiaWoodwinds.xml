@@ -395,7 +395,7 @@
                       <Content>
                         <Control type="ScriptButton" id="btnMute" value="0"/>
                         <Control type="ScriptSlider" id="knbOffset" value="50"/>
-                        <Control type="ScriptButton" id="btnRetrigger" value="0"/>
+                        <Control type="ScriptButton" id="btnRetrigger" value="1"/>
                         <Control type="ScriptSlider" id="knbFadeMin" value="30"/>
                         <Control type="ScriptSlider" id="knbFadeMax" value="60"/>
                         <Control type="ScriptSlider" id="knbFadeIntensity" value="90"/>
@@ -409,7 +409,7 @@
                         <Control type="ScriptButton" id="btnBc" value="0"/>
                         <Control type="ScriptSlider" id="knbBreath" value="64"/>
                         <Control type="ScriptSlider" id="knbThreshold" value="0"/>
-                        <Control type="ScriptButton" id="btnBreathVel" value="0"/>
+                        <Control type="ScriptButton" id="btnBreathVel" value="1"/>
                       </Content>
                       <UIData>
                         <ContentProperties DeviceType="Desktop">
