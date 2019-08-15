@@ -298,9 +298,9 @@
                  showValuePopup="Right" scaleFactor="0.5" isPluginParameter="1"
                  pluginParameterName="Release Gain"/>
       <Component type="ScriptSlider" id="knbRelDecay" x="150" y="141" parentComponent="pnlReleases"
-                 processorId="releaseEnvelope" parameterId="Release" mode="Time"
-                 max="20000" stepSize="1" suffix=" ms" middlePosition="1000" defaultValue="5000"
-                 min="50" text="Release Decay" isPluginParameter="1" pluginParameterName="Release Decay"
+                 processorId="releaseEnvelope" parameterId="Decay" mode="Time"
+                 max="15000" stepSize="1" suffix=" ms" middlePosition="1000" defaultValue="5000"
+                 min="1000" text="Release Decay" isPluginParameter="1" pluginParameterName="Release Decay"
                  numStrips="101" width="215" height="39" filmstripImage="{PROJECT_FOLDER}2X-slider.png"
                  showValuePopup="Right" scaleFactor="0.5"/>
       <Component type="ScriptSlider" id="knbSusRelease" x="150" y="181" processorId="sustainEnvelope"
