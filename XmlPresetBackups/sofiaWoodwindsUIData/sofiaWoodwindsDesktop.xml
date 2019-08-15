@@ -13,27 +13,27 @@
                height="39" mode="Time" suffix=" ms" middlePosition="250" defaultValue="50"
                isPluginParameter="1" pluginParameterName="Legato Offset" processorId="legato"
                parameterId="knbOffset" text="" max="500" stepSize="1" numStrips="101"
-               filmstripImage="{PROJECT_FOLDER}2X-slider.png" mouseSensitivity="0.69999999"
+               filmstripImage="{PROJECT_FOLDER}2X-slider.png" mouseSensitivity="0.7"
                showValuePopup="Right" scaleFactor="0.5" parentComponent="pnlPage0"/>
     <Component type="ScriptSlider" id="knbXfadeIntensity" x="161" y="179" width="215"
                height="39" suffix=" %" middlePosition="50" defaultValue="90"
                isPluginParameter="1" pluginParameterName="X-Fade Intensity"
                max="100" stepSize="1" min="10" processorId="legato" parameterId="knbFadeIntensity"
                text="" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-slider.png"
-               mouseSensitivity="0.69999999" showValuePopup="Right" scaleFactor="0.5"
+               mouseSensitivity="0.7" showValuePopup="Right" scaleFactor="0.5"
                parentComponent="pnlPage0"/>
     <Component type="ScriptSlider" id="knbTransitionGain" x="161" y="259" width="215"
                height="39" middlePosition="-18" mode="Decibel" processorId="transitionGain"
                parameterId="knbGain" text="" isPluginParameter="1" pluginParameterName="Transition Gain"
                defaultValue="-6" suffix=" dB" min="-100" max="-3" stepSize="0.1"
                numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-slider.png"
-               mouseSensitivity="0.69999999" showValuePopup="Right" scaleFactor="0.5"
+               mouseSensitivity="0.7" showValuePopup="Right" scaleFactor="0.5"
                parentComponent="pnlPage0"/>
     <Component type="ScriptSlider" id="knbGlideRate" x="161" y="299" width="181"
                height="39" mode="TempoSync" max="18" stepSize="1" middlePosition="9"
                processorId="legato" parameterId="knbRate" defaultValue="9" text=""
                numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-slider_GR.png"
-               isPluginParameter="1" pluginParameterName="Glide Rate" mouseSensitivity="0.69999999"
+               isPluginParameter="1" pluginParameterName="Glide Rate" mouseSensitivity="0.7"
                showValuePopup="Right" scaleFactor="0.5" parentComponent="pnlPage0"
                enabled="0"/>
     <Component type="ScriptButton" id="btnVelocityRate" x="347" y="300" text=""
@@ -110,11 +110,10 @@
                itemColour2="3135299288" processorId="Velocity Modulator" parentComponent="pnlPage0"/>
     <Component type="ScriptLabel" id="lblParam" x="427" y="349" text="Velocity"
                alignment="left" fontName="Asap-SemiBold" fontSize="18" editable="0"
-               width="140" saveInPreset="0" parentComponent="pnlPage0"/>
+               width="140" parentComponent="pnlPage0"/>
     <Component type="ScriptLabel" id="lblVelDynamics" x="458" y="546" alignment="left"
                editable="0" text="Velocity Control" width="115" fontName="Asap-Regular"
-               height="39" saveInPreset="0" fontSize="16" parentComponent="pnlPage0"
-               visible="0"/>
+               height="39" fontSize="16" parentComponent="pnlPage0" visible="0"/>
     <Component type="ScriptButton" id="btnVelDynamics" x="434" y="554" text="Vel = Dynamics"
                processorId="velocityShaper" parameterId="btnDynamics" filmstripImage="{PROJECT_FOLDER}2X-env_button-rev.png"
                width="135" height="24" scaleFactor="0.5" isPluginParameter="1"
@@ -127,19 +126,16 @@
                visible="0"/>
     <Component type="ScriptLabel" id="lblBreathControl" x="607" y="546" alignment="left"
                editable="0" text="Breath Control" width="115" fontName="Asap-Regular"
-               height="39" saveInPreset="0" fontSize="16" parentComponent="pnlPage0"
-               visible="0"/>
+               height="39" fontSize="16" parentComponent="pnlPage0" visible="0"/>
     <Component type="ScriptLabel" id="lblVibratoPitch" x="474" y="546" alignment="left"
                editable="0" text="Pitch" width="51" fontName="Asap-Regular"
-               height="40" saveInPreset="0" fontSize="16" parentComponent="pnlPage0"
-               visible="0"/>
+               height="40" fontSize="16" parentComponent="pnlPage0" visible="0"/>
     <Component type="ScriptLabel" id="lblVibratoGain" x="572" y="546" alignment="left"
                editable="0" text="Gain" width="51" fontName="Asap-Regular" height="40"
-               saveInPreset="0" fontSize="16" parentComponent="pnlPage0" visible="0"/>
+               fontSize="16" parentComponent="pnlPage0" visible="0"/>
     <Component type="ScriptLabel" id="lblVibratoTimbre" x="670" y="546" alignment="left"
                editable="0" text="Timbre" width="51" fontName="Asap-Regular"
-               height="40" saveInPreset="0" fontSize="16" parentComponent="pnlPage0"
-               visible="0"/>
+               height="40" fontSize="16" parentComponent="pnlPage0" visible="0"/>
     <Component type="ScriptSlider" id="knbVibratoPitch" x="434" y="546" width="40"
                height="40" min="-0.5" max="0.5" middlePosition="0" processorId="vibratoPitchHandler"
                parameterId="knbPitch" text="Vibrato Pitch" suffix=" st" numStrips="101"
@@ -258,7 +254,7 @@
                height="54" text="" max="200" stepSize="0.1" suffix=" %" processorId="channel3"
                parameterId="Width" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-gold_knob_101f.png"
                defaultValue="100" showValuePopup="Above" scaleFactor="0.5" isPluginParameter="1"
-               pluginParameterName="Hall Width" parentComponent="pnlPage0"/>
+               pluginParameterName="Hall Width" parentComponent="pnlPage0" middlePosition="100"/>
     <Component type="ScriptComboBox" id="cmbOutput0" x="776" y="566" width="61"
                height="19" items="1/2" itemColour="0" bgColour="0" parentComponent="pnlPage0"
                tooltip="Close Output"/>
@@ -282,7 +278,7 @@
                isPluginParameter="1" pluginParameterName="Pitch Intensity" max="100"
                stepSize="1" min="10" processorId="legato" parameterId="knbBendIntensity"
                text="" numStrips="101" filmstripImage="{PROJECT_FOLDER}2X-slider.png"
-               mouseSensitivity="0.69999999" showValuePopup="Right" scaleFactor="0.5"
+               mouseSensitivity="0.7" showValuePopup="Right" scaleFactor="0.5"
                parentComponent="pnlPage0"/>
     <Component type="ScriptPanel" id="pnlReleases" x="11" y="368" width="390"
                height="235" itemColour="0" bgColour="0" itemColour2="0" textColour="0"
@@ -299,7 +295,7 @@
                  pluginParameterName="Release Gain"/>
       <Component type="ScriptSlider" id="knbRelDecay" x="150" y="141" parentComponent="pnlReleases"
                  processorId="releaseEnvelope" parameterId="Decay" mode="Time"
-                 max="15000" stepSize="1" suffix=" ms" middlePosition="1000" defaultValue="5000"
+                 max="15000" stepSize="1" suffix=" ms" middlePosition="8000" defaultValue="5000"
                  min="1000" text="Release Decay" isPluginParameter="1" pluginParameterName="Release Decay"
                  numStrips="101" width="215" height="39" filmstripImage="{PROJECT_FOLDER}2X-slider.png"
                  showValuePopup="Right" scaleFactor="0.5"/>
@@ -338,7 +334,7 @@
              borderSize="6" text="Settings" visible="0">
     <Component type="ScriptImage" id="imgSettingsBG" x="4" y="4" width="857"
                height="350" parentComponent="pnlPage1" fileName="{PROJECT_FOLDER}preset_browser_bg.png"
-               alpha="0.99000001"/>
+               alpha="0.99"/>
     <Component type="ScriptFloatingTile" id="fltSettings" x="6" y="6" width="853"
                height="346" parentComponent="pnlPage1" Font="Oxygen-Regular"
                FontSize="18" bgColour="4283519313" itemColour2="4294951115"
@@ -350,7 +346,7 @@
              borderSize="6" text="Preset Browser" visible="0">
     <Component type="ScriptImage" id="imgPresetBG" x="5" y="4" width="900" height="375"
                parentComponent="pnlPage2" fileName="{PROJECT_FOLDER}preset_browser_bg.png"
-               alpha="0.99000001" scale="0.5"/>
+               alpha="0.99" scale="0.5"/>
     <Component type="ScriptFloatingTile" id="fltPreset" x="4" y="4" width="901"
                height="375" ContentType="PresetBrowser" bgColour="11141120"
                itemColour="4290614137" itemColour2="16711680" Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: false,&#13;&#10;  &quot;ShowEditButtons&quot;: false,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: true,&#13;&#10;  &quot;NumColumns&quot;: 3&#13;&#10;}"
@@ -383,7 +379,7 @@
                tooltip="Next preset"/>
     <Component type="ScriptLabel" id="lblPreset" x="950" y="18" text="Concert Flute I"
                width="190" editable="0" parentComponent="pnlHeader" height="27"
-               fontSize="16" saveInPreset="0" fontName="Asap-Regular"/>
+               fontSize="16" fontName="Asap-Regular"/>
     <Component type="ScriptButton" id="btnPresetBrowser" x="953" y="20" text="Preset"
                saveInPreset="0" parentComponent="pnlHeader" width="227" height="24"
                filmstripImage="{PROJECT_FOLDER}empty.png" scaleFactor="0.5"
