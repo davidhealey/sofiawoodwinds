@@ -32,7 +32,7 @@ namespace PresetHandler
 
     //Playable range filter
     const var rangeFilter = Synth.getMidiProcessor("rangeFilter");
-        
+
     //Previous/Next preset buttons
     const var btnPreset = [];
     btnPreset[0] = Content.getComponent("btnPreset0"); //Prev
@@ -47,7 +47,7 @@ namespace PresetHandler
     for (id in samplerIds)
     {
       childSynths[id] = Synth.getChildSynth(id);
-    }   
+    }
 
     //Get array of patch names from manifest
     const var patchNames = [];
@@ -90,7 +90,7 @@ namespace PresetHandler
         //Flutter controls
         Content.getComponent("btnCC2").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter || false);
         Content.getComponent("knbFlutter").set("enabled", Manifest.patches[PresetHandler.patch].hasFlutter || false);
-        
+
         //Enable/Disable sputato
         overlayRoundRobin.setAttribute(overlayRoundRobin.btnSputato, Manifest.patches[PresetHandler.patch].hasSputato || false);
     }
@@ -104,7 +104,7 @@ namespace PresetHandler
     };
 
     Content.getComponent("btnPresetBrowser").setControlCallback(onbtnPresetBrowserControl);
-    
+
     //Functions
     inline function colourKeys(patchName)
     {
