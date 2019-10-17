@@ -3,7 +3,7 @@
 project=Sofia\ Woodwinds
 version=1.1.1
 xmlFile=sofiaWoodwinds
-workspace=/media/john/SHARED/HISEProjects/Sofia_Woodwinds
+workspace=/media/john/SHARED/HISEProjects/Woodwinds/Sofia_Woodwinds/HISE
 
 build_standalone=0
 build_plugin=1
@@ -58,7 +58,8 @@ fi
 if (($build_installer==1))
 then
   echo "Build Installer"
-
+  
+  mkdir -p "$workspace"/Installer
   cp "$workspace"/License.txt "$package"
   cp "$workspace"/Packaging/GNU/GNUInstaller.sh "$package"
 
